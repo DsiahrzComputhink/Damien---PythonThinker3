@@ -8,13 +8,13 @@ for i in range(10):
 
 
 def bubblesort(numbers):
-    for i in range(100):
-        for j in range(len(numbers) - 1):
+    n = len(numbers)
+    for i in range(n):
+        for j in range(0,):
             if numbers[j] > numbers[j+1]:
                 temp = numbers[j+1]
                 numbers[j+1] = numbers[j]
                 numbers[j] = temp
         return numbers
 
-for i in range(10):
-    print(bubblesort(numbers))
+print(bubblesort(numbers))
