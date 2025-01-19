@@ -38,7 +38,9 @@ print(fruitcost.items())
 menu = {"Cheeseburger":"$5.50","Fries":"$3.00","Milo":"$2.20",}
 
 def display_menu(menu):
+    print("--------------------")
     print("Welcome to Resturant")
+    print("--------------------")
     for item in menu:
         price = menu[item]
         print(f"{item} costs {price}")
