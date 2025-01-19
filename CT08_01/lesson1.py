@@ -9,3 +9,4 @@ fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 var = "var"
 print("This is a",var,"iable")
 print(f"this is a {var}iable")
+
