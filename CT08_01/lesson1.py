@@ -2,8 +2,8 @@ import random
 
 numbers = []
 
-for i in range(1000):
-    x = random.randint(1,10000)
+for i in range(10000):
+    x = random.randint(1,100000)
     numbers.append(x)
 
 print("Unsorted List")
