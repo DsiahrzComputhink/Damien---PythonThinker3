@@ -8,16 +8,6 @@ for i in range(10):
 
 print(numbers)
 
-# def isascending(numbers):
-#     for i in range(len(numbers) - 1):
-#         if numbers[i] > numbers[i+1]:
-#             print("false")
-#             return False
-#     print("true")
-#     return True
-
-# isascending(numbers)
-
 def bubblesort(numbers):
 
     for j in range(len(numbers) - 1):
