@@ -43,7 +43,7 @@ menu = {
 
 def display_menu(menu):
     print("--------------------")
-    print("{:^10}Welcome to Resturant{:^10}".format('*10'))
+    print("{:^10}Welcome to Resturant{:^10}".format('*'*10, '*'*10,))
     print("--------------------")
     for item in menu:
         price = menu[item]
