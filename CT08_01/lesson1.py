@@ -16,3 +16,4 @@ print(fruitcost[0]) # 100
 print(f"The price of an orange is{fruitcost["Orange"]}")
 
 fruitcost["Watermelon"] = 10.35
+print(fruitcost)
