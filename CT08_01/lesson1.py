@@ -30,4 +30,4 @@ for fruit in fruitcost:
 
 print(fruitcost.keys())
 print(fruitcost.values())
-print(fruitcost.keys())
+print(fruitcost.items())
