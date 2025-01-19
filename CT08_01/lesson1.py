@@ -3,7 +3,7 @@ import random
 numbers = []
 
 for i in range(1000):
-    x = random.randint(1,10000)
+    x = random.randint(1,1000)
     numbers.append(x)
 
 print("Unsorted List")
