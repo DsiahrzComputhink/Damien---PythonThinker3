@@ -11,7 +11,7 @@ print("This is a",var,"iable")
 print(f"this is a {var}iable")
 
 # Acessing a dictionary value
-print(fruitcost[0]) # 100
+print(fruitcost)
 
 print(f"The price of an orange is{fruitcost["Orange"]}")
 
