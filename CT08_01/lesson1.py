@@ -12,3 +12,5 @@ print(f"this is a {var}iable")
 
 # Acessing a dictionary value
 print(fruitcost[0]) # 100
+
+print()
