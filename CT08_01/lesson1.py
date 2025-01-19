@@ -19,4 +19,4 @@ print(f"The price of an orange is{fruitcost["Orange"]}")
 fruitcost["Watermelon"] = 10.35
 print(fruitcost)
 
-#
+# Deleting a item from the list
