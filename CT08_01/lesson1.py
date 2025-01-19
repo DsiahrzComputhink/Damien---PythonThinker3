@@ -21,4 +21,4 @@ print(fruitcost)
 
 # Deleting a item from the list
 del fruitcost["Apple"]
-print(f"")
+print(f"Fruit Store:")
