@@ -6,7 +6,6 @@ for i in range(10):
     x = random.randint(1,10000)
     numbers.append(x)
 
-print(numbers)
 
 def bubblesort(numbers):
     for i in range(100):
@@ -16,9 +15,7 @@ def bubblesort(numbers):
                 numbers[j+1] = numbers[j]
                 numbers[j] = temp
         return numbers
-    print("Final Result)")
-    return numbers
 
 
-for i in range(100):
+for i in (numbers):
     print(bubblesort(numbers))
