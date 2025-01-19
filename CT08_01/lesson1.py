@@ -4,6 +4,7 @@ numbers = []
 
 for i in range(10000):
     x = random.randint(1,10000)
+    x = x / 10
     numbers.append(x)
 
 print("Unsorted List")
