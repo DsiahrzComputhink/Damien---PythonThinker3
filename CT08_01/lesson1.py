@@ -1,2 +1,2 @@
 # DICTIONARY
-fruit = [apple, orange, banana]
+fruit = ["Apple","Apple","Banana"]
