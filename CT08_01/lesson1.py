@@ -14,3 +14,4 @@ print(f"this is a {var}iable")
 print(fruitcost[0]) # 100
 
 print(f"The price of an orange is{fruitcost["Orange"]}")
+
