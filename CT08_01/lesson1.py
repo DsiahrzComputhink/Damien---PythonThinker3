@@ -10,3 +10,4 @@ var = "var"
 print("This is a",var,"iable")
 print(f"this is a {var}iable")
 
+print(fruitcost[0])
