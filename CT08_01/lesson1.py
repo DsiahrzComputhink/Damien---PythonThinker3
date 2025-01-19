@@ -16,7 +16,7 @@ print(fruitcost[0]) # 100
 print(f"The price of an orange is{fruitcost["Orange"]}")
 
 # Appending a new item to a dictionary
-fruitcost["Watermelon"] = 10.35
+fruitcost["Durian"] = 24.40
 print(fruitcost)
 
 # Deleting a item from the list
