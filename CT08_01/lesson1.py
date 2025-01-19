@@ -35,4 +35,4 @@ print(fruitcost.items())
 
 # silly challenge: make a fast food restruant
 
-menu = 
+menu = {"Cheeseburger",}
