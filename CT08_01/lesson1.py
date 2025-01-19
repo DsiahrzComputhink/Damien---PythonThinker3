@@ -28,6 +28,7 @@ for fruit in fruitcost:
     price = fruitcost[fruit]
     print(f"{fruit} costs {price}")
 
+# Method 2
 print(fruitcost.keys())
 print(fruitcost.values())
 print(fruitcost.items())
