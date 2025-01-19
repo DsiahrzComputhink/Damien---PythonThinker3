@@ -35,7 +35,10 @@ print(fruitcost.items())
 
 # silly challenge: make a fast food restruant
 
-menu = {"Cheeseburger":"$5.50","Fries":"$3.00","Milo":"$2.20",}
+menu = {
+    "Cheeseburger":"$5.50",
+    "Fries":"$3.00","Milo":"$2.20",
+    }
 
 def display_menu(menu):
     print("--------------------")
