@@ -26,4 +26,4 @@ print(f"Fruit Store:{fruitcost}")
 # Iterating through a dictionary
 for fruit in fruitcost:
     price = fruitcost[fruit]
-    
+    print(f"")
