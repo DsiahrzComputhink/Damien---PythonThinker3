@@ -15,6 +15,7 @@ import random
 
 #------------------
 # LESSON 2
+# ALGORITHMS
 numbers = []
 
 for i in range(1000):
