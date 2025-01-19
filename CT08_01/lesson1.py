@@ -43,3 +43,5 @@ def display_menu(menu):
         price = menu[item]
         print(f"{item} costs {price}")
     
+
+display_menu(menu)
