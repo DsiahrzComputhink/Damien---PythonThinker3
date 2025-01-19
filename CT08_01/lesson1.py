@@ -28,3 +28,4 @@ for fruit in fruitcost:
     price = fruitcost[fruit]
     print(f"{fruit} costs {price}")
 
+print()
