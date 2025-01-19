@@ -22,3 +22,5 @@ print(fruitcost)
 # Deleting a item from the list
 del fruitcost["Apple"]
 print(f"Fruit Store:{fruitcost}")
+
+#Excer
