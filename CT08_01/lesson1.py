@@ -20,3 +20,4 @@ fruitcost["Watermelon"] = 10.35
 print(fruitcost)
 
 # Deleting a item from the list
+del fruitcost["Apple"]
