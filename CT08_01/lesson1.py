@@ -33,4 +33,5 @@ print(fruitcost.keys())
 print(fruitcost.values())
 print(fruitcost.items())
 
-# 
+# silly challenge: make a dictionary
+
