@@ -13,7 +13,7 @@ print(f"this is a {var}iable")
 # Acessing a dictionary value
 print(fruitcost)
 
-print(f"The price of an orange is{fruitcost["Orange"]}")
+print(f"The price of an orange is {fruitcost["Orange"]}")
 
 # Appending a new item to a dictionary
 fruitcost["Durian"] = 24.40
