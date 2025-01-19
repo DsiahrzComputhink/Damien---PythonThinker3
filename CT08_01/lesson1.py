@@ -2,7 +2,7 @@ import random
 
 numbers = []
 
-for i in range(10):
+for i in range(1000):
     x = random.randint(1,10000)
     numbers.append(x)
 
