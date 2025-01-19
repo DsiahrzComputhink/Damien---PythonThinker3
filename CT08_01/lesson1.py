@@ -16,8 +16,9 @@ def bubblesort(numbers):
                 numbers[j+1] = numbers[j]
                 numbers[j] = temp
         return numbers
-    print("Final Result")
+    print("Final Result)")
     return numbers
 
 
-print(bubblesort(numbers))
+for i in range(100):
+    print(bubblesort(numbers))
