@@ -23,4 +23,4 @@ print(fruitcost)
 del fruitcost["Apple"]
 print(f"Fruit Store:{fruitcost}")
 
-#Excer
+# Iterating through a dictionary
