@@ -45,7 +45,9 @@ def display_menu(menu):
         price = menu[item]
         print(f"{item} costs {price}")
     print("--------------------")
-    
+    #-- ask what to order
+    print("What would you like to order?")
+    input("")
     
 
 
