@@ -16,6 +16,5 @@ def bubblesort(numbers):
                 numbers[j] = temp
         return numbers
 
-
-for i in (numbers):
+for i in range(10):
     print(bubblesort(numbers))
