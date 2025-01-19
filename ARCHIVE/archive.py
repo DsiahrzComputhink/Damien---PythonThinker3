@@ -1,3 +1,4 @@
+# LESSON 1
 import random
 numbers = [5, 4, 3, 2, 1]
 
@@ -12,7 +13,8 @@ isascending(numbers)
 
 import random
 
--
+#------------------
+# LESSON 2
 numbers = []
 
 for i in range(1000):
