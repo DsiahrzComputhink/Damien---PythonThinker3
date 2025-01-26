@@ -60,6 +60,7 @@ no = {
     "nah",
     "not",
     "negative",
+    "not yet",
 }
 
 
