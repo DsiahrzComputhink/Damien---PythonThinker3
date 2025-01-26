@@ -15,7 +15,7 @@ def display_menu(menu):
     print("---------------------------------")
     #-- ask what to order
     print("What would you like to order?")
-    while True
+    while True:
         ordered = input("")
     
 
