@@ -62,6 +62,7 @@ no = {
     "not",
     "negative",
     "not yet",
+    "thats all",
 }
 
 
@@ -77,7 +78,7 @@ def display_menu(menu, ordered):
         print("{:20}:     ${:^8.2f}".format(food, price))
 
     print("---------------------------------")
-    print("Type 'Thats all' to stop ordering")
+    print("Type 'Tats all' to stop orderingh")
 
     stop = 0
     itemordered = 0
