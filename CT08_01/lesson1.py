@@ -54,10 +54,10 @@ def display_menu(menu, ordered):
     print("What would you like to order?")
     order = input("")
 
-    #Self correcting
+    #Self correction
     order = order.capitalize()
     print(order)
-    
+
     if order in menu:
         print(f"{order} has been added to your order")
         ordered[order] = menu[order]
