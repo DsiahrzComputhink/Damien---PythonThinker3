@@ -110,14 +110,13 @@ def display_menu(menu, ordered):
                     print("Ok, your total will be")
                 elif answer in no:
                     print("Ok,")
-
-
-        if order in menu:
+                if order in menu:
             print(f"{order} has been added to your order")
             ordered[order] = menu[order]
         else:
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
+
 
 
 
