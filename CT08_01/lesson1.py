@@ -55,7 +55,9 @@ def display_menu(menu, ordered):
     order = input("")
 
     #Self correcting
+    print(order)
     order = order.lower()
+    print(order)
     order[1] = order[1].upper()
 
     if order in menu:
