@@ -85,12 +85,6 @@ def display_menu(menu, ordered):
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
 
-        if order == "Thats all":
-            if ordered == {}:
-                print("LIST EMPTY")
-            else:
-                print(ordered)
-
 
 
 display_menu(menu, ordered)
