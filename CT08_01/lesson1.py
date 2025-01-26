@@ -61,4 +61,4 @@ def display_menu(order, menu, ordered):
     return ordered
 
 
-display_menu(menu)
+display_menu(menu, ordered)
