@@ -39,7 +39,7 @@ menu = {
     "Cheeseburger":5.50,
     "Hamburger":5.30,
     "Fries":3.00,
-    "Cheese Fries":4.80,
+    "Cheese fries":4.80,
     "Milo":2.20,
     }
 
