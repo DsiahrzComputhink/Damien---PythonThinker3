@@ -86,7 +86,7 @@ def display_menu(menu, ordered):
                 print("-------------Order---------------")
 
                 for food, price in menu.items():
-                print("{:20}:     ${:^8.2f}".format(food, price))
+                    print("{:20}:     ${:^8.2f}".format(food, price))
 
                 print("---------------------------------")
 
