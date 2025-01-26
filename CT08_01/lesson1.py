@@ -83,8 +83,13 @@ def display_menu(menu, ordered):
                 print("ok bro.")
                 stop = 1
             else:
-                print(ordered)
-                
+                print("-------------Order---------------")
+
+                for food, price in menu.items():
+                print("{:20}:     ${:^8.2f}".format(food, price))
+
+                print("---------------------------------")
+
 
         if order in menu:
             print(f"{order} has been added to your order")
