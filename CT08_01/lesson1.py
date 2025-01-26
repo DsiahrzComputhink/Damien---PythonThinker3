@@ -100,7 +100,7 @@ def display_menu(menu, ordered):
         order = order.capitalize()
 
         # if order
-        if order == "Thats all":
+        if order in no:
             if ordered == {}:
                 # anger
                 print("'ok bro.'")
