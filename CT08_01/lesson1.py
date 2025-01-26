@@ -88,11 +88,11 @@ def display_menu(menu, ordered):
     while stop == 0:
     # ask what to order
         if itemordered == 0:
-            print("What would you like to order?")
+            print("What would you like to order?'")
             order = input("")
 
         else:
-            print("Anything else you like to order?")
+            print("'Anything else you like to order?'")
             order = input("")
 
         #Self correction
@@ -102,7 +102,7 @@ def display_menu(menu, ordered):
         if order == "Thats all":
             if ordered == {}:
                 # anger
-                print("ok bro.")
+                print("'ok bro.'")
                 stop = 1
             else:
                 print("-------------Order---------------")
@@ -111,11 +111,11 @@ def display_menu(menu, ordered):
                     print("{:20}:     ${:^8.2f}".format(food, price))
 
                 print("---------------------------------")
-                print("Would that be all?")
+                print("'Would that be all?'")
                 answer = input("")
                 answer = answer.lower()
                 if answer in yes:
-                    print("Ok, your total will be")
+                    print("'Ok, your total will be'")
                     for food, price in ordered.items():
                         print(total)
                         total += price
