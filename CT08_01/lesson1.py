@@ -106,6 +106,8 @@ def display_menu(menu, ordered):
                 print("---------------------------------")
                 print("Would that be all?")
                 answer = input("")
+                if answer in yes:
+                    print("Ok")
 
 
         if order in menu:
