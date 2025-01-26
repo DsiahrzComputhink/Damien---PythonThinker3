@@ -61,7 +61,7 @@ def display_menu(menu, ordered):
     stop = 0
     itemordered = 0
     # variables
-    
+
     while stop == 0:
     # ask what to order
         if itemordered == 0:
@@ -85,4 +85,6 @@ def display_menu(menu, ordered):
             return ordered
 
 
-    display_menu(menu, ordered)
+
+
+display_menu(menu, ordered)
