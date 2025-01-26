@@ -89,6 +89,7 @@ def display_menu(menu, ordered):
 
                 print("---------------------------------")
                 print("Would that be all?")
+                
 
 
         if order in menu:
