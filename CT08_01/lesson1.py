@@ -73,7 +73,8 @@ def display_menu(menu, ordered):
 
             print("Anything else you like to order?")
             order = input("")
-            #Self correction
+            
+        #Self correction
         order = order.capitalize()
         print(order)
 
