@@ -86,7 +86,10 @@ def display_menu(menu, ordered):
         itemordered = 1
 
         if order == "Thats all":
-            if ordered == {}
+            if ordered == {}:
+                print("LIST EMPTY")
+            else:
+                print(ordered)
 
 
 
