@@ -78,6 +78,12 @@ def display_menu(menu, ordered):
         order = order.capitalize()
         print(order)
 
+        if order == "Thats all":
+            if ordered == {}:
+                print("LIST EMPTY")
+            else:
+                print(ordered)
+
         if order in menu:
             print(f"{order} has been added to your order")
             ordered[order] = menu[order]
