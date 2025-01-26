@@ -15,10 +15,11 @@ def display_menu(menu):
     print("---------------------------------")
     #-- ask what to order
     print("What would you like to order?")
-    input("")
+    while True
+        ordered = input("")
     
 
 
-    
+
 
 display_menu(menu)
