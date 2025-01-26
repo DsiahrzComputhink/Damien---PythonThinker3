@@ -62,6 +62,7 @@ def display_menu(menu, ordered):
     itemordered = 0
     # variables
 
+    #
     while stop == 0:
     # ask what to order
         if itemordered == 0:
