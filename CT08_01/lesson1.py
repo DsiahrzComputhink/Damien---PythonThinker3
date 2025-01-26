@@ -51,6 +51,12 @@ yes = {
     "yass",
 }
 
+no = {
+    "nuh uh"
+    "yes'nt"
+    "no"
+    "nah"
+}
 def display_menu(menu, ordered):
     # Display Menu
 
