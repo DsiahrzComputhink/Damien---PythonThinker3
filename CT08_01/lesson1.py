@@ -49,6 +49,7 @@ yes = {
     "yes",
     "ye",
     "yass",
+    "positive"
 }
 
 no = {
@@ -56,7 +57,8 @@ no = {
     "yes'nt",
     "no",
     "nah",
-    "not"
+    "not",
+    "negative",
 }
 def display_menu(menu, ordered):
     # Display Menu
