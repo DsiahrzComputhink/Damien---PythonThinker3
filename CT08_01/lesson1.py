@@ -55,10 +55,7 @@ def display_menu(menu, ordered):
     order = input("")
 
     #Self correcting
-    order = order.lower()
-    print(order)
-    order[1] = "e"
-    print(order)
+    order = order.capitalize()
 
     if order in menu:
         print(f"{order} has been added to your order")
