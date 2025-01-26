@@ -89,6 +89,7 @@ def display_menu(menu, ordered):
                     print("{:20}:     ${:^8.2f}".format(food, price))
 
                 print("---------------------------------")
+                print("Would that be all?")
 
 
         if order in menu:
