@@ -59,21 +59,25 @@ def display_menu(menu, ordered):
     print("---------------------------------")
 
     # ask what to order
+    itemordered = 0
+    # itemordered is just for dialouge
 
-
-    print("What would you like to order?")
-    order = input("")
-
-    #Self correction
-    order = order.capitalize()
-    print(order)
-
-    if order in menu:
-        print(f"{order} has been added to your order")
-        ordered[order] = menu[order]
+    if itemordered == 0:
+        print("What would you like to order?")
+        order = input("")
     else:
-        print(f"Sorry, we dont sell {order}")
-    return ordered
+        print("What would you like to order?")
+        order = input("")
+        #Self correction
+        order = order.capitalize()
+        print(order)
+
+        if order in menu:
+            print(f"{order} has been added to your order")
+            ordered[order] = menu[order]
+        else:
+            print(f"Sorry, we dont sell {order}")
+        return ordered
 
 
-display_menu(menu, ordered)
+    display_menu(menu, ordered)
