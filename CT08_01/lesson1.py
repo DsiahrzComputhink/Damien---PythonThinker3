@@ -1,4 +1,3 @@
-
 menu = {
     "Cheeseburger":"$5.50",
     "Fries":"$3.00",
