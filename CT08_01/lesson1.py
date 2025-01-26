@@ -114,8 +114,8 @@ def display_menu(menu, ordered):
                     print("Ok, your total will be")
                     for food, price in ordered.items():
                         price += total
-                    print(total)
-                    
+                    print(f"${total}")
+
                 elif answer in no:
                     print("Ok,")
 
