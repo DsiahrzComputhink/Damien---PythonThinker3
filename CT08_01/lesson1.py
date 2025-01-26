@@ -61,6 +61,7 @@ no = {
     "negative",
 }
 
+
 def display_menu(menu, ordered):
     # Display Menu
 
