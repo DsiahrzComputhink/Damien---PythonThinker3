@@ -56,7 +56,8 @@ def display_menu(menu, ordered):
 
     #Self correcting
     order = order.capitalize()
-
+    print(order)
+    
     if order in menu:
         print(f"{order} has been added to your order")
         ordered[order] = menu[order]
