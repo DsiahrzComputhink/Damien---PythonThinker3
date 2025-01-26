@@ -55,7 +55,9 @@ def display_menu(menu, ordered):
     # Format
     for food, price in menu.items():
         print("{:20}:     ${:^8.2f}".format(food, price))
+
     print("---------------------------------")
+    
     #-- ask what to order
     print("What would you like to order?")
     order = input("")
