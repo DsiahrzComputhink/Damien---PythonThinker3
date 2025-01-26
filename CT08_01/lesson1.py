@@ -89,7 +89,7 @@ def display_menu(menu, ordered):
 
                 print("---------------------------------")
                 print("Would that be all?")
-                
+                answer = input("")
 
 
         if order in menu:
