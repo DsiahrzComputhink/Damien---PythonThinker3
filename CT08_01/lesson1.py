@@ -78,7 +78,7 @@ def display_menu(menu, ordered):
         print("{:20}:     ${:^8.2f}".format(food, price))
 
     print("---------------------------------")
-    print("ask us to stop ordering if you're done.")
+    print("Type in 'Thats all' to stop ordering.")
 
     stop = 0
     itemordered = 0
