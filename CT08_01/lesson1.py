@@ -61,7 +61,6 @@ no = {
     "negative",
 }
 
-total = 0
 
 def display_menu(menu, ordered):
     # Display Menu
@@ -79,6 +78,7 @@ def display_menu(menu, ordered):
 
     stop = 0
     itemordered = 0
+    total = 0
     # variables
 
     # WHILE LOOP
