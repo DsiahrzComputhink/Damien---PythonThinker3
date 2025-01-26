@@ -48,7 +48,7 @@ ordered = {}
 yes = {
     "yes",
     "ye",
-    ""
+    "yass",
 }
 
 def display_menu(menu, ordered):
