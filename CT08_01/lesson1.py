@@ -51,6 +51,7 @@ yes = {
     "yass",
     "positive",
     "thats all",
+    "put the fries in the bag lil bro",
 }
 
 no = {
