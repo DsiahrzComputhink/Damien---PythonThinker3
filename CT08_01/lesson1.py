@@ -53,6 +53,7 @@ def display_menu(menu, ordered):
     #-- ask what to order
     print("What would you like to order?")
     order = input("")
+    
     order = order.lower()
     menu = menu.lower()
     if order in menu:
