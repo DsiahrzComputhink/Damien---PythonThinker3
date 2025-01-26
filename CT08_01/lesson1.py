@@ -49,7 +49,8 @@ yes = {
     "yes",
     "ye",
     "yass",
-    "positive"
+    "positive",
+    "thats all",
 }
 
 no = {
