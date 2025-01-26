@@ -70,7 +70,7 @@ def display_menu(menu, ordered):
             order = input("")
 
         else:
-
+            
             print("Anything else you like to order?")
             order = input("")
             #Self correction
