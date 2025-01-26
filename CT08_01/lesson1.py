@@ -76,7 +76,6 @@ def display_menu(menu, ordered):
 
         #Self correction
         order = order.capitalize()
-        print(order)
 
         if order == "Thats all":
             if ordered == {}:
