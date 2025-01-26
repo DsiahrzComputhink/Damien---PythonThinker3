@@ -63,10 +63,13 @@ def display_menu(menu, ordered):
     # itemordered is just for dialouge
 
     if itemordered == 0:
+
         print("What would you like to order?")
         order = input("")
+
     else:
-        print("What would you like to order?")
+        
+        print("Anything else you like to order?")
         order = input("")
         #Self correction
         order = order.capitalize()
