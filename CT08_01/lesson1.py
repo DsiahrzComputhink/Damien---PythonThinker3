@@ -104,7 +104,7 @@ def display_menu(menu, ordered):
             else:
                 print("-------------Order---------------")
 
-                for food, price in menu.items():
+                for food, price in ordered.items():
                     print("{:20}:     ${:^8.2f}".format(food, price))
 
                 print("---------------------------------")
