@@ -70,19 +70,19 @@ def display_menu(menu, ordered):
             order = input("")
 
         else:
-            
+
             print("Anything else you like to order?")
             order = input("")
             #Self correction
-            order = order.capitalize()
-            print(order)
+        order = order.capitalize()
+        print(order)
 
-            if order in menu:
-                print(f"{order} has been added to your order")
-                ordered[order] = menu[order]
-            else:
-                print(f"Sorry, we dont sell {order}")
-            return ordered
+        if order in menu:
+            print(f"{order} has been added to your order")
+            ordered[order] = menu[order]
+        else:
+            print(f"Sorry, we dont sell {order}")
+        return ordered
 
 
 
