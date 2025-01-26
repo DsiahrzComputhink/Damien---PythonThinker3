@@ -88,7 +88,7 @@ def display_menu(menu, ordered):
     while stop == 0:
     # ask what to order
         if itemordered == 0:
-            print("What would you like to order?'")
+            print("'What would you like to order?'")
             order = input("")
 
         else:
