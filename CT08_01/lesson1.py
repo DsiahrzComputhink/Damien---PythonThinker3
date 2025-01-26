@@ -82,9 +82,8 @@ def display_menu(menu, ordered):
             ordered[order] = menu[order]
         else:
             print(f"Sorry, we dont sell {order}")
-        print(itemordered)
         itemordered == 1
-
+        print(itemordered)
 
 
 
