@@ -43,7 +43,7 @@ menu = {
 
 ordered = {}
 
-def display_menu(order, menu, ordered):
+def display_menu(menu, ordered):
     print("---------------------------------")
     print("{:^10}Welcome to Resturant{:^10}".format('*'*10, '*'*10,))
     print("--------------Menu---------------")
