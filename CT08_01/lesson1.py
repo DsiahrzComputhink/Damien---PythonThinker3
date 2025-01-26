@@ -93,7 +93,7 @@ def display_menu(menu, ordered):
         #Self correction
         order = order.capitalize()
 
-
+        # if order
         if order == "Thats all":
             if ordered == {}:
                 # anger
