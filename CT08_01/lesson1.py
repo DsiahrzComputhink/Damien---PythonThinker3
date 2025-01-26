@@ -46,9 +46,12 @@ menu = {
 ordered = {}
 
 def display_menu(menu, ordered):
+    # Display Menu
+
     print("---------------------------------")
     print("{:^10}Welcome to Resturant{:^10}".format('*'*10, '*'*10,))
     print("--------------Menu---------------")
+    #
     for food, price in menu.items():
         print("{:20}:     ${:^8.2f}".format(food, price))
     print("---------------------------------")
