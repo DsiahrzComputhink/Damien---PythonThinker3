@@ -58,7 +58,9 @@ def display_menu(menu, ordered):
 
     print("---------------------------------")
 
-    #-- ask what to order
+    # ask what to order
+
+
     print("What would you like to order?")
     order = input("")
 
