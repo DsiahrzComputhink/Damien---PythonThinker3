@@ -80,9 +80,11 @@ def display_menu(menu, ordered):
 
         if order == "Thats all":
             if ordered == {}:
-                print("ok bro")
+                print("ok bro.")
+                stop = 1
             else:
                 print(ordered)
+                
 
         if order in menu:
             print(f"{order} has been added to your order")
