@@ -65,15 +65,13 @@ def display_menu(menu, ordered):
     while stop == 0:
     # ask what to order
         if itemordered == 0:
-
             print("What would you like to order?")
             order = input("")
 
         else:
-
             print("Anything else you like to order?")
             order = input("")
-            
+
         #Self correction
         order = order.capitalize()
         print(order)
