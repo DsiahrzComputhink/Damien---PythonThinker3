@@ -53,9 +53,8 @@ def display_menu(menu, ordered):
     #-- ask what to order
     print("What would you like to order?")
     order = input("")
-    
+
     order = order.lower()
-    menu = menu.lower()
     if order in menu:
         print(f"{order} has been added to your order")
         ordered[order] = menu[order]
