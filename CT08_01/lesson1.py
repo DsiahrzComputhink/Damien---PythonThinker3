@@ -55,9 +55,9 @@ def display_menu(menu, ordered):
     order = input("")
 
     #Self correcting
-    print(order)
     order = order.lower()
     print(order)
+    order[1]
 
     if order in menu:
         print(f"{order} has been added to your order")
