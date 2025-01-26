@@ -59,7 +59,8 @@ def display_menu(menu, ordered):
     print("---------------------------------")
 
     stop = 0
-        itemordered = 0
+    itemordered = 0
+    # variables
     
     while stop == 0:
     # ask what to order
