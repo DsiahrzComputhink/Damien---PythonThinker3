@@ -52,10 +52,11 @@ yes = {
 }
 
 no = {
-    "nuh uh"
-    "yes'nt"
-    "no"
-    "nah"
+    "nuh uh",
+    "yes'nt",
+    "no",
+    "nah",
+    "not"
 }
 def display_menu(menu, ordered):
     # Display Menu
