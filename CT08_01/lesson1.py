@@ -4,6 +4,8 @@ menu = {
     "Milo":"$2.20",
     }
 
+ordered = {}
+
 def display_menu(menu):
     print("---------------------------------")
     print("{:^10}Welcome to Resturant{:^10}".format('*'*10, '*'*10,))
