@@ -59,10 +59,10 @@ def display_menu(menu, ordered):
     print("---------------------------------")
 
     stop = 0
-
+        itemordered = 0
+    
     while stop == 0:
     # ask what to order
-
         if itemordered == 0:
 
             print("What would you like to order?")
