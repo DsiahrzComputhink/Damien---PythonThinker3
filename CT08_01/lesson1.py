@@ -109,7 +109,7 @@ def display_menu(menu, ordered):
                 if answer in yes:
                     print("Ok, your total will be")
                 elif answer in no:
-                    print("")
+                    print("Ok,")
 
 
         if order in menu:
