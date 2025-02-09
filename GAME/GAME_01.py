@@ -56,10 +56,10 @@ menu_text = f"""
 {style.bgray}--------------------------------------------{style.RESET}
 """
 
-print(menu_text)  # Display the menu
-
 stop = False
 # The Game
+
+print(menu_text)
 while not stop:
 
     print("Waiting for command input...")
