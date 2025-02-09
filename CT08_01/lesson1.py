@@ -41,3 +41,5 @@ def calculate_area(length, width):
 def caculate_peri(length, width):
     return length*width
 
+length = 6
+width = 4
