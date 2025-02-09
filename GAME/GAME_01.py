@@ -67,7 +67,7 @@ while not stop:
 
         guessed_password = ""
         for target_index, target_char in enumerate(password_string):
-            print(style.bred + "" + style.RESET)
+            print(style.bred + "Accessing Password..." + style.RESET)
             time.sleep(1)
             print(style.bred + "Bypassing firewall..." + style.RESET)
             time.sleep(1)
