@@ -130,7 +130,7 @@ def display_menu(menu, ordered):
 
         elif order in menu:
             print(f"{order} has been added to your order")
-            ordered[order] = menu[order]
+            ordered[order] += 1
         else:
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
