@@ -30,5 +30,11 @@ class style():
     RESET = '\033[0m'
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
+import random
 
-dictionary{}
+PASSWORDLENGTH = random.randint(1, 50)
+print(PASSWORDLENGTH)
+
+RandomPassword = {
+    "1": ,
+}
