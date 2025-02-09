@@ -41,8 +41,8 @@ RdmPassword = {
 
 import string
 
-Words = list(string.ascii_letters)  # Creates a list with 'A' to 'Z' and 'a' to 'z'
-print(Words)
+words = list(string.ascii_letters)  # Creates a list with 'A' to 'Z' and 'a' to 'z'
+print(words)
 
 # Generating Password
 inte1 = 1
