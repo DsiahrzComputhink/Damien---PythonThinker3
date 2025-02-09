@@ -39,6 +39,9 @@ RdmPassword = {
     "1": "4",
 }
 
+Words = {
+    
+}
 # Generating Password
 inte1 = 1
 inte2 = random.randint(0,9)
