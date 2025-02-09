@@ -2,7 +2,8 @@ class style():
     # d = DARK
     # b = BRIGHT
 
-    #bg
+    #bg-d = BACKGROUND DARK
+    #bg-b = BACKGROUND BRIGHT
     dBLACK = '\033[30m'
     dRED = '\033[31m'
     dGREEN = '\033[32m'
