@@ -162,7 +162,7 @@ def display_menu(menu, ordered):
                     else:
                         print("Ok")
                 else:
-                    print("Alright, the price of",style.bc + {order} + style.RESET)
+                    print("Alright, the price of",style.bBLUE + {order} + style.RESET)
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
