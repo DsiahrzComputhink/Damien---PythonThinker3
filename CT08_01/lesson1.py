@@ -22,8 +22,8 @@ class style():
 test1 = "ONE"
 test2 = "TWO"
 
-print(style.RED + "RED TEXT" + style.RESET)
-print(style.GREEN + "GREEN TEXT" + style.RESET)
+print(style.bCYAN + "RED TEXT" + style.RESET)
+print(style.bGREEN + "GREEN TEXT" + style.RESET)
 
 
 # --- The thing above is just for decorative stuff, it is not to concern with the code - Dsiahrz
