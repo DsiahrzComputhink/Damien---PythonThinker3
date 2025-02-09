@@ -39,6 +39,7 @@ RdmPassword = {
     "1": "4",
 }
 
+# Generating Password
 inte1 = 1
 inte2 = random.randint(0,9)
 # Appending a new item to a dictionary
