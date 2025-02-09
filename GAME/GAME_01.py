@@ -52,7 +52,7 @@ while stop == 0:
     print(style.bgray + LINE + style.RESET)
     print(style.bred + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
     print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
-    print(style.bblue + "{:30} hi {:^8.2f}".format(' '*10, '') + style.RESET)
+    print(style.bblue + "{:30} hi {:^8.2f}".format(' '*10, ' '*10,) + style.RESET)
 
     print(LINE)
     print("For any purchase",style.bGREEN + "more than" + style.RESET, style.bCYAN + "$20.00" + style.RESET,",")
