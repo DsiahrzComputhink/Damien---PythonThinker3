@@ -39,4 +39,4 @@ RandomPassword = {
     "1": "4",
 }
 
-print
+print(f"The price of an orange is {ran["1"]}")
