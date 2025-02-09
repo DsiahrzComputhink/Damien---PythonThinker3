@@ -134,8 +134,10 @@ def display_menu(menu, ordered):
                         print(total)
                         total += price
                     print("{:^8.2f}".format(total))
+                    print(style.bCYAN + "$20.00" + style.RESET)
                     if total > 20:
                         print("Oh wait, your total is more than",style.bCYAN + "$20.00" + style.RESET,"!")
+                        print("So your total will be")
 
 
                 elif answer in no:
