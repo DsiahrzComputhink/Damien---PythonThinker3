@@ -1,9 +1,6 @@
 class style():
     # d = DARK
     # b = BRIGHT
-
-    #bg-d = BACKGROUND DARK
-    #bg-b = BACKGROUND BRIGHT
     dBLACK = '\033[30m'
     dRED = '\033[31m'
     dGREEN = '\033[32m'
@@ -23,6 +20,7 @@ class style():
     bWHITE = '\033[97m'
 
     # BACKGROUNDS
+    #bgd = BACKGROUND BACK
     bgdBLACK = '\033[30m'
     bgdRED = '\033[31m'
     bgdGREEN = '\033[32m'
