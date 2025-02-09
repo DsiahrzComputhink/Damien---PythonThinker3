@@ -51,5 +51,5 @@ while stop == 0:
     LINE = "--------------------------------------------"
     print(style.bblue + "Type in command to start" + style.RESET)
     print(style.bgray + LINE + style.RESET)
-    print(style.bblue + "steal." + style.RESET)
+    print(style.bgray + "steal." + style.RESET)
     cmd = input("")
