@@ -119,6 +119,10 @@ def display_menu(menu, ordered):
                 print(style.dRED + "'Ok bro.'" + style.RESET)
                 stop = 1
             else:
+                print(style.bCYAN + "---------------------------------" + style.RESET)
+                for food, price in ordered.items():
+                    print(style.bCYAN + "{:20}Qnty:    {:^8.0f}".format(food, price) + style.RESET)
+                print(style.bCYAN + "---------------------------------" + style.RESET)
                 print("'Would that be all?'")
                 answer = input("")
                 answer = answer.lower()
