@@ -84,3 +84,4 @@ while not stop:
 
         print("\n" + style.bgreen + f"Password Cracked! → {guessed_password}" + style.RESET)
         stop = True  # Stop loop after success
+    if 
