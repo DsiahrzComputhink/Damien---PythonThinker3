@@ -39,4 +39,4 @@ RdmPassword = {
     "1": "4",
 }
 inte = 1
-print(f"The price of an orange is {RdmPassword[f]}")
+print(f"The price of an orange is {RdmPassword[f"{inte}"]}")
