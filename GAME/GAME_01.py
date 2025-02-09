@@ -6,7 +6,9 @@ class style:
     ITALIC = '\033[3m'
     UNDERLINE = '\033[4m'
     CANCEL = '\033[9m'
-    bgbwhite = '\033[7m'
+
+    backgroundwhite = '\033[7m'
+
     black = '\033[8m'
     bgray = '\033[30m'
     dred = '\033[31m'
