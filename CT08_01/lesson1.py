@@ -22,7 +22,7 @@ class style():
     # BACKGROUNDS
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
-    bgdBLACK = '\033[30m'
+    BLACK = '\033[30m'
     bgdRED = '\033[31m'
     bgdGREEN = '\033[32m'
     bgdYELLOW = '\033[33m'
@@ -31,14 +31,14 @@ class style():
     bgdCYAN = '\033[36m'
     bgdWHITE = '\033[37m'
 
-    bgbBLACK = '\033[9100m'
-    bgbRED = '\033[101m'
-    bgbGREEN = '\033[102m'
-    bgbYELLOW = '\033[103m'
-    bgbBLUE = '\033[104m'
-    bgbPURPLE = '\033[105m'
-    bgbCYAN = '\033[106m'
-    bgbWHITE = '\033[107m'
+    bgbBLACK = '\033[90m'
+    bgbRED = '\033[91m'
+    bgbGREEN = '\033[92m'
+    bgbYELLOW = '\033[93m'
+    bgbBLUE = '\033[94m'
+    bgbPURPLE = '\033[95m'
+    bgbCYAN = '\033[96m'
+    bgbWHITE = '\033[97m'
 
     RESET = '\033[0m'
 
