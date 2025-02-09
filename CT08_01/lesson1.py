@@ -139,6 +139,9 @@ def display_menu(menu, ordered):
                         print("Oh wait, your total is more than",style.bCYAN + "$20.00" + style.RESET,"!")
                         print("So your total will be")
                         print(style.bYELLOW + "${:^8.2f}".format(total) + style.RESET)
+                        stop = 1
+                    else:
+                        stop = 1
 
 
                 elif answer in no:
