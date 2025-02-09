@@ -60,3 +60,34 @@ while stop == 0:
 
     print("Waiting for command input...")
     cmd = input("")
+
+# The Game
+while not stop:
+    LINE = "--------------------------------------------"
+    print(style.bgray + LINE + style.RESET)
+    print(style.bred + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
+    print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
+
+    # COMMANDS
+    print(" ", style.bblue + "bruteforce.password" + style.RESET, ".", style.bblue + "[CRACK PASSWORD]" + style.RESET, "{:^10}".format(' '*10, ' '*10,))
+
+    print(style.bgray + LINE + style.RESET)
+    print("Waiting for command input...")
+
+    cmd = input("").strip().lower()
+
+    if cmd == "bruteforce.password":
+        print(style.bred + "Starting brute force attack..." + style.RESET)
+
+        guessed_password = ""
+        for target_index, target_char in enumerate(password_string):
+            for attempt in words:
+                print(style.dcyan + f"Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
+                time.sleep(0.02)  # Simulate brute force delay
+                
+                if attempt == target_char:
+                    guessed_password += attempt
+                    break  # Move to the next letter
+
+        print("\n" + style.bgreen + f"Password Cracked! → {guessed_password}" + style.RESET)
+        stop = True  # Stop loop after success
