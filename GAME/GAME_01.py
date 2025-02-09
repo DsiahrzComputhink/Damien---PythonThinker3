@@ -41,7 +41,7 @@ RdmPassword = {
 
 
 # Appending a new item to a dictionary
-fruitcost["Durian"] = inte2
+fruitcost[f"{inte1}"] = inte2
 print(fruitcost)
 
 inte = 1
