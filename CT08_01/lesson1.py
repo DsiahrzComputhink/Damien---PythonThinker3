@@ -20,7 +20,8 @@ class style():
     bWHITE = '\033[97m'
 
     # BACKGROUNDS
-    #bgd = BACKGROUND BACK
+    #bgd = BACKGROUND DARK
+    #bgb = BACKGROUND BRIGHT
     bgdBLACK = '\033[30m'
     bgdRED = '\033[31m'
     bgdGREEN = '\033[32m'
