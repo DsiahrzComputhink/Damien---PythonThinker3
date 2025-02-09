@@ -26,7 +26,7 @@ class style:
     bcyan = '\033[96m'
     bwhite = '\033[97m'
 
-    reset = '\033[0m'
+    RESET = '\033[0m'
 
 # Define characters
 words = [
