@@ -142,6 +142,7 @@ def display_menu(menu, ordered):
                         stop = 1
                     else:
                         stop = 1
+                        break
 
 
                 elif answer in no:
