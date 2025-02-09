@@ -23,14 +23,14 @@ class style():
     bWHITE = '\033[97m'
 
     # BACKGROUNDS
-    bdBLACK = '\033[30m'
-    dRED = '\033[31m'
-    dGREEN = '\033[32m'
-    dYELLOW = '\033[33m'
-    dBLUE = '\033[34m'
-    dPURPLE = '\033[35m'
-    dCYAN = '\033[36m'
-    dWHITE = '\033[37m'
+    bgdBLACK = '\033[30m'
+    bgdRED = '\033[31m'
+    bgdGREEN = '\033[32m'
+    bgdYELLOW = '\033[33m'
+    bgdBLUE = '\033[34m'
+    bgdPURPLE = '\033[35m'
+    bgdCYAN = '\033[36m'
+    bgdWHITE = '\033[37m'
 
     bBLACK = '\033[90m'
     bRED = '\033[91m'
