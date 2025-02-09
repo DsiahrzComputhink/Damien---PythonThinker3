@@ -7,8 +7,6 @@ class style:
     UNDERLINE = '\033[4m'
     CANCEL = '\033[9m'
 
-    backgroundwhite = '\033[7m'
-
     black = '\033[8m'
     bgray = '\033[30m'
     dred = '\033[31m'
@@ -26,6 +24,7 @@ class style:
     bpurple = '\033[95m'
     bcyan = '\033[96m'
     bwhite = '\033[97m'
+    
     RESET = '\033[0m'
 
 # Define characters
