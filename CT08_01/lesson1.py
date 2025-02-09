@@ -144,7 +144,7 @@ def display_menu(menu, ordered):
                 print(f"{order} has been added to your order")
                 ordered[order] += amt
             else:
-                print("")
+                print("Sorry, thats not a defined quantity.")
         else:
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
