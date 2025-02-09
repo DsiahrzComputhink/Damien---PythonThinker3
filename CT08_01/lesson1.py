@@ -13,8 +13,9 @@ print(style.RED + "RED TEXT" + style.RESET)
 print(style.GREEN + "GREEN TEXT" + style.RESET)
 
 
-# --- 
-# silly challenge: make a fast food restruant
+# --- The thing above is just for decorative stuff, it is not to concern with the code - Dsiahrz
+
+# silly challenge the second: 
 
 menu = {
     "Notebook":2.00,
