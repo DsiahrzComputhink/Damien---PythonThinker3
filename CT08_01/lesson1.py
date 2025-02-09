@@ -38,7 +38,13 @@ menu = {
     "Ruler":2.00,
     }
 
-ordered = {}
+ordered = {
+    "Notebook":2.00,
+    "Pencil":0.50,
+    "Backpack":20.00,
+    "Eraser":0.60,
+    "Ruler":2.00,
+}
 
 yes = {
     "yes",
