@@ -75,6 +75,8 @@ while not stop:
                 TIME *= 0.99
                 if TIME <= 0.01:
                     TIME *= 0.999999
+                    if TIME <= 0.001
+                        TIME
 
                 
                 if attempt == target_char:
