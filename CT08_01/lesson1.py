@@ -16,9 +16,9 @@ print(style.GREEN + "GREEN TEXT" + style.RESET)
 menu = {
     "Notebook":5.50,
     "Pencil":5.30,
-    "Backpack":3.00,
-    "whatever this is":4.80,
-    "Pen":2.20,
+    "Backpack":2,
+    "Eraser":4.80,
+    "Ruler":2.20,
     }
 
 ordered = {}
