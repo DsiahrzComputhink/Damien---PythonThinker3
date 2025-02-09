@@ -48,7 +48,7 @@ print(RdmPassword)
 # Method 2
 print(RdmPassword.keys())
 print(RdmPassword.values())
-print(fruitcost.items())
+print(RdmPassword.items())
 
 inte = 1
 print(f"The price of an orange is {RdmPassword[f"{inte}"]}")
