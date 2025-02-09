@@ -76,8 +76,7 @@ no = {
 def display_menu(menu, ordered):
     # Display Menu
 
-    print(style.bCYAN + "---------------------------------" + style.RESET)
-    print
+    print(style.bCN + "-------------------------------------------" + style.RESET)
     print("{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,))
     print("-------------------Menu--------------------")
     
