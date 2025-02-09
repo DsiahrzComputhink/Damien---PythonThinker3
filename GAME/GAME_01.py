@@ -64,6 +64,7 @@ while not stop:
 
     if cmd == "bruteforce.password":
         print(style.bred + "Starting brute force attack..." + style.RESET)
+        time.sleep(1)
         print(style.bred + "Accessing Password..." + style.RESET)
         time.sleep(1)
         print(style.bred + "Bypassing firewall..." + style.RESET)
