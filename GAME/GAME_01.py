@@ -78,10 +78,9 @@ while not stop:
                     if TIME <= 0.001:
                         TIME *= 0.9999
                         if TIME <= 0.0001:
-                    TIME *= 0.999
-                    if TIME <= 0.00001:
-                        TIME *= 0.9999
-                print(TIME)
+                            TIME *= 0.99999
+                            if TIME <= 0.00001:
+                                TIME *= 0.999999
                 
                 if attempt == target_char:
                     guessed_password += attempt
