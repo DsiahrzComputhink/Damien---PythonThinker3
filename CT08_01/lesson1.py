@@ -1,7 +1,7 @@
 class style():
 
     BOLD = '\033[1m'
-    b_gray = '\033[30m'
+    GRAY = '\033[30m'
 
 
     b_gray = '\033[30m'
