@@ -1,4 +1,8 @@
 class style():
+    # d = DARK
+    # b = BRIGHT
+
+    #bg
     dBLACK = '\033[30m'
     dRED = '\033[31m'
     dGREEN = '\033[32m'
