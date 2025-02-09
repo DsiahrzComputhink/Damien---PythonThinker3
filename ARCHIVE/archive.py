@@ -29,7 +29,4 @@ class style():
 
     RESET = '\033[0m'
 
-test1 = "ONE"
-test2 = "TWO"
-
 print(style.bgray + "Placeholder" + style.RESET)
