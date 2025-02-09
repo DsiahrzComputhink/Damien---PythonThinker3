@@ -30,3 +30,13 @@ class style():
     RESET = '\033[0m'
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
+
+number_names = int(input("How many names do you want? "))
+
+names = {}
+
+for i in range(number_names):
+    name = input("What is your name? ")
+    names['name'+str(i)] = name
+
+print(names['name1']) # Assumming there are at least 2 names in the dict
