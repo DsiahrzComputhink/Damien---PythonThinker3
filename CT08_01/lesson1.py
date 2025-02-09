@@ -12,10 +12,10 @@ class style():
     bRED = '\033[101m'
     bGREEN = '\033[102m'
     bYELLOW = '\033[103m'
-    bBLUE = '\033[94m'
-    bPURPLE = '\033[95m'
-    bCYAN = '\033[96m'
-    bWHITE = '\033[97m'
+    bBLUE = '\033[104m'
+    bPURPLE = '\033[105m'
+    bCYAN = '\033[106m'
+    bWHITE = '\033[107m'
 
     RESET = '\033[0m'
 
