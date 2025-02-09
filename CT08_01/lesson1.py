@@ -162,6 +162,7 @@ def display_menu(menu, ordered):
                     else:
                         print("Ok")
                 else:
+                    totalprice = order
                     print("Alright, the price of",style.bBLUE + f"{amt}{order}" + style.RESET,"is",)
             else:
                 print("Sorry, thats not a defined quantity.")
