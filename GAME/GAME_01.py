@@ -43,6 +43,7 @@ password_string = " ".join(password_chars)  # Join with spaces
 # Print the password
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
 
+stop = False
 # The Game
 while not stop:
     LINE = "--------------------------------------------"
