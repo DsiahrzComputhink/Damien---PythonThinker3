@@ -47,4 +47,4 @@ test2 = "TWO"
 
 print(style.bCYAN + "RED TEXT" + style.RESET)
 print(style.bGREEN + "GREEN TEXT" + style.RESET)
-print(style.b + "YELLOW TEXT WITH BLUE BACKGROUND [why]" + style.RESET)
+print(style.bCYAN + "YELLOW TEXT WITH BLUE BACKGROUND [why]" + style.b)
