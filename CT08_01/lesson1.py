@@ -39,6 +39,7 @@ menu = {
     }
 
 ordered = {
+    # -- Just Quantity
     "Notebook":0,
     "Pencil":0,
     "Backpack":0,
