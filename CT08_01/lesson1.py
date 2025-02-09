@@ -44,4 +44,4 @@ def caculate_peri(length, width):
 length = 6
 width = 4
 
-area = caculate_area(length,width)
+area = caculate_area(length, width)
