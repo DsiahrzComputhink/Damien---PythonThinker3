@@ -15,7 +15,7 @@ print(style.GREEN + "GREEN TEXT" + style.RESET)
 
 # --- The thing above is just for decorative stuff, it is not to concern with the code - Dsiahrz
 
-# silly challenge the second: 
+# silly challenge the second: popular the store
 
 menu = {
     "Notebook":2.00,
