@@ -44,9 +44,11 @@ password_string = " ".join(password_chars)  # Join with spaces
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
 
 
-LINE = style.bBLACK + "--------------------------------------------" + style.RESET
 stop = 0
+
+# The Game
 while stop == 0:
+    LINE = style.bBLACK + "--------------------------------------------" + style.RESET 
     print(style.bblue + "Type in command to start" + style.RESET)
     print(style.bblue)
     print(style.bblue + "steal.[USERNAME]" + style.RESET)
