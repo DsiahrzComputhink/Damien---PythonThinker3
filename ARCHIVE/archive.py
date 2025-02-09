@@ -28,5 +28,4 @@ class style():
     bwhite = '\033[97m'
 
     RESET = '\033[0m'
-
 print(style.bgray + "Placeholder" + style.RESET)
