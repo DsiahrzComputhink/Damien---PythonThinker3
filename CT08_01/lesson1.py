@@ -139,8 +139,10 @@ def display_menu(menu, ordered):
 
         elif order in menu:
             print("How much would you want to order?")
-            print(f"{order} has been added to your order")
-            ordered[order] += 1
+            amt = input("")
+            if amt.isdigit():
+                print(f"{order} has been added to your order")
+                ordered[order] += amt
         else:
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
