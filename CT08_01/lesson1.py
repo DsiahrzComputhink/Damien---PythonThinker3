@@ -88,7 +88,7 @@ def display_menu(menu, ordered):
     print("For any purchase more than $20.00,")
     print("")
 
-    print("-------------------------------------------")
+    print(style.bBLUE + "-------------------------------------------" + style.RESET)
     print("Type in 'Thats all' to stop ordering.")
 
     stop = 0
