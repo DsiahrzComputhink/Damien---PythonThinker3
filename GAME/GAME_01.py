@@ -70,12 +70,14 @@ while not stop:
         print(style.bred + "Bypassing firewall..." + style.RESET)
         time.sleep(1)
 
+        TIME = 1
         guessed_password = ""
         for target_index, target_char in enumerate(password_string):
             for attempt in words:
                 print(style.dcyan + f"Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
 
                 time.sleep(TIME)  # Simulate brute force delay
+                TIME 
                 
                 if attempt == target_char:
                     guessed_password += attempt
