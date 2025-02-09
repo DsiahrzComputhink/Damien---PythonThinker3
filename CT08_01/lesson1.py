@@ -29,7 +29,7 @@ class style():
     blue = '\033[34m'
     purple = '\033[35m'
     cyan = '\033[36m'
-    dwhite = '\033[37m'
+    white = '\033[37m'
 
     bgbBLACK = '\033[90m'
     bgbRED = '\033[91m'
