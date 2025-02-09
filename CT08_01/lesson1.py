@@ -114,7 +114,7 @@ def display_menu(menu, ordered):
         if order == "Thats all":
             if ordered == {}:
                 # anger
-                print("'ok bro.'")
+                print(style.dRED + "GREEN TEXT" + style.RESET)
                 stop = 1
             else:
                 print("-------------Order---------------")
