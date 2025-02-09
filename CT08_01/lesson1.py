@@ -32,14 +32,14 @@ class style():
     bgdCYAN = '\033[36m'
     bgdWHITE = '\033[37m'
 
-    bBLACK = '\033[90m'
-    bRED = '\033[91m'
-    bGREEN = '\033[92m'
-    bYELLOW = '\033[93m'
-    bBLUE = '\033[94m'
-    bPURPLE = '\033[95m'
-    bCYAN = '\033[96m'
-    bWHITE = '\033[97m'
+    bgbBLACK = '\033[90m'
+    bgbRED = '\033[91m'
+    bgbGREEN = '\033[92m'
+    bgbYELLOW = '\033[93m'
+    bgbBLUE = '\033[94m'
+    bgbPURPLE = '\033[95m'
+    bgbCYAN = '\033[96m'
+    bgbWHITE = '\033[97m'
 
     RESET = '\033[0m'
 
