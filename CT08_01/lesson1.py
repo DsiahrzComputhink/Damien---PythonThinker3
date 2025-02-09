@@ -129,7 +129,6 @@ def display_menu(menu, ordered):
                 if answer in yes:
                     print("'Ok, your total will be'")
                     for food, price in ordered.items():
-                        print(total)
                         total += price
 
                     print(style.bYELLOW + "${:^8.2f}".format(total) + style.RESET)
