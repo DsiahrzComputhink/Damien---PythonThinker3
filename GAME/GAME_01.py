@@ -58,6 +58,6 @@ while stop == 0:
 
     print(style.bgray + LINE + style.RESET)
 
-    print("Type in", style.bred + "'Thats all'" + style.RESET ,"to stop ordering.")
+    print("")
 
     cmd = input("")
