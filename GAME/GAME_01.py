@@ -67,6 +67,7 @@ while not stop:
         for target_index, target_char in enumerate(password_string):
             for attempt in words:
                 print(style.dcyan + f"Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
+                print()
                 time.sleep(0.02)  # Simulate brute force delay
                 
                 if attempt == target_char:
