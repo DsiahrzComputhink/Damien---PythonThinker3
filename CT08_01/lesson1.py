@@ -32,7 +32,7 @@ class style():
 test1 = "ONE"
 test2 = "TWO"
 
-print(style.bcyan + "RED TEXT" + style.RESET)
+print(style.bcyan + "TESTING" + style.RESET)
 print(style.bgray + "GREEN TEXT" + style.RESET)
 
 def calculate_area(length: int | float,width: int | float):
