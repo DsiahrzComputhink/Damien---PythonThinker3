@@ -2,10 +2,10 @@ class style():
 
     BOLD = '\033[1m'
     GRAY = '\033[2m'
-    UNDERLINE = '\033[30m'
+    UNDERLINE = '\033[4m'
     CANCEL = '\033[30m'
 
-    bg_b_white = '\033[30m'
+    bg_b_white = '\033[7m'
 
 
     b_gray = '\033[30m'
