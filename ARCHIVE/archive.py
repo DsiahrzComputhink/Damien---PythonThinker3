@@ -40,3 +40,5 @@ for i in range(500):
     num['name'+str(i)] = num
 
 print(num['name1']) # Assumming there are at least 2 names in the dict
+
+print(randomnumber)
