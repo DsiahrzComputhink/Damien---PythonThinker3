@@ -38,5 +38,11 @@ print(PASSWORDLENGTH)
 RdmPassword = {
     "1": "4",
 }
+
+
+# Appending a new item to a dictionary
+fruitcost["Durian"] = inte2
+print(fruitcost)
+
 inte = 1
 print(f"The price of an orange is {RdmPassword[f"{inte}"]}")
