@@ -14,7 +14,7 @@ print(style.GREEN + "GREEN TEXT" + style.RESET)
 # silly challenge: make a fast food restruant
 
 menu = {
-    "Cheeseburger":5.50,
+    "Notebook":5.50,
     "Hamburger":5.30,
     "Fries":3.00,
     "Cheese fries":4.80,
@@ -48,7 +48,7 @@ def display_menu(menu, ordered):
     # Display Menu
 
     print("---------------------------------")
-    print("{:^10}Welcome to {:^10}".format('*'*10, '*'*10,))
+    print("{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,))
     print("--------------Menu---------------")
     
     # Format
