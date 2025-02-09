@@ -38,7 +38,7 @@ print(style.bGREEN + "GREEN TEXT" + style.RESET)
 menu = {
     "Notebook":2.00,
     "Pencil":0.50,
-    "Backpack":20.00,
+    "Backpack":17.50,
     "Eraser":0.60,
     "Ruler":2.00,
     }
