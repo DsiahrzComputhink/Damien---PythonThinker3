@@ -22,13 +22,13 @@ class style():
     # BACKGROUNDS
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
-    dblack = '\033[30m'
-    dred = '\033[31m'
-    dgreen = '\033[32m'
-    dyellow = '\033[33m'
-    dblue = '\033[34m'
-    dpurple = '\033[35m'
-    dcyan = '\033[36m'
+    d_black = '\033[30m'
+    d_red = '\033[31m'
+    d_green = '\033[32m'
+    d_yellow = '\033[33m'
+    blue = '\033[34m'
+    purple = '\033[35m'
+    cyan = '\033[36m'
     dwhite = '\033[37m'
 
     bgbBLACK = '\033[90m'
