@@ -10,13 +10,13 @@ class style():
     d_white = '\033[37m'
 
     b_black = '\033[90m'
-    b_red = '\033[31m'
-    b_green = '\033[32m'
-    b_yellow = '\033[33m'
-    b_blue = '\033[34m'
-    b_purple = '\033[35m'
-    b_cyan = '\033[36m'
-    b_white = '\033[37m'
+    b_red = '\033[91m'
+    b_green = '\033[92m'
+    b_yellow = '\033[93m'
+    b_blue = '\033[94m'
+    b_purple = '\033[95m'
+    b_cyan = '\033[96m'
+    b_white = '\033[97m'
 
     RESET = '\033[0m'
 
