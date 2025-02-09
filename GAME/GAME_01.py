@@ -46,6 +46,17 @@ password_string = " ".join(password_chars)  # Join with spaces
 # Print the password
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
 
+menu_text = f"""
+{style.bgray}--------------------------------------------{style.RESET}
+{style.bred}{' ' * 10}Type in command to start{' ' * 10}{style.RESET}
+{style.bgray}--------------------Cmds--------------------{style.RESET}
+
+  {style.bblue}bruteforce.password{style.RESET} . {style.bblue}[CRACK PASSWORD]{style.RESET}          
+
+{style.bgray}--------------------------------------------{style.RESET}
+"""
+
+print(menu_text)  # Display the menu
 
 stop = False
 # The Game
