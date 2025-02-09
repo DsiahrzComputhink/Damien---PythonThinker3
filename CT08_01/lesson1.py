@@ -23,7 +23,7 @@ class style():
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
     dblack = '\033[30m'
-    dBLACK = '\033[31m'
+    dred = '\033[31m'
     dBLACK = '\033[32m'
     dBLACK = '\033[33m'
     dBLACK = '\033[34m'
