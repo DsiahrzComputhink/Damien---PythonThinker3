@@ -157,7 +157,7 @@ def display_menu(menu, ordered):
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
-            print(f"Sorry, we dont sell {order}")
+            print(f"Sorry, we dont sell",style.bRED + "'Thats all'" + style.RESET)
         itemordered = 1
 
 display_menu(menu, ordered)
