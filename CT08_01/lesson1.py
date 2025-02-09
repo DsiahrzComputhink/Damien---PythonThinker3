@@ -85,7 +85,7 @@ def display_menu(menu, ordered):
         print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
 
     print("")
-    print("For any purchase more than $20.00,")
+    print("For any purchase",)
     print("You will get a", style.bYELLOW + "10%" + style.RESET ,"Discount!")
 
     print(style.bBLUE + "-------------------------------------------" + style.RESET)
