@@ -52,7 +52,7 @@ menu_text = f"""
 {style.bgray}--------------------Cmds--------------------{style.RESET}
 
 {style.bblue}bruteforce.password{style.RESET} . {style.bblue}[CRACK PASSWORD]{style.RESET}
-{style.bblue}menu{style.RESET} . {style.bblue}[CRACK PASSWORD]{style.RESET}
+{style.bblue}menu{style.RESET} . {style.bblue}[SHOW MENU]{style.RESET}
 
 {style.bgray}--------------------------------------------{style.RESET}
 """
