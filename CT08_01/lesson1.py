@@ -163,7 +163,8 @@ def display_menu(menu, ordered):
                 else:
                     for food, price in ordered.items():
                         total += price
-                    print("Alright, the price of",style.bBLUE + f"{amt}{order}" + style.RESET,"is",)
+                    print("Alright, current total now",style.bBLUE + f"{amt}{order}" + style.RESET,"is",)
+                    print()
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
