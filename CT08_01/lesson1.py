@@ -120,7 +120,7 @@ def display_menu(menu, ordered):
                 print("-------------Order---------------")
 
                 for food, price in ordered.items():
-                    print("{:20}:     ${:^8.2f}".format(food, price))
+                    print(style.bCYAN + "{:20}Qnty:    {:^8.0f}".format(food, price) + style.RESET)
 
                 print("---------------------------------")
                 print("'Would that be all?'")
