@@ -39,9 +39,11 @@ RdmPassword = {
     "1": "4",
 }
 
-Words = {
-    
-}
+import string
+
+Words = list(string.ascii_letters)  # Creates a list with 'A' to 'Z' and 'a' to 'z'
+print(Words)
+
 # Generating Password
 inte1 = 1
 inte2 = random.randint(0,9)
