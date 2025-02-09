@@ -86,4 +86,4 @@ while not stop:
         stop = True  # Stop loop after success
     else:
         print(style.dred + "Command not found." + style.RESET)
-        time.sleep(0.1)
+        time.sleep(2)
