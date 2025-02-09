@@ -39,8 +39,8 @@ RdmPassword = {
     "1": "4",
 }
 
-inte1 = random.randint(1,50)
-inte2 = 
+inte1 = random.randint(0,9)
+inte2 = random.randint(0,9)
 # Appending a new item to a dictionary
 fruitcost[f"{inte1}"] = inte2
 print(fruitcost)
