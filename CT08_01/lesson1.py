@@ -15,8 +15,8 @@ print(style.GREEN + "GREEN TEXT" + style.RESET)
 
 menu = {
     "Notebook":5.50,
-    "Hamburger":5.30,
-    "Fries":3.00,
+    "Pencil":5.30,
+    "Backpack":3.00,
     "Cheese fries":4.80,
     "Milo":2.20,
     }
