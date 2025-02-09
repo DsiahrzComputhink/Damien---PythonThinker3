@@ -58,5 +58,5 @@ while stop == 0:
 
     print(style.bgray + LINE + style.RESET)
 
-    print("Please input your command")
+    print("Waiting for command input...")
     cmd = input("")
