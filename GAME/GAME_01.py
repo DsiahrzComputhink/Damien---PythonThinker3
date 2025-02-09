@@ -33,7 +33,7 @@ words = [
 ]
 
 # Generate a random password length
-PASSWORDLENGTH = random.randint(5, 10)  # Change the range as needed
+PASSWORDLENGTH = random.randint(8, 20)  # Change the range as needed
 print(f"Password Length: {PASSWORDLENGTH}")
 
 # Generate the password
