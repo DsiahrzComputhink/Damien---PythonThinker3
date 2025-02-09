@@ -155,9 +155,10 @@ def display_menu(menu, ordered):
             if amt.isnumeric():
                 if amt >= 5:
                     print("Are you sure?")
-                    input(style.bRED + "" + style.RESET)
-                print(style.bBLUE + f"{amt} {order}'s" + style.RESET," has been added to your order")
-                ordered[order] += int(amt)
+                    answer = input(style.bRED + "" + style.RESET)
+                    if answer in yes:
+                        print(style.bBLUE + f"{amt} {order}'s" + style.RESET," has been added to your order")
+                 ordered[order] += int(amt)
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
