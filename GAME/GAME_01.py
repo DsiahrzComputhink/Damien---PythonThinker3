@@ -49,7 +49,7 @@ stop = 0
 # The Game
 while stop == 0:
     LINE = "--------------------------------------------"
-    print(style.bpurple + LINE + style.RESET)
+    print(style.bgray + LINE + style.RESET)
     print(style.bpurple + "{:^10}Type in command to start{:^10}".format('*'*10, '*'*10,) + style.RESET)
     print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
     print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
