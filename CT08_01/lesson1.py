@@ -136,7 +136,7 @@ def display_menu(menu, ordered):
         itemordered = 1
 
         for food, price in ordered.items():
-            print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
+            print(style.bBLUE + "{:30}:     ${:^8.0f}".format(food, price) + style.RESET)
 
 
 display_menu(menu, ordered)
