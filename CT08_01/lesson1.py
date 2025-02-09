@@ -23,10 +23,10 @@ class style():
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
     T_dBLACK = '\033[30m'
-    TEXTBLUE = '\033[31m'
-    TEXTGREEN = '\033[32m'
-    TEXTYELLOW = '\033[33m'
-    TEXTBLUE = '\033[34m'
+    T_dBLACK = '\033[31m'
+    T_dBLACK = '\033[32m'
+    T_dBLACK = '\033[33m'
+    T_dBLACK = '\033[34m'
     TEXTPURPLE = '\033[35m'
     TEXTCYAN = '\033[36m'
     TEXTWHITE = '\033[37m'
