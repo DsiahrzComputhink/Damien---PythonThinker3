@@ -162,7 +162,7 @@ def display_menu(menu, ordered):
                     else:
                         print("Ok")
                 else:
-                    print("Your total now is",)
+                    print("Alright, the price of the things you order")
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
