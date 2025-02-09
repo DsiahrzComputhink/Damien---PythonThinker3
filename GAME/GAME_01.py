@@ -93,4 +93,3 @@ while not stop:
         print(menu_text)
     else:
         print(style.dred + "Command not found." + style.RESET)
-        time.sleep(2)
