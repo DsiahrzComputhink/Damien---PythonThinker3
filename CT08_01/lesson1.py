@@ -22,8 +22,8 @@ class style():
     # BACKGROUNDS
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
-    BLACK = '\033[30m'
-    bgdRED = '\033[31m'
+    TEXTBLACK = '\033[30m'
+    TEXTBLUE = '\033[31m'
     bgdGREEN = '\033[32m'
     bgdYELLOW = '\033[33m'
     bgdBLUE = '\033[34m'
