@@ -90,7 +90,7 @@ def display_menu(menu, ordered):
     print("For any purchase",style.bGREEN + "more than" + style.RESET, style.bCYAN + "$20.00" + style.RESET,",")
     print("You will get a", style.bYELLOW + "10%" + style.RESET ,"Discount!")
 
-    print(style.bBLACK + "--------------------------------------------" + style.RESET)
+    print(LINE)
     print("Type in", style.bRED + "'Thats all'" + style.RESET ,"to stop ordering.")
 
     stop = 0
