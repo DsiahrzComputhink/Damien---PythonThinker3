@@ -11,4 +11,3 @@ test2 = "TWO"
 print(style.RED + "RED TEXT" + style.RESET)
 print(style.GREEN + "GREEN TEXT" + style.RESET)
 
-g
