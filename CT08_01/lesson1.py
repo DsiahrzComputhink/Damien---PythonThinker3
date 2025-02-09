@@ -5,6 +5,8 @@ class style():
     UNDERLINE = '\033[30m'
     CANCEL = '\033[30m'
 
+    
+
 
     b_gray = '\033[30m'
     d_red = '\033[31m'
