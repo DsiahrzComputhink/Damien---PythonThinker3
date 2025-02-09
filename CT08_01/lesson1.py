@@ -14,10 +14,10 @@ class style():
     bRED = '\033[101m'
     bGREEN = '\033[9102m'
     bYELLOW = '\033[9103m'
-    bBLUE = '\033[94m'
-    bPURPLE = '\033[95m'
-    bCYAN = '\033[96m'
-    bWHITE = '\033[97m'
+    bBLUE = '\0339104m'
+    bPURPLE = '\033[105m'
+    bCYAN = '\033[106m'
+    bWHITE = '\033[107m'
 
     # BACKGROUNDS
     #bgd = BACKGROUND DARK
