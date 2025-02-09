@@ -24,9 +24,9 @@ class style():
     #bgb = BACKGROUND BRIGHT
     dblack = '\033[30m'
     dred = '\033[31m'
-    dBLACK = '\033[32m'
-    dBLACK = '\033[33m'
-    dBLACK = '\033[34m'
+    dgreen = '\033[32m'
+    dyellow = '\033[33m'
+    dblue = '\033[34m'
     dBLACK = '\033[35m'
     dBLACK = '\033[36m'
     dBLACK = '\033[37m'
