@@ -152,7 +152,7 @@ def display_menu(menu, ordered):
             amt = input("")
             print()
             if amt.isnumeric():
-                if amt >= 5:
+                if int(amt) >= 5:
                     print("Are you sure?")
                     answer = input(style.bRED + "" + style.RESET)
                     if answer in yes:
