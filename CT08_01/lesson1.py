@@ -7,5 +7,5 @@ class style():
 test1 = "ONE"
 test2 = "TWO"
 
-print(style.RED + "{0}".format(test1) + style.RESET)
-print(style.GREEN + "TESTING" + style.RESET)
+print(style.RED + "" + style.RESET)
+print(style.GREEN + "GREEN TEXT" + style.RESET)
