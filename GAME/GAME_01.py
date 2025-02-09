@@ -50,7 +50,7 @@ stop = 0
 while stop == 0:
     LINE = "--------------------------------------------"
     print(style.bgray + LINE + style.RESET)
-    print(style.byellow + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
+    print(style.bred + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
     print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
     print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
 
