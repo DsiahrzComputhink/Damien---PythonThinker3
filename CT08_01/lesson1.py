@@ -54,7 +54,6 @@ def display_menu(menu, ordered):
     # Format
     for food, price in menu.items():
         print(style.GREEN + "GREEN TEXT" + style.RESET)
-        print("{:20}:     ${:^8.2f}".format(food, price))
 
     print("---------------------------------")
     print("Type in 'Thats all' to stop ordering.")
