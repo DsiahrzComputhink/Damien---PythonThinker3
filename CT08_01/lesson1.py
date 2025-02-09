@@ -27,9 +27,9 @@ class style():
     dgreen = '\033[32m'
     dyellow = '\033[33m'
     dblue = '\033[34m'
-    dBLACK = '\033[35m'
-    dBLACK = '\033[36m'
-    dBLACK = '\033[37m'
+    dpurple = '\033[35m'
+    dcyan = '\033[36m'
+    dwhite = '\033[37m'
 
     bgbBLACK = '\033[90m'
     bgbRED = '\033[91m'
