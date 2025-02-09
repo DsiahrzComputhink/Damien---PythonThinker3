@@ -1,13 +1,13 @@
 class style():
     # d = DARK
     # b = BRIGHT
-    dBLACK = '\033[30m'
-    dRED = '\033[31m'
-    dGREEN = '\033[32m'
-    dYELLOW = '\033[33m'
-    dBLUE = '\033[34m'
-    dPURPLE = '\033[35m'
-    dCYAN = '\033[36m'
+    dBLACK = '\033[40m'
+    dRED = '\033[341m'
+    dGREEN = '\033[342m'
+    dYELLOW = '\033[343m'
+    dBLUE = '\033[434m'
+    dPURPLE = '\033[345m'
+    dCYAN = '\033[346m'
     dWHITE = '\033[37m'
 
     bBLACK = '\033[90m'
