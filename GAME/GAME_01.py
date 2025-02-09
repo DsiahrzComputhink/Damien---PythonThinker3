@@ -35,8 +35,8 @@ import random
 PASSWORDLENGTH = random.randint(1, 50)
 print(PASSWORDLENGTH)
 
-RandomPassword = {
+RdmPassword = {
     "1": "4",
 }
 
-print(f"The price of an orange is {RandomPassword["1"]}")
+print(f"The price of an orange is {RdmPassword["1"]}")
