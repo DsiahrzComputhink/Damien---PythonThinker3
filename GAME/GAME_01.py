@@ -53,4 +53,4 @@ print(RdmPassword.values())
 print(RdmPassword.items())
 
 inte = 1
-print(f"The price of an orange is {RdmPassword[f"{inte}"]}")
+print(f"Password {RdmPassword[f"{inte}"]}")
