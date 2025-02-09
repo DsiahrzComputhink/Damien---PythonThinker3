@@ -115,7 +115,7 @@ def display_menu(menu, ordered):
                 print("'Would that be all?'")
                 answer = input("")
                 answer = answer.lower()
-                if answer == "thats all":
+                if answer in yes:
                     print("'Ok, your total will be'")
                     for food, price in ordered.items():
                         print(total)
