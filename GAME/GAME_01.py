@@ -43,6 +43,8 @@ password_string = " ".join(password_chars)  # Join with spaces
 # Print the password
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
 
+
+LINE = style.bBLACK + "--------------------------------------------" + style.RESET
 stop = 0
 while stop == 0:
     print(style.bblue + "Type in command to start" + style.RESET)
