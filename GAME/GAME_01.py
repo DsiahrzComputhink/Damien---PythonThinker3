@@ -42,3 +42,6 @@ password_string = " ".join(password_chars)  # Join with spaces
 
 # Print the password
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
+
+stop = 0
+while stop == 1:
