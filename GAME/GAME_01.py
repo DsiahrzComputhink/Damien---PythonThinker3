@@ -74,7 +74,7 @@ while not stop:
                 time.sleep(TIME)  # Simulate brute force delay
                 TIME *= 0.99
                 if TIME <= 0.01:
-                    TIME *= 0.999
+                    TIME *= 0.999999
 
                 
                 if attempt == target_char:
