@@ -1,5 +1,5 @@
 class style():
-        dRED = '\033[31m'
+    dBLACK = '\033[30m'
     dRED = '\033[31m'
     dGREEN = '\033[32m'
     dYELLOW = '\033[33m'
@@ -8,7 +8,7 @@ class style():
     dCYAN = '\033[36m'
     dWHITE = '\033[37m'
 
-    bBLACK = '\033[31m'
+    bBLACK = '\033[30m'
     bRED = '\033[31m'
     bGREEN = '\033[32m'
     bYELLOW = '\033[33m'
