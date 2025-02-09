@@ -38,5 +38,5 @@ print(PASSWORDLENGTH)
 RdmPassword = {
     "1": "4",
 }
-
-print(f"The price of an orange is {RdmPassword["1"]}")
+inte = 1
+print(f"The price of an orange is {RdmPassword[int]}")
