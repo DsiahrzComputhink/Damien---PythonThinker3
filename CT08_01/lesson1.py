@@ -4,6 +4,8 @@ class style():
     YELLOW = '\033[33m'
     BLUE = '\033[34m'
     PURPLE = '\033[35m'
+    CYAN = '\033[35m'
+    PURPLE = '\033[35m'
     RESET = '\033[0m'
 
 test1 = "ONE"
