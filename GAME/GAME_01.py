@@ -16,6 +16,7 @@ class style:
     dpurple = '\033[35m'
     dcyan = '\033[36m'
     dwhite = '\033[37m'
+
     bgray = '\033[90m'
     bred = '\033[91m'
     bgreen = '\033[92m'
@@ -24,8 +25,8 @@ class style:
     bpurple = '\033[95m'
     bcyan = '\033[96m'
     bwhite = '\033[97m'
-    
-    RESET = '\033[0m'
+
+    reset = '\033[0m'
 
 # Define characters
 words = [
