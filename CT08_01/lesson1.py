@@ -22,8 +22,8 @@ class style():
     bCYAN = '\033[96m'
     bWHITE = '\033[97m'
 
-
-    dBLACK = '\033[30m'
+    # BACKGROUNDS
+    bdBLACK = '\033[30m'
     dRED = '\033[31m'
     dGREEN = '\033[32m'
     dYELLOW = '\033[33m'
