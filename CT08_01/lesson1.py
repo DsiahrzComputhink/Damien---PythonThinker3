@@ -160,10 +160,4 @@ def display_menu(menu, ordered):
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
 
-        print(style.bCYAN + "---------------------------------" + style.RESET)
-        for food, price in ordered.items():
-            print(style.bCYAN + "{:20}Qnty:    {:^8.0f}".format(food, price) + style.RESET)
-        print(style.bCYAN + "---------------------------------" + style.RESET)
-
-
 display_menu(menu, ordered)
