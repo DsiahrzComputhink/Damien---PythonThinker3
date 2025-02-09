@@ -37,6 +37,6 @@ randomnumber = {
 
 for i in range(500):
     num = input("What is your name? ")
-    names['name'+str(i)] = name
+    num['name'+str(i)] = num
 
-print(names['name1']) # Assumming there are at least 2 names in the dict
+print(num['name1']) # Assumming there are at least 2 names in the dict
