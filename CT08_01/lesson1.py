@@ -8,4 +8,4 @@ test1 = "ONE"
 test2 = "TWO"
 
 print(style.RED + "{0}".format(test1) + style.RESET)
-print(style.GREEN + "{0}".format(test2) + style.RESET)
+print(style.GREEN + "TESTING" + style.RESET)
