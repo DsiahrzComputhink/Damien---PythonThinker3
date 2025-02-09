@@ -89,7 +89,8 @@ while not stop:
 
         print("\n" + style.bgreen + f"Password Cracked! → {guessed_password}" + style.RESET)
     
-    elif cmd =
+    elif cmd == "menu":
+        print(menu_text)
     else:
         print(style.dred + "Command not found." + style.RESET)
         time.sleep(2)
