@@ -31,7 +31,7 @@ class style():
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 
-number_names = int(input("How many names do you want? "))
+
 
 names = {}
 
