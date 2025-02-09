@@ -150,7 +150,7 @@ def display_menu(menu, ordered):
         elif order in menu:
             print("How much would you want to order?")
             amt = input("")
-            print(amt)
+            print()
             if amt.isnumeric():
                 print(f"{amt} {order}'s' has been added to your order")
                 ordered[order] += int(amt)
