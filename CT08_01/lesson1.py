@@ -73,7 +73,6 @@ class style():
 test1 = "ONE"
 test2 = "TWO"
 
-
 # --- The thing above is just for decorative stuff, it is not to concern with the code - Dsiahrz
 
 # silly challenge the second: popular the store
