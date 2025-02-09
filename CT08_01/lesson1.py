@@ -78,7 +78,7 @@ def display_menu(menu, ordered):
     LINE = style.bBLACK + "--------------------------------------------" + style.RESET
 
 
-    print(style.bBLACK + "--------------------------------------------" + style.RESET)
+    print(LINE)
     print(style.bBLACK + "{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,) + style.RESET)
     print(style.bBLACK + "--------------------Menu--------------------" + style.RESET)
     
@@ -86,7 +86,7 @@ def display_menu(menu, ordered):
     for food, price in menu.items():
         print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
 
-    print(style.bBLACK + "--------------------------------------------" + style.RESET)
+    print(LINE)
     print("For any purchase",style.bGREEN + "more than" + style.RESET, style.bCYAN + "$20.00" + style.RESET,",")
     print("You will get a", style.bYELLOW + "10%" + style.RESET ,"Discount!")
 
