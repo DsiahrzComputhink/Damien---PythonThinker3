@@ -46,4 +46,4 @@ print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + 
 stop = 0
 while stop == 0:
     print(style.dgreen + "Type in command to start" + style.RESET)
-    input("")
+    cmd = input("")
