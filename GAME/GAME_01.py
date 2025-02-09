@@ -88,7 +88,8 @@ while not stop:
                     break  # Move to the next letter
 
         print("\n" + style.bgreen + f"Password Cracked! → {guessed_password}" + style.RESET)
-        stop = True  # Stop loop after success
+    
+    
     else:
         print(style.dred + "Command not found." + style.RESET)
         time.sleep(2)
