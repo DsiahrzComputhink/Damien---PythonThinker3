@@ -72,7 +72,8 @@ while not stop:
                 print(style.dcyan + f"Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
 
                 time.sleep(TIME)  # Simulate brute force delay
-                TIME *= 0.99
+                if TIME > 0.01:
+                    
                 if TIME <= 0.01:
                     TIME *= 0.999999999
 
