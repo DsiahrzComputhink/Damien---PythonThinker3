@@ -64,13 +64,13 @@ no = {
 def display_menu(menu, ordered):
     # Display Menu
 
-    print("---------------------------------")
+    print("-------------------------------------------")
     print("{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,))
-    print("--------------Menu---------------")
+    print("-------------------Menu--------------------")
     
     # Format
     for food, price in menu.items():
-        print(style.bBLUE + "{:20}:     ${:^8.2f}".format(food, price) + style.RESET)
+        print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
 
     print("---------------------------------")
     print("Type in 'Thats all' to stop ordering.")
