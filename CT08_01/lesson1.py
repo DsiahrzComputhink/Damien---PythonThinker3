@@ -152,7 +152,7 @@ def display_menu(menu, ordered):
             amt = input("")
             print()
             if amt.isnumeric():
-                print(style.bRED + f"{amt} {order}" + style.RESET,"'s' has been added to your order")
+                print(style.bRED + f"{amt} {order}'s" + style.RESET," has been added to your order")
                 ordered[order] += int(amt)
             else:
                 print("Sorry, thats not a defined quantity.")
