@@ -89,7 +89,7 @@ def display_menu(menu, ordered):
     print("")
 
     print(style.bBLUE + "-------------------------------------------" + style.RESET)
-    print("Type in", style.bCYAN + "Thats all" + style.RESET ,"to stop ordering.")
+    print("Type in", style.bRED + "'Thats all'" + style.RESET ,"to stop ordering.")
 
     stop = 0
     itemordered = 0
