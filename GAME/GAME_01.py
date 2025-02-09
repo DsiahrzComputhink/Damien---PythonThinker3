@@ -53,7 +53,7 @@ print(words)
 inte1 = 1
 inte2 = random.randint(0, len(words) - 1)
 # Appending a new item to a dictionary
-RdmPassword[f"{inte1}"] = inte2
+RdmPassword[f"{inte1}"] = words[inte2]
 inte1 += 1
 
 print(RdmPassword)
