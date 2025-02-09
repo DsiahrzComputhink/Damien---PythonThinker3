@@ -84,7 +84,7 @@ def display_menu(menu, ordered):
     for food, price in menu.items():
         print(style.bBLUE + "{:30}:     ${:^8.2f}".format(food, price) + style.RESET)
 
-    print(style.bCYAN + "For any purchase " + style.RESET)
+    print(style.bCYAN + "For any purchase more than $20.00,")
     print("-------------------------------------------")
     print("Type in 'Thats all' to stop ordering.")
 
