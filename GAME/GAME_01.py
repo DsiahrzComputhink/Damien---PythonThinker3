@@ -46,18 +46,11 @@ password_string = " ".join(password_chars)  # Join with spaces
 # Print the password
 print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
 
+
 stop = False
 # The Game
 while not stop:
-    LINE = "--------------------------------------------"
-    print(style.bgray + LINE + style.RESET)
-    print(style.bred + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
-    print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
 
-    # COMMANDS
-    print(" ", style.bblue + "bruteforce.password" + style.RESET, ".", style.bblue + "[CRACK PASSWORD]" + style.RESET, "{:^10}".format(' '*10, ' '*10,))
-
-    print(style.bgray + LINE + style.RESET)
     print("Waiting for command input...")
 
     cmd = input("").strip().lower()
