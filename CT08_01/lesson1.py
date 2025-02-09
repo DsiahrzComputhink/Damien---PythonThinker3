@@ -8,7 +8,7 @@ class style():
 
     bg_b_white = '\033[7m'
 
-
+    black = '\033[30m'
     b_gray = '\033[30m'
     d_red = '\033[31m'
     d_green = '\033[32m'
