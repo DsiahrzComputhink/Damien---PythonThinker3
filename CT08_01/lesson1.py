@@ -1,4 +1,3 @@
-os.system("")
 class style():
   RED = '\033[31m'
   GREEN = '\033[32m'
