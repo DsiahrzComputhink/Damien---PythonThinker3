@@ -32,11 +32,11 @@ print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 
 randomnumber = {
-    
+
 }
 
-for i in range(number_names):
-    name = input("What is your name? ")
+for i in range(500):
+    num = input("What is your name? ")
     names['name'+str(i)] = name
 
 print(names['name1']) # Assumming there are at least 2 names in the dict
