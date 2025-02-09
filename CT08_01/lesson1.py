@@ -1,7 +1,7 @@
 class style():
 
     BOLD = '\033[1m'
-    BOLD = '\033[1m'
+    ITALIC = '\033[3m'
 
     UNDERLINE = '\033[4m'
     CANCEL = '\033[9m'
