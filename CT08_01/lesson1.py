@@ -65,7 +65,7 @@ def display_menu(menu, ordered):
     # Display Menu
 
     print("---------------------------------")
-    print("{:^10}Welcome to the Bookshop!{:^10}".format('*'*8, '*'*8,))
+    print("{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,))
     print("--------------Menu---------------")
     
     # Format
