@@ -22,14 +22,14 @@ class style():
     # BACKGROUNDS
     #bgd = BACKGROUND DARK
     #bgb = BACKGROUND BRIGHT
-    TEXTBLACK = '\033[30m'
+    T_ = '\033[30m'
     TEXTBLUE = '\033[31m'
     TEXTGREEN = '\033[32m'
     TEXTYELLOW = '\033[33m'
     TEXTBLUE = '\033[34m'
     TEXTPURPLE = '\033[35m'
     TEXTCYAN = '\033[36m'
-    bgdWHITE = '\033[37m'
+    TEXTWHITE = '\033[37m'
 
     bgbBLACK = '\033[90m'
     bgbRED = '\033[91m'
