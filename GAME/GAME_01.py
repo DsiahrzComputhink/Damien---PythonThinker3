@@ -43,6 +43,8 @@ inte1 = random.randint(0,9)
 inte2 = random.randint(0,9)
 # Appending a new item to a dictionary
 RdmPassword[f"{inte1}"] = inte2
+
+
 print(RdmPassword)
 
 # Method 2
