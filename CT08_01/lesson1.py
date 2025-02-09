@@ -8,12 +8,12 @@ class style():
     dWHITE = '\033[37m'
 
     bRED = '\033[31m'
-    dGREEN = '\033[32m'
-    dYELLOW = '\033[33m'
-    dBLUE = '\033[34m'
-    dPURPLE = '\033[35m'
-    dCYAN = '\033[36m'
-    dWHITE = '\033[37m'
+    bGREEN = '\033[32m'
+    bYELLOW = '\033[33m'
+    bBLUE = '\033[34m'
+    bPURPLE = '\033[35m'
+    bCYAN = '\033[36m'
+    bWHITE = '\033[37m'
 
     RESET = '\033[0m'
 
