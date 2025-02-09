@@ -39,11 +39,11 @@ menu = {
     }
 
 ordered = {
-    "Notebook":2.00,
-    "Pencil":0.50,
-    "Backpack":20.00,
-    "Eraser":0.60,
-    "Ruler":2.00,
+    "Notebook":0,
+    "Pencil":0,
+    "Backpack":0,
+    "Eraser":0,
+    "Ruler":0,
 }
 
 yes = {
