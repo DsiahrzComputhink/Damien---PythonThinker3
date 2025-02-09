@@ -76,10 +76,10 @@ no = {
 def display_menu(menu, ordered):
     # Display Menu
 
-"{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,)
+
 
     print(style.bBLACK + "-------------------------------------------" + style.RESET)
-    print(style.bBLACK + "--------------------Menu-------------------" + style.RESET)
+    print(style.bBLACK + "{:^10}Welcome to the Bookshop!{:^10}".format('*'*10, '*'*10,) + style.RESET)
     print(style.bBLACK + "--------------------Menu-------------------" + style.RESET)
     
     # Format
