@@ -1,6 +1,6 @@
 class style():
 
-    d_black = '\033[30m'
+    b_gray = '\033[30m'
     d_red = '\033[31m'
     d_green = '\033[32m'
     d_yellow = '\033[33m'
@@ -9,7 +9,7 @@ class style():
     d_cyan = '\033[36m'
     d_white = '\033[37m'
 
-    b_black = '\033[90m'
+    b_gray = '\033[90m'
     b_red = '\033[91m'
     b_green = '\033[92m'
     b_yellow = '\033[93m'
