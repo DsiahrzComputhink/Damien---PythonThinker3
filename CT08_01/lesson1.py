@@ -158,7 +158,11 @@ def display_menu(menu, ordered):
                     answer = input(style.bRED + "" + style.RESET)
                     if answer in yes:
                         print(style.bBLUE + f"{amt} {order}'s" + style.RESET," has been added to your order")
-                 ordered[order] += int(amt)
+                        ordered[order] += int(amt)
+                    else:
+                        print("Ok")
+                else:
+                    print("")
             else:
                 print("Sorry, thats not a defined quantity.")
         else:
