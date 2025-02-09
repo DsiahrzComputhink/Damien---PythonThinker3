@@ -48,8 +48,8 @@ stop = 0
 
 # The Game
 while stop == 0:
-    LINE = style.bBLACK + "--------------------------------------------" + style.RESET 
+    LINE = "--------------------------------------------
     print(style.bblue + "Type in command to start" + style.RESET)
-    print(style.bblue + ""???"" + style.RESET)
+    print(style.bblue + LINE + style.RESET)
     print(style.bblue + "steal." + style.RESET)
     cmd = input("")
