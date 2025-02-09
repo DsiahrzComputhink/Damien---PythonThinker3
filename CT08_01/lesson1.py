@@ -18,7 +18,7 @@ menu = {
     "Pencil":0.50,
     "Backpack":20.00,
     "Eraser":0.60,
-    "Ruler":2.20,
+    "Ruler":2.00,
     }
 
 ordered = {}
