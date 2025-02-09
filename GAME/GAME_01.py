@@ -1,5 +1,4 @@
 import random
-import string
 
 class style:
     BOLD = '\033[1m'
