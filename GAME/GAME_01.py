@@ -41,4 +41,4 @@ password_chars = [random.choice(words) for _ in range(PASSWORDLENGTH)]
 password_string = " ".join(password_chars)  # Join with spaces
 
 # Print the password
-print(style.bcyan + "Password:" + style.RESET, style.bgray + password_string + style.RESET)
+print(style.bcyan + "Password:" + style.RESET, style.bwhite + password_string + style.RESET)
