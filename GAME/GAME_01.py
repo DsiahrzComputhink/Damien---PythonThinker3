@@ -1,4 +1,5 @@
 import random
+import time
 
 class style:
     BOLD = '\033[1m'
