@@ -70,7 +70,7 @@ def display_menu(menu, ordered):
     
     # Format
     for food, price in menu.items():
-        print(style.BLUE + "{:20}:     ${:^8.2f}".format(food, price) + style.RESET)
+        print(style.bBLUE + "{:20}:     ${:^8.2f}".format(food, price) + style.RESET)
 
     print("---------------------------------")
     print("Type in 'Thats all' to stop ordering.")
