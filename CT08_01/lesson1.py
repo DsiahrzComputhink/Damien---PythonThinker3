@@ -143,6 +143,8 @@ def display_menu(menu, ordered):
             if amt.isnumeric():
                 print(f"{order} has been added to your order")
                 ordered[order] += amt
+            else:
+                print("")
         else:
             print(f"Sorry, we dont sell {order}")
         itemordered = 1
