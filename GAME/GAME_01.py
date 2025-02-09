@@ -64,4 +64,4 @@ print(RdmPassword.values())
 print(RdmPassword.items())
 
 inte = 1
-print(f"Password {RdmPassword[f"{inte}"]}")
+print(style.bgray + "Placeholder" + style.RESET,f"{RdmPassword[f"{inte}"]}")
