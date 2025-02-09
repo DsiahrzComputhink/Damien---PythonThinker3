@@ -36,5 +36,7 @@ PASSWORDLENGTH = random.randint(1, 50)
 print(PASSWORDLENGTH)
 
 RandomPassword = {
-    "1": ,
+    "1": "4",
 }
+
+print
