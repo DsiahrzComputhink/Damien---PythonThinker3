@@ -31,9 +31,7 @@ class style():
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 
-
-
-names = {}
+randomnumber = {}
 
 for i in range(number_names):
     name = input("What is your name? ")
