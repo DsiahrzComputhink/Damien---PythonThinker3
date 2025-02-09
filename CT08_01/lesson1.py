@@ -45,3 +45,4 @@ length = 6
 width = 4
 
 area = caculate_area(length, width)
+area = calculate_peri(length, width)
