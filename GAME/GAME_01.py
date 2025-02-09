@@ -52,9 +52,12 @@ while stop == 0:
     print(style.bgray + LINE + style.RESET)
     print(style.bred + "{:^10}Type in command to start{:^10}".format(' '*10, ' '*10,) + style.RESET)
     print(style.bgray + "--------------------Cmds--------------------" + style.RESET)
+
+    # COMMANDS
     print(" ",style.bblue + "bruteforce" +  style.RESET,".",style.bblue + "[PASSWORD]" +  style.RESET,"{:^10}".format(' '*10, ' '*10,) )
 
     print(style.bgray + LINE + style.RESET)
+
     print("Type in", style.bred + "'Thats all'" + style.RESET ,"to stop ordering.")
 
     cmd = input("")
