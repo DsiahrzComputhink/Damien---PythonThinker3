@@ -27,9 +27,9 @@ class style():
     T_dBLACK = '\033[32m'
     T_dBLACK = '\033[33m'
     T_dBLACK = '\033[34m'
-    TEXTPURPLE = '\033[35m'
-    TEXTCYAN = '\033[36m'
-    TEXTWHITE = '\033[37m'
+    T_dBLACK = '\033[35m'
+    T_dBLACK = '\033[36m'
+    T_dBLACK = '\033[37m'
 
     bgbBLACK = '\033[90m'
     bgbRED = '\033[91m'
