@@ -17,8 +17,8 @@ menu = {
     "Notebook":5.50,
     "Pencil":5.30,
     "Backpack":3.00,
-    "Cheese fries":4.80,
-    "Milo":2.20,
+    "whatever this is":4.80,
+    "Pen":2.20,
     }
 
 ordered = {}
