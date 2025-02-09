@@ -8,7 +8,7 @@ class style():
 
     bg_b_white = '\033[7m'
 
-
+    black = '\033[8m'
     b_gray = '\033[30m'
     d_red = '\033[31m'
     d_green = '\033[32m'
@@ -33,4 +33,4 @@ test1 = "ONE"
 test2 = "TWO"
 
 print(style.b_cyan + "RED TEXT" + style.RESET)
-print(style.b_black + "GREEN TEXT" + style.RESET)
+print(style.b_gray + "GREEN TEXT" + style.RESET)
