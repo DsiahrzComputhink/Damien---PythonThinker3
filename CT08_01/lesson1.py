@@ -75,7 +75,7 @@ no = {
 
 def display_menu(menu, ordered):
     # Display Menu
-
+    LINE = style.bBLACK + "--------------------------------------------" + style.RESET
 
 
     print(style.bBLACK + "--------------------------------------------" + style.RESET)
