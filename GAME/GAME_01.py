@@ -55,10 +55,6 @@ while stop == 0:
     print(" ",style.bblue + "bruteforce" +  style.RESET,".",style.bblue + "[PASSWORD]" +  style.RESET,"{:^10}".format(' '*10, ' '*10,) )
 
     print(style.bgray + LINE + style.RESET)
-    print("For any purchase",style.bgreen + "more than" + style.RESET, style.bcyan + "$20.00" + style.RESET,",")
-    print("You will get a", style.byellow + "10%" + style.RESET ,"Discount!")
-
-    print(style.bgray + LINE + style.RESET)
     print("Type in", style.bred + "'Thats all'" + style.RESET ,"to stop ordering.")
 
     cmd = input("")
