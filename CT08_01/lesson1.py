@@ -34,3 +34,6 @@ test2 = "TWO"
 
 print(style.b_cyan + "RED TEXT" + style.RESET)
 print(style.b_gray + "GREEN TEXT" + style.RESET)
+
+def calculate_area(length, width):
+    return length*width
