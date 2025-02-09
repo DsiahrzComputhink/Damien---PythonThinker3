@@ -35,7 +35,7 @@ test2 = "TWO"
 print(style.b_cyan + "RED TEXT" + style.RESET)
 print(style.b_gray + "GREEN TEXT" + style.RESET)
 
-def calculate_area(length, width):
+def calculate_area(length: int | float,width: int | float):
     return length*width
 
 def caculate_peri(length, width):
