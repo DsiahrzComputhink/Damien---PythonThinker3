@@ -37,3 +37,7 @@ print(style.b_gray + "GREEN TEXT" + style.RESET)
 
 def calculate_area(length, width):
     return length*width
+
+def caculate_peri(length, width):
+    return length*width
+
