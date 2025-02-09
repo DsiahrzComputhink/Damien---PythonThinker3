@@ -142,7 +142,7 @@ def display_menu(menu, ordered):
         itemordered = 1
 
         for food, price in ordered.items():
-            print(style.bBLUE + "{:20}Qnty:    {:^8.0f}".format(food, price) + style.RESET)
+            print(style.bCYAN + "{:20}Qnty:    {:^8.0f}".format(food, price) + style.RESET)
 
 
 display_menu(menu, ordered)
