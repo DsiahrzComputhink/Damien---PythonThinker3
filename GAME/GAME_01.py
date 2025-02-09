@@ -63,7 +63,7 @@ display_menu()
 stop = False
 # The Game
 
-print(menu)
+print(menu_text)
 while not stop:
 
     print("Waiting for command input...")
@@ -93,6 +93,6 @@ while not stop:
         print("\n" + style.bgreen + f"Password Cracked! → {guessed_password}" + style.RESET)
     
     elif cmd == "menu":
-        print(menu)
+        print
     else:
         print(style.dred + "Command not found." + style.RESET)
