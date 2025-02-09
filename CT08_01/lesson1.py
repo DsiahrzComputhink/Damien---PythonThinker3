@@ -3,7 +3,7 @@ class style():
     BOLD = '\033[1m'
     GRAY = '\033[2m'
     UNDERLINE = '\033[30m'
-    
+    CANCEL = '\033[30m'
 
 
     b_gray = '\033[30m'
