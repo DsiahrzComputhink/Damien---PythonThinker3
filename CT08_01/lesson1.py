@@ -155,6 +155,7 @@ def display_menu(menu, ordered):
             if amt.isnumeric():
                 if amt >= 5:
                     print("Are you sure?")
+                    input("")
                 print(style.bBLUE + f"{amt} {order}'s" + style.RESET," has been added to your order")
                 ordered[order] += int(amt)
             else:
