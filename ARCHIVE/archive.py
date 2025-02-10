@@ -30,3 +30,4 @@ class style():
     RESET = '\033[0m'
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
+

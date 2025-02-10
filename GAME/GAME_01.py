@@ -1,4 +1,3 @@
-
 def bruteforcegame():
     import random
     import time
