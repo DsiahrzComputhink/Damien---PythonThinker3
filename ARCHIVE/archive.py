@@ -32,6 +32,7 @@ print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 
 def bruteforcegame():
+
     import random
     import time
 
@@ -130,3 +131,4 @@ def bruteforcegame():
             print(menu_text)
         else:
             print(style.dred + "Command not found." + style.RESET)
+e
