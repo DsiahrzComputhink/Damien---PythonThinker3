@@ -28,91 +28,113 @@ class style():
     bwhite = '\033[97m'
     RESET = '\033[0m'
 
-# Exploit types
-exploits = {
-    "sshcrack": "SSH Cracking",
-    "ftpbounce": "FTP Bounce Exploit",
-    "sqlinject": "SQL Injection",
-    "proxybypass": "Proxy Bypass",
-    "smtpoverflow": "SMTP Overflow",
-    "webexploit": "Web Server Exploit"
-}
+# Dictionary of common passwords
+common_passwords = ["123456", "password", "qwerty", "abc123", "letmein", "pass123", "securepass", "topsecret"]
 
 # Active session
-network = {}
+network = {}  # Empty at start, scan to find targets
 hacked_nodes = []
 trace_active = False
 
+# Generates a random IP in the 192.168.x.x range
 def generate_random_ip():
     return f"192.168.{random.randint(1, 50)}.{random.randint(1, 255)}"
 
-def generate_random_name():
-    prefixes = ["Workstation", "Server", "Router", "Firewall", "Database"]
-    suffixes = ["Alpha", "Beta", "Gamma", "Delta", "Epsilon"]
-    return f"{random.choice(prefixes)}-{random.choice(suffixes)}"
-
+# Scan command to find nearby IPs
 def scan():
     print(f"{style.byellow}🔍 Scanning for nearby devices...{style.RESET}")
     time.sleep(1.5)
     
     found_ips = []
-    for _ in range(random.randint(2, 5)):
+    for _ in range(random.randint(2, 5)):  # Random number of discovered IPs
         ip = generate_random_ip()
         if ip not in network:
-            name = generate_random_name()
-            vulnerabilities = random.sample(list(exploits.keys()), random.randint(1, 3))
-            network[ip] = {"name": name, "vulnerabilities": vulnerabilities}
+            security_level = random.choice(["low", "medium", "high", "critical"])
+            password = random.choice(["pass123", "securepass", "topsecret", "admin123", "hunter2"])
+            network[ip] = {"name": f"Unknown Device ({ip})", "security": security_level, "password": password}
             found_ips.append(ip)
 
     if found_ips:
         print(f"{style.bgreen}✅ Found {len(found_ips)} new devices!{style.RESET}")
         for ip in found_ips:
-            print(f"🔗 {style.dcyan}{network[ip]['name']} ({ip}) - Possible Exploits: {', '.join(network[ip]['vulnerabilities'])}{style.RESET}")
+            print(f"🔗 {style.dcyan}{ip} ({network[ip]['security']} security){style.RESET}")
     else:
         print(f"{style.dred}⚠ No new devices found.{style.RESET}")
 
+# Tracing System
 def trace_timer():
+    """Starts a trace countdown."""
     global trace_active
     trace_active = True
-    for i in range(90, 0, -1):  # 90 seconds countdown
+    for i in range(10, 0, -1):
         print(f"{style.bred}⚠ TRACE IN PROGRESS! Disconnect in {i} seconds!{style.RESET}", end="\r")
         time.sleep(1)
     print(f"\n{style.dred}💀 You've been traced! GAME OVER!{style.RESET}")
     exit()
 
-def exploit(ip, method):
+# Brute Force Attack
+def brute_force(ip):
+    """Tries to hack a system using dictionary attack first, then brute force."""
     if ip not in network:
         print(f"{style.bred}❌ Invalid target.{style.RESET}")
         return
-    
-    if method not in network[ip]["vulnerabilities"]:
-        print(f"{style.dred}❌ Exploit failed! {method} is not a valid attack for this target.{style.RESET}")
-        return
-    
-    print(f"{style.byellow}🔓 Launching {exploits[method]} on {network[ip]['name']} ({ip})...{style.RESET}")
-    time.sleep(2)
-    print(f"{style.bgreen}✅ {network[ip]['name']} ({ip}) hacked successfully using {exploits[method]}!{style.RESET}")
+
+    password_string = network[ip]["password"]
+    words = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+    print(style.bred + "🔓 Starting hack attempt..." + style.RESET)
+
+    # Start trace timer if security is high or critical
+    if network[ip]["security"] in ["high", "critical"]:
+        threading.Thread(target=trace_timer, daemon=True).start()
+
+    # Step 1: Dictionary Attack
+    print(f"{style.byellow}📖 Running Dictionary Attack...{style.RESET}")
+    time.sleep(1)
+    for common in common_passwords:
+        print(f"{style.dcyan}🔑 Trying: {common}...{style.RESET}", end="\r")
+        time.sleep(0.5)
+        if common == password_string:
+            print("\n" + style.bgreen + f"✅ Password Found in Dictionary! → {common}" + style.RESET)
+            hacked_nodes.append(ip)
+            global trace_active
+            trace_active = False  # Stop tracing if hacked in time
+            return
+
+    # Step 2: Brute Force Attack (if dictionary fails)
+    print("\n" + style.dred + "⚠ Dictionary Attack Failed. Switching to Brute Force..." + style.RESET)
+
+    TIME = 0.2  # Initial delay between guesses
+    guessed_password = ""
+
+    for target_index, target_char in enumerate(password_string):
+        for attempt in words:
+            print(style.dcyan + f"🔑 Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
+
+            time.sleep(TIME)  # Simulate brute force delay
+            if TIME > 0.01:
+                TIME *= 0.99  # Speed up over time
+            elif TIME <= 0.01:
+                TIME *= 0.999  # Slow down speed-up rate
+
+            if attempt == target_char:
+                guessed_password += attempt
+                break  # Move to the next letter
+
+    print("\n" + style.bgreen + f"✅ Password Cracked! → {guessed_password}" + style.RESET)
     hacked_nodes.append(ip)
-    global trace_active
-    trace_active = False
+    trace_active = False  # Stop tracing if hacked in time
 
-def exploit_all(ip):
-    if ip not in network:
-        print(f"{style.bred}❌ Invalid target.{style.RESET}")
-        return
-
-    print(f"{style.byellow}🔓 Attempting all exploits on {network[ip]['name']} ({ip})...{style.RESET}")
-    for method in exploits.keys():
-        if method in network[ip]["vulnerabilities"]:
-            exploit(ip, method)
-
+# Disconnect
 def disconnect():
+    """Disconnects from the system and stops tracing."""
     global trace_active
     print(f"🔌 {style.bblue}Disconnected.{style.RESET}")
     if trace_active:
         trace_active = False
         print(f"🚀 {style.bgreen}You escaped before getting traced!{style.RESET}")
 
+# Fake terminal loop
 def terminal():
     print(f"{style.bwhite}💻 Welcome to Hacknet-Python! Type 'help' for commands.{style.RESET}")
     while True:
@@ -123,17 +145,12 @@ def terminal():
             break
         elif cmd == "scan":
             scan()
-        elif cmd.startswith("exploit "):
-            parts = cmd.split(" ")
-            if len(parts) == 2:
-                exploit_all(parts[1])
-            else:
-                print(f"{style.dred}❌ Usage: exploit <IP>{style.RESET}")
+        elif cmd.startswith("bruteforce "):
+            brute_force(cmd.split(" ")[1])
         elif cmd == "disconnect":
             disconnect()
         elif cmd == "help":
-            print(f"{style.bwhite}📜 Commands: {style.RESET}scan, exploit <IP>, disconnect, exit")
-            print(f"{style.byellow}Available Exploits: {', '.join(exploits.keys())}{style.RESET}")
+            print(f"{style.bwhite}📜 Commands: {style.RESET}scan, bruteforce <IP>, disconnect, exit")
         else:
             print(f"{style.bred}❌ Command not found.{style.RESET}")
 
