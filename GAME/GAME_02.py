@@ -105,7 +105,7 @@ def brute_force(ip):
 
         attempts += 1
 
-    print(f"{style.bred}❌ Brute force failed.{style.RESET}")
+    print(f"{style.bred}Brute force failed.{style.RESET}")
 
 def disconnect():
     """Disconnects from the system and stops tracing."""
@@ -113,13 +113,13 @@ def disconnect():
     print(f"🔌 {style.bblue}Disconnected.{style.RESET}")
     if trace_active:
         trace_active = False
-        print(f"🚀 {style.bgreen}You escaped before getting traced!{style.RESET}")
+        print(f" {style.bgreen}You escaped before getting traced!{style.RESET}")
 
 def check_missions():
     """Checks available missions."""
     print(f"\n📜 {style.byellow}Active Missions:{style.RESET}")
     for mission in missions:
-        status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}❌ Pending{style.RESET}"
+        status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}Pending{yle.RESET}"
         print(f"- Hack {mission['target']} to {mission['objective']} (${mission['reward']}) [{status}]")
 
 def claim_rewards():
