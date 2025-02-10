@@ -28,20 +28,38 @@ class style():
     bwhite = '\033[97m'
     RESET = '\033[0m'
 
-# Network structure: IP -> { name, security level, password }
-network = {
-    "192.168.1.10": {"name": "Local Server", "security": "low", "password": "pass123"},
-    "192.168.1.20": {"name": "Bank Server", "security": "high", "password": "securepass"},
-    "192.168.1.30": {"name": "Government Database", "security": "critical", "password": "topsecret"},
-}
-
 # Dictionary of common passwords
 common_passwords = ["123456", "password", "qwerty", "abc123", "letmein", "pass123", "securepass", "topsecret"]
 
 # Active session
-player_money = 0
+network = {}  # Empty at start, scan to find targets
 hacked_nodes = []
 trace_active = False
+
+# Generates a random IP in the 192.168.x.x range
+def generate_random_ip():
+    return f"192.168.{random.randint(1, 50)}.{random.randint(1, 255)}"
+
+# Scan command to find nearby IPs
+def scan():
+    print(f"{style.byellow}🔍 Scanning for nearby devices...{style.RESET}")
+    time.sleep(1.5)
+    
+    found_ips = []
+    for _ in range(random.randint(2, 5)):  # Random number of discovered IPs
+        ip = generate_random_ip()
+        if ip not in network:
+            security_level = random.choice(["low", "medium", "high", "critical"])
+            password = random.choice(["pass123", "securepass", "topsecret", "admin123", "hunter2"])
+            network[ip] = {"name": f"Unknown Device ({ip})", "security": security_level, "password": password}
+            found_ips.append(ip)
+
+    if found_ips:
+        print(f"{style.bgreen}✅ Found {len(found_ips)} new devices!{style.RESET}")
+        for ip in found_ips:
+            print(f"🔗 {style.dcyan}{ip} ({network[ip]['security']} security){style.RESET}")
+    else:
+        print(f"{style.dred}⚠ No new devices found.{style.RESET}")
 
 # Tracing System
 def trace_timer():
@@ -125,12 +143,14 @@ def terminal():
         if cmd == "exit":
             print(f"{style.bred}👋 Shutting down...{style.RESET}")
             break
+        elif cmd == "scan":
+            scan()
         elif cmd.startswith("bruteforce "):
             brute_force(cmd.split(" ")[1])
         elif cmd == "disconnect":
             disconnect()
         elif cmd == "help":
-            print(f"{style.bwhite}📜 Commands: {style.RESET}bruteforce <IP>, disconnect, exit")
+            print(f"{style.bwhite}📜 Commands: {style.RESET}scan, bruteforce <IP>, disconnect, exit")
         else:
             print(f"{style.bred}❌ Command not found.{style.RESET}")
 
