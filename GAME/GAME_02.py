@@ -119,7 +119,7 @@ def check_missions():
     """Checks available missions."""
     print(f"\n📜 {style.byellow}Active Missions:{style.RESET}")
     for mission in missions:
-        status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}Pending{yle.RESET}"
+        status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}Pendin{style.RESET}"
         print(f"- Hack {mission['target']} to {mission['objective']} (${mission['reward']}) [{status}]")
 
 def claim_rewards():
