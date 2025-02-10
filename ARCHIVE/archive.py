@@ -131,4 +131,4 @@ def bruteforcegame():
             print(menu_text)
         else:
             print(style.dred + "Command not found." + style.RESET)
-e
+# Brute Force Game ⬆
