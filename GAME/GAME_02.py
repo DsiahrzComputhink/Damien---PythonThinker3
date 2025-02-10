@@ -2,6 +2,8 @@ import time
 import random
 import threading
 
+# some random chat gpt shit i guess
+
 # Text Styling Class
 class style():
     BOLD = '\033[1m'
