@@ -96,6 +96,16 @@ def exploit(ip, method):
     global trace_active
     trace_active = False
 
+def exploit_all(ip):
+    if ip not in network:
+        print(f"{style.bred}❌ Invalid target.{style.RESET}")
+        return
+
+    print(f"{style.byellow}🔓 Attempting all exploits on {network[ip]['name']} ({ip})...{style.RESET}")
+    for method in exploits.keys():
+        if method in network[ip]["vulnerabilities"]:
+            exploit(ip, method)
+
 def disconnect():
     global trace_active
     print(f"🔌 {style.bblue}Disconnected.{style.RESET}")
@@ -113,17 +123,16 @@ def terminal():
             break
         elif cmd == "scan":
             scan()
-        elif cmd.startswith("sshcrack") or cmd.startswith("ftpbounce") or cmd.startswith("sqlinject") or \
-             cmd.startswith("proxybypass") or cmd.startswith("smtpoverflow") or cmd.startswith("webexploit"):
+        elif cmd.startswith("exploit "):
             parts = cmd.split(" ")
             if len(parts) == 2:
-                exploit(parts[1], parts[0])
+                exploit_all(parts[1])
             else:
-                print(f"{style.dred}❌ Usage: {cmd} <IP>{style.RESET}")
+                print(f"{style.dred}❌ Usage: exploit <IP>{style.RESET}")
         elif cmd == "disconnect":
             disconnect()
         elif cmd == "help":
-            print(f"{style.bwhite}📜 Commands: {style.RESET}scan, <exploit> <IP>, disconnect, exit")
+            print(f"{style.bwhite}📜 Commands: {style.RESET}scan, exploit <IP>, disconnect, exit")
             print(f"{style.byellow}Available Exploits: {', '.join(exploits.keys())}{style.RESET}")
         else:
             print(f"{style.bred}❌ Command not found.{style.RESET}")
