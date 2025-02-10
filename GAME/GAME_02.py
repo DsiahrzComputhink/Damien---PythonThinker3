@@ -132,8 +132,8 @@ def terminal():
         elif cmd == "claim":
             claim_rewards()
         elif cmd == "help":
-            print("📜 Commands: scan, connect <IP>, bruteforce <IP>, disconnect, missions, claim, exit")
+            print("Commands: scan, connect <IP>, bruteforce <IP>, disconnect, missions, claim, exit")
         else:
-            print(" Command not found.")
+            print("Command not found.")
 
 terminal()
