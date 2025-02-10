@@ -2,6 +2,32 @@ import time
 import random
 import threading
 
+# Text Styling Class
+class style():
+    BOLD = '\033[1m'
+    ITALIC = '\033[3m'
+    UNDERLINE = '\033[4m'
+    CANCEL = '\033[9m'
+    bgbwhite = '\033[7m'
+    black = '\033[8m'
+    bgray = '\033[30m'
+    dred = '\033[31m'
+    dgreen = '\033[32m'
+    dyellow = '\033[33m'
+    dblue = '\033[34m'
+    dpurple = '\033[35m'
+    dcyan = '\033[36m'
+    dwhite = '\033[37m'
+    bgray = '\033[90m'
+    bred = '\033[91m'
+    bgreen = '\033[92m'
+    byellow = '\033[93m'
+    bblue = '\033[94m'
+    bpurple = '\033[95m'
+    bcyan = '\033[96m'
+    bwhite = '\033[97m'
+    RESET = '\033[0m'
+
 # Network structure: IP -> { name, security level, password }
 network = {
     "192.168.1.10": {"name": "Local Server", "security": "low", "password": "pass123"},
@@ -27,33 +53,34 @@ def trace_timer():
     global trace_active
     trace_active = True
     for i in range(10, 0, -1):
-        print(f"⚠ TRACE IN PROGRESS! Disconnect in {i} seconds!", end="\r")
+        print(f"{style.bred}⚠ TRACE IN PROGRESS! Disconnect in {i} seconds!{style.RESET}", end="\r")
         time.sleep(1)
-    print("\n💀 You've been traced! GAME OVER!")
+    print(f"\n{style.dred}💀 You've been traced! GAME OVER!{style.RESET}")
     exit()
 
 def scan_network():
     """Scans the network for hackable systems."""
-    print("\n🔍 Scanning for active systems...")
+    print(f"\n{style.byellow}🔍 Scanning for active systems...{style.RESET}")
     for ip, data in network.items():
-        print(f"📡 {ip} [{data['security'].capitalize()} Security] - {data['name']}")
-    print("💡 Use 'connect <IP>' to access a system.")
+        sec_color = {"low": style.bgreen, "high": style.byellow, "critical": style.bred}[data["security"]]
+        print(f"📡 {ip} [{sec_color}{data['security'].capitalize()} Security{style.RESET}] - {data['name']}")
+    print(f"💡 {style.dcyan}Use 'connect <IP>' to access a system.{style.RESET}")
 
 def connect(ip):
     """Connects to a system and starts hacking."""
     if ip in network:
-        print(f"🔌 Connected to {ip} - {network[ip]['name']}")
-        print("💡 Use 'bruteforce' to hack the system.")
+        print(f"🔌 {style.bgreen}Connected to {ip} - {network[ip]['name']}{style.RESET}")
+        print(f"💡 {style.dcyan}Use 'bruteforce' to hack the system.{style.RESET}")
     else:
-        print("❌ Invalid IP.")
+        print(f"{style.bred}❌ Invalid IP.{style.RESET}")
 
 def brute_force(ip):
     """Tries to hack a system using brute force."""
     if ip not in network:
-        print("❌ Invalid target.")
+        print(f"{style.bred}❌ Invalid target.{style.RESET}")
         return
 
-    print("🔓 Starting brute force attack...")
+    print(f"🔓 {style.byellow}Starting brute force attack...{style.RESET}")
     attempts = 0
     security = network[ip]["security"]
 
@@ -66,11 +93,11 @@ def brute_force(ip):
 
     while attempts < max_attempts:
         guess = f"pass{random.randint(100,999)}"
-        print(f"🔑 Trying {guess}...")
+        print(f"{style.dcyan}🔑 Trying {guess}...{style.RESET}")
         time.sleep(0.5)
 
         if guess == network[ip]["password"]:
-            print(f"✅ SUCCESS! You hacked {ip} - {network[ip]['name']}")
+            print(f"{style.bgreen}✅ SUCCESS! You hacked {ip} - {network[ip]['name']}{style.RESET}")
             hacked_nodes.append(ip)
             global trace_active
             trace_active = False  # Cancel tracing if hacked in time
@@ -78,21 +105,21 @@ def brute_force(ip):
 
         attempts += 1
 
-    print("❌ Brute force failed.")
+    print(f"{style.bred}❌ Brute force failed.{style.RESET}")
 
 def disconnect():
     """Disconnects from the system and stops tracing."""
     global trace_active
-    print("🔌 Disconnected.")
+    print(f"🔌 {style.bblue}Disconnected.{style.RESET}")
     if trace_active:
         trace_active = False
-        print("🚀 You escaped before getting traced!")
+        print(f"🚀 {style.bgreen}You escaped before getting traced!{style.RESET}")
 
 def check_missions():
     """Checks available missions."""
-    print("\n📜 Active Missions:")
+    print(f"\n📜 {style.byellow}Active Missions:{style.RESET}")
     for mission in missions:
-        status = "✔ Completed" if mission["target"] in hacked_nodes else "❌ Pending"
+        status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}❌ Pending{style.RESET}"
         print(f"- Hack {mission['target']} to {mission['objective']} (${mission['reward']}) [{status}]")
 
 def claim_rewards():
@@ -106,18 +133,18 @@ def claim_rewards():
             mission["claimed"] = True
 
     if earned > 0:
-        print(f"💰 You earned ${earned}! Total Balance: ${player_money}")
+        print(f"💰 {style.bgreen}You earned ${earned}! Total Balance: ${player_money}{style.RESET}")
     else:
-        print("❌ No rewards available.")
+        print(f"{style.bred}❌ No rewards available.{style.RESET}")
 
 # Fake terminal loop
 def terminal():
-    print("💻 Welcome to Hacknet-Python! Type 'help' for commands.")
+    print(f"{style.bwhite}💻 Welcome to Hacknet-Python! Type 'help' for commands.{style.RESET}")
     while True:
-        cmd = input("\nroot@hacker:~$ ").strip().lower()
+        cmd = input(f"\n{style.bblue}root@hacker:~$ {style.RESET}").strip().lower()
 
         if cmd == "exit":
-            print("👋 Shutting down...")
+            print(f"{style.bred}👋 Shutting down...{style.RESET}")
             break
         elif cmd == "scan":
             scan_network()
@@ -132,8 +159,8 @@ def terminal():
         elif cmd == "claim":
             claim_rewards()
         elif cmd == "help":
-            print("Commands: scan, connect <IP>, bruteforce <IP>, disconnect, missions, claim, exit")
+            print(f"{style.bwhite}Commands: {style.RESET}scan, connect <IP>, bruteforce <IP>, disconnect, missions, claim, exit")
         else:
-            print("Command not found.")
+            print(f"{style.bred} Command not found.{style.RESET}")
 
 terminal()
