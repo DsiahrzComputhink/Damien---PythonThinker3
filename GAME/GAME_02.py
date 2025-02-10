@@ -74,7 +74,7 @@ def scan():
 def trace_timer():
     global trace_active
     trace_active = True
-    for i in range(10, 0, -1):
+    for i in range(90, 0, -1):  # 90 seconds countdown
         print(f"{style.bred}⚠ TRACE IN PROGRESS! Disconnect in {i} seconds!{style.RESET}", end="\r")
         time.sleep(1)
     print(f"\n{style.dred}💀 You've been traced! GAME OVER!{style.RESET}")
