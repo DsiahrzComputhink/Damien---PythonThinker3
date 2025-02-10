@@ -55,7 +55,7 @@ def trace_timer():
     for i in range(10, 0, -1):
         print(f"{style.bred}⚠ TRACE IN PROGRESS! Disconnect in {i} seconds!{style.RESET}", end="\r")
         time.sleep(1)
-    print(f"\n{style.dred}💀 You've been traced! GAME OVER!{style.RESET}")
+    print(f"\n{style.dred}You've been traced! GAME OVER!{style.RESET}")
     exit()
 
 def scan_network():
