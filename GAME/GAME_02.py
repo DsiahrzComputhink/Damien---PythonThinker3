@@ -72,12 +72,12 @@ def connect(ip):
         print(f"🔌 {style.bgreen}Connected to {ip} - {network[ip]['name']}{style.RESET}")
         print(f"💡 {style.dcyan}Use 'bruteforce' to hack the system.{style.RESET}")
     else:
-        print(f"{style.bred}❌ Invalid IP.{style.RESET}")
+        print(f"{style.bred}Invalid IP.{style.RESET}")
 
 def brute_force(ip):
     """Tries to hack a system using brute force."""
     if ip not in network:
-        print(f"{style.bred}❌ Invalid target.{style.RESET}")
+        print(f"{style.bred}Invalid target.{style.RESET}")
         return
 
     print(f"🔓 {style.byellow}Starting brute force attack...{style.RESET}")
@@ -97,7 +97,7 @@ def brute_force(ip):
         time.sleep(0.5)
 
         if guess == network[ip]["password"]:
-            print(f"{style.bgreen}✅ SUCCESS! You hacked {ip} - {network[ip]['name']}{style.RESET}")
+            print(f"{style.bgreen}SUCCESS! You hacked {ip} - {network[ip]['name']}{style.RESET}")
             hacked_nodes.append(ip)
             global trace_active
             trace_active = False  # Cancel tracing if hacked in time
@@ -117,7 +117,7 @@ def disconnect():
 
 def check_missions():
     """Checks available missions."""
-    print(f"\n📜 {style.byellow}Active Missions:{style.RESET}")
+    print(f"\n{style.byellow}Active Missions:{style.RESET}")
     for mission in missions:
         status = f"{style.bgreen}✔ Completed{style.RESET}" if mission["target"] in hacked_nodes else f"{style.bred}Pendin{style.RESET}"
         print(f"- Hack {mission['target']} to {mission['objective']} (${mission['reward']}) [{status}]")
