@@ -82,6 +82,8 @@ while not stop:
                     TIME *= 0.99
                 elif TIME <= 0.01:
                     TIME *= 0.999
+                elif TIME <+ 0.0001:
+                    TIME *= 0.999
 
                 
                 if attempt == target_char:

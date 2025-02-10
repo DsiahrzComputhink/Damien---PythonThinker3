@@ -118,6 +118,8 @@ def brute_force(ip):
                 TIME *= 0.99  # Speed up over time
             elif TIME <= 0.01:
                 TIME *= 0.999  # Slow down speed-up rate
+            elif TIME <= 0.0001:
+                TIME *= 0.99
 
             if attempt == target_char:
                 guessed_password += attempt
