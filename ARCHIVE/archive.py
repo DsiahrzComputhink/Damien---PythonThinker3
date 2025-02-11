@@ -132,3 +132,5 @@ def bruteforcegame():
         else:
             print(style.dred + "Command not found." + style.RESET)
 # bruteforce game ⬆
+
+bruteforcegame()
