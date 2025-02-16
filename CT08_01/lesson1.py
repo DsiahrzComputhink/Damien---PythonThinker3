@@ -44,7 +44,7 @@ def createnewstudent(num, num_attendance=5):
     for _ in range(num):
         attendance_list = []
         for _ in range(num_attendance):
-            attendance_list.append(random.choice([True, True, True, False, False]))
+            attendance_list.append(random.choice([True, True, False]))
         
         students[f"TEST{NAME}"] = attendance_list
         NAME += 1
@@ -162,6 +162,6 @@ def notify(students: dict, threshold: float) -> list:
     else:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
-createnewstudent(10000,25)
+createnewstudent(10000,15)
 attendance_percentage("all",students)
 notify(students,50.0)
