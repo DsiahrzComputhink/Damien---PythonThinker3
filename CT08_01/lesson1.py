@@ -39,4 +39,5 @@ students = {
     "Alice": [True, False, True],
 }
 
-students.append
+students["Durian"] = 24.40
+print(students)
