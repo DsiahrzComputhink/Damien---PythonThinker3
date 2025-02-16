@@ -67,7 +67,7 @@ def take_attendance(students: dict) -> dict:
         print(student)
         while True:
             print("Is",style.bblue + f"{student}" + style.RESET,"Present?",style.dgreen + "Y" + style.RESET,"/",style.dred + "N" + style.RESET)
-            attendance = input(style.byellow)
+            attendance = input(style.byellow + "PRESENT?" + style.RESET)
             (student).lower()
         
 
