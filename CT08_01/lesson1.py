@@ -95,6 +95,7 @@ def attendance_percentage(student: str, students: dict) -> float:
             Denom = len(attendancelist)
             p = round((TRUE/Denom) * 100,2)
             a = round((FALSE/Denom) * 100,2)
+            print("student")
             print("Present",style.bgreen + f"{p}" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}" + style.RESET,"of the time")
         else:
