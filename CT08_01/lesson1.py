@@ -71,10 +71,10 @@ def take_attendance(students: dict) -> dict:
             attendance.lower()
 
             if attendance == "y":
-                students[student.append(True)]
+                students[student].append(True)
                 break
             elif attendance == "n":
-                students[student.append(False)]
+                students[student].append(False)
                 break
             else:
                 print(style.bred + "INVALID" + style.RESET)
