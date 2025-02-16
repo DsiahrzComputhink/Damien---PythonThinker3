@@ -98,8 +98,10 @@ def attendance_percentage(student: str, students: dict) -> float:
             print(style.dred + f"{student}" + style.RESET,"is")
             print("Present",style.bgreen + f"{p}" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}" + style.RESET,"of the time")
+            return 
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
+        return 0.0
     # -----------------------------------
     else:
         if student in students:
@@ -120,4 +122,4 @@ def attendance_percentage(student: str, students: dict) -> float:
 def notify(students: dict, threshold: float) -> list:
     for student in students():
         attendance_percentage(student, students)
-        
+
