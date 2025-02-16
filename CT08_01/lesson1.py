@@ -36,5 +36,5 @@ class style():
 # Built a system menu to access functions
 
 students = {
-    guh
+    "Alice": []
 }
