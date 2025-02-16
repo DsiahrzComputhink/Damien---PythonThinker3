@@ -57,6 +57,5 @@ def createnewstudent():
         a3 = True
     else:
         a3 = False
-
-students[f"TEST{NAME}"] = [a1,a2,a3]
-print(students)
+    students[f"TEST{NAME}"] = [a1,a2,a3]
+    print(students)
