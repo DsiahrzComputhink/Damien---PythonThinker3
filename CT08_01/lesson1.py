@@ -30,7 +30,7 @@ class style():
 
     RESET = '\033[0m'
 
-# Create a student database
+
 # Add new attendance record to students
 # Check attendance percentage for astudent
 # Notify low percentages for student
@@ -59,3 +59,7 @@ def createnewstudent():
         a3 = False
     students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
+
+def take_attendance(students: dict) -> dict:
+    for _ in students():
+        
