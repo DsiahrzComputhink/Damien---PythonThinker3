@@ -90,6 +90,7 @@ def createnewstudent():
     students[NAMES(NAME)] = [a1,a2,a3]
     print(students)
 
+createnewstudent()
 
 
 def take_attendance(students: dict) -> dict:
