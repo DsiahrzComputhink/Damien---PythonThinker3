@@ -76,6 +76,8 @@ def take_attendance(students: dict) -> dict:
             elif attendance == "n":
                 students[student.append(False)]
                 break
+            else:
+                print(style.bred )
         
 
     return {}
