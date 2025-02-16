@@ -99,9 +99,9 @@ def attendance_percentage(student: str, students: dict) -> float:
             if p >= 50:
                 COLOUR = style.bgreen
             if p >= 30:
-                COLOUR = style.
+                COLOUR = style.byellow
             if p >= 20:
-                COLOUR = style.bgreen
+                COLOUR = style.dred
             print(style.bgray + "-------------------------------" + style.RESET)
             print(style.bblue + f"{student}" + style.RESET,"is")
             print("Present",COLOUR + f"{p}%" + style.RESET,"of the time")
