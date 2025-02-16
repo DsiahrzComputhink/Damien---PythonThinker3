@@ -113,14 +113,17 @@ def attendance_percentage(student: str, students: dict) -> float:
             a = round((FALSE/Denom) * 100,2)
             print("Present",style.bgreen + f"{p}" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}" + style.RESET,"of the time")
-                        return round((TRUE/Denom) * 100,2)
+            return round((TRUE/Denom) * 100,2)
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
+        return 0.0
         
 # take_attendance(students)
 # attendance_percentage("all",students)
 
 def notify(students: dict, threshold: float) -> list:
     for student in students():
-        attendance_percentage(student, students)
+        percentage = attendance_percentage(student, students)
+        if percentage < threshold:
+            print()
 
