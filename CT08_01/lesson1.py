@@ -42,7 +42,6 @@ students = {
 
 NAME = 1
 def createnewstudent():
-    NAME += 1
     test = random.randint(1,4)
     if test > 1:
         a1 = True
