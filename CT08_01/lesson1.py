@@ -40,7 +40,7 @@ students = {
     "Alice": [True, False, True],
 }
 
-NAME = 1
+
 def createnewstudent():
     test = random.randint(1,4)
     if test > 1:
