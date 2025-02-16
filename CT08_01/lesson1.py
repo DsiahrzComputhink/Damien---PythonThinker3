@@ -119,4 +119,5 @@ def attendance_percentage(student: str, students: dict) -> float:
 
 def notify(students: dict, threshold: float) -> list:
     for student in students():
-        attendance_percentage(student, student)
+        attendance_percentage(student, students)
+        
