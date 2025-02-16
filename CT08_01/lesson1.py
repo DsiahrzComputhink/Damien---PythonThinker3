@@ -38,7 +38,7 @@ class style():
 # Built a system menu to access functions
 
 students = {
-    "Alice": [True, False, True],
+    #"Alice": [True, False, True],
 }
 
 
@@ -61,7 +61,7 @@ def createnewstudent(num):
             a3 = True
         else:
             a3 = False
-        students[f"TEST{NAME}"] = [a1,a2,a3]
+        students[f"TEST{NAME}"] = [a1,a2,a3,a4]
         NAME += 1
 
 
