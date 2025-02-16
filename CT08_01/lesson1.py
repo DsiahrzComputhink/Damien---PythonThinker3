@@ -65,7 +65,7 @@ def createnewstudent():
 def take_attendance(students: dict) -> dict:
     for student in students:
         print(student)
-        print("Is",style.bblue + f"{student}" + style.RESET,"Present?",style.dgreen + "y" + style.RESET,"/",style.bblue + f"{student}" + style.RESET)
+        print("Is",style.bblue + f"{student}" + style.RESET,"Present?",style.dgreen + "y" + style.RESET,"/",style.dred + "n" + style.RESET)
     return {}
 
 take_attendance(students)
