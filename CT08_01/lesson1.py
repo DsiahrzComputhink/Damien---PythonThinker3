@@ -41,24 +41,22 @@ students = {
 }
 
 NAME = 1
-VAR = 0
 
-VAR += 1
 test = random.randint(1,4)
 if test >= 1:
     a1 = True
 else:
     a1 = False
-
+test = random.randint(1,4)
 if test >= 1:
     a2 = True
 else:
     a2 = False
-
+test = random.randint(1,4)
 if test >= 1:
     a3 = True
 else:
-    a1 = False
+    a3 = False
 
 students[f"TEST{NAME}"] = [a1,a2,a3]
 print(students)
