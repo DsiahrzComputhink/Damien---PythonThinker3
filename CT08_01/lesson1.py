@@ -87,8 +87,14 @@ def take_attendance(students: dict) -> dict:
 take_attendance(students)
 
 def attendance_percentage(student: str, students: dict) -> float:
+    percentage = []
     print(student)
-    if 
+    for attendance in range(len(student)):
+        if attendance is True:
+            percentage.append(True)
+        else:
+            percentage.append(False)
+    return 0.0
 
 
 attendance_percentage(Alice,students)
