@@ -59,6 +59,7 @@ def createnewstudent():
         a3 = False
     students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
+    NAME += 1
 
 
 
