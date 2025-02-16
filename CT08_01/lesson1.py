@@ -43,18 +43,26 @@ students = {
 
 
 
-import random
-def create_new_student(num, num_attributes):
-    students = {}
-    name_counter = 1
-    
+def createnewstudent(num):
+    NAME = 1
     for i in range(num):
-        attributes = [random.randint(1, 4) > 1 for _ in range(num_attributes)]
-        
-        students[f"TEST{name_counter}"] = attributes
-        name_counter += 1
-    
-    return students
+        test = random.randint(1,4)
+        if test > 1:
+            a1 = True
+        else:
+            a1 = False
+        test = random.randint(1,4)
+        if test > 1:
+            a2 = True
+        else:
+            a2 = False
+        test = random.randint(1,4)
+        if test > 1:
+            a3 = True
+        else:
+            a3 = False
+        students[f"TEST{NAME}"] = [a1,a2,a3,a4]
+        NAME += 1
 
 
 def take_attendance(students: dict) -> dict:
@@ -163,6 +171,6 @@ def notify(students: dict, threshold: float) -> list:
     else:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
-create_new_student(100,365)
+createnewstudent(10)
 attendance_percentage("all",students)
 notify(students,50.0)
