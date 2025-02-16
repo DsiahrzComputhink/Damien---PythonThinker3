@@ -62,4 +62,4 @@ def createnewstudent():
 
 def take_attendance(students: dict) -> dict:
     for _ in students():
-        
+        print()
