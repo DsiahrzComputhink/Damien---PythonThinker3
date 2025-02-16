@@ -153,4 +153,5 @@ createnewstudent(10)
 attendance_percentage("all",students)
 notify(students,50.0)
 
-print(students)
+while True:
+    attendance_percentage("all",students)  
