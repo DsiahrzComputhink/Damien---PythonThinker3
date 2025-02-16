@@ -98,6 +98,7 @@ def attendance_percentage(student: str, students: dict) -> float:
             print(style.bblue + f"{student}" + style.RESET,"is")
             print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
+            time.sleep(1)
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
         return 0.0
