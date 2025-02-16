@@ -154,7 +154,3 @@ def notify(students: dict, threshold: float) -> list:
 createnewstudent(10)
 attendance_percentage("all",students)
 notify(students,50.0)
-
-while True:
-    attendance_percentage("all",students)
-    time.sleep(1)
