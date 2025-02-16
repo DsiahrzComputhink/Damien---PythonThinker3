@@ -34,3 +34,7 @@ class style():
 # Check attendance percentage for astudent
 # Notify low percentages for student
 # Built a system menu to access functions
+
+students = {
+
+}
