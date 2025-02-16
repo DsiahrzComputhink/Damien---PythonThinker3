@@ -60,6 +60,8 @@ def createnewstudent():
     students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
 
+
+print(style.bGREEN + "GREEN TEXT" + style.RESET)
 def take_attendance(students: dict) -> dict:
     for _ in students():
         print()
