@@ -166,5 +166,5 @@ def notify(students: dict, threshold: float) -> list:
     else:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
-attendance_percentage("all",students)
+attendance_percentage(all,students)
 notify(students,50.0)
