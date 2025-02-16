@@ -118,4 +118,5 @@ def attendance_percentage(student: str, students: dict) -> float:
 # attendance_percentage("all",students)
 
 def attendance_percentage(students: dict, threshold: float) -> list:
-    
+    for student in students():
+        
