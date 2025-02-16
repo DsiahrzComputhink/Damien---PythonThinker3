@@ -63,14 +63,14 @@ def createnewstudent(num):
             a3 = False
         test = random.randint(1,4)
         if test > 1:
-            a3 = True
+            a4 = True
         else:
-            a3 = False
+            a4 = False
         test = random.randint(1,4)
         if test > 1:
-            a3 = True
+            a5 = True
         else:
-            a3 = False
+            a5 = False
         students[f"TEST{NAME}"] = [a1,a2,a3,a4,a5]
         NAME += 1
 
