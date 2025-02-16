@@ -123,9 +123,9 @@ def attendance_percentage(student: str, students: dict) -> float:
             a = round((FALSE/Denom) * 100,2)
             if p - 100:
                 COLOUR = style.bpurple
-            if p > 99:
+            elif p > 99:
                 COLOUR = style.bblue
-            if p > 90:
+            elif p > 90:
                 COLOUR = style.bcyan
             elif p > 75:
                 COLOUR = style.dgreen
