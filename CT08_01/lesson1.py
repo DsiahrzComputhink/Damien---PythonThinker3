@@ -134,6 +134,8 @@ def notify(students: dict, threshold: float) -> list:
         print(style.bblue + "List of students to send warning" + style.RESET)
         for student in warning:
             print(student)
+    else:
+        print(style.dgreen + "No students below threshold." + style.RESET)
     
 
 notify(students,50)
