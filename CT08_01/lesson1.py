@@ -39,3 +39,4 @@ students = {
     "Alice": [True, False, True],
 }
 
+students.append
