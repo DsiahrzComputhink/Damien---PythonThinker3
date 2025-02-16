@@ -49,8 +49,14 @@ if test >= 1:
     a1 = True
 else:
     a1 = False
+
 if test >= 1:
     a2 = True
+else:
+    a2 = False
+
+if test >= 1:
+    a3 = True
 else:
     a1 = False
 
