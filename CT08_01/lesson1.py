@@ -115,5 +115,5 @@ def attendance_percentage(student: str, students: dict) -> float:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
         
 # take_attendance(students)
+# attendance_percentage("all",students)
 
-attendance_percentage("all",students)
