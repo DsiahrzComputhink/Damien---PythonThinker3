@@ -101,6 +101,7 @@ def attendance_percentage(student: str, students: dict) -> float:
                 return round((TRUE/Denom) * 100,2)
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
+        return 0.0
     # -----------------------------------
     else:
         if student in students:
@@ -116,6 +117,7 @@ def attendance_percentage(student: str, students: dict) -> float:
             return round((TRUE/Denom) * 100,2)
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
+        return 0.0
 
 def silent_attendance_percentage(student: str, students: dict) -> float:
     if student in students:
