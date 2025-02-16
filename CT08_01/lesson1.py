@@ -85,7 +85,7 @@ def take_attendance(students: dict) -> dict:
                 print("----------------------------")
         
 def ARCHIVE_attendance_percentage(student: str, students: dict) -> float:
-    
+
     # if student is all, iterate through every student in dictionary
     if student == "all":
         for student in students:
@@ -120,6 +120,8 @@ def ARCHIVE_attendance_percentage(student: str, students: dict) -> float:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
         return 0.0
     return {}
+
+
 def attendance_percentage(student: str, students: dict) -> float:
     if student in students:
         attendancelist = students[student]
