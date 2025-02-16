@@ -39,5 +39,5 @@ students = {
     "Alice": [True, False, True],
 }
 
-students["TEST"] = [a1,a2,a3]
+students[f"TEST{NAME}"] = [a1,a2,a3]
 print(students)
