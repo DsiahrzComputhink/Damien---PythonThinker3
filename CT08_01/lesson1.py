@@ -43,26 +43,24 @@ students = {
 
 
 
-def createnewstudent(num):
-    NAME = 1
+import random
+def create_new_student(num, num_attributes):
+    students = {}
+    name_counter = 1
+    
     for i in range(num):
-        test = random.randint(1,4)
-        if test > 1:
-            a1 = True
-        else:
-            a1 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a2 = True
-        else:
-            a2 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a3 = True
-        else:
-            a3 = False
-        students[f"TEST{NAME}"] = [a1,a2,a3,a4]
-        NAME += 1
+        attributes = [random.randint(1, 4) > 1 for _ in range(num_attributes)]
+        
+        # Add the student to the dictionary with the corresponding attributes
+        students[f"TEST{name_counter}"] = attributes
+        name_counter += 1
+    
+    return students
+
+# Example usage:
+students = create_new_student(5, 4)  # Create 5 students, each with 4 random attributes
+print(students)
+
 
 
 def take_attendance(students: dict) -> dict:
