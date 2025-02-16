@@ -90,6 +90,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     percentage = []
     print(student)
     if student in students:
+        print("STUDENT EXIST")
         for attendance in range(len(student)):
             if attendance is True:
                 percentage.append(1)
