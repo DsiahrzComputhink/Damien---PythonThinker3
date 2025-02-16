@@ -33,10 +33,6 @@ class style():
     RESET = '\033[0m'
 
 
-# Check attendance percentage for astudent
-# Notify low percentages for student
-# Built a system menu to access functions
-
 students = {
     #"Alice": [True, False, True],
 }
