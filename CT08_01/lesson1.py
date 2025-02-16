@@ -121,28 +121,12 @@ def attendance_percentage(student: str, students: dict) -> float:
         
 
 def silent_attendance_percentage(student: str, students: dict) -> float:
-    # if student is all, iterate through every student in dictionary
-    if student == "all":
-        for student in students:
-            attendancelist = students[student]
-            TRUE = attendancelist.count(True)
-            FALSE = attendancelist.count(False)
-            Denom = len(attendancelist)
-            p = round((TRUE/Denom) * 100,2)
-            a = round((FALSE/Denom) * 100,2)
-            return round((TRUE/Denom) * 100,2)
-        return 0.0
-    # -----------------------------------
-    else:
-        if student in students:
-            attendancelist = students[student]
-            TRUE = attendancelist.count(True)
-            FALSE = attendancelist.count(False)
-            Denom = len(attendancelist)
-            p = round((TRUE/Denom) * 100,2)
-            a = round((FALSE/Denom) * 100,2)
-            return round((TRUE/Denom) * 100,2)
-        return 0.0
+    if student in students:
+        attendancelist = students[student]
+        TRUE = attendancelist.count(True)
+        Denom = len(attendancelist)
+        return round((TRUE/Denom) * 100,2)
+    return 0.0
         
 # take_attendance(students)
 # attendance_percentage("all",students)
