@@ -127,3 +127,4 @@ def notify(students: dict, threshold: float) -> list:
         if percentage < threshold:
             print(style.bred + "! ALERT !" + style.RESET,)
 
+notify(students,50)
