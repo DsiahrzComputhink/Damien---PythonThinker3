@@ -88,13 +88,13 @@ def attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
     if student == "all":
         for student in students:
-            print(student)
             attendancelist = students[student]
             TRUE = attendancelist.count(True)
             FALSE = attendancelist.count(False)
             Denom = len(attendancelist)
             p = round((TRUE/Denom) * 100,2)
             a = round((FALSE/Denom) * 100,2)
+            print("")
             print(style.bblue + f"{student}" + style.RESET,"is")
             print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
