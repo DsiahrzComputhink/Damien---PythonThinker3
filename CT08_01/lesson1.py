@@ -63,8 +63,8 @@ def createnewstudent():
 
 
 def take_attendance(students: dict) -> dict:
-    for _ in students():
-        print("Is",style.bcyan + students(_) + style.RESET)
+    for student in students():
+        print("Is",style.bcyan + students(student) + style.RESET)
     return {}
 
 take_attendance(students)
