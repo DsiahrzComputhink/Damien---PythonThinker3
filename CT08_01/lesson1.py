@@ -43,17 +43,17 @@ students = {
 NAME = 1
 
 test = random.randint(1,4)
-if test >= 1:
+if test > 1:
     a1 = True
 else:
     a1 = False
 test = random.randint(1,4)
-if test >= 1:
+if test > 1:
     a2 = True
 else:
     a2 = False
 test = random.randint(1,4)
-if test >= 1:
+if test > 1:
     a3 = True
 else:
     a3 = False
