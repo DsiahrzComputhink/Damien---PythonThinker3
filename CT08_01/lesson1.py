@@ -39,5 +39,7 @@ students = {
     "Alice": [True, False, True],
 }
 
+NAME = 1
+random
 students[f"TEST{NAME}"] = [a1,a2,a3]
 print(students)
