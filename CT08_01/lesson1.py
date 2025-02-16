@@ -85,7 +85,6 @@ def take_attendance(students: dict) -> dict:
                 print("----------------------------")
         
 def attendance_percentage(student: str, students: dict) -> float:
-
     # if student is all, iterate through every student in dictionary
     if student == "all":
         for student in students:
