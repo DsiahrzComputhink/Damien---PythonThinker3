@@ -78,7 +78,7 @@ def take_attendance(students: dict) -> dict:
                 break
             else:
                 print(style.bred + "INVALID" + style.RESET)
-                print("Please only input",)
+                print("Please only input",style.dgreen + "Y" + style.RESET,"or",style.dred + "N" + style.RESET)
         
 
     return {}
