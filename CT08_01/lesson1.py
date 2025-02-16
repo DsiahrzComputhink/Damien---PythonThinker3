@@ -40,8 +40,9 @@ students = {
     "Alice": [True, False, True],
 }
 
-
+NAME = 1
 def createnewstudent():
+    NAME += 1
     test = random.randint(1,4)
     if test > 1:
         a1 = True
@@ -59,7 +60,6 @@ def createnewstudent():
         a3 = False
     students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
-    NAME += 1
 
 
 
