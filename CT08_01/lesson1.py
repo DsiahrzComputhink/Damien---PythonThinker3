@@ -102,7 +102,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     else:
         print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
 
-    return 0.0
+    return 
 
 
 
