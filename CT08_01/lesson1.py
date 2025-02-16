@@ -41,6 +41,7 @@ students = {
 }
 
 NAME = 1
+VAR = 0
 for _ in range(3):
     VAR += 1
     test = random.randint(1,4)
