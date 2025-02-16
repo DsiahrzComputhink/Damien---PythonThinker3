@@ -119,6 +119,8 @@ def attendance_percentage(student: str, students: dict) -> float:
             Denom = len(attendancelist)
             p = round((TRUE/Denom) * 100,2)
             a = round((FALSE/Denom) * 100,2)
+
+            print(style.bgray + "-------------------------------" + style.RESET)
             print(style.bblue + f"{student}" + style.RESET,"is")
             print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
             print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
@@ -146,6 +148,8 @@ def notify(students: dict, threshold: float) -> list:
             warning.append(student)
             number_warning += 1
     if number_warning >= 1:
+        
+        print(style.bgray + "-------------------------------" + style.RESET)
         print(style.bred + "! ALERT !" + style.RESET)
         print(style.bblue + "List of students to send warning" + style.RESET)
         for student in warning:
