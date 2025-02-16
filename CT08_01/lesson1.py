@@ -87,7 +87,7 @@ def createnewstudent():
         a3 = False
     NAME = random.randint(0, 69-44-1)
     print(NAME)
-    students[NAMES(NAME)] = [a1,a2,a3]
+    students[NAMES(int(NAME))] = [a1,a2,a3]
     print(students)
 
 createnewstudent()
