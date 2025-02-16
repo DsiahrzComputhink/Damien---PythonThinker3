@@ -39,28 +39,29 @@ students = {
     "Alice": [True, False, True],
 }
 
-NAME = 1
 
-def createnewstudent():
-    test = random.randint(1,4)
-    if test > 1:
-        a1 = True
-    else:
-        a1 = False
-    test = random.randint(1,4)
-    if test > 1:
-        a2 = True
-    else:
-        a2 = False
-    test = random.randint(1,4)
-    if test > 1:
-        a3 = True
-    else:
-        a3 = False
-    students[f"TEST{NAME}"] = [a1,a2,a3]
-    print(students)
 
-createnewstudent()
+def createnewstudent(num):
+    NAME = 1
+    for i in range(num):
+        test = random.randint(1,4)
+        if test > 1:
+            a1 = True
+        else:
+            a1 = False
+        test = random.randint(1,4)
+        if test > 1:
+            a2 = True
+        else:
+            a2 = False
+        test = random.randint(1,4)
+        if test > 1:
+            a3 = True
+        else:
+            a3 = False
+        students[f"TEST{NAME}"] = [a1,a2,a3]
+        NAME += 1
+createnewstudent(10)
 
 
 def take_attendance(students: dict) -> dict:
@@ -165,4 +166,4 @@ def notify(students: dict, threshold: float) -> list:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
 
-notify(students,50)
+notify(students,50.0)
