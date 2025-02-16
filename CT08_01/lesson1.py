@@ -86,9 +86,7 @@ def take_attendance(students: dict) -> dict:
 
 
 def attendance_percentage(student: str, students: dict) -> float:
-    print(student)
     if student in students:
-        print("STUDENT EXIST")
         attendancelist = students[student]
         TRUE = attendancelist.count(True)
         FALSE = attendancelist.count(False)
