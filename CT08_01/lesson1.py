@@ -51,15 +51,13 @@ def create_new_student(num, num_attributes):
     for i in range(num):
         attributes = [random.randint(1, 4) > 1 for _ in range(num_attributes)]
         
-        # Add the student to the dictionary with the corresponding attributes
         students[f"TEST{name_counter}"] = attributes
         name_counter += 1
     
     return students
 
 # Example usage:
-students = create_new_student(5, 4)  # Create 5 students, each with 4 random attributes
-print(students)
+students = create_new_student(500, 40)
 
 
 
