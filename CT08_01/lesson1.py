@@ -31,7 +31,6 @@ class style():
     RESET = '\033[0m'
 
 
-# Add new attendance record to students
 # Check attendance percentage for astudent
 # Notify low percentages for student
 # Built a system menu to access functions
@@ -86,3 +85,4 @@ def take_attendance(students: dict) -> dict:
     return {}
 
 take_attendance(students)
+
