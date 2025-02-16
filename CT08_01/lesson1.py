@@ -85,21 +85,21 @@ def take_attendance(students: dict) -> dict:
                 print("----------------------------")
         
     return {}
-
-def attendance_percentage(students: dict) -> float:
+def attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
-    for student in students:
-        if student in students:
-            attendancelist = students[student]
-            TRUE = attendancelist.count(True)
-            FALSE = attendancelist.count(False)
-            Denom = len(attendancelist)
-            p = round((TRUE/Denom) * 100,2)
-            a = round((FALSE/Denom) * 100,2)
-            print(style.bblue + f"{student}" + style.RESET,"is")
-            print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
-            print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
-            return round((TRUE/Denom) * 100,2)
+    if student == "all":
+        for student in students:
+            if student in students:
+                attendancelist = students[student]
+                TRUE = attendancelist.count(True)
+                FALSE = attendancelist.count(False)
+                Denom = len(attendancelist)
+                p = round((TRUE/Denom) * 100,2)
+                a = round((FALSE/Denom) * 100,2)
+                print(style.bblue + f"{student}" + style.RESET,"is")
+                print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
+                print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
+                return round((TRUE/Denom) * 100,2)
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
         return 0.0
@@ -119,7 +119,23 @@ def attendance_percentage(students: dict) -> float:
         else:
             print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
         return 0.0
-        
+def attendance_percentage(students: dict) -> float:
+    # if student is all, iterate through every student in dictionary
+    for student in students:
+        if student in students:
+            attendancelist = students[student]
+            TRUE = attendancelist.count(True)
+            FALSE = attendancelist.count(False)
+            Denom = len(attendancelist)
+            p = round((TRUE/Denom) * 100,2)
+            a = round((FALSE/Denom) * 100,2)
+            print(style.bblue + f"{student}" + style.RESET,"is")
+            print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
+            print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
+            return round((TRUE/Denom) * 100,2)
+        else:
+            print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
+        return 0.0
 
 def silent_attendance_percentage(student: str, students: dict) -> float:
     if student in students:
