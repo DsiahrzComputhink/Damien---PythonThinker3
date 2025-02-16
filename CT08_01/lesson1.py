@@ -88,7 +88,7 @@ take_attendance(students)
 
 def attendance_percentage(student: str, students: dict) -> float:
     print(student)
-    
+    if 
 
 
 attendance_percentage(Alice,students)
