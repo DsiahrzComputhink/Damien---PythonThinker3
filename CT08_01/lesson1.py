@@ -121,23 +121,6 @@ def ARCHIVE_attendance_percentage(student: str, students: dict) -> float:
         return 0.0
     return {}
 
-def attendance_percentage(student: str, students: dict) -> float:
-    if student in students:
-        attendancelist = students[student]
-        TRUE = attendancelist.count(True)
-        FALSE = attendancelist.count(False)
-        Denom = len(attendancelist)
-        p = round((TRUE/Denom) * 100,2)
-        a = round((FALSE/Denom) * 100,2)
-        print(style.bblue + f"{student}" + style.RESET,"is")
-        print("Present",style.bgreen + f"{p}%" + style.RESET,"of the time")
-        print("Absent",style.bgreen + f"{a}%" + style.RESET,"of the time")
-        return round((TRUE/Denom) * 100,2)
-    else:
-        print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
-    return 0.0
-
-def full_attendance(students: dict) -> float:
     # if student is all, iterate through every student in dictionary
     for student in students:
         if student in students:
@@ -185,5 +168,5 @@ def notify(students: dict, threshold: float) -> list:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
 createnewstudent(10)
-full_attendance("all",students)
+full_attendance(students)
 notify(students,50.0)
