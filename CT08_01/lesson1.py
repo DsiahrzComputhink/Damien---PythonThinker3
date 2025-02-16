@@ -41,8 +41,34 @@ students = {
 }
 
 NAMES = {
-    
+    "Alice",
+    "Bob",
+    "Charlie",
+    "David",
+    "Eve",
+    "Frank",
+    "Grace",
+    "Hannah",
+    "Ivy",
+    "Jack",
+    "Kathy",
+    "Leo",
+    "Megan",
+    "Nate",
+    "Olivia",
+    "Paul",
+    "Quinn",
+    "Ruth",
+    "Sam",
+    "Tina",
+    "Ursula",
+    "Vince",
+    "Wendy",
+    "Xander",
+    "Yara",
+    "Zane"
 }
+
 def createnewstudent():
     test = random.randint(1,4)
     if test > 1:
