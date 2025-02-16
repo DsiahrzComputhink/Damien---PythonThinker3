@@ -40,34 +40,7 @@ students = {
     "Alice": [True, False, True],
 }
 
-NAMES = {
-    "Alice",
-    "Bob",
-    "Charlie",
-    "David",
-    "Eve",
-    "Frank",
-    "Grace",
-    "Hannah",
-    "Ivy",
-    "Jack",
-    "Kathy",
-    "Leo",
-    "Megan",
-    "Nate",
-    "Olivia",
-    "Paul",
-    "Quinn",
-    "Ruth",
-    "Sam",
-    "Tina",
-    "Ursula",
-    "Vince",
-    "Wendy",
-    "Xander",
-    "Yara",
-    "Zane"
-}
+NAME = 1
 
 def createnewstudent():
     test = random.randint(1,4)
@@ -86,8 +59,8 @@ def createnewstudent():
     else:
         a3 = False
     NAME = random.randint(0, 69-44-1)
-    print(NAME)
-    students[NAMES(int(NAME))] = [a1,a2,a3]
+
+    students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
 
 createnewstudent()
