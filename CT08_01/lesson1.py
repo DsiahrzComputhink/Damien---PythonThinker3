@@ -130,7 +130,7 @@ def notify(students: dict, threshold: float) -> list:
     print(style.bred + "! ALERT !" + style.RESET)
     print(style.bblue + "List of students to send warning" + style.RESET)
     for student in warning():
-        
+        print(student)
     
 
 notify(students,50)
