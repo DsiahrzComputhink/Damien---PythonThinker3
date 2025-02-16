@@ -1,4 +1,6 @@
 import random
+import time
+
 class style():
 
     BOLD = '\033[1m'
@@ -154,4 +156,5 @@ attendance_percentage("all",students)
 notify(students,50.0)
 
 while True:
-    attendance_percentage("all",students)  
+    attendance_percentage("all",students)
+    time.sleep(1)
