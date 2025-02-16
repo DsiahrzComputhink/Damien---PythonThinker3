@@ -164,9 +164,7 @@ def silent_attendance_percentage(student: str, students: dict) -> float:
         Denom = len(attendancelist)
         return round((TRUE/Denom) * 100,2)
     return 0.0
-        
-# take_attendance(students)
-# attendance_percentage("all",students)
+
 
 def notify(students: dict, threshold: float) -> list:
     warning = []
