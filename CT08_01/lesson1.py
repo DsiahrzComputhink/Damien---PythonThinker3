@@ -39,35 +39,14 @@ students = {
 
 
 
-def createnewstudent(num):
+def createnewstudent(num, num_attendance=5):
     NAME = 1
     for i in range(num):
-        test = random.randint(1,4)
-        if test > 1:
-            a1 = True
-        else:
-            a1 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a2 = True
-        else:
-            a2 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a3 = True
-        else:
-            a3 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a4 = True
-        else:
-            a4 = False
-        test = random.randint(1,4)
-        if test > 1:
-            a5 = True
-        else:
-            a5 = False
-        students[f"TEST{NAME}"] = [a1,a2,a3,a4,a5]
+        attendance_list = []
+        for _ in range(num_attendance):
+            attendance_list.append(random.choice([True, True, False, False]))
+        
+        students[f"TEST{NAME}"] = attendance_list
         NAME += 1
 
 
