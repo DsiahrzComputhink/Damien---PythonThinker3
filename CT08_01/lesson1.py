@@ -88,6 +88,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
     if student == "all":
         for student in students:
+            print(student)
             if student in students:
                 attendancelist = students[student]
                 TRUE = attendancelist.count(True)
