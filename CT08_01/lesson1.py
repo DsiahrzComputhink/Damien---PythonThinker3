@@ -162,7 +162,7 @@ def notify(students: dict, threshold: float) -> list:
         for student in warning:
             print(student)
             percentage = silent_attendance_percentage(student, students)
-            print("Present for only",style.bred + f"{percentage}" + style.RESET,"of the time")
+            print("Present for only",style.bred + f"{percentage}%" + style.RESET,"of the time")
     else:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
