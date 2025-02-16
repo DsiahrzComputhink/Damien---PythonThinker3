@@ -61,7 +61,7 @@ def createnewstudent(num):
             a3 = True
         else:
             a3 = False
-        students[f"TEST{NAME}"] = [a1,a2,a3,a4]
+        students[f"TEST{NAME}"] = [a1,a2,a3]
         NAME += 1
 
 
