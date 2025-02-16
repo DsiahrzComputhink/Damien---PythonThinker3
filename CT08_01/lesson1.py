@@ -121,7 +121,6 @@ def ARCHIVE_attendance_percentage(student: str, students: dict) -> float:
         return 0.0
     return {}
 
-
 def attendance_percentage(student: str, students: dict) -> float:
     if student in students:
         attendancelist = students[student]
@@ -186,5 +185,5 @@ def notify(students: dict, threshold: float) -> list:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
 createnewstudent(10)
-attendance_percentage("all",students)
+full_attendance("all",students)
 notify(students,50.0)
