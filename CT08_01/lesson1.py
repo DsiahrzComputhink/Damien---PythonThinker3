@@ -57,7 +57,7 @@ def create_new_student(num, num_attributes):
     return students
 
 # Example usage:
-students = create_new_student(500, 40)
+create_new_student(5000, 40)
 
 
 
