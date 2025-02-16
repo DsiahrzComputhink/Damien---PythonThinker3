@@ -84,7 +84,7 @@ def take_attendance(students: dict) -> dict:
                 print("Please only input",style.dgreen + "Y" + style.RESET,"or",style.dred + "N" + style.RESET)
                 print("----------------------------")
         
-def ARCHIVE_attendance_percentage(student: str, students: dict) -> float:
+def attendance_percentage(student: str, students: dict) -> float:
 
     # if student is all, iterate through every student in dictionary
     if student == "all":
@@ -167,5 +167,5 @@ def notify(students: dict, threshold: float) -> list:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
 createnewstudent(10)
-ARCHIVE_attendance_percentage(students)
+attendance_percentage(students)
 notify(students,50.0)
