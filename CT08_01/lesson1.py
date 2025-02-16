@@ -93,6 +93,7 @@ def attendance_percentage(student: str, students: dict) -> float:
         TRUE = attendancelist.count(True)
         FALSE = attendancelist.count(False)
         Denom = len(attendancelist)
+        return (TRUE/denom) * 100
 
         for i in range(len(attendancelist)):
             if attendancelist(i-1) == True:
@@ -102,7 +103,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     else:
         print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
 
-    return 
+    return 0.0
 
 
 
