@@ -61,7 +61,6 @@ def createnewstudent(num):
             a3 = False
         students[f"TEST{NAME}"] = [a1,a2,a3]
         NAME += 1
-createnewstudent(10)
 
 
 def take_attendance(students: dict) -> dict:
@@ -88,7 +87,6 @@ def take_attendance(students: dict) -> dict:
 
 def attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
-    print(student)
     if student == "all":
         for student in students:
             attendancelist = students[student]
