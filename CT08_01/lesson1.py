@@ -100,5 +100,5 @@ def attendance_percentage(student: str, students: dict) -> float:
                 print(percentage)
     return 0.0
 
-
+percentage 
 attendance_percentage("Alice",students)
