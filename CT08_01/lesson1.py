@@ -93,7 +93,7 @@ def attendance_percentage(student: str, students: dict) -> float:
         TRUE = attendancelist.count(True)
         FALSE = attendancelist.count(False)
         Denom = len(attendancelist)
-        return (TRUE/denom) * 100
+        return (TRUE/Denom) * 100
 
         for i in range(len(attendancelist)):
             if attendancelist(i-1) == True:
