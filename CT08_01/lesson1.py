@@ -44,7 +44,7 @@ def createnewstudent(num, num_attendance=5):
     for i in range(num):
         attendance_list = []
         for _ in range(num_attendance):
-            attendance_list.append(random.choice([True, True, False, False]))
+            attendance_list.append(random.choice([True, True, True, False]))
         
         students[f"TEST{NAME}"] = attendance_list
         NAME += 1
