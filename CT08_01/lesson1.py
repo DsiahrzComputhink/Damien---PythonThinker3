@@ -56,10 +56,6 @@ def create_new_student(num, num_attributes):
     
     return students
 
-# Example usage:
-create_new_student(5000, 40)
-
-
 
 def take_attendance(students: dict) -> dict:
     for student, attendance in students.items():
@@ -167,6 +163,6 @@ def notify(students: dict, threshold: float) -> list:
     else:
         print(style.dgreen + "No students below threshold." + style.RESET)
     
-create_new_student(10000,500)
+create_new_student(100000,365)
 attendance_percentage("all",students)
 notify(students,50.0)
