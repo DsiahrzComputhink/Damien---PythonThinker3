@@ -84,7 +84,6 @@ def take_attendance(students: dict) -> dict:
         
     return {}
 
-take_attendance(students)
 
 def attendance_percentage(student: str, students: dict) -> float:
     percentage = []
@@ -100,5 +99,8 @@ def attendance_percentage(student: str, students: dict) -> float:
                 print(percentage)
     return 0.0
 
-percentage 
+
+
+# take_attendance(students)
+
 attendance_percentage("Alice",students)
