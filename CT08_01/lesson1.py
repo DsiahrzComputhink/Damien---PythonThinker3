@@ -72,9 +72,10 @@ def take_attendance(students: dict) -> dict:
 
             if attendance == "y":
                 students[student.append(True)]
+                break
             elif attendance == "n":
                 students[student.append(False)]
-                
+                break
         
 
     return {}
