@@ -38,3 +38,4 @@ class style():
 students = {
     "Alice": [True, False, True],
 }
+
