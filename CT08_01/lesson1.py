@@ -120,7 +120,7 @@ def attendance_percentage(student: str, students: dict) -> float:
         return 0.0
         
 
-def silentattendance_percentage(student: str, students: dict) -> float:
+def silent_attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
     if student == "all":
         for student in students:
@@ -161,7 +161,7 @@ def notify(students: dict, threshold: float) -> list:
     warning = []
     number_warning = 0
     for student in students.keys():
-        percentage = attendance_percentage(student, students)
+        percentage = silent_attendance_percentage(student, students)
         if percentage < threshold:
             warning.append(student)
             number_warning += 1
