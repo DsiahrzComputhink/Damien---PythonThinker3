@@ -77,7 +77,7 @@ def take_attendance(students: dict) -> dict:
                 students[student.append(False)]
                 break
             else:
-                print(style.bred )
+                print(style.bred + "INVALID " + style.RESET)
         
 
     return {}
