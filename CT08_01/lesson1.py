@@ -63,7 +63,7 @@ def createnewstudent():
 
 
 def take_attendance(students: dict) -> dict:
-    for student in students:
+    for student, attendance in students.items():
         print(student)
         while True:
             print("Is",style.bblue + f"{student}" + style.RESET,"Present?",style.dgreen + "Y" + style.RESET,"/",style.dred + "N" + style.RESET)
