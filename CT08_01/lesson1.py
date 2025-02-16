@@ -46,7 +46,7 @@ for _ in range(3):
     VAR += 1
     test = random.randint(1,4)
     if test >= 1:
-        a = True
+        a1 = True
 
 students[f"TEST{NAME}"] = [a1,a2,a3]
 print(students)
