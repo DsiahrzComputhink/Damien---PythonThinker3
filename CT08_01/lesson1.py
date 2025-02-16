@@ -123,6 +123,7 @@ def attendance_percentage(student: str, students: dict) -> float:
 
 def silent_attendance_percentage(student: str, students: dict) -> float:
     # if student is all, iterate through every student in dictionary
+    print(student)
     if student == "all":
         for student in students:
             attendancelist = students[student]
