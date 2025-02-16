@@ -89,7 +89,7 @@ def attendance_percentage(student: str, students: dict) -> float:
     print(student)
     if student in students:
         print("STUDENT EXIST")
-        
+        attendance_list = students[student]
 
     else:
         print(style.dred + "STUDENT DOES NOT EXIST" + style.RESET)
