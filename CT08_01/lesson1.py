@@ -58,8 +58,6 @@ def createnewstudent():
         a3 = True
     else:
         a3 = False
-    NAME = random.randint(0, 69-44-1)
-
     students[f"TEST{NAME}"] = [a1,a2,a3]
     print(students)
 
