@@ -165,3 +165,6 @@ def notify(students: dict, threshold: float) -> list:
 createnewstudent(50,20)
 attendance_percentage("all",students)
 notify(students,50.0)
+
+while True:
+    print(cls)
