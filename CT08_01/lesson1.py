@@ -167,4 +167,4 @@ attendance_percentage("all",students)
 notify(students,50.0)
 
 while True:
-    print(cls)
+    print(style)
