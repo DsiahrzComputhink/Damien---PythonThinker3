@@ -176,5 +176,7 @@ def commandinput():
         print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
         command = input("")
         if command == 1:
+            print("How many students?")
+            input()
             print("")
             createnewstudent(num1,num2)
