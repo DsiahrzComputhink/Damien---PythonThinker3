@@ -175,7 +175,7 @@ def commandinput():
         print(style.bblue + "3" + style.RESET, "Check attendance percentage")
         print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
         command = input("")
-        if command == 1:
+        if command == "1":
             print("How many students?")
             num1 = input()
             print("How many days?")
