@@ -166,7 +166,7 @@ createnewstudent(50,20)
 attendance_percentage("all",students)
 notify(students,50.0)
 
-while True:
+while stop == 0:
     print(style.bgray + "------------------------------------" + style.RESET)
     print(style.bblue + "1" + style.RESET, "Add new student")
     print(style.bblue + "2" + style.RESET, "Take attendance")
