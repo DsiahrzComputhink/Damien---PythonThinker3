@@ -168,4 +168,4 @@ notify(students,50.0)
 
 while True:
     print(style.bgrey + "------------------------------------" + style.RESET)
-    print(style.bblue + "1" + style.RESET, )
+    print(style.bblue + "1" + style.RESET, "Add new student")
