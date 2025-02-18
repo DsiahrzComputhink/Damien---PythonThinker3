@@ -184,3 +184,4 @@ def commandinput():
         if command == 2:
             print("placeholder")
 
+commandinput()
