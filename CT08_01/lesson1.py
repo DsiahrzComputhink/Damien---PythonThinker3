@@ -177,6 +177,7 @@ def commandinput():
         command = input("")
         if command == 1:
             print("How many students?")
-            input()
-            print("")
+            num1 = input()
+            print("How many days?")
+            num2 = input()
             createnewstudent(num1,num2)
