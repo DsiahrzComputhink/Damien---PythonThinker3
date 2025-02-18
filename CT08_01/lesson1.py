@@ -168,10 +168,11 @@ notify(students,50.0)
 
 stop = 0
 def commandinput():
-while stop == 0:
-    print(style.bgray + "------------------------------------" + style.RESET)
-    print(style.bblue + "1" + style.RESET, "Add new student")
-    print(style.bblue + "2" + style.RESET, "Take attendance")
-    print(style.bblue + "3" + style.RESET, "Check attendance percentage")
-    print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
-    command = input("")
+    while stop == 0:
+        print(style.bgray + "------------------------------------" + style.RESET)
+        print(style.bblue + "1" + style.RESET, "Add new student")
+        print(style.bblue + "2" + style.RESET, "Take attendance")
+        print(style.bblue + "3" + style.RESET, "Check attendance percentage")
+        print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
+        command = input("")
+        
