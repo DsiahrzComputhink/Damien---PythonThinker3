@@ -172,3 +172,4 @@ while True:
     print(style.bblue + "2" + style.RESET, "Take attendance")
     print(style.bblue + "3" + style.RESET, "Check attendance percentage")
     print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
+    
