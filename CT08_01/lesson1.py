@@ -167,5 +167,6 @@ attendance_percentage("all",students)
 notify(students,50.0)
 
 while True:
-    print(style.bgrey + "------------------------------------" + style.RESET)
+    print(style.bgray + "------------------------------------" + style.RESET)
     print(style.bblue + "1" + style.RESET, "Add new student")
+    print(style.bblue + "2" + style.RESET, "Check attendance")
