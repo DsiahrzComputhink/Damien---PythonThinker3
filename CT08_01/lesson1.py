@@ -40,3 +40,7 @@ class style():
 
 # learn how to use python dictionaries and functions for real world applications like student grading
 # practice handling lists loops and conditional logic
+
+answer_key = ["A","B","C","D"]
+
+student_answers = {}
