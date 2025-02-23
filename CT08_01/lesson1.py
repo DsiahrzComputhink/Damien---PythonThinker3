@@ -37,19 +37,11 @@ students = {
     #"Alice": [True, False, True],
 }
 
-def createnewstudent(num, num_attendance=5):
-    NAME = 1
-    for _ in range(num):
-        rand = random.randint(1,7)
-        attendance_list = []
-        if rand <= 6:
-            for _ in range(num_attendance):
-                attendance_list.append(random.choice([True, True, True, False]))
-        if rand >= 7:
-            for _ in range(num_attendance):
-                attendance_list.append(random.choice([True, False, False, False]))
-        students[f"TEST{NAME}"] = attendance_list
-        NAME += 1
+def createnewstudent(name: str):
+    NAME = str(name)
+    attendance_list = []
+    students[n] = attendance_list
+    NAME += 1
 
 
 def createnewstudents(num, num_attendance=5):
