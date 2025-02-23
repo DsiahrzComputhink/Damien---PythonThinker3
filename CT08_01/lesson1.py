@@ -35,7 +35,7 @@ class style():
 # Class Grading System 
 # grade all students based on their answers [done]
 # calculate the average score for the class [done]
-# identify the students with the highest score
+# identify the students with the highest score [done]
 # display all results in an organized format
 
 # learn how to use python dictionaries and functions for real world applications like student grading
