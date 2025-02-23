@@ -202,6 +202,7 @@ def commandinput():
             notify()
         if command == 5:
             print("Closing all instances")
-            
+            time.sleep(1)
+            print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
 
 commandinput()
