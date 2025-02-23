@@ -31,6 +31,7 @@ class style():
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 
+# GAME_01.py
 def bruteforcegame():
 
     import random
@@ -133,7 +134,7 @@ def bruteforcegame():
             print(style.dred + "Command not found." + style.RESET)
 # bruteforce game ⬆
 
-
+# GAME_02.py
 def hackergame():
     import time
     import random
