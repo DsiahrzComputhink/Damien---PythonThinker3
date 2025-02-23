@@ -79,5 +79,7 @@ def calculateclassaverage(student_answers: dict, answer_key: list) -> dict:
     print(total)
     print(correct)
 
+    return 0.0
+
 gradeallstudents(student_answers,answer_key)
 calculateclassaverage(student_answers,answer_key)
