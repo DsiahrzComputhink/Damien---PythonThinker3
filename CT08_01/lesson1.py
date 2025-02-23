@@ -54,3 +54,4 @@ student_answers = {
     "bob": ["A","B","C","D"],
 }
 
+gradeallstudents(student_answers,answer_key)
