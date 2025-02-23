@@ -59,6 +59,8 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
         for student, answers in student_answers.items():
             if answers == answer_key:
                 print("yes")
+            else:
+                print("no")
 
 
 gradeallstudents(student_answers,answer_key)
