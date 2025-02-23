@@ -20,7 +20,7 @@ import random
 # ALGORITHMS
 numbers = []
 
-for i in range(20):
+for i in range(30):
     x = random.randint(1,100)
     numbers.append(x)
 
@@ -33,7 +33,7 @@ def bubblesort(numbers):
         for j in range(0, n - i - 1):
             if numbers[j] > numbers[j + 1]:
                 numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
-                time.sleep(0.1)
+                time.sleep(0.01)
                 print(numbers)
     return numbers
 
