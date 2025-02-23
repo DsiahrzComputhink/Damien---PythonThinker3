@@ -204,6 +204,7 @@ def commandinput():
             print("Closing all instances")
             time.sleep(1)
             print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
+            stop += 1
         else:
             print(style.bred + "ERROR" + style.RESET)
             print(style.dred + "Not a valid command." + style.RESET)
