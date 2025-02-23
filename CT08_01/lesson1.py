@@ -38,10 +38,10 @@ students = {
 }
 
 def createnewstudent(name: str):
-    NAME = str(name)
-    attendance_list = []
-    students[NAME] = attendance_list
-    NAME += 1
+    if name.isalpha():
+        NAME = str(name)
+        attendance_list = []
+        students[NAME] = attendance_list
 
 
 def createnewstudents(num, num_attendance=5):
