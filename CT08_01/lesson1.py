@@ -57,15 +57,16 @@ student_answers = {
 def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
     quizscores = {}
 
-    for student in student_answers:
-        for student, answers in student_answers.items():
-            score = 0
-            for i in range(len(answer_key)):
-                if answers[i] == answer_key[i]:
-                    score += 1
-            quizscores[f"{student}"] = score
+    for student, answers in student_answers.items():
+        score = 0
+        for i in range(len(answer_key)):
+            if answers[i] == answer_key[i]:
+                score += 1
+             quizscores[f"{student}"] = score
     return(quizscores)
         
+
+
 
 
 gradeallstudents(student_answers,answer_key)
