@@ -51,7 +51,7 @@ student_answers = {
 
     "alice": ["A","B","C","D"],
 
-    "bob": ["A","B","B","D"],
+    "bob": ["A","B","C","D"],
 }
 
 def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
