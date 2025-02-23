@@ -67,18 +67,10 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
         
 
 def calculateclassaverage(quiz_scores: dict) -> float:
-    average = 0
 
-    total = 0
-    correct = 0
-    for student, answers in student_answers.items():
-        for i in range(len(answer_key)):
-            if answers[i] == answer_key[i]:
-                correct += 1
-            total += 1
-    print(total)
-    print(correct)
-
+    totalscore = 0
+    for student, score in quiz_scores.items():
+        total_Score += score
     return 0.0
 
 gradeallstudents(student_answers,answer_key)
