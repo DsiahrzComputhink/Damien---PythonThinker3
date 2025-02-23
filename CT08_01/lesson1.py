@@ -201,6 +201,7 @@ def commandinput():
         if command == 4:
             notify()
         if command == 5:
-            print("")
+            print("Closing all instances")
+            
 
 commandinput()
