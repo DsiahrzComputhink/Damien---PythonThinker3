@@ -205,6 +205,7 @@ def commandinput():
             time.sleep(1)
             print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
         else:
-            print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
+            print(style.bred + "ERROR" + style.RESET)
+            printprint(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
 
 commandinput()
