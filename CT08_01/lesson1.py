@@ -64,7 +64,8 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
                     print(answer_key[i])
                 else:
                     print("no")
-                    print(answers)
+                    print(answers[i])
+                    print(answer_key[i])
 
 
 gradeallstudents(student_answers,answer_key)
