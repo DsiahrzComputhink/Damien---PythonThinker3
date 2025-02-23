@@ -189,10 +189,10 @@ def commandinput():
                     createnewstudent(int(num1),int(num2))
                 else:
                     print(style.bred + "ERROR" + style.RESET)
-                    print(style.bred + "ERROR" + style.RESET)
+                    print(style.bred + "Students is not an integer." + style.RESET)
             else:
                 print(style.bred + "ERROR" + style.RESET)   
-                print(style.bred + "ERROR" + style.RESET)
+                print(style.bred + "Days is not an integer." + style.RESET)
         if command == 2:
             print("placeholder")
 
