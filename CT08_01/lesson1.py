@@ -75,5 +75,6 @@ def calculateclassaverage(student_answers: dict, answer_key: list) -> dict:
         for i in range(len(answer_key)):
             if answers[i] == answer_key[i]:
                 correct += 1
+            total += 1
 
 gradeallstudents(student_answers,answer_key)
