@@ -44,5 +44,5 @@ class style():
 answer_key = ["A","B","C","D"]
 
 student_answers = {
-    ""
+    "john": ["A","B","C","D"],
 }
