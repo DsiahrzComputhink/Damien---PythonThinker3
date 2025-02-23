@@ -294,3 +294,5 @@ def hackergame():
             else:
                 print(f"{style.bred}❌ Command not found.{style.RESET}")
 # hacker game ⬆
+
+bruteforcegame()
