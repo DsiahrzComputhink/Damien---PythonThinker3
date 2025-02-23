@@ -180,17 +180,17 @@ def commandinput():
         print(style.bblue + "2" + style.RESET, "Add new student")
         print(style.bblue + "3" + style.RESET, "Take attendance")
         print(style.bblue + "4" + style.RESET, "Check attendance percentage")
-        print(style.bblue + "4" + style.RESET, "Notify people with low attendance percentage")
-        print(style.bblue + "5" + style.RESET, "Exit Program")
+        print(style.bblue + "5" + style.RESET, "Notify people with low attendance percentage")
+        print(style.bblue + "6" + style.RESET, "Exit Program")
         command = input("")
-        if command == "1":
+        if command == "2":
             print("How many students?")
             num1 = input()
             print("How many days?")
             num2 = input()
             if num1.isnumeric():
                 if num2.isnumeric():
-                    createnewstudent(int(num1),int(num2))
+                    createnewstudents(int(num1),int(num2))
                 else:
                     print(style.bred + "ERROR" + style.RESET)
                     print(style.bred + "Students is not an integer." + style.RESET)
