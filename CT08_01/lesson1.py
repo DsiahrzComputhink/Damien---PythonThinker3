@@ -203,6 +203,6 @@ def commandinput():
         if command == 5:
             print("Closing all instances")
             time.sleep(1)
-            print(style.bblue + "Thank you." + style.RESET, "Goodbye!")
+            print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
 
 commandinput()
