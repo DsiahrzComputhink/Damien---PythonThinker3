@@ -44,6 +44,7 @@ def createnewstudent(num, num_attendance=5):
     for _ in range(num):
         random = random.randint(1,5)
         attendance_list = []
+        if random <= 4:
         for _ in range(num_attendance):
             attendance_list.append(random.choice([True, True, False]))
         
