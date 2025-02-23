@@ -187,7 +187,7 @@ def commandinput():
             print("Whats the student's name?")
             name = input("")
             if name.isalpha():
-                createnewstudent(name)
+                createnewstudent(str(name))
             else:
                 print(style.bred + "ERROR" + style.RESET)
                 print(style.bred + "Not a string" + style.RESET)
