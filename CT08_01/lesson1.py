@@ -75,4 +75,4 @@ def calculateclassaverage(quiz_scores: dict) -> float:
     return average
 
 gradeallstudents(student_answers,answer_key)
-calculateclassaverage(student_answers,answer_key)
+calculateclassaverage()
