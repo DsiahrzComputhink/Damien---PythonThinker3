@@ -203,7 +203,7 @@ def commandinput():
         elif command == "5":
             print("Closing all instances")
             time.sleep(1)
-            print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
+            print(style.bcyan + "Program Closed." + style.RESET, "Goodbye!")
             stop += 1
         else:
             print(style.bred + "ERROR" + style.RESET)
