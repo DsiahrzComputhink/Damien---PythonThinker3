@@ -57,7 +57,7 @@ student_answers = {
 def gradeallstudents(student_answers, answer_key):
     for student in student_answers:
         for answers in student:
-            if answers == answer_key[int(answers)]:
+            if answers == answer_key:
                 print(answers)
                 print(answer_key)
                 print("yes")
