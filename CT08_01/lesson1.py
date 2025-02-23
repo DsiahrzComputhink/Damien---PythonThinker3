@@ -54,4 +54,9 @@ student_answers = {
     "bob": ["A","B","C","D"],
 }
 
-gradeallstudents(student_answers, answer_key)
+def gradeallstudents(student_answers, answer_key)
+    for student in student_answers:
+        print(student)
+
+
+gradeallstudents()
