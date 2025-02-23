@@ -62,6 +62,8 @@ def gradeallstudents(student_answers, answer_key):
                 print(answer_key)
                 print("yes")
             else:
+                print(answers)
+                print(answer_key)
                 print("no")
         print(student)
 
