@@ -45,7 +45,7 @@ answer_key = ["A","B","C","D"]
 
 student_answers = {
     "john": ["A","B","C","D"],
-    "john": ["A","B","C","D"],
-    "john": ["A","B","C","D"],
-    "john": ["A","B","C","D"],
+    "jane": ["A","B","C","D"],
+    "alice": ["A","B","C","D"],
+    "bob": ["A","B","C","D"],
 }
