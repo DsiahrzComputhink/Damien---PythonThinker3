@@ -20,8 +20,8 @@ import random
 # ALGORITHMS
 numbers = []
 
-for i in range(10):
-    x = random.randint(1,10)
+for i in range(20):
+    x = random.randint(1,100)
     numbers.append(x)
 
 print("Unsorted List")
