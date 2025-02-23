@@ -33,7 +33,7 @@ def bubblesort(numbers):
         for j in range(0, n - i - 1):
             if numbers[j] > numbers[j + 1]:
                 numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
-                time.sleep(0.01)
+                time.sleep(0.1)
                 print(numbers)
     return numbers
 
