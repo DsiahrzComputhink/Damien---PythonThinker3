@@ -66,7 +66,7 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
     return(quizscores)
         
 
-def calculateclassaverage(student_answers: dict, answer_key: list) -> dict:
+def calculateclassaverage(quiz_scores: dict) -> float:
     average = 0
 
     total = 0
