@@ -1,3 +1,4 @@
 Made by Dsiahrz!
 
-Please do not alter text files. you will 
+Please do not alter the text files.
+The archive.py is 
