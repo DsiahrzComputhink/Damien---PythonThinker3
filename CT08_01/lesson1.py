@@ -86,7 +86,8 @@ def findhighestscorer(quizscores: dict) -> float:
     for student, score in quizscores.items():
         if score == highestvalue:
             highestscorers.append(student)
-    print(highestscorers)
+            
+    return highestscorers
 
     
 
