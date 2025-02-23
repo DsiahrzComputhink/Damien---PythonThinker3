@@ -195,6 +195,12 @@ def commandinput():
                 print(style.bred + "ERROR" + style.RESET)   
                 print(style.bred + "Days is not an integer." + style.RESET)
         if command == 2:
-            print("placeholder")
+            take_attendance(students)
+        if command == 3:
+            attendance_percentage("all",students)
+        if command == 4:
+            notify()
+        if command == 5:
+            print("")
 
 commandinput()
