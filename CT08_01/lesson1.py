@@ -80,3 +80,4 @@ def calculateclassaverage(student_answers: dict, answer_key: list) -> dict:
     print(correct)
 
 gradeallstudents(student_answers,answer_key)
+calculateclassaverage(student_answers,answer_key)
