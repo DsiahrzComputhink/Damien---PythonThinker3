@@ -32,9 +32,9 @@ class style():
 
     RESET = '\033[0m'
 
-# Class Grading System
-# grade all students based on their answers
-# calculate the average score for the class
+# Class Grading System 
+# grade all students based on their answers [done]
+# calculate the average score for the class [done]
 # identify the students with the highest score
 # display all results in an organized format
 
@@ -79,7 +79,7 @@ def calculateclassaverage(quizscores: dict) -> float:
 def findhighestscorer(quizscores: dict) -> float:
     highestscorers = []
     highestvalue = 0
-    
+
     for student, score in quizscores.items():
         if score > highestvalue:
             highestvalue = score
