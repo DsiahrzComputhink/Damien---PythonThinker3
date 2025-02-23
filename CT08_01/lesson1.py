@@ -43,4 +43,6 @@ class style():
 
 answer_key = ["A","B","C","D"]
 
-student_answers = {}
+student_answers = {
+    ""
+}
