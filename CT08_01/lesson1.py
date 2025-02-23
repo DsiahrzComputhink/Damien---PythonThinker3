@@ -187,8 +187,11 @@ def commandinput():
             if num1.isnumeric():
                 if num2.isnumeric():
                     createnewstudent(int(num1),int(num2))
-                print(style.bred + "ERROR" + style.RESET)
-            
+                else:
+                    print(style.bred + "ERROR" + style.RESET)
+                    print(style.bred + "ERROR" + style.RESET)
+            else:
+                print(style.bred + "ERROR" + style.RESET)   
         if command == 2:
             print("placeholder")
 
