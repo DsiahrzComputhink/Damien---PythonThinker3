@@ -42,7 +42,7 @@ students = {
 def createnewstudent(num, num_attendance=5):
     NAME = 1
     for _ in range(num):
-        
+        random = randomrandint(1,)
         attendance_list = []
         for _ in range(num_attendance):
 
