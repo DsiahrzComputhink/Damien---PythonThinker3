@@ -66,13 +66,13 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
     return(quizscores)
         
 
-def calculateclassaverage(quiz_scores: dict) -> float:
+def calculateclassaverage(quizscores: dict) -> float:
 
     totalscore = 0
-    for student, score in quiz_scores.items():
+    for student, score in quizscores.items():
         totalscore += score
-    average = totalscore / len(quiz_scores)
+    average = totalscore / len(quizscores)
     return average
 
 quizscores = gradeallstudents(student_answers,answer_key)
-calculateclassaverage()
+calculateclassaverage(quizscores)
