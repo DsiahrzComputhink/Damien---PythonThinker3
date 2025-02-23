@@ -205,15 +205,15 @@ def commandinput():
             else:
                 print(style.bred + "ERROR" + style.RESET)   
                 print(style.bred + "Days is not an integer." + style.RESET)
-        elif command == "2":
-            take_attendance(students)
         elif command == "3":
-            attendance_percentage("all",students)
+            take_attendance(students)
         elif command == "4":
+            attendance_percentage("all",students)
+        elif command == "5":
             print("Whats the threshold?")
             threshold = input("")
             notify(students,int(threshold))
-        elif command == "5":
+        elif command == "6":
             print("Closing all instances")
             time.sleep(1)
             print(style.bcyan + "Program Closed." + style.RESET)
