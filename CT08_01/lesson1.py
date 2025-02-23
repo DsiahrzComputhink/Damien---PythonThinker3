@@ -39,7 +39,7 @@ students = {
 
 def createnewstudent(name: str):
     attendance_list = []
-    students[name] = attendance_list
+    students[f"{name}"] = attendance_list
 
 
 def createnewstudents(num, num_attendance=5):
