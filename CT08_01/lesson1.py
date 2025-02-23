@@ -64,7 +64,7 @@ def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
                 if answers[i] == answer_key[i]:
                     score += 1
             quizscores[f"{student}"] = score
-            print(quizscores)
+    print(quizscores)
         
 
 
