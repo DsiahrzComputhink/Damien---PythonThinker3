@@ -37,7 +37,7 @@ students = {
     #"Alice": [True, False, True],
 }
 
-def createnewstudent(name: str):
+def createnewstudent(name):
     attendance_list = []
     attendance_list.append(True)
     students[f"{name}"] = attendance_list
