@@ -194,13 +194,13 @@ def commandinput():
             else:
                 print(style.bred + "ERROR" + style.RESET)   
                 print(style.bred + "Days is not an integer." + style.RESET)
-        if command == 2:
+        elif command == 2:
             take_attendance(students)
-        if command == 3:
+        elif command == 3:
             attendance_percentage("all",students)
-        if command == 4:
+        elif command == 4:
             notify()
-        if command == 5:
+        elif command == 5:
             print("Closing all instances")
             time.sleep(1)
             print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
