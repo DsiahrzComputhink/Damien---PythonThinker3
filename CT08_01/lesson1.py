@@ -206,6 +206,6 @@ def commandinput():
             print(style.bcyan + "Thank you." + style.RESET, "Goodbye!")
         else:
             print(style.bred + "ERROR" + style.RESET)
-            print(style.bblue + "4" + style.RESET)
+            print(style.bblue + "Not a valid command." + style.RESET)
 
 commandinput()
