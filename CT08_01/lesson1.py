@@ -168,8 +168,8 @@ def notify(students: dict, threshold: float) -> list:
         print(style.dgreen + "No students below threshold." + style.RESET)
 
 
-stop = 0
 def commandinput():
+    stop = 0
     while stop == 0:
         print(style.bgray + "------------------------------------" + style.RESET)
         print(style.bblue + "1" + style.RESET, "Add new student")
