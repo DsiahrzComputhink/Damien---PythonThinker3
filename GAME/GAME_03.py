@@ -1,4 +1,5 @@
 # am bored
+import time
 
 # LESSON 1
 import random
