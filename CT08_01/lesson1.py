@@ -39,6 +39,7 @@ students = {
 
 def createnewstudent(name: str):
     attendance_list = []
+    attendance_list.append(True)
     students[f"{name}"] = attendance_list
 
 
