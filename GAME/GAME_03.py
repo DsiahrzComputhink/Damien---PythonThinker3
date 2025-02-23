@@ -19,8 +19,8 @@ import random
 # ALGORITHMS
 numbers = []
 
-for i in range(1000):
-    x = random.randint(1,1000)
+for i in range(10):
+    x = random.randint(1,10)
     numbers.append(x)
 
 print("Unsorted List")
@@ -32,6 +32,7 @@ def bubblesort(numbers):
         for j in range(0, n - i - 1):
             if numbers[j] > numbers[j + 1]:
                 numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
+                time.sleep(0.1)
                 print(numbers)
     return numbers
 
