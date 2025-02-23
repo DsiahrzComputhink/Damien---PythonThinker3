@@ -54,7 +54,7 @@ student_answers = {
     "bob": ["A","B","C","D"],
 }
 
-def gradeallstudents(student_answers: dict, answer_key: list):
+def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
     for student in student_answers:
         for i in range(len(answer_key)):
             if answer_key[i] == student_answers[student]:
