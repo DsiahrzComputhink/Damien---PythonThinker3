@@ -184,7 +184,10 @@ def commandinput():
             num1 = input()
             print("How many days?")
             num2 = input()
-            createnewstudent(int(num1),int(num2))
+            if num1.isnumeric():
+                if num2.isnumeric():
+                    createnewstudent(int(num1),int(num2))
+                print(c)
         if command == 2:
             print("placeholder")
 
