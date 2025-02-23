@@ -184,6 +184,11 @@ def commandinput():
         print(style.bblue + "5" + style.RESET, "Notify people with low attendance percentage")
         print(style.bblue + "6" + style.RESET, "Exit Program")
         command = input("")
+        if command == "1":
+            print("Whats the student's name?")
+            name = input("")
+            if name.isalpha():
+                c
         if command == "2":
             print("How many students?")
             num1 = input()
