@@ -78,12 +78,7 @@ def calculateclassaverage(quizscores: dict) -> float:
 
 def findhighestscorer(quizscores: dict) -> float:
     highestscorers = []
-    highestvalue = max(quizscores)
-
-    for student, score in quizscores.items():
-        if score > highestvalue:
-            highestvalue = score
-            print(highestvalue)
+    highestvalue = max(quizscores.values())
     
     for student, score in quizscores.items():
         if score == highestvalue:
