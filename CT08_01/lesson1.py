@@ -188,7 +188,10 @@ def commandinput():
             print("Whats the student's name?")
             name = input("")
             if name.isalpha():
-                c
+                createnewstudent(name)
+            else:
+                print(style.bred + "ERROR" + style.RESET)
+                print(style.bred + "Not a string" + style.RESET)
         if command == "2":
             print("How many students?")
             num1 = input()
