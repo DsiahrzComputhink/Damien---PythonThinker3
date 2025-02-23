@@ -192,6 +192,7 @@ def commandinput():
                     print(style.bred + "ERROR" + style.RESET)
             else:
                 print(style.bred + "ERROR" + style.RESET)   
+                print(style.bred + "ERROR" + style.RESET)
         if command == 2:
             print("placeholder")
 
