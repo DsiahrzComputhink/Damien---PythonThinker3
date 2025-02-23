@@ -74,5 +74,5 @@ def calculateclassaverage(quiz_scores: dict) -> float:
     average = totalscore / len(quiz_scores)
     return average
 
-gradeallstudents(student_answers,answer_key)
+quizscores = gradeallstudents(student_answers,answer_key)
 calculateclassaverage()
