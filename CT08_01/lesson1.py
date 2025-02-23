@@ -200,6 +200,7 @@ def commandinput():
             attendance_percentage("all",students)
         elif command == "4":
             print("Whats the threshold?")
+            input("")
             notify()
         elif command == "5":
             print("Closing all instances")
