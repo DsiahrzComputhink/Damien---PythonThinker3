@@ -184,7 +184,7 @@ def commandinput():
             num1 = input()
             print("How many days?")
             num2 = input()
-            createnewstudent(num1,num2)
+            createnewstudent(int(num1),int(num2))
         if command == 2:
             print("placeholder")
 
