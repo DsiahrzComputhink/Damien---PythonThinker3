@@ -32,7 +32,7 @@ class style():
 
     RESET = '\033[0m'
 
-
+# Class Grading System
 # grade all students based on their answers
 # calculate the average score for the class
 # identify the students with the highest score
