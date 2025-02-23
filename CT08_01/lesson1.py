@@ -75,6 +75,7 @@ def calculateclassaverage(quizscores: dict) -> float:
     print(average)
     return average
 
+
 def findhighestscorer(quizscores: dict) -> float:
     highestscorers = []
     highestvalue = 0
@@ -86,7 +87,7 @@ def findhighestscorer(quizscores: dict) -> float:
     for student, score in quizscores.items():
         if score == highestvalue:
             highestscorers.append(student)
-            
+
     return highestscorers
 
     
