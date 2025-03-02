@@ -74,4 +74,4 @@ for i in range(100):
         file.write(f"{num}  ")
 
 
-import mathplotlib.pyplot
+
