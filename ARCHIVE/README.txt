@@ -25,4 +25,4 @@ Please note that the timing may not be accurate
         L05 - FUNCTIONS [16/2/2025]
         L06 - FUNCTIONS [23/2/2025]
         L07 - FILE_INPUT/OUTPUT [2/3/2025]
-            L07 - EXAMPLE.TXT [2/3/2025] 
+            L07 - EXAMPLE.TXT [2/3/2025]    {SUBJECT TO CHANGE}
