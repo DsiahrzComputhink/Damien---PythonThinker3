@@ -135,8 +135,10 @@ def program():
             print(LINE)
             findhighestscorer(quizscores)
         elif cmd == "4":
+            print(LINE)
             displayresults(quizscores)
         elif cmd == "5":
+            print(LINE)
             print("Closing Program...")
             print(style.bblue + "Goodbye!" + style.RESET)
             stop += 1
