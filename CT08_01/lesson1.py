@@ -107,7 +107,9 @@ displayresults(quizscores)
 def program():
     stop = 0
     while stop == 0:
+        time.sleep(0.25)
         print(style.bblue + "Class Grading System Menu")
+        time.sleep(0.25)
         print(style.bcyan + "1" + style.RESET, "Grade All Students")
         print(style.bcyan + "2" + style.RESET, "Calcuate Class Average")
         print(style.bcyan + "3" + style.RESET, "Find Highest Scorer")
