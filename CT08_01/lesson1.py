@@ -46,3 +46,5 @@ print(f"File content:\n {content}")
 file.close()
 
 # Excercise 3: Using the 'with keyboard
+with open(textfile, "r") as file:
+    content

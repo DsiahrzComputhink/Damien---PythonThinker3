@@ -1,10 +1,12 @@
 Made by Dsiahrz!
 
-Please do not alter the text files.
+-- Please do note
+I would highly suggest not to alter the text files as they are meant to be archived.
+
 The archive.py contains a few functions that are mainly for aesthetics.
 Please note that the timing may not be accurate
 
-Do note that any files with [example].txt is subject to change as the code will alter the files
+Also, any files with [example].txt is subject to change as the code will alter the files
 
 
 # MISCELLANEOUS
