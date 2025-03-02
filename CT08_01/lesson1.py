@@ -107,7 +107,18 @@ def program():
     print(style.bcyan + "4" + style.RESET, "Display All Results")
     print(style.bcyan + "5" + style.RESET, "Exit")
     command = input("")
-    c
+    cmd = str(command)
+    if cmd == "1":
+        gradeallstudents(student_answers,answer_key)
+    elif cmd == "2":
+        calculateclassaverage(quizscores)
+    elif cmd == "3":
+        findhighestscorer(quizscores)
+    elif cmd == "4":
+        displayresults(quizscores)
+    elif cmd == "5":
+    else:
+        print(style.bred + "Not a Valid Command." + style.RESET)
 
 
 program()
