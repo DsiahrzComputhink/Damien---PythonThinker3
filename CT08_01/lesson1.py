@@ -54,9 +54,9 @@ print(content)
 
 #Excercise 4: Append to file
 with open(textfile, "a") as file:
-    file.write("\nThis will add a new line to the file")
-    file.write("\nThis will add another line.")
-    file.write("\nThis will add another new line.")
+    file.append("\nThis will add a new line to the file")
+    file.append("\nThis will add another line.")
+    file.append("\nThis will add another new line.")
     
 # Excercise 5: Write multiple Lines
 lines = ["Line1\n","Line2\n","Line3\n"]
