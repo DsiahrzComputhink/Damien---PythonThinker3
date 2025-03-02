@@ -68,7 +68,7 @@ with open(textfile, "w") as file:
 with open(textfile, "a") as file:
     file.write("Number Sequence\n")
 num = -1
-for i in range(10):
+for i in range(100):
     num += 1
     with open(textfile, "a") as file:
         file.write(f"{num}  ")
