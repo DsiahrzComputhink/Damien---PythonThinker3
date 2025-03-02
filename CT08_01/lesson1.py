@@ -51,3 +51,7 @@ with open(textfile, "r") as file:
     print(f"File content with 'with': {content}")
 
 print(file.read())
+
+#Excercise 4: Append to file
+with open(textfile, "a") as file:
+    
