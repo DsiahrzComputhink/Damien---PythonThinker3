@@ -67,4 +67,6 @@ with open(textfile, "w") as file:
 # Excercise 5.1: Write multiple lines nonstop
 
 with open(textfile, "a") as file:
-    file.writelines("Line",)
+    num = 1
+    for i in range(500):
+        file.writelines("Line",num)
