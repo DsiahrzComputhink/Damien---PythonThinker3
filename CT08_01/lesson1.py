@@ -1,4 +1,3 @@
-
 # File Modes:
 # r: Read Modes - Read the data of a file
 # w: Write Modes - Writes data to a file
