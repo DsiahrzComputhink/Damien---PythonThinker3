@@ -87,7 +87,7 @@ def findhighestscorer(quizscores: dict) -> float:
         if score == highestvalue:
             highestscorers.append(student)
             studentname = student.capitalize()
-            print(style.bblue + f"{student}" + style.RESET)
+            print(style.bcyan + f"{studentname}" + style.RESET)
 
     return highestscorers
 
