@@ -18,3 +18,7 @@
 # Handling Errors - Deal with missing files or unexpected Disadvantages
 # Performance - Not optimized for large file operations
 
+import os
+filepath - os.getcwd()
+
+fullpath = os.path.join(filepath,"file.txt")
