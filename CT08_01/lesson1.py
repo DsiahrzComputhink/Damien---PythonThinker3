@@ -52,7 +52,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-#Excercise 4: Append to file
+# Excercise 4: Append to file
 with open(textfile, "a") as file:
     file.write("\nThis will add a new line to the file")
     file.write("\nThis will add another line.")
