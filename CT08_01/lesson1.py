@@ -109,7 +109,7 @@ def program():
     while stop == 0:
         time.sleep(3)
         print(style.bblue + "Class Grading System Menu")
-        time.sleep(0.25)
+        time.sleep(1)
         print(style.bcyan + "1" + style.RESET, "Grade All Students")
         time.sleep(0.25)
         print(style.bcyan + "2" + style.RESET, "Calcuate Class Average")
