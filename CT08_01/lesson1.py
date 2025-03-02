@@ -95,6 +95,6 @@ def displayresults(quizscores: dict) -> float:
 
 
 quizscores = gradeallstudents(student_answers,answer_key)
-print(calculateclassaverage(quizscores))
-print(findhighestscorer(quizscores))
+calculateclassaverage(quizscores)
+findhighestscorer(quizscores)
 displayresults(quizscores)
