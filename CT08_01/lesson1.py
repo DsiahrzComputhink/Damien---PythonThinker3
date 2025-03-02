@@ -100,4 +100,5 @@ findhighestscorer(quizscores)
 displayresults(quizscores)
 
 def program(): 
-    print(style.b)
+    print(style.bblue + "Class Grading System Menu")
+    print(style.bcyan + "1" + style.RESET, "")
