@@ -30,7 +30,10 @@ else:
     print("{} Does not exist".format(textfile))
 
 # Note to self:
-file = open(textfile, "w")
+file = open(textfile, "w") # the "w" means write
+file = open(textfile, "w") # the "w" means write
+file = open(textfile, "w") # the "w" means write
+
 # Excercise 1: Write to a file
 file = open(textfile, "w")
 file.write("Hello World")
