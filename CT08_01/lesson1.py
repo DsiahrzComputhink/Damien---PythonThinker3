@@ -19,7 +19,8 @@
         # Data Security - Avoid unauthorized access
         # Handling Errors - Deal with missing files or unexpected Disadvantages
         # Performance - Not optimized for large file operations
-
+import time
+import random
 import os
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
@@ -64,4 +65,9 @@ lines = ["Line1\n","Line2\n","Line3\n"]
 with open(textfile, "w") as file:
     file.writelines(lines)
 
-with open()
+num = 0
+for i in range(100):
+    num += 1
+    print(num)
+    with open(textfile, "a") as file:
+        file.write(f"{num}  ")
