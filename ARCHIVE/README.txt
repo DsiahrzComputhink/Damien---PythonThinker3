@@ -4,7 +4,8 @@ Please do not alter the text files.
 The archive.py contains a few functions that are mainly for aesthetics.
 
 # MISCELLANEOUS
-ARCHIVE.PY 
+ARCHIVE.PY - MISCELLANEOUS
+
 
 # PYTHON RELATED
 -- ALGORITHMS
