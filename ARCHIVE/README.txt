@@ -6,7 +6,7 @@ The archive.py contains a few functions that are mainly for aesthetics.
 
 # MISCELLANEOUS
 ARCHIVE.py - MISCELLANEOUS
-DICTIONARY.txt - 
+DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
 
 
 # PYTHON RELATED
