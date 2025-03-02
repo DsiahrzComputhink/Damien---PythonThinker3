@@ -49,4 +49,5 @@ file.close()
 with open(textfile, "r") as file:
     content = file.read()
     print(f"File content with 'with': {content}")
-    
+
+print(file.read())
