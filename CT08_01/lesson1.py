@@ -108,6 +108,7 @@ def program():
     print(style.bcyan + "5" + style.RESET, "Exit")
     command = input("")
     cmd = str(command)
+    print(cmd)
     if cmd == "1":
         gradeallstudents(student_answers,answer_key)
     elif cmd == "2":
