@@ -104,5 +104,5 @@ def program():
     print(style.bcyan + "1" + style.RESET, "Grade All Students")
     print(style.bcyan + "2" + style.RESET, "Grade All Students")
     print(style.bcyan + "3" + style.RESET, "Grade All Students")
-    print(style.bcyan + "4" + style.RESET, "Grade All Students")
+    print(style.bcyan + "4" + style.RESET, "Display All Results")
     print(style.bcyan + "5" + style.RESET, "Exit")
