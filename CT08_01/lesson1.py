@@ -90,8 +90,8 @@ def findhighestscorer(quizscores: dict) -> float:
 def displayresults(quizscores: dict) -> float:
     print("Hi")
     for student, score in quizscores.items():
-        student = student.capitalize()
-        print(f"{student}")
+        studentname = student.capitalize()
+        print(f"{studentname}")
 
 quizscores = gradeallstudents(student_answers,answer_key)
 calculateclassaverage(quizscores)
