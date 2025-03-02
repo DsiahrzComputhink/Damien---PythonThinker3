@@ -6,6 +6,7 @@ Please note that the timing may not be accurate
 
 Do note that any files with [example].txt is subject to change as the code will alter the files
 
+
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
