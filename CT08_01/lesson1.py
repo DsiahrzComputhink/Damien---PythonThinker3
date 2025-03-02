@@ -65,6 +65,8 @@ lines = ["Line1\n","Line2\n","Line3\n"]
 with open(textfile, "w") as file:
     file.writelines(lines)
 
+with open(textfile, "a") as file:
+    file.write("\n Number Sequence")
 num = -1
 for i in range(10):
     num += 1
