@@ -107,6 +107,7 @@ def program():
     print(style.bcyan + "4" + style.RESET, "Display All Results")
     print(style.bcyan + "5" + style.RESET, "Exit")
     command = input("")
+    c
 
 
 program()
