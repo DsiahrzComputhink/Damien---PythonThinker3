@@ -36,7 +36,7 @@ else:
 
 # Excercise 1: Write to a file
 file = open(textfile, "w")
-file.write("Hello World")
+file.write("pneumonoultramicroscopicsilicovolcanoconiosis")
 file.close()
 
 # Excercise 2: Read from a file
