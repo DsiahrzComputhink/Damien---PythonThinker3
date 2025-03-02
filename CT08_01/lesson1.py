@@ -99,12 +99,12 @@ def displayresults(quizscores: dict):
         print(f"{studentname} : {score}")
 
 
-quizscores = gradeallstudents(student_answers,answer_key)
-calculateclassaverage(quizscores)
-findhighestscorer(quizscores)
-displayresults(quizscores)
+# calculateclassaverage(quizscores)
+# findhighestscorer(quizscores)
+# displayresults(quizscores)
 
 def program():
+    quizscores = gradeallstudents(student_answers,answer_key)
     stop = 0
     while stop == 0:
         time.sleep(1)
