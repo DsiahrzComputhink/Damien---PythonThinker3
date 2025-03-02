@@ -44,3 +44,5 @@ file = open(textfile, "r")
 content = file.read()
 print(f"File content:\n {content}")
 file.close()
+
+# Excercise 3: Using the 'with keyboard
