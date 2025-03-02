@@ -126,10 +126,13 @@ def program():
         cmd = str(command)
         print(cmd)
         if cmd == "1":
+            print(LINE)
             gradeallstudents(student_answers,answer_key)
         elif cmd == "2":
+            print(LINE)
             calculateclassaverage(quizscores)
         elif cmd == "3":
+            print(LINE)
             findhighestscorer(quizscores)
         elif cmd == "4":
             displayresults(quizscores)
