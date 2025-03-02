@@ -70,3 +70,5 @@ with open(textfile, "a") as file:
     num = 1
     for i in range(500):
         file.writelines("Line",num)
+        num += 1
+        time.sleep(0.2)
