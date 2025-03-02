@@ -41,3 +41,5 @@ file.close()
 
 # Excercise 2: Read from a file
 file = open(textfile, "r")
+content = file.read()
+print(f"File content:\n {content}")
