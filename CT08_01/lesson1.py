@@ -55,5 +55,5 @@ print(file.read())
 #Excercise 4: Append to file
 with open(textfile, "a") as file:
     file.write("\nThis will add a new line to the file")
-    file.write("\nThis will add a new line to the file")
+    file.write("\nThis will add another line.")
     file.write("\nThis will add a new line to the file")
