@@ -72,3 +72,6 @@ for i in range(100):
     num += 1
     with open(textfile, "a") as file:
         file.write(f"{num}  ")
+
+
+import mathplotlib.pyplot
