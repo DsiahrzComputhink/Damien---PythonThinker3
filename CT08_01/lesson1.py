@@ -22,9 +22,9 @@
 
 import os
 FilePath = os.getcwd()
-fullpath = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
 
-if os.path.exists(fullpath):
+if os.path.exists(textfile):
     print("{} exist".format(fullpath))
 else:
     print("{} does not exist".format(fullpath))
