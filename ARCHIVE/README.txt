@@ -4,6 +4,7 @@ Please do not alter the text files.
 The archive.py contains a few functions that are mainly for aesthetics.
 Please note that the timing may not be accurate
 
+Do note that any files with [example].txt is subject to 
 
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
