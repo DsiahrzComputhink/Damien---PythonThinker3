@@ -59,4 +59,4 @@ with open(textfile, "a") as file:
     file.write("\nThis will add another new line.")
     
 # Excercise 5: Write multiple Lines
-lines = ["Line1"]
+lines = ["Line1\n","Line2\n","Line3\n"]
