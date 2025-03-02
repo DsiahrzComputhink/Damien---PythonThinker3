@@ -99,29 +99,32 @@ calculateclassaverage(quizscores)
 findhighestscorer(quizscores)
 displayresults(quizscores)
 
-def program(): 
-    print(style.bblue + "Class Grading System Menu")
-    print(style.bcyan + "1" + style.RESET, "Grade All Students")
-    print(style.bcyan + "2" + style.RESET, "Calcuate Class Average")
-    print(style.bcyan + "3" + style.RESET, "Find Highest Scorer")
-    print(style.bcyan + "4" + style.RESET, "Display All Results")
-    print(style.bcyan + "5" + style.RESET, "Exit")
-    command = input("")
-    cmd = str(command)
-    print(cmd)
-    if cmd == "1":
-        gradeallstudents(student_answers,answer_key)
-    elif cmd == "2":
-        calculateclassaverage(quizscores)
-    elif cmd == "3":
-        findhighestscorer(quizscores)
-    elif cmd == "4":
-        displayresults(quizscores)
-    elif cmd == "5":
-        print("Closing Program...")
-        print(style.bblue + "Goodbye!" + style.RESET)
-    else:
-        print(style.bred + "Not a Valid Command." + style.RESET)
+def program():
+    stop = 0
+    while stop == 0:
+        print(style.bblue + "Class Grading System Menu")
+        print(style.bcyan + "1" + style.RESET, "Grade All Students")
+        print(style.bcyan + "2" + style.RESET, "Calcuate Class Average")
+        print(style.bcyan + "3" + style.RESET, "Find Highest Scorer")
+        print(style.bcyan + "4" + style.RESET, "Display All Results")
+        print(style.bcyan + "5" + style.RESET, "Exit")
+        command = input("")
+        cmd = str(command)
+        print(cmd)
+        if cmd == "1":
+            gradeallstudents(student_answers,answer_key)
+        elif cmd == "2":
+            calculateclassaverage(quizscores)
+        elif cmd == "3":
+            findhighestscorer(quizscores)
+        elif cmd == "4":
+            displayresults(quizscores)
+        elif cmd == "5":
+            print("Closing Program...")
+            print(style.bblue + "Goodbye!" + style.RESET)
+            stop += 1
+        else:
+            print(style.bred + "Not a Valid Command." + style.RESET)
 
 
 program()
