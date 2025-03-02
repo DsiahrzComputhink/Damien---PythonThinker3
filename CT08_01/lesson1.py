@@ -71,5 +71,4 @@ num = -1
 for i in range(100):
     num += 1
     with open(textfile, "a") as file:
-        time.sleep(0.5)
         file.write(f"{num}  ")
