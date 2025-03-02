@@ -56,7 +56,7 @@ student_answers = {
 
 def gradeallstudents(student_answers: dict, answer_key: list) -> dict:
     quizscores = {}
-    print("Gr")
+    print("Grading all students...")
     for student, answers in student_answers.items():
         score = 0
         for i in range(len(answer_key)):
