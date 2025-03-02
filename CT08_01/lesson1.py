@@ -29,4 +29,4 @@ if os.path.exists(textfile):
 else:
     print("{} Does not exist".format(textfile))
 
-# Excer
+# Excercise 1: Write to a file
