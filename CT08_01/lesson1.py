@@ -63,3 +63,5 @@ lines = ["Line1\n","Line2\n","Line3\n"]
 
 with open(textfile, "w") as file:
     file.writelines(lines)
+
+with open()
