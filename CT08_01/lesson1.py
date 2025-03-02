@@ -104,10 +104,11 @@ def displayresults(quizscores: dict):
 # displayresults(quizscores)
 
 def program():
-    line = style.bgray + "------------------------" + style.RESET
+    LINE = style.bgray + "------------------------" + style.RESET
     quizscores = gradeallstudents(student_answers,answer_key)
     stop = 0
     while stop == 0:
+        print(LINE)
         time.sleep(1)
         print(style.bblue + "Class Grading System Menu")
         time.sleep(1)
