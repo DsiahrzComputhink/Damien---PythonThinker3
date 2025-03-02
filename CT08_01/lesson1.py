@@ -30,6 +30,6 @@ else:
     print("{} Does not exist".format(textfile))
 
 # Excercise 1: Write to a file
-file = open()
+file = open(textfile)
 file.write("Manual Write Example")
 file.close()
