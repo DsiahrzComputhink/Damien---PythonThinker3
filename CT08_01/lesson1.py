@@ -60,3 +60,6 @@ with open(textfile, "a") as file:
     
 # Excercise 5: Write multiple Lines
 lines = ["Line1\n","Line2\n","Line3\n"]
+
+with open(textfile, "w") as file:
+    file.writelines(lines)
