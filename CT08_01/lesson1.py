@@ -35,3 +35,4 @@ file.write("Hello World")
 file.close()
 
 # Excercise 2: Read from a file
+file = open(textfile, "r")
