@@ -102,7 +102,10 @@ displayresults(quizscores)
 def program(): 
     print(style.bblue + "Class Grading System Menu")
     print(style.bcyan + "1" + style.RESET, "Grade All Students")
-    print(style.bcyan + "2" + style.RESET, "Grade All Students")
+    print(style.bcyan + "2" + style.RESET, "Calcuate Class Average")
     print(style.bcyan + "3" + style.RESET, "Find Highest Scorer")
     print(style.bcyan + "4" + style.RESET, "Display All Results")
     print(style.bcyan + "5" + style.RESET, "Exit")
+
+
+program()
