@@ -122,6 +122,8 @@ def program():
         time.sleep(0.05)
         print(style.bcyan + "5" + style.RESET, "Exit")
         time.sleep(0.05)
+        print(LINE)
+        print(style.b)
         command = input("")
         cmd = str(command)
         if cmd == "1":
