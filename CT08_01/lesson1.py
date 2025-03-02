@@ -31,5 +31,5 @@ else:
 
 # Excercise 1: Write to a file
 file = open(textfile)
-file.write("Manual Write Example")
+file.write("Hello World")
 file.close()
