@@ -21,8 +21,8 @@
         # Performance - Not optimized for large file operations
 
 import os
-filepath = os.getcwd()
-fullpath = os.path.join(filepath,"ARCHIVE","L07-File_Input\Output [example].txt")
+FilePath = os.getcwd()
+fullpath = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
 
 if os.path.exists(fullpath):
     print("{} exist".format(fullpath))
