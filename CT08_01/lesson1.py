@@ -29,6 +29,8 @@ if os.path.exists(textfile):
 else:
     print("{} Does not exist".format(textfile))
 
+# Note to self:
+
 # Excercise 1: Write to a file
 file = open(textfile, "w")
 file.write("Hello World")
