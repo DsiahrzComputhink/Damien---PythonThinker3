@@ -50,7 +50,7 @@ with open(textfile, "r") as file:
     content = file.read()
     print(f"File content with 'with': {content}")
 
-print(file.read())
+print(content)
 
 #Excercise 4: Append to file
 with open(textfile, "a") as file:
