@@ -36,14 +36,14 @@ else:
 
 # Excercise 1: Write to a file
 file = open(textfile, "w")
-file.write("H")
+file.write("Hello world")
 file.close()
 
 # Excercise 2: Read from a file
 file = open(textfile, "r")
 content = file.read()
 print(f"File content:\n {content}")
-file.close()
+# file.close()
 
 # Excercise 3: Using the 'with keyboard
 with open(textfile, "r") as file:
