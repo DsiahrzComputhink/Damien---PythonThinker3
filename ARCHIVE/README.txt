@@ -4,7 +4,7 @@ Please do not alter the text files.
 The archive.py contains a few functions that are mainly for aesthetics.
 
 
-# PYTHON RELATED down🔽
+# PYTHON RELATED
 -- ALGORITHMS
 L01 - ALGORITHMS [12/1/2025]
 
