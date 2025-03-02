@@ -87,7 +87,8 @@ def findhighestscorer(quizscores: dict) -> float:
     return highestscorers
 
 
-
+def displayresults(quizscores: dict) -> float:
+    print("Hi")
 
 quizscores = gradeallstudents(student_answers,answer_key)
 calculateclassaverage(quizscores)
