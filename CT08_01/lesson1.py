@@ -30,4 +30,4 @@ else:
     print("{} Does not exist".format(textfile))
 
 # Excercise 1: Write to a file
-textfile = open()
+file = open()
