@@ -99,3 +99,5 @@ calculateclassaverage(quizscores)
 findhighestscorer(quizscores)
 displayresults(quizscores)
 
+def program(): 
+    print(style.b)
