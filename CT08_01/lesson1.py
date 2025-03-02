@@ -104,7 +104,7 @@ def displayresults(quizscores: dict):
 # displayresults(quizscores)
 
 def program():
-    print(style.bgray + "------------------------" + style.RESET)
+    line = style.bgray + "------------------------" + style.RESET
     quizscores = gradeallstudents(student_answers,answer_key)
     stop = 0
     while stop == 0:
