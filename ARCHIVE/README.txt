@@ -4,8 +4,12 @@ Please do not alter the text files.
 The archive.py contains a few functions that are mainly for aesthetics.
 
 L01 - ALGORITHMS [12/1/2025]
+
+-- DICTIONARY
 L02 - DICTIONARY [19/1/2025]
 L03 - DICTIONARY [26/1/2025]
+
+-- FUNCTIONS
 L04 - FUNCTIONS [9/2/2025]
 L05 - FUNCTIONS [16/2/2025]
 L06 - FUNCTIONS [23/2/2025]
