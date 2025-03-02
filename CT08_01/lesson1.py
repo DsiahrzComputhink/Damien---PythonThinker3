@@ -34,16 +34,16 @@ else:
     # file = open(textfile, "r") # the "r" means read the file
     # file = open(textfile, "a") # the "a" means appends data to a file
 
-# # Excercise 1: Write to a file
-# file = open(textfile, "w")
-# file.write("Hello world")
-# file.close()
+# Excercise 1: Write to a file
+file = open(textfile, "w")
+file.write("Hello world\n")
+file.close()
 
-# # Excercise 2: Read from a file
-# file = open(textfile, "r")
-# content = file.read()
-# print(f"File content:\n {content}")
-# file.close()
+# Excercise 2: Read from a file
+file = open(textfile, "r")
+content = file.read()
+print(f"File content:\n {content}")
+file.close()
 
 # Excercise 3: Using the 'with keyboard
 with open(textfile, "r") as file:
