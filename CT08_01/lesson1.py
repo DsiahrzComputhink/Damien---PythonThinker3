@@ -123,7 +123,7 @@ def program():
         print(style.bcyan + "5" + style.RESET, "Exit")
         time.sleep(0.05)
         print(LINE)
-        print(style.b)
+        print(style.byellow + "Please do not flood the inputs" + style.RESET)
         command = input("")
         cmd = str(command)
         if cmd == "1":
