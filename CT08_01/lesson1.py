@@ -74,6 +74,7 @@ def calculateclassaverage(quizscores: dict) -> float:
     average = totalscore / len(quizscores)
 
     print("The Class Average is")
+    print(style.bcyan + f"{average}" + style.RESET)
 
     return average
 
