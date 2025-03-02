@@ -106,7 +106,7 @@ def program():
     print(style.bcyan + "3" + style.RESET, "Find Highest Scorer")
     print(style.bcyan + "4" + style.RESET, "Display All Results")
     print(style.bcyan + "5" + style.RESET, "Exit")
-    cmd = input
+    command = input("")
 
 
 program()
