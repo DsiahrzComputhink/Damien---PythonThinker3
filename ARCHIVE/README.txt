@@ -8,6 +8,7 @@ Please note that the timing may not be accurate
 # MISCELLANEOUS
 ARCHIVE.py - MISCELLANEOUS
 DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
+MEMORY.txt - 
 
 
 # PYTHON RELATED
