@@ -33,3 +33,5 @@ else:
 file = open(textfile, "w")
 file.write("Hello World")
 file.close()
+
+# Excercise 2: Read from a file
