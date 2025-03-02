@@ -5,8 +5,8 @@ The archive.py contains a few functions that are mainly for aesthetics.
 
 
 # MISCELLANEOUS
-ARCHIVE.PY - MISCELLANEOUS
-DICTIONARY.txt
+ARCHIVE.py - MISCELLANEOUS
+DICTIONARY.txt - 
 
 
 # PYTHON RELATED
