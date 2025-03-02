@@ -124,7 +124,6 @@ def program():
         time.sleep(0.05)
         command = input("")
         cmd = str(command)
-        print(cmd)
         if cmd == "1":
             print(LINE)
             gradeallstudents(student_answers,answer_key)
