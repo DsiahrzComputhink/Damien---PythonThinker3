@@ -64,8 +64,3 @@ lines = ["Line1\n","Line2\n","Line3\n"]
 with open(textfile, "w") as file:
     file.writelines(lines)
 
-# Excercise 5.1: Write multiple lines nonstop
-
-with open(textfile, "a") as file:
-    for i in range(500):
-        file.writelines("Line")
