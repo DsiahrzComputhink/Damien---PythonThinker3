@@ -91,7 +91,7 @@ def displayresults(quizscores: dict) -> float:
     print(style.bblue + "Class Results:" + style.RESET)
     for student, score in quizscores.items():
         studentname = student.capitalize()
-        print(f"{studentname}:{score}")
+        print(f"{studentname} : {score}")
 
 quizscores = gradeallstudents(student_answers,answer_key)
 calculateclassaverage(quizscores)
