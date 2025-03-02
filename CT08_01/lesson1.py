@@ -118,7 +118,7 @@ def program():
         displayresults(quizscores)
     elif cmd == "5":
         print("Closing Program...")
-        print(style.bblue + "Goodbye! + ")
+        print(style.bblue + "Goodbye!" + style.RESET)
     else:
         print(style.bred + "Not a Valid Command." + style.RESET)
 
