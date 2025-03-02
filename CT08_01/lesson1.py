@@ -88,7 +88,7 @@ def findhighestscorer(quizscores: dict) -> float:
 
 
 def displayresults(quizscores: dict) -> float:
-    print("Hi")
+    print(style.bblue )
     for student, score in quizscores.items():
         studentname = student.capitalize()
         print(f"{studentname}:{score}")
