@@ -101,4 +101,8 @@ displayresults(quizscores)
 
 def program(): 
     print(style.bblue + "Class Grading System Menu")
-    print(style.bcyan + "1" + style.RESET, "")
+    print(style.bcyan + "1" + style.RESET, "Grade All Students")
+    print(style.bcyan + "2" + style.RESET, "Grade All Students")
+    print(style.bcyan + "1" + style.RESET, "Grade All Students")
+    print(style.bcyan + "1" + style.RESET, "Grade All Students")
+    print(style.bcyan + "1" + style.RESET, "Grade All Students")
