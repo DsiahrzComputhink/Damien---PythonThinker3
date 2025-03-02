@@ -66,4 +66,4 @@ with open(textfile, "w") as file:
 
 
 num1 = 500
-get_binary_representation(number)
+binarynum = get_binary_representation(num1)
