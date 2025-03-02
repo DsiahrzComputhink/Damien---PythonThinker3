@@ -66,8 +66,8 @@ with open(textfile, "w") as file:
     file.writelines(lines)
 
 num = 0
-for i in range(10):
-    num += 1
+for i in range(9):
+    num += 0
     print(num)
     with open(textfile, "a") as file:
         file.write(f"{num}  ")
