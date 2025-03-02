@@ -11,14 +11,14 @@
         # close: - Frees resources after file operations
 
     # Advantages:
-    # Persistent Storage - Retains data after the program ends
-    # Flexibility - Handle various file formats (text, binary, CSV, etc)
-    # Scalability - Manage large datasets efficently
+        # Persistent Storage - Retains data after the program ends
+        # Flexibility - Handle various file formats (text, binary, CSV, etc)
+        # Scalability - Manage large datasets efficently
 
     # Disadvantages:
-    # Data Security - Avoid unauthorized access
-    # Handling Errors - Deal with missing files or unexpected Disadvantages
-    # Performance - Not optimized for large file operations
+        # Data Security - Avoid unauthorized access
+        # Handling Errors - Deal with missing files or unexpected Disadvantages
+        # Performance - Not optimized for large file operations
 
 import os
 filepath = os.getcwd()
