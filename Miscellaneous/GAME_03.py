@@ -45,6 +45,51 @@ LINE = style.bgray + "------------------------------" + style.RESET
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "Money":0}
 memory = {}
 
+with open(textfile, "r") as file:
+        content = file.read()
+memory = eval(content)
+allow = 0
+if str(memory) == str(content):
+
+    if "Lives" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+
+    if "Correct" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+
+    if "Wrong" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+
+    if "Round" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+
+    if "Difficulty" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+
+    if "Money" in memory.keys():
+        allow = 1
+    else:
+        allow = 0
+else:
+    print(LINE)
+    print(style.bred + "Your memory was corrupted." + style.RESET)
+    print(style.bblue + "We have reset your memory for you." + style.RESET)
+    print(LINE)
+    with open(textfile, "w") as file:
+        file.write(str(DefaultMemory))
+    allow = 0
+
+
 def CheckData():
     with open(textfile, "r") as file:
         content = file.read()
