@@ -96,3 +96,5 @@ with open(textfile, "r") as file:
     content = file.read()
 
 print(content)
+if content is dict:
+    print
