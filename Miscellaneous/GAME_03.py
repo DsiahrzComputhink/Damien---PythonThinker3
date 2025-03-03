@@ -53,7 +53,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-content = 
+content = dict
 
 for food, price in content.items():
     Memory[f"{food}"] = price
