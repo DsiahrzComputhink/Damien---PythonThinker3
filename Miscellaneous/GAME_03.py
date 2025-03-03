@@ -42,7 +42,7 @@ else:
 
 
 # Testing if dictionary works within a text file
-DefaultMemory = {"Lives": 0, "Correct": 0, "Wrong": 0, "Round":0}
+DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0}
 Memory = {}
 
 
