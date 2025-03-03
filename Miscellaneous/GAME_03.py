@@ -136,8 +136,8 @@ def CheckData():
             file.write(str(DefaultMemory))
         allow = 0
 def SaveData():
+    with open(textfile, "r") as file:
     with open(textfile, "w") as file:
-        if 
         file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
 
