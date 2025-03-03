@@ -30,4 +30,4 @@ for food, price in Memory.items():
 print(content)
 
 if content == Memory:
-    print("")
+    print("Yes")
