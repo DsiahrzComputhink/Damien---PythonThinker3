@@ -2,17 +2,14 @@ import time
 import random
 import os
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 
 if os.path.exists(textfile):
     print("{} exist".format(textfile))
 else:
     print("{} Does not exist".format(textfile))
 
-# Note to self:
-    # file = open(textfile, "w") # the "w" means writes data to the file
-    # file = open(textfile, "r") # the "r" means read the file
-    # file = open(textfile, "a") # the "a" means appends data to a file
+
 
 # Excercise 1: Write to a file
 file = open(textfile, "w")
