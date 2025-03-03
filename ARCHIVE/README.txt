@@ -12,7 +12,7 @@ Also, any files with [example].txt is subject to change as the code will alter t
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
-    MEMORY.txt - WILL BE USED SOON.
+    MEMORY.txt - MISCELLANEOUS [FOR A GAME]     {SUBJECT TO CHANGE}
 
 
 # PYTHON RELATED
