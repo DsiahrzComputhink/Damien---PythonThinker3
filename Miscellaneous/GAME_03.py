@@ -40,7 +40,7 @@ if os.path.exists(textfile):
 else:
     print("{} Does not exist".format(textfile))
 
-DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0}
+DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0}
 memory = {}
 
 
@@ -52,7 +52,7 @@ memory = eval(content)
 LINE = style.bgray + "------------------------------" + style.RESET
 
 if str(memory) == str(content):
-    print("Yes") #debug test
+
 else:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
