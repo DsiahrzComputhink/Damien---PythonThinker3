@@ -68,3 +68,5 @@ else:
     print("NOTICE!")
     print(style.bred + "Your memory was corrupted." + style.RESET)
     print("We have reset your memory for you.")
+    with open(textfile, "w") as file:
+        content = file.read()
