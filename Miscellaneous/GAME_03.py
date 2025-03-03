@@ -87,7 +87,6 @@ if allow == 0:
     print(LINE)
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
-    allow = 0
 
 
 def CheckData():
