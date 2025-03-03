@@ -76,3 +76,6 @@ for i in range(10):
 
 with open(textfile, "w") as file:
     file.write("1 2 3 4 5")
+
+with open(textfile, "r") as file:
+    readlines = file.readlines
