@@ -36,9 +36,9 @@ FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 
 if os.path.exists(textfile):
-    print("{} exist".format(textfile))
-else:
-    print("{} Does not exist".format(textfile))
+    # print("{} exist".format(textfile))
+# else:
+    # print("{} Does not exist".format(textfile))
 
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0}
 memory = {}
