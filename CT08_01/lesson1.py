@@ -75,7 +75,7 @@ for i in range(10):
         file.write("Testing\n")
 
 with open(textfile, "w") as file:
-    file.write("")
+    file.write("1 2 3 4 5")
 
 with open(textfile, "r") as file:
     content = file.read()
@@ -85,3 +85,5 @@ if content == "1 2 3 4 5":
     print("Content is '1 2 3 4 5'")
 else:
     print("Content is not '1 2 3 4 5'")
+
+fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
