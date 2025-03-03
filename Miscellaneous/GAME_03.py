@@ -63,9 +63,9 @@ if str(memory) == str(content):
     if "Round" in memory.keys():
         print(memory["Round"])
     if "Difficulty" in memory.keys():
-        print(memory["Lives"])
+        print(memory["Difficulty"])
     if "Money" in memory.keys():
-        print(memory["Lives"])
+        print(memory["Money"])
     else:
         allow = 0
 else:
