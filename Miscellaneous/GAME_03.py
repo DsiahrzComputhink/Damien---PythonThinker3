@@ -137,7 +137,10 @@ def CheckData():
         allow = 0
 def SaveData():
     with open(textfile, "r") as file:
-        content = ""
+        content = file.read()
+        if str(content) == "{}":
+            with open(textfile, "w") as file:
+                file.write(str(DefaultMemory))
     with open(textfile, "w") as file:
         file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
