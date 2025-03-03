@@ -93,4 +93,6 @@ with open(textfile, "w") as file:
     file.write(fruitcost)
 
 with open(textfile, "r") as file:
-    file.read()
+    content = file.read()
+
+print(content)
