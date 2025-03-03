@@ -53,8 +53,10 @@ def CheckData():
     if str(memory) == str(content):
         if "Lives" in memory.keys():
             print(memory["Lives"])
+            allow = 1
         if "Correct" in memory.keys():
             print(memory["Correct"])
+            
         if "Wrong" in memory.keys():
             print(memory["Wrong"])
         if "Round" in memory.keys():
