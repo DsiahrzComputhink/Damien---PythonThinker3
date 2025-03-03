@@ -77,7 +77,6 @@ else:
         file.write(str(DefaultMemory))
     allow = 0
 
-
 def SaveData():
     with open(textfile, "w") as file:
         file.write(str(memory))
