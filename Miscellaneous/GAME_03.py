@@ -42,7 +42,7 @@ else:
 
 
 # Testing if dictionary works within a text file
-Memory = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
+Memory = {"Lives": 0, "Wrong": 0, "Banana": 0}
 
 with open(textfile, "w") as file:
     file.write(str(Memory))
@@ -65,4 +65,3 @@ if content == "test":
 else:
     print("NOTICE!")
     print(style.bred + "Your memory is corrupted." + style.RESET)
-    
