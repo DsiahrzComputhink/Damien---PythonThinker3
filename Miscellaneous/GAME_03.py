@@ -45,9 +45,6 @@ else:
 DefaultMemory = {"Lives": 0, "Correct": 0, "Wrong": 0, "Round":0,}
 Memory = {}
 
-with open(textfile, "w") as file:
-    file.write(str(Memory))
-
 with open(textfile, "r") as file:
     conte = file.read()
 
