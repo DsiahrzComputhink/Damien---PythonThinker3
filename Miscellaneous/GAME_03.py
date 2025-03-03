@@ -43,7 +43,7 @@ else:
 
 # Testing if dictionary works within a text file
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0}
-Memory = {}
+memory = {}
 
 
 with open(textfile, "r") as file:
@@ -56,7 +56,7 @@ print(res)
 
 print(content)
 print(f"{memory}")
-Memory.update(content)
+memory.update(content)
 
 
 
@@ -65,7 +65,7 @@ Memory.update(content)
 
 # print(Memory)
 
-if Memory == "test":
+if memory == "test":
     print("Yes")
 else:
     print("NOTICE!")
