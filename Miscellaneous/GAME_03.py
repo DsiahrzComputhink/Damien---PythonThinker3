@@ -49,9 +49,9 @@ with open(textfile, "r") as file:
 
 memory = eval(content)
 
-LINE = print(style.black + "------------------------------" + style.RESET)
+LINE = style.black + "------------------------------" + style.RESET
 
-if str(memory) == str(content):
+if str(memory) == str("hi"):
     print("Yes") #debug test
 else:
     LINE
