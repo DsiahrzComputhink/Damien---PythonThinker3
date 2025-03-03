@@ -40,40 +40,39 @@ textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 # else:
     # print("{} Does not exist".format(textfile))
 
+LINE = style.bgray + "------------------------------" + style.RESET
+
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "Money":0}
 memory = {}
 
-
-with open(textfile, "r") as file:
-    content = file.read()
-
-memory = eval(content)
-
-allow = 0
-
-if str(memory) == str(content):
-    if "Lives" in memory.keys():
-        print(memory["Lives"])
-    if "Correct" in memory.keys():
-        print(memory["Correct"])
-    if "Wrong" in memory.keys():
-        print(memory["Wrong"])
-    if "Round" in memory.keys():
-        print(memory["Round"])
-    if "Difficulty" in memory.keys():
-        print(memory["Difficulty"])
-    if "Money" in memory.keys():
-        print(memory["Money"])
-    else:
-        allow = 0
-else:
-    print(LINE)
-    print(style.bred + "Your memory was corrupted." + style.RESET)
-    print(style.bblue + "We have reset your memory for you." + style.RESET)
-    print(LINE)
-    with open(textfile, "w") as file:
-        file.write(str(DefaultMemory))
+def CheckData():
+    with open(textfile, "r") as file:
+        content = file.read()
+    memory = eval(content)
     allow = 0
+    if str(memory) == str(content):
+        if "Lives" in memory.keys():
+            print(memory["Lives"])
+        if "Correct" in memory.keys():
+            print(memory["Correct"])
+        if "Wrong" in memory.keys():
+            print(memory["Wrong"])
+        if "Round" in memory.keys():
+            print(memory["Round"])
+        if "Difficulty" in memory.keys():
+            print(memory["Difficulty"])
+        if "Money" in memory.keys():
+            print(memory["Money"])
+        else:
+            allow = 0
+    else:
+        print(LINE)
+        print(style.bred + "Your memory was corrupted." + style.RESET)
+        print(style.bblue + "We have reset your memory for you." + style.RESET)
+        print(LINE)
+        with open(textfile, "w") as file:
+            file.write(str(DefaultMemory))
+        allow = 0
 
 def SaveData():
     with open(textfile, "w") as file:
