@@ -82,3 +82,5 @@ with open(textfile, "r") as file:
 
 if content == "1 2 3 4 5":
     print("Content is '1 2 3 4 5'")
+else:
+    print("Content is not")
