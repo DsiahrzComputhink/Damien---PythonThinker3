@@ -63,4 +63,4 @@ print(content)
 if content == Memory:
     print("Yes")
 else:
-    print(style.bred)
+    print(style.bred + "Memory Corrupted" + style.RESET)
