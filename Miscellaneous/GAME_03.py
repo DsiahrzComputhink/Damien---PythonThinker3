@@ -78,7 +78,6 @@ def CheckData():
             allow = 0
 
         if "Money" in memory.keys():
-            print(memory["Money"])
             allow = 1
         else:
             allow = 0
@@ -92,5 +91,6 @@ def CheckData():
         allow = 0
 
 def SaveData():
+    
     with open(textfile, "w") as file:
         file.write(str(memory))
