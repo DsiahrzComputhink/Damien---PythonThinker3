@@ -28,7 +28,7 @@ except SyntaxError:
 
 print(content)
 
-if content is dict:
+if content == dict:
     print("Content is Dictionary")
 else:
     print("Content is not dictionary")
