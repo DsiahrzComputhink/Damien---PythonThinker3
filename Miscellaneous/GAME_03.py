@@ -141,11 +141,11 @@ def SaveData():
     with open(textfile, "r") as file:
         content = file.read()
         print(content)
-        if str(content) != memory:
+        if str(content) != str(memory):
             print("yes")
             with open(textfile, "w") as file:
                 file.write(str(DefaultMemory))
-        else:
+        elif str(content) == memory:
             with open(textfile, "w") as file:
                 file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
