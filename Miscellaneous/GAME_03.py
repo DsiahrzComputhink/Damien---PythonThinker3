@@ -54,7 +54,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-for food, price in DefaultMemory.items():
+for food, price in content.items():
     Memory[f"{food}"] = price
 
 print(Memory)
