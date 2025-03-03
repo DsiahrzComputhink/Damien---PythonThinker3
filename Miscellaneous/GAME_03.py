@@ -41,7 +41,6 @@ else:
     print("{} Does not exist".format(textfile))
 
 
-# Testing if dictionary works within a text file
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0}
 memory = {}
 
@@ -49,17 +48,7 @@ memory = {}
 with open(textfile, "r") as file:
     content = file.read()
 
-
 memory = eval(content)
-print(memory)
-print(content)
-
-
-
-# for food, price in content.items():
-#     Memory[f"{food}"] = price
-
-# print(Memory)
 
 if str(memory) == str(content):
     print("Yes")
