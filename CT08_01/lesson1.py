@@ -72,6 +72,3 @@ for i in range(10):
     num += 1
     with open(textfile, "a") as file:
         file.write(f"{num}  ")
-
-
-
