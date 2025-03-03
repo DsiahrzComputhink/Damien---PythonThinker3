@@ -50,10 +50,15 @@ with open(textfile, "r") as file:
     content = file.read()
 
 
+# Corrected data format
+data = [('a', 1), ('b', 2), ('c', 3)]  # Added value for 'c'
+dictionary = {}
+dictionary.update(data)
+print(dictionary)
+
 Memory.update(content)
 print(content)
 print(Memory)
-
 
 
 # for food, price in content.items():
