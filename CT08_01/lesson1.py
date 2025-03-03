@@ -81,4 +81,4 @@ with open(textfile, "r") as file:
     content = file.readlines()
 
 if content == "1 2 3 4 5":
-    print("Content is ")
+    print("Content is '1 2 3 4 5'")
