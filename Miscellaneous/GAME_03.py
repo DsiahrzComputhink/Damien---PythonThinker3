@@ -50,7 +50,6 @@ with open(textfile, "r") as file:
     content = file.read()
 
 
-s = "{'a': 1, 'b': 2, 'c': 3}"
 memory = eval(content)
 print(memory)
 print(content)
