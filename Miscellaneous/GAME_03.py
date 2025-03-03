@@ -40,7 +40,6 @@ if os.path.exists(textfile):
 else:
     print("{} Does not exist".format(textfile))
 
-
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0}
 memory = {}
 
