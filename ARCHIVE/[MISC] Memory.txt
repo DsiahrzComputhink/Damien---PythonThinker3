@@ -1,1 +1,1 @@
-{'Apple': 1.5, 'Orange': 'hi', 'Banana': 4.25}
+{'Apple': 1.5, 'Orange': 2.55, 'Banana': 4.25}
