@@ -21,7 +21,7 @@ with open(textfile, "r") as file:
 
 print(content)
 if content == dict:
-if content is dict:
     print("Content is Dictionary")
 else:
+    content = dict
     print("Content is not dictionary")
