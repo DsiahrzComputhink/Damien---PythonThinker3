@@ -80,6 +80,7 @@ if str(memory) == str(content):
         allow = 1
     else:
         allow = 0
+    print(allow)
 else:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
@@ -91,6 +92,7 @@ else:
 
 
 def CheckData():
+
     with open(textfile, "r") as file:
         content = file.read()
     memory = eval(content)
@@ -134,7 +136,6 @@ def CheckData():
         with open(textfile, "w") as file:
             file.write(str(DefaultMemory))
         allow = 0
-
 def SaveData():
     with open(textfile, "w") as file:
         file.write(str(memory))
