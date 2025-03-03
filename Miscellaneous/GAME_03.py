@@ -55,7 +55,7 @@ allow = 0
 
 if str(memory) == str(content):
     if "Lives" in memory.keys():
-        lives = memory["Lives"]
+        print(memory["Lives"]
     if "Correct" in memory.keys():
         correct = memory["Correct"]
     if "Wrong" in memory.keys():
