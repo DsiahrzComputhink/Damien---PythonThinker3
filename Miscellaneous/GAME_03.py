@@ -45,6 +45,7 @@ else:
 DefaultMemory = {"Lives": 0, "Correct": 0, "Wrong": 0, "Round":0,}
 Memory = {}
 
+
 with open(textfile, "r") as file:
     conte = file.read()
 
@@ -53,7 +54,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-for food, price in Memory.items():
+for food, price in content.items():
     Memory[f"{food}"] = price
 
 print(Memory)
