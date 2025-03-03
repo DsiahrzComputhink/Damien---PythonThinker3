@@ -49,8 +49,6 @@ with open(textfile, "r") as file:
 
 memory = eval(content)
 
-LINE = style.bgray + "------------------------------" + style.RESET
-
 allow = 0
 
 if str(memory) == str(content):
