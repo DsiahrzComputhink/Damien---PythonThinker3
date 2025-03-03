@@ -21,7 +21,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-content = dict
+content == dict
 
 print(content)
 
@@ -29,7 +29,7 @@ print(content)
 def createnewstudent(name):
     attendance_list = []
     attendance_list.append(True)
-    students[f"{name}"] = attendance_list
+    content[f"{name}"] = attendance_list
 
 
 for food, price in fruitcost():
