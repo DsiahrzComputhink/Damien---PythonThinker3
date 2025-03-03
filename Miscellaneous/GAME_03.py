@@ -25,9 +25,9 @@ content = dict
 
 print(content)
 
-    # Format
-    for food, price in menu.items():
-        print("{:20}:     ${:^8.2f}".format(food, price))
+
+for food, price in content():
+    print("{:20}:     ${:^8.2f}".format(food, price))
 
 
 if content is dict:
