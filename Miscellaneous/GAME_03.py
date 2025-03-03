@@ -61,9 +61,9 @@ if str(memory) == str(content):
     if "Wrong" in memory.keys():
         wrong = memory["Wrong"]
     if "Lives" in memory.keys():
-        memory["Lives"] = 1
-    if "Lives" in memory.keys():
-        memory["Lives"] = 1
+        lives = memory["Lives"]
+    if "Difficulty" in memory.keys():
+        memory["Lives"]
     else:
         allow = 0
 else:
