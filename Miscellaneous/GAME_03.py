@@ -57,11 +57,11 @@ if str(memory) == str(content):
     if "Lives" in memory.keys():
         print(memory["Lives"])
     if "Correct" in memory.keys():
-        print(memory["Lives"])
+        print(memory["Correct"])
     if "Wrong" in memory.keys():
-        print(memory["Lives"])
+        print(memory["Wrong"])
     if "Round" in memory.keys():
-        print(memory["Lives"])
+        print(memory["Round"])
     if "Difficulty" in memory.keys():
         print(memory["Lives"])
     if "Money" in memory.keys():
