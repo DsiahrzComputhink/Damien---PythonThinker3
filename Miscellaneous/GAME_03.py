@@ -42,7 +42,7 @@ else:
 
 
 # Testing if dictionary works within a text file
-Memory = {"Lives": 0, "Correct": 0, "Wrong": 0, ""}
+Memory = {"Lives": 0, "Correct": 0, "Wrong": 0, "Round":0,}
 
 with open(textfile, "w") as file:
     file.write(str(Memory))
