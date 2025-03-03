@@ -21,7 +21,7 @@ with open(textfile, "r") as file:
 
 print(content)
 
-content == dict
+content = {}
 
 print(content)
 
