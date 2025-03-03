@@ -56,9 +56,11 @@ dictionary = {}
 dictionary.update(data)
 print(dictionary)
 
-Memory.update(content)
 print(content)
 print(Memory)
+
+Memory.update(content)
+
 
 
 # for food, price in content.items():
