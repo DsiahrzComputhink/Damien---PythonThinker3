@@ -75,7 +75,7 @@ for i in range(10):
         file.write("Testing\n")
 
 with open(textfile, "w") as file:
-    file.write(["testing"])
+    file.write("")
 
 with open(textfile, "r") as file:
     content = file.read()
