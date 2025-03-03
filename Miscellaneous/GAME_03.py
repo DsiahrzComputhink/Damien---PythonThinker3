@@ -28,6 +28,7 @@ print(content)
 for food, price in fruitcost():
     fruitcost[f"{food}"] = int(price)
 
+print(content)
 
 if content is dict:
     print("Content is Dictionary")
