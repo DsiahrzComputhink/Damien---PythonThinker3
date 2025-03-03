@@ -86,4 +86,8 @@ if content == "1 2 3 4 5":
 else:
     print("Content is not '1 2 3 4 5'")
 
+# Testing if dictionary works
 fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
+
+with open(textfile, "w") as file:
+    
