@@ -73,3 +73,6 @@ for i in range(10):
     with open(textfile, "a") as file:
         file.write(f"{num}  ")
         file.write("Testing\n")
+
+with open(textfile, "w") as file:
+    file.write("1 2 3 4 5")
