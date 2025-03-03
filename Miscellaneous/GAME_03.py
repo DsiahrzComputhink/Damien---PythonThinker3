@@ -19,9 +19,14 @@ with open(textfile, "w") as file:
 with open(textfile, "r") as file:
     content = file.read()
 
+
+try:
+    print(2/0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
 print(content)
 if content == dict:
     print("Content is Dictionary")
 else:
-    content = dict
     print("Content is not dictionary")
