@@ -26,7 +26,7 @@ content = dict
 print(content)
 
 for food, price in fruitcost():
-    students[f"TEST{NAME}"] = attendance_list
+    students[f""] = attendance_list
 
 
 if content is dict:
