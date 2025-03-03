@@ -145,7 +145,7 @@ def SaveData():
             print("yes")
             with open(textfile, "w") as file:
                 file.write(str(DefaultMemory))
-        elif str(content) == memory:
+        elif str(content) == str(memory):
             with open(textfile, "w") as file:
                 file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
