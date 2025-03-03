@@ -50,6 +50,7 @@ with open(textfile, "r") as file:
 memory = eval(content)
 
 LINE = print(style.black + "------------------------------" + style.RESET)
+
 if str(memory) == str(content):
     print("Yes") #debug test
 else:
@@ -57,5 +58,6 @@ else:
     print("NOTICE!")
     print(style.bred + "Your memory was corrupted." + style.RESET)
     print(style.bgray + "We have reset your memory for you." + style.RESET)
+    LINE
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
