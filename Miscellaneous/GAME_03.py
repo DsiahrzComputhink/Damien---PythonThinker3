@@ -60,7 +60,7 @@ for food, price in Memory.items():
 
 print(content)
 
-if content == Memory:
+if content == "memory":
     print("Yes")
 else:
-    print(style.bred + "Memory Corrupted" + style.RESET)
+    print(style.dred + "Memory Corrupted" + style.RESET)
