@@ -49,7 +49,7 @@ with open(textfile, "r") as file:
 
 memory = eval(content)
 
-if str(memory) == str("hi"):
+if str(memory) == str(content):
     print("Yes") #debug test
 else:
     print("NOTICE!")
