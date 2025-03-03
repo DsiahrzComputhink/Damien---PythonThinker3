@@ -50,7 +50,7 @@ with open(textfile, "r") as file:
     content = file.read()
 
 
-
+memoryview.update(content)
 print(content)
 
 dict(content)
