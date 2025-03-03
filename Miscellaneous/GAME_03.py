@@ -22,7 +22,7 @@ with open(textfile, "r") as file:
 print(content)
 
 try:
-    content == dict
+    content = dict
 except SyntaxError:
     print("Corrupted Memory")
 
