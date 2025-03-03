@@ -19,6 +19,7 @@ with open(textfile, "w") as file:
 with open(textfile, "r") as file:
     content = file.read()
 
+
 print(content)
 content = dict
 if content is dict:
