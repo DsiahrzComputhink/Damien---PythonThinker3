@@ -61,7 +61,7 @@ print(content)
 
 # print(Memory)
 
-if memory == content:
+if str(memory) == str(content):
     print("Yes")
 else:
     print("NOTICE!")
