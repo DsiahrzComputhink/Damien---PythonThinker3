@@ -90,4 +90,7 @@ else:
 fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 
 with open(textfile, "w") as file:
-    
+    file.write(fruitcost)
+
+with open(textfile, "r") as file:
+    file.read()
