@@ -63,5 +63,5 @@ print(content)
 if content == "test":
     print("Yes")
 else:
-    print(style.byellow + "WARNING" + style.RESET)
+    print(style.bcyan + "Notice" + style.RESET)
     print(style.bred + "The memory is corrupted." + style.RESET)
