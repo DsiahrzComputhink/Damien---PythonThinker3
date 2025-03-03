@@ -60,10 +60,10 @@ if str(memory) == str(content):
         correct = memory["Correct"]
     if "Wrong" in memory.keys():
         wrong = memory["Wrong"]
-    if "Lives" in memory.keys():
-        lives = memory["Lives"]
+    if "Round" in memory.keys():
+        lives = memory["Round"]
     if "Difficulty" in memory.keys():
-        memory["Lives"]
+        difficulty = memory["Difficulty"]
     else:
         allow = 0
 else:
