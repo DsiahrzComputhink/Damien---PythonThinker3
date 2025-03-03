@@ -49,11 +49,11 @@ with open(textfile, "r") as file:
 
 memory = eval(content)
 
-if str(memory) == str(content):
+if str(memory) == str("hi"):
     print("Yes") #debug test
 else:
     print("NOTICE!")
     print(style.bred + "Your memory was corrupted." + style.RESET)
-    print(style.bblue + "We have reset your memory for you." + style.RESET)
+    print(style.b + "We have reset your memory for you." + style.RESET)
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
