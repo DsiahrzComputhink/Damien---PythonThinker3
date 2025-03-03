@@ -32,7 +32,7 @@ def createnewstudent(name):
     content[f"{name}"] = attendance_list
 
 
-for food, price in fruitcost():
+for food, price in fruitcost.items():
     content[f"{food}"] = int(price)
 
 print(content)
