@@ -31,3 +31,5 @@ print(content)
 
 if content == Memory:
     print("Yes")
+else:
+    print(style.bred)
