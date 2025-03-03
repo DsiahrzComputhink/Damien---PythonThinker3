@@ -140,12 +140,11 @@ def CheckData():
 def SaveData():
     with open(textfile, "r") as file:
         content = file.read()
-        print(content)
         if str(content) != str(memory):
             print(LINE)
-    print(style.bred + "Your memory was corrupted." + style.RESET)
-    print(style.bblue + "We have reset your memory for you." + style.RESET)
-    print(LINE)
+            print(style.bred + "Your memory was corrupted." + style.RESET)
+            print(style.bblue + "We have reset your memory for you." + style.RESET)
+            print(LINE)
             with open(textfile, "w") as file:
                 file.write(str(DefaultMemory))
         elif str(content) == str(memory):
