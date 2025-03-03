@@ -21,7 +21,11 @@ with open(textfile, "r") as file:
 
 
 print(content)
-content = dict
+if isinstance(content, dict):
+    print("Content is already a dictionary.")
+else:
+    print("Content is not a dictionary.")
+        
 if content is dict:
     print("Content is Dictionary")
 else:
