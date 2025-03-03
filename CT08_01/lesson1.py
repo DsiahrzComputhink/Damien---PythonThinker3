@@ -49,7 +49,7 @@ file.close()
 # Excercise 3: Using the 'with keyboard
 with open(textfile, "r") as file:
     content = file.read()
-    print(f"File content with 'with': {content}")
+    # print(f"File content with 'with': {content}")
 
 # print(content)
 
