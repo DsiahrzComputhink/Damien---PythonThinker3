@@ -53,7 +53,7 @@ with open(textfile, "r") as file:
 s = "{'a': 1, 'b': 2, 'c': 3}"
 memory = eval(content)
 print(memory)
-print(defu)
+print(content)
 
 
 
