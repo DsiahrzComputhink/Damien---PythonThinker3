@@ -78,4 +78,4 @@ else:
     allow = 0
 
 difficulty = 10
-print(difficulty)
+print(memory)
