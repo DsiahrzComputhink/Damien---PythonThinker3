@@ -43,20 +43,20 @@ else:
 
 # Testing if dictionary works within a text file
 DefaultMemory = {"Lives": 0, "Correct": 0, "Wrong": 0, "Round":0,}
-
+Memory = {}
 with open(textfile, "w") as file:
     file.write(str(Memory))
 
 with open(textfile, "r") as file:
-    Memory = file.read()
+    conte = file.read()
 
 
-content = {}
+
 
 print(content)
 
 for food, price in Memory.items():
-    content[f"{food}"] = price
+    Memory[f"{food}"] = price
 
 print(content)
 
