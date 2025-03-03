@@ -23,7 +23,7 @@ with open(textfile, "r") as file:
 try:
     content = dict
 except SyntaxError:
-    print("You can't divide by zero!")
+    print("Corrupted Memory")
 
 print(content)
 
