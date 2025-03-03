@@ -143,15 +143,9 @@ def SaveData():
             print("yes")
             with open(textfile, "w") as file:
                 file.write(str(DefaultMemory))
-    with open(textfile, "w") as file:
-        file.write(str(memory))
-    with open(textfile, "r") as file:
-        content = file.read()
-        print(content)
-        if str(content) == "{}":
-            print("yes")
+        else:
             with open(textfile, "w") as file:
-                file.write(str(DefaultMemory))
+                file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
 
 
