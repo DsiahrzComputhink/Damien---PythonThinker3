@@ -64,3 +64,4 @@ if content == Memory:
     print("Yes")
 else:
     print(style.bred + "WARNING" + style.RESET)
+    print(style.bred + "The memory is corrupted." + style.RESET)
