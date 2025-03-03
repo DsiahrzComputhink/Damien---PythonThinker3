@@ -51,7 +51,7 @@ memory = eval(content)
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-if str(memory) == str("hi"):
+if str(memory) == str(content):
     print("Yes") #debug test
 else:
     print(LINE)
