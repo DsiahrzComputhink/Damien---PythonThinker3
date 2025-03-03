@@ -52,7 +52,7 @@ with open(textfile, "r") as file:
 
 s = "{'a': 1, 'b': 2, 'c': 3}"
 
-res = eval(s)
+res = eval(content)
 print(res)
 
 print(content)
