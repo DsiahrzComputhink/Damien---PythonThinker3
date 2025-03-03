@@ -10,7 +10,7 @@ else:
     print("{} Does not exist".format(textfile))
 
 
-# Testing if dictionary works
+# Testing if dictionary works within a text file
 fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 
 with open(textfile, "w") as file:
