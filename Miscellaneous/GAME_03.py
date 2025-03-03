@@ -21,12 +21,14 @@ with open(textfile, "r") as file:
 
 print(content)
 
-try:
-    content = dict
-except SyntaxError:
-    print("Corrupted Memory")
+content = dict
 
 print(content)
+
+    # Format
+    for food, price in menu.items():
+        print("{:20}:     ${:^8.2f}".format(food, price))
+
 
 if content is dict:
     print("Content is Dictionary")
