@@ -54,6 +54,6 @@ if str(memory) == str("hi"):
 else:
     print("NOTICE!")
     print(style.bred + "Your memory was corrupted." + style.RESET)
-    print(style.b + "We have reset your memory for you." + style.RESET)
+    print(style.bgray + "We have reset your memory for you." + style.RESET)
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
