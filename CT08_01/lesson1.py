@@ -97,4 +97,4 @@ with open(textfile, "r") as file:
 
 print(content)
 if content is dict:
-    print
+    print("Content is Dictionary")
