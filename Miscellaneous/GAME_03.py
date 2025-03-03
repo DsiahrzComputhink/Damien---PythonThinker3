@@ -50,10 +50,11 @@ with open(textfile, "r") as file:
     content = file.read()
 
 
-memoryview.update(content)
+Memory.update(content)
 print(content)
+print(Memory)
 
-dict(content)
+
 
 for food, price in content.items():
     Memory[f"{food}"] = price
