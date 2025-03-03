@@ -43,13 +43,13 @@ textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 LINE = style.bgray + "------------------------------" + style.RESET
 
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "Money":0}
-memory = {9}
+memory = {}
 
 with open(textfile, "r") as file:
         content = file.read()
 memory = eval(content)
 allow = 0
-if str(memory) == str(content):
+if str(memory) == str("hi"):
 
     if "Lives" in memory.keys():
         allow = 1
