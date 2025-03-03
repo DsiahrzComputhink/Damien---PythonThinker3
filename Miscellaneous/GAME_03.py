@@ -32,6 +32,7 @@ class style():
 import time
 import random
 import os
+
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 
