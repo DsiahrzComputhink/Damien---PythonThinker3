@@ -43,7 +43,7 @@ textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
 LINE = style.bgray + "------------------------------" + style.RESET
 
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "Money":0}
-memory = {}
+memory = {9}
 
 with open(textfile, "r") as file:
         content = file.read()
