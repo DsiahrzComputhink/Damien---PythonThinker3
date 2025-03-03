@@ -1,2 +1,1 @@
-Will be used soon! - Dsiahrz [2/3/2025] 
-:D
+{'Apple': 1.5, 'Orange': 2.55, 'Banana': 4.25}
