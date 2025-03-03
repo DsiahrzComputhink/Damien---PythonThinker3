@@ -21,12 +21,12 @@ with open(textfile, "r") as file:
 
 
 try:
-    print(2/0)
+    content = dict
 except SyntaxError:
     print("You can't divide by zero!")
 
 print(content)
-"content" = dict
+
 if content is dict:
     print("Content is Dictionary")
 else:
