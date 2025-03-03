@@ -76,3 +76,6 @@ else:
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
     allow = 0
+
+difficulty = 10
+print(difficulty)
