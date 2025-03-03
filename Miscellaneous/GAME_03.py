@@ -49,7 +49,7 @@ with open(textfile, "r") as file:
 
 memory = eval(content)
 
-LINE = style.black + "------------------------------" + style.RESET
+LINE = style.bgray + "------------------------------" + style.RESET
 
 if str(memory) == str("hi"):
     print("Yes") #debug test
