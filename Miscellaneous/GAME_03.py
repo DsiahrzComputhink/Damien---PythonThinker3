@@ -47,14 +47,14 @@ Memory = {}
 
 
 with open(textfile, "r") as file:
-    conte = file.read()
+    content = file.read()
 
 
 
 
 print(content)
 
-for food, price in content.items():
+for food, price in DefaultMemory.items():
     Memory[f"{food}"] = price
 
 print(Memory)
