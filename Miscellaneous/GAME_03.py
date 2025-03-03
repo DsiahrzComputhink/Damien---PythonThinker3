@@ -25,19 +25,7 @@ content = {}
 
 print(content)
 
-
-def createnewstudent(name):
-    attendance_list = []
-    attendance_list.append(True)
-    content[f"{name}"] = attendance_list
-
-
 for food, price in fruitcost.items():
     content[f"{food}"] = price
 
 print(content)
-
-if content is dict:
-    print("Content is Dictionary")
-else:
-    print("Content is not dictionary")
