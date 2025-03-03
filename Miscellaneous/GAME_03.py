@@ -55,7 +55,8 @@ allow = 0
 
 if str(memory) == str(content):
     if "Lives" in memory.keys():
-        memory["Lives"] 
+        memory["Lives"] = 1
+        print(memory["Lives"])
         print("Lives exist")
     else:
         allow = 0
