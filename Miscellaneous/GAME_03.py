@@ -55,8 +55,8 @@ res = eval(content)
 print(res)
 
 print(content)
-print(f"{memory}")
 memory.update(content)
+print(f"{memory} Memory")
 
 
 
