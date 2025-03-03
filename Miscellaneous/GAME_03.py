@@ -55,7 +55,7 @@ allow = 0
 
 if str(memory) == str(content):
     if "Lives" in memory.keys():
-        fruitcost["Orange"]}")
+        memory["Lives"] 
         print("Lives exist")
     else:
         allow = 0
