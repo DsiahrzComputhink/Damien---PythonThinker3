@@ -28,3 +28,6 @@ for food, price in fruitcost.items():
     content[f"{food}"] = price
 
 print(content)
+
+if content == fruitcost:
+    print(yes)
