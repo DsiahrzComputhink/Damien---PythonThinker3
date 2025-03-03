@@ -51,36 +51,43 @@ def CheckData():
     memory = eval(content)
     allow = 0
     if str(memory) == str(content):
+
         if "Lives" in memory.keys():
             print(memory["Lives"])
             allow = 1
         else:
             allow = 0
+
         if "Correct" in memory.keys():
             print(memory["Correct"])
             allow = 1
         else:
             allow = 0
+
         if "Wrong" in memory.keys():
             print(memory["Wrong"])
             allow = 1
         else:
             allow = 0
+
         if "Round" in memory.keys():
             print(memory["Round"])
             allow = 1
         else:
             allow = 0
+
         if "Difficulty" in memory.keys():
             print(memory["Difficulty"])
             allow = 1
         else:
             allow = 0
+
         if "Money" in memory.keys():
             print(memory["Money"])
             allow = 1
         else:
             allow = 0
+            
     else:
         print(LINE)
         print(style.bred + "Your memory was corrupted." + style.RESET)
