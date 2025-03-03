@@ -65,4 +65,4 @@ else:
     print(LINE)
     with open(textfile, "w") as file:
         file.write(str(DefaultMemory))
-    allow = 1
+    allow = 0
