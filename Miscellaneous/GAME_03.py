@@ -58,9 +58,9 @@ print(content)
 for food, price in Memory.items():
     Memory[f"{food}"] = price
 
-print(content)
+print(Memory)
 
-if content == "test":
+if Memory == "test":
     print("Yes")
 else:
     print("NOTICE!")
