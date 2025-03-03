@@ -85,22 +85,22 @@ if content == "1 2 3 4 5":
     print("Content is '1 2 3 4 5'")
 else:
     print("Content is not '1 2 3 4 5'")
-    
-# Testing if dictionary works within a text file
-fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 
-with open(textfile, "w") as file:
-    file.write(str(fruitcost))
+# # Testing if dictionary works within a text file
+# fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 
-with open(textfile, "r") as file:
-    content = file.read()
+# with open(textfile, "w") as file:
+#     file.write(str(fruitcost))
+
+# with open(textfile, "r") as file:
+#     content = file.read()
 
 
-content = {}
+# content = {}
 
-print(content)
+# print(content)
 
-for food, price in fruitcost.items():
-    content[f"{food}"] = price
+# for food, price in fruitcost.items():
+#     content[f"{food}"] = price
 
-print(content)
+# print(content)
