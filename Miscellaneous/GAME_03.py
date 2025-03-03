@@ -56,10 +56,10 @@ print(Memory)
 
 
 
-for food, price in content.items():
-    Memory[f"{food}"] = price
+# for food, price in content.items():
+#     Memory[f"{food}"] = price
 
-print(Memory)
+# print(Memory)
 
 if Memory == "test":
     print("Yes")
