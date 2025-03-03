@@ -50,7 +50,7 @@ with open(textfile, "r") as file:
 memory = eval(content)
 
 if str(memory) == str(content):
-    print("Yes")
+    print("Yes") #debug test
 else:
     print("NOTICE!")
     print(style.bred + "Your memory was corrupted." + style.RESET)
