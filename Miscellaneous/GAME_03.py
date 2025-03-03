@@ -48,7 +48,7 @@ with open(textfile, "w") as file:
     file.write(str(Memory))
 
 with open(textfile, "r") as file:
-    Memor = file.read()
+    Memory = file.read()
 
 
 content = {}
