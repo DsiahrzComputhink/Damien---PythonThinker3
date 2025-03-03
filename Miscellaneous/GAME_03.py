@@ -96,5 +96,8 @@ def SaveData():
     with open(textfile, "w") as file:
         file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
-    
+
+
+# This is super important.
+CheckData()
 SaveData()
