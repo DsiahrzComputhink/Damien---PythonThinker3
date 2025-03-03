@@ -85,8 +85,8 @@ if content == "1 2 3 4 5":
     print("Content is '1 2 3 4 5'")
 else:
     print("Content is not '1 2 3 4 5'")
-
-# Testing if dictionary works
+    
+# Testing if dictionary works within a text file
 fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
 
 with open(textfile, "w") as file:
@@ -95,9 +95,12 @@ with open(textfile, "w") as file:
 with open(textfile, "r") as file:
     content = file.read()
 
+
+content = {}
+
 print(content)
-content = dict
-if content is dict:
-    print("Content is Dictionary")
-else:
-    print("Content is not dictionary")
+
+for food, price in fruitcost.items():
+    content[f"{food}"] = price
+
+print(content)
