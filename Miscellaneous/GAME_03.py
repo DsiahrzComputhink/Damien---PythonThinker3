@@ -26,7 +26,8 @@ except ZeroDivisionError:
     print("You can't divide by zero!")
 
 print(content)
-if content == dict:
+content = dict
+if content is dict:
     print("Content is Dictionary")
 else:
     print("Content is not dictionary")
