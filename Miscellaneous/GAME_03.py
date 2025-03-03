@@ -51,8 +51,10 @@ memory = eval(content)
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-if str(memory) == str(content):
+allow = 0
 
+if str(memory) == str(content):
+    
 else:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
