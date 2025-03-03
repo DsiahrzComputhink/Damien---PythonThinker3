@@ -87,7 +87,6 @@ def CheckData():
             allow = 1
         else:
             allow = 0
-            
     else:
         print(LINE)
         print(style.bred + "Your memory was corrupted." + style.RESET)
