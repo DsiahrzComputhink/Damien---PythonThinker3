@@ -51,12 +51,11 @@ with open(textfile, "r") as file:
 
 
 s = "{'a': 1, 'b': 2, 'c': 3}"
-print(content)
 res = eval(content)
 print(res)
 
 print(content)
-print(Memory)
+print(f"{memory}")
 Memory.update(content)
 
 
