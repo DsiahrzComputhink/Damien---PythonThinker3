@@ -80,8 +80,7 @@ if str(memory) == str(content):
         allow = 1
     else:
         allow = 0
-    print(allow)
-else:
+if allow == 0:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
     print(style.bblue + "We have reset your memory for you." + style.RESET)
