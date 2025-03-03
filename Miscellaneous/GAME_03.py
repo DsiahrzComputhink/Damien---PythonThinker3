@@ -54,7 +54,10 @@ LINE = style.bgray + "------------------------------" + style.RESET
 allow = 0
 
 if str(memory) == str(content):
-    if "Lives" in memory.keys():
+    if "Lives" in memory():
+        print("Lives exist")
+    else:
+        allow = 0
 else:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
