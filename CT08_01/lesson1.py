@@ -43,7 +43,7 @@ file.close()
 # Excercise 2: Read from a file
 file = open(textfile, "r")
 content = file.read()
-print(f"File content:\n {content}")
+# print(f"File content:\n {content}")
 file.close()
 
 # Excercise 3: Using the 'with keyboard
@@ -51,7 +51,7 @@ with open(textfile, "r") as file:
     content = file.read()
     print(f"File content with 'with': {content}")
 
-print(content)
+# print(content)
 
 # Excercise 4: Append to file
 with open(textfile, "a") as file:
