@@ -25,6 +25,13 @@ content = dict
 
 print(content)
 
+
+def createnewstudent(name):
+    attendance_list = []
+    attendance_list.append(True)
+    students[f"{name}"] = attendance_list
+
+
 for food, price in fruitcost():
     content[f"{food}"] = int(price)
 
