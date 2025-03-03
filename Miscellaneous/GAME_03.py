@@ -19,13 +19,8 @@ with open(textfile, "w") as file:
 with open(textfile, "r") as file:
     content = file.read()
 
-
 print(content)
-if isinstance(content, dict):
-    print("Content is already a dictionary.")
-else:
-    print("Content is not a dictionary.")
-        
+content = dict   
 if content is dict:
     print("Content is Dictionary")
 else:
