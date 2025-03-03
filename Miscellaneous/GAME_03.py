@@ -55,11 +55,11 @@ allow = 0
 
 if str(memory) == str(content):
     if "Lives" in memory.keys():
-        memory["Lives"] = 1
+        lives = memory["Lives"]
     if "Correct" in memory.keys():
-        memory["Correct"] = 1
+        correct = memory["Correct"]
     if "Wrong" in memory.keys():
-        memory["Wrong"] = 1
+        wrong = memory["Wrong"]
     if "Lives" in memory.keys():
         memory["Lives"] = 1
     if "Lives" in memory.keys():
