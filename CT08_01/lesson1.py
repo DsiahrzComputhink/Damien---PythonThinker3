@@ -96,5 +96,8 @@ with open(textfile, "r") as file:
     content = file.read()
 
 print(content)
+content 
 if content is dict:
     print("Content is Dictionary")
+else:
+    print("Content is not dictionary")
