@@ -13,6 +13,6 @@ def generatealgebra(word):
     return x
 
 x = generatealgebra(wordnumber)
-
-print(7*x + x + 1)
+y = generatealgebra(wordnumber)
+print(7*x + y + 1)
 # 2*x + 1
