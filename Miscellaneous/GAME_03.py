@@ -155,7 +155,7 @@ def SaveData():
                 file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
 
-# Main Program
+# Main Program [Math Game]
 
 # This is super important.
 # CheckData()
