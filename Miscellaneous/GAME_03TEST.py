@@ -6,7 +6,7 @@ words = [
         ]
 
 
-def generatealgebra(words):
+def generatealgebra(words : list):
     wordnumber = random.randint(0,len(words)-1)
 
     symbol = Symbol(words[int(wordnumber)])
