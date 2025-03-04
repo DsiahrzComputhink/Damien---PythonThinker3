@@ -198,6 +198,19 @@ controls_frame.pack(side="top", fill="x")
 controls_frame = tk.Frame(root)
 controls_frame.pack(side="top", fill="x")
 
+color_button = tk.Button(controls_frame, text="Change Color", command=change_pen_color)
+clear_button = tk.Button(controls_frame, text="Clear Canvas", command=lambda: canvas.delete("all"))
+
+color_button.pack(side="left", padx=5, pady=5)
+clear_button.pack(side="left", padx=5, pady=5)
+
+line_width_label = tk.Label(controls_frame, text="Line Width:")
+line_width_label.pack(side="left", padx=5, pady=5)
+
+line_width_slider = tk.Scale(controls_frame, from_=1, to=10, orient="horizontal", command=lambda val: change_line_width(val))
+line_width_slider.set(line_width)
+line_width_slider.pack(side="left", padx=5, pady=5)
+
 # This is super important.
 # CheckData()
 # SaveData()
