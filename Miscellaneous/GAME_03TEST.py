@@ -33,7 +33,7 @@ ans = (5*x + 3)*(1-x)
 print(ans)
 # 6
 
-print(i)
+
 def solveSimul():
     x = generatealgebra(words)
     y = generatealgebra(words)
