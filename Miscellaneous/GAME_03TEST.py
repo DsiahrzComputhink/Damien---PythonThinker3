@@ -74,6 +74,6 @@ def solveSimul():
     print(LINE)
     print(style.BOLD + "Simultaneous Equation" + style.RESET)
     print("Solve the 2 equations.")
-    print(f"({(1*x + 3)})")
+    print(f"({(num1*x + 3)})")
 
 solveSimul()
