@@ -75,6 +75,7 @@ def solveSimul():
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
     print(LINE)
-    print(style.BOLD + "Simultaneous Equation" style.RESET)
+    print(style.BOLD + "Simultaneous Equation" + style.RESET)
+    print("Solve the ")
 
 solveSimul()
