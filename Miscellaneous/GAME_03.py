@@ -159,6 +159,7 @@ def SaveData():
 # Whiteboard thing i guess
 import turtle
 t = turtle.Turtle
+
 # This is super important.
 # CheckData()
-SaveData()
+# SaveData()
