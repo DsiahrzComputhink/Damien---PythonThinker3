@@ -10,7 +10,7 @@ def generatealgebra(word):
     wordnumber = random.randint(0,len(words)-1)
 
 
-    symbol = Symbol(words[int(word)])
+    symbol = Symbol(words[int(wordnumber)])
     return symbol
 
 x = generatealgebra(wordnumber)
