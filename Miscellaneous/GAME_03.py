@@ -138,7 +138,8 @@ def CheckData():
             file.write(str(DefaultMemory))
         allow = 0
         # Base checking data
-        
+
+
 def SaveData():
     with open(textfile, "r") as file:
         content = file.read()
