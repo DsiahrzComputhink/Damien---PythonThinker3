@@ -35,8 +35,6 @@ from sympy import Eq, solve
 from sympy.abc import w, x, y, z
 
 sol = solve([ Eq(2*w + x + 4*y + 3*z, 5),
-              Eq(w - 2*x + 3*z, 3),
-              Eq(3*w + 2*x - y + z, -1),
-              Eq(4*x - 5*z, -3) ])
+              Eq(w - 2*x + 3*z, 3),])
 print(sol)
 print({ s:sol[s].evalf() for s in sol })
