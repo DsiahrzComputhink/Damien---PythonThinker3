@@ -39,8 +39,7 @@ def solveSimul():
     y = generatealgebra(words)
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
-    print(x)
-    print(y)
+    print(LINE)
 
 solveSimul()
 
