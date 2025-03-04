@@ -227,7 +227,7 @@ def whiteboard():
     text_widget.pack(side="left", padx=5, pady=5)
 
     root.mainloop()
-    print(style.bblue)
+    print(style.bblue + "Whiteboard is ready. Click on PORTS,")
 
 # This is super important.
 # CheckData()
