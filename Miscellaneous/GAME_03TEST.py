@@ -31,7 +31,7 @@ ans = (5*x + 3)*(1-x)
 print(ans)
 # 6
 
-def solveSimul(var1,equation2):
+def solveSimul(var1,var2):
     print(equation1)
 
 
