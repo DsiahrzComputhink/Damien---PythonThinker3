@@ -15,6 +15,8 @@ def generatealgebra(words : list):
 
 def generaterandomnumber(log : int):
     num = random.randint(0,1*(log*10))
+    return num
+    #log is for
 
 x = generatealgebra(words)
 y = generatealgebra(words)
