@@ -233,7 +233,7 @@ def whiteboard():
 # CheckData()
 # SaveData()
  # !pip3 install SymPy
- 
+
 words = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
         ]
@@ -242,5 +242,5 @@ from sympy import Symbol
 
 x = Symbol('x')
 
-print(x + x + 1)
+print(7*x + x + 1)
 # 2*x + 1
