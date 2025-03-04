@@ -12,7 +12,6 @@ def generatealgebra(word):
 
 
     symbol = Symbol(words[int(wordnumber)])
-    print(symbol)
     return symbol
 
 x = generatealgebra(words)
