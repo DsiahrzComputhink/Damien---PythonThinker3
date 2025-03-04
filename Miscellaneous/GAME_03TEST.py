@@ -13,13 +13,12 @@ def generatealgebra(words : list):
     symbol = Symbol(words[int(wordnumber)])
     return symbol
 
-def generaterandomnumber(log : int):
-    num = random.randint(0,1*(log*10))
+def generaterandomnumber(min,max):
+    num = random.randint(min,max)
     negative = random.randint(0,1)
     if negative == 1:
         num = num*(-1)
     return num
-    #log.0 = 0 to 1, log.1
 
 x = generatealgebra(words)
 y = generatealgebra(words)
@@ -31,4 +30,3 @@ print(7*y + x + 1)
 ans = expand((5*x + 3)*(1-x))
 print(ans)
 # 6
-num = generaterandomnumber(1)
