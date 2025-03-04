@@ -51,7 +51,6 @@ with open(textfile, "r") as file:
 memory = eval(content)
 allow = 0
 if str(memory) == str(content):
-
     if "Lives" in memory.keys():
         allow = 1
     else:
