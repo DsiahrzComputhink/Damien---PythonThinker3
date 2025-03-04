@@ -232,4 +232,4 @@ def whiteboard():
 # This is super important.
 # CheckData()
 # SaveData()
- # !pip3 install SymPy
+
