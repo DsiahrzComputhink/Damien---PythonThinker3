@@ -75,11 +75,11 @@ if str(memory) == str(content):
                         allow = 1
                     else:
                         allow = 0
-                if allow == 1:
-                    if "Money" in memory.keys():
-                        allow = 1
-                    else:
-                        allow = 0
+                    if allow == 1:
+                        if "Money" in memory.keys():
+                            allow = 1
+                        else:
+                            allow = 0
 if allow == 0:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
