@@ -8,7 +8,7 @@ wordnumber = random.randint(0,len(words)-1)
 
 from sympy import Symbol
 
-x = Symbol(words[wordnumber-1])
+x = Symbol(words[wordnumber])
 
 print(7*x + x + 1)
 # 2*x + 1
