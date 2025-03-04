@@ -30,3 +30,5 @@ print(7*y + x + 1)
 ans = expand((5*x + 3)*(1-x))
 print(ans)
 # 6
+num = generaterandomnumber(0,10)
+print(num)
