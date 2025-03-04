@@ -16,6 +16,7 @@ def generatealgebra(words : list):
 x = generatealgebra(words)
 y = generatealgebra(words)
 
+
 print(7*y + x + 1)
 # 2*x + 1
 
