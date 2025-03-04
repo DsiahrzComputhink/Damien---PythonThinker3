@@ -171,10 +171,26 @@ def start_drawing(event):
     global is_drawing, prev_x, prev_y
     is_drawing = True
     prev_x, prev_y = event.x, event.y
-    
+
 def stop_drawing(event):
     global is_drawing
     is_drawing = False
+
+root = tk.Tk()
+root.title("Whiteboard App")
+
+canvas = tk.Canvas(root, bg="white")
+canvas.pack(fill="both", expand=True)
+
+is_drawing = False
+drawing_color = "black"
+line_width = 2
+
+root.geometry("800x600")
+
+def change_line_width(value):
+    global line_width
+    line_width = int(value)
 # This is super important.
 # CheckData()
 # SaveData()
