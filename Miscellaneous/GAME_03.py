@@ -274,6 +274,6 @@ def solveSimul():
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
     print(LINE)
-    print()
+    print("Simultaneous Equation")
 
 solveSimul()
