@@ -194,6 +194,10 @@ root.geometry("800x600")
 
 controls_frame = tk.Frame(root)
 controls_frame.pack(side="top", fill="x")
+
+controls_frame = tk.Frame(root)
+controls_frame.pack(side="top", fill="x")
+
 # This is super important.
 # CheckData()
 # SaveData()
