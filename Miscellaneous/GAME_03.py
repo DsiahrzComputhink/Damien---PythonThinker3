@@ -98,37 +98,37 @@ def CheckData():
         content = file.read()
     memory = eval(content)
     allow = 0
+    0
     if str(memory) == str(content):
-
         if "Lives" in memory.keys():
             allow = 1
         else:
             allow = 0
-
-        if "Correct" in memory.keys():
-            allow = 1
-        else:
-            allow = 0
-
-        if "Wrong" in memory.keys():
-            allow = 1
-        else:
-            allow = 0
-
-        if "Round" in memory.keys():
-            allow = 1
-        else:
-            allow = 0
-
-        if "Difficulty" in memory.keys():
-            allow = 1
-        else:
-            allow = 0
-
-        if "Money" in memory.keys():
-            allow = 1
-        else:
-            allow = 0
+        if allow == 1:
+            if "Correct" in memory.keys():
+                allow = 1
+            else:
+                allow = 0
+            if allow == 1:
+                if "Wrong" in memory.keys():
+                    allow = 1
+                else:
+                    allow = 0
+                if allow == 1:
+                    if "Round" in memory.keys():
+                        allow = 1
+                    else:
+                        allow = 0
+                    if allow == 1:
+                        if "Difficulty" in memory.keys():
+                            allow = 1
+                        else:
+                            allow = 0
+                        if allow == 1:
+                            if "Money" in memory.keys():
+                                allow = 1
+                            else:
+                                allow = 0
     else:
         print(LINE)
         print(style.bred + "Your memory was corrupted." + style.RESET)
