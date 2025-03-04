@@ -227,6 +227,7 @@ text_widget.pack(side="left", padx=5, pady=5)
 
 root.mainloop()
 print(style.bblue + "Whiteboard is ready." + style.RESET)
+
 # This is super important.
 # CheckData()
 # SaveData()
