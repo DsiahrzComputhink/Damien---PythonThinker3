@@ -64,9 +64,6 @@ y = generatealgebra(words)
 print(7*y + x + 1)
 # 2*x + 1
 
-ans = (1*x + 3)*(1-x)
-print(ans)
-# 6
 
 
 def solveSimul():
@@ -77,6 +74,6 @@ def solveSimul():
     print(LINE)
     print(style.BOLD + "Simultaneous Equation" + style.RESET)
     print("Solve the 2 equations.")
-    print(f"({x})")
+    print(f"({(1*x + 3)})")
 
 solveSimul()
