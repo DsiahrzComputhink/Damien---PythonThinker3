@@ -31,9 +31,6 @@ ans = (5*x + 3)*(1-x)
 print(ans)
 # 6
 
-equation1 = (5*45 + 3) = 100
-equation2 = (5*29 + 3) = 100
-
 def solveSimul(equation1,equation2):
     print(equation1)
 
