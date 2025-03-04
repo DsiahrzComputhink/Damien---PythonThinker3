@@ -9,8 +9,8 @@ wordnumber = random.randint(0,len(words)-1)
 def generatealgebra(word):
 
 
-    word = Symbol(words[int(word)])
-    return word
+    symbol = Symbol(words[int(word)])
+    return symbol
 
 x = generatealgebra(wordnumber)
 y = generatealgebra(wordnumber)
