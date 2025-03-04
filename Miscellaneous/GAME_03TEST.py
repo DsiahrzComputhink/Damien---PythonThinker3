@@ -36,7 +36,8 @@ print(ans)
 def solveSimul(var1,var2):
     x = generatealgebra(words)
     y = generatealgebra(words)
-    num = generaterandomnumber(min,max)
+    num1 = generaterandomnumber(min,max)
+    num2 = generaterandomnumber(min,max)
 
 
     
