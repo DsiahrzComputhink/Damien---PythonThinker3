@@ -36,3 +36,7 @@ equation2 = (5*29 + 3) = 100
 
 def solveSimul(equation1,equation2):
     print(equation1)
+
+solveSimul(equation1,equation2)
+
+solve
