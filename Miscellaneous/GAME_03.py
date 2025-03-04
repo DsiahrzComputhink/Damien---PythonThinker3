@@ -179,7 +179,7 @@ def stop_drawing(event):
 def change_line_width(value):
     global line_width
     line_width = int(value)
-    
+
 root = tk.Tk()
 root.title("Whiteboard App")
 
@@ -192,7 +192,8 @@ line_width = 2
 
 root.geometry("800x600")
 
-
+controls_frame = tk.Frame(root)
+controls_frame.pack(side="top", fill="x")
 # This is super important.
 # CheckData()
 # SaveData()
