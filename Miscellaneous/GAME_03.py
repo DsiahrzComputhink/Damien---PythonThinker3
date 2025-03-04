@@ -229,12 +229,6 @@ def whiteboard():
     root.mainloop()
     print(style.bblue + "Whiteboard is ready." + style.RESET)
 
-# This is super important.
-# CheckData()
-# SaveData()
-
-
-LINE = style.bgray + "------------------------------" + style.RESET
 
 from sympy import Symbol
 from sympy import *
