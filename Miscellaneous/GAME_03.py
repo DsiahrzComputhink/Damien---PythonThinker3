@@ -211,6 +211,11 @@ line_width_slider = tk.Scale(controls_frame, from_=1, to=10, orient="horizontal"
 line_width_slider.set(line_width)
 line_width_slider.pack(side="left", padx=5, pady=5)
 
+canvas.bind("<Button-1>", start_drawing)
+canvas.bind("<B1-Motion>", draw)
+canvas.bind("<ButtonRelease-1>", stop_drawing)
+
+root.mainloop()
 # This is super important.
 # CheckData()
 # SaveData()
