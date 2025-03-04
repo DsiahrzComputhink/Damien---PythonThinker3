@@ -14,7 +14,7 @@ def generatealgebra(words : list):
     return symbol
 
 def generaterandomnumber(log : int):
-    num = random.randint(0,10)
+    num = random.randint(0,1*(log*10))
 
 x = generatealgebra(words)
 y = generatealgebra(words)
