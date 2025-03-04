@@ -158,7 +158,7 @@ def SaveData():
 # Main Program [Math Game]
 
 # Whiteboard thing i guess [SOURCED FROM SOMEWHERE ELSE]
-def whiteboard()
+def whiteboard():
     import tkinter as tk
     from tkinter.colorchooser import askcolor
 
@@ -227,6 +227,7 @@ def whiteboard()
     text_widget.pack(side="left", padx=5, pady=5)
 
     root.mainloop()
+    print(style.bblue)
 
 # This is super important.
 # CheckData()
