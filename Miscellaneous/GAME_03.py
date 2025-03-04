@@ -233,4 +233,6 @@ def whiteboard():
 # CheckData()
 # SaveData()
 
-# A
+# Simultaneous Equations Function
+def Simultaneous(equationa,equationb):
+    testing
