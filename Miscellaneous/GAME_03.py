@@ -239,7 +239,7 @@ words = [
         ]
 
 word = random.randint(0,len(words)-1)
-print(words)
+print(word)
 from sympy import Symbol
 
 x = Symbol('x')
