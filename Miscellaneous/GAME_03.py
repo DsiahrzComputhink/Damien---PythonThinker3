@@ -156,7 +156,8 @@ def SaveData():
     print(style.bgreen + "Data Saved!" + style.RESET)
 
 # Main Program [Math Game]
-
+# Whiteboard thing i guess
+import turtle
 # This is super important.
 # CheckData()
 SaveData()
