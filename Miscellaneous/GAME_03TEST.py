@@ -34,6 +34,7 @@ print(ans)
 def solveSimul(var1,var2):
     x = generatealgebra(words)
     y = generatealgebra(words)
+    num = generaterandomnumber
 
 
     
