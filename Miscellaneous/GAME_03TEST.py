@@ -19,7 +19,7 @@ def generaterandomnumber(log : int):
     if negative == 1:
         num = num*(-1)
     return num
-    #log is for
+    #log.0 = 0 to 1,
 
 x = generatealgebra(words)
 y = generatealgebra(words)
