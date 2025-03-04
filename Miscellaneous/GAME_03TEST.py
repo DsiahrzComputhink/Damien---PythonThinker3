@@ -32,7 +32,8 @@ print(ans)
 # 6
 
 def solveSimul(var1,var2):
-    print(equation1)
+    x = generatealgebra(words)
+    y = generatealgebra(words)
 
 
     
