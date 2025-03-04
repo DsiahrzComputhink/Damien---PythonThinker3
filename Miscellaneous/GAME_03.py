@@ -228,7 +228,7 @@ def whiteboard():
 
     root.mainloop()
     print(style.bblue + "Whiteboard is ready." + style.RESET)
-
+whiteboard()
 # Main program
 from sympy import Symbol
 from sympy import *
