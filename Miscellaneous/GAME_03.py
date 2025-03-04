@@ -30,7 +30,6 @@ class style():
     RESET = '\033[0m'
 
 import time
-import turtle
 import random
 import os
 
