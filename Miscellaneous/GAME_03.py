@@ -30,6 +30,7 @@ class style():
     RESET = '\033[0m'
 
 import time
+import turtle
 import random
 import os
 
@@ -157,7 +158,6 @@ def SaveData():
 
 # Main Program [Math Game]
 # Whiteboard thing i guess
-import turtle
 t = turtle.Turtle
 
 # This is super important.
