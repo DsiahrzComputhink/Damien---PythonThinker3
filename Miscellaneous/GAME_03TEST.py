@@ -22,4 +22,6 @@ from sympy import *
 expr = x**3 + x*y - x**2 - 2*y + y**3
 res = expr.subs({x:1, y:2})
 print(res)
+
+expand((5*x + 3)*(1-x)*(1+6*x))
 # 6
