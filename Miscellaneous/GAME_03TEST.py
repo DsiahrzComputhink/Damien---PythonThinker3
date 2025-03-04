@@ -31,12 +31,12 @@ ans = (5*x + 3)*(1-x)
 print(ans)
 # 6
 
-equation1 = (5*45 + 3) = 100
-equation2 = (5*29 + 3) = 100
+from sympy import Eq, solve
+from sympy.abc import w, x, y, z
 
-def solveSimul(equation1,equation2):
-    print(equation1)
-
-solveSimul(equation1,equation2)
-
-solve
+sol = solve([ Eq(2*w + x + 4*y + 3*z, 5),
+              Eq(w - 2*x + 3*z, 3),
+              Eq(3*w + 2*x - y + z, -1),
+              Eq(4*x - 5*z, -3) ])
+print(sol)
+print({ s:sol[s].evalf() for s in sol })
