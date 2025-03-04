@@ -40,7 +40,6 @@ def solveSimul():
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
     x = num1
-    y = num2
     print(x)
     print(y)
 
