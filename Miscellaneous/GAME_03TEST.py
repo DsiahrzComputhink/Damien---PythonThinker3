@@ -1,4 +1,6 @@
 import random
+LINE = style.bgray + "------------------------------" + style.RESET
+
 from sympy import Symbol
 from sympy import *
 min = 0
