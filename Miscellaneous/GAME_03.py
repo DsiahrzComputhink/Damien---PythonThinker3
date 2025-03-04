@@ -159,7 +159,7 @@ def SaveData():
 # Main Program [Math Game]
 # Whiteboard thing i guess
 t = turtle.Turtle
-t.forward(400,400)
+t.forward(400)
 
 # This is super important.
 # CheckData()
