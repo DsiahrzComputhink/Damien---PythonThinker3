@@ -232,7 +232,10 @@ def whiteboard():
 # This is super important.
 # CheckData()
 # SaveData()
+ # !pip3 install SymPy
 
-# Simultaneous Equations Function
-def Simultaneous(equationa,equationb):
-    testing
+from sympy import Symbol
+
+x = Symbol('x')
+print(x + x + 1)
+# 2*x + 1
