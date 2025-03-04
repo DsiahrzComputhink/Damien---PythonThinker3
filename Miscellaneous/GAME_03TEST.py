@@ -77,6 +77,6 @@ def solveSimul():
     print(LINE)
     print(style.BOLD + "Simultaneous Equation" + style.RESET)
     print("Solve the 2 equations.")
-    print(f"()")
+    print(f"({x})")
 
 solveSimul()
