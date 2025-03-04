@@ -61,26 +61,26 @@ if str(memory) == str(content):
             allow = 1
         else:
             allow = 0
-
-    if "Wrong" in memory.keys():
-        allow = 1
-    else:
-        allow = 0
-
-    if "Round" in memory.keys():
-        allow = 1
-    else:
-        allow = 0
-
-    if "Difficulty" in memory.keys():
-        allow = 1
-    else:
-        allow = 0
-
-    if "Money" in memory.keys():
-        allow = 1
-    else:
-        allow = 0
+        if allow == 1:
+            if "Wrong" in memory.keys():
+                allow = 1
+            else:
+                allow = 0
+            if allow == 1:
+                if "Round" in memory.keys():
+                    allow = 1
+                else:
+                    allow = 0
+                if allow == 1:
+                    if "Difficulty" in memory.keys():
+                        allow = 1
+                    else:
+                        allow = 0
+                if allow == 1:
+                    if "Money" in memory.keys():
+                        allow = 1
+                    else:
+                        allow = 0
 if allow == 0:
     print(LINE)
     print(style.bred + "Your memory was corrupted." + style.RESET)
