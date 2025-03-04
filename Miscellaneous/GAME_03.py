@@ -157,6 +157,7 @@ def SaveData():
 
 # Main Program [Math Game]
 # Whiteboard thing i guess
+import turtle
 t = turtle.Turtle
 t.forward(400)
 
