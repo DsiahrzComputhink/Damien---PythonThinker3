@@ -14,7 +14,7 @@ def generatealgebra(words : list):
     return symbol
 
 def generaterandomnumber(min,max):
-    num = random.randint(min,max)
+    num = random.randint(min,max) # leave in positive.
     negative = random.randint(0,1)
     if negative == 1:
         num = num*(-1)
