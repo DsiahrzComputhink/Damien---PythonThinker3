@@ -13,8 +13,8 @@ def generatealgebra(words : list):
     symbol = Symbol(words[int(wordnumber)])
     return symbol
 
-def generaterandomnumber(num: int):
-    num = random.randint
+def generaterandomnumber():
+    num = random.randint()
 
 x = generatealgebra(words)
 y = generatealgebra(words)
