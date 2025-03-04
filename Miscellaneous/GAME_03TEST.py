@@ -1,4 +1,3 @@
-import random
 from sympy import Symbol
 from sympy import *
 min = 0
