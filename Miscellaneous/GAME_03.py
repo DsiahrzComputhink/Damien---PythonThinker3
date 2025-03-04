@@ -157,9 +157,8 @@ def SaveData():
 
 # Main Program [Math Game]
 # Whiteboard thing i guess
-import turtle
-t = turtle.Turtle
-t.forward(400)
+import tkinter as tk
+from tkinter.colorchooser import askcolor
 
 # This is super important.
 # CheckData()
