@@ -50,7 +50,7 @@ with open(textfile, "r") as file:
         content = file.read()
 memory = eval(content)
 allow = 0
-if str(memory) == str(content):
+if str(memory) == str("hi"):
 
     if "Lives" in memory.keys():
         allow = 1
