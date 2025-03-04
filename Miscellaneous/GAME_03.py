@@ -159,7 +159,10 @@ def SaveData():
 # Whiteboard thing i guess
 import tkinter as tk
 from tkinter.colorchooser import askcolor
-
+def start_drawing(event):
+    global is_drawing, prev_x, prev_y
+    is_drawing = True
+    prev_x, prev_y = event.x, event.y
 # This is super important.
 # CheckData()
 # SaveData()
