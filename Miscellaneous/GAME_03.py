@@ -275,4 +275,5 @@ def solveSimul():
     num2 = generaterandomnumber(min,max)
     print(LINE)
 
+
 solveSimul()
