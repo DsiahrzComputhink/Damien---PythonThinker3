@@ -226,6 +226,7 @@ text_widget = tk.Text(controls_frame, height=6, width=120)
 text_widget.pack(side="left", padx=5, pady=5)
 
 root.mainloop()
+print(style.bblue + "Whiteboard is ready.")
 # This is super important.
 # CheckData()
 # SaveData()
