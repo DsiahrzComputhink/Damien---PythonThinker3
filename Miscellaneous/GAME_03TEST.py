@@ -43,6 +43,11 @@ words = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
         ]
 
+def answer(input: bool):
+    if input == True:
+        print("reward")
+    elif input == False:
+        print("punish")
 
 def generatealgebra(words : list):
     wordnumber = random.randint(0,len(words)-1)
@@ -64,16 +69,41 @@ y = generatealgebra(words)
 print(7*y + x + 1)
 # 2*x + 1
 
-
-
-def solveSimul():
-    x = generatealgebra(words)
-    y = generatealgebra(words)
-    num1 = generaterandomnumber(min,max)
-    num2 = generaterandomnumber(min,max)
+def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
+    equ1 = xval*num1 + yval*num2
+    equ2 = yval*num3 + yval*num4
     print(LINE)
     print(style.BOLD + "Simultaneous Equation" + style.RESET)
-    print("Solve the 2 equations.")
-    print(f"({(num1*x + 3)})")
+    print(LINE)
+    print(style.bcyan + "Solve the 2 equations." + style.RESET)
+    print(f"({(num1*x + num2*y)} = {equ1})")
+    print(f"({(num3*x + num4*y)} = {equ2})")
+    print(xval)
+    print(yval)
+    xvalans = input(style.bpurple + "x = " + style.RESET)
+    yvalans = input(style.bpurple + "y = " + style.RESET)
+    if xvalans.isnumeric() and yvalans.isnumeric():
+        if xvalans != xval:
+            return false
+        elif xvalans == xval:
+            if yvalans != yval:
+                return false
+            elif yvalans == yval:
+                return true
+    else:
+        return false
+    
 
-solveSimul()
+def SimulQuestion():
+    x = generatealgebra(words)
+    y = generatealgebra(words)
+    xval = generaterandomnumber(min,max)
+    yval = generaterandomnumber(min,max)
+
+    num1 = generaterandomnumber(min,max)
+    num2 = generaterandomnumber(min,max)
+    num3 = generaterandomnumber(min,max)
+    num4 = generaterandomnumber(min,max)
+    solveSimul(x,y,xval,yval,num1,num2,num3,num4)
+
+SimulQuestion()
