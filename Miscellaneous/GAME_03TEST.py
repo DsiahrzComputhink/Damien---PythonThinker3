@@ -34,7 +34,7 @@ print(ans)
 # 6
 
 print(i)
-def solveSimul(var1,var2):
+def solveSimul():
     x = generatealgebra(words)
     y = generatealgebra(words)
     num1 = generaterandomnumber(min,max)
@@ -44,6 +44,6 @@ def solveSimul(var1,var2):
     print(x)
     print(y)
 
-solveSimul
+solveSimul()
 
     
