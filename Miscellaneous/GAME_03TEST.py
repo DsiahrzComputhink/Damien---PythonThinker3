@@ -44,6 +44,6 @@ def solveSimul(var1,var2):
     print(x)
     print(y)
 
-
+solveSimul
 
     
