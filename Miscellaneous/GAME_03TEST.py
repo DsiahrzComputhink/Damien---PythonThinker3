@@ -1,5 +1,6 @@
 import random
 from sympy import Symbol
+from sympy import *
 
 words = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
@@ -18,8 +19,5 @@ y = generatealgebra(words)
 print(7*y + x + 1)
 # 2*x + 1
 
-from sympy import *
-
-
-expand((5*x + 3)*(1-x)*(1+6*x))
+ans = expand((5*x + 3)*(1-x)*(1+6*x))
 # 6
