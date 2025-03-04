@@ -9,8 +9,7 @@ def generatealgebra(word):
 
 
     x = Symbol(words[int(word)])
-
-    print(7*x + x + 1)
+    return x
     # 2*x + 1
 
 generatealgebra(wordnumber)
