@@ -64,7 +64,7 @@ y = generatealgebra(words)
 print(7*y + x + 1)
 # 2*x + 1
 
-ans = (1*x + 3)*(1-x)
+ans = (x + 3)*(1-x)
 print(ans)
 # 6
 
