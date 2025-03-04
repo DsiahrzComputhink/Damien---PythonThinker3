@@ -56,11 +56,11 @@ if str(memory) == str(content):
         allow = 1
     else:
         allow = 0
-
-    if "Correct" in memory.keys():
-        allow = 1
-    else:
-        allow = 0
+    if allow == 1:
+        if "Correct" in memory.keys():
+            allow = 1
+        else:
+            allow = 0
 
     if "Wrong" in memory.keys():
         allow = 1
