@@ -1,3 +1,4 @@
+# Bubble sort algorithm
 my_list = [5, 8, 10, 9, 11, 12, 15, 2]
 n = len(my_list)
 
