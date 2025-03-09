@@ -5,8 +5,9 @@ n = len(my_list)
 for i in range(n+1):
     # For each number in the list,
     for j in range(0, n-1):
-        # If 
+        # If current number is bigger than the number next to it,
         if my_list[j] > my_list[j+1]:
+            # Swap
             my_list[j], my_list[j+1] = my_list[j+1], my_list[j]
 
 print(my_list)
