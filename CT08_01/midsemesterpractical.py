@@ -49,10 +49,10 @@ Scrabble = {
 
 # Asks for a input
 print("Give me 5 words.")
-word = input("")
+input = input("")
 
 # Capitalize to prevent any errors
-word.capitalize()
+word = word.capitalize()
 print(word)
 # For every character in word, find the value for the key
 for i in word:
