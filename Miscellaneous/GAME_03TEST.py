@@ -81,16 +81,13 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     print(style.bgray + "The letters go alphabetically, please be aware about it.")
     xvalans = input(style.bpurple + f"{x} = " + style.RESET)
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-    if xvalans.isnumeric() and yvalans.isnumeric():
-        if xvalans != xval:
-            return False
-        elif xvalans == xval:
-            if yvalans != yval:
-                return False
-            elif yvalans == yval:
-                return True
-    else:
+    if xvalans != xval:
         return False
+    elif xvalans == xval:
+        if yvalans != yval:
+            return False
+        elif yvalans == yval:
+            return True
     
 
 def SimulQuestion():
