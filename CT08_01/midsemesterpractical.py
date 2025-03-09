@@ -52,7 +52,7 @@ print("Give me 5 words.")
 input = input("")
 
 # Capitalize to prevent any errors
-word = word.capitalize()
+word = input.upper()
 print(word)
 # For every character in word, find the value for the key
 for i in word:
