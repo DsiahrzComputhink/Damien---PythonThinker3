@@ -16,7 +16,7 @@ for i in range(n+1):
 print(my_list)
 
 
-# 2nd Task
+# 2nd Task Scrabble
 # Dictionary
 Scrabble = {
     "A": 1, 
