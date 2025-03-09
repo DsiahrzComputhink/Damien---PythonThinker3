@@ -77,8 +77,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     print(f"({(num3*x + num4*y)} = {equ2})")
     print(xval)
     print(yval)
-    xvalans = input(style.bpurple + f"{y} = " + style.RESET)
-    yvalans = input(style.bpurple + f"{x} = " + style.RESET)
+    xvalans = input(style.bpurple + f"{x} = " + style.RESET)
+    yvalans = input(style.bpurple + f"{y} = " + style.RESET)
     if xvalans.isnumeric() and yvalans.isnumeric():
         if xvalans != xval:
             return false
