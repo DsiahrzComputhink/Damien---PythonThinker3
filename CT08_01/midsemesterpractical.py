@@ -47,6 +47,7 @@ Scrabble = {
     "Z": 10,
 }
 
+# Asks for a input
 print("Give me 5 words.")
 word = input("")
 
