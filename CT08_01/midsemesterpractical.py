@@ -7,7 +7,8 @@ for i in range(n+1):
     for j in range(0, n-1):
         # If current number is smaller than the number next to it,
         if my_list[j] < my_list[j+1]:
-            # Swap positions
+            # Swap positions with both numbers
             my_list[j], my_list[j+1] = my_list[j+1], my_list[j]
 
+# Print out list
 print(my_list)
