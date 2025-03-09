@@ -103,6 +103,8 @@ def SimulQuestion():
     num4 = generaterandomnumber(min,max)
     ans = solveSimul(x,y,xval,yval,num1,num2,num3,num4)
     if ans is False:
-        
+        print("FALSE")
+    elif ans is True:
+        print("TRUE")
 
 SimulQuestion()
