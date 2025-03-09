@@ -1,8 +1,4 @@
-#   Debug the above sample code and print out the sorted list of numbers from largest to smallest.
-
-Test Cases:
-
-
+#  Debug the above sample code and print out the sorted list of numbers from largest to smallest.
 #  Bubble sort algorithm
 my_list = [87, 71, 85, 55, 77, 68, 76, 86, 56, 41, 43, 14, 5, 90, 37, 32, 60, 81, 34, 28, 29]
 n = len(my_list)
