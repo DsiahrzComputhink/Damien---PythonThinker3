@@ -6,11 +6,11 @@ I would highly suggest not to alter the text files as they are meant to be archi
 The archive.py contains a few functions that are mainly for aesthetics.
 Please note that the timing may not be accurate
 
-Also, any files with [example].txt is subject to change as the code will alter the files
+Also, any files with [example].txt in  is subject to change as the code will alter the files
 
 # EXAM RELATED
     Mid Smester Practical [9/3/2025]
-    
+
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
