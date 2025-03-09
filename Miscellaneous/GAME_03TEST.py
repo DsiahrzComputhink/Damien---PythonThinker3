@@ -101,6 +101,8 @@ def SimulQuestion():
     num2 = generaterandomnumber(min,max)
     num3 = generaterandomnumber(min,max)
     num4 = generaterandomnumber(min,max)
-    solveSimul(x,y,xval,yval,num1,num2,num3,num4)
+    ans = solveSimul(x,y,xval,yval,num1,num2,num3,num4)
+    if ans is False:
+        
 
 SimulQuestion()
