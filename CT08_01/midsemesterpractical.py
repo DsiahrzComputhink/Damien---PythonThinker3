@@ -50,6 +50,8 @@ Scrabble = {
 # Variables
 totalscore = 0
 answeredonce = 0
+num = 5
+
 for i in range(5):
     # Asks for a input
     # If answered once, gives a new prompt.
