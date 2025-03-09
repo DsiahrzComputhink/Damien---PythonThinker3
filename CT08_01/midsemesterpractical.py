@@ -53,10 +53,10 @@ totalscore = 0
 for i in range(5):
     # Asks for a input
     print("Give me 5 words.")
-    input = input("")
+    inputs = input("")
 
     # Capitalize to prevent any errors
-    word = input.upper()
+    word = inputs.upper()
 
     score = 0
     # For every character in word, find the value for the key
