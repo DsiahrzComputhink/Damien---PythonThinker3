@@ -81,10 +81,10 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
     if xvalans.isnumeric() and yvalans.isnumeric():
         if xvalans != xval:
-            return false
+            return False
         elif xvalans == xval:
             if yvalans != yval:
-                return false
+                return False
             elif yvalans == yval:
                 return True
     else:
@@ -106,5 +106,7 @@ def SimulQuestion():
         print("FALSE")
     elif ans is True:
         print("TRUE")
+    else:
+        print("")
 
 SimulQuestion()
