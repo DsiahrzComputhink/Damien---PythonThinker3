@@ -1,1 +1,1 @@
-{'Li njnjnjjnjjnjnjjnjikjnjjnjiuhygvgn-----------njiiuhggggggggfdsaaaa ves': 0, 'Correct': 0, 'Wrong': 0, 'Round': 0, 'Difficulty': 0, 'Money': 0}
+{'Li njnjnjjnjjnjnjjnjikjnjjnjiuhygvgn-----------nnnnjiiiiuhggggggggfdsaaaa ves': 0, 'Correct': 0, 'Wrong': 0, 'Round': 0, 'Difficulty': 0, 'Money': 0}
