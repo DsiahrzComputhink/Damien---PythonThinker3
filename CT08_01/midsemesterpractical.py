@@ -1,5 +1,5 @@
 # Bubble sort algorithm
-my_list = [5, 8, 10, 9, 11, 12, 15, 2]
+my_list = [96, 94, 99, 78, 14, 63, 73, 70, 38, 3, 53, 20, 27, 32, 89]
 n = len(my_list)
 
 # For i in range,
