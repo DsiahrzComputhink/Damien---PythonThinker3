@@ -48,4 +48,7 @@ Scrabble = {
 }
 
 print("Give me 5 words.")
-i
+word = input("")
+
+for i in word:
+    print()
