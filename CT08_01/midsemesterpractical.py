@@ -50,18 +50,19 @@ Scrabble = {
 # Variables
 totalscore = 0
 
-# Asks for a input
-print("Give me 5 words.")
-input = input("")
+for i in range(5):
+    # Asks for a input
+    print("Give me 5 words.")
+    input = input("")
 
-# Capitalize to prevent any errors
-word = input.upper()
+    # Capitalize to prevent any errors
+    word = input.upper()
 
-score = 0
-# For every character in word, find the value for the key
-for i in word:
-    score += int(Scrabble[f"{i}"])
-    totalscore += int(Scrabble[f"{i}"])
+    score = 0
+    # For every character in word, find the value for the key
+    for i in word:
+        score += int(Scrabble[f"{i}"])
+        totalscore += int(Scrabble[f"{i}"])
 
-# Print out score
-print("Score: ",score)
+    # Print out score
+    print("Score: ",score)
