@@ -56,10 +56,12 @@ input = input("")
 
 # Capitalize to prevent any errors
 word = input.upper()
-print(word)
+
 score = 0
 # For every character in word, find the value for the key
 for i in word:
     score += int(Scrabble[f"{i}"])
+    totalscore += int(Scrabble[f"{i}"])
 
+# Print out score
 print("Score: ",score)
