@@ -39,7 +39,7 @@ from sympy import *
 min = 1
 max = 10
 
-# For some ungodly reason, h does not exist in U+1D45x.
+# For some ungodly reason, h does not exist in U+1D45x,so i sourced it from a different Unicode base.
 words = [
         '𝑎', '𝑏', '𝑐', '𝑑', '𝑒', '𝑓', '𝑔', '𝒉', '𝑖', '𝑗', '𝑘', '𝑙', '𝑚', '𝑛', '𝑜', '𝑝', '𝑞', '𝑟', '𝑠', '𝑡', '𝑢', '𝑣', '𝑤', '𝑥', '𝑦', '𝑧',
         ]
