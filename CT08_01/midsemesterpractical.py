@@ -18,7 +18,7 @@ print(my_list)
 
 # 2nd Task
 Scrabble = {
-    "Apple": 1.50, 
-    "Orange": 2.55, 
-    "Banana": 4.25
+    "A": 1, 
+    "B": 2, 
+    "C": 4,
 }
