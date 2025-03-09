@@ -52,21 +52,22 @@ totalscore = 0
 answeredonce = 0
 for i in range(5):
     # Asks for a input
-    print(f"Give me {num} more words.")
-    inputs = input("")
+    if answeredonce == 1:
+        print(f"Give me {num} more words.")
+        inputs = input("")
 
-    # Capitalize to prevent any errors
-    word = inputs.upper()
+        # Capitalize to prevent any errors
+        word = inputs.upper()
 
-    score = 0
-    # For every character in word, find the value for the key
-    for i in word:
-        score += int(Scrabble[f"{i}"])
-        totalscore += int(Scrabble[f"{i}"])
+        score = 0
+        # For every character in word, find the value for the key
+        for i in word:
+            score += int(Scrabble[f"{i}"])
+            totalscore += int(Scrabble[f"{i}"])
 
-    # Print out score
-    print("Score: ",score)
-    answeredonce = 1
+        # Print out score
+        print("Score: ",score)
+        answeredonce = 1
 
 print("Your total score:")
 print(score)
