@@ -17,3 +17,6 @@ print(my_list)
 
 
 # 2nd Task
+Scrabble = {
+    "A"
+}
