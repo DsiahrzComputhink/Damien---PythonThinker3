@@ -60,4 +60,4 @@ print(word)
 score = 0
 # For every character in word, find the value for the key
 for i in word:
-    Scrabble[i]
+    score += num(Scrabble[i])
