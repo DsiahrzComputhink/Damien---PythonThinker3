@@ -54,7 +54,7 @@ for i in range(5):
     # Asks for a input
     # If answered once, gives a new prompt.
     if answeredonce == 1:
-        print(f"Give me {num} more words.")
+        print(f"Give me 5 words.")
         inputs = input("")
 
         # Capitalize to prevent any errors
