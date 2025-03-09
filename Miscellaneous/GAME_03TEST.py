@@ -83,8 +83,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
     if xvalans.isnumeric() and yvalans.isnumeric():
         if xvalans != xval:
-            return False
             print("XVAL IS FALSE")
+            return False
         elif xvalans == xval:
             if yvalans != yval:
                 return False
