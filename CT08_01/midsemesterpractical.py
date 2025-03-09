@@ -53,6 +53,7 @@ word = input("")
 
 # Capitalize to prevent any errors
 word.capitalize()
+print(word)
 # For every character in word, find the value for the key
 for i in word:
     print(Scrabble[i])
