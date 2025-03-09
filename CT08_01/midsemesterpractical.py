@@ -61,3 +61,5 @@ score = 0
 # For every character in word, find the value for the key
 for i in word:
     score += int(Scrabble[f"{i}"])
+
+print("Score: ",score)
