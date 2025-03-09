@@ -51,6 +51,6 @@ Scrabble = {
 print("Give me 5 words.")
 word = input("")
 
-
+# For every character in word, add to score
 for i in word:
     print(i)
