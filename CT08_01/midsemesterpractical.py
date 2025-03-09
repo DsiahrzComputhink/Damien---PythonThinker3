@@ -69,7 +69,7 @@ for i in range(5):
 
         # Print out score
         print("Score: ",score)
-        totalscore += 1
+        totalscore += score
         answeredonce = 1
         num -= 1
     else:
@@ -87,6 +87,7 @@ for i in range(5):
 
         # Print out score
         print("Score: ",score)
+        totalscore += score
         answeredonce = 1
         num -= 1
 
