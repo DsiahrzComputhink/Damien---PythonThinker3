@@ -66,10 +66,10 @@ for i in range(5):
         # For every character in word, find the value for the key
         for i in word:
             score += int(Scrabble[f"{i}"])
-            totalscore += int(Scrabble[f"{i}"])
 
         # Print out score
         print("Score: ",score)
+        totalscore += 1
         answeredonce = 1
         num -= 1
     else:
