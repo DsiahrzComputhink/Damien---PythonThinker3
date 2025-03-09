@@ -66,3 +66,6 @@ for i in range(5):
 
     # Print out score
     print("Score: ",score)
+
+print("Your total score:")
+print(score)
