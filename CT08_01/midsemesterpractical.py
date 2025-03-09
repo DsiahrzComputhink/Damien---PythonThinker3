@@ -60,6 +60,5 @@ print(word)
 score = 0
 # For every character in word, find the value for the key
 for i in word:
-    print(f"The price of an orange is {fruitcost["Orange"]}")
-    score += int(Scrabble[i])
+    score += int(Scrabble[f"{i}"])
     print(score)
