@@ -107,6 +107,6 @@ def SimulQuestion():
     elif ans is True:
         print("TRUE")
     else:
-        print("")
+        print(style.bred + "! Answer is neither False or True. !")
 
 SimulQuestion()
