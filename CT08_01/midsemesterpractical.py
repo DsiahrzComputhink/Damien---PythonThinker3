@@ -71,6 +71,7 @@ for i in range(5):
         # Print out score
         print("Score: ",score)
         answeredonce = 1
+        num -= 1
     else:
         print(f"Give me {num} more words.")
         inputs = input("")
