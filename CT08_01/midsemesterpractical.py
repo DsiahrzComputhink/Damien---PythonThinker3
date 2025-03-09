@@ -49,7 +49,7 @@ Scrabble = {
 
 # Variables
 totalscore = 0
-
+answeredonce = 0
 for i in range(5):
     # Asks for a input
     print(f"Give me {num} more words.")
@@ -66,6 +66,7 @@ for i in range(5):
 
     # Print out score
     print("Score: ",score)
+    answeredonce = 1
 
 print("Your total score:")
 print(score)
