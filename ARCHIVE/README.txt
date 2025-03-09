@@ -9,7 +9,8 @@ Please note that the timing may not be accurate
 Also, any files with [example].txt is subject to change as the code will alter the files
 
 # EXAM RELATED
-    Mid Smester Practical []
+    Mid Smester Practical [9/3/2025]
+    
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
