@@ -52,7 +52,7 @@ totalscore = 0
 
 for i in range(5):
     # Asks for a input
-    print(f"Give me { words.")
+    print(f"Give me {num} more words.")
     inputs = input("")
 
     # Capitalize to prevent any errors
