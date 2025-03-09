@@ -19,9 +19,9 @@ print(my_list)
 # 2nd Task
 Scrabble = {
     "A": 1, 
-    "B": 2, 
-    "C": 4,
-    "D": 1, 
+    "B": 3, 
+    "C": 3,
+    "D": 2, 
     "E": 1, 
     "F": 4,
     "G": 1, 
