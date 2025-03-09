@@ -93,4 +93,4 @@ for i in range(5):
         num -= 1
 
 print("Your total score:")
-print(score)
+print(totalscore)
