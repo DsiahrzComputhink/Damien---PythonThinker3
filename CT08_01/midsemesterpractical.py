@@ -51,9 +51,12 @@ Scrabble = {
 print("Give me 5 words.")
 input = input("")
 
+totalscore = 0
+
 # Capitalize to prevent any errors
 word = input.upper()
 print(word)
+score = 0
 # For every character in word, find the value for the key
 for i in word:
     print(Scrabble[i])
