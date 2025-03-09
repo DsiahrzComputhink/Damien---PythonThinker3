@@ -86,9 +86,9 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             if yvalans != yval:
                 return false
             elif yvalans == yval:
-                return true
+                return True
     else:
-        return false
+        return False
     
 
 def SimulQuestion():
