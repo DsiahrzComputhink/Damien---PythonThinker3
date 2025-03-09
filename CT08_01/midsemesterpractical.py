@@ -17,6 +17,7 @@ print(my_list)
 
 
 # 2nd Task
+# Dictionary
 Scrabble = {
     "A": 1, 
     "B": 3, 
@@ -33,7 +34,7 @@ Scrabble = {
     "M": 3, 
     "N": 1, 
     "O": 1,
-    "P": 1, 
+    "P": 3, 
     "Q": 10, 
     "R": 4,
     "S": 1, 
