@@ -47,11 +47,11 @@ Scrabble = {
     "Z": 10,
 }
 
+# Variables
+totalscore = 0
 # Asks for a input
 print("Give me 5 words.")
 input = input("")
-
-totalscore = 0
 
 # Capitalize to prevent any errors
 word = input.upper()
