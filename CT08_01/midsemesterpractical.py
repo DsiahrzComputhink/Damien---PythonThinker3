@@ -49,6 +49,7 @@ Scrabble = {
 
 # Variables
 totalscore = 0
+
 # Asks for a input
 print("Give me 5 words.")
 input = input("")
@@ -59,4 +60,4 @@ print(word)
 score = 0
 # For every character in word, find the value for the key
 for i in word:
-    print(Scrabble[i])
+    Scrabble[i]
