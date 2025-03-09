@@ -36,7 +36,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 from sympy import Symbol
 from sympy import *
-min = 0
+min = 1
 max = 10
 
 words = [
