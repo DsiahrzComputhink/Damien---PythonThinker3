@@ -47,4 +47,5 @@ Scrabble = {
     "Z": 10,
 }
 
-print("")
+print("Give me 5 words.")
+i
