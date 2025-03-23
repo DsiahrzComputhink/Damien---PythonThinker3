@@ -28,6 +28,14 @@ class style():
     bwhite = '\033[97m'
 
     RESET = '\033[0m'
+
+    # Generic Colours
+    primary = dblue
+    secondary = bgray
+    
+    warning = dyellow
+    error = dred
+
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
 

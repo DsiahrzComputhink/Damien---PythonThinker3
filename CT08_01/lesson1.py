@@ -1,106 +1,100 @@
-# File Input / Output
+class style():
 
-    # File Modes:
-        # r: Read Modes - Read the data of a file
-        # w: Write Modes - Writes data to a file
-        # a: Append Modes - Adds data to a file
+    BOLD = '\033[1m'
+    ITALIC = '\033[3m'
 
-    # File Operation: 
-        # open() - Establishes a connection to a file
-        # read/write/append - Processes File connection
-        # close: - Frees resources after file operations
+    UNDERLINE = '\033[4m'
+    CANCEL = '\033[9m'
 
-    # Advantages:
-        # Persistent Storage - Retains data after the program ends
-        # Flexibility - Handle various file formats (text, binary, CSV, etc)
-        # Scalability - Manage large datasets efficently
+    bgbwhite = '\033[7m'
 
-    # Disadvantages:
-        # Data Security - Avoid unauthorized access
-        # Handling Errors - Deal with missing files or unexpected Disadvantages
-        # Performance - Not optimized for large file operations
-import time
-import random
-import os
-FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+    black = '\033[8m'
+    bgray = '\033[30m'
+    dred = '\033[31m'
+    dgreen = '\033[32m'
+    dyellow = '\033[33m'
+    dblue = '\033[34m'
+    dpurple = '\033[35m'
+    dcyan = '\033[36m'
+    dwhite = '\033[37m'
 
-if os.path.exists(textfile):
-    print("{} exist".format(textfile))
-else:
-    print("{} Does not exist".format(textfile))
+    bgray = '\033[90m'
+    bred = '\033[91m'
+    bgreen = '\033[92m'
+    byellow = '\033[93m'
+    bblue = '\033[94m'
+    bpurple = '\033[95m'
+    bcyan = '\033[96m'
+    bwhite = '\033[97m'
 
-# Note to self:
-    # file = open(textfile, "w") # the "w" means writes data to the file
-    # file = open(textfile, "r") # the "r" means read the file
-    # file = open(textfile, "a") # the "a" means appends data to a file
+    RESET = '\033[0m'
 
-# Excercise 1: Write to a file
-file = open(textfile, "w")
-file.write("Hello world\n")
-file.close()
-
-# Excercise 2: Read from a file
-file = open(textfile, "r")
-content = file.read()
-# print(f"File content:\n {content}")
-file.close()
-
-# Excercise 3: Using the 'with keyboard
-with open(textfile, "r") as file:
-    content = file.read()
-    # print(f"File content with 'with': {content}")
-
-# print(content)
-
-# Excercise 4: Append to file
-with open(textfile, "a") as file:
-    file.write("\nThis will add a new line to the file")
-    file.write("\nThis will add another line.")
-    file.write("\nThis will add another new line.")
+    # Generic Colours
+    primary = dblue
+    secondary = bgray
     
-# Excercise 5: Write multiple Lines
-lines = ["Line1\n","Line2\n","Line3\n"]
+    warning = dyellow
+    error = dred
 
-with open(textfile, "w") as file:
-    file.writelines(lines)
 
-with open(textfile, "a") as file:
-    file.write("Number Sequence\n")
-num = -1
-for i in range(10):
-    num += 1
-    with open(textfile, "a") as file:
-        file.write(f"{num}  ")
-        file.write("Testing\n")
-
-with open(textfile, "w") as file:
-    file.write("1 2 3 4 5")
-
-with open(textfile, "r") as file:
-    content = file.read()
-
-print(content)
-if content == "1 2 3 4 5":
-    print("Content is '1 2 3 4 5'")
+LINE = style.bgray + "------------------------------" + style.RESET
+import os
+FileName = "L08-File_Input\Output [example].txt"
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"ARCHIVE","Text Files")
+print(textfile)
+if os.path.exists(textfile):
+    print(style.bgreen + "File connected." + style.RESET)
 else:
-    print("Content is not '1 2 3 4 5'")
+    print(style.bred + "File does not exist." + style.RESET)
 
-# # Testing if dictionary works within a text file
-# fruitcost = {"Apple": 1.50, "Orange": 2.55, "Banana": 4.25}
+def createnewfile(textfile: str) -> None:
+    # Creates a new task file if it does not already exist.
+    # If the file exists, it notifies the user.
+    if os.path.exists(textfile):
+        print(LINE)
+        print(style.byellow + "The file already exists." + style.byellow)
+        print(LINE)
+    else:
+        print(style.bblue + "\nCreating a new task file" + style.RESET)
 
-# with open(textfile, "w") as file:
-#     file.write(str(fruitcost))
-
-# with open(textfile, "r") as file:
-#     content = file.read()
+        with open(textfile, "x") as taskfile:
+            taskfile.write("My Task List")
 
 
-# content = {}
+def addnewtask(fullpath : str) -> None:
+    print(style.bblue + "Please input a task." + style.RESET)
+    taskinput = input("")
+    task = str(taskinput)
 
-# print(content)
+    with open(fullpath, "a") as taskfile:
+        taskfile.write(f"\n{task}")
 
-# for food, price in fruitcost.items():
-#     content[f"{food}"] = price
+def viewalltasks(fullpath : str) -> None:
+    with open(fullpath, "r") as textfile:
+        tasks = textfile.readlines()
+        if len(tasks) == 1:
+            print(style.bred + "No task found.")
+            return []
+        else:
+            for i in range(len(tasks)):
+                if i == 0:
+                    print(style.BOLD + tasks[i].strip() + style.RESET)
+                else:
+                    # if '[DONE]' in tasks[i].strip():
+                    #     print(style.bblue +f"{i}" + style.RESET, f". {tasks[i]}".strip())
+                    # else:
+                    #     print('Apples not in string')
+                    print(style.bblue +f"{i}" + style.RESET, f". {tasks[i]}".strip())
 
-# print(content)
+def marktask(fullpath : str) -> None:
+    with open(fullpath, "r") as textfile:
+        tasks = viewalltasks(os.path.join(textfile, "hi"))
+
+        
+
+
+createnewfile(os.path.join(textfile, "hi"))
+# addnewtask(os.path.join(textfile, "hi"))
+viewalltasks(os.path.join(textfile, "hi"))
+

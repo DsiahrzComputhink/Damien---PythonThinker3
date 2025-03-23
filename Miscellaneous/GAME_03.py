@@ -34,7 +34,7 @@ import random
 import os
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","[MISC] Memory.txt")
+textfile = os.path.join(FilePath,"ARCHIVE","Text Files","[MISC] Memory.txt")
 
 # if os.path.exists(textfile):
     # print("{} exist".format(textfile))
@@ -155,7 +155,17 @@ def SaveData():
                 file.write(str(memory))
     print(style.bgreen + "Data Saved!" + style.RESET)
 
-# Main Program [Math Game]
+
+def PrintData():
+    print(LINE)
+    print(style.byellow + "Debug Variables" + style.RESET)
+    print(LINE)
+    with open(textfile, "r") as file:
+        content = file.read()
+    memory = eval(content)
+    for i in memory:
+        print(f"{i} : {memory[i]}")
+
 
 # Whiteboard thing i guess
 def whiteboard():
@@ -230,73 +240,5 @@ def whiteboard():
     print(style.bblue + "Whiteboard is ready." + style.RESET)
 
 SaveData()
-
-# Main program
-from sympy import Symbol
-from sympy import *
-min = 0
-max = 10
-
-words = [
-        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-        ]
-
-def answer(input: bool):
-    if input == True:
-        print("reward")
-    elif input == False:
-        print("punish")
-
-def generatealgebra(words : list):
-    wordnumber = random.randint(0,len(words)-1)
-
-    symbol = Symbol(words[int(wordnumber)])
-    return symbol
-
-def generaterandomnumber(min,max):
-    num = random.randint(min,max) # leave in positive.
-    negative = random.randint(0,1)
-    if negative == 1:
-        num = num*(-1)
-    return num
-
-x = generatealgebra(words)
-y = generatealgebra(words)
-
-
-def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
-    equ1 = xval*num1 + yval*num2
-    equ2 = yval*num3 + yval*num4
-    print(LINE)
-    print(style.BOLD + "Simultaneous Equation" + style.RESET)
-    print(LINE)
-    print(style.bcyan + "Solve the 2 equations." + style.RESET)
-    print(f"({(num1*x + num2*y)} = {equ1})")
-    print(f"({(num3*x + num4*y)} = {equ2})")
-    xvalans = input(style.bpurple + "x = " + style.RESET)
-    yvalans = input(style.bpurple + "y = " + style.RESET)
-    if xvalans.isnumeric() and yvalans.isnumeric():
-        if xvalans != xval:
-            return false
-        elif xvalans == xval:
-            if yvalans != yval:
-                return false
-            elif yvalans == yval:
-                return true
-    else:
-        return false
-    
-
-def SimulQuestion():
-    x = generatealgebra(words)
-    y = generatealgebra(words)
-    xval = generaterandomnumber(min,max)
-    yval = generaterandomnumber(min,max)
-
-    num1 = generaterandomnumber(min,max)
-    num2 = generaterandomnumber(min,max)
-    num3 = generaterandomnumber(min,max)
-    num4 = generaterandomnumber(min,max)
-    solveSimul(x,y,xval,yval,num1,num2,num3,num4)
-
-SimulQuestion()
+# Main Program
+PrintData()

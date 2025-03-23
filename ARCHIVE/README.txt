@@ -32,3 +32,5 @@ Also, any files with [example].txt in any of the lessons is subject to change as
         L06 - FUNCTIONS [23/2/2025]
         L07 - FILE_INPUT/OUTPUT [2/3/2025]
          \_ L07 - EXAMPLE.TXT [2/3/2025]    {SUBJECT TO CHANGE}
+        L08 - FILE_INPUT/OUTPUT [16/3/2025]
+         \_ L08 - EXAMPLE.TXT [16/3/2025]   {SUBJECT TO CHANGE}
