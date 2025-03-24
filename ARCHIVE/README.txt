@@ -9,7 +9,7 @@ Please note that the timing may not be accurate
 Also, any files with [example].txt in any of the lessons is subject to change as the code will alter the files
 
 # EXAM RELATED
-    Mid Smester Practical [9/3/2025]
+    Mid Semester Practical [9/3/2025]
 
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
@@ -30,7 +30,12 @@ Also, any files with [example].txt in any of the lessons is subject to change as
         L04 - FUNCTIONS [9/2/2025]
         L05 - FUNCTIONS [16/2/2025]
         L06 - FUNCTIONS [23/2/2025]
+    
+    -- FILE_INPUT/OUTPUT
         L07 - FILE_INPUT/OUTPUT [2/3/2025]
-         \_ L07 - EXAMPLE.TXT [2/3/2025]    {SUBJECT TO CHANGE}
+         \_ L07 - EXAMPLE.TXT [2/3/2025]--------{SUBJECT TO CHANGE}
         L08 - FILE_INPUT/OUTPUT [16/3/2025]
-         \_ L08 - EXAMPLE.TXT [16/3/2025]   {SUBJECT TO CHANGE}
+         \_ L08 - EXAMPLE.TXT [16/3/2025]-------[UNUSED]
+         \_ hi.txt [23/3/2025]------------------{SUBJECT TO CHANGE}
+        L09 - FILE_INPUT/OUTPUT [23/3/2025]
+         \_ sherlock.txt (what the hell is this file name bro)

@@ -36,65 +36,65 @@ class style():
     warning = dyellow
     error = dred
 
+a = 0
+e = 0
+i = 0
+o = 0
+u = 0
 
-LINE = style.bgray + "------------------------------" + style.RESET
+space = 0
+total = 0
+nonvowel = 0
+characters = 0
+
 import os
-FileName = "L08-File_Input\Output [example].txt"
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","Text Files")
-print(textfile)
-if os.path.exists(textfile):
-    print(style.bgreen + "File connected." + style.RESET)
-else:
-    print(style.bred + "File does not exist." + style.RESET)
-
-def createnewfile(textfile: str) -> None:
-    # Creates a new task file if it does not already exist.
-    # If the file exists, it notifies the user.
-    if os.path.exists(textfile):
-        print(LINE)
-        print(style.byellow + "The file already exists." + style.byellow)
-        print(LINE)
-    else:
-        print(style.bblue + "\nCreating a new task file" + style.RESET)
-
-        with open(textfile, "x") as taskfile:
-            taskfile.write("My Task List")
+textfile = os.path.join(FilePath,"ARCHIVE","Text Files","sherlock.txt")
+with open(textfile,"r") as file:
+    lines = file.readlines()
 
 
-def addnewtask(fullpath : str) -> None:
-    print(style.bblue + "Please input a task." + style.RESET)
-    taskinput = input("")
-    task = str(taskinput)
+List = []
 
-    with open(fullpath, "a") as taskfile:
-        taskfile.write(f"\n{task}")
+for line in lines:
+    line1 = line.strip()
+    List.append(str(line1))
 
-def viewalltasks(fullpath : str) -> None:
-    with open(fullpath, "r") as textfile:
-        tasks = textfile.readlines()
-        if len(tasks) == 1:
-            print(style.bred + "No task found.")
-            return []
-        else:
-            for i in range(len(tasks)):
-                if i == 0:
-                    print(style.BOLD + tasks[i].strip() + style.RESET)
-                else:
-                    # if '[DONE]' in tasks[i].strip():
-                    #     print(style.bblue +f"{i}" + style.RESET, f". {tasks[i]}".strip())
-                    # else:
-                    #     print('Apples not in string')
-                    print(style.bblue +f"{i}" + style.RESET, f". {tasks[i]}".strip())
+for line in List:
+    for word in line:
+        for letter in word:
+            # find if its a vowel
+            if letter == "a":
+                a += 1
+                characters += 1
+            elif letter == "e":
+                e += 1
+                characters += 1
+            elif letter == "i":
+                i += 1
+                characters += 1
+            elif letter == "o":
+                o += 1
+                characters += 1
+            elif letter == "u":
+                u += 1
+                characters += 1
+            elif letter != " ":
+                nonvowel += 1
+                characters += 1
+            else:
+                space += 1
+            total += 1
+            
 
-def marktask(fullpath : str) -> None:
-    with open(fullpath, "r") as textfile:
-        tasks = viewalltasks(os.path.join(textfile, "hi"))
-
-        
-
-
-createnewfile(os.path.join(textfile, "hi"))
-# addnewtask(os.path.join(textfile, "hi"))
-viewalltasks(os.path.join(textfile, "hi"))
-
+print("Final output:")
+print("\n")
+print("a: ",a)
+print("e: ",e)
+print("i: ",i)
+print("o: ",o)
+print("u: ",u)
+print("Non vowels:", nonvowel)
+print("Spaces: ", space)
+print("Characters: ", characters)
+print("Total Amount: ", total)
