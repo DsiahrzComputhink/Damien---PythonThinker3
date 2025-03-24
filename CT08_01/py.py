@@ -1,2 +1,3 @@
 a = 5
-b
+b = "String"
+print(a)
