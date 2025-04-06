@@ -29,6 +29,8 @@ class style():
 
     RESET = '\033[0m'
 
+LINE = style.bgray + "------------------------------" + style.RESET
+
 import string
 import os
 
@@ -38,7 +40,14 @@ with open(textfile,"r") as file:
     encrypted = file.read()
 
 def lowercase(encrypted):
+    print(style.bred + "ENCRYPTED" + style.RESET)
+    print(encrypted)
+    print(LINE)
     lowercase_encrypted = encrypted.lower()
+    print(style.bgreen + "DECRYPTED" + style.RESET)
     print(lowercase_encrypted)
+    print(LINE)
+
+# def
 
 lowercase(encrypted)
