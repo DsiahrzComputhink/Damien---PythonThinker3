@@ -42,24 +42,26 @@ with open(textfile,"r") as file:
     encrypted = file.read()
 
 def lowercase(encrypted):
-    print(style.bred + "ENCRYPTED" + style.RESET)
+    print(style.bred + "WITH UPPER CASE" + style.RESET)
     print(encrypted)
     print(LINE)
     lowercase_encrypted = encrypted.lower()
-    print(style.bgreen + "DECRYPTED" + style.RESET)
+    print(style.bgreen + "LOWERCASE" + style.RESET)
     print(lowercase_encrypted)
     print(LINE)
     return lowercase_encrypted
 
 def removepunctuation(encrypted):
-    print(style.bred + "ENCRYPTED" + style.RESET)
+    print(style.bred + "WITH PUNCTUATION" + style.RESET)
     print(encrypted)
     print(LINE)
-    lowercase_encrypted = encrypted.lower()
-    print(style.bgreen + "DECRYPTED" + style.RESET)
+    for char in encrypted:
+        print(char)
+    print(style.bgreen + "WITHOUT PUNCTUATION" + style.RESET)
     print(lowercase_encrypted)
     print(LINE)
     return lowercase_encrypted
 
 
 lowercase(encrypted)
+removepunctuation(encrypted)
