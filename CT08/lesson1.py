@@ -73,4 +73,7 @@ def generatepassword(length: int = 12) -> str:
                 randomchar = random.randint(91,96)
                 
         char = chr(randomchar)
-        print(char)
+        password += char
+
+    print(password)
+    
