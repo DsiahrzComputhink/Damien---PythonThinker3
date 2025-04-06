@@ -69,5 +69,6 @@ def generatepassword(length: int = 12) -> str:
     char = chr(randomchar)
     print(char)
 
-generatepassword(10)
+for i in range(100):
+    generatepassword()
         
