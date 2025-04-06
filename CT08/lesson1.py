@@ -43,4 +43,8 @@ for i in range(10000):
     chr(i)
 
 
+# User Management System (UMS)
+
+# Must DO:
+# Create new users with automatically generated strong passwords.
 # 
