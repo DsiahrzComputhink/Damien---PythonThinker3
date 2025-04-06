@@ -57,7 +57,7 @@ def removepunctuation(encrypted):
     print(LINE)
     for char in encrypted:
         if char in punctuation:
-            char.replace(f"{char}","")
+            encrypted.replace("{char}","")
             
     print(style.bgreen + "WITHOUT PUNCTUATION" + style.RESET)
     print(encrypted)
