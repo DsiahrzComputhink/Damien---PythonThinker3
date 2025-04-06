@@ -80,12 +80,11 @@ def abbreviate(encrypted: str):
     for word in words:
         if len(word) > 0:
             decoded += word[0]
-            
 
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
-    print(encrypted)
+    print(decoded)
     print(LINE)
-    return encrypted
+    return decoded
 
 
 encrypted = lowercase(encrypted)
