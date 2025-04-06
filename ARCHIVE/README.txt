@@ -36,11 +36,14 @@ Also, any files with [example].txt in any of the lessons is subject to change as
     -- FILE_INPUT/OUTPUT
         L07 - FILE_INPUT/OUTPUT [2/3/2025]
          \_ L07 - EXAMPLE.TXT [2/3/2025]--------{SUBJECT TO CHANGE}
+
         L08 - FILE_INPUT/OUTPUT [16/3/2025]
          \_ L08 - EXAMPLE.TXT [16/3/2025]-------[UNUSED]
          \_ hi.txt [23/3/2025]------------------{SUBJECT TO CHANGE}
+
         L09 - FILE_INPUT/OUTPUT [23/3/2025]
          \_ sherlock.txt
          \_ results.txt
+         
         L10 - FILE_INPUT/OUTPUT [30/3/2025]
          \_ encryptednote.txt
