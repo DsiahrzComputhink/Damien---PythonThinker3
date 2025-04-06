@@ -51,5 +51,15 @@ def lowercase(encrypted):
     print(LINE)
     return lowercase_encrypted
 
+def removepunctuation(encrypted):
+    print(style.bred + "ENCRYPTED" + style.RESET)
+    print(encrypted)
+    print(LINE)
+    lowercase_encrypted = encrypted.lower()
+    print(style.bgreen + "DECRYPTED" + style.RESET)
+    print(lowercase_encrypted)
+    print(LINE)
+    return lowercase_encrypted
+
 
 lowercase(encrypted)
