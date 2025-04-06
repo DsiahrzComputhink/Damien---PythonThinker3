@@ -54,7 +54,7 @@ def lowercase(encrypted: str):
     return lowercase_encrypted
 
 def removepunctuation(encrypted: str):
-    print(BIGLINE)
+    print(WHITELINE)
     print(style.bred + "WITH PUNCTUATION" + style.RESET)
     print(encrypted)
     print(LINE)
