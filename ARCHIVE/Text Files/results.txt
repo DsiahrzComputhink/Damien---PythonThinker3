@@ -1,1 +1,4 @@
-Sherlock Holmes Text Analysis-----------------------------Total Characters: 51833Total Vowels: 15705
+Sherlock Holmes Text Analysis
+-----------------------------
+Total Characters: 51833
+Total Vowels: 15705
