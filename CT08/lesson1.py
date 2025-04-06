@@ -60,6 +60,7 @@ def removepunctuation(encrypted):
             encrypted.replace(f"{char}","")
             
     print(style.bgreen + "WITHOUT PUNCTUATION" + style.RESET)
+    print(encrypted)
     print(LINE)
 
 
