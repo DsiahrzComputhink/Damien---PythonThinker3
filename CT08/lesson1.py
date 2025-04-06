@@ -51,6 +51,8 @@ import random
 def generatepassword(length: int = 12) -> str:
     if length < 12:
         print(style.bred + "Length must be more than 12 Characters." + style.RESET)
+
+        
     randomsection = random.randint(1,4)
     if randomsection == 1:
         randomchar = random.randint(65,90)
@@ -68,4 +70,3 @@ def generatepassword(length: int = 12) -> str:
             randomchar = random.randint(91,96)
     char = chr(randomchar)
     print(char)
-        
