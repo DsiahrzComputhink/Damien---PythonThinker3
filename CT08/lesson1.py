@@ -59,22 +59,13 @@ def generatepassword(length: int = 12) -> str:
     for i in range(length):
         randomsection = random.randint(1,4)
         if randomsection == 1:
-            passowrd += random.choice(string.ascii_uppercase)
+            password += random.choice(string.ascii_uppercase)
         elif randomsection == 2:
-            passowrd += random.choice(string.ascii_lowercase)
+            password += random.choice(string.ascii_lowercase)
         elif randomsection == 3:
-            passowrd += random.choice(string.digits)
+            password += random.choice(string.digits)
         elif randomsection == 4:
-            randompart = random.randint(1,14 + 6 + 5)
-            if randompart <= 14:
-                randomchar = random.randint(33,47)
-            elif randompart > 14 + 6:
-                randomchar = random.randint(58,64)
-            else:
-                randomchar = random.randint(91,96)
-                
-        char = chr(randomchar)
-        password += char
+            password += random.choice(string.ascii_uppercase)
 
     print(password)
 
