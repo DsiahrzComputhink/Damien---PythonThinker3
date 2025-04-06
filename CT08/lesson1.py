@@ -47,7 +47,7 @@ import random
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
-def generatepassword(length: int,) -> str:
+def generatepassword(length: int = 12) -> str:
     randomsection = random.randint(1,4)
     if randomsection == 1:
         randomchar = random.randint(65,90)
