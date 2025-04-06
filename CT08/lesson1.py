@@ -35,4 +35,4 @@ class style():
 
 # Digits: 48 - 57
 
-# Symbols: 
+# Symbols: 35 - 64
