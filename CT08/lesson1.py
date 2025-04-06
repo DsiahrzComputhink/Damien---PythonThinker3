@@ -29,6 +29,7 @@ class style():
 
     RESET = '\033[0m'
 
+import time
 # RANGES
 # Uppercase Leters: 65 - 90
 # Lowercase Letters: 97 - 122
@@ -37,5 +38,6 @@ class style():
 
 # Symbols: 33 - 47, 58 - 64, 91 - 96
 
-for i in range(10000)
+for i in range(10000):
+    time.sleep(0.2)
     chr(i)
