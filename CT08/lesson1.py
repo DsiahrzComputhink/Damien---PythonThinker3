@@ -37,6 +37,7 @@ import os
 
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"ARCHIVE","Text Files","encryptednote.txt")
+
 with open(textfile,"r") as file:
     encrypted = file.read()
 
@@ -49,5 +50,6 @@ def lowercase(encrypted):
     print(lowercase_encrypted)
     print(LINE)
     return lowercase_encrypted
+
 
 lowercase(encrypted)
