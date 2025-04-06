@@ -70,5 +70,5 @@ def generatepassword(length: int = 12) -> str:
     print(char)
 
 for i in range(5):
-    print(chr(i+90))
+    print(chr(i+58))
         
