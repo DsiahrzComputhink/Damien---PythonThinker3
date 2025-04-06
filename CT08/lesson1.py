@@ -54,4 +54,10 @@ for i in range(10000):
 def generatepassword(length: int,) -> str:
     randomsection = random.randint(1,4)
     if randomsection == 1:
-        randomchar = 
+        randomchar = random.randint(65,90)
+        if randomsection == 1:
+        randomchar = random.randint(65,90)
+        if randomsection == 1:
+        randomchar = random.randint(65,90)
+        if randomsection == 1:
+        randomchar = random.randint(65,90)
