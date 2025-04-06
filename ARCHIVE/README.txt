@@ -13,6 +13,8 @@ Also, any files with [example].txt in any of the lessons is subject to change as
 
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
+    GAME_01.py [??/?/2025]
+    GAME_02.py [DELETED]
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
     MEMORY.txt - MISCELLANEOUS [FOR A GAME]     {SUBJECT TO CHANGE}
 
@@ -38,4 +40,6 @@ Also, any files with [example].txt in any of the lessons is subject to change as
          \_ L08 - EXAMPLE.TXT [16/3/2025]-------[UNUSED]
          \_ hi.txt [23/3/2025]------------------{SUBJECT TO CHANGE}
         L09 - FILE_INPUT/OUTPUT [23/3/2025]
-         \_ sherlock.txt (what the hell is this file name bro)
+         \_ sherlock.txt
+        L10 - FILE_INPUT/OUTPUT [23/3/2025]
+         \_ encryptednote.txt

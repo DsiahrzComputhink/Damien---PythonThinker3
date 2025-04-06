@@ -1,4 +1,3 @@
 My Task List
 make a 'my task list'
 make a 'functional game'
-3 [DONE]

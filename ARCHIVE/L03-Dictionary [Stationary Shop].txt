@@ -59,6 +59,7 @@ yes = {
     "positive",
     "thats all",
     "put the fries in the bag lil bro",
+    "nah yeah",
 }
 
 no = {
@@ -70,6 +71,7 @@ no = {
     "negative",
     "not yet",
     "thats all",
+    "yeah nah",
 }
 
 
