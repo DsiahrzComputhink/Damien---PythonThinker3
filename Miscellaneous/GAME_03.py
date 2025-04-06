@@ -242,5 +242,3 @@ def whiteboard():
 SaveData()
 # Main Program
 PrintData()
-
-THE KEY IS UNDER THE OAK TREE
