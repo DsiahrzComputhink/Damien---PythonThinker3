@@ -50,6 +50,4 @@ def lowercase(encrypted):
     print(LINE)
     return lowercase_encrypted
 
-print(string.hexdigits
-
 lowercase(encrypted)
