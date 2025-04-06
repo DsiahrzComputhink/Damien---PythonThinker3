@@ -83,9 +83,9 @@ def abbreviate(encrypted: str):
             if i > 0:
                 decoded += char
 
-    print(decoded)
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
     print(encrypted)
+    print(decoded)
     print(LINE)
     return encrypted
 
