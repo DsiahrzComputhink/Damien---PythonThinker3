@@ -29,11 +29,16 @@ class style():
 
     RESET = '\033[0m'
 
+import time
 # -- RANGES
     # Uppercase Leters: 65 - 90
     # Lowercase Letters: 97 - 122
     # Digits: 48 - 57
     # Symbols: 33 - 47, 58 - 64, 91 - 96
+
+for i in range(10000):
+    time.sleep(0.05)
+    print(chr(i)," -- ",i)
 
 
 # ASCII User Management System (UMS)
@@ -43,3 +48,5 @@ class style():
 # * Update existing passwords by verifiying the current one.
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
+
+# def generatepassword(length: int) -> str:
