@@ -47,5 +47,5 @@ Also, any files with [example].txt in any of the lessons is subject to change as
 
         L10 - FILE_INPUT/OUTPUT [30/3/2025]
          \_ encryptednote.txt
-
-         
+        
+        L11 - ASCII [6/4/2025]
