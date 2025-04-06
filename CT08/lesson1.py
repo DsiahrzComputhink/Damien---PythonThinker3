@@ -69,7 +69,7 @@ def generatepassword(length: int = 12) -> str:
 
 
 metatable = {
-    ["alice"] = {
+    alice: {
         chance: 2,
         password: "string",
     },
