@@ -46,7 +46,7 @@ for i in range(10000):
 # User Management System (UMS)
 
 # Must DO:
-# Create new users with automatically generated strong passwords.
-# Updae existing passwords by verifiying the current one.
-# View usernames and their masked passwords.
+# * Create new users with automatically generated strong passwords.
+# * Updae existing passwords by verifiying the current one.
+# * iew usernames and their masked passwords.
 # Access all features through a interactive menu system.
