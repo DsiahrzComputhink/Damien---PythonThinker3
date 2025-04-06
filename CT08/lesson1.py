@@ -69,4 +69,4 @@ def removepunctuation(encrypted: str):
 
 
 encrypted = lowercase(encrypted)
-removepunctuation(encr)
+removepunctuation(encrypted)
