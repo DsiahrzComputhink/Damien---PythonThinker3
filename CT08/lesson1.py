@@ -39,8 +39,7 @@ import time
 # Symbols: 33 - 47, 58 - 64, 91 - 96
 
 for i in range(10000):
-    time.sleep(0.2)
-    chr(i)
+    print(chr(i))
 
 
 # ASCII User Management System (UMS)
