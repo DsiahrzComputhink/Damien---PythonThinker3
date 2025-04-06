@@ -30,9 +30,8 @@ class style():
     RESET = '\033[0m'
 
 import string
-print(string.punctuation)
-
 import os
+
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"ARCHIVE","Text Files","encryptednote.txt")
 with open(textfile,"r") as file:
