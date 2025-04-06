@@ -42,7 +42,7 @@ textfile = os.path.join(FilePath,"ARCHIVE","Text Files","encryptednote.txt")
 with open(textfile,"r") as file:
     encrypted = file.read()
 
-def lowercase(encrypted: str):
+def decrypt(encrypted: str):
     print(BIGLINE)
     print(style.bred + "WITH UPPER CASE" + style.RESET)
     print(encrypted)
