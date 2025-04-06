@@ -33,4 +33,6 @@ class style():
 # Uppercase Leters: 65 - 90
 # Lowercase Letters: 97 - 122
 
-# Digits: 0
+# Digits: 48 - 57
+
+# Symbols: 
