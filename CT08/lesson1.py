@@ -31,16 +31,10 @@ class style():
 
 import time
 # RANGES
-# Uppercase Leters: 65 - 90
-# Lowercase Letters: 97 - 122
-
-# Digits: 48 - 57
-
-# Symbols: 33 - 47, 58 - 64, 91 - 96
-
-for i in range(10000):
-    time.sleep(0.1)
-    print(chr(i))
+    # Uppercase Leters: 65 - 90
+    # Lowercase Letters: 97 - 122
+    # Digits: 48 - 57
+    # Symbols: 33 - 47, 58 - 64, 91 - 96
 
 
 # ASCII User Management System (UMS)
