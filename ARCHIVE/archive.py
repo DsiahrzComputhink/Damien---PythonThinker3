@@ -1,5 +1,5 @@
 class style():
-    
+
     BOLD = '\033[1m'
     ITALIC = '\033[3m'
 
