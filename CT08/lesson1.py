@@ -48,6 +48,7 @@ def lowercase(encrypted):
     print(style.bgreen + "DECRYPTED" + style.RESET)
     print(lowercase_encrypted)
     print(LINE)
+    return lowercase_encrypted
 
 
 lowercase(encrypted)
