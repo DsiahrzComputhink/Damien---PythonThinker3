@@ -31,6 +31,7 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 import time
+import string
 import random
 
 # random.choice([List,List2]) chooses a random element from the list.
