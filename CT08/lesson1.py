@@ -76,4 +76,5 @@ def generatepassword(length: int = 12) -> str:
         password += char
 
     print(password)
-    
+
+generatepassword(100)
