@@ -42,7 +42,7 @@ textfile = os.path.join(FilePath,"ARCHIVE","Text Files","encryptednote.txt")
 with open(textfile,"r") as file:
     encrypted = file.read()
 
-def lowercase(encrypted):
+def lowercase(encrypted: str):
     print(BIGLINE)
     print(style.bred + "WITH UPPER CASE" + style.RESET)
     print(encrypted)
@@ -53,7 +53,7 @@ def lowercase(encrypted):
     print(LINE)
     return lowercase_encrypted
 
-def removepunctuation(encrypted):
+def removepunctuation(encrypted: str):
     print(BIGLINE)
     print(style.bred + "WITH PUNCTUATION" + style.RESET)
     print(encrypted)
