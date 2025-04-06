@@ -69,7 +69,7 @@ def removepunctuation(encrypted: str):
     return encrypted
 
 
-def abbrereviate(encrypted: str):
+def abbreviate(encrypted: str):
     print(WHITELINE)
     print(style.bred + "WITH PUNCTUATION" + style.RESET)
     print(encrypted)
