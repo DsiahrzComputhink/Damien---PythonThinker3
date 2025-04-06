@@ -68,19 +68,5 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
 
 
-metatable = {
-    'Lives': {
-    'Lives': 0, 
-    'Correct': 0, 
-    'Wrong': 0, 
-    'Round': 0, 
-    'Difficulty': 0, 
-    'Money': 0
-    }, 
-    'Correct': 0, 
-    'Wrong': 0, 
-    'Round': 0, 
-    'Difficulty': 0, 
-    'Money': 0}
 
 generatepassword(12)
