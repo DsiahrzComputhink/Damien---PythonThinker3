@@ -71,7 +71,7 @@ def removepunctuation(encrypted: str):
 
 def abbreviate(encrypted: str):
     print(WHITELINE)
-    print(style.bred + "WITH PUNCTUATION" + style.RESET)
+    print(style.bred + "SENTENCE" + style.RESET)
     print(encrypted)
     print(LINE)
 
@@ -79,7 +79,7 @@ def abbreviate(encrypted: str):
         encrypted = encrypted.replace(char,"")
 
             
-    print(style.bgreen + "WITHOUT PUNCTUATION" + style.RESET)
+    print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
     print(encrypted)
     print(LINE)
     return encrypted
