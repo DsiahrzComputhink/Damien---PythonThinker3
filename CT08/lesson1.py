@@ -85,7 +85,6 @@ def abbreviate(encrypted: str):
 
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
     print(encrypted)
-    print(decoded)
     print(LINE)
     return encrypted
 
