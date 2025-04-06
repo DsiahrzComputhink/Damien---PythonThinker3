@@ -68,6 +68,11 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
 
 
-def 
+metatable = {
+    ["alice"] = {
+        chance: 2,
+        password: "string",
+    },
+}
 
 generatepassword(12)
