@@ -67,6 +67,7 @@ def generatepassword(length: int = 12) -> str:
         elif randomsection == 4:
             password += random.choice(string.punctuation)
 
-    print(password)
 
-generatepassword(100)
+def 
+
+generatepassword(12)
