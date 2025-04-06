@@ -76,7 +76,7 @@ def abbreviate(encrypted: str):
     print(LINE)
 
     words = encrypted.split()
-    print(words)
+    for 
             
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
     print(encrypted)
