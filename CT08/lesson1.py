@@ -30,6 +30,8 @@ class style():
     RESET = '\033[0m'
 
 import time
+import random
+
 # -- RANGES
     # Uppercase Leters: 65 - 90
     # Lowercase Letters: 97 - 122
@@ -49,7 +51,5 @@ for i in range(10000):
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
-def generatepassword(length: int,difficulty: int) -> str:
-    asciirandom = [
-        
-    ]
+def generatepassword(length: int,) -> str:
+    randomsection = random.randint(1,4)
