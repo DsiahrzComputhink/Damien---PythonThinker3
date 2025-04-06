@@ -29,8 +29,7 @@ class style():
 
     RESET = '\033[0m'
 
-import time
-# RANGES
+# -- RANGES
     # Uppercase Leters: 65 - 90
     # Lowercase Letters: 97 - 122
     # Digits: 48 - 57
