@@ -78,11 +78,9 @@ def abbreviate(encrypted: str):
     decoded = ""
     words = encrypted.split()
     for word in words:
-        i = 0
-        for char in word:
-            if i > 0:
-                print(char)
-                decoded += char
+        if len(word) > 0:
+            decoded += word[0]
+            
 
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
     print(encrypted)
