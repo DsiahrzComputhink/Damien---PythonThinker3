@@ -49,4 +49,5 @@ for i in range(10000):
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
-# def generatepassword(length: int,) -> str:
+def generatepassword(length: int,difficulty: int) -> str:
+    asciirandom
