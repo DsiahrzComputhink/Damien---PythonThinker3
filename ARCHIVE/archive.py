@@ -35,6 +35,7 @@ class style():
     
     warning = dyellow
     error = dred
+LINE = style.bgray + "------------------------------" + style.RESET
 
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
