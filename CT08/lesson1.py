@@ -33,6 +33,8 @@ LINE = style.bgray + "------------------------------" + style.RESET
 import time
 import random
 
+# random.choice([List,List2]) chooses a random element from the list.
+
 # -- RANGES
     # Uppercase Leters: 65 - 90
     # Lowercase Letters: 97 - 122
@@ -47,9 +49,6 @@ import random
 # * Update existing passwords by verifiying the current one.
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
-
-
-# random.choice([List,List2]) chooses a random element from the list.
 
 def generatepassword(length: int = 12) -> str:
     if length < 12:
