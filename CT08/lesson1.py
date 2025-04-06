@@ -48,7 +48,7 @@ import random
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
-# random.choice
+# random.choice([List,List2]) chooses a random 
 def generatepassword(length: int = 12) -> str:
     if length < 12:
         print(style.bred + "Length must be more than 12 Characters." + style.RESET)
