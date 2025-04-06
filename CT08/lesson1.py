@@ -29,6 +29,7 @@ class style():
 
     RESET = '\033[0m'
 
+BIGLINE = style.bgray + "------------------------------" + style.RESET
 LINE = style.bgray + "------------------------------" + style.RESET
 
 import string
@@ -58,7 +59,7 @@ def removepunctuation(encrypted):
     for char in encrypted:
         if char in punctuation:
             print(char)
-            
+
             
     print(style.bgreen + "WITHOUT PUNCTUATION" + style.RESET)
     print(encrypted)
