@@ -36,8 +36,8 @@ textfile = os.path.join(FilePath,"ARCHIVE","Text Files","encryptednote.txt")
 with open(textfile,"r") as file:
     encrypted = file.read()
 
-def decrypt(encrypted):
+def lowercase(encrypted):
     lowercase_encrypted = encrypted.lower()
     print(lowercase_encrypted)
 
-decrypt(encrypted)
+lowercase(encrypted)
