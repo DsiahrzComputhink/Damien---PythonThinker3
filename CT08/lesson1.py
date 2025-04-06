@@ -86,4 +86,4 @@ def abbreviate(encrypted: str):
 
 encrypted = lowercase(encrypted)
 encrypted = removepunctuation(encrypted)
-encrypted = abberviate
+encrypted = abbreviate(encrypted)
