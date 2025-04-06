@@ -68,5 +68,5 @@ def removepunctuation(encrypted):
     print(LINE)
 
 
-lowercase(encrypted)
-removepunctuation(encrypted)
+decrypt = lowercase(encrypted)
+removepunctuation(decrypt)
