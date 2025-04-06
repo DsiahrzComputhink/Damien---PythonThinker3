@@ -48,6 +48,8 @@ import random
 # * Access all features through a interactive menu system.
 
 def generatepassword(length: int = 12) -> str:
+    if length < 12:
+        
     randomsection = random.randint(1,4)
     if randomsection == 1:
         randomchar = random.randint(65,90)
