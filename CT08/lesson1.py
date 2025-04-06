@@ -68,7 +68,10 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
 
 dictionary = {
-    
+    'TESTNAME': {
+        'CHANCES':0,
+        'PASSWORD':"STRING",
+    }
 }
 
 generatepassword(12)
