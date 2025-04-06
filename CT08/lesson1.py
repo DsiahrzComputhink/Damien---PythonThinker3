@@ -81,6 +81,7 @@ def abbreviate(encrypted: str):
         i = 0
         for char in word:
             if i > 0:
+                print(char)
                 decoded += char
 
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
