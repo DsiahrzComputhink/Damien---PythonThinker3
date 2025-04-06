@@ -32,6 +32,7 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 import string
+punctuation = string.punctuation
 import os
 
 FilePath = os.getcwd()
