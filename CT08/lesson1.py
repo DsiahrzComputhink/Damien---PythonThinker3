@@ -74,4 +74,5 @@ dictionary = {
     }
 }
 
-generatepassword(12)
+def createusername(name: str):
+    
