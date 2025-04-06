@@ -75,8 +75,7 @@ def abbreviate(encrypted: str):
     print(encrypted)
     print(LINE)
 
-    for char in punctuation:
-        encrypted = encrypted.replace(char,"")
+    words 
 
             
     print(style.bgreen + "ABBERVIATED SENTENCE" + style.RESET)
