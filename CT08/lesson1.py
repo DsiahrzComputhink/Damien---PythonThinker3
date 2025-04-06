@@ -29,7 +29,7 @@ class style():
 
     RESET = '\033[0m'
 
-BIGLINE = style.bwhite + "------------------------------" + style.RESET
+WHITELINE = style.bwhite + "------------------------------" + style.RESET
 LINE = style.bgray + "------------------------------" + style.RESET
 
 import string
@@ -43,7 +43,7 @@ with open(textfile,"r") as file:
     encrypted = file.read()
 
 def lowercase(encrypted: str):
-    print(BIGLINE)
+    print(WHITELINE)
     print(style.bred + "WITH UPPER CASE" + style.RESET)
     print(encrypted)
     print(LINE)
