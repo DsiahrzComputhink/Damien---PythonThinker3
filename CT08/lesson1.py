@@ -50,4 +50,6 @@ for i in range(10000):
 # * Access all features through a interactive menu system.
 
 def generatepassword(length: int,difficulty: int) -> str:
-    asciirandom
+    asciirandom = [
+        
+    ]
