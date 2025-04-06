@@ -48,6 +48,5 @@ def lowercase(encrypted):
     print(lowercase_encrypted)
     print(LINE)
 
-# def
 
 lowercase(encrypted)
