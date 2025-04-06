@@ -75,7 +75,8 @@ metatable = {
     'Wrong': 0, 
     'Round': 0, 
     'Difficulty': 0, 
-    'Money': 0}, 
+    'Money': 0
+    }, 
     'Correct': 0, 
     'Wrong': 0, 
     'Round': 0, 
