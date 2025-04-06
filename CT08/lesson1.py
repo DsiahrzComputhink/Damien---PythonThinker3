@@ -29,4 +29,5 @@ class style():
 
     RESET = '\033[0m'
 
-LINE = style.bgray + "------------------------------" + style.RESET
+# RANGES
+# Uppercase Leters: 
