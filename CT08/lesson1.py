@@ -30,4 +30,7 @@ class style():
     RESET = '\033[0m'
 
 # RANGES
-# Uppercase Leters: 
+# Uppercase Leters: 65 - 90
+# Lowercase Letters: 97 - 122
+
+# Digits: 0
