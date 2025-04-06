@@ -61,7 +61,7 @@ def generatepassword(length: int,) -> str:
         randomchar = random.randint(48,57)
     elif randomsection == 4:
         randompart = random.randint(1,14 + 6 + 5)
-        if randompart == 14:
+        if randompart <= 14:
             randomchar = random.randint(33,47)
         elif randompart == 2:
             randomchar = random.randint(58,64)
