@@ -90,6 +90,11 @@ def updatepassword(username: str,password: str):
         while stop == 0:
             newpassword = input(style.bcyan + "Choose a new password: " + style.RESET)
             if len(newpassword) < 7:
+                number = False
+                print(style.byellow + "Sorry, password must be 8 letters long.")
+                for i in newpassword:
+                    if i.isnumeric():
+                        
 
             
         userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after the new password is strong enough
