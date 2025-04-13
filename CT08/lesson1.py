@@ -91,7 +91,7 @@ def updatepassword(username: str,password: str):
             newpassword = input(style.bcyan + "Choose a new password: " + style.RESET)
 
             
-        userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after 
+        userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after the new password is strong enough
         print(userDatabase)
         stop == 0
     else:
