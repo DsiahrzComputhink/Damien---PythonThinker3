@@ -125,6 +125,7 @@ def updatepassword(username: str,password: str):
 
             
         userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after the new password is strong enough
+        userDatabase[f"{username}"]['PASSWORD'] = password
         print(userDatabase)
         stop == 0
     else:
@@ -132,6 +133,8 @@ def updatepassword(username: str,password: str):
     
 def login():
     loginusername = input("Username: ")
+    if loginusername in userDatabase:
+        print(None)
 
 createusername("username")
 # updatepassword("username","password")
