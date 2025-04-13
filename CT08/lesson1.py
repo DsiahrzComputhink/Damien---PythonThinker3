@@ -143,7 +143,11 @@ def login():
         print(style.bred + "Username not found" + style.RESET)
         return None
         
+def viewdatabase(userdb: dict) -> None:
+    for user in userdb:
+        print()
 
 createusername("username")
 updatepassword("username","password")
 login()
+viewdatabase(userDatabase)
