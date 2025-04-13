@@ -92,14 +92,19 @@ def updatepassword(username: str,password: str):
             if len(newpassword) < 7:
                 print(style.byellow + "Sorry, password must be 8 letters long.")
             else:
-                for i in newpassword:
+                number = 0
+                upper = 0
+                lower = 0
+                for i in newpassword: # checking for number
                     if i.isnumeric():
-                        number = True
-                    else:
-                        number = False
+                        number += 1
+                    elif i.isupper():
+                        upper += 1
+                    elif i.islower():
+                        lower += 1
                 if number == False:
                     print(style.byellow + "Sorry, password must contain at least 1 number" + style.RESET)
-            
+                else:
                         
 
             
