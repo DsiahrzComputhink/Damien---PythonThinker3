@@ -66,13 +66,96 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.digits)
         elif randomsection == 4:
             password += random.choice(string.punctuation)
+    return password
 
-dictionary = {
-    'TESTNAME': {
-        'CHANCES':0,
-        'PASSWORD':"STRING",
-    }
-}
+# Nested Dictionary
+userDatabase = {}
 
-def createusername(name: str):
-    print("ill do later")
+def createusername(username: str):
+    if username in userDatabase:
+        print(style.bred + f"There is already a user named {username}" + style.RESET)
+    else:
+        password = generatepassword()
+        userDatabase[f"{username}"] = {}
+        userDatabase[f"{username}"]['PASSWORD'] = password
+
+        userDatabase[f"{username}"]['USEDPASSWORDS'] = [password] # usedpasswords is a list
+    return username
+
+def updatepassword(username: str,password: str):
+    if username in userDatabase:
+        stop = 0
+        while stop == 0:
+            newpassword = input(style.bcyan + "Choose a new password: " + style.RESET)
+            if len(newpassword) < 7:
+                print(style.byellow + "Sorry, password must be 8 letters long.")
+            else:
+                number = 0
+                upper = 0
+                lower = 0
+                spaces = 0
+                for i in newpassword: # checking for number
+                    if i == " ":
+                        spaces += 1
+                    if i.isnumeric():
+                        number += 1
+                    elif i.isupper():
+                        upper += 1
+                    elif i.islower():
+                        lower += 1
+                if number < 1:
+                    print(style.byellow + "Sorry, password must contain at least 1 number" + style.RESET)
+                else:
+                    if upper < 1:
+                        print(style.byellow + "Sorry, password must contain at least 1 uppercase letter" + style.RESET)
+                    else:
+                        if lower < 1: 
+                            print(style.byellow + "Sorry, password must contain at least 1 lowercase letter" + style.RESET)
+                        else:
+                            if spaces >= 1: 
+                                print(style.byellow + "Sorry, password cannot contain spaces" + style.RESET)
+                            else:
+                                if newpassword in userDatabase[f"{username}"]['USEDPASSWORDS']:
+                                    print(style.byellow + "Sorry, this username has been used before. Create a different one." + style.RESET)
+                                else:
+                                    stop = 1
+                        
+
+            
+        userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after the new password is strong enough
+        userDatabase[f"{username}"]['PASSWORD'] = newpassword
+        print(userDatabase)
+        stop == 0
+    else:
+        print(style.bred + "Username does not exist in database." + style.RESET)
+
+def login():
+    loginusername = input(style.bcyan + "Username: " + style.RESET)
+    if loginusername in userDatabase:
+        loginpassword = input(style.bcyan + "Password: " + style.RESET)
+        if loginpassword == userDatabase[f"{loginusername}"]['PASSWORD']:
+            print(style.bblue + f"You are now logged into {loginusername}" + style.RESET)
+        else:
+            print(style.bred + "Invalid Password." + style.RESET)
+            return None
+    else:
+        print(style.bred + "Username not found" + style.RESET)
+        return None
+        
+def viewdatabase(userdb: dict) -> None:
+    for user in userdb:
+        password = userdb[f"{user}"]['PASSWORD']
+        print(f"{user}:","(")
+        print("    ",style.bcyan + "Password:" + style.RESET,style.bpurple + f"{'*' * len(password)}")
+        print("    ",style.byellow + "Used Passwords:" + style.RESET,"(")
+        for usedpassword in userdb[f"{user}"]['USEDPASSWORDS']:
+            print("    ","    ",f"{'*' * len(usedpassword)}")
+            print("    ",")")
+        print(")")
+
+
+
+createusername("username")
+# updatepassword("username","password")
+# login()
+viewdatabase(userDatabase)
