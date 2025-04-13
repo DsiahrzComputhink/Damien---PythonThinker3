@@ -115,8 +115,11 @@ def updatepassword(username: str,password: str):
                             print(style.byellow + "Sorry, password must contain at least 1 lowercase letter" + style.RESET)
                             if spaces >= 1: 
                                 print(style.byellow + "Sorry, password cannot contain spaces" + style.RESET)
+                            else:
                                 if newpassword in userDatabase['USEDPASSWORDS']:
                                     print(style.byellow + "Sorry, this username has been used before. Create a different one." + style.RESET)
+                                else:
+                                    stop == 1
                         
 
             
