@@ -84,4 +84,4 @@ def createusername(name: str):
         print(userDatabase)
     return username
 
-createusername("hi")
+createusername()
