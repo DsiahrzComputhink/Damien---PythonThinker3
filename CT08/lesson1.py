@@ -117,7 +117,7 @@ def updatepassword(username: str,password: str):
                             if spaces >= 1: 
                                 print(style.byellow + "Sorry, password cannot contain spaces" + style.RESET)
                             else:
-                                if newpassword in userDatabase['USEDPASSWORDS']:
+                                if newpassword in userDatabase[f"username"]['USEDPASSWORDS']:
                                     print(style.byellow + "Sorry, this username has been used before. Create a different one." + style.RESET)
                                 else:
                                     stop = 1
