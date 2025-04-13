@@ -119,7 +119,7 @@ def updatepassword(username: str,password: str):
                                 if newpassword in userDatabase['USEDPASSWORDS']:
                                     print(style.byellow + "Sorry, this username has been used before. Create a different one." + style.RESET)
                                 else:
-                                    stop == 1
+                                    stop = 1
                         
 
             
