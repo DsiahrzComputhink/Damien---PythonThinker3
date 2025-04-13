@@ -71,7 +71,7 @@ def generatepassword(length: int = 12) -> str:
 DataBASE = {
     'DEBUGNAME': {
         'CHANCES':0,
-        'PASSWORD':"STRING"
+        'PASSWORD':"funny secret message oooooo"
     }
 }
 
