@@ -82,6 +82,7 @@ def createusername(name: str):
         userDatabase[f"{username}"]['CHANCES'] = 5
         userDatabase[f"{username}"]['PASSWORD'] = password
         print(userDatabase)
+    return username
         
 
 
