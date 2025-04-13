@@ -78,7 +78,7 @@ userDatabase = {
 def createusername(name: str):
     username = input("Enter a Username: ")
     if username in userDatabase:
-        print(style.bred )
+        print(style.bred + "There is already a user named")
 
 
 print()
