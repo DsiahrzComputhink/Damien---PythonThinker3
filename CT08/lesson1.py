@@ -95,7 +95,10 @@ def updatepassword(username: str,password: str):
                 number = 0
                 upper = 0
                 lower = 0
+                spaces = 0
                 for i in newpassword: # checking for number
+                    if i == " ":
+                        spaces += 1
                     if i.isnumeric():
                         number += 1
                     elif i.isupper():
