@@ -83,3 +83,7 @@ def createusername(name: str):
 
 print()
 createusername("hi")
+
+import math
+
+e = math.cos
