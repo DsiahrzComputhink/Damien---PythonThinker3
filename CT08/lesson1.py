@@ -78,9 +78,10 @@ def createusername(username: str):
         password = generatepassword()
         print(password)
         userDatabase[f"{username}"] = {}
-
-
         userDatabase[f"{username}"]['PASSWORD'] = password
+
+        userDatabase[f"{username}"]['USEDPASSWORDS'] = {}
+        userDatabase[f"{username}"]['USEDPASSWORDS']
         print(userDatabase)
     return username
 
