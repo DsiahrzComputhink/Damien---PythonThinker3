@@ -90,8 +90,10 @@ def updatepassword(username: str,password: str):
         while stop == 0:
             newpassword = input(style.bcyan + "Choose a new password: " + style.RESET)
 
+            
             userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword)
             print(userDatabase)
+            stop == 0
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
     
