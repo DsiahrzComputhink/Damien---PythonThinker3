@@ -86,4 +86,6 @@ createusername("hi")
 
 import math
 
-e = math.cos
+e = math.cos(1)
+
+print(e)
