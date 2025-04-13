@@ -1,9 +1,6 @@
 test1 = "ONE"
 test2 = "TWO"
 
-print(style.bgray + "Placeholder" + style.RESET)
-
-
 def calculate_area(length: int | float,width: int | float):
     return length*width
 
