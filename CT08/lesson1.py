@@ -76,7 +76,6 @@ def createusername(username: str):
         print(style.bred + f"There is already a user named {username}" + style.RESET)
     else:
         password = generatepassword()
-        print(password)
         userDatabase[f"{username}"] = {}
         userDatabase[f"{username}"]['PASSWORD'] = password
 
@@ -149,6 +148,8 @@ def viewdatabase(userdb: dict) -> None:
         print(f"{user}:","(")
         print("    ",style.bcyan + "Password:" + style.RESET,style.bpurple + f"{'*' * len(password)}")
         print("    ",style.byellow + "Used Passwords:" + style.RESET,"(")
+        print("    ","Password:",style.bpurple + f"{'*' * len(password)}")
+
         
 
 
