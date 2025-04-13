@@ -86,7 +86,7 @@ def bruteforcegame():
                     elif TIME <= 0.01:
                         TIME *= 0.999
                     elif TIME <+ 0.0001:
-                        TIME *= 0.999
+                        TIME *= 0.99999
 
                     
                     if attempt == target_char:
