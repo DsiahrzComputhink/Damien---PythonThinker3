@@ -83,8 +83,12 @@ def createusername(username: str):
         print(userDatabase)
     return username
 
-def updatepassword(password: str):
-    username = input("Input your username: ")
+def updatepassword(username: str,password: str):
+    if username in userDatabase:
+        print("")
+    else:
+        print("nuh uh thing")
+    
 
 createusername("username")
-updatepassword("password")
+updatepassword("username","password")
