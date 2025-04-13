@@ -137,7 +137,8 @@ def login():
         if loginpassword == userDatabase[f"{loginusername}"]['PASSWORD']:
             print(style.bblue + f"You are now logged into {loginusername}" + style.RESET)
         else:
-            
+            print(style.bred + "Invalid Password." + style.RESET)
+            reset
         
 
 createusername("username")
