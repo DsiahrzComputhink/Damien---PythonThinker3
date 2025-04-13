@@ -131,9 +131,9 @@ def updatepassword(username: str,password: str):
         print(style.bred + "Username does not exist in database." + style.RESET)
 
 def login():
-    loginusername = input(style.bcyan + "Username: ")
+    loginusername = input(style.bcyan + "Username: " + style.RESET)
     if loginusername in userDatabase:
-        loginpassword = input("Password: ")
+        loginpassword = input("Password: " + style.RESET)
         if loginpassword == userDatabase[f"{loginusername}"]['PASSWORD']:
             print(style.bblue + f"You are now logged into {loginusername}" + style.RESET)
         
