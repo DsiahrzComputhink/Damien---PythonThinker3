@@ -138,7 +138,7 @@ def login():
             print(style.bblue + f"You are now logged into {loginusername}" + style.RESET)
         else:
             print(style.bred + "Invalid Password." + style.RESET)
-            reset
+            return None
         
 
 createusername("username")
