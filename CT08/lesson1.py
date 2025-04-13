@@ -80,6 +80,7 @@ def createusername(name: str):
     if username in userDatabase:
         print(style.bred + f"There is already a user named {username}" + style.RESET)
     else:
+        password = generatepassword()
         
 
 
