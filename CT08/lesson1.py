@@ -86,6 +86,6 @@ createusername("hi")
 
 import math
 
-e = math.cos(1)
+e = math.expm1
 
 print(e)
