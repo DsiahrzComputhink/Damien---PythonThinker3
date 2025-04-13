@@ -134,7 +134,8 @@ def login():
     loginusername = input("Username: ")
     if loginusername in userDatabase:
         loginpassword = ("Password: ")
-        if loginpassword == userDatabase[f"{loginusername}"]['']
+        if loginpassword == userDatabase[f"{loginusername}"]['PASSWORD']:
+            print("yes")
 
 createusername("username")
 updatepassword("username","password")
