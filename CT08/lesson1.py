@@ -131,5 +131,6 @@ def updatepassword(username: str,password: str):
         print(style.bred + "Username does not exist in database." + style.RESET)
     
 
+
 createusername("username")
 updatepassword("username","password")
