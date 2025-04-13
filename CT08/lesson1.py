@@ -130,7 +130,8 @@ def updatepassword(username: str,password: str):
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
     
-def login()
+def login():
+    loginusername = input("Username: ")
 
 createusername("username")
 updatepassword("username","password")
