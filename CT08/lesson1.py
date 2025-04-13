@@ -139,6 +139,9 @@ def login():
         else:
             print(style.bred + "Invalid Password." + style.RESET)
             return None
+    else:
+        print(style.bred + "Username not found" + style.RESET)
+        return None
         
 
 createusername("username")
