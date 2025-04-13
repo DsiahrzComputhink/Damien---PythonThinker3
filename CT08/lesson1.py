@@ -113,6 +113,7 @@ def updatepassword(username: str,password: str):
                     else:
                         if lower < 1: 
                             print(style.byellow + "Sorry, password must contain at least 1 lowercase letter" + style.RESET)
+                        else:
                             if spaces >= 1: 
                                 print(style.byellow + "Sorry, password cannot contain spaces" + style.RESET)
                             else:
