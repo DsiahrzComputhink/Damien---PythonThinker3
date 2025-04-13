@@ -71,7 +71,7 @@ def generatepassword(length: int = 12) -> str:
 dictionary = {
     'TESTNAME': {
         'CHANCES':0,
-        'PASSWORD':"STRING",
+        'PASSWORD':"STRING"
     }
 }
 
