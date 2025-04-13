@@ -99,7 +99,7 @@ def updatepassword(username: str,password: str):
                 for i in newpassword: # checking for number
                     if i == " ":
                         spaces += 1
-                    if i.isnumeric():
+                    elif i.isnumeric():
                         number += 1
                     elif i.isupper():
                         upper += 1
