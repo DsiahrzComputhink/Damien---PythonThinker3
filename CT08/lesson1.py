@@ -76,6 +76,6 @@ DataBASE = {
 }
 
 def createusername(name: str):
-    print
+    print("")
 
 print(DataBASE)
