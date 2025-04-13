@@ -68,7 +68,7 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
 
 # Nested Dictionary
-dictionary = {
+ = {
     'DEBUGNAME': {
         'CHANCES':0,
         'PASSWORD':"STRING"
