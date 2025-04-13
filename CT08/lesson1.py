@@ -81,9 +81,10 @@ def createusername(name: str):
         print(style.bred + f"There is already a user named {username}" + style.RESET)
     else:
         password = generatepassword()
+        print(password)
         userDatabase[f"{username}"] = {}
         userDatabase[f"{username}"]['CHANCES'] = 5
-        userDatabase[f"{username}"]['PASSWORD'] = str(password)
+        userDatabase[f"{username}"]['PASSWORD'] = password
         print(userDatabase)
         
 
