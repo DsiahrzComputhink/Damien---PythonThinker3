@@ -137,5 +137,5 @@ def login():
         print(None)
 
 createusername("username")
-# updatepassword("username","password")
+updatepassword("username","password")
 login()
