@@ -148,7 +148,7 @@ def viewdatabase(userdb: dict) -> None:
         print(f"{user}:","(")
         print("    ",style.bcyan + "Password:" + style.RESET,style.bpurple + f"{'*' * len(password)}")
         print("    ",style.byellow + "Used Passwords:" + style.RESET,"(")
-        print("    ","Password:",style.bpurple + f"{'*' * len(password)}")
+        print("    ","    ","Password:",style.bpurple + f"{'*' * len(password)}")
 
         
 
