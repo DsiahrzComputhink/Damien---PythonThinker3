@@ -83,5 +83,6 @@ def createusername(username: str):
         print(userDatabase)
     return username
 
+
 createusername("username")
-updatepassword("username",)
+updatepassword("username","password")
