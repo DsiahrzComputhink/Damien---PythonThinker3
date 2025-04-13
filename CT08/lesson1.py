@@ -81,7 +81,6 @@ def createusername(username: str):
         userDatabase[f"{username}"]['PASSWORD'] = password
 
         userDatabase[f"{username}"]['USEDPASSWORDS'] = [password] # usedpasswords is a list
-        print(userDatabase)
     return username
 
 def updatepassword(username: str,password: str):
@@ -130,8 +129,7 @@ def updatepassword(username: str,password: str):
         stop == 0
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
-    
-    
+
 def login():
     loginusername = input("Username: ")
     if loginusername in userDatabase:
