@@ -69,12 +69,7 @@ def generatepassword(length: int = 12) -> str:
     return password
 
 # Nested Dictionary
-userDatabase = {
-    'DEBUGNAME': {
-        'CHANCES':0,
-        'PASSWORD':"STRING"
-    }
-}
+userDatabase = {}
 
 def createusername(name: str):
     username = input("Enter a Username: ")
