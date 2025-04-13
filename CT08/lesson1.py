@@ -84,7 +84,7 @@ def createusername(username: str):
     return username
 
 def updatepassword(password: str):
-    print("What is your username?")
+    username = input("Input your username: ")
 
 createusername("username")
 updatepassword("password")
