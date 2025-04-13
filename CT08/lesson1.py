@@ -134,7 +134,7 @@ def updatepassword(username: str,password: str):
 def login():
     loginusername = input("Username: ")
     if loginusername in userDatabase:
-        print(None)
+        print()
 
 createusername("username")
 updatepassword("username","password")
