@@ -1,4 +1,5 @@
 My Task List
 make a 'my task list'
 make a 'functional game'
+learn how imaginary numbers work
 learn how quaternions work
