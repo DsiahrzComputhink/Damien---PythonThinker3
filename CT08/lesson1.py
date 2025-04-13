@@ -76,6 +76,6 @@ DataBASE = {
 }
 
 def createusername(name: str):
-    print("")
+    print(style.bblue + "Enter a strong Username" + style.RESET)
 
 print(DataBASE)
