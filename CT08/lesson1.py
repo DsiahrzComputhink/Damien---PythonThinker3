@@ -69,7 +69,7 @@ def generatepassword(length: int = 12) -> str:
 
 # Nested Dictionary
 dictionary = {
-    'TESTNAME': {
+    'DEBUGNAME': {
         'CHANCES':0,
         'PASSWORD':"STRING"
     }
