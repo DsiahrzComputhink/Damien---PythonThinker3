@@ -145,7 +145,7 @@ def login():
         
 def viewdatabase(userdb: dict) -> None:
     for user in userdb:
-        password = userdb[f"{user}"]
+        password = userdb[f"{user}"]['PASSWORD']
         print(style.bcyan + f"{user}:" + style.RESET,"(")
         print("    ",style.bpurple + f"{'*' * len(password)}")
 
