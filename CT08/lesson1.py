@@ -87,7 +87,8 @@ def createusername(username: str):
 def updatepassword(username: str,password: str):
     if username in userDatabase:
         newpassword = input("Choose a new password: ")
-        userDatabase[f"{username}"]['USEDPASSWORDS'].append(pass)
+        userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword)
+        print(userDatabase)
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
     
