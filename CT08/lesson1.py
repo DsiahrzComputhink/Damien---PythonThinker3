@@ -66,6 +66,7 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.digits)
         elif randomsection == 4:
             password += random.choice(string.punctuation)
+    return password
 
 # Nested Dictionary
 userDatabase = {
