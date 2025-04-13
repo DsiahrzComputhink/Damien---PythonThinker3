@@ -99,6 +99,7 @@ def updatepassword(username: str,password: str):
                         number = False
                 if number == False:
                     print(style.byellow + "Sorry, password must contain at least 1 number" + style.RESET)
+            
                         
 
             
