@@ -85,7 +85,3 @@ print()
 createusername("hi")
 
 import math
-
-e = math.expm1(535059)
-
-print(e)
