@@ -87,7 +87,7 @@ def updatepassword(username: str,password: str):
     if username in userDatabase:
         print("")
     else:
-        print("nuh uh thing")
+        print(style.bred + "Username does not exist in database." + style.RESET)
     
 
 createusername("username")
