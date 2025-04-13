@@ -104,7 +104,7 @@ def updatepassword(username: str,password: str):
                         lower += 1
                 if number == False:
                     print(style.byellow + "Sorry, password must contain at least 1 number" + style.RESET)
-                else:
+                # else:
                         
 
             
