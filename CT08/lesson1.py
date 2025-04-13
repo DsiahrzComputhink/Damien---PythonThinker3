@@ -135,3 +135,4 @@ def login():
 
 createusername("username")
 updatepassword("username","password")
+login()
