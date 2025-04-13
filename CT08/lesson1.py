@@ -68,7 +68,7 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
 
 # Nested Dictionary
-DataBASE = {
+userDatabase = {
     'DEBUGNAME': {
         'CHANCES':0,
         'PASSWORD':"STRING"
@@ -80,5 +80,5 @@ def createusername(name: str):
     print()
 
 
-print(DataBASE)
+print()
 createusername("hi")
