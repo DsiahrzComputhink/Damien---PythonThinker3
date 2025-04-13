@@ -80,7 +80,7 @@ def createusername(username: str):
         userDatabase[f"{username}"] = {}
         userDatabase[f"{username}"]['PASSWORD'] = password
 
-        userDatabase[f"{username}"]['USEDPASSWORDS'] = [3,2,4,5]
+        userDatabase[f"{username}"]['USEDPASSWORDS'] = [password]
         userDatabase[f"{username}"]['USEDPASSWORDS']
         print(userDatabase)
     return username
