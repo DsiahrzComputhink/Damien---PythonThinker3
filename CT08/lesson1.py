@@ -83,8 +83,5 @@ def createusername(name: str):
         userDatabase[f"{username}"]['PASSWORD'] = password
         print(userDatabase)
     return username
-        
 
-
-print()
 createusername("hi")
