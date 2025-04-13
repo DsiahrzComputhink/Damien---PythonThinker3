@@ -151,7 +151,8 @@ def viewdatabase(userdb: dict) -> None:
         for usedpassword in userdb[f"{user}"]['USEDPASSWORDS']:
             print("    ","    ",f"{'*' * len(usedpassword)}")
             print(")")
-
+        print(")")
+    print()
         
 
 
