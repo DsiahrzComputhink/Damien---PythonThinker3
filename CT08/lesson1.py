@@ -84,7 +84,7 @@ def createusername(username: str):
     return username
 
 def updatepassword(password: str):
-    print("What is your username?").strip()
+    print("What is your username?")
 
 createusername("username")
 updatepassword("password")
