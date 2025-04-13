@@ -77,3 +77,5 @@ dictionary = {
 
 def createusername(name: str):
     print("ill do later")
+
+print(dictionary)
