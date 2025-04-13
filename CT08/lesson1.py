@@ -108,7 +108,7 @@ def updatepassword(username: str,password: str):
                     if upper < 1:
                         print(style.byellow + "Sorry, password must contain at least 1 uppercase letter" + style.RESET)
                     else:
-                        if lower >= 1: 
+                        if lower < 1: 
                             print(style.byellow + "Sorry, password must contain at least 1 lowercase letter" + style.RESET)
                         
 
