@@ -83,6 +83,8 @@ def createusername(name: str):
         password = generatepassword()
         userDatabase[f"{username}"] = {}
         
+        print(userDatabase)
+        
 
 
 print()
