@@ -76,8 +76,9 @@ userDatabase = {
 }
 
 def createusername(name: str):
-    input("Enter a Username: ")
-    print()
+    username = input("Enter a Username: ")
+    if username in userDatabase:
+        print("yes")
 
 
 print()
