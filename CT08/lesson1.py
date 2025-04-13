@@ -77,7 +77,7 @@ DataBASE = {
 
 def createusername(name: str):
     input("Enter a Username: ")
-    print(createusername)
+    print()
 
 
 print(DataBASE)
