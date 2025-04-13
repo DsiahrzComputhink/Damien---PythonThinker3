@@ -84,3 +84,4 @@ def createusername(username: str):
     return username
 
 createusername("username")
+updatepassword("")
