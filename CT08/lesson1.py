@@ -102,9 +102,10 @@ def updatepassword(username: str,password: str):
                         upper += 1
                     elif i.islower():
                         lower += 1
-                if number == False:
+                if number >= 1:
                     print(style.byellow + "Sorry, password must contain at least 1 number" + style.RESET)
-                # else:
+                elif upper >= 1:
+                    
                         
 
             
