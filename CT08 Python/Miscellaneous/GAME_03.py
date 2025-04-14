@@ -59,18 +59,19 @@ def CheckData():
     if str(memory) == str(content):
         if "Lives" in memory.keys():
             allow = 1
-            print("yes")
+            print("yes lives")
         else:
             allow = 0
         if allow == 1:
             if "Correct" in memory.keys():
                 allow = 1
-                print("nuh uh")
+                print("yes correct")
             else:
                 allow = 0
             if allow == 1:
                 if "Wrong" in memory.keys():
                     allow = 1
+                    print("yes")
                 else:
                     allow = 0
                 if allow == 1:
