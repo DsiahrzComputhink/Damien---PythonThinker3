@@ -88,10 +88,10 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
 
 
 def AlgebraicExpansion(x,y):
-    num = generaterandomnumber(min,max)
-    print(f"{num}({(x + y)})")
+    num1 = generaterandomnumber(min,max)
+    print(f"{num1}({(x + y)})")
 
-num = generaterandomnumber(min,max)
+
 x = generatealgebra(words)
 y = generatealgebra(words)
 
