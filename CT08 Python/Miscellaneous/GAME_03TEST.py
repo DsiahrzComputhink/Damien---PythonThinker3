@@ -41,9 +41,6 @@ from sympy import *
 min = 1
 max = 10
 
-print(style.bgray + "The letters are not sorted out alphabetically, please be aware about it.")
-
-# I dont know why, but 𝒉 does not exist in U+1D45x,so i sourced it from a different Unicode base.
 words = [
         '𝑎', '𝑏', '𝑐', '𝑑', '𝑒', '𝑓', '𝑔', '𝒉', '𝑖', '𝑗', '𝑘', '𝑙', '𝑚', '𝑛', '𝑜', '𝑝', '𝑞', '𝑟', '𝑠', '𝑡', '𝑢', '𝑣', '𝑤', '𝑥', '𝑦', '𝑧',
         ]
