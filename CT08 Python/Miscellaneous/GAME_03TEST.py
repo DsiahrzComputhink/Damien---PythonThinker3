@@ -92,7 +92,7 @@ def solveSimul(xval,yval,num1,num2,num3,num4):
 def AlgebraicExpansion(a,b,c):
     print(f"{a}")
 
-AlgebraicExpansion
+AlgebraicExpansion(1,x,y)
     
 
     
