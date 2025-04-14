@@ -29,11 +29,12 @@ class style():
 
     RESET = '\033[0m'
 
-import time
-import random
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
+# depen
+import time
+import random
 from sympy import Symbol
 from sympy import *
 
