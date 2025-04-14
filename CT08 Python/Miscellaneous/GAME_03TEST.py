@@ -90,6 +90,8 @@ def AlgebraicExpansion(x,y):
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
     num3 = generaterandomnumber(min,max)
+    xval = num2 * num1
+    yval = num3 * num1
     print(f"{num1}({(num2*x + num3*y)})")
     xvalans = input(style.bpurple + f"{x} = " + style.RESET)
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
