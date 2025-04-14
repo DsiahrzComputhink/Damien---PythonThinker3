@@ -90,9 +90,9 @@ def solveSimul(xval,yval,num1,num2,num3,num4):
             return True
     
 def AlgebraicExpansion(a,b,c):
-    print(f"{a(b)}")
+    print(f"{a}")
 
-    
+AlgebraicExpansion
     
 
     
