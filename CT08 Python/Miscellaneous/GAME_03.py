@@ -166,9 +166,6 @@ def PrintData():
     for i in memory:
         print(f"{i} : {memory[i]}")
 
-
-# Whiteboard thing i guess
-def whiteboard():
     import tkinter as tk
     from tkinter.colorchooser import askcolor
 
@@ -238,6 +235,7 @@ def whiteboard():
 
     root.mainloop()
     print(style.bblue + "Whiteboard is ready." + style.RESET)
+
 
 SaveData()
 # Main Program
