@@ -91,6 +91,8 @@ def AlgebraicExpansion(a,b,c):
     print(f"{a}")
 
 
+x = generatealgebra(words)
+y = generatealgebra(words)
 
 AlgebraicExpansion(1,x,y)
     
