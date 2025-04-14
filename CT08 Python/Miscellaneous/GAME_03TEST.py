@@ -86,8 +86,6 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
         elif str(yvalans) == str(yval):
             return True
     
-
-
 def AlgebraicExpansion(x,y):
     num1 = generaterandomnumber(min,max)
     num2 = generaterandomnumber(min,max)
