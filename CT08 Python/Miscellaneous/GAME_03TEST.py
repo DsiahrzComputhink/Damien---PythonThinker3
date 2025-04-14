@@ -65,8 +65,6 @@ def generaterandomnumber(min,max):
         num = num*(-1)
     return num
 
-
-
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
     equ2 = yval*num3 + yval*num4
@@ -91,6 +89,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
 
 def AlgebraicExpansion(a,b,c):
     print(f"{a}")
+
+
 
 AlgebraicExpansion(1,x,y)
     
