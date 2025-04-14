@@ -65,11 +65,11 @@ def generaterandomnumber(min,max):
         num = num*(-1)
     return num
 
+
 x = generatealgebra(words)
 y = generatealgebra(words)
 
-
-def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
+def solveSimul(xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
     equ2 = yval*num3 + yval*num4
     print(LINE)
@@ -90,7 +90,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             return True
     
 def AlgebraicExpansion(a,b,c):
-    print(style.bgray + "it goes via ab + ac = a(b + c)")
+    a = generaterandomnumber
+    
     
 
     
