@@ -66,8 +66,6 @@ def generaterandomnumber(min,max):
     return num
 
 
-x = generatealgebra(words)
-y = generatealgebra(words)
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
@@ -89,6 +87,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
         elif str(yvalans) == str(yval):
             return True
     
+
+
 def AlgebraicExpansion(a,b,c):
     print(f"{a}")
 
