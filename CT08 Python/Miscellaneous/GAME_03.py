@@ -47,7 +47,7 @@ DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "
 memory = {}
 
 
-
+# Checking for Data corruption
 def CheckData():
 
     with open(textfile, "r") as file:
