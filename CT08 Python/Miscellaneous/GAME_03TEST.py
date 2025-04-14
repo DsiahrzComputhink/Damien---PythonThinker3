@@ -88,7 +88,7 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
 
 
 def AlgebraicExpansion(a,b,c):
-    print(f"{a}{(x + y)}")
+    print(f"{a}({(x + y)})")
 
 
 x = generatealgebra(words)
