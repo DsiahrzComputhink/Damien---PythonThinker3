@@ -90,7 +90,7 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
 def AlgebraicExpansion(a,b,c):
     print(f"{a}({(x + y)})")
 
-num = generaterandomnumber
+num = generaterandomnumber(min,max)
 x = generatealgebra(words)
 y = generatealgebra(words)
 
