@@ -69,7 +69,7 @@ def generaterandomnumber(min,max):
 x = generatealgebra(words)
 y = generatealgebra(words)
 
-def solveSimul(xval,yval,num1,num2,num3,num4):
+def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
     equ2 = yval*num3 + yval*num4
     print(LINE)
@@ -107,7 +107,7 @@ def SimulQuestion():
     num2 = generaterandomnumber(min,max)
     num3 = generaterandomnumber(min,max)
     num4 = generaterandomnumber(min,max)
-    ans = solveSimul(xval,yval,num1,num2,num3,num4)
+    ans = solveSimul(x,y,xval,yval,num1,num2,num3,num4)
     if ans is False:
         print("FALSE")
     elif ans is True:
