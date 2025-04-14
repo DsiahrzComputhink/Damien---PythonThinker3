@@ -112,7 +112,7 @@ AlgebraicExpansion(x,y)
     
 
     
-
+    # local functions
 def SimulQuestion():
     x = generatealgebra(words)
     y = generatealgebra(words)
