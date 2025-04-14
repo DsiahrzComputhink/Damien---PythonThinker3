@@ -97,7 +97,7 @@ def AlgebraicExpansion(x,y):
 x = generatealgebra(words)
 y = generatealgebra(words)
 
-AlgebraicExpansion(num,x,y)
+AlgebraicExpansion(x,y)
     
 
     
