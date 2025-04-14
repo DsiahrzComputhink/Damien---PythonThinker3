@@ -36,6 +36,8 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 from sympy import Symbol
 from sympy import *
+
+# constants
 min = 1
 max = 10
 
@@ -86,6 +88,11 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             return False
         elif str(yvalans) == str(yval):
             return True
+    
+def AlgebraicExpansion(a,b,c):
+    print(style.bgray + "The letters are not sorted out alphabetically, please be aware about it.")
+    
+
     
 
 def SimulQuestion():
