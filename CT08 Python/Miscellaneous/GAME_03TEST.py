@@ -91,6 +91,16 @@ def AlgebraicExpansion(x,y):
     num2 = generaterandomnumber(min,max)
     num3 = generaterandomnumber(min,max)
     print(f"{num1}({(num2*x + num3*y)})")
+    xvalans = input(style.bpurple + f"{x} = " + style.RESET)
+    yvalans = input(style.bpurple + f"{y} = " + style.RESET)
+    print("")
+    if str(xvalans) != str(xval):
+        return False
+    elif str(xvalans) == str(xval):
+        if str(yvalans) != str(yval):
+            return False
+        elif str(yvalans) == str(yval):
+            return True
 
 
 x = generatealgebra(words)
