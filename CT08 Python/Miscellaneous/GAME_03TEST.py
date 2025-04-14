@@ -75,6 +75,7 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     print(f"({(num3*x + num4*y)} = {equ2})")
     xvalans = input(style.bpurple + f"{x} = " + style.RESET)
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
+    print("")
     if str(xvalans) != str(xval):
         return False
     elif str(xvalans) == str(xval):
