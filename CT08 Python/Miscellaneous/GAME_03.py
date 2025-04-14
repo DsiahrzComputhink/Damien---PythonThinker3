@@ -45,7 +45,6 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "Money":0}
 memory = {}
-print(memory)
 
 
 def CheckData():
