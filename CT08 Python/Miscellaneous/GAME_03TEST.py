@@ -74,7 +74,6 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     print(style.bcyan + "Solve the 2 equations." + style.RESET)
     print(f"({(num1*x + num2*y)} = {equ1})")
     print(f"({(num3*x + num4*y)} = {equ2})")
-    print(style.bgray + "The letters are not sorted out alphabetically, please be aware about it.")
     xvalans = input(style.bpurple + f"{x} = " + style.RESET)
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
     if str(xvalans) != str(xval):
