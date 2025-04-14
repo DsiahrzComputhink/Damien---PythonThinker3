@@ -71,7 +71,7 @@ def CheckData():
             if allow == 1:
                 if "Wrong" in memory.keys():
                     allow = 1
-                    print("yes")
+                    print("yes wrong")
                 else:
                     allow = 0
                 if allow == 1:
