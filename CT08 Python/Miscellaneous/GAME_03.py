@@ -47,6 +47,8 @@ DefaultMemory = {"Lives":0, "Correct":0, "Wrong":0, "Round":0, "Difficulty":0, "
 memory = {}
 
 
+
+
 def CheckData():
 
     with open(textfile, "r") as file:
@@ -57,16 +59,19 @@ def CheckData():
     if str(memory) == str(content):
         if "Lives" in memory.keys():
             allow = 1
+            print("yes l")
         else:
             allow = 0
         if allow == 1:
             if "Correct" in memory.keys():
                 allow = 1
+                print("yes correct")
             else:
                 allow = 0
             if allow == 1:
                 if "Wrong" in memory.keys():
                     allow = 1
+                    print("yes")
                 else:
                     allow = 0
                 if allow == 1:
