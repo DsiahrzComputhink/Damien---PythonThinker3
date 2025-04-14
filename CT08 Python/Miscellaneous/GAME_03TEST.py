@@ -90,7 +90,7 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             return True
     
 def AlgebraicExpansion(a,b,c):
-    print(style.bgray + "The letters are not sorted out alphabetically, please be aware about it.")
+    print(style.bgray + "a is the factor")
     
 
     
