@@ -32,7 +32,7 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-# depen
+    # dependicies
 import time
 import random
 from sympy import Symbol
