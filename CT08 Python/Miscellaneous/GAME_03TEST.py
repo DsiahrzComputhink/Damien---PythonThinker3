@@ -32,7 +32,7 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-    # dependicies
+    # dependencies
 import time
 import random
 from sympy import Symbol
@@ -42,6 +42,7 @@ from sympy import *
 min = 1
 max = 10
 
+    # global functions
 words = [
         '𝑎', '𝑏', '𝑐', '𝑑', '𝑒', '𝑓', '𝑔', '𝒉', '𝑖', '𝑗', '𝑘', '𝑙', '𝑚', '𝑛', '𝑜', '𝑝', '𝑞', '𝑟', '𝑠', '𝑡', '𝑢', '𝑣', '𝑤', '𝑥', '𝑦', '𝑧',
         ]
