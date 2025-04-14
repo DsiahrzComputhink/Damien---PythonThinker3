@@ -37,9 +37,11 @@ LINE = style.bgray + "------------------------------" + style.RESET
 from sympy import Symbol
 from sympy import *
 
-# constants
+    # constants
 min = 1
 max = 10
+
+print(style.bgray + "The letters are not sorted out alphabetically, please be aware about it.")
 
 # I dont know why, but 𝒉 does not exist in U+1D45x,so i sourced it from a different Unicode base.
 words = [
