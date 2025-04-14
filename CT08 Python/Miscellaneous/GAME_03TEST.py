@@ -90,7 +90,7 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             return True
     
 def AlgebraicExpansion(a,b,c):
-    print(style.bgray + "a is the factor")
+    print(style.bgray + "it goes via a()")
     
 
     
