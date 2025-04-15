@@ -106,7 +106,7 @@ def AlgebraicExpansion(x,y):
         print(f"{num1}({(num2*x)} + {(num3*y)})")
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent")
+        print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
