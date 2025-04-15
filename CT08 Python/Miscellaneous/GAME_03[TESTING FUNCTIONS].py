@@ -71,7 +71,9 @@ def turnnumberintopositive(number):
     if int(number) < 0:
         posnumber = number*-1
         print(posnumber)
-    return posnumber
+        return posnumber
+    else:
+        return number
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
