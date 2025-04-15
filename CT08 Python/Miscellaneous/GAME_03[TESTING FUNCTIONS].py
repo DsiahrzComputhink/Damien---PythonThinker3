@@ -128,7 +128,7 @@ def AlgebraicExpansion(x,y):
         print(style.bcyan + "Simplify this Equation" + style.RESET)
         xvalans = input(style.bpurple + f"{z*x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{z*y} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent")
+        print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
@@ -152,7 +152,7 @@ def AlgebraicExpansion(x,y):
         print(style.bcyan + "Simplify this Equation" + style.RESET)
         xvalans = input(style.bpurple + f"{w*x*z} = " + style.RESET)
         yvalans = input(style.bpurple + f"{w*y*z} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent")
+        print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
