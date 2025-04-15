@@ -158,7 +158,7 @@ def AlgebraicFactorization(x,y):
     print(style.BOLD + "Algebraic Factorization" + style.RESET)
     print(LINE)
     print(style.bcyan + "Simplify this Equation" + style.RESET)
-    print(style.bgray + "The question is asking for the coefficent" + style.RESET)
+    print(style.bgray + "Factorize the Equation first, and then find the coefficent of whatever that is being s" + style.RESET)
     difficulty = random.randint(1,3)
     if difficulty == 1:
         num1 = generaterandomnumber(min,max)
