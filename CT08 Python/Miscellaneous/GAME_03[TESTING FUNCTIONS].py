@@ -171,8 +171,8 @@ def AlgebraicFactorization(x,y):
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        xvalanspos = turnnumberintopositive(int(yvalanspos))
-        yvalanspos = turnnumberintopositive(yvalans)
+        xvalanspos = turnnumberintopositive(int(xvalanspos))
+        yvalanspos = turnnumberintopositive(int(yvalanspos))
         xvalpos = turnnumberintopositive(xval)
         yvalpos = turnnumberintopositive(yval)
         if str(xvalanspos) != str(xvalpos):
