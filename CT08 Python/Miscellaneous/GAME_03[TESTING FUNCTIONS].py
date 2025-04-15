@@ -99,10 +99,6 @@ def AlgebraicExpansion(x,y):
         num3 = generaterandomnumber(min,max)
         xval = num2 * num1
         yval = num3 * num1
-        print(LINE)
-        print(style.BOLD + "Algebraic Expansion" + style.RESET)
-        print(LINE)
-        print(style.bcyan + "Simplify this Equation" + style.RESET)
         print(f"{num1}({(num2*x)} + {(num3*y)})")
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
@@ -122,10 +118,6 @@ def AlgebraicExpansion(x,y):
         xval = num2
         yval = num3
         print(f"{num1*z}({(num2*x)} + {(num3*y)})")
-        print(LINE)
-        print(style.BOLD + "Algebraic Expansion" + style.RESET)
-        print(LINE)
-        print(style.bcyan + "Simplify this Equation" + style.RESET)
         xvalans = input(style.bpurple + f"{z*x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{z*y} = " + style.RESET)
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
