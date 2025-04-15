@@ -166,9 +166,9 @@ def AlgebraicFactorization(x,y):
         xval = num1
         yval = num2
         print(f"{num1*num2*x + num1*num3*y}")
+        print(style.bgray + "The question is asking for the coefficent")
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent")
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
