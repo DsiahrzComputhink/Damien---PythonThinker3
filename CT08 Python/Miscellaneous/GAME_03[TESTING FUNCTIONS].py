@@ -178,9 +178,9 @@ def AlgebraicFactorization(x,y):
         if str(xvalanspos) != str(xvalpos):
             return False
         elif str(xvalanspos) == str(xvalpos):
-            if str(yvalans) != str(yval):
+            if str(yvalanspos) != str(yvalpos):
                 return False
-            elif str(yvalans) == str(yval):
+            elif str(yvalanspos) == str(yvalpos):
                 return True
     elif difficulty == 2:
         num1 = generaterandomnumber(min,max)
