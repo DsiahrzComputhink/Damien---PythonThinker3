@@ -170,6 +170,8 @@ def AlgebraicFactorization(x,y):
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
+        print(xvalans, xval)
+        print(yvalans, yval)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
@@ -188,6 +190,8 @@ def AlgebraicFactorization(x,y):
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
+        print(xvalans, xval)
+        print(yvalans, yval)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
