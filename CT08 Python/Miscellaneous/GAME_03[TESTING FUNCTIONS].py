@@ -67,10 +67,8 @@ def generaterandomnumber(min,max):
     return num
 
 def turnnumberintopositive(number):
-    print(number)
     if int(number) < 0:
         posnumber = number*-1
-        print(posnumber)
         return posnumber
     else:
         return number
