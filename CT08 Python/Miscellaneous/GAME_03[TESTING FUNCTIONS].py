@@ -67,8 +67,10 @@ def generaterandomnumber(min,max):
     return num
 
 def turnnumberintopositive(number):
+    print(number)
     if int(number) < 0:
         posnumber = number*-1
+        print(posnumber)
     return posnumber
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
