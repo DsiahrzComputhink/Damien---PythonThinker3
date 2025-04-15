@@ -66,9 +66,10 @@ def generaterandomnumber(min,max):
         num = num*(-1)
     return num
 
-def generateposnumber(min,max):
-    num = random.randint(min,max) # leave in positive.
-    return num
+def turnnumberintopositive(number):
+    if number < 0:
+        posnumber = number*-1
+
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
