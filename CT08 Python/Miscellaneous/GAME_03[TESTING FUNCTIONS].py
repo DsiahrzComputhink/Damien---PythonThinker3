@@ -66,6 +66,13 @@ def generaterandomnumber(min,max):
         num = num*(-1)
     return num
 
+def generaterandomnumber(min,max):
+    num = random.randint(min,max) # leave in positive.
+    negative = random.randint(0,1)
+    if negative == 1:
+        num = num*(-1)
+    return num
+
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
     equ2 = yval*num3 + yval*num4
