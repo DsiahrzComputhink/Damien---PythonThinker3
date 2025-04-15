@@ -172,9 +172,7 @@ def AlgebraicFactorization(x,y):
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
         xvalanspos = turnnumberintopositive(xvalans)
-        turnnumberintopositive(yvalans)
-        print(xvalans, xval)
-        print(yvalans, yval)
+        yvalanspos = turnnumberintopositive(yvalans)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
