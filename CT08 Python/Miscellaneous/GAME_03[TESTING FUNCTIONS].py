@@ -92,6 +92,10 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
             return True
     
 def AlgebraicExpansion(x,y):
+    print(LINE)
+    print(style.BOLD + "Algebraic Expansion" + style.RESET)
+    print(LINE)
+    print(style.bcyan + "Simplify this Equation" + style.RESET)
     difficulty = random.randint(1,3)
     if difficulty == 1:
         num1 = generaterandomnumber(min,max)
@@ -138,10 +142,6 @@ def AlgebraicExpansion(x,y):
         xval = num2
         yval = num3
         print(f"{num4*w}({num1*z}({(num2*x)} + {(num3*y)}))")
-        print(LINE)
-        print(style.BOLD + "Algebraic Expansion" + style.RESET)
-        print(LINE)
-        print(style.bcyan + "Simplify this Equation" + style.RESET)
         xvalans = input(style.bpurple + f"{w*x*z} = " + style.RESET)
         yvalans = input(style.bpurple + f"{w*y*z} = " + style.RESET)
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
