@@ -193,12 +193,12 @@ def AlgebraicFactorization(x,y):
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        print(xvalans, xval)
-        print(yvalanspos, yval)
         xvalanspos = turnnumberintopositive(xvalans)
         yvalanspos = turnnumberintopositive(yvalans)
         xvalpos = turnnumberintopositive(xval)
         yvalpos = turnnumberintopositive(yval)
+        print(xvalanspos, xvalpos)
+        print(yvalanspos, yvalpos)
         if str(xvalanspos) != str(xvalpos):
             return False
         elif str(xvalanspos) == str(xvalpos):
