@@ -194,13 +194,17 @@ def AlgebraicFactorization(x,y):
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
         print(xvalans, xval)
-        print(yvalans, yval)
-        if str(xvalans) != str(xval):
+        print(yvalanspos, yval)
+        xvalanspos = turnnumberintopositive(xvalans)
+        yvalanspos = turnnumberintopositive(yvalans)
+        xvalpos = turnnumberintopositive(xval)
+        yvalpos = turnnumberintopositive(yval)
+        if str(xvalanspos) != str(xvalpos):
             return False
-        elif str(xvalans) == str(xval):
-            if str(yvalans) != str(yval):
+        elif str(xvalanspos) == str(xvalpos):
+            if str(yvalanspos) != str(yvalpos):
                 return False
-            elif str(yvalans) == str(yval):
+            elif str(yvalanspos) == str(yvalpos):
                 return True
             
 x = generatealgebra(words)
