@@ -154,6 +154,10 @@ def AlgebraicExpansion(x,y):
                 return True
 
 def AlgebraicFactorization(x,y):
+    print(LINE)
+    print(style.BOLD + "Algebraic Factorization" + style.RESET)
+    print(LINE)
+    print(style.bcyan + "Simplify this Equation" + style.RESET)
     difficulty = random.randint(1,3)
     if difficulty == 1:
         num1 = generaterandomnumber(min,max)
