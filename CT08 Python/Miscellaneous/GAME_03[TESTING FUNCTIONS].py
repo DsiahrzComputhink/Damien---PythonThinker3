@@ -218,7 +218,7 @@ def AlgebraicFactorization(x,y):
 x = generatealgebra(words)
 y = generatealgebra(words)
 
-AlgebraicFactorization(x,y)
+print(AlgebraicFactorization(x,y))
     
     # local functions
 def SimulQuestion():
