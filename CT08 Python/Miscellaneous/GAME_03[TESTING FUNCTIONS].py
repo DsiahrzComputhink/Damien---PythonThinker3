@@ -199,28 +199,6 @@ def AlgebraicFactorization(x,y):
                 return False
             elif str(yvalans) == str(yval):
                 return True
-    elif difficulty == 3:
-        num1 = generaterandomnumber(min,max)
-        num2 = generaterandomnumber(min,max)
-        num3 = generaterandomnumber(min,max)
-        w = generatealgebra(words)
-        num4 = generaterandomnumber(min,max)
-        z = generatealgebra(words)
-        xval = num2
-        yval = num3
-        print(f"{num4*num1*num2*x*z*w + num4*num1*num3*y*z*w}")
-        print(style.bgray + "The question is asking for the coefficent")
-        xvalans = input(style.bpurple + f"{x} = " + style.RESET)
-        yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        print(xvalans, xval)
-        print(yvalans, yval)
-        if str(xvalans) != str(xval):
-            return False
-        elif str(xvalans) == str(xval):
-            if str(yvalans) != str(yval):
-                return False
-            elif str(yvalans) == str(yval):
-                return True
             
 x = generatealgebra(words)
 y = generatealgebra(words)
