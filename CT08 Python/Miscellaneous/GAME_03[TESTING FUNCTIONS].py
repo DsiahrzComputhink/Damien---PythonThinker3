@@ -199,8 +199,6 @@ def AlgebraicFactorization(x,y):
         yvalanspos = turnnumberintopositive(yvalans)
         xvalpos = turnnumberintopositive(xval)
         yvalpos = turnnumberintopositive(yval)
-        print(xvalanspos, xvalpos)
-        print(yvalanspos, yvalpos)
         if str(xvalanspos) != str(xvalpos):
             return False
         elif str(xvalanspos) == str(xvalpos):
