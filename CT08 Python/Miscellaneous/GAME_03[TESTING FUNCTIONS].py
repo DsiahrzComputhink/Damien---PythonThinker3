@@ -82,7 +82,7 @@ def keywords():
     # keywords
     x = Symbol('𝑥')
     # meanings
-    print(style.bblue + f"{x}" + style.RESET,"=",style.bblue + "symbol" + style.RESET)
+    print(style.bcyan + f"{x}" + style.RESET,"=",style.bcyan + "symbol" + style.RESET)
     print(f"{x} = symbol")
     print(f"{5*x} = 5𝑥")
     print(f"{2*x*x} = 2𝑥²")
