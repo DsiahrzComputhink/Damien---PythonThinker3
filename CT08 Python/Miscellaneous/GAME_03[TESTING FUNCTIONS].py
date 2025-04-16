@@ -78,7 +78,7 @@ def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
     print(LINE)
-    print(style.bcyan + "Python does have a " + style.RESET)
+    print(style.bcyan + "Python does have a algebraic function input inside of it, but it runs pretty differently" + style.RESET)
     # keywords
     symbol = Symbol('𝑥')
     print(symbol)
