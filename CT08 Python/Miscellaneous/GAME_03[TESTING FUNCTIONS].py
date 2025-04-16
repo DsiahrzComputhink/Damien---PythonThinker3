@@ -74,6 +74,9 @@ def turnnumberintopositive(number):
         return number
 
 # main game functions
+def help()
+    print("hi")
+
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
     equ2 = yval*num3 + yval*num4
@@ -208,7 +211,7 @@ def AlgebraicFactorization(x,y):
             elif str(yvalanspos) == str(yvalpos):
                 return True
             
-def QuadraticEquation(x,R1,R2,axval,bxval):
+def QuadraticExpansion(x,R1,R2,axval,bxval):
     # R1 and R2 are integers, axval and bxval are coefficents
     ax = x*axval
     bx = x*bxval
@@ -222,7 +225,8 @@ x = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
 x2val = generaterandomnumber(min,max)
 
-QuadraticEquation(x,4,2,x1val,x2val)
+QuadraticExpansion(x,4,2,x1val,x2val)
+
     # local functions
 def SimulQuestion():
     x = generatealgebra(words)
