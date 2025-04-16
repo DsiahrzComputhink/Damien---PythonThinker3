@@ -78,7 +78,7 @@ def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
     print(LINE)
-    print(style.bcyan + "I highly suggest you know what these mean, since they are very different" + style.RESET)
+    print(style.bgray + "I highly suggest you know what these mean, since they are very different" + style.RESET)
     # keywords
     x = Symbol('𝑥')
     # meanings
