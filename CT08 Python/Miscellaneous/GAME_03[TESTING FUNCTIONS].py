@@ -209,9 +209,10 @@ def AlgebraicFactorization(x,y):
             
 def QuadraticEquation(x,R1,R2,axval,bxval):
     # R1 and R2 are integers, axval and bxval are coefficents
-    ax = print(x*axval)
-    bx = print(x*bxval)
-    # (ax,R1)(bx,R2) = ax*x + b*x 
+    ax = x*axval
+    bx = x*bxval
+    print(ax,bx)
+    # (ax,R1)(bx,R2) = ax*x + b*x
     
 x = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
