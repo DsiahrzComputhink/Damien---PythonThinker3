@@ -82,7 +82,7 @@ def keywords():
     # keywords
     x = Symbol('𝑥')
     # meanings
-    print(f"{x} = symbol")
+    print(f"{x} ")
     print(f"{5*x} = 5𝑥")
     
 
