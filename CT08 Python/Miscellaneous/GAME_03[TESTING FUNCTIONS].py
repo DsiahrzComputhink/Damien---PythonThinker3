@@ -212,7 +212,7 @@ def QuadraticEquation(x,R1,R2,axval,bxval):
     ax = x*axval
     bx = x*bxval
     print(ax,bx)
-    # (ax,R1)(bx,R2) = ax*x + b*x
+    # (ax,R1)(bx,R2) = ax*bx + b*x
     
 x = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
