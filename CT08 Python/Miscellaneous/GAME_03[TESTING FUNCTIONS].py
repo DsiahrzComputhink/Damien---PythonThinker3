@@ -207,6 +207,7 @@ def AlgebraicFactorization(x,y):
             elif str(yvalanspos) == str(yvalpos):
                 return True
             
+
 x = generatealgebra(words)
 y = generatealgebra(words)
 
