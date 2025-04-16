@@ -80,8 +80,10 @@ def keywords():
     print(LINE)
     print(style.bcyan + "I highly suggest you know what these mean, since they are very different" + style.RESET)
     # keywords
-    symbol = Symbol('𝑥')
+    x = Symbol('𝑥')
     print(symbol)
+    # meanings
+    p
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
