@@ -213,7 +213,7 @@ def QuadraticEquation(x,R1,R2,axval,bxval):
     bx = x*bxval
     # (ax,R1)(bx,R2) = ax*bx + (ax*R2 + bx*R1) + R1*R2
     print(ax*bx)
-    print(ax*R2)+(bx+R1)
+    print((ax*R2)+(bx+R1))
     print(R1*R2)
     
 x = generatealgebra(words)
