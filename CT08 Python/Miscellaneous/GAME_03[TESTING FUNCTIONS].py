@@ -9,7 +9,7 @@ class style():
     bgbwhite = '\033[7m'
 
     black = '\033[8m'
-    dgray = '\033[30m'
+    bgray = '\033[30m'
     dred = '\033[31m'
     dgreen = '\033[32m'
     dyellow = '\033[33m'
@@ -83,7 +83,7 @@ def keywords():
     x = Symbol('𝑥')
     # meanings
     print(style.bblue + f"{x}" + style.RESET,style.dgray + "[Symbol]" + style.RESET)
-    print(style.bblue + f"{5*x}" + style.RESET,"=",style.bcyan + "5𝑥" + style.RESET,style.dgray + "[Coefficent]" + style.RESET)
+    print(style.bblue + f"{5*x}" + style.RESET,"=",style.bcyan + "5𝑥" + style.RESET,style.bgrauy + "[Coefficent]" + style.RESET)
     print(style.bblue + f"{x*x}" + style.RESET,"=",style.bcyan + "𝑥²" + style.RESET,style.dgray + "[Exponent]" + style.RESET)
     print(f"{x} = symbol")
     print(f"{5*x} = 5𝑥")
