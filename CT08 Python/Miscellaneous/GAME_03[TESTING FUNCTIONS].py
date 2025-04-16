@@ -75,7 +75,7 @@ def turnnumberintopositive(number):
 
 # main game functions
 def keywords():
-    symbol = Symbol(x)
+    symbol = Symbol("x")
     print(symbol)
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
