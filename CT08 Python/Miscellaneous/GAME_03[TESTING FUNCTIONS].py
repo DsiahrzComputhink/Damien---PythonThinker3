@@ -74,7 +74,7 @@ def turnnumberintopositive(number):
         return number
 
 # main game functions
-def help()
+def debug():
     print("hi")
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
