@@ -76,9 +76,10 @@ def turnnumberintopositive(number):
 # main game functions
 def keywords():
     print(LINE)
-    print(style.BOLD + "Algebraic Expansion" + style.RESET)
+    print(style.BOLD + "Keywords" + style.RESET)
     print(LINE)
     print(style.bcyan + "Simplify this Equation" + style.RESET)
+    # keywords
     symbol = Symbol('𝑥')
     print(symbol)
 
