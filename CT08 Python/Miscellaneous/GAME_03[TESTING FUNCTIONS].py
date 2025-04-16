@@ -77,7 +77,7 @@ def turnnumberintopositive(number):
 def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
-    print(style.dgray + "I highly suggest you know what they mean." + style.RESET)
+    print(style.d + "I highly suggest you know what they mean." + style.RESET)
     print(LINE)
     # keywords
     x = Symbol('𝑥')
