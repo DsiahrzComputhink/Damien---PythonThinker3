@@ -83,6 +83,7 @@ def keywords():
     x = Symbol('𝑥')
     # meanings
     print(f"{x} = symbol")
+    print(f"{5*x} = 5𝑥")
     
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
