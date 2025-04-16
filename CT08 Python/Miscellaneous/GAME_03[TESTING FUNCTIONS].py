@@ -211,7 +211,6 @@ def QuadraticEquation(x,R1,R2,axval,bxval):
     # R1 and R2 are integers, axval and bxval are coefficents
     ax = x*axval
     bx = x*bxval
-    print(ax,bx)
     # (ax,R1)(bx,R2) = ax*bx + (ax*R2 + bx*R1) + R1*R2
     print(ax*bx)
     print(ax*R2 + bx+R1)
