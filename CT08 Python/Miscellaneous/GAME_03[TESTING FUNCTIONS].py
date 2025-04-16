@@ -76,7 +76,7 @@ def turnnumberintopositive(number):
 # main game functions
 def keywords():
     symbol = Symbol(x)
-    print("")
+    print(symbol)
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
@@ -226,6 +226,7 @@ x = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
 x2val = generaterandomnumber(min,max)
 
+keywords()
 QuadraticExpansion(x,4,2,x1val,x2val)
 
     # local functions
