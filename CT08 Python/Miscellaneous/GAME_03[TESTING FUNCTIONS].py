@@ -9,7 +9,7 @@ class style():
     bgbwhite = '\033[7m'
 
     black = '\033[8m'
-    bgray = '\033[30m'
+    dgray = '\033[30m'
     dred = '\033[31m'
     dgreen = '\033[32m'
     dyellow = '\033[33m'
@@ -77,7 +77,7 @@ def turnnumberintopositive(number):
 def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
-    print(style.d + "I highly suggest you know what they mean." + style.RESET)
+    print(style.dgray + "I highly suggest you know what they mean." + style.RESET)
     print(LINE)
     # keywords
     x = Symbol('𝑥')
