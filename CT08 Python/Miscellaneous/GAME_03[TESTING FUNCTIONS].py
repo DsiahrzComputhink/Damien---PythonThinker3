@@ -78,7 +78,7 @@ def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
     print(LINE)
-    print(style.bcyan + "Simplify this Equation" + style.RESET)
+    print(style.bcyan + "Python does have a" + style.RESET)
     # keywords
     symbol = Symbol('𝑥')
     print(symbol)
