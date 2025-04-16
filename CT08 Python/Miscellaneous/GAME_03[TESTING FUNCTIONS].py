@@ -82,6 +82,7 @@ def keywords():
     # keywords
     x = Symbol('𝑥')
     # meanings
+    print()
     
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
