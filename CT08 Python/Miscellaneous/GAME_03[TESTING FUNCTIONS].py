@@ -84,7 +84,7 @@ def keywords():
     # meanings
     print(f"{x} = symbol")
     print(f"{5*x} = 5𝑥")
-    print(f"{2*x*x} = 5𝑥²")
+    print(f"{2*x*x} = 5𝑥")
     print(LINE)
     
 
