@@ -232,8 +232,7 @@ def QuadraticExpansion(x,R1,R2,axval,bxval):
     ax = x*axval
     bx = x*bxval
     # (ax,R1)(bx,R2) = ax*bx + (ax*R2 + bx*R1) + R1*R2
-    print((ax*R2)(bx*R1))
-    print(f"{ax*bx}{ax*R2 + bx*R1}{R1*R2}")
+    print(f"{ax*bx} {ax*R2 + bx*R1} {R1*R2}")
     
 x = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
