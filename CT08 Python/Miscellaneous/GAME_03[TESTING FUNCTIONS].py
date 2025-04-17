@@ -242,7 +242,6 @@ keywords()
 
 QuadraticExpansion(x,4,2,x1val,x2val)
 
-AlgebraicExpansion(x,y)
     # local functions
 def SimulQuestion():
 
