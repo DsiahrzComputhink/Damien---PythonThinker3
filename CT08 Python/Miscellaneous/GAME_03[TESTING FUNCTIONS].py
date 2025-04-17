@@ -141,7 +141,7 @@ def AlgebraicExpansion(x,y):
         z = generatealgebra(words)
         xval = num2
         yval = num3
-        print(f"{latex(num1*z)}({(num2*x)} + {(num3*y)})")
+        print(f"{latex(num1*z)}({latex(num2*x)} + {latex(num3*y)})")
         xvalans = input(style.bpurple + f"{latex(z*x)} = " + style.RESET)
         yvalans = input(style.bpurple + f"{latex(z*y)} = " + style.RESET)
         if str(xvalans) != str(xval):
@@ -160,7 +160,7 @@ def AlgebraicExpansion(x,y):
         z = generatealgebra(words)
         xval = num2
         yval = num3
-        print(f"{num4*w}({num1*z}({(num2*x)} + {(num3*y)}))")
+        print(f"{latex(num4*w)}({num1*z}({(num2*x)} + {(num3*y)}))")
         xvalans = input(style.bpurple + f"{latex(w*x*z)} = " + style.RESET)
         yvalans = input(style.bpurple + f"{latex(w*y*z)} = " + style.RESET)
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
