@@ -142,8 +142,8 @@ def AlgebraicExpansion(x,y):
         xval = num2
         yval = num3
         print(f"{num1*z}({(num2*x)} + {(num3*y)})")
-        xvalans = input(style.bpurple + f"{z*x} = " + style.RESET)
-        yvalans = input(style.bpurple + f"{z*y} = " + style.RESET)
+        xvalans = input(style.bpurple + f"{latex(z*x)} = " + style.RESET)
+        yvalans = input(style.bpurple + f"{latex(z*y)} = " + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
