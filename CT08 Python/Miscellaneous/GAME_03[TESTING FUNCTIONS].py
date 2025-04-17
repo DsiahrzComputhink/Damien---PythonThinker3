@@ -228,7 +228,7 @@ def AlgebraicFactorization(x,y):
 def QuadraticExpansion(x,R1,R2,axval,bxval):
     ax = x*axval
     bx = x*bxval
-    a = ax*bx
+    A = ax*bx
     b = ax*R2 + bx*R1
     c = R1*R2
     print(latex(a + b + c))
