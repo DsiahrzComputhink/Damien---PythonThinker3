@@ -37,6 +37,7 @@ import time
 import random
 from sympy import Symbol
 from sympy import *
+from sympy import latex
 
     # constants
 min = 1
@@ -77,21 +78,17 @@ def turnnumberintopositive(number):
 def keywords():
     print(LINE)
     print(style.BOLD + "Keywords" + style.RESET)
-    print(style.bgray + "I highly suggest you know what they mean." + style.RESET)
+    print(style.bgray + "Python" + style.RESET)
     print(LINE)
     # keywords
     x = Symbol('𝑥')
     # meanings
-    print(style.bblue + f"{x}" + style.RESET,style.bgray + "[Symbol]" + style.RESET)
-    print(style.bblue + f"{5*x}" + style.RESET,"=",style.bcyan + "5𝑥" + style.RESET,style.bgray + "[Coefficent]" + style.RESET)
-    print(style.bblue + f"{x*x}" + style.RESET,"=",style.bcyan + "𝑥²" + style.RESET,style.bgray + "[Exponent]" + style.RESET)
-    print(style.bblue + f"{2*x*x}" + style.RESET,"=",style.bcyan + "2𝑥²" + style.RESET,style.bgray + "[Coefficent and Exponent]" + style.RESET)
-    print(style.bblue + f"{x*x + 4*x + 2}" + style.RESET,"=",style.bcyan + "𝑥² + 4𝑥 + 2" + style.RESET,style.bgray + "[Expression]" + style.RESET)
-    print(f"{x} = symbol")
-    print(f"{5*x} = 5𝑥")
-    print(f"{2*x*x} = 2𝑥²")
+    print(style.bblue + f"{latex(x)}" + style.RESET,style.bgray + "[Symbol]" + style.RESET)
+    print(style.bblue + f"{latex(5*x)}" + style.RESET,"=",style.bcyan + "5𝑥" + style.RESET,style.bgray + "[Coefficent]" + style.RESET)
+    print(style.bblue + f"{latex(x*x)}" + style.RESET,"=",style.bcyan + "𝑥²" + style.RESET,style.bgray + "[Exponent]" + style.RESET)
+    print(style.bblue + f"{latex(2*x*x)}" + style.RESET,"=",style.bcyan + "2𝑥²" + style.RESET,style.bgray + "[Coefficent and Exponent]" + style.RESET)
+    print(style.bblue + f"{latex(x*x + 4*x + 2)}" + style.RESET,"=",style.bcyan + "𝑥² + 4𝑥 + 2" + style.RESET,style.bgray + "[Expression]" + style.RESET)
     print(LINE)
-    
 
 def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     equ1 = xval*num1 + yval*num2
@@ -100,8 +97,8 @@ def solveSimul(x,y,xval,yval,num1,num2,num3,num4):
     print(style.BOLD + "Simultaneous Equation" + style.RESET)
     print(LINE)
     print(style.bcyan + "Solve the 2 equations." + style.RESET)
-    print(f"({(num1*x + num2*y)} = {equ1})")
-    print(f"({(num3*x + num4*y)} = {equ2})")
+    print(f"({latex(num1*x + num2*y)} = {latex(equ1)})")
+    print(f"({latex(num3*x + num4*y)} = {latex(equ2)})")
     print(style.bgray + "The question is asking for the value" + style.RESET)
     xvalans = input(style.bpurple + f"{x} = " + style.RESET)
     yvalans = input(style.bpurple + f"{y} = " + style.RESET)
@@ -126,7 +123,7 @@ def AlgebraicExpansion(x,y):
         num3 = generaterandomnumber(min,max)
         xval = num2 * num1
         yval = num3 * num1
-        print(f"{num1}({(num2*x)} + {(num3*y)})")
+        print(f"{latex(num1)}({latex(num2*x)} + {latex(num3*y)})")
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
@@ -236,17 +233,22 @@ def QuadraticExpansion(x,R1,R2,axval,bxval):
     a = ax*bx
     b = ax*R2 + bx*R1
     c = R1*R2
-    print(a,b,c)
-    
+    print(latex(a + b + c))
+    abc = factor(a + b + c)
+
+
 x = generatealgebra(words)
+y = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
 x2val = generaterandomnumber(min,max)
-
 keywords()
+
 QuadraticExpansion(x,4,2,x1val,x2val)
 
+AlgebraicExpansion(x,y)
     # local functions
 def SimulQuestion():
+
     x = generatealgebra(words)
     y = generatealgebra(words)
     xval = generaterandomnumber(min,max)
