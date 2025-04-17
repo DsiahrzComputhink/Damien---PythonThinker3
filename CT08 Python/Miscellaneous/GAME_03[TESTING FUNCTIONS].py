@@ -116,6 +116,7 @@ def AlgebraicExpansion(x,y):
     print(style.BOLD + "Algebraic Expansion" + style.RESET)
     print(LINE)
     print(style.bcyan + "Simplify this Equation" + style.RESET)
+    print(style.bgray + "The question is asking for the coefficent" + style.RESET)
     difficulty = random.randint(1,3)
     if difficulty == 1:
         num1 = generaterandomnumber(min,max)
@@ -126,7 +127,6 @@ def AlgebraicExpansion(x,y):
         print(f"{latex(num1)}({latex(num2*x)} + {latex(num3*y)})")
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
