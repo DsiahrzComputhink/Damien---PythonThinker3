@@ -236,7 +236,7 @@ def QuadraticExpansion(x,R1,R2,axval,bxval):
     print(latex(a + b + c))
     abc = factor(a + b + c)
 
-print(3**10)
+print()
 
 x = generatealgebra(words)
 y = generatealgebra(words)
