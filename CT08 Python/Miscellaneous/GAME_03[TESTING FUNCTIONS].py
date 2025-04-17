@@ -228,11 +228,11 @@ def AlgebraicFactorization(x,y):
 def QuadraticExpansion(x,R1,R2,axval,bxval):
     ax = x*axval
     bx = x*bxval
-    A = ax*bx
-    b = ax*R2 + bx*R1
-    c = R1*R2
-    print(latex(a + b + c))
-    abc = factor(a + b + c)
+    a1 = ax*bx
+    b1 = ax*R2 + bx*R1
+    c1 = R1*R2
+    print(latex(a1 + b1 + c1))
+    abc = factor(a1 + b1 + c1)
 
 x = generatealgebra(words)
 y = generatealgebra(words)
