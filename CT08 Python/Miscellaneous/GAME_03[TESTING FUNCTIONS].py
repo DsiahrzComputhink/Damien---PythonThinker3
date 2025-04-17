@@ -85,7 +85,7 @@ def keywords():
     print(style.bblue + f"{x}" + style.RESET,style.bgray + "[Symbol]" + style.RESET)
     print(style.bblue + f"{5*x}" + style.RESET,"=",style.bcyan + "5𝑥" + style.RESET,style.bgray + "[Coefficent]" + style.RESET)
     print(style.bblue + f"{x*x}" + style.RESET,"=",style.bcyan + "𝑥²" + style.RESET,style.bgray + "[Exponent]" + style.RESET)
-    print(style.bblue + f"{2*x*x}" + style.RESET,"=",style.bcyan + "𝑥² + 4𝑥 + 2" + style.RESET,style.bgray + "[Coefficent and Exponent]" + style.RESET)
+    print(style.bblue + f"{2*x*x}" + style.RESET,"=",style.bcyan + "2𝑥²" + style.RESET,style.bgray + "[Coefficent and Exponent]" + style.RESET)
     print(style.bblue + f"{x*x + 4*x + 2}" + style.RESET,"=",style.bcyan + "𝑥² + 4𝑥 + 2" + style.RESET,style.bgray + "[Expression]" + style.RESET)
     print(f"{x} = symbol")
     print(f"{5*x} = 5𝑥")
