@@ -226,11 +226,8 @@ def AlgebraicFactorization(x,y):
                 return True
             
 def QuadraticExpansion(x,R1,R2,axval,bxval):
-    # x = symbol
-    # R1 and R2 are integers, axval and bxval are coefficents
     ax = x*axval
     bx = x*bxval
-    # (ax,R1)(bx,R2) = ax*bx + (ax*R2 + bx*R1) + R1*R2
     a = ax*bx
     b = ax*R2 + bx*R1
     c = R1*R2
