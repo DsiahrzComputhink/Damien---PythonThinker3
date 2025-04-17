@@ -186,7 +186,7 @@ def AlgebraicFactorization(x,y):
         num3 = generaterandomnumber(min,max)
         xval = num1
         yval = num2
-        print(f"{num1*num2*x + num1*num3*y}")
+        print(f"{latex(num1*num2*x + num1*num3*y)}")
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
@@ -208,7 +208,7 @@ def AlgebraicFactorization(x,y):
         z = generatealgebra(words)
         xval = num2
         yval = num3
-        print(f"{num1*num2*x*z + num1*num3*y*z}")
+        print(f"{latex(num1*num2*x*z + num1*num3*y*z)}")
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         xvalans = input(style.bpurple + f"{x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{y} = " + style.RESET)
