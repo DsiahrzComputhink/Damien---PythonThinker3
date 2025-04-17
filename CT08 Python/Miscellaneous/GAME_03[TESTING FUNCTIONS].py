@@ -238,7 +238,6 @@ x = generatealgebra(words)
 y = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
 x2val = generaterandomnumber(min,max)
-keywords()
 
 QuadraticExpansion(x,4,2,x1val,x2val)
 
