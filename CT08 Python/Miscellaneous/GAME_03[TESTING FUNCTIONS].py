@@ -161,7 +161,7 @@ def AlgebraicExpansion(x,y):
         xval = num2
         yval = num3
         print(f"{num4*w}({num1*z}({(num2*x)} + {(num3*y)}))")
-        xvalans = input(style.bpurple + f"{w*x*z} = " + style.RESET)
+        xvalans = input(style.bpurple + f"{latex(w*x*z)} = " + style.RESET)
         yvalans = input(style.bpurple + f"{w*y*z} = " + style.RESET)
         print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
