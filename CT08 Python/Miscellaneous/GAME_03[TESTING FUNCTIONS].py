@@ -233,7 +233,7 @@ def QuadraticExpansion(x,R1,R2,axval,bxval):
     c1 = R1*R2
     print(latex(a1 + b1 + c1))
     abc = factor(a1 + b1 + c1)
-    #
+    #(ax + R1)(bx + R2)
 
 x = generatealgebra(words)
 y = generatealgebra(words)
