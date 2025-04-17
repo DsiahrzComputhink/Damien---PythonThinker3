@@ -144,7 +144,6 @@ def AlgebraicExpansion(x,y):
         print(f"{num1*z}({(num2*x)} + {(num3*y)})")
         xvalans = input(style.bpurple + f"{z*x} = " + style.RESET)
         yvalans = input(style.bpurple + f"{z*y} = " + style.RESET)
-        print(style.bgray + "The question is asking for the coefficent" + style.RESET)
         if str(xvalans) != str(xval):
             return False
         elif str(xvalans) == str(xval):
@@ -172,6 +171,7 @@ def AlgebraicExpansion(x,y):
                 return False
             elif str(yvalans) == str(yval):
                 return True
+
 
 def AlgebraicFactorization(x,y):
     print(LINE)
