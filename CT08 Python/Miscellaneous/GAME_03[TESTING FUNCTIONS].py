@@ -35,6 +35,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
     # dependencies
 import time
 import random
+import math
 from sympy import Symbol
 from sympy import *
 from sympy import latex
