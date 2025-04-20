@@ -41,7 +41,7 @@ textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt"
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
 else:
-    print(style.bred + "[ {} ] DOES NOT EXIST".format(textfile) + style.RESET)
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 
 
     # character functions
