@@ -43,6 +43,8 @@ import random
     # Symbols: 33 - 47, 58 - 64, 91 - 96
     # Space: 32
 
+    # RANGE is 32 - 126
+
 
 # ASCII User Management System (UMS)
 
