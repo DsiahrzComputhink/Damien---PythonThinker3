@@ -52,4 +52,4 @@ def encryptCHAR(char: str, num: int):
 
 string = "A"
 
-encryptCHAR(string,0)
+encryptCHAR(string,90)
