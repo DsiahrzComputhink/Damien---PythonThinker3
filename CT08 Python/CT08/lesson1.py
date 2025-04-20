@@ -72,7 +72,7 @@ def decryptSentence(string: str, num: int):
     return decryptedlist
 
 def encryptFile(content: str, num: int):
-    encryptedlist = []
+    encryptedlist = ""
     for line in content:
         encryptedsentence = encryptSentence(line, num)
         encryptedlist += f"\n{encryptedsentence}"
