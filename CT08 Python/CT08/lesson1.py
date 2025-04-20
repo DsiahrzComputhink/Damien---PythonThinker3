@@ -93,6 +93,7 @@ def BruteDecryptFile(content: str):
             print(line)
             time.sleep(0.001)
         print("[",style.bcyan + f"Shifted by {i}" + style.RESET,"]")
+        time.sleep(1)
         
     
 
@@ -101,3 +102,5 @@ with open(textfile, "r") as file:
 
 e = decryptFile(content,)
 print(e)
+
+BruteDecryptFile(content)
