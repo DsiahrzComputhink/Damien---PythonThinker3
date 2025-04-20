@@ -41,7 +41,7 @@ import random
     # Lowercase Letters: 97 - 122
     # Digits: 48 - 57
     # Symbols: 33 - 47, 58 - 64, 91 - 96
-    # 32 
+    # Space: 32
 
 
 # ASCII User Management System (UMS)
