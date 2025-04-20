@@ -71,6 +71,8 @@ def decryptSentence(string: str, num: int):
         decryptedlist += decryptChar(char,num)
     return decryptedlist
 
+import math
 string = "boogly moogly"
 e = encryptSentence(string,6)
 print(decryptSentence(e,6))
+print(math.sqrt(-1))
