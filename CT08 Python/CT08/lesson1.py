@@ -37,11 +37,8 @@ FilePath = os.getcwd()
 
 # if os.path.exists(textfile):
 #    print("hi")
-      
-ascii_start = 32
-ascii_end = 126
 
-    # 333331
+    # global 
 def encryptChar(char: str, num: int):
     asciinum = ord(char) + num
     while asciinum > 126:
@@ -55,4 +52,5 @@ def decryptChar(char: str, num: int):
 
     return chr(asciinum)
 
+    # 
 string = "this is a funny sentence oooooooo"
