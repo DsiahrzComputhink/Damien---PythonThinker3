@@ -33,4 +33,5 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 string = "a"
 
-ord(string)
+encrypt = ord(string)
+print(encrypt)
