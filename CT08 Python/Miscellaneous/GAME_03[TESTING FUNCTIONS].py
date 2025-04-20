@@ -244,6 +244,7 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
     print("Was your answer correct")
     print(abc)
     print(style.bgreen + "Y" + style.RESET,style.bgray + "/" + style.RESET,style.bred + "N" + style.RESET)
+    input
 
 x = generatealgebra(words)
 y = generatealgebra(words)
