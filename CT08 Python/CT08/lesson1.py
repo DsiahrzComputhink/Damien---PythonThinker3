@@ -66,10 +66,10 @@ def encryptSentence(string: str, num: int):
     return encryptedlist
 
 def decryptSentence(string: str, num: int):
-    encryptedlist = ""
+    decryptedlist = ""
     for char in string:
-        encryptedlist += encryptChar(char,num)
-    return encryptedlist
+        decryptedlist += encryptChar(char,num)
+    return decryptedlist
 
 string = "boogly moogly"
 
