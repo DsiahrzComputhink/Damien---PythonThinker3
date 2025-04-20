@@ -51,9 +51,9 @@ def encryptChar(char: str, num: int):
     print(asciinum)
 
 def decryptChar(char: str, num: int):
-    asciinum = ord(char) + num
+    asciinum = ord(char) - num
     print(asciinum)
-    while asciinum > 126:
+    while asciinum < 126:
         print(asciinum)
         asciinum -= 126
     print(asciinum)
