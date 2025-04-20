@@ -55,8 +55,4 @@ def decryptChar(char: str, num: int):
 
     return chr(asciinum)
 
-string = "A"
-
-e = encryptChar(string,942)
-print(e)
-print(decryptChar(e,942))
+string = "this is a funny sentence ooooo"
