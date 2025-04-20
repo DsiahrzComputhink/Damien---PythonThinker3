@@ -72,6 +72,5 @@ def decryptSentence(string: str, num: int):
     return decryptedlist
 
 string = "boogly moogly"
-
 e = encryptSentence(string,6)
 print(decryptSentence(e,6))
