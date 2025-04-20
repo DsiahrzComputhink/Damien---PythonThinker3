@@ -44,7 +44,6 @@ maxrange = 126
 
 def encryptChar(char: str, num: int):
     asciinum = ord(char) + num
-    print(asciinum)
     while asciinum > 126:
         asciinum -= 126
     return chr(asciinum)
