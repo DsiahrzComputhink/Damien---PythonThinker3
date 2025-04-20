@@ -62,4 +62,4 @@ def encryptSentence(string: str, num: int):
 
 string = "50 boiled potatos"
 
-print(encryptSentence(string,126))
+print(encryptSentence(string,6))
