@@ -48,7 +48,7 @@ else:
 def encryptChar(char: str, num: int):
     asciinum = ord(char) + num
     while asciinum > 126:
-        asciinum -= 126
+        asciinum %= 95
     return chr(asciinum)
 
 def decryptChar(char: str, num: int):
