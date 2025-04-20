@@ -52,4 +52,4 @@ def encryptCHAR(char: str, num: int):
 
 string = "A"
 
-asciinum = ord(string)
+encryptCHAR(string,0)
