@@ -39,7 +39,7 @@ FilePath = os.getcwd()
 #    print("hi")
       
 ascii_start = 32
-maxrange = 126
+ascii_end = 126
 
     # 333331
 def encryptChar(char: str, num: int):
