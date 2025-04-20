@@ -37,5 +37,19 @@ class style():
     error = dred
 LINE = style.bgray + "------------------------------" + style.RESET
 
+
+import os
+
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+
+if os.path.exists(textfile):
+    print("{} exist".format(textfile))
+else:
+    print("{} Does not exist".format(textfile))
+
+
+
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
