@@ -41,8 +41,7 @@ FilePath = os.getcwd()
 minrange = 32
 maxrange = 126
 
-thing = 126 + 235678909
-while thing > 126:
+while asciinum > 126:
     print(thing)
     thing -= 126
 print(thing)
