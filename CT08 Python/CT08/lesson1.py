@@ -91,7 +91,8 @@ def BruteDecryptFile(content: str, num: int):
         decrypted = decryptFile(content,i)
         for line in decrypted:
             print(line)
-            
+            task.wait(0.001)
+        print()
         
     
 
