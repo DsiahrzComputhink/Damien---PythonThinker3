@@ -56,7 +56,8 @@ def decryptChar(char: str, num: int):
 def encryptSentence(string: str, num: int):
     encryptedlist = ""
     for char in string:
-        encryptChar(char)
+        encryptedlist += encryptChar(char)
+    return encryptedlist
 
 
 string = "this is a funny sentence oooooooo"
