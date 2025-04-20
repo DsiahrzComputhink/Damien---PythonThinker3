@@ -49,6 +49,7 @@ def encryptChar(char: str, num: int):
         print(asciinum)
         asciinum -= 126
     print(asciinum)
+    return chr(asciinum)
 
 def decryptChar(char: str, num: int):
     asciinum = ord(char) - num
