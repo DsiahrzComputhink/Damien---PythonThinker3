@@ -35,13 +35,13 @@ LINE = style.bgray + "------------------------------" + style.RESET
 import os
 
 
-# FilePath = os.getcwd()
-# textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L12]-ASCII [hackmeifyoucan].txt")
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L12]-ASCII [hackmeifyoucan].txt")
 
-# if os.path.exists(textfile):
-#     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
-# else:
-#     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 
 
     # character functions
