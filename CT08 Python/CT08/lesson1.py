@@ -42,7 +42,7 @@ minrange = 32
 maxrange = 126
 
 thing = 126 + 23
-if thing > 126:
+while thing > 126:
     thing - 126
 
 
