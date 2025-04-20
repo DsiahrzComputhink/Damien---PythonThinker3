@@ -41,7 +41,7 @@ FilePath = os.getcwd()
 minrange = 32
 maxrange = 126
 
-
+    # 
 def encryptChar(char: str, num: int):
     asciinum = ord(char) + num
     while asciinum > 126:
