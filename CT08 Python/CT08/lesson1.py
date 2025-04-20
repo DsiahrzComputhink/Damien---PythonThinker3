@@ -60,4 +60,5 @@ def decryptChar(char: str, num: int):
 
 string = "A"
 
-encryptChar(string,0)
+encryptChar(string,942)
+decryptChar(string,942)
