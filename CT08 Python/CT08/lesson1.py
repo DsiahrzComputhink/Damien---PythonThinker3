@@ -75,8 +75,11 @@ def encryptFile(content: str, num: int):
     encryptedlist = ""
     for line in content:
         encryptedlist += encryptSentence(line, num)
+    return encryptedlist
 
 
 
 with open(textfile, "r") as file:
     content = file.read()
+
+print(encr)
