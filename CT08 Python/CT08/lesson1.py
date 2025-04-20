@@ -42,7 +42,7 @@ minrange = 32
 maxrange = 126
 
 
-def encryptCHAR(char: str, num: int):
+def encryptChar(char: str, num: int):
     asciinum = ord(char) + num
     print(asciinum)
     while asciinum > 126:
@@ -50,6 +50,13 @@ def encryptCHAR(char: str, num: int):
         asciinum -= 126
     print(asciinum)
 
+def decryptChar(char: str, num: int):
+    asciinum = ord(char) + num
+    print(asciinum)
+    while asciinum > 126:
+        print(asciinum)
+        asciinum -= 126
+    print(asciinum)
 
 string = "A"
 
