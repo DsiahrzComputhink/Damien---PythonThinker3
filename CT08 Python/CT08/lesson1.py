@@ -74,3 +74,4 @@ def decryptSentence(string: str, num: int):
 string = "boogly moogly"
 
 print(encryptSentence(string,6))
+print(decryptSentence("hummr",6))
