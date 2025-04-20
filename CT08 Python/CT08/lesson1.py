@@ -36,7 +36,7 @@ import os
 
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+textfile = os.path.join(FilePath,"ARCHIVE",)
 
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
