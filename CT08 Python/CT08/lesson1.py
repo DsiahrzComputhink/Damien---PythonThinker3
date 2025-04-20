@@ -58,4 +58,5 @@ def decryptChar(char: str, num: int):
 string = "A"
 
 e = encryptChar(string,942)
+print(e)
 print(decryptChar(e,942))
