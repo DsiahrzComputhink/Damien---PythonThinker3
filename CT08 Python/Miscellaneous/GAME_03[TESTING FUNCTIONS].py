@@ -242,7 +242,7 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
     input("Please press enter when finished")
     print(LINE)
     print("Was your answer correct")
-    print(style.bcyan + abc + style.RESET)
+    print(style.bcyan + str(abc) + style.RESET)
     print(style.bgreen + "Y" + style.RESET,style.bgray + "/" + style.RESET,style.bred + "N" + style.RESET)
     input
 
