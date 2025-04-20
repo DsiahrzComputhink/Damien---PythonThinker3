@@ -42,7 +42,8 @@ minrange = 32
 maxrange = 126
 
 thing = 126 + 23
-if thing > 12
+if thing > 12:
+    print("h")
 
 
 string = "A"
