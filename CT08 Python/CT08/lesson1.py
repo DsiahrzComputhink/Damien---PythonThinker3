@@ -31,3 +31,6 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
+string = "a"
+
+ord(string)
