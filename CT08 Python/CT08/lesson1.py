@@ -41,10 +41,11 @@ FilePath = os.getcwd()
 minrange = 32
 maxrange = 126
 
-
+thing = 126 + 23
+if thing > 12
 
 
 string = "A"
 
 encrypt = ord(string)
-print(encrypt)
+print(chr(127))
