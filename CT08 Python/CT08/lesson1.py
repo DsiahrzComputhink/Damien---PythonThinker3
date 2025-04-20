@@ -53,7 +53,7 @@ def decryptChar(char: str, num: int):
     return chr(asciinum)
 
     # sentence functions
-def encryptSentence(char: str, num: int):
+def encryptSentence(string: str, num: int):
     asciinum = ord(char) + num
     while asciinum > 126:
         asciinum -= 126
