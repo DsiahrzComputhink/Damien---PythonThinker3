@@ -80,7 +80,7 @@ def bruteforcegame():
                 for attempt in words:
                     print(style.dcyan + f"Trying: {guessed_password + attempt}..." + style.RESET, end="\r")
 
-                    time.sleep(TIME)  # Simulate brute force delay
+                    time.sleep(TIME)
                     if TIME > 0.01:
                         TIME *= 0.99
                     elif TIME <= 0.01:

@@ -60,6 +60,6 @@ def encryptSentence(string: str, num: int):
     return encryptedlist
 
 
-string = "HELLO WORLD"
+string = 
 
 print(encryptSentence(string,126))
