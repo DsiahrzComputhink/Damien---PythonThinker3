@@ -54,9 +54,7 @@ def decryptChar(char: str, num: int):
 
     # sentence functions
 def encryptSentence(string: str, num: int):
-    asciinum = ord(char) + num
-    while asciinum > 126:
-        asciinum -= 126
+    
     return chr(asciinum)
 
 
