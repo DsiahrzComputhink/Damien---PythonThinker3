@@ -57,5 +57,5 @@ def decryptChar(char: str, num: int):
 
 string = "A"
 
-encryptChar(string,942)
-decryptChar(string,942)
+print(encryptChar(string,942))
+print(decryptChar(string,942)
