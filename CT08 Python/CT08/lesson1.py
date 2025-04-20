@@ -86,7 +86,7 @@ def decryptFile(content: str, num: int):
         decryptedlist += f"\n{decryptedsentence}"
     return decryptedlist
 
-def BruteDecryptFile(content: str, num: int):
+def BruteDecryptFile(content: str):
     for i in range(95):
         decrypted = decryptFile(content,i)
         for line in decrypted:
