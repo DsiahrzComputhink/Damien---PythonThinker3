@@ -42,11 +42,10 @@ minrange = 32
 maxrange = 126
 
 thing = 126 + 23
-if thing > 12:
-    print("h")
+if thing > 126:
+    thing - 126
 
 
 string = "A"
 
 encrypt = ord(string)
-print(chr(127))
