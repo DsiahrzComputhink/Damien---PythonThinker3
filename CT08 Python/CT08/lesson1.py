@@ -62,4 +62,4 @@ def encryptSentence(string: str, num: int):
 
 string = "HELLO WORLD"
 
-print(encryptSentence(string,95))
+print(encryptSentence(string,126 - 32))
