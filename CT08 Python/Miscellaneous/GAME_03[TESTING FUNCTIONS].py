@@ -241,6 +241,9 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
 
     print(style.bgray + "Due to the limitations, we are unable to check it properly." + style.RESET)
     input("Please press enter when finished")
+    print(LINE)
+    print("Was your answer correct")
+    print()
 
 x = generatealgebra(words)
 y = generatealgebra(words)
