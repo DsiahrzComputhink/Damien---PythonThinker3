@@ -60,6 +60,6 @@ def encryptSentence(string: str, num: int):
     return encryptedlist
 
 
-string = "this is a funny sentence oooooooo"
+string = "HELLO WORLD"
 
-print(encryptSentence(string,5))
+print(encryptSentence(string,1))
