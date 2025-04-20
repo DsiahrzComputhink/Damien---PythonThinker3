@@ -173,7 +173,6 @@ def AlgebraicExpansion(x,y):
             elif str(yvalans) == str(yval):
                 return True
 
-
 def AlgebraicFactorization(x,y):
     print(LINE)
     print(style.BOLD + "Algebraic Factorization" + style.RESET)
@@ -225,22 +224,30 @@ def AlgebraicFactorization(x,y):
             elif str(yvalanspos) == str(yvalpos):
                 return True
             
-def QuadraticExpansion(x,R1,R2,axval,bxval):
+def QuadraticExpression(x,R1,R2,axval,bxval):
+    print(LINE)
+    print(style.BOLD + "Quadratic Expression" + style.RESET)
+    print(LINE)
+    print(style.bcyan + "Factorize this Expression" + style.RESET)
+
     ax = x*axval
     bx = x*bxval
-    a1 = ax*bx
-    b1 = ax*R2 + bx*R1
-    c1 = R1*R2
-    print(latex(a1 + b1 + c1))
-    abc = factor(a1 + b1 + c1)
-    #(ax + R1)(bx + R2)
+    ax2 = ax*bx
+    b = ax*R2 + bx*R1
+    c = R1*R2
+    print(latex(ax2 + b + c))
+    abc = factor(ax2 + b + c)
+    print(abc)
+
+    print(style.bgray + "Due to the limitations, we are unable to check it properly." + style.RESET)
+    input("Please press enter when finished")
 
 x = generatealgebra(words)
 y = generatealgebra(words)
 x1val = generaterandomnumber(min,max)
 x2val = generaterandomnumber(min,max)
 
-QuadraticExpansion(x,4,2,x1val,x2val)
+QuadraticExpression(x,4,2,x1val,x2val)
 
     # local functions
 def SimulQuestion():
@@ -256,8 +263,30 @@ def SimulQuestion():
     num4 = generaterandomnumber(min,max)
     ans = solveSimul(x,y,xval,yval,num1,num2,num3,num4)
     if ans is False:
-        print("FALSE")
+        answer(ans)
     elif ans is True:
-        print("TRUE")
+        answer(ans)
+    else:
+        print(style.bred + "! Answer is neither False or True. !" + style.RESET)
+
+def AlgebraicExpansionQuestion():
+    x = generatealgebra(words)
+    y = generatealgebra(words)
+    ans = AlgebraicExpansion(x,y)
+    if ans is False:
+        answer(ans)
+    elif ans is True:
+        answer(ans)
+    else:
+        print(style.bred + "! Answer is neither False or True. !" + style.RESET)
+
+def AlgebraicFactorisationQuestion():
+    x = generatealgebra(words)
+    y = generatealgebra(words)
+    ans = AlgebraicFactorization(x,y)
+    if ans is False:
+        answer(ans)
+    elif ans is True:
+        answer(ans)
     else:
         print(style.bred + "! Answer is neither False or True. !" + style.RESET)
