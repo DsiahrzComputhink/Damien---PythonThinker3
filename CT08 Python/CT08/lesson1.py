@@ -66,6 +66,6 @@ def encryptSentence(string: str, num: int):
     return encryptedlist
 
 
-string = "50 boiled potatos"
+string = "boogly moogly"
 
 print(encryptSentence(string,6))
