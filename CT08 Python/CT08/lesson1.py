@@ -38,6 +38,9 @@ FilePath = os.getcwd()
 # if os.path.exists(textfile):
 #    print("hi")
       
+minrange = 32
+maxrange = 126
+
 
 
 
@@ -45,4 +48,3 @@ string = "A"
 
 encrypt = ord(string)
 print(encrypt)
-with open(textfile, "r") as file:
