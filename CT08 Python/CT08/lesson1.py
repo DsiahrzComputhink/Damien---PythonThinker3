@@ -82,4 +82,4 @@ def encryptFile(content: str, num: int):
 with open(textfile, "r") as file:
     content = file.read()
 
-print(encr)
+print(encryptFile(content, 10))
