@@ -55,7 +55,7 @@ def decryptChar(char: str, num: int):
     print(asciinum)
     while asciinum < 32:
         print(asciinum)
-        asciinum += 126
+        asciinum += 32
     print(asciinum)
 
 string = "A"
