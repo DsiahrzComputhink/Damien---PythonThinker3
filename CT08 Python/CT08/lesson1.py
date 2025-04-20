@@ -75,4 +75,4 @@ string = "boogly moogly"
 
 e = encryptChar("y",6)
 print(encryptSentence(string,6))
-print(decryptSentence("huumr &suumr ",6))
+print(decryptSentence("huumr ",6))
