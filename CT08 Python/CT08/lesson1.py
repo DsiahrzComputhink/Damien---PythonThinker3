@@ -41,6 +41,8 @@ FilePath = os.getcwd()
 minrange = 32
 maxrange = 126
 
+
+encryptCHAR()
 while asciinum > 126:
     print(asciinum)
     asciinum -= 126
@@ -49,4 +51,4 @@ print(asciinum)
 
 string = "A"
 
-encrypt = ord(string)
+asciinum = ord(string)
