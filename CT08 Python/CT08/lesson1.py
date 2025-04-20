@@ -100,7 +100,4 @@ def BruteDecryptFile(content: str):
 with open(textfile, "r") as file:
     content = file.readlines()
 
-e = decryptFile(content,)
-print(e)
-
 BruteDecryptFile(content)
