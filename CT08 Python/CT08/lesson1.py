@@ -89,5 +89,5 @@ def decryptFile(content: str, num: int):
 with open(textfile, "r") as file:
     content = file.readlines()
 
-e = decryptFile(content, 0)
+e = decryptFile(content,)
 print(e)
