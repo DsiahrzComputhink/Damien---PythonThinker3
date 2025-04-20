@@ -62,4 +62,4 @@ def encryptSentence(string: str, num: int):
 
 string = "this is a funny sentence oooooooo"
 
-print(encryptSentence(string))
+print(encryptSentence(string,5))
