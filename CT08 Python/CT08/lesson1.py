@@ -42,11 +42,12 @@ minrange = 32
 maxrange = 126
 
 
-encryptCHAR()
-while asciinum > 126:
+def encryptCHAR(char: str, num: int):
+    
+    while asciinum > 126:
+        print(asciinum)
+        asciinum -= 126
     print(asciinum)
-    asciinum -= 126
-print(asciinum)
 
 
 string = "A"
