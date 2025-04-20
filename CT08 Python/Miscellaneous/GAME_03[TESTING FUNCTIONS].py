@@ -237,12 +237,12 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
     c = R1*R2
     print(latex(ax2 + b + c))
     abc = factor(ax2 + b + c)
-    print(abc)
 
     print(style.bgray + "Due to the limitations, we are unable to check it properly." + style.RESET)
     input("Please press enter when finished")
     print(LINE)
     print("Was your answer correct")
+    print(abc)
     print(style.bgreen + "Y" + style.RESET,style.bgray + "/" + style.RESET,style.bred + "N" + style.RESET)
 
 x = generatealgebra(words)
