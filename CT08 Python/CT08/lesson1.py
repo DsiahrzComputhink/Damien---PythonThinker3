@@ -31,12 +31,18 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-import os
-FilePath = os.getcwd()
-# textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
 
-# if os.path.exists(textfile):
-#    print("hi")
+import os
+
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+
+if os.path.exists(textfile):
+    print(style.bred + "{} exist".format(textfile) + style.bgreen)
+else:
+    print("{} Does not exist".format(textfile))
+
 
     # character functions
 def encryptChar(char: str, num: int):
