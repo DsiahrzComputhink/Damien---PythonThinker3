@@ -73,6 +73,5 @@ def decryptSentence(string: str, num: int):
 
 string = "boogly moogly"
 
-e = encryptChar("y",6)
-print(encryptSentence(string,6))
+e = encryptSentence(string,6)
 print(decryptSentence("huumr ",6))
