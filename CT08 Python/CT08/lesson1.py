@@ -74,8 +74,7 @@ def decryptSentence(string: str, num: int):
 def encryptFile(content: str, num: int):
     decryptedlist
     for line in content:
-        encryptSentence(line, num)
-        
+        decryptedlist += encryptSentence(line, num)
 
 
 
