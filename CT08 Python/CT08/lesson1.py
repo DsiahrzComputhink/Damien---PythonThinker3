@@ -44,3 +44,5 @@ string = "A"
 
 encrypt = ord(string)
 print(encrypt)
+with open(textfile, "r") as file:
+        content = file.read()
