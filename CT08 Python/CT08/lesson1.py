@@ -54,6 +54,7 @@ def decryptChar(char: str, num: int):
         asciinum += 126
 
     return chr(asciinum)
+
 string = "A"
 
 encryptChar(string,942)
