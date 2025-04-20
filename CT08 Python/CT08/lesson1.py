@@ -52,5 +52,5 @@ def decryptChar(char: str, num: int):
 
     return chr(asciinum)
 
-    # 
+    # 127
 string = "this is a funny sentence oooooooo"
