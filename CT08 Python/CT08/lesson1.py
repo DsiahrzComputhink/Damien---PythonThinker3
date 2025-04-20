@@ -38,7 +38,7 @@ FilePath = os.getcwd()
 # if os.path.exists(textfile):
 #    print("hi")
       
-minrange = 32
+ascii_start = 32
 maxrange = 126
 
     # 333331
