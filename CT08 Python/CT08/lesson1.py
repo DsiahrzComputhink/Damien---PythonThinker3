@@ -33,6 +33,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 
 import os
+import time
 
 
 FilePath = os.getcwd()
@@ -85,6 +86,11 @@ def decryptFile(content: str, num: int):
         decryptedlist += f"\n{decryptedsentence}"
     return decryptedlist
 
+def BruteDecryptFile(content: str, num: int):
+    for i in range(95):
+        decryptFile 
+        
+    
 
 with open(textfile, "r") as file:
     content = file.readlines()
