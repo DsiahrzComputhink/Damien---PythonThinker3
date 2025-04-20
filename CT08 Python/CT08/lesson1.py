@@ -36,7 +36,7 @@ import os
 
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","Text Files",)
+textfile = os.path.join(FilePath,"ARCHIVE","Text Files","TOPIC-05 [ASCII],")
 
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
