@@ -36,7 +36,7 @@ FilePath = os.getcwd()
 # textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
 
 # if os.path.exists(textfile):
-    print("hi")
+#    print("hi")
       
 
 
@@ -46,4 +46,3 @@ string = "A"
 encrypt = ord(string)
 print(encrypt)
 with open(textfile, "r") as file:
-        content = file.read()
