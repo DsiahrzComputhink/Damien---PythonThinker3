@@ -88,7 +88,10 @@ def decryptFile(content: str, num: int):
 
 def BruteDecryptFile(content: str, num: int):
     for i in range(95):
-        DecryptFILE = decryptFile(content,i)
+        decrypted = decryptFile(content,i)
+        for line in decrypted:
+            print(line)
+            
         
     
 
