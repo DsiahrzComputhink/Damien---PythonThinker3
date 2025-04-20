@@ -55,4 +55,4 @@ def decryptChar(char: str, num: int):
 
     return chr(asciinum)
 
-string = "this is a funny sentence ooooo"
+string = "this is a funny sentence oooooooo"
