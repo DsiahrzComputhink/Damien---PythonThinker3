@@ -28,4 +28,6 @@ class style():
     bwhite = '\033[97m'
 
     RESET = '\033[0m'
+
 LINE = style.bgray + "------------------------------" + style.RESET
+
