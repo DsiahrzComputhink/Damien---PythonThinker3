@@ -71,7 +71,9 @@ def decryptSentence(string: str, num: int):
         decryptedlist += decryptChar(char,num)
     return decryptedlist
 
+def encryptFile(content: str, num: int):
+    for line in content:
 
+        
 with open(textfile, "r") as file:
     content = file.read()
-    print(f"File content with 'with': {content}")
