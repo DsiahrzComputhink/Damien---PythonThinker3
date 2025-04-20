@@ -81,7 +81,7 @@ def encryptFile(content: str, num: int):
 
 
 with open(textfile, "r") as file:
-    content = file.read()
+    content = file.readlines()
 
 e = encryptFile(content, 10)
 print(e)
