@@ -42,9 +42,9 @@ minrange = 32
 maxrange = 126
 
 while asciinum > 126:
-    print(thing)
-    thing -= 126
-print(thing)
+    print(asciinum)
+    asciinum -= 126
+print(asciinum)
 
 
 string = "A"
