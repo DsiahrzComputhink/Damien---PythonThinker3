@@ -31,7 +31,7 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-string = ""
+string = "A"
 
 encrypt = ord(string)
 print(encrypt)
