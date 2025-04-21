@@ -112,6 +112,8 @@ def console():
         print(style.bblue + "5" + style.RESET,"            ","Brute Force File")
         print(LINE)
         input = input()
+        if input.isnumeric():
+            print(style.b)
         stop += 1
 
 BruteDecryptFile(content)
