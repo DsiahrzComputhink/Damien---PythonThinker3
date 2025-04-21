@@ -122,8 +122,9 @@ def console():
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
-                    print(encryptSentence(sentence,int(number)))
-                    print("")
+                    encrypted = encryptSentence(sentence,int(number))
+                    print(LINE)
+                    
                 else:
                     print(style.bred + "Number is not numeric")
         else:
