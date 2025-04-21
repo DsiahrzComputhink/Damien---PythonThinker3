@@ -118,7 +118,7 @@ def console():
                 sentence = input("")
                 print("Please input a number to encrypt")
                 number = input("")
-                
+                number 
         else:
             print(style.bred + "Command does not exist")
         stop += 1
