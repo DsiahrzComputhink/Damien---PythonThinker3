@@ -123,6 +123,7 @@ def console():
                 number = input("")
                 if number.isnumeric():
                     print(encryptSentence(sentence,int(number)))
+                    print("")
                 else:
                     print(style.bred + "Number is not numeric")
         else:
