@@ -114,7 +114,7 @@ def console():
         command = input("")
         if command.isnumeric():
             if command == 1:
-                
+                print("")
         else:
             print(style.bred + "Command does not exist")
         stop += 1
