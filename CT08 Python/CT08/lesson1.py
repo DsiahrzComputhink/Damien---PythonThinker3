@@ -119,7 +119,9 @@ def console():
                 print("Please input a number to encrypt")
                 number = input("")
                 if number.isnumeric():
-                    encryptSentence()
+                    encryptSentence(sentence,number)
+                else:
+                    print(style.bred + "")
         else:
             print(style.bred + "Command does not exist")
         stop += 1
