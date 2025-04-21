@@ -113,7 +113,7 @@ def console():
         print(LINE)
         input = input("")
         if input.isnumeric():
-            print("hi")
+            print("")
         else:
             print(style.bred + "Command does not exist")
         stop += 1
