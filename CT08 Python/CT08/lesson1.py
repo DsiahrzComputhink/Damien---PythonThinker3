@@ -124,7 +124,7 @@ def console():
                 if number.isnumeric():
                     encrypted = encryptSentence(sentence,int(number))
                     print(LINE)
-                    
+                    print(style.bpurple + "")
                 else:
                     print(style.bred + "Number is not numeric")
         else:
