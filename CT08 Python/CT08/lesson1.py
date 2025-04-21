@@ -119,7 +119,7 @@ def console():
                 print("Please input a number to encrypt")
                 number = input("")
                 if number.isnumeric():
-                    encryptSentence(sentence,number)
+                    encryptSentence(sentence,int(number))
                 else:
                     print(style.bred + "Number is not numeric")
         else:
