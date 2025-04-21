@@ -118,7 +118,8 @@ def console():
                 sentence = input("")
                 print("Please input a number to encrypt")
                 number = input("")
-                number 
+                if number.isnumeric():
+                    encryptSentence()
         else:
             print(style.bred + "Command does not exist")
         stop += 1
