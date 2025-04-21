@@ -115,7 +115,8 @@ def console():
         if command.isnumeric():
             if command == 1:
                 print("Please input a sentence")
-                sentence == 2:
+                sentence = input("")
+                f
         else:
             print(style.bred + "Command does not exist")
         stop += 1
