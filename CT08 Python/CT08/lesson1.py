@@ -119,6 +119,7 @@ def console():
                 sentence = input("")
                 print(LINE)
                 print("Please input a number to encrypt")
+                print(LINE)
                 number = input("")
                 if number.isnumeric():
                     print(encryptSentence(sentence,int(number)))
