@@ -113,7 +113,8 @@ def console():
         print(LINE)
         command = input("")
         if command.isnumeric():
-            print("")
+            if command == 1:
+                
         else:
             print(style.bred + "Command does not exist")
         stop += 1
