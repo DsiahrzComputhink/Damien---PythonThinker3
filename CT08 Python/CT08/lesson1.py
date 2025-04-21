@@ -113,7 +113,7 @@ def console():
         print(LINE)
         input = input()
         if input.isnumeric():
-            print(style.bred + "Command is not ")
+            print(style.bred + "Command does not exist")
         stop += 1
 
 BruteDecryptFile(content)
