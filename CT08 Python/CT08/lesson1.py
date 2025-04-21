@@ -113,7 +113,7 @@ def console():
         print(LINE)
         input = input()
         if input.isnumeric():
-            print(style.b)
+            print(style.bred + "Com")
         stop += 1
 
 BruteDecryptFile(content)
