@@ -111,8 +111,8 @@ def console():
         print(style.bblue + "4" + style.RESET,"                ","Decrypt File")
         print(style.bblue + "5" + style.RESET,"            ","Brute Force File")
         print(LINE)
-        input = input("")
-        if input.isnumeric():
+        command = input("")
+        if command.isnumeric():
             print("")
         else:
             print(style.bred + "Command does not exist")
