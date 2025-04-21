@@ -121,7 +121,7 @@ def console():
                 if number.isnumeric():
                     encryptSentence(sentence,number)
                 else:
-                    print(style.bred + "")
+                    print(style.bred + "Number is not numeric")
         else:
             print(style.bred + "Command does not exist")
         stop += 1
