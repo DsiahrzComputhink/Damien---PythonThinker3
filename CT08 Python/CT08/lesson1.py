@@ -113,7 +113,7 @@ def console():
         print(LINE)
         command = input("")
         if command.isnumeric():
-            if command == 1:
+            if int(command) == 1:
                 print("Please input a sentence")
                 sentence = input("")
                 print("Please input a number to encrypt")
