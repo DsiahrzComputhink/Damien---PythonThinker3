@@ -29,7 +29,7 @@ class style():
 
     RESET = '\033[0m'
 
-LINE = style.bgray + "------------------------------" + style.RESET
+LINE = style.bgray + "-------------------------------" + style.RESET
 
 
 import os
@@ -87,15 +87,31 @@ def decryptFile(content: str, num: int):
     return decryptedlist
 
 def BruteDecryptFile(content: str):
+    num = 0.5
     for i in range(95):
         decrypted = decryptFile(content,i)
         print(decrypted)
         print("[",style.bcyan + f"Shifted by {i}" + style.RESET,"]")
-        time.sleep(0.5)
-        
-    
+        time.sleep(num)
+        if num > 0.25:
+            num -= 0.01
 
 with open(textfile, "r") as file:
     content = file.readlines()
 
+def console():
+    stop = 0
+    while stop == 0:
+        print(LINE)
+        print("ENCRYPTION / DECRYPTION CONSOLE")
+        print(LINE)
+        print(style.bblue + "1" + style.RESET,"            ","Encrypt Sentence")
+        print(style.bblue + "2" + style.RESET,"            ","Decrypt Sentence")
+        print(style.bblue + "3" + style.RESET,"                ","Encrypt File")
+        print(style.bblue + "4" + style.RESET,"                ","Decrypt File")
+        print(style.bblue + "5" + style.RESET,"            ","Brute Force File")
+        print(LINE)
+        stop += 1
+
 BruteDecryptFile(content)
+console()
