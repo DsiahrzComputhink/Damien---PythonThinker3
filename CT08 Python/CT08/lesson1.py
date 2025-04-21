@@ -115,7 +115,9 @@ def console():
         if command.isnumeric():
             if int(command) == 1:
                 print("Please input a sentence")
+                print(LINE)
                 sentence = input("")
+                print(LINE)
                 print("Please input a number to encrypt")
                 number = input("")
                 if number.isnumeric():
