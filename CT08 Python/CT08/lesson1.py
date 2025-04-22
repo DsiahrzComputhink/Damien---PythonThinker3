@@ -144,7 +144,6 @@ def console():
                 else:
                     print(style.bred + "Number is not numeric")
             if int(command) == 3:
-                print(LINE)
                 print("Please input a number to encrypt")
                 print(LINE)
                 number = input("")
