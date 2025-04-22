@@ -150,7 +150,7 @@ def console():
                 if number.isnumeric():
                     encrypted = encryptFile(content,int(number))
                     print(LINE)
-                    print(style.bpurple + "Decrypted File:" + style.RESET,f"{sentence}")
+                    print(style.bpurple + "Decrypted File:" + style.RESET,f"{content}")
                     print(style.bpurple + "Encrypted File:" + style.RESET,f"{encrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
@@ -159,7 +159,7 @@ def console():
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
-                    encrypted = encryptSentence(sentence,int(number))
+                    decrypted = encryptSentence(content,int(number))
                     print(LINE)
                     print(style.bpurple + "Encyrpted Sentence:" + style.RESET,f"{content}")
                     print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{decrypted}")
