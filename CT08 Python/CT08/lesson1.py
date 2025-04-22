@@ -137,7 +137,7 @@ def console():
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
-                    decrypted = decryptSentenceptSentence(sentence,int(number))
+                    decrypted = decryptSentence(sentence,int(number))
                     print(LINE)
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{sentence}")
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{encrypted}")
