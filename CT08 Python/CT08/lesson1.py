@@ -134,4 +134,5 @@ def console():
             print(style.bred + "Command does not exist")
         stop += 1
 
+encry
 console()
