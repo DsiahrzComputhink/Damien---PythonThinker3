@@ -152,7 +152,7 @@ def console():
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
-                    encrypted = encryptSentence(sentence,int(number))
+                    encrypted = encryptFile(sentence,int(number))
                     print(LINE)
                     print(style.bpurple + "Decrypted File:" + style.RESET,f"{sentence}")
                     print(style.bpurple + "Encrypted File:" + style.RESET,f"{encrypted}")
