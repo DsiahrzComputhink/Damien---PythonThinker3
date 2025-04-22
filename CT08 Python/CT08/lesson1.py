@@ -140,7 +140,7 @@ def console():
                     decrypted = decryptSentence(sentence,int(number))
                     print(LINE)
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{sentence}")
-                    print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{decrypted}")
+                    print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{decrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
             if int(command) == 3:
