@@ -155,10 +155,6 @@ def console():
                 else:
                     print(style.bred + "Number is not numeric")
             elif int(command) == 4:
-                print("Please input a sentence")
-                print(LINE)
-                sentence = input("")
-                print(LINE)
                 print("Please input a number to encrypt")
                 print(LINE)
                 number = input("")
