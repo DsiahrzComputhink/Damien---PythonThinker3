@@ -90,7 +90,7 @@ def BruteDecryptFile(content: str):
     num = 0.5
     FIRSTsentence = content[0]
     for i in range(95):
-        decrypted = decryptSentence(content,i)
+        decrypted = decryptSentence(FIRSTsentence,i)
         print("[",style.bcyan + f"{decrypted} Shifted by {i}" + style.RESET,"]")
         time.sleep(num)
         if num > 0.25:
