@@ -133,7 +133,7 @@ def console():
                 print(LINE)
                 sentence = input("")
                 print(LINE)
-                print("Please input a number to encrypt")
+                print("Please input a number to decrypt")
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
