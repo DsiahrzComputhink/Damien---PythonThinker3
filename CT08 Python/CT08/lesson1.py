@@ -132,5 +132,5 @@ def console():
             print(style.bred + "Command does not exist")
         stop += 1
 
-BruteDecryptFile(content)
+
 console()
