@@ -139,7 +139,7 @@ def console():
                 if number.isnumeric():
                     encrypted = encryptSentence(sentence,int(number))
                     print(LINE)
-                    print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{sentence}")
+                    print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{sentence}")
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{encrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
