@@ -128,7 +128,7 @@ def console():
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{encrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
-            if int(command) == 2:
+            elif int(command) == 2:
                 print("Please input a sentence")
                 print(LINE)
                 sentence = input("")
@@ -141,6 +141,21 @@ def console():
                     print(LINE)
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{sentence}")
                     print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{decrypted}")
+                else:
+                    print(style.bred + "Number is not numeric")
+            if int(command) == 1:
+                print("Please input a sentence")
+                print(LINE)
+                sentence = input("")
+                print(LINE)
+                print("Please input a number to encrypt")
+                print(LINE)
+                number = input("")
+                if number.isnumeric():
+                    encrypted = encryptSentence(sentence,int(number))
+                    print(LINE)
+                    print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{sentence}")
+                    print(style.bpurple + "Encrypted Sentence:" + style.RESET,f"{encrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
         else:
