@@ -165,7 +165,7 @@ def console():
                     print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{decrypted}")
                 else:
                     print(style.bred + "Number is not numeric")
-            elif command == 5:
+            elif int(command) == 5:
                 BruteDecryptFile(content)
         else:
             print(style.bred + "Command does not exist" + style.RESET)
