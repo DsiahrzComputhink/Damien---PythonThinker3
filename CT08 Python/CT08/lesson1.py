@@ -110,7 +110,7 @@ def console():
         print(style.bblue + "3" + style.RESET,"                ","Encrypt File")
         print(style.bblue + "4" + style.RESET,"                ","Decrypt File")
         print(style.bblue + "5" + style.RESET,"            ","Brute Force File")
-        rint(style.bblue + "5" + style.RESET,"            ","Brute Force File")
+        print(style.bblue + "6" + style.RESET,"            ","Brute Force File")
         print(LINE)
         command = input("")
         if command.isnumeric():
