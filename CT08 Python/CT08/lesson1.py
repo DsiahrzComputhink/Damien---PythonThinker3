@@ -166,9 +166,9 @@ def console():
                 else:
                     print(style.bred + "Number is not numeric")
             elif command == 5:
-                print(BruteDecryptFile(content))
+                BruteDecryptFile(content)
         else:
-            print(style.bred + "Command does not exist")
+            print(style.bred + "Command does not exist" + style.RESET)
         stop += 1
 
 
