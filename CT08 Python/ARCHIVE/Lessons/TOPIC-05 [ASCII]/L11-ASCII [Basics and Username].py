@@ -210,6 +210,7 @@ def permuser(username,userdb: dict) -> None:
 def console():
     stop = 0
     signedin = 0
+    commandconsole = 0
     while stop == 0:
         if signedin == 0:
             print(LINE)
