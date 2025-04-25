@@ -111,7 +111,7 @@ def createusername(username: str, length: int = 12):
             print(LINE)
             print(style.bblue + "Welcome" + style.RESET, f"{username}.")
             print(style.bblue + "Your Password is:" + style.RESET, f"{password}.")
-            return username
+            return True
 
 def updatepassword(username: str):
     if username in userDatabase:
@@ -225,9 +225,10 @@ def console():
                 if int(command) == 1:
                     print(LINE)
                     username = input(style.bblue + "Input a Username: " + style.RESET)
-                    createusername(username)
-                    savedatabase(userDatabase)
-                    signedin = 1
+                    allow = createusername(username)
+                    if allow == True:
+                        savedatabase(userDatabase)
+                        signedin = 1
                     time.sleep(1)
                 if int(command) == 2:
                     username = login()
