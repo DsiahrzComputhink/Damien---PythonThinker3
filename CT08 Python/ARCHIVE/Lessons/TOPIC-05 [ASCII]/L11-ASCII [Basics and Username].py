@@ -293,7 +293,7 @@ def console():
                                 viewdatabase(userDatabase,True)
                                 time.sleep(2)
                             if int(command) == 2:
-                                permuser(username,userDatabase,)
+                                permuser(username,userDatabase,userDatabase[f"{user}"]['PERMS'])
                             if int(command) == 3:
                                 commandconsole = 0
 
