@@ -310,7 +310,7 @@ def console():
                     print(style.bred + "Command does not exist" + style.RESET)
             elif commandconsole == 1:
                         print(LINE)
-                        print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
+                        print("{:<13}{:>30}".format("Console", style.bblue + f"{username}" + style.RESET))
                         print(LINE)
                         print(style.bblue + "1" + style.RESET,"                  ","View Database")
                         print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
