@@ -327,7 +327,7 @@ def console():
                                 print(LINE)
                                 userNum = 0
                                 for user in userDatabase:
-                                    time.sleep(1)
+                                    time.sleep(0.5 / )
                                     print("{:<13}{:>30}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}"))
                                     userNum += 1
                                 print(LINE)
