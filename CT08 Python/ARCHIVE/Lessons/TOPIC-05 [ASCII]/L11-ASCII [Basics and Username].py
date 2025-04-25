@@ -322,6 +322,8 @@ def console():
                                 viewdatabase(userDatabase,True)
                                 time.sleep(1)
                             if int(command) == 2:
+                                print(LINE)
+                                print(LINE)
                                 insert = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
                                 time.sleep(1)
