@@ -325,6 +325,8 @@ def console():
                                 print(LINE)
                                 print(style.bblue + "Please type in a username")
                                 print(LINE)
+                                for user in userDatabase:
+                                    print(style.bblue + "1" + style.RESET,"                  ","View Database")
                                 insert = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
                                 time.sleep(1)
