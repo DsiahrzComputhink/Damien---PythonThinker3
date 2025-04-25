@@ -246,8 +246,8 @@ def console():
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
                     command = input("")
                     if command.isnumeric():
-                if int(command) == 1:
-                    updatepassword(username)
+                        if int(command) == 1:
+                            viewdatabase(userDatabase)
                     # ---
                 if int(command) == 4:
                     print(LINE)
