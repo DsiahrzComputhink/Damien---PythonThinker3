@@ -264,7 +264,7 @@ def console():
                         print(style.bred + "Command does not exist" + style.RESET)
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
-            elif command console == 1:
+            elif commandconsole == 1:
                         print(LINE)
                         print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
                         print(LINE)
