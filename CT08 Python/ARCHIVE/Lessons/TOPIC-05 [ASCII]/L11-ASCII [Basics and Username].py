@@ -213,10 +213,12 @@ def permuser(username,userdb: dict,perms: string) -> None:
     # 0 - Client
     # 1 - Moderator
     # 2 - Administrator
-    if permlevel == 0:
-        print("")
-    if permlevel == 1:
-        p
+    if perms == 'CLIENT':
+        print("peasant")
+    elif perms == 'CLIENT':
+        print("peasant")
+    elif perms == 'CLIENT':
+        print("peasant")
 
 def console():
     stop = 0
