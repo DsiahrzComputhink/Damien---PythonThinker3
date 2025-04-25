@@ -291,9 +291,10 @@ def console():
                         if command.isnumeric():
                             if int(command) == 1:
                                 viewdatabase(userDatabase,True)
-                                time.sleep(2)
+                                time.sleep(1)
                             if int(command) == 2:
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
+                                time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
 
