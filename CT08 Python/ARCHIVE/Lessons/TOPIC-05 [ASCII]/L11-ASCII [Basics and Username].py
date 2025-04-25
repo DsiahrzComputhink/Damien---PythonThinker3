@@ -293,7 +293,7 @@ def console():
                                 viewdatabase(userDatabase,True)
                                 time.sleep(2)
                             if int(command) == 2:
-                                permuser(username)
+                                permuser(username,userDatabase,)
                             if int(command) == 3:
                                 commandconsole = 0
 
