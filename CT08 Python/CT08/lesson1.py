@@ -169,7 +169,8 @@ def console():
             elif int(command) == 5:
                 BruteDecryptFile(content)
             elif int(command) == 6:
-                print(style.bgreen + "Program closing...")
+                print(style.bgreen + "Program closing..." + style.RESET)
+                print("Goodbye!")
         else:
             print(style.bred + "Command does not exist" + style.RESET)
         stop += 1
