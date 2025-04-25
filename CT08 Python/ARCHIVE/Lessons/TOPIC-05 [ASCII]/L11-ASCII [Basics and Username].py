@@ -327,7 +327,7 @@ def console():
                                 print(LINE)
                                 userNum = 0
                                 for user in userDatabase:
-                                    time.sleep(0.5 / int(len(userDatabase))){{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}
+                                    time.sleep(0.5 / int(len(userDatabase)))
                                     print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bred + f"{userDatabase[f"{username}"]['PERMS']}" + style.RESET))
                                     userNum += 1
                                 print(LINE)
