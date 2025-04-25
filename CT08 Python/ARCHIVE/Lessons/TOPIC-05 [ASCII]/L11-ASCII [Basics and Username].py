@@ -229,7 +229,8 @@ def console():
                     if allow == True:
                         savedatabase(userDatabase)
                         signedin = 1
-                    time.sleep(1)
+                    else:
+                        time.sleep(1)
                 if int(command) == 2:
                     username = login()
                     if username != None:
