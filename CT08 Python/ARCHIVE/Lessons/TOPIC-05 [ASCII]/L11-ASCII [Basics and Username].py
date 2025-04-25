@@ -178,6 +178,7 @@ def viewdatabase(userdb: dict,admin: bool) -> None:
     if admin == False:
         for user in userdb:
             password = userdb[f"{user}"]['PASSWORD']
+            rank = userdb[f"{user}"]['PERMS']
             print(f"{user}:","[")
             print("    ",style.bred + "Permissions:" + style.RESET,"[")
             print("    ",style.bcyan + "Password:" + style.RESET,f"{'#' * len(password)}")
