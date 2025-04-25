@@ -28,11 +28,12 @@ class style():
     bwhite = '\033[97m'
 
     RESET = '\033[0m'
-LINE = style.bgray + "------------------------------" + style.RESET
+LINE = style.bgray + "----------------------------------" + style.RESET
 
 import time
 import string
 import random
+import os
 
 # random.choice([List,List2]) chooses a random element from the list.
 
@@ -54,6 +55,20 @@ import random
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
+
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+
+def loaddatabase(textfile):
+    with open(textfile, "r") as file:
+        filedata = file.read()
+    datadictionary = eval(filedata)
+    return datadictionary
+
 def generatepassword(length: int = 12) -> str:
     if length < 12:
         print(style.bred + "Length must be more than 12 Characters." + style.RESET)
@@ -71,21 +86,34 @@ def generatepassword(length: int = 12) -> str:
             password += random.choice(string.punctuation)
     return password
 
-# Nested Dictionary
-userDatabase = {}
-
-def createusername(username: str):
-    if username in userDatabase:
-        print(style.bred + f"There is already a user named {username}" + style.RESET)
+def createusername(username: str, length: int = 12):
+    if len(username) < 3:
+        print(style.bred + f"Username can not be less than 3 letters long" + style.RESET)
     else:
-        password = generatepassword()
-        userDatabase[f"{username}"] = {}
-        userDatabase[f"{username}"]['PASSWORD'] = password
+        spaces = 0
+        for i in username:
+                    if i == " ":
+                        spaces += 1
+        if spaces > 0:
+            print(style.byellow + "Username can not contain spaces" + style.RESET)
 
-        userDatabase[f"{username}"]['USEDPASSWORDS'] = [password] # usedpasswords is a list
-    return username
+        if username in userDatabase:
+            print(style.bred + f"There is already a user named {username}" + style.RESET)
+            return None
+        else:
+            password = generatepassword(length)
+            userDatabase[f"{username}"] = {}
+            userDatabase[f"{username}"]['PASSWORD'] = password
 
-def updatepassword(username: str,password: str):
+            userDatabase[f"{username}"]['USEDPASSWORDS'] = [password] # usedpasswords is a list
+            userDatabase[f"{username}"]['PERMS'] = "CLIENT"
+
+            print(LINE)
+            print(style.bblue + "Welcome" + style.RESET, f"{username}.")
+            print(style.bblue + "Your Password is:" + style.RESET, f"{password}.")
+            return username
+
+def updatepassword(username: str):
     if username in userDatabase:
         stop = 0
         while stop == 0:
@@ -138,6 +166,7 @@ def login():
         loginpassword = input(style.bcyan + "Password: " + style.RESET)
         if loginpassword == userDatabase[f"{loginusername}"]['PASSWORD']:
             print(style.bblue + f"You are now logged into {loginusername}" + style.RESET)
+            return loginusername
         else:
             print(style.bred + "Invalid Password." + style.RESET)
             return None
@@ -149,16 +178,80 @@ def viewdatabase(userdb: dict) -> None:
     for user in userdb:
         password = userdb[f"{user}"]['PASSWORD']
         print(f"{user}:","[")
-        print("    ",style.bcyan + "Password:" + style.RESET,style.bpurple + f"{'*' * len(password)}")
+        print("    ",style.bcyan + "Password:" + style.RESET,f"{'#' * len(password)}")
         print("    ",style.byellow + "Used Passwords:" + style.RESET,"[")
         for usedpassword in userdb[f"{user}"]['USEDPASSWORDS']:
-            print("    ","    ",f"{'*' * len(usedpassword)}")
+            print("    ","    ",f"{'#' * len(usedpassword)}")
         print("    ","]")
         print("]")
 
+def savedatabase(userdb: dict) -> None:
+    with open(textfile, "w") as file:
+        file.write(str(userdb))
+
+def permuser(username,userdb: dict) -> None:
+    print('hi')
+
+def console():
+    stop = 0
+    signedin = 0
+    while stop == 0:
+        if signedin == 0:
+            print(LINE)
+            print("ASCII User Management System [UMS]")
+            print(LINE)
+            print(style.bblue + "1" + style.RESET,"                        ","Sign In")
+            print(style.bblue + "2" + style.RESET,"                          ","Login")
+            print(style.bblue + "3" + style.RESET,"                  ","Close Program")
+            print(LINE)
+            command = input("")
+            if command.isnumeric():
+                if int(command) == 1:
+                    print(LINE)
+                    username = input(style.bblue + "Input a Username: " + style.RESET)
+                    createusername(username)
+                    signedin = 1
+                    time.sleep(1)
+                if int(command) == 2:
+                    username = login()
+                    if username != None:
+                        signedin = 1
+                if int(command) == 3:
+                    print(style.bgreen + "Program closing... Goodbye!" + style.RESET)
+                    stop += 1
+            else:
+                print(style.bred + "Command does not exist" + style.RESET)
+        elif signedin == 1:
+            print(LINE)
+            print("{:<13}{:>30}".format("Welcome", style.bblue + username + style.RESET))
+            print(LINE)
+            print(style.bblue + "1" + style.RESET,"                ","Change Password")
+            print(style.bblue + "2" + style.RESET,"                          ","Login")
+            print(style.bblue + "3" + style.RESET,"                  ","View Commands")
+            print(style.bblue + "4" + style.RESET,"                       ","Sign Out")
+            print(LINE)
+            command = input("")
+            if command.isnumeric():
+                if int(command) == 1:
+                    updatepassword(username)
+                if int(command) == 2:
+                    print('hi')
+                if int(command) == 3:
+                    print(style.bblue + username + style.RESET)
+                    print(LINE)
+                    print(style.bblue + "1" + style.RESET,"                ","Change Password")
+                    print(style.bblue + "2" + style.RESET,"                          ","Login")
+                    print(style.bblue + "3" + style.RESET,"                  ","View Commands")
+                    print(style.bblue + "4" + style.RESET,"                       ","Sign Out")
+                if int(command) == 4:
+                    print(LINE)
+                    print(style.byellow + "Signing Out..." + style.RESET)
+                    signedin = 0
+                    username = None
+            else:
+                print(style.bred + "Command does not exist" + style.RESET)
 
 
-createusername("username")
-updatepassword("username","password")
-login()
-viewdatabase(userDatabase)
+userDatabase = loaddatabase(textfile)
+
+console()

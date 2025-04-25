@@ -40,3 +40,39 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 print(style.bgray + "Placeholder" + style.RESET)
 # Text Colour Function ⬆
+
+import os
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
+
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+# File Input\Output Dependency ⬆
+
+def console():
+    stop = 0
+    while stop == 0:
+        print(LINE)
+        print("ASCII User Management System [UMS]")
+        print(LINE)
+        print(style.bblue + "1" + style.RESET,"                        ","a thing")
+        print(style.bblue + "2" + style.RESET,"                  ","another thing")
+        print(style.bblue + "3" + style.RESET,"                  ","Close Program")
+        print(LINE)
+        command = input("")
+        if command.isnumeric():
+            if int(command) == 1:
+                print('hi')
+            if int(command) == 2:
+                print('hi')
+            if int(command) == 3:
+                print(style.bgreen + "Program closing..." + style.RESET)
+                print("Goodbye!")
+                stop += 1   
+        else:
+            print(style.bred + "Command does not exist" + style.RESET)
+
+# Default Console Function ⬆
