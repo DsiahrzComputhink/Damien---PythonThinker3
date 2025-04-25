@@ -176,7 +176,7 @@ def login():
         
 def viewdatabase(userdb: dict,admin: bool) -> None:
     print(LINE)
-    print(style.bg)
+    print(style.bgreen + "User Database" + style.RESET)
     print(LINE)
     if admin == False:
         for user in userdb:
