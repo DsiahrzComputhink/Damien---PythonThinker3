@@ -218,7 +218,7 @@ def permuser(username,userdb: dict,perms: string) -> None:
     elif perms == 'MODERATOR':
         print("cool")
     elif perms == 'ADMINISTRATOR':
-        print("pekasant")
+        print("bow down")
 
 def console():
     stop = 0
@@ -289,6 +289,8 @@ def console():
                             if int(command) == 1:
                                 viewdatabase(userDatabase,True)
                                 time.sleep(2)
+                            if int(command) == 2:
+                                permuser(username)
                             if int(command) == 3:
                                 commandconsole = 0
 
