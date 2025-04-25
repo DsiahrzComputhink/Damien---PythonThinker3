@@ -237,12 +237,13 @@ def console():
                 if int(command) == 2:
                     print('hi')
                 if int(command) == 3:
+                    print(LINE)
                     print(style.bblue + username + style.RESET)
                     print(LINE)
                     print(style.bblue + "1" + style.RESET,"                ","Change Password")
                     print(style.bblue + "2" + style.RESET,"                          ","Login")
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
-                    print(style.bblue + "4" + style.RESET,"                       ","Sign Out")
+                    print(style.bblue + "4" + style.RESET,"           ","Exit Command Console")
                 if int(command) == 4:
                     print(LINE)
                     print(style.byellow + "Signing Out..." + style.RESET)
