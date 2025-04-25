@@ -109,7 +109,7 @@ def console():
         print(style.bblue + "2" + style.RESET,"            ","Decrypt Sentence")
         print(style.bblue + "3" + style.RESET,"                ","Encrypt File")
         print(style.bblue + "4" + style.RESET,"                ","Decrypt File")
-        print(style.bblue + "5" + style.RESET,"            ","Brute Force File")
+        print(style.bblue + "5" + style.RESET,"          ","Brute Decrypt File")
         print(style.bblue + "6" + style.RESET,"               ","Close Program")
         print(LINE)
         command = input("")
@@ -160,7 +160,7 @@ def console():
                 print(LINE)
                 number = input("")
                 if number.isnumeric():
-                    decrypted = encryptSentence(content,int(number))
+                    decrypted = encryptFile(content,int(number))
                     print(LINE)
                     print(style.bpurple + "Encyrpted Sentence:" + style.RESET,f"{content}")
                     print(style.bpurple + "Decrypted Sentence:" + style.RESET,f"{decrypted}")
@@ -171,9 +171,9 @@ def console():
             elif int(command) == 6:
                 print(style.bgreen + "Program closing..." + style.RESET)
                 print("Goodbye!")
+                stop += 1
         else:
             print(style.bred + "Command does not exist" + style.RESET)
-        stop += 1
 
 
 console()
