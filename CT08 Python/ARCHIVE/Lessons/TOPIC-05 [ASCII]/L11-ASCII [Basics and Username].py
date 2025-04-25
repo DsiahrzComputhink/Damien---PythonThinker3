@@ -221,7 +221,7 @@ def permuser(username,userdb: dict,perms: string) -> None:
         elif perms == 'ADMINISTRATOR':
             print("bow down")
     else:
-        print()
+        print(style.bred + "Username does not exist in database." + style.RESET)
 
 def console():
     stop = 0
