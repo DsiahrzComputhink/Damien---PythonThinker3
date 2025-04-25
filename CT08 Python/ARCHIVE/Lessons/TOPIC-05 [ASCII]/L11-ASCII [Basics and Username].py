@@ -217,7 +217,7 @@ def permuser(user,userdb: dict,perms: string) -> None:
         if perms == 'CLIENT':
             userdb[f"{user}"]['PERMS'] = 'CLIENT'
         elif perms == 'MODERATOR':
-            userdb[f"{user}"]['PERMS'] = 'CLIENT'
+            userdb[f"{user}"]['PERMS'] = 'MODERATOR'
         elif perms == 'ADMINISTRATOR':
             userdb[f"{user}"]['PERMS'] = 'ADMINISTRATOR'
     else:
