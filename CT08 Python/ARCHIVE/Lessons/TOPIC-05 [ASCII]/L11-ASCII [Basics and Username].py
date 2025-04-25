@@ -279,6 +279,8 @@ def console():
                         if command.isnumeric():
                             if int(command) == 1:
                                 viewdatabase(userDatabase,True)
+                            if int(command) == 3:
+                                commandconsole = 0
 
 
 userDatabase = loaddatabase(textfile)
