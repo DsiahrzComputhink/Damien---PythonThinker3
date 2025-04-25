@@ -240,41 +240,41 @@ def console():
             else:
                 print(style.bred + "Command does not exist" + style.RESET)
         elif signedin == 1:
-            print(LINE)
-            print("{:<13}{:>30}".format("Welcome", style.bblue + username + style.RESET))
-            print(LINE)
-            print(style.bblue + "1" + style.RESET,"                ","Change Password")
-            print(style.bblue + "2" + style.RESET,"                  ","View Commands")
-            print(style.bblue + "3" + style.RESET,"                       ","Sign Out")
-            print(LINE)
-            command = input("")
-            if command.isnumeric():
-                if int(command) == 1:
-                    updatepassword(username)
-                    savedatabase(userDatabase)
-                if int(command) == 2:
-                    # console
-                    print(LINE)
-                    print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
-                    print(LINE)
-                    print(style.bblue + "1" + style.RESET,"                  ","View Database")
-                    print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
-                    print(style.bblue + "3" + style.RESET,"                  ","View Commands")
-                    print(style.bblue + "3" + style.RESET,"                   ","Exit Console")
-                    command = input("")
-                    if command.isnumeric():
-                        if int(command) == 1:
-                            viewdatabase(userDatabase)
-                    # ---
-                if int(command) == 3:
-                    print(LINE)
-                    print(style.byellow + "Signing Out..." + style.RESET)
-                    signedin = 0
-                    username = None
+            if commandconsole == 0:
+                print(LINE)
+                print("{:<13}{:>30}".format("Welcome", style.bblue + username + style.RESET))
+                print(LINE)
+                print(style.bblue + "1" + style.RESET,"                ","Change Password")
+                print(style.bblue + "2" + style.RESET,"                  ","View Commands")
+                print(style.bblue + "3" + style.RESET,"                       ","Sign Out")
+                print(LINE)
+                command = input("")
+                if command.isnumeric():
+                    if int(command) == 1:
+                        updatepassword(username)
+                        savedatabase(userDatabase)
+                    if int(command) == 2:
+                        commandconsole = 1
+                    if int(command) == 3:
+                        print(LINE)
+                        print(style.byellow + "Signing Out..." + style.RESET)
+                        signedin = 0
+                        username = None
+                    else:
+                        print(style.bred + "Command does not exist" + style.RESET)
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
-            else:
-                print(style.bred + "Command does not exist" + style.RESET)
+            elif command console == 1:
+                        print(LINE)
+                        print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
+                        print(LINE)
+                        print(style.bblue + "1" + style.RESET,"                  ","View Database")
+                        print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
+                        print(style.bblue + "3" + style.RESET,"                   ","Exit Console")
+                        command = input("")
+                        if command.isnumeric():
+                            if int(command) == 1:
+                                viewdatabase(userDatabase)
 
 
 userDatabase = loaddatabase(textfile)
