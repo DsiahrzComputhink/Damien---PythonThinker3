@@ -253,6 +253,8 @@ def console():
                     print(style.byellow + "Signing Out..." + style.RESET)
                     signedin = 0
                     username = None
+                else:
+                    print(style.bred + "Command does not exist" + style.RESET)
             else:
                 print(style.bred + "Command does not exist" + style.RESET)
 
