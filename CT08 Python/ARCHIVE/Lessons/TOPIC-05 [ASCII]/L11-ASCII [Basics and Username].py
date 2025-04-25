@@ -174,7 +174,7 @@ def login():
         print(style.bred + "Username not found" + style.RESET)
         return None
         
-def viewdatabase(userdb: dict) -> None:
+def viewdatabase(userdb: dict,admin: bool) -> None:
     for user in userdb:
         password = userdb[f"{user}"]['PASSWORD']
         print(f"{user}:","[")
