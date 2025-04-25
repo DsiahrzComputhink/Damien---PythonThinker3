@@ -235,6 +235,7 @@ def console():
             if command.isnumeric():
                 if int(command) == 1:
                     updatepassword(username)
+                    savedatabase(userDatabase)
                 if int(command) == 2:
                     print('hi')
                 if int(command) == 3:
