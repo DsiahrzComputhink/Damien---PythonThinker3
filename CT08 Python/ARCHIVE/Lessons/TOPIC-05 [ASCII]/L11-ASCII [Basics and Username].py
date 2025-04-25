@@ -209,6 +209,8 @@ def savedatabase(userdb: dict) -> None:
         file.write(str(userdb))
 
 def permuser(username,userdb: dict,perms: string) -> None:
+    # PERMS:
+    # 
     if permlevel == 0:
         print("")
     if permlevel == 1:
