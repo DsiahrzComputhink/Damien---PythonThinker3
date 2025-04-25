@@ -208,8 +208,9 @@ def savedatabase(userdb: dict) -> None:
     with open(textfile, "w") as file:
         file.write(str(userdb))
 
-def permuser(username,userdb: dict,perm) -> None:
-    hi
+def permuser(username,userdb: dict,permlevel: int) -> None:
+    if permlevel == 1:
+        p
 
 def console():
     stop = 0
