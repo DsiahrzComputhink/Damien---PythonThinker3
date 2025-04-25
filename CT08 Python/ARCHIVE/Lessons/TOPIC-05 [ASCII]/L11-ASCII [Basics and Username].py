@@ -270,10 +270,11 @@ def console():
                         print(style.bblue + "1" + style.RESET,"                  ","View Database")
                         print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
                         print(style.bblue + "3" + style.RESET,"                   ","Exit Console")
+                        print(LINE)
                         command = input("")
                         if command.isnumeric():
                             if int(command) == 1:
-                                viewdatabase(userDatabase)
+                                viewdatabase(userDatabase,True)
 
 
 userDatabase = loaddatabase(textfile)
