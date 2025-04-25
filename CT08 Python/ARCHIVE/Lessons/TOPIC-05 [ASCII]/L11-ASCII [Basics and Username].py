@@ -328,7 +328,7 @@ def console():
                                 userNum = 0
                                 for user in userDatabase:
                                     time.sleep(0.5 / int(len(userDatabase)))
-                                    print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bred + [f"{username}"]['PERMS']))
+                                    print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bred + [f"{username}"]['PERMS'] + style.RESET))
                                     userNum += 1
                                 print(LINE)
                                 insert = input("")
