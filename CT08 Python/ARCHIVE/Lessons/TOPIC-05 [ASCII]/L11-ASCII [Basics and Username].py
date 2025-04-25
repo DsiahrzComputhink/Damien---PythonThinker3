@@ -243,7 +243,7 @@ def console():
                     print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
                     print(LINE)
                     print(style.bblue + "1" + style.RESET,"                  ","View Database")
-                    print(style.bblue + "2" + style.RESET,"                    ","Permissions")
+                    print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
                     command = input("")
                     if command.isnumeric():
