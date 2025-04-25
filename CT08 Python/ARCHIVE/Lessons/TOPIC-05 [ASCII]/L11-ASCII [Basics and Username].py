@@ -236,8 +236,6 @@ def console():
                     updatepassword(username)
                     savedatabase(userDatabase)
                 if int(command) == 2:
-                    print('hi')
-                if int(command) == 3:
                     # console
                     print(LINE)
                     print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
@@ -250,7 +248,7 @@ def console():
                         if int(command) == 1:
                             viewdatabase(userDatabase)
                     # ---
-                if int(command) == 4:
+                if int(command) == 3:
                     print(LINE)
                     print(style.byellow + "Signing Out..." + style.RESET)
                     signedin = 0
