@@ -214,7 +214,9 @@ def permuser(user,userdb: dict,perms: string) -> None:
     # 1 - Moderator
     # 2 - Administrator
     if user in userDatabase:
-        userdb[f"{user}"]['PERMS'] = 'CLIENT'
+        if userdb[f"{user}"]['PERMS'] == 'CLIENT':
+            print
+
         if perms == 'MODERATOR':
             userdb[f"{user}"]['PERMS'] = 'MODERATOR'
         if perms == 'ADMINISTRATOR':
