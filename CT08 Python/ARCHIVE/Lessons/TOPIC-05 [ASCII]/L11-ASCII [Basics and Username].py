@@ -175,6 +175,9 @@ def login():
         return None
         
 def viewdatabase(userdb: dict,admin: bool) -> None:
+    print(LINE)
+    print(style.bg)
+    print(LINE)
     if admin == False:
         for user in userdb:
             password = userdb[f"{user}"]['PASSWORD']
