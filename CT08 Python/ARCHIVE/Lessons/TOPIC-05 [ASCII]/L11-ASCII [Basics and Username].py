@@ -325,6 +325,7 @@ def console():
                                 print(LINE)
                                 print(style.bblue + "Please type in a username")
                                 print(LINE)
+                                userNum = 0
                                 for user in userDatabase:
                                     print(style.bblue + "1" + style.RESET,"                  ","View Database")
                                 insert = input("")
