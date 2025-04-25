@@ -220,6 +220,8 @@ def permuser(username,userdb: dict,perms: string) -> None:
             print("cool")
         elif perms == 'ADMINISTRATOR':
             print("bow down")
+    else:
+        print()
 
 def console():
     stop = 0
