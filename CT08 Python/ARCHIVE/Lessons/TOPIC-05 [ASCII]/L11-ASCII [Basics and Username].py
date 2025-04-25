@@ -215,10 +215,10 @@ def permuser(username,userdb: dict,perms: string) -> None:
     # 2 - Administrator
     if perms == 'CLIENT':
         print("peasant")
-    elif perms == 'CLIENT':
-        print("peasant")
-    elif perms == 'CLIENT':
-        print("peasant")
+    elif perms == 'MODERATOR':
+        print("cool")
+    elif perms == 'ADMINISTRATOR':
+        print("pekasant")
 
 def console():
     stop = 0
