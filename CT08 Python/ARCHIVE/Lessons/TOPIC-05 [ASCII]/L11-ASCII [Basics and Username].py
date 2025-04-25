@@ -106,7 +106,7 @@ def createusername(username: str, length: int = 12):
             userDatabase[f"{username}"]['PASSWORD'] = password
 
             userDatabase[f"{username}"]['USEDPASSWORDS'] = [password] # usedpasswords is a list
-            userDatabase[f"{username}"]['PERMS'] = "CLIENT"
+            userDatabase[f"{username}"]['PERMS'] = 'CLIENT'
 
             print(LINE)
             print(style.bblue + "Welcome" + style.RESET, f"{username}.")
