@@ -209,7 +209,7 @@ def savedatabase(userdb: dict) -> None:
         file.write(str(userdb))
 
 def permuser(username,userdb: dict) -> None:
-    print('hi')
+    hi
 
 def console():
     stop = 0
