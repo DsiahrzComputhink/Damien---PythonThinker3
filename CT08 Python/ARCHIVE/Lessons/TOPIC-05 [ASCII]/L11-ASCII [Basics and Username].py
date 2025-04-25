@@ -208,18 +208,30 @@ def savedatabase(userdb: dict) -> None:
     with open(textfile, "w") as file:
         file.write(str(userdb))
 
-def permuser(user,userdb: dict,perms: string) -> None:
+def permuser(client,user,userdb: dict,perms: string) -> None:
     # PERMS:
     # 0 - Client
     # 1 - Moderator
     # 2 - Administrator
     if user in userDatabase:
-        if userdb[f"{user}"]['PERMS'] == 'CLIENT':
+        #---
+        if userdb[f"{client}"]['PERMS'] == 'CLIENT':
             allow = 0
-        elif userdb[f"{user}"]['PERMS'] == 'MODERATOR':
+        elif userdb[f"{client}"]['PERMS'] == 'MODERATOR':
             allow = 1
-        elif userdb[f"{user}"]['PERMS'] == 'ADMINISTRATOR':
+        elif userdb[f"{client}"]['PERMS'] == 'ADMINISTRATOR':
             allow = 2
+        #---
+        if userdb[f"{user}"]['PERMS'] == 'CLIENT':
+            editallow = 0
+        elif userdb[f"{user}"]['PERMS'] == 'MODERATOR':
+            editallow = 1
+        elif userdb[f"{user}"]['PERMS'] == 'ADMINISTRATOR':
+            editallow = 2
+
+        if perms == 'CLIENT':
+            if allow < 1:
+                if editallow 
         if perms == 'MODERATOR':
             userdb[f"{user}"]['PERMS'] = 'MODERATOR'
         if perms == 'ADMINISTRATOR':
