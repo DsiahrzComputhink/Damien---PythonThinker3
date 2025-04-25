@@ -220,6 +220,8 @@ def console():
                 if int(command) == 3:
                     print(style.bgreen + "Program closing... Goodbye!" + style.RESET)
                     stop += 1
+                else:
+                    print(style.bred + "Command does not exist" + style.RESET)
             else:
                 print(style.bred + "Command does not exist" + style.RESET)
         elif signedin == 1:
