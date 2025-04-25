@@ -323,6 +323,7 @@ def console():
                                 time.sleep(1)
                             if int(command) == 2:
                                 print(LINE)
+                                print(style.bblue + "Please type in a username")
                                 print(LINE)
                                 insert = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
