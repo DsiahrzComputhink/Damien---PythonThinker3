@@ -217,9 +217,9 @@ def permuser(user,userdb: dict,perms: string) -> None:
         if perms == 'CLIENT':
             userdb[f"{user}"]['PERMS'] = 'CLIENT'
         elif perms == 'MODERATOR':
-            print("cool")
+            userdb[f"{user}"]['PERMS'] = 'CLIENT'
         elif perms == 'ADMINISTRATOR':
-            print("bow down")
+            userdb[f"{user}"]['PERMS'] = 'ADMINISTRATOR'
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
 
