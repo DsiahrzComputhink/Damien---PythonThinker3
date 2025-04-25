@@ -244,6 +244,7 @@ def console():
                     print(style.bblue + "2" + style.RESET,"                          ","Login")
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
                     print(style.bblue + "4" + style.RESET,"           ","Exit Command Console")
+                    command = input("")
                 if int(command) == 4:
                     print(LINE)
                     print(style.byellow + "Signing Out..." + style.RESET)
