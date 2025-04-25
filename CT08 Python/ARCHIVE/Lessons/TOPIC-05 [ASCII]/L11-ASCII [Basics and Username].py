@@ -237,6 +237,7 @@ def console():
                 if int(command) == 2:
                     print('hi')
                 if int(command) == 3:
+                    # console
                     print(LINE)
                     print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
                     print(LINE)
@@ -245,6 +246,7 @@ def console():
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
                     print(style.bblue + "4" + style.RESET,"           ","Exit Command Console")
                     command = input("")
+
                 if int(command) == 4:
                     print(LINE)
                     print(style.byellow + "Signing Out..." + style.RESET)
