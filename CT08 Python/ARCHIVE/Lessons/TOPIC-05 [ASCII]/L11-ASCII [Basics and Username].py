@@ -260,6 +260,7 @@ def console():
                     print(style.bblue + "1" + style.RESET,"                  ","View Database")
                     print(style.bblue + "2" + style.RESET,"            "," Change Permissions")
                     print(style.bblue + "3" + style.RESET,"                  ","View Commands")
+                    print(style.bblue + "3" + style.RESET,"                   ","Exit Console")
                     command = input("")
                     if command.isnumeric():
                         if int(command) == 1:
