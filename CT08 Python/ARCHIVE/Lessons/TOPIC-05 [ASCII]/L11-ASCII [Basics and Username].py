@@ -183,6 +183,7 @@ def viewdatabase(userdb: dict,admin: bool) -> None:
             print("    ",style.byellow + "Used Passwords:" + style.RESET,"[")
             for usedpassword in userdb[f"{user}"]['USEDPASSWORDS']:
                 print("    ","    ",f"{'#' * len(usedpassword)}")
+            
             print("    ","]")
             print("]")
 
