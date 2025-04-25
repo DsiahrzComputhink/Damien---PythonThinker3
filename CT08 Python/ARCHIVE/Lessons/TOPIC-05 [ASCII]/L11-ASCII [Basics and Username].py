@@ -215,9 +215,9 @@ def permuser(user,userdb: dict,perms: string) -> None:
     # 2 - Administrator
     if user in userDatabase:
         if userdb[f"{user}"]['PERMS'] == 'CLIENT':
-            print(style.byellow + "You do not have the permission to do this command." + style.RESET)
+            allow = 0
         elif userdb[f"{user}"]['PERMS'] == 'MODERATOR':
-            print(style.byellow + "You do not have the permission to do this command." + style.RESET)
+            allow = 1
         elif userdb[f"{user}"]['PERMS'] == 'ADMINISTRATOR':
             allow = 2
         if perms == 'MODERATOR':
