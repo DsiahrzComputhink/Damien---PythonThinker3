@@ -238,7 +238,7 @@ def console():
                     print('hi')
                 if int(command) == 3:
                     print(LINE)
-                    print(style.bblue + username + style.RESET)
+                    print("{:<13}{:>30}".format("Console", style.bblue + username + style.RESET))
                     print(LINE)
                     print(style.bblue + "1" + style.RESET,"                ","Change Password")
                     print(style.bblue + "2" + style.RESET,"                          ","Login")
