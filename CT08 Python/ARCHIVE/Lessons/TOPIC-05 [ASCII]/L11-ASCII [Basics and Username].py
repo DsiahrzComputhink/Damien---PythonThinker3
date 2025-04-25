@@ -210,6 +210,7 @@ def console():
                     print(LINE)
                     username = input(style.bblue + "Input a Username: " + style.RESET)
                     createusername(username)
+                    savedatabase(userDatabase)
                     signedin = 1
                     time.sleep(1)
                 if int(command) == 2:
