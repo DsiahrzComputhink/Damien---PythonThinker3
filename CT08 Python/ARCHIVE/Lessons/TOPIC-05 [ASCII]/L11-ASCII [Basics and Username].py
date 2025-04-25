@@ -327,7 +327,7 @@ def console():
                                 print(LINE)
                                 userNum = 0
                                 for user in userDatabase:
-                                    print(style.bblue + f"{userNum}" + style.RESET,"                  ",f"")
+                                    print(style.bblue + f"{userNum}" + style.RESET,"                  ",f"{user}")
                                     userNum += 1
                                 insert = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
