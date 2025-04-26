@@ -157,8 +157,9 @@ def show_aura_rarity(luck: float = 1.0):
         actual_chance = rarity / luck
 
         print(LINE)
-        print(f"{ListedAuras[aura]['display']}","Rarity:", fg(f"1 / {rarity:,}", 81))
+        print("Rarity:", fg(f"1 / {rarity:,}", 81))
         print(f"Actual Chance:", fg(f"1 / {format_chance(actual_chance)}", 75))
+        print(f"{ListedAuras[aura]['display']}")
         print(fg(f"Description: {ListedAuras[aura]['description']}", 244))
         print(LINE)
 
