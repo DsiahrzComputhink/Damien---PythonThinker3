@@ -45,22 +45,23 @@ Auras = {
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
-        "Natural": {
+    "Natural": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
-        "Natural": {
+
+    "Rare": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
-        "Natural": {
+    "Natural": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
-        "Natural": {
+    "Natural": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
