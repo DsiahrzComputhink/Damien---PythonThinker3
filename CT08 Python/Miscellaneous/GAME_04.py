@@ -93,6 +93,7 @@ def roll_animation(luck : int = 1.0):
     # Final result based on rarity
     selected_aura = pick_aura(luck)
 
+    
     print("\n")
     print(LINE)
     print(fg(f"1 / {selected_aura['rarity']}", 80))
