@@ -60,7 +60,7 @@ def pick_aura():
 def roll_animation():
     aura_list = list(Auras.values())
     roll_speed = 0.005
-    slowdown_rate = 1.01
+    slowdown_rate = 1.001
     speed = roll_speed
 
     # Rolling animation
