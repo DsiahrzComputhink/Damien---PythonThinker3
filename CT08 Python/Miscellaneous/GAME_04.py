@@ -100,13 +100,13 @@ Auras = {
 
 def show_aura_rarity(luck : int = 1.0):
     for aura in Auras:
-        rarity = selected_aura['rarity']
+        rarity = aura['rarity']
         print("\n")
         print(LINE)
         print("Rarity:",fg(f"1 / {rarity:,}", 81))
         print(f"Actual Chance:",fg(f"1 / {rarity / luck:,}", 75))
-        print(f"{selected_aura['display']}")
-        print(fg(f"Description: {selected_aura['description']}", 244))
+        print(f"{aura['display']}")
+        print(fg(f"Description: {aura['description']}", 244))
         print(LINE)
 
 roll_animation(11)
