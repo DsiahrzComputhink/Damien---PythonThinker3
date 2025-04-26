@@ -345,7 +345,7 @@ def console():
                                     print(LINE)
                                     print(style.bblue + "Please type in a number")
                                     print(LINE)
-                                    print("{:<13}{:>30}".format(style.bblue + "1" + style.RESET, f"{user}",))
+                                    print("{:<13}{:>30}".format(style.bblue + "1" + style.RESET, "[CLIENT]",))
                                     permNum = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],'???')
                                 time.sleep(1)
