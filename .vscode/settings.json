@@ -20,5 +20,6 @@
     "chat.extensionTools.enabled": false,
     "chat.setupFromDialog": false,
     "chat.focusWindowOnConfirmation": false,
-    "telemetry.feedback.enabled": false
+    "telemetry.feedback.enabled": false,
+    "githubPullRequests.pullRequestDescription": "none"
 }
