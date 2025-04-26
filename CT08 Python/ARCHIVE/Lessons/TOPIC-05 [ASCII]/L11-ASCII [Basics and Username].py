@@ -323,7 +323,7 @@ def console():
                                 time.sleep(1)
                             if int(command) == 2:
                                 print(LINE)
-                                print(style.bblue + "Please type in a number")
+                                print(style.bblue + "Please type in a username")
                                 print(LINE)
                                 userNum = 0
                                 for user in userDatabase:
