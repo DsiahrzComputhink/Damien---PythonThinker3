@@ -350,7 +350,7 @@ def console():
                                     print("{:<13}{:>30}".format(style.bblue + "3" + style.RESET, "[ADMINISTRATOR]"))
                                     permNum = input("")
                                     if permNum.isnumeric():
-                                        permuser(userDatabase[username],userDatabase[usertarget])
+                                        permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'CLIENT')
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
