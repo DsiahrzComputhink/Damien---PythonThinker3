@@ -96,4 +96,6 @@ def roll_animation():
     print(fg(f"Description: {selected_aura['description']}", 244))
 
 # Example usage
-roll_animation()
+while true:
+    roll_animation()
+end
