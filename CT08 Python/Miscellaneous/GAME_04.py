@@ -59,7 +59,7 @@ def roll_animation():
     # Rolling animation
     for _ in range(30):
         temp_aura = random.choice(aura_list)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display_name']} ", random.randint(80, 250)))
+        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(80, 250)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
@@ -68,7 +68,6 @@ def roll_animation():
     selected_aura = pick_aura()
 
     print("\n")
-    print(fg(f"🎉 You rolled: {selected_aura['display_name']}!", 82))
     print("-" * 40)
     print(fg(f"Power: {selected_aura['rarity']}", 80))
     print(f"Color: {selected_aura['color_name']}")
