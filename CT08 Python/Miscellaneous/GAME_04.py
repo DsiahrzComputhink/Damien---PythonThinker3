@@ -40,10 +40,6 @@ Auras = {
 
 print(fg("text",160))
 
-for aura in Auras:
-    for item in Auras[aura]:
-        print(item)
-
 def pick_aura():
     weighted_pool = []
     for aura in Auras.values():
