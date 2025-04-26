@@ -76,7 +76,7 @@ def pick_aura(luck_multiplier : int = 1.0):
     # fallback
     return Auras["Common"]
 
-def roll_animation():
+def roll_animation(luck):
     aura_list = list(Auras.values())
     roll_speed = 0.1
     slowdown_rate = 1.1
@@ -85,7 +85,7 @@ def roll_animation():
     # Rolling animation
     for _ in range(10):
         temp_aura = pick_aura(4.0)
-        print(fg(f"Luck Multiplier: {luc}"))
+        print(fg(f"Luck Multiplier: {luck}"))
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
