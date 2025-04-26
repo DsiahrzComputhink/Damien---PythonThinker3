@@ -25,7 +25,7 @@ AuraColour = { # only meant for aura colour
 }
 Auras = {
     "Common":[2,AuraColour["Common"],"Very common thing"],
-    "Chromatic":[20000000,AuraColour["Chromatic"],"Yes.. Feel my unstoppable beats!"]
+    "Chromatic":[20,AuraColour["Chromatic"],"Yes.. Feel my unstoppable beats!"]
     }
 
 
