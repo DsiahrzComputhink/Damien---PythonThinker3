@@ -80,14 +80,14 @@ def roll_animation():
 
     # Rolling animation
     for _ in range(10):
-        temp_aura = pick_aura(2)
+        temp_aura = pick_aura(2.0)
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
 
     # Final result based on rarity
-    selected_aura = pick_aura(1000)
+    selected_aura = pick_aura(4.0)
 
     print("\n")
     print("-" * 40)
