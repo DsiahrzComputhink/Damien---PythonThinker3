@@ -213,6 +213,7 @@ def permuser(client,user,userdb: dict,perms: string) -> None:
     # 0 - Client
     # 1 - Moderator
     # 2 - Administrator
+    # 3 - Developer [Cant be obtained other from being given via Dsiahrz]
     if user in userDatabase:
         #---
         if userdb[f"{client}"]['PERMS'] == 'CLIENT':
