@@ -15,5 +15,10 @@
     "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": false,
     "github.copilot.chat.newWorkspaceCreation.enabled": false,
     "github.copilot.chat.search.semanticTextResults": false,
-    "github.copilot.chat.setupTests.enabled": false
+    "github.copilot.chat.setupTests.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "chat.extensionTools.enabled": false,
+    "chat.setupFromDialog": false,
+    "chat.focusWindowOnConfirmation": false,
+    "telemetry.feedback.enabled": false
 }
