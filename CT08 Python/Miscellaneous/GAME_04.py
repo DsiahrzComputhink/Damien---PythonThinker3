@@ -24,10 +24,8 @@ AuraColour = { # only meant for aura colour
 }
 Auras = {
     "Common":[],
-    "Chromatic":[20,000,000,AuraColour["Chromatic"]]
+    "Chromatic":[20,000,000,AuraColour["Chromatic"],""]
     }
 
 
 print(fg("text",160))
-
-print(fg("C",196) + fg("H",202) + fg("R",226) + fg("O",82) + fg("M",48) + fg("A",39) + fg("T",99) + fg("I",201) + fg("C",196))
