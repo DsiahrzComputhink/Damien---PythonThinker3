@@ -363,11 +363,13 @@ def console():
                                     if permNum.isnumeric():
                                         if int(permNum) == 1:
                                             permuser(username,usertarget,userDatabase,'CLIENT')
+                                            savedatabase(userDatabase)
                                         elif int(permNum) == 2:
                                             permuser(username,usertarget,userDatabase,'MODERATOR')
+                                            savedatabase(userDatabase)
                                         elif int(permNum) == 3:
                                             permuser(username,usertarget,userDatabase,'ADMINISTRATOR')
-                                            savedatabase(UserDatabase)
+                                            savedatabase(userDatabase)
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
