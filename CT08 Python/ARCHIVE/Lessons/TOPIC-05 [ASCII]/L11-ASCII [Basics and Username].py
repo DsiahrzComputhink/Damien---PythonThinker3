@@ -354,7 +354,7 @@ def console():
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
-                                    print(style.bred + "Command does not exist" + style.RESET)
+                                    print(style.bred + "Username does not exist in Database" + style.RESET)
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
