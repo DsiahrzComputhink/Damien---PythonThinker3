@@ -56,7 +56,7 @@ def console():
     stop = 0
     while stop == 0:
         print(LINE)
-        print("ASCII User Management System [UMS]")
+        print("A TITLE")
         print(LINE)
         print(style.bblue + "1" + style.RESET,"                        ","a thing")
         print(style.bblue + "2" + style.RESET,"                  ","another thing")
@@ -76,3 +76,27 @@ def console():
             print(style.bred + "Command does not exist" + style.RESET)
 
 # Default Console Function ⬆
+
+
+fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
+bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
+
+def debugcolour():
+
+    def print_six(row, format, end="\n"):
+        for col in range(6):
+            color = row*6 + col - 2
+            if color>=0:
+                text = "{:3d}".format(color)
+                print (format(text,color), end=" ")
+            else:
+                print(end="    ")   # four spaces
+        print(end=end)
+
+    for row in range(0, 43):
+        print_six(row, fg, " ")
+        print_six(row, bg)
+
+debugcolour()
+# Simple usage: print(fg("text", 160))
+# AdvancedColour Function ⬆
