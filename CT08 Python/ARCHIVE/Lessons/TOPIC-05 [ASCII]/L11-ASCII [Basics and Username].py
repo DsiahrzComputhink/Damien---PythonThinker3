@@ -323,7 +323,7 @@ def console():
                                 time.sleep(1)
                             if int(command) == 2:
                                 print(LINE)
-                                print(style.bblue + "Please type in a username")
+                                print(style.bblue + "Please type in a number")
                                 print(LINE)
                                 userNum = 0
                                 for user in userDatabase:
@@ -340,7 +340,7 @@ def console():
                                         print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bgreen + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
                                         userNum += 1
                                 print(LINE)
-                                insert = input("")
+                                admin = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],'???')
                                 time.sleep(1)
                             if int(command) == 3:
