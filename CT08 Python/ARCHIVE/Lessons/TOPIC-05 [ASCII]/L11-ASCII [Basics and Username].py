@@ -340,7 +340,7 @@ def console():
                                         print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bgreen + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
                                         userNum += 1
                                 print(LINE)
-                                permuser = input("")
+                                usertarget = input("")
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],'???')
                                 time.sleep(1)
                             if int(command) == 3:
