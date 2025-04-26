@@ -221,6 +221,8 @@ def permuser(client,user,userdb: dict,perms: string) -> None:
             allow = 1
         elif userdb[f"{client}"]['PERMS'] == 'ADMINISTRATOR':
             allow = 2
+        elif userdb[f"{client}"]['PERMS'] == 'DEVELOPER':
+            allow = 3
         #---
         if userdb[f"{user}"]['PERMS'] == 'CLIENT':
             editallow = 0
