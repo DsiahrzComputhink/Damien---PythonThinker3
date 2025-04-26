@@ -326,6 +326,7 @@ def console():
                         command = input("")
                         if command.isnumeric():
                             if int(command) == 1:
+                                
                                 viewdatabase(userDatabase,True)
                                 time.sleep(1)
                             if int(command) == 2:
