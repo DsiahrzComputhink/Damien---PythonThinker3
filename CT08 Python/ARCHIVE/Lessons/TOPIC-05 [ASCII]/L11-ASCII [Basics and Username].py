@@ -352,6 +352,10 @@ def console():
                                     if permNum.isnumeric():
                                         if int(permNum) == 1:
                                             permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'CLIENT')
+                                        elif int(permNum) == 2:
+                                            permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'CLIENT')
+                                        elif int(permNum) == 3:
+                                            permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'CLIENT')
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
