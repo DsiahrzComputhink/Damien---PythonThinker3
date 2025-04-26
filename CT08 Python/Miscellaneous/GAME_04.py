@@ -56,7 +56,7 @@ def pick_aura():
     for aura in Auras.values():
         weighted_pool.extend([aura] * (100 // aura["rarity"]))
     for i in weighted_pool:
-        print(weighted_pool[i])
+        print(weighted_pool)
     return random.choice(weighted_pool)
 
 def roll_animation():
