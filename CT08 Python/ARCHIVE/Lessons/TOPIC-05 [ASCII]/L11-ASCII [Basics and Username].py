@@ -342,7 +342,7 @@ def console():
                                 print(LINE)
                                 usertarget = input("")
                                 print(userDatabase[usertarget])
-                                if usertarget.isnumeric():
+                                if usertarget in userDatabase:
                                     print(LINE)
                                     print(style.bblue + "Please type in a number")
                                     print(LINE)
