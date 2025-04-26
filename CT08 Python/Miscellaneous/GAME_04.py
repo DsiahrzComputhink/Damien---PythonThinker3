@@ -91,19 +91,19 @@ Auras = {
     },
 
     "Topaz": {
-        "rarity": 128,
+        "rarity": 150,
         "display": fg("Topaz" + "                    ", 137),
         "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
     "Ruby": {
-        "rarity": 128,
+        "rarity": 350,
         "display": fg("Ruby" + "                    ", 124),
         "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
     "Forbidden": {
-        "rarity": 128,
+        "rarity": 404,
         "display": fg("Forbidden" + "                    ", 111),
         "description": "Empty",
         "amplify": ['NONE',True]
