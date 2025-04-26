@@ -327,7 +327,9 @@ def console():
                         if command.isnumeric():
                             if int(command) == 1:
                                 if userDatabase[f"{user}"]['PERMS'] == 'CLIENT':
-                                    viewdatabase(userDatabase,True)
+                                    viewdatabase(userDatabase,False)
+                                else:
+                                    iewdatabase(userDatabase,False)
                                 time.sleep(1)
                             if int(command) == 2:
                                 print(LINE)
