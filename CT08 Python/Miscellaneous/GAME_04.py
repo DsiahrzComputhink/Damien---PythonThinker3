@@ -52,10 +52,19 @@ Auras = {
 }
 
 def pick_aura():
-    weighted_pool = []
-    for aura in Auras.values():
-        weighted_pool.extend([aura] * (100 // aura["rarity"]))
-    return random.choice(weighted_pool)
+    chances = []
+    for aura_name, aura_info in Auras.items():
+        rarity = aura_info["rarity"]
+        chances.append((aura_name, rarity))
+
+    chances.sort(key=lambda x: x[1], reverse=True)  # Rarer ones checked first
+
+    for aura_name, rarity in chances:
+        if random.randint(1, rarity) == 1:
+            return Auras[aura_name]
+
+    # If nothing is hit, fallback to Common
+    return Auras["Common"]
 
 def roll_animation():
     aura_list = list(Auras.values())
