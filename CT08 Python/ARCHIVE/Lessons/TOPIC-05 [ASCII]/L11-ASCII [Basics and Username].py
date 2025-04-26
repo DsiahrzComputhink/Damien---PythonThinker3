@@ -243,7 +243,6 @@ def permuser(client,user,userdb: dict,perms: string) -> None:
                 if editallow > allow:
                     print(style.byellow + "You do not have the permissions to edit this user.")
         if perms == 'ADMINISTRATOR':
-            userdb[f"{user}"]['PERMS'] = 'ADMINISTRATOR'
             if allow < 1:
                 print(style.byellow + "You do not have the permissions to edit this user.")
             else:
