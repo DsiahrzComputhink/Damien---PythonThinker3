@@ -30,4 +30,4 @@ debugcolour()
 # Simple usage: print(fg("text", 160))
 print(fg("text",160))
 
-print(fg("C",160) + fg("hi",200))
+print(fg("C",160) + fg("h",200)+ fg("h",200)+ fg("h",200)+ fg("h",200)+ fg("h",200)+ fg("h",200)+ fg("h",200)+ fg("h",200))
