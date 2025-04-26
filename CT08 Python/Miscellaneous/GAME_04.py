@@ -113,15 +113,15 @@ def show_aura_rarity(luck: float = 1.0):
     for aura in Auras:
         if luck < Auras[aura]["rarity"]:
             ListedAuras[aura] = Auras[aura]
-    for aura in Auras:
-        rarity = Auras[aura]["rarity"]
+    for aura in ListedAuras:
+        rarity = ListedAuras[aura]["rarity"]
         actual_chance = rarity / luck
 
         print(LINE)
         print("Rarity:", fg(f"1 / {rarity:,}", 81))
         print(f"Actual Chance:", fg(f"1 / {format_chance(actual_chance)}", 75))
         print(f"{Auras[aura]['display']}")
-        print(fg(f"Description: {Auras[aura]['description']}", 244))
+        print(fg(f"Description: {ListedAuras[aura]['description']}", 244))
         print(LINE)
 
 show_aura_rarity(11)
