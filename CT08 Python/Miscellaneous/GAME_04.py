@@ -90,7 +90,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
-    "Rage": {
+    "Topaz": {
         "rarity": 128,
         "display": fg("Rage" + "                    ", 160),
         "description": "flame of emotions",
