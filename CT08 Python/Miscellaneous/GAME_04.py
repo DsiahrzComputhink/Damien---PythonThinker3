@@ -69,8 +69,8 @@ def roll_animation():
 
     print("\n")
     print("-" * 40)
-    print(fg(f"Power: {selected_aura['rarity']}", 80))
-    print(f"Color: {selected_aura['color_name']}")
+    print(fg(f"1/: {selected_aura['rarity']}", 80))
+    print(f"Color: {selected_aura['display']}")
     print(fg(f"Description: {selected_aura['description']}", 244))
 
 # Example usage
