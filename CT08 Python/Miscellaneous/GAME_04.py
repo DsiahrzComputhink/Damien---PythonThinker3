@@ -1,11 +1,13 @@
 Auras = {
-    TestAura:[69]
-}
-
+    "Cheeseburger":5.50,
+    "Hamburger":5.30,
+    "Fries":3.00,
+    "Cheese fries":4.80,
+    "Milo":2.20,
+    }
 #-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
-fgbg = lambda text, fg_color, bg_color: "\33[38;5;" + str(fg_color) + "m\33[48;5;" + str(bg_color) + "m" + text + "\33[0m"
 
 def debugcolour():
 
