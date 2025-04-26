@@ -109,4 +109,4 @@ def show_aura_rarity(luck : int = 1.0):
         print(fg(f"Description: {aura['description']}", 244))
         print(LINE)
 
-roll_animation(11)
+show_aura_rarity(11)
