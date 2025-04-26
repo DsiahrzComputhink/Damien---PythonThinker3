@@ -30,4 +30,4 @@ debugcolour()
 # Simple usage: print(fg("text", 160))
 print(fg("text",160))
 
-print(fg("text",160),fg("text",160))
+print(f"{fg("text",160),fg("text",160)}")
