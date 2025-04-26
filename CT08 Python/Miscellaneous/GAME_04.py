@@ -31,7 +31,7 @@ Auras = {
     },
     "Uncommon": {
         "rarity": 4,
-        "display": ("Uncommon" + "     "),
+        "display": ("Uncommon" + "    "          "      "),
         "description": "Yes... Feel my unstoppable beats!"
     },
     "Good": {
