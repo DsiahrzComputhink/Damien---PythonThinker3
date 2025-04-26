@@ -21,5 +21,8 @@
     "chat.setupFromDialog": false,
     "chat.focusWindowOnConfirmation": false,
     "telemetry.feedback.enabled": false,
-    "githubPullRequests.pullRequestDescription": "none"
+    "githubPullRequests.pullRequestDescription": "none",
+    "github.copilot.enable": {
+        "##########################": false
+    }
 }
