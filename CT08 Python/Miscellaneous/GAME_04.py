@@ -1,5 +1,5 @@
 Auras = {
-    "Common":[1],
+    "Common":[Rarity,Colour,Description],
     }
 
 #-
