@@ -109,7 +109,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Emerald": {
-        "rarity": 128,
+        "rarity": 500,
         "display": fg("Emerald" + "                    ", 157),
         "description": "Gem of a green hue",
         "amplify": ['NONE',True]
