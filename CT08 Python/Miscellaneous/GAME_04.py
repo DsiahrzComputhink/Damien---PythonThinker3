@@ -115,6 +115,13 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
+    "Rage:Heated": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
+    
     "Rage:Brawler": {
         "rarity": 1280000,
         "display": fg("Rage:Brawler" + "                    ", 196),
