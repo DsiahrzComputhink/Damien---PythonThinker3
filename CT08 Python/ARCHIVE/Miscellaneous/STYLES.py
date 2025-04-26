@@ -39,7 +39,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 
 print(style.bgray + "Placeholder" + style.RESET)
-# Text Colour Function ⬆
+# Simple Text Colour ⬆
 
 import os
 
