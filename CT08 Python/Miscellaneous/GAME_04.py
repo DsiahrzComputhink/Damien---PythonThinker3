@@ -59,12 +59,12 @@ def pick_aura():
 
 def roll_animation():
     aura_list = list(Auras.values())
-    roll_speed = 0.05
+    roll_speed = 0.005
     slowdown_rate = 1.01
     speed = roll_speed
 
     # Rolling animation
-    for _ in range(300):
+    for _ in range(3000):
         temp_aura = random.choice(aura_list)
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
