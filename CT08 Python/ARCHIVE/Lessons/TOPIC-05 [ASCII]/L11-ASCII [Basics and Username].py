@@ -341,7 +341,7 @@ def console():
                                         userNum += 1
                                 print(LINE)
                                 insert = input("")
-                                permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'])
+                                permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],)
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
