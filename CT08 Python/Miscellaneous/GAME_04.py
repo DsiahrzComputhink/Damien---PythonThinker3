@@ -22,9 +22,6 @@ def debugcolour():
         print_six(row, fg, " ")
         print_six(row, bg)
 
-number = 1000000
-print(f"{number:,}")
-
 debugcolour()
 
 Auras = {
