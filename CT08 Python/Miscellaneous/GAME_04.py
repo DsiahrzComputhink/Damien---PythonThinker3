@@ -28,7 +28,7 @@ def debugcolour():
 debugcolour()
 
 Biomes = {
-    "Windy": {"Chance": 500, "Amplify": 3,
+    "Windy": {"Chance": 500, "Amplify": 3},
     "Snowy": {"Chance": 600, "Amplify": 3},
     "Rainy": {"Chance": 750, "Amplify": 4},
     "Sandstorm": {"Chance": 3000, "Amplify": 4},
@@ -37,7 +37,7 @@ Biomes = {
     "Corruption": {"Chance": 9000, "Amplify": 5},
     "Null": {"Chance": 10100, "Amplify": 1000},
     "Glitched": {"Chance": 30000, "Amplify": None}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
-}}
+}
 
 Auras = {
     "Common": {
