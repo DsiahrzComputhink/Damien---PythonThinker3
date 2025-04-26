@@ -59,6 +59,7 @@ def pick_aura(luck_multiplier : int = 1.0):
     for aura_name, aura_info in Auras.items():
         rarity = aura_info["rarity"]
         if luck_multiplier > rarity:
+            weight = 0
             weight = (1 / rarity) * luck_multiplier  # luck boost
         weights.append((aura_name, weight))
         total_weight += weight
