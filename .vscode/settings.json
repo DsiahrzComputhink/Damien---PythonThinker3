@@ -2,5 +2,6 @@
     "gitdoc.enabled": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": false,
     "github.copilot.chat.agent.runTasks": false,
-    "github.copilot.chat.followUps": "never"
+    "github.copilot.chat.followUps": "never",
+    "github.copilot.chat.localeOverride": "ja"
 }
