@@ -36,7 +36,7 @@ Biomes = {
     "Starfall": {"Chance": 7500, "Amplify": 2.5},
     "Corruption": {"Chance": 9000, "Amplify": 2.8},
     "Null": {"Chance": 10100, "Amplify": 3.0},
-    "Glitched": {"Chance": 30000, "Amplify": 5.0},
+    "Glitched": {"Chance": 30000, "Amplify": 5.0}, # allows every biome's native to appear
 }
 
 Auras = {
