@@ -53,7 +53,7 @@ Auras = {
 
 import random
 
-def pick_aura_weighted(luck_multiplier = 1.0):
+def pick_aura_weighted(luck_multiplier : int = 1.0):
     total_weight = 0
     weights = []
 
