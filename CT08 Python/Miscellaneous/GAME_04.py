@@ -30,4 +30,14 @@ debugcolour()
 # Simple usage: print(fg("text", 160))
 print(fg("text",160))
 
-print(fg("C",196) + fg("H",208)+ fg("R",220)+ fg("O",154)+ fg("M",46)+ fg("A",27)+ fg("T",99)+ fg("I",200)+ fg("C",196))
+print(
+    fg("C",196) +  # Bright Red
+    fg("H",202) +  # Orange
+    fg("R",226) +  # Yellow
+    fg("O",82)  +  # Green (was 154, now 82 is more vivid green)
+    fg("M",48)  +  # Teal / Light Green (was 46, 48 looks better)
+    fg("A",39)  +  # Bright Blue (same)
+    fg("T",99)  +  # Purple-ish
+    fg("I",201) +  # Magenta/Pink
+    fg("C",196)    # Red again
+)
