@@ -100,12 +100,12 @@ Auras = {
 
 def show_aura_rarity(luck : int = 1.0):
     for aura in Auras:
-        rarity = Auras[f"{aura}"]["rarity"]
+        rarity = Auras[aura]["rarity"]
         print("\n")
         print(LINE)
         print("Rarity:",fg(f"1 / {rarity:,}", 81))
         print(f"Actual Chance:",fg(f"1 / {rarity / luck:,}", 75))
-        print(f"{aura['display']}")
+        print(f"{Auras[aura]['display']}")
         print(fg(f"Description: {aura['description']}", 244))
         print(LINE)
 
