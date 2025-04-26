@@ -36,3 +36,20 @@ for aura in Auras:
     for item in Auras[aura]:
         print(item)
 
+import time
+# Rolling function
+def roll_auras(delay=0.5):
+    for aura_name, aura_info in Auras.items():
+        print(fg(f"Aura: {aura_name}", 45))
+        time.sleep(delay)
+        print(fg(f" - Power: {aura_info[0]}", 80))
+        time.sleep(delay)
+        print(f" - Color: {aura_info[1]}")
+        time.sleep(delay)
+        print(fg(f" - Description: {aura_info[2]}", 244))
+        time.sleep(delay)
+        print("-" * 40)
+        time.sleep(delay)
+
+# Example usage:
+roll_auras()
