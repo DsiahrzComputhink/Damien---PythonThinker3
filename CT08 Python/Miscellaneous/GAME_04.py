@@ -93,13 +93,13 @@ Auras = {
     "Topaz": {
         "rarity": 128,
         "display": fg("Topaz" + "                    ", 137),
-        "description": "flame of emotions",
+        "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
     "Ruby": {
         "rarity": 128,
         "display": fg("Ruby" + "                    ", 124),
-        "description": "flame of emotions",
+        "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
     "Forbidden": {
