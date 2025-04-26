@@ -22,6 +22,8 @@ def debugcolour():
         print_six(row, fg, " ")
         print_six(row, bg)
 
+
+
 debugcolour()
 
 Auras = {
