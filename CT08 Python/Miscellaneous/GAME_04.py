@@ -85,7 +85,7 @@ def roll_animation():
     # Rolling animation
     for _ in range(10):
         temp_aura = pick_aura(4.0)
-        print(fg())
+        print(fg(f"Luck Multiplier"))
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
