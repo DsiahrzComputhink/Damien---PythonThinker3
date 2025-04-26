@@ -70,7 +70,7 @@ def roll_animation():
     # Rolling animation
     for _ in range(30):
         temp_aura = random.choice(aura_list)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(16, 255)))
+        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
