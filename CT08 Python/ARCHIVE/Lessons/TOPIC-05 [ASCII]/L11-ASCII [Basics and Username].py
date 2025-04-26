@@ -369,7 +369,6 @@ def console():
                                             savedatabase(userDatabase)
                                         elif int(permNum) == 3:
                                             permuser(username,usertarget,userDatabase,'ADMINISTRATOR')
-                                            savedatabase(userDatabase)
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
