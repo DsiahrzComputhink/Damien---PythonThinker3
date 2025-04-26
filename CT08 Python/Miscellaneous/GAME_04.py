@@ -6,7 +6,6 @@ Auras = {
     "Chromatic":[]
     }
 
-#-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
 
@@ -28,7 +27,6 @@ def debugcolour():
 
 debugcolour()
 # Simple usage: print(fg("text", 160))
-# AdvancedColour Function ⬆
 
 print(fg("text",160))
 
