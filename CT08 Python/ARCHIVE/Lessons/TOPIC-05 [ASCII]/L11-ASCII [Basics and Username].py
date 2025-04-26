@@ -363,10 +363,8 @@ def console():
                                     if permNum.isnumeric():
                                         if int(permNum) == 1:
                                             permuser(username,usertarget,userDatabase,'CLIENT')
-                                            savedatabase(userDatabase)
                                         elif int(permNum) == 2:
                                             permuser(username,usertarget,userDatabase,'MODERATOR')
-                                            savedatabase(userDatabase)
                                         elif int(permNum) == 3:
                                             permuser(username,usertarget,userDatabase,'ADMINISTRATOR')
                                     else:
@@ -376,6 +374,7 @@ def console():
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
+        savedatabase(userDatabase)
 
 
 userDatabase = loaddatabase(textfile)
