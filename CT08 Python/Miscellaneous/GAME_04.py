@@ -41,7 +41,7 @@ Auras = {
     },
     "Natural": {
         "rarity": 8,
-        "display": (fg("") + "                    "),
+        "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
     "Chromatic": {
