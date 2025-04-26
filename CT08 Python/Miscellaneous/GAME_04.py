@@ -53,13 +53,13 @@ Auras = {
 
 import random
 
-def pick_aura_weighted(luck_multiplier=1.0):
+def pick_aura_weighted(luck_multiplier = 1.0):
     total_weight = 0
     weights = []
 
     for aura_name, aura_info in Auras.items():
         rarity = aura_info["rarity"]
-        weight = (1 / rarity) * luck_multiplier
+        weight = (1 / rarity) * luck_multiplier  # luck boost
         weights.append((aura_name, weight))
         total_weight += weight
 
@@ -71,6 +71,7 @@ def pick_aura_weighted(luck_multiplier=1.0):
         if roll <= cumulative:
             return Auras[aura_name]
 
+    # fallback
     return Auras["Common"]
 
 def roll_animation():
