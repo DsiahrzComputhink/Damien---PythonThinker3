@@ -93,8 +93,8 @@ def roll_animation():
     print(LINE)
     print(fg(f"1 / {selected_aura['rarity']}", 80))
     print(f"Color: {selected_aura['display']}")
-
     print(fg(f"Description: {selected_aura['description']}", 244))
+    print(LINE)
 
 # Example usage
 while True:
