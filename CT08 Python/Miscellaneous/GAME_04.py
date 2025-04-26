@@ -1,6 +1,6 @@
 Auras = {
     "Common":[Rarity,Colour,Description],
-    "zigmel":[Rarity,Colour,Description],
+    "zigmel":[Rarity,16,Description],
     "zigmel:op":[Rarity,Colour,Description],
     "zigmel:fair and balanced":[Rarity,Colour,Description],
     "zigmel:trash":[Rarity,Colour,Description],
