@@ -1,10 +1,6 @@
-# Auras = {
-#     TestAura = [Rarity,]
-#     Common = 
-# }
-
-# Pure Python 3.x demo, 256 colors
-# Works with bash under Linux and MacOS
+Auras = {
+    TestAura:[69]
+}
 
 #-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
