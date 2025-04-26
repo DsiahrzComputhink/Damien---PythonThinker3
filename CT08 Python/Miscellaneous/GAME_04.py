@@ -104,13 +104,13 @@ Auras = {
     },
     "Forbidden": {
         "rarity": 128,
-        "display": fg("Rage" + "                    ", 111),
+        "display": fg("Forbidden" + "                    ", 111),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
     "Emerald": {
         "rarity": 128,
-        "display": fg("Rage" + "                    ", 157),
+        "display": fg("Emerald" + "                    ", 157),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
