@@ -333,11 +333,11 @@ def console():
                                         userNum += 1
                                     elif userDatabase[f"{user}"]['PERMS'] == 'MODERATOR':
                                         time.sleep(0.5 / int(len(userDatabase)))
-                                        print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bred + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
+                                        print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.byellow + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
                                         userNum += 1
                                     else:
                                         time.sleep(0.5 / int(len(userDatabase)))
-                                        print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bred + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
+                                        print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bgreen + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
                                         userNum += 1
                                 print(LINE)
                                 insert = input("")
