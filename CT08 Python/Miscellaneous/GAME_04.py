@@ -90,14 +90,6 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
-        Rage:Heated": {
-        "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
-        "description": "furious emotions",
-        "amplify": ['NONE',True]
-    },
-
-
     "Topaz": {
         "rarity": 150,
         "display": fg("Topaz" + "                    ", 137),
