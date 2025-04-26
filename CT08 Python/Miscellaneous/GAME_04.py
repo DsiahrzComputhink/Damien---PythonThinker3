@@ -1,5 +1,7 @@
 Auras = {
     "Common":[Rarity,Colour,Description],
+    "Common":[Rarity,Colour,Description],
+    "gay:dumass":[Rarity,Colour,Description],
     }
 
 #-
