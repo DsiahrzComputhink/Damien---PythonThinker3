@@ -26,7 +26,7 @@ debugcolour()
 Auras = {
     "Common": {
         "rarity": 2,
-        "color_name": fg("Common", 255),
+        "display": fg("Common", 255),
         "description": "Very common thing"
     },
     "Chromatic": {
