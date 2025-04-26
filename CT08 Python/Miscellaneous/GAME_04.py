@@ -107,7 +107,7 @@ def format_chance(num):
         return f"{num:.1f}"
     else:
         formatnum = f"{num:0f}"
-        return f"{num:,}"
+        return f"{formatnum:,}"
 
 def show_aura_rarity(luck: float = 1.0):
     for aura in Auras:
