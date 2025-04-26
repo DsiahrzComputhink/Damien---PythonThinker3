@@ -90,9 +90,10 @@ def roll_animation():
     selected_aura = pick_aura(4.0)
 
     print("\n")
-    print("-" * 40)
+    print(LINE)
     print(fg(f"1 / {selected_aura['rarity']}", 80))
     print(f"Color: {selected_aura['display']}")
+
     print(fg(f"Description: {selected_aura['description']}", 244))
 
 # Example usage
