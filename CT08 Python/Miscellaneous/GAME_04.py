@@ -20,15 +20,17 @@ def debugcolour():
 debugcolour()
 
 AuraColour = { # only meant for aura colour
+    "Common":(fg("Common",255)),
     "Chromatic":(fg("C",196) + fg("H",202) + fg("R",226) + fg("O",82) + fg("M",48) + fg("A",39) + fg("T",99) + fg("I",201) + fg("C",196))
 }
 Auras = {
-    "Common":[],
+    "Common":[2,AuraColour["Common"],"Very common thing"],
     "Chromatic":[20000000,AuraColour["Chromatic"],"Yes.. Feel my unstoppable beats!"]
     }
 
 
 print(fg("text",160))
 
-for item in Auras["Chromatic"]:
-    print(item)
+for aura in Auras:
+    for item in aura:
+        print(item)
