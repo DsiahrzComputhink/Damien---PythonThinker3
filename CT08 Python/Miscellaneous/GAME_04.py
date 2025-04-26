@@ -25,4 +25,4 @@ def debugcolour():
         print_six(row, bg)
 
 # Simple usage: print(fg("text", 160))
-print(fg)
+print(fg("text",160))
