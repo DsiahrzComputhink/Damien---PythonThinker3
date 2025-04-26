@@ -102,4 +102,4 @@ def roll_animation(luck : int = 1.0):
     print(LINE)
 
 # Example usage
-roll_animation()
+roll_animation(2.5)
