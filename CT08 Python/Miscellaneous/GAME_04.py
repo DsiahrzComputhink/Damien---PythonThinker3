@@ -96,19 +96,19 @@ Auras = {
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
-    "Rage": {
+    "Ruby": {
         "rarity": 128,
         "display": fg("Rage" + "                    ", 160),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
-    "Rage": {
+    "Forbidden": {
         "rarity": 128,
         "display": fg("Rage" + "                    ", 160),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
-    "Rage": {
+    "Emerald": {
         "rarity": 128,
         "display": fg("Rage" + "                    ", 160),
         "description": "flame of emotions",
