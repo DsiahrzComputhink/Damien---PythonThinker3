@@ -28,7 +28,8 @@ Auras = {
     "Common": {
         "rarity": 2,
         "display": fg("Common" + "                    ", 255),
-        "description": "Very common thing"
+        "description": "Very common thing",
+        "amplify": ['NONE',True]
     },
     "Uncommon": {
         "rarity": 4,
