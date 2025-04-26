@@ -1,7 +1,9 @@
+AuraColour = {
+    "Chromatic":[]
+}
 Auras = {
-    "Common":[Rarity,Colour,Description],
-    "zigmel":[Rarity,16,Description],
-    "gay:dumass":[Rarity,Colour,Description]
+    "Common":[],
+    "Chromatic":[]
     }
 
 #-
@@ -27,3 +29,5 @@ def debugcolour():
 debugcolour()
 # Simple usage: print(fg("text", 160))
 print(fg("text",160))
+
+print(fg("text",160),fg("text",160))
