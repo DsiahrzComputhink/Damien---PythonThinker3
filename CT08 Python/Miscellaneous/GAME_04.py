@@ -23,7 +23,8 @@ AuraColour = { # only meant for aura colour
     "Common":(fg("Common",255)),
     "Chromatic":(fg("C",196) + fg("H",202) + fg("R",226) + fg("O",82) + fg("M",48) + fg("A",39) + fg("T",99) + fg("I",201) + fg("C",196))
 }
-Auras = {
+
+Auras = { # Main Variable
     "Common":[2,AuraColour["Common"],"Very common thing"],
     "Chromatic":[20,AuraColour["Chromatic"],"Yes.. Feel my unstoppable beats!"]
     }
@@ -34,3 +35,4 @@ print(fg("text",160))
 for aura in Auras:
     for item in Auras[aura]:
         print(item)
+
