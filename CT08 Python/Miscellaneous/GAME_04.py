@@ -34,6 +34,16 @@ Auras = {
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "     "),
         "description": "Yes... Feel my unstoppable beats!"
     },
+    "Good": {
+        "rarity": 2,
+        "display": fg("Common" + "     ", 255),
+        "description": "Very common thing"
+    },
+    "Natural": {
+        "rarity": 20,
+        "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "     "),
+        "description": "Yes... Feel my unstoppable beats!"
+    },
     "Chromatic": {
         "rarity": 20,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "     "),
