@@ -349,7 +349,7 @@ def console():
                                     print("{:<13}{:>30}".format(style.bblue + "2" + style.RESET, "[MODERATOR]"))
                                     print("{:<13}{:>30}".format(style.bblue + "3" + style.RESET, "[ADMINISTRATOR]"))
                                     permNum = input("")
-                                permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],'???')
+                                permuser()
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
