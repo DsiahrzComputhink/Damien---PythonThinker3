@@ -342,7 +342,7 @@ def console():
                                 for user in userDatabase:
                                     if userDatabase[f"{user}"]['PERMS'] == 'DEVELOPER':
                                         time.sleep(0.5 / int(len(userDatabase)))
-                                        print("{:<13}{:>30}{}".format(style.bblue + f"{userNum}" + style.RESET, f"{user}",style.bblue + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
+                                        print("{:<13}{:>30}{}".format(style.bcyan + f"{userNum}" + style.RESET, f"{user}",style.bblue + f" [{userDatabase[f"{user}"]['PERMS']}]" + style.RESET))
                                         userNum += 1
                                     elif userDatabase[f"{user}"]['PERMS'] == 'ADMINISTRATOR':
                                         time.sleep(0.5 / int(len(userDatabase)))
