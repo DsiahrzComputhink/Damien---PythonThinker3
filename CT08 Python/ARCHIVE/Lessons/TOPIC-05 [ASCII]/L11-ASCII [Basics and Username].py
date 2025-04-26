@@ -345,6 +345,7 @@ def console():
                                     print(LINE)
                                     print(style.bblue + "Please type in a number")
                                     print(LINE)
+                                    
                                 permuser(username,userDatabase,userDatabase[f"{username}"]['PERMS'],'???')
                                 time.sleep(1)
                             if int(command) == 3:
