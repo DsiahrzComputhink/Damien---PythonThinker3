@@ -45,11 +45,7 @@ Auras = {
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
-    "Natural": {
-        "rarity": 8,
-        "display": fg("Natural" + "                    ", 120),
-        "description": "very natural thing"
-    },
+    
     "Rare": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
@@ -65,6 +61,12 @@ Auras = {
         "display": fg("Natural" + "                    ", 120),
         "description": "very natural thing"
     },
+    "Rage": {
+        "rarity": 8,
+        "display": fg("Natural" + "                    ", 120),
+        "description": "very natural thing"
+    },
+
     "Chromatic": {
         "rarity": 20000000,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
