@@ -24,7 +24,7 @@ AuraColour = {
 }
 Auras = {
     "Common":[],
-    "Chromatic":[]
+    "Chromatic":[20,000,000,AuraColour["Chromatic"]]
     }
 
 
