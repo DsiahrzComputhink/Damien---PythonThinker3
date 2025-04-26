@@ -80,7 +80,7 @@ def roll_animation():
 
     # Rolling animation
     for _ in range(10):
-        temp_aura = pick_aura(1000)
+        temp_aura = pick_aura(2000000)
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
