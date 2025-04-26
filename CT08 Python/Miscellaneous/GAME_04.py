@@ -1,4 +1,3 @@
-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
 
@@ -19,6 +18,15 @@ def debugcolour():
         print_six(row, bg)
 
 debugcolour()
+
+AuraColour = {
+    "Chromatic":(fg("C",196) + fg("H",202) + fg("R",226) + fg("O",82) + fg("M",48) + fg("A",39) + fg("T",99) + fg("I",201) + fg("C",196))
+}
+Auras = {
+    "Common":[],
+    "Chromatic":[]
+    }
+
 
 print(fg("text",160))
 
