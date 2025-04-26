@@ -92,14 +92,7 @@ Auras = {
         "Rage:Heated": {
         "rarity": 12800,
         "display": fg("Rage:Heated" + "                    ", 202),
-        "description": "flame of emotions",
-        "amplify": ['NONE',True]
-    },
-
-    "Rage:Brawler": {
-        "rarity": 1280000,
-        "display": fg("Rage:Brawler" + "                    ", 196),
-        "description": "flame of emotions",
+        "description": "furious emotions",
         "amplify": ['NONE',True]
     },
 
@@ -128,7 +121,12 @@ Auras = {
         "description": "Gem of a green hue",
         "amplify": ['NONE',True]
     },
-
+        "Rage:Brawler": {
+        "rarity": 1280000,
+        "display": fg("Rage:Brawler" + "                    ", 196),
+        "description": "flame of emotions",
+        "amplify": ['NONE',True]
+    },
     "Chromatic": {
         "rarity": 20000000,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
