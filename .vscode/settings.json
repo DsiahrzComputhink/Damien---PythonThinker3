@@ -1,4 +1,5 @@
 {
-    "gitdoc.enabled": true
-    "github.copilot.editor.enableAutoCompletions": false,
+    "gitdoc.enabled": true,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.agent.runTasks": false
 }
