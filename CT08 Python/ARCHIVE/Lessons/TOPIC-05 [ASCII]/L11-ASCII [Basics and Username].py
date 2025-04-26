@@ -246,7 +246,7 @@ def permuser(client,user,userdb: dict,perms: string) -> None:
             if allow < 1:
                 print(style.byellow + "You do not have the permissions to edit this user.")
             else:
-                if editallow > allow:
+                if editallow >= allow:
                     print(style.byellow + "You do not have the permissions to edit this user.")
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
