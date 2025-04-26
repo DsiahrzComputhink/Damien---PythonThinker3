@@ -110,7 +110,9 @@ def format_chance(num):
 
 def show_aura_rarity(luck: float = 1.0):
     ListedAuras = []
-    
+    for aura in Auras:
+        if luck < Auras[aura]["rarity"]:
+            ListedAuras[aura] = Auras[aura]
     for aura in Auras:
         rarity = Auras[aura]["rarity"]
         actual_chance = rarity / luck
