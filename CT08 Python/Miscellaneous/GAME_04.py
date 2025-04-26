@@ -53,8 +53,8 @@ Auras = {
     },
     "Divinus": {
         "rarity": 8,
-        "display": fg("Natural" + "                    ", 120),
-        "description": "very natural thing"
+        "display": fg("Divinus" + "                    ", 230),
+        "description": "holy thingg"
     },
     "Crystallized": {
         "rarity": 8,
