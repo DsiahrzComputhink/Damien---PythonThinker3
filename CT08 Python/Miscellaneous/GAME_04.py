@@ -98,7 +98,7 @@ Auras = {
 
     "Rage:Brawler": {
         "rarity": 1280000,
-        "display": fg("Rage" + "                    ", 160),
+        "display": fg("Rage" + "                    ", 196),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
