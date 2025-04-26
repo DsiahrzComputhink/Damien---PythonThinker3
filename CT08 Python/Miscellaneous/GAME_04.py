@@ -105,7 +105,7 @@ Auras = {
     "Forbidden": {
         "rarity": 128,
         "display": fg("Forbidden" + "                    ", 111),
-        "description": "flame of emotions",
+        "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Emerald": {
