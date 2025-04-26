@@ -341,7 +341,6 @@ def console():
                                         userNum += 1
                                 print(LINE)
                                 usertarget = input("")
-                                print(userDatabase[usertarget])
                                 if usertarget in userDatabase:
                                     print(LINE)
                                     print(style.bblue + "Please type in a number")
@@ -351,7 +350,7 @@ def console():
                                     print("{:<13}{:>30}".format(style.bblue + "3" + style.RESET, "[ADMINISTRATOR]"))
                                     permNum = input("")
                                     if permNum.isnumeric():
-                                        permuser(username,userDatabase[usertarget])
+                                        permuser(userDatabase[username],userDatabase[usertarget])
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
