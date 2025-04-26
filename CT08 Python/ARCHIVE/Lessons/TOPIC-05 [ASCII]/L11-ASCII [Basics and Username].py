@@ -348,6 +348,7 @@ def console():
                                         userNum += 1
                                 print(LINE)
                                 usertarget = input("")
+                                print(userDatabase)
                                 if usertarget in userDatabase:
                                     print(LINE)
                                     print(style.bblue + "Please type in a number")
