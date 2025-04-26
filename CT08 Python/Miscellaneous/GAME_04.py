@@ -6,11 +6,13 @@
 # Pure Python 3.x demo, 256 colors
 # Works with bash under Linux and MacOS
 
+#-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
+fgbg = lambda text, fg_color, bg_color: "\33[38;5;" + str(fg_color) + "m\33[48;5;" + str(bg_color) + "m" + text + "\33[0m"
 
 def debugcolour():
-    
+
     def print_six(row, format, end="\n"):
         for col in range(6):
             color = row*6 + col - 2
