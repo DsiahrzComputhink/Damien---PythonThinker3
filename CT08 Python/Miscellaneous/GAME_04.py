@@ -99,11 +99,11 @@ Auras = {
 
 
 def format_chance(num):
-    if num < 100:
+    if num < 10:
         return f"{num:.3f}"
-    elif num < 1000:
+    elif num < 100:
         return f"{num:.2f}"
-    elif num < 10000:
+    elif num < 1000:
         return f"{num:,.1f}"
     else:
         return f"{num:,.0f}"
