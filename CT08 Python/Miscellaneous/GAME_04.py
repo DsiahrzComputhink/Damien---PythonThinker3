@@ -1,12 +1,7 @@
 Auras = {
     "Common":[Rarity,Colour,Description],
     "zigmel":[Rarity,16,Description],
-    "zigmel:op":[Rarity,Colour,Description],
-    "zigmel:fair and balanced":[Rarity,Colour,Description],
-    "zigmel:trash":[Rarity,Colour,Description],
-
-    "gay:dumass":[Rarity,Colour,Description],
-    "my parents being proud of me":[999,999,Description]
+    "gay:dumass":[Rarity,Colour,Description]
     }
 
 #-
