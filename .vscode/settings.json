@@ -3,5 +3,10 @@
     "github.copilot.chat.codeGeneration.useInstructionFiles": false,
     "github.copilot.chat.agent.runTasks": false,
     "github.copilot.chat.followUps": "never",
-    "github.copilot.chat.localeOverride": "zh-CN"
+    "github.copilot.chat.localeOverride": "zh-CN",
+    "github.copilot.chat.useProjectTemplates": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "github.copilot.chat.copilotDebugCommand.enabled": false,
+    "github.copilot.chat.reviewSelection.enabled": false
 }
