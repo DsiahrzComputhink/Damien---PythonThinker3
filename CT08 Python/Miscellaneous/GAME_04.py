@@ -32,10 +32,10 @@ print(fg("text",160))
 
 print(fg("C",196) ("H",202) +
     fg("R",226) +
-    fg("O",82)  +  # Green (was 154, now 82 is more vivid green)
-    fg("M",48)  +  # Teal / Light Green (was 46, 48 looks better)
-    fg("A",39)  +  # Bright Blue (same)
-    fg("T",99)  +  # Purple-ish
-    fg("I",201) +  # Magenta/Pink
-    fg("C",196)    # Red again
+    fg("O",82)  +
+    fg("M",48)  +
+    fg("A",39)  +
+    fg("T",99)  +
+    fg("I",201) +
+    fg("C",196)
 )
