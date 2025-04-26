@@ -33,3 +33,5 @@ LINE = style.bgray + "----------------------------------" + style.RESET
 import time
 import random
 import os
+
+# Sols RNG
