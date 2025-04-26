@@ -1,3 +1,4 @@
+# --------------------------------------------------------------------
 class style():
 
     BOLD = '\033[1m'
@@ -46,12 +47,14 @@ import os
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
 
+# --------------------------------------------------------------------
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
 else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 # File Input\Output Dependency ⬆
 
+# --------------------------------------------------------------------
 def console():
     stop = 0
     while stop == 0:
