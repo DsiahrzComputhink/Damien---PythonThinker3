@@ -98,7 +98,7 @@ Auras = {
 }
 
 
-def show_aura_rari(luck : int = 1.0):
+def show_aura_rarity(luck : int = 1.0):
     aura_list = list(Auras.values())
     roll_speed = 0.1
     slowdown_rate = 1.1
