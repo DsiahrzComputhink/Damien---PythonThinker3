@@ -28,6 +28,7 @@ def debugcolour():
 
 debugcolour()
 # Simple usage: print(fg("text", 160))
+# 
 print(fg("text",160))
 
 print(fg("C",196) + fg("H",202) + fg("R",226) + fg("O",82) + fg("M",48) + fg("A",39) + fg("T",99) + fg("I",201) + fg("C",196))
