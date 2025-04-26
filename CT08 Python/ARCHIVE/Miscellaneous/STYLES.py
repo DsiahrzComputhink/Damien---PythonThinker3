@@ -102,4 +102,4 @@ def debugcolour():
 
 debugcolour()
 # Simple usage: print(fg("text", 160))
-# Advanced Colour ⬆
+# Advanced Text Colour ⬆
