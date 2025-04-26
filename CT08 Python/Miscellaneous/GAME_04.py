@@ -163,4 +163,5 @@ def show_aura_rarity(luck: float = 1.0):
         print(fg(f"Description: {ListedAuras[aura]['description']}", 244))
         print(LINE)
 
-show_aura_rarity(1)
+import math
+show_aura_rarity(math.sqrt(2))
