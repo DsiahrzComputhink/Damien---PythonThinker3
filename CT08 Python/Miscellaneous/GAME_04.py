@@ -52,38 +52,33 @@ for aura in Auras:
 
 def pick_aura():
     weighted_pool = []
-    for aura_name, aura_info in Auras.items():
-        rarity = aura_info[0]
-        # More rare = fewer entries
-        weighted_pool.extend([aura_name] * (100 // rarity))
+    for aura in Auras.values():
+        weighted_pool.extend([aura] * (100 // aura["rarity"]))
     return random.choice(weighted_pool)
 
 def roll_animation():
-    aura_names = list(Auras.keys())
+    aura_list = list(Auras.values())
     roll_speed = 0.05
     slowdown_rate = 1.12
     speed = roll_speed
 
-    selected = None
-
     # Rolling animation
     for _ in range(30):
-        temp_pick = random.choice(aura_names)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_pick} ", random.randint(80, 250)))
+        temp_aura = random.choice(aura_list)
+        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display_name']} ", random.randint(80, 250)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
 
     # Final result based on rarity
-    selected = pick_aura()
+    selected_aura = pick_aura()
 
     print("\n")
-    print(fg(f"🎉 You rolled: {selected}!", 82))
+    print(fg(f"🎉 You rolled: {selected_aura['display_name']}!", 82))
     print("-" * 40)
-    aura = Auras[selected]
-    print(fg(f"Power: {aura[0]}", 80))
-    print(f"Color: {aura[1]}")
-    print(fg(f"Description: {aura[2]}", 244))
+    print(fg(f"Power: {selected_aura['rarity']}", 80))
+    print(f"Color: {selected_aura['color_name']}")
+    print(fg(f"Description: {selected_aura['description']}", 244))
 
 # Example usage
 roll_animation()
