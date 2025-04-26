@@ -101,5 +101,7 @@ def debugcolour():
         print_six(row, bg)
 
 debugcolour()
+
+LINE = fg("------------------------------",235)
 # Simple usage: print(fg("text", 160))
 # Advanced Text Colour ⬆
