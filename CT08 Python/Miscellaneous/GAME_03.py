@@ -34,7 +34,7 @@ import random
 import os
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","[MISC] Memory.txt")
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","Miscellaneous","[MISC] Memory.txt")
 
 # if os.path.exists(textfile):
     # print("{} exist".format(textfile))
