@@ -100,6 +100,6 @@ def roll_animation(luck : int = 1.0):
     print(fg(f"Description: {selected_aura['description']}", 244))
     print(LINE)
 
-# LUCK = 
+# LUCK = ((1 + Basic Luck) x Bonus Roll)
 # Example usage
 roll_animation(2.5)
