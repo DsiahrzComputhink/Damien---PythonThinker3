@@ -360,9 +360,10 @@ def console():
                                         if int(permNum) == 1:
                                             permuser(username,usertarget,userDatabase,'CLIENT')
                                         elif int(permNum) == 2:
+                                            permuser(username,usertarget,userDatabase,'CLIENT')
                                             permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'MODERATOR')
                                         elif int(permNum) == 3:
-                                            permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'ADMINISTRATOR')
+                                            permuser(username,usertarget,userDatabase,'CLIENT')
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
