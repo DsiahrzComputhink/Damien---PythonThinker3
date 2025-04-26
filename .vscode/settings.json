@@ -23,6 +23,7 @@
     "telemetry.feedback.enabled": false,
     "githubPullRequests.pullRequestDescription": "none",
     "github.copilot.enable": {
-        "##########################": false
+        "##########################": false,
+        "*": false
     }
 }
