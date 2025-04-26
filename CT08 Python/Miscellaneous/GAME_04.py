@@ -1,10 +1,7 @@
 Auras = {
-    "Cheeseburger":5.50,
-    "Hamburger":5.30,
-    "Fries":3.00,
-    "Cheese fries":4.80,
-    "Milo":2.20,
+    "Common":[1],
     }
+
 #-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
