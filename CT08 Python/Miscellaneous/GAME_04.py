@@ -47,12 +47,12 @@ Auras = {
     },
 
     "Rare": {
-        "rarity": 8,
+        "rarity": 16,
         "display": fg("Rare" + "                    ", 39),
         "description": "rare thing"
     },
     "Divinus": {
-        "rarity": 8,
+        "rarity": 32,
         "display": fg("Divinus" + "                    ", 230),
         "description": "holy thing"
     },
