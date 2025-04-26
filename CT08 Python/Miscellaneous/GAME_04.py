@@ -76,7 +76,7 @@ def pick_aura(luck_multiplier : int = 1.0):
     # fallback
     return Auras["Common"]
 
-def roll_animation(luck):
+def roll_animation(luck : int = 1.0):
     aura_list = list(Auras.values())
     roll_speed = 0.1
     slowdown_rate = 1.1
