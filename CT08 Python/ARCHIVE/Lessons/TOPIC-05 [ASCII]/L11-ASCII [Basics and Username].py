@@ -332,7 +332,7 @@ def console():
                                 if userDatabase[f"{user}"]['PERMS'] == 'CLIENT':
                                     viewdatabase(userDatabase,False)
                                 else:
-                                    viewdatabase(userDatabase,False)
+                                    viewdatabase(userDatabase,True)
                                 time.sleep(1)
                             if int(command) == 2:
                                 print(LINE)
