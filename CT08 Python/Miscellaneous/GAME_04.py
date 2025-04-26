@@ -98,6 +98,4 @@ def roll_animation():
     print(LINE)
 
 # Example usage
-while True:
-    roll_animation()
-end
+roll_animation()
