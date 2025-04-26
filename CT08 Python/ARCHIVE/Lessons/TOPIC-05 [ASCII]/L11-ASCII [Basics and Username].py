@@ -55,7 +55,7 @@ import os
 # * View usernames and their masked passwords.
 # * Access all features through a interactive menu system.
 
-# side note, this might be the basis of all data-based games
+# side note, this might be the basis of life for all data-based games
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
 
