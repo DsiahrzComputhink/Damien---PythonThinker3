@@ -329,7 +329,7 @@ def console():
                         command = input("")
                         if command.isnumeric():
                             if int(command) == 1:
-                                if userDatabase[f"{user}"]['PERMS'] == 'CLIENT':
+                                if userDatabase[f"{username}"]['PERMS'] == 'CLIENT':
                                     viewdatabase(userDatabase,False)
                                 else:
                                     viewdatabase(userDatabase,True)
