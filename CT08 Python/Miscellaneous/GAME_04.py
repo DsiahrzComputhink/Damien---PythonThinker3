@@ -147,3 +147,4 @@ def roll_animation(luck : int = 1.0):
     print(fg(f"Description: {selected_aura['description']}", 244))
     print(LINE)
 
+roll_animation(10)
