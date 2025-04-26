@@ -29,43 +29,50 @@ Auras = {
         "rarity": 2,
         "display": fg("Common" + "                    ", 255),
         "description": "Very common thing",
-        "amplify": ['NONE',True]
+        "amplify": ['NONE',True],
     },
     "Uncommon": {
         "rarity": 4,
         "display": ("Uncommon" + "                    "),
-        "description": "super uncommon"
+        "description": "super uncommon",
+        "amplify": ['NONE',True]
     },
     "Good": {
         "rarity": 5,
         "display": fg("Good" + "                    ", 255),
-        "description": "its super good"
+        "description": "its super good",
+        "amplify": ['NONE',True]
     },
     "Natural": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
-        "description": "very natural thing"
+        "description": "very natural thing",
+        "amplify": ['NONE',True]
     },
 
     "Rare": {
         "rarity": 16,
         "display": fg("Rare" + "                    ", 39),
-        "description": "rare thing"
+        "description": "rare thing",
+        "amplify": ['NONE',True]
     },
     "Divinus": {
         "rarity": 32,
         "display": fg("Divinus" + "                    ", 230),
-        "description": "holy thing"
+        "description": "holy thing",
+        "amplify": ['NONE',True]
     },
     "Crystallized": {
         "rarity": 64,
         "display": fg("Crystallized" + "                    ", 183),
-        "description": "shiny thing"
+        "description": "shiny thing",
+        "amplify": ['NONE',True]
     },
     "Rage": {
         "rarity": 128,
         "display": fg("Rage" + "                    ", 160),
-        "description": "flame of emotions"
+        "description": "flame of emotions",
+        "amplify": ['NONE',True]
     },
 
     "Chromatic": {
