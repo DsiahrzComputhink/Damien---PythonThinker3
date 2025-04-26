@@ -92,13 +92,13 @@ Auras = {
 
     "Topaz": {
         "rarity": 128,
-        "display": fg("Rage" + "                    ", 160),
+        "display": fg("Rage" + "                    ", 137),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
     "Ruby": {
         "rarity": 128,
-        "display": fg("Rage" + "                    ", 160),
+        "display": fg("Rage" + "                    ", 124),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
