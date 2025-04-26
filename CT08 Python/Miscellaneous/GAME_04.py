@@ -149,4 +149,4 @@ def show_aura_rarity(luck: float = 1.0):
         print(fg(f"Description: {ListedAuras[aura]['description']}", 244))
         print(LINE)
 
-show_aura_rarity(11,Biomes)
+show_aura_rarity(11)
