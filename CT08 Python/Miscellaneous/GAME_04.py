@@ -59,12 +59,12 @@ Auras = {
     "Crystallized": {
         "rarity": 8,
         "display": fg("Natural" + "                    ", 120),
-        "description": "very natural thing"
+        "description": "shiny thing"
     },
     "Rage": {
         "rarity": 8,
-        "display": fg("Natural" + "                    ", 120),
-        "description": "very natural thing"
+        "display": fg("Natural" + "                    ", 160),
+        "description": "flame of emotions"
     },
 
     "Chromatic": {
