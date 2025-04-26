@@ -98,12 +98,24 @@ Auras = {
 }
 
 
-def show_aura_rarity(luck : int = 1.0):
+def format_chance(num):
+    if num < 100:
+        return f"{num:.3f}"
+    elif num < 1000:
+        return f"{num:.2f}"
+    elif num < 10000:
+        return f"{num:.1f}"
+    else:
+        return f"{num:.0f}"
+
+def show_aura_rarity(luck: float = 1.0):
     for aura in Auras:
         rarity = Auras[aura]["rarity"]
+        actual_chance = rarity / luck
+
         print(LINE)
-        print("Rarity:",fg(f"1 / {rarity:,}", 81))
-        print(f"Actual Chance:",fg(f"1 / {rarity / luck:,}", 75))
+        print("Rarity:", fg(f"1 / {rarity:,}", 81))
+        print(f"Actual Chance:", fg(f"1 / {format_chance(actual_chance)}", 75))
         print(f"{Auras[aura]['display']}")
         print(fg(f"Description: {Auras[aura]['description']}", 244))
         print(LINE)
