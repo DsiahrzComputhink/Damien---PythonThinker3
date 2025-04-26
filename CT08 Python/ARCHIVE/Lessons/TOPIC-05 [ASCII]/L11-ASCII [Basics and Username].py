@@ -358,7 +358,7 @@ def console():
                                     permNum = input("")
                                     if permNum.isnumeric():
                                         if int(permNum) == 1:
-                                            permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'CLIENT')
+                                            permuser(username,userDatabase[usertarget],userDatabase,'CLIENT')
                                         elif int(permNum) == 2:
                                             permuser(userDatabase[username],userDatabase[usertarget],userDatabase,'MODERATOR')
                                         elif int(permNum) == 3:
