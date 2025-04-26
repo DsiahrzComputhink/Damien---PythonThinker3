@@ -36,20 +36,29 @@ for aura in Auras:
     for item in Auras[aura]:
         print(item)
 
-import time
-# Rolling function
-def roll_auras(delay=0.5):
-    for aura_name, aura_info in Auras.items():
-        print(fg(f"Aura: {aura_name}", 45))
-        time.sleep(delay)
-        print(fg(f" - Power: {aura_info[0]}", 80))
-        time.sleep(delay)
-        print(f" - Color: {aura_info[1]}")
-        time.sleep(delay)
-        print(fg(f" - Description: {aura_info[2]}", 244))
-        time.sleep(delay)
-        print("-" * 40)
-        time.sleep(delay)
+def roll_animation():
+    aura_names = list(Auras.keys())
+    roll_speed = 0.05  # how fast the initial roll is
+    slowdown_rate = 1.1  # how much the speed slows down per roll
+    speed = roll_speed
+
+    # Simulate the rolling
+    selected = None
+    for _ in range(30):  # how many times it rolls before landing
+        selected = random.choice(aura_names)
+        sys.stdout.write("\r" + fg(f"Rolling... {selected}", random.randint(50, 250)))
+        sys.stdout.flush()
+        time.sleep(speed)
+        speed *= slowdown_rate  # slow down
+
+    # Final landed aura
+    print("\n")
+    print(fg(f"You rolled: {selected}!", 82))
+    print("-" * 40)
+    aura = Auras[selected]
+    print(fg(f"Power: {aura[0]}", 80))
+    print(f"Color: {aura[1]}")
+    print(fg(f"Description: {aura[2]}", 244))
 
 # Example usage:
-roll_auras()
+roll_animation()
