@@ -89,6 +89,20 @@ Auras = {
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
+        "Rage:Heated": {
+        "rarity": 128,
+        "display": fg("Rage" + "                    ", 160),
+        "description": "flame of emotions",
+        "amplify": ['NONE',True]
+    },
+
+    "Rage:Brawler": {
+        "rarity": 128,
+        "display": fg("Rage" + "                    ", 160),
+        "description": "flame of emotions",
+        "amplify": ['NONE',True]
+    },
+
 
     "Topaz": {
         "rarity": 150,
