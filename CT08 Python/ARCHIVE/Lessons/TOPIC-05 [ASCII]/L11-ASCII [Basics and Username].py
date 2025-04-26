@@ -358,6 +358,7 @@ def console():
                                     print("{:<13}{:>30}".format(style.bblue + "1" + style.RESET, "[CLIENT]"))
                                     print("{:<13}{:>30}".format(style.bblue + "2" + style.RESET, "[MODERATOR]"))
                                     print("{:<13}{:>30}".format(style.bblue + "3" + style.RESET, "[ADMINISTRATOR]"))
+                                    print(LINE)
                                     permNum = input("")
                                     if permNum.isnumeric():
                                         if int(permNum) == 1:
@@ -366,11 +367,11 @@ def console():
                                             permuser(username,usertarget,userDatabase,'MODERATOR')
                                         elif int(permNum) == 3:
                                             permuser(username,usertarget,userDatabase,'ADMINISTRATOR')
+                                            savedatabase(UserDatabase)
                                     else:
                                         print(style.bred + "Command does not exist" + style.RESET)
                                 else:
                                     print(style.bred + "Username does not exist in Database" + style.RESET)
-                                
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
