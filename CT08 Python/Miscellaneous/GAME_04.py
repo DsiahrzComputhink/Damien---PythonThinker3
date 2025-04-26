@@ -32,12 +32,12 @@ Auras = {
     "Uncommon": {
         "rarity": 4,
         "display": ("Uncommon" + "                    "),
-        "description": "Yes... Feel my unstoppable beats!"
+        "description": "super uncommon"
     },
     "Good": {
         "rarity": 5,
-        "display": fg("Natural" + "                    ", 255),
-        "description": "Very common thing"
+        "display": fg("Good" + "                    ", 255),
+        "description": "its super good"
     },
     "Natural": {
         "rarity": 8,
