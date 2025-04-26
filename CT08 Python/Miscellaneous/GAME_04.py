@@ -103,4 +103,4 @@ def roll_animation(luck : int = 1.0):
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 # Example usage
-roll_animation(1000000)
+roll_animation(5)
