@@ -349,7 +349,12 @@ def console():
                                     print("{:<13}{:>30}".format(style.bblue + "2" + style.RESET, "[MODERATOR]"))
                                     print("{:<13}{:>30}".format(style.bblue + "3" + style.RESET, "[ADMINISTRATOR]"))
                                     permNum = input("")
-                                permuser(userDatabase[usertarget])
+                                    if permNum.isnumeric():
+                                        permuser(userDatabase[usertarget])
+                                    else:
+                                        print(style.bred + "Command does not exist" + style.RESET)
+                                else:
+                                    print(style.bred + "Command does not exist" + style.RESET)
                                 time.sleep(1)
                             if int(command) == 3:
                                 commandconsole = 0
