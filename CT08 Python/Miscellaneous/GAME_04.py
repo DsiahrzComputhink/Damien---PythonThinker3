@@ -32,4 +32,5 @@ Auras = {
 print(fg("text",160))
 
 for aura in Auras:
-    print(Auras[aura])
+    for item in Auras[aura]:
+        print(item)
