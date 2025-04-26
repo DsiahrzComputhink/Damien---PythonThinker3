@@ -96,7 +96,7 @@ def roll_animation(luck : int = 1.0):
     rarity = selected_aura['rarity']
     print("\n")
     print(LINE)
-    print(fg(f"1 / {rarity:,}", 80))
+    print(fg(f"1 / {rarity:,}", 86))
     print(f"Color: {selected_aura['display']}")
     print(fg(f"Description: {selected_aura['description']}", 244))
     print(LINE)
