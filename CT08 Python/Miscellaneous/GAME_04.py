@@ -94,4 +94,4 @@ while (time.time() - start_time) < duration:
 
 # Reset
 print("\033[0m")
-print(WENOMEACHAINSAMA)
+print("HI")
