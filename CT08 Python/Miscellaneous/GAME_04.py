@@ -428,7 +428,7 @@ Auras = {
     },
     "Undefined": {
         "rarity": 1111000,
-        "display": fg("Undefined" + "                    ", 250),
+        "display": fg("[Undefined]" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['Null',True]
     },
