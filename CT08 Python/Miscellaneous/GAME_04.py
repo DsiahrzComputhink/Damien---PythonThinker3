@@ -618,7 +618,7 @@ Auras = {
         "rarity": 19725000,
         "display": (fg("★ AVIATOR ★", 185) + "                    "),
         "description": "Empty",
-        "amplify": ['Snowy',True]
+        "amplify": ['NONE',True]
     },
     "Arcane : Dark": {
         "rarity": 30000000,
@@ -629,7 +629,7 @@ Auras = {
     "Ethereal": {
         "rarity": 19725000,
         "display": (fg("★ AVIATOR ★", 185) + "                    "),
-        "description": "Empty",
+        "description": "In a country where the vast majority of people attend church, there is a deep-rooted belief in powers, either from 『God』 or from the 'dark side'.",
         "amplify": ['Snowy',True]
     },
     "Exotic : APEX": {
