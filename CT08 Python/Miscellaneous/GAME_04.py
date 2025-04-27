@@ -516,6 +516,18 @@ Auras = {
         "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
         "amplify": ['NONE',True]
     },
+    "Twilight": {
+        "rarity": 5000000,
+        "display": fg("Twilight" + "                    ", 147),
+        "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
+        "amplify": ['NONE',True]
+    },
+    "Twilight": {
+        "rarity": 5000000,
+        "display": fg("Twilight" + "                    ", 147),
+        "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
+        "amplify": ['Hell',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
