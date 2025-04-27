@@ -394,7 +394,7 @@ Auras = {
         "amplify": ['Glitched',False]
     },
     "Stormal : Hurricane": {
-        "rarity": 90000,
+        "rarity": 13500000,
         "display": (fg("Stormal : Hurricane", 249) + "                    "),
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
