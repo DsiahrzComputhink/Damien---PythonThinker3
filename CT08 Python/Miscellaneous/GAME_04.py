@@ -376,7 +376,7 @@ Auras = {
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
-        "Spectre": {
+    "Spectre": {
         "rarity": 140000,
         "display": (fg("Spectre", 67) + "                    "),
         "description": "Where did it go?",
@@ -389,6 +389,12 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Aether": {
+        "rarity": 180000,
+        "display": (fg("Aether", 194) + "                    "),
+        "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
+        "amplify": ['NONE',True]
+    },
+        "Aether": {
         "rarity": 180000,
         "display": (fg("Aether", 194) + "                    "),
         "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
