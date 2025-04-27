@@ -294,7 +294,7 @@ Auras = {
     "Powered": {
         "rarity": 12800,
         "display": fg("Powered" + "                    ", 202),
-        "description": "furious emotions",
+        "description": "I feel like I've become more powerful!",
         "amplify": ['NONE',True]
     },
     "Starlight": {
