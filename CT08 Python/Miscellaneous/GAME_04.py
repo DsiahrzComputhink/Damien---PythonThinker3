@@ -426,9 +426,9 @@ Auras = {
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['NONE',True]
     },
-    "Magnetic : Reverse Polarity": {
-        "rarity": 1024000,
-        "display": fg("Magnetic : Reverse Polarity" + "                    ", 127),
+    "Undefined": {
+        "rarity": 1111000,
+        "display": fg("Undefined" + "                    ", 127),
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['Null',True]
     },
