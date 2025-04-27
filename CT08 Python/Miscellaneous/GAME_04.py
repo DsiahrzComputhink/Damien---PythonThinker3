@@ -772,37 +772,37 @@ Auras = {
     },
     "Atlas": {
         "rarity": 360000000,
-        "display": fg("ATLAS" + "                    ", 11),
+        "display": fg("ATLAS", 11),
         "description": "It is said that in their final moments, the last remaining Titan stood alone, upholding the celestial sphere.",
         "amplify": ['Sandstorm',True]
     },
     "Abyssal Hunter": {
         "rarity": 400000000,
-        "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
+        "display": (fg("ABYSSAL HUNTER", 27)),
         "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
     "Gargantua": {
         "rarity": 430000000,
-        "display": (fg("GARGANTUA", 215) + "                    "),
+        "display": (fg("GARGANTUA", 215)),
         "description": "It has existed since the beginning of the universe even now, it continues to devour everything that enters its domain, relentlessly moving forward.",
         "amplify": ['Starfall',True]
     },
     "Apostolos": {
         "rarity": 440000000,
-        "display": (fg("APOSTOLOS", 167) + "                    "),
+        "display": (fg("APOSTOLOS", 167)),
         "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
     "Ruins": {
         "rarity": 500000000,
-        "display": (fg("《 Ruins 》", 115) + "                    "),
+        "display": (fg("《 Ruins 》", 115)),
         "description": "In the ruins of an ancient civilization, destroyed by the destructive rituals and dark sorcery, only a place known as the Sanctuary remains, though it has crumbled in form.",
         "amplify": ['NONE',True]
     },
     "Matrix : Overdrive": {
         "rarity": 503000000,
-        "display": (fg("{♢ MATRIX /◆ OVERDRIVE ♢}", 196) + "                    "),
+        "display": (fg("{♢ MATRIX /◆ OVERDRIVE ♢}", 196)),
         "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself.",
         "amplify": ['NONE',True]
     },
