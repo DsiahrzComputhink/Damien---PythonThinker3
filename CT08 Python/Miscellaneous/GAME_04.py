@@ -445,7 +445,7 @@ Auras = {
         "amplify": ['Null',True]
     },
     "Cosmos": {
-        "rarity": 1 in 1,520,000,
+        "rarity": 1336000,
         "display": fg("[Undefined]" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['Null',True]
