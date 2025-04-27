@@ -569,7 +569,7 @@ Auras = {
     "Starscourge": {
         "rarity": 10000000,
         "display": fg("Starscourge" + "                    ", 210),
-        "description": "When the stars aligned.. the brightest starlights gathered to form this.",
+        "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['NONE',True]
     },
     "Glitched": {
@@ -621,6 +621,12 @@ Auras = {
         "rarity": 99999999,
         "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
         "description": "WAKE UP FROM AWAY",
+        "amplify": ['NONE',True]
+    },
+    "Starscourge": {
+        "rarity": 10000000,
+        "display": fg("Starscourge" + "                    ", 210),
+        "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['NONE',True]
     },
     "Oppression": {
