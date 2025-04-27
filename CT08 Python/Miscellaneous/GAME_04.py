@@ -428,7 +428,7 @@ Auras = {
     },
     "Undefined": {
         "rarity": 1111000,
-        "display": fg("Undefined" + "                    ", 127),
+        "display": fg("Undefined" + "                    ", 250),
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['Null',True]
     },
