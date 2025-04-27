@@ -903,9 +903,10 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
         time.sleep(0.01)
 
-def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1):
     ListedAuras = {}
 
+    # First adjust auras based on the biome
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
 
@@ -913,10 +914,8 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
         native_biome = amplify_info[0]
         biome_lock = amplify_info[1] if len(amplify_info) > 1 else True
 
-        # biome locked check
-        if not biome_lock:
-            if currentbiome != native_biome:
-                continue
+        if not biome_lock and currentbiome != native_biome:
+            continue
 
         if currentbiome == 'Glitched':
             if native_biome != 'NONE':
@@ -932,6 +931,7 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
 
         ListedAuras[aura_name] = aura_copy
 
+    # Prepare weighted list
     chances = []
     names = []
 
@@ -952,14 +952,22 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
     total = sum(chances)
     normalized = [c / total for c in chances]
 
-    result = random.choices(names, weights=normalized, k=1)[0]
+    # Roll multiple times
+    results = []
+    for _ in range(rolls):
+        result = random.choices(names, weights=normalized, k=1)[0]
+        results.append(result)
 
-    aura_info = ListedAuras[result]
+    # Display all rolls
     print(LINE)
-    print(fg("YOU ROLLED:", 220), aura_info['display'])
-    print(fg(f"'{aura_info['description']}'", 244))
+    print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
+    for idx, aura_name in enumerate(results, 1):
+        aura_info = ListedAuras[aura_name]
+        print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
+        time.sleep(0.05)
     print(LINE)
-    return result
+    
+    return results
 
 
 def console():
@@ -987,4 +995,4 @@ def console():
 
 show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
-roll_for_aura(1*10000*1000, 'Normal')
+roll_for_aura(1*10000*1000, 'Normal',1000)
