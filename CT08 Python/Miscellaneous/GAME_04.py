@@ -327,6 +327,12 @@ Auras = {
         "description": "This is a constant destruction of life",
         "amplify": ['Corrupted',True]
     },
+    "Nautilus": {
+        "rarity": 70000,
+        "display": (fg("Hazard : Rays", 105) + "                    "),
+        "description": "This is a constant destruction of life",
+        "amplify": ['Corrupted',True]
+    },
 
     # 100,000
     "Diaboli : Void": {
