@@ -698,7 +698,7 @@ Auras = {
     "Matrix : Overdrive": {
         "rarity": 50000000,
         "display": (fg("MATRIX : OVERDRIVE", 157) + "                    "),
-        "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself. My anaysi... iZ breaking............ apart. I' ##@ try to ho|d on... but at this rate.. I. I. I. won't t t laaa@#t lo ng...",
+        "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself.",
         "amplify": ['NONE',True]
     },
     "Matrix : Reality": {
