@@ -487,8 +487,8 @@ Auras = {
     },
     "Abyssal Hunter": {
         "rarity": 99999999,
-        "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
-        "description": "WAKE UP FROM AWAY",
+        "display": (fg("ABYSSAL HUNTER", 17) + "                    "),
+        "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
     # 1,000,000,000 - Transcendents
