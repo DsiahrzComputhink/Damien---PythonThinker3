@@ -691,7 +691,7 @@ Auras = {
     },
     "Impeached": {
         "rarity": 299999999,
-        "display": (fg("Exotic : VOID", 165) + "                    "),
+        "display": (fg("IMPEACHED", 165) + "                    "),
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
