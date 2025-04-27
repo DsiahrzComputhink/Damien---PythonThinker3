@@ -554,13 +554,13 @@ Auras = {
     },
     "Nihillity": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("Nihillity" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Helios": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("Helios" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
