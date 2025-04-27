@@ -493,10 +493,10 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Galaxy": {
-        "rarity": 4500000,
+        "rarity": 5000000,
         "display": fg("Galaxy" + "                    ", 141),
         "description": "It comes from an unbelievably vast space itself.",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Lunar : Full Moon": {
         "rarity": 5000000,
