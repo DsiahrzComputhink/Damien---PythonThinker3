@@ -698,13 +698,13 @@ Auras = {
     "Matrix : Overdrive": {
         "rarity": 50000000,
         "display": (fg("MATRIX : OVERDRIVE", 157) + "                    "),
-        "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
+        "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself. My anaysi... iZ breaking............ apart. I' ##@ try to ho|d on... but at this rate.. I. I. I. won't t t laaa@#t lo ng...",
         "amplify": ['NONE',True]
     },
     "Matrix : Reality": {
         "rarity": 50000000,
         "display": (fg("MATRIX : REALITY", 157) + "                    "),
-        "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
+        "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
     # 1,000,000,000 - Transcendents
