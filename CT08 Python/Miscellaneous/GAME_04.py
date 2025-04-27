@@ -409,7 +409,7 @@ Auras = {
         "rarity": 90000,
         "display": (fg("Stormal : Hurricane", 249) + "                    "),
         "description": "An enormous storm raging around you.",
-        "amplify": ['Windy',True]
+        "amplify": ['NONE',True]
     },
 
 
