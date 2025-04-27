@@ -402,10 +402,10 @@ Auras = {
     },
 
     # 1,000,000 - Mythic
-    "Bounded": {
-        "rarity": 200000,
-        "display": fg("BOUNDED" + "                    ", 20),
-        "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
+    "Magnetic : Reverse Polarity": {
+        "rarity": 1024000,
+        "display": fg("Magnetic : Reverse Polarity" + "                    ", 127),
+        "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['NONE',True]
     },
     "Rage : Brawler": {
