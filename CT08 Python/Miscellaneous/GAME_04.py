@@ -634,7 +634,7 @@ Auras = {
     },
     "Overseer": {
         "rarity": 45000000,
-        "display": (fg("Ethereal", 218) + "                    "),
+        "display": (fg("Overseer", 218) + "                    "),
         "description": "In a country where the vast majority of people attend church, there is a deep-rooted belief in powers, either from God or from the 'dark side'.",
         "amplify": ['NONE',True]
     },
