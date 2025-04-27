@@ -529,7 +529,7 @@ Auras = {
         "amplify": ['Hell',True]
     },
     "Celestial : Divine": {
-        "rarity": 350000,
+        "rarity": 7000000,
         "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
         "description": "An Individual with a sacredness that seems to have descended from heaven is havering around and delivering words of blessing.",
         "amplify": ['NONE',True]
