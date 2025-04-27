@@ -335,7 +335,7 @@ Auras = {
     },
     "Permafrost": {
         "rarity": 73500,
-        "display": (fg("Nautilus", 63) + "                    "),
+        "display": (fg("Permafrost", 159) + "                    "),
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Snowy',True]
     },
