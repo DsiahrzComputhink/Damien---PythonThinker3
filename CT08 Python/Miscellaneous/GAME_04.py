@@ -427,8 +427,8 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Bounded : Unbound": {
-        "rarity": 200000,
-        "display": fg("BOUNDED" + "                    ", 20),
+        "rarity": 2000000,
+        "display": fg("UNBOUND" + "                    ", 20),
         "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
