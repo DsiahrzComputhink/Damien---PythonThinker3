@@ -625,7 +625,7 @@ Auras = {
     },
     "Starscourge : Radiant": {
         "rarity": 10000000,
-        "display": fg("Starscourge : Radiant" + "                    ", 210),
+        "display": fg("Starscourge : Radiant" + "                    ", 117),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['NONE',True]
     },
