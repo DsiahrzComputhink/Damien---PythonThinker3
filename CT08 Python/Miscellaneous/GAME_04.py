@@ -350,7 +350,7 @@ Auras = {
     "Exotic": {
         "rarity": 100400,
         "display": fg("Diaboli : Void" + "                    ", 55),
-        "description": "Exoti",
+        "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
     "Diaboli : Void": {
