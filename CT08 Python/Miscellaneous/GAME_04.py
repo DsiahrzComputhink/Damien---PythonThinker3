@@ -487,7 +487,7 @@ Auras = {
     },
     "Abyssal Hunter": {
         "rarity": 400000000,
-        "display": (fg("ABYSSAL HUNTER", 17) + "                    "),
+        "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
         "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
