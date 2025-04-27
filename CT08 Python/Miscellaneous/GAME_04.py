@@ -382,13 +382,13 @@ Auras = {
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
-        "Jazz": {
+    "Jazz": {
         "rarity": 160000,
         "display": (fg("Jazz", 215) + "                    "),
         "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
-        "Aether": {
+    "Aether": {
         "rarity": 180000,
         "display": (fg("Aether", 194) + "                    "),
         "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
