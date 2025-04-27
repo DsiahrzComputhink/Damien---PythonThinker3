@@ -725,6 +725,12 @@ Auras = {
         "description": "This doesn't represent anything inferior like a vampire or something, but rather never-ending thirst for blood itself.",
         "amplify": ['NONE',True]
     },
+    "Jazz : Ochestra": {
+        "rarity": 300000000,
+        "display": fg("BLOODLUST" + "                    ", 160),
+        "description": "This doesn't represent anything inferior like a vampire or something, but rather never-ending thirst for blood itself.",
+        "amplify": ['NONE',True]
+    },
     "Abyssal Hunter": {
         "rarity": 400000000,
         "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
