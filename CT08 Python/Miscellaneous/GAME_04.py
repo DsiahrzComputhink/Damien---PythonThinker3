@@ -1118,7 +1118,7 @@ def console():
                         print(style.bblue + "2" + style.RESET, "", fg("VIP", 220))
                         print(style.bblue + "3" + style.RESET, "", fg("VIP+", 119))
                         print(style.bblue + "4" + style.RESET, "", fg("Both", 231))
-                        
+                        vip = input()
                         roll_for_aura(potion_luck, selected_biome,100,10)
                     else:
                         print(fg("Invalid choice.", 160))
