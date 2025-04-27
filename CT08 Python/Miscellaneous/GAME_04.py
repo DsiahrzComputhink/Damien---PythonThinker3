@@ -590,8 +590,14 @@ Auras = {
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
+    "Stormal : Hurricane": {
+        "rarity": 13500000,
+        "display": (fg("Stormal : Hurricane", 249) + "                    "),
+        "description": "An enormous storm raging around you.",
+        "amplify": ['Windy',True]
+    },
     "Arcane : Legacy": {
-        "rarity": 1024000,
+        "rarity": 15000000,
         "display": fg("Arcane : Legacy" + "                    ", 117),
         "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
@@ -603,7 +609,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Arcane : Dark": {
-        "rarity": 1024000,
+        "rarity": 30000000,
         "display": fg("Arcane : Dark" + "                    ", 93),
         "description": "A spell found in the ruins of an ancient civilization. This dreadful entity, no longer a mere spell, now is a sentient being",
         "amplify": ['NONE',True]
