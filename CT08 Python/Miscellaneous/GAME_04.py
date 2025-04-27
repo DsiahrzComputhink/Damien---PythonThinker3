@@ -201,7 +201,6 @@ Auras = {
         "description": "a cold spirit",
         "amplify": ['Snowy',True]
     },
-
     "Fault": {
         "rarity": 3000,
         "display": (fg("F", 34) + fg("a", 22) + fg("u", 34) + fg("l", 28) + fg("t", 22) + "                    "),
