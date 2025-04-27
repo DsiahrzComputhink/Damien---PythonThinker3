@@ -1014,9 +1014,8 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
 
 
-show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
-roll_for_aura(150000 * 1.3, 'Glitched',63,1)
+roll_for_aura(150000 * 1.3, 'Glitched',20,1)
 
 
 # ill do this later
