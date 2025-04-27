@@ -644,6 +644,12 @@ Auras = {
         "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
         "amplify": ['NONE',True]
     },
+    "Matrix": {
+        "rarity": 45000000,
+        "display": (fg("Overseer", 153) + "                    "),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
     "Twilight : Iridescent Memory": {
         "rarity": 60000000,
         "display": fg("Twilight : Iridescent Memory" + "                    ", 225),
