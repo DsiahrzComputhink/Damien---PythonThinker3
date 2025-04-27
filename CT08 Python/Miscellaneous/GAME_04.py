@@ -485,7 +485,7 @@ Auras = {
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
-    "Chromatic:Genesis": {
+    "Abyssal Hunter": {
         "rarity": 99999999,
         "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
         "description": "WAKE UP FROM AWAY",
