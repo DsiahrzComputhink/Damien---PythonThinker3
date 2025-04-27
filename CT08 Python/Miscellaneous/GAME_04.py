@@ -1112,11 +1112,9 @@ def console():
                     if selected_potion:
                         potion_name = selected_potion["name"]
                         potion_luck = selected_potion["luck"]
+                        roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
-                        print(fg("Invalid potion choice.", 160))
-
-
-                    roll_for_aura(50000 * 1.3, 'Glitched',100,10)
+                        print(fg("Invalid choice.", 160))
                 else:
                     print(fg("Invalid biome choice.", 160))
             elif int(command) == 2:
