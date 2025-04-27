@@ -749,9 +749,9 @@ Auras = {
         "description": "It has existed since the beginning of the universe even now, it continues to devour everything that enters its domain, relentlessly moving forward.",
         "amplify": ['NONE',True]
     },
-    "Abyssal Hunter": {
+    "Apostolos": {
         "rarity": 400000000,
-        "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
+        "display": (fg("APOSTOLOS", 27) + "                    "),
         "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
