@@ -719,6 +719,12 @@ Auras = {
         "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
         "amplify": ['NONE',True]
     },
+    "Bloodlust": {
+        "rarity": 300000000,
+        "display": fg("OVERTURE : HISTORY" + "                    ", 48),
+        "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
+        "amplify": ['NONE',True]
+    },
     "Abyssal Hunter": {
         "rarity": 400000000,
         "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
