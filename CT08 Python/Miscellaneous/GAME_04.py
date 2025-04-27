@@ -458,9 +458,9 @@ Auras = {
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
-    "Arcane": {
+    "Arcane : Legacy": {
         "rarity": 1024000,
-        "display": fg("Arcane" + "                    ", 127),
+        "display": fg("Arcane : Legacy" + "                    ", 127),
         "description": "A spell found in the ruins of an ancient civilization.",
         "amplify": ['NONE',True]
     },
