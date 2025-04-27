@@ -554,9 +554,9 @@ Auras = {
         "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
         "amplify": ['NONE',True]
     },
-    "Twilight": {
-        "rarity": 5000000,
-        "display": fg("Twilight" + "                    ", 147),
+    "Twilight : Iridescent Memory": {
+        "rarity": 60000000,
+        "display": fg("Twilight : Iridescent Memory" + "                    ", 147),
         "description": "The memories were becoming increasingly blurry. Under the full moon that holds many dreams high above, I sincerely wish.",
         "amplify": ['NONE',True]
     },
