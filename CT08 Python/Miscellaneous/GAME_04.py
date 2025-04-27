@@ -1059,6 +1059,8 @@ def console():
         command = input("")
         if command.isnumeric():
             if int(command) == 1:
+                print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
+                luck = input()
                 if luck.isnumeric():
                     # Display biome selection
                     print("What", style.bcyan + "Biome" + style.RESET, "do you want?")
