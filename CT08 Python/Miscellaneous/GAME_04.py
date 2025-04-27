@@ -514,7 +514,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(aura_info['display'])
         print(fg(f"Description: {aura_info['description']}", 244))
         print(LINE)
-        time.sleep(0.2)
+        time.sleep(0.01)
 
 
 show_aura_rarity(1,'None')
