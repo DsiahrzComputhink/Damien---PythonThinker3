@@ -887,5 +887,6 @@ def console():
                 stop += 1   
         else:
             print(style.bred + "Command does not exist" + style.RESET)
+            
 show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
