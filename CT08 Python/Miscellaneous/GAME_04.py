@@ -225,10 +225,10 @@ Auras = {
         "description": "Endlessly oozing blood... Hey, you sure alright?",
         "amplify": ['NONE',True]
     },
-        "Rage:Heated": {
-        "rarity": 12800,
+        "Solar": {
+        "rarity": 5000,
         "display": fg("Rage:Heated" + "                    ", 202),
-        "description": "furious emotions",
+        "description": "It was made with Sunshine by an Unknown being on a bright day",
         "amplify": ['NONE',True]
     },
         "Rage:Heated": {
