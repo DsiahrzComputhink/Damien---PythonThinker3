@@ -387,25 +387,25 @@ Auras = {
     # 100,000 - Legendary
     "Exotic": {
         "rarity": 99999,
-        "display": fg("E",196) + fg("x",220) + fg("o",226) + fg("t",154) + fg("i",120) + fg("c",87) + "                    ",
+        "display": fg("E",196) + fg("x",220) + fg("o",226) + fg("t",154) + fg("i",120) + fg("c",87),
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
     "Diaboli : Void": {
         "rarity": 100400,
-        "display": fg("Diaboli : Void" + "                    ", 55),
+        "display": fg("Diaboli : Void", 55),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Undead : Devil": {
         "rarity": 120000,
-        "display": (fg("Undead : Devil", 203) + "                    "),
+        "display": (fg("Undead : Devil", 203)),
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
     },
     "Comet": {
         "rarity": 120000,
-        "display": (fg("COMET", 159) + "                    "),
+        "display": (fg("COMET", 159)),
         "description": "People believe that it has the capabilities to make wishes come true.",
         "amplify": ['Starfall',True]
     },
