@@ -349,7 +349,7 @@ Auras = {
     # 100,000
     "Exotic": {
         "rarity": 99999,
-        "display": fg("E",196) + "                    ",
+        "display": fg("E",196) + fg("x",196) + fg("o",196) + fg("t",196) + fg("E",196) + fg("E",196) + "                    ",
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
