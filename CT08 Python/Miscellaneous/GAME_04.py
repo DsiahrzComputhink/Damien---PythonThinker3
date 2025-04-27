@@ -251,37 +251,37 @@ Auras = {
     },
     "Siderium": {
         "rarity": 4096,
-        "display": (fg("Side", 220) + fg("reum", 170) + "                    "),
+        "display": (fg("Side", 220) + fg("reum", 170)),
         "description": "A trail of broken stars",
         "amplify": ['NONE',True]
     },
     "Bleeding": {
         "rarity": 4444,
-        "display": (fg("Bleeding", 88) + "                    "),
+        "display": (fg("Bleeding", 88)),
         "description": "Endlessly oozing blood... Hey, you sure alright?",
         "amplify": ['NONE',True]
     },
     "Solar": {
         "rarity": 5000,
-        "display": fg("Solar" + "                    ", 222),
+        "display": fg("Solar", 222),
         "description": "It was made with Sunshine by an Unknown being on a bright day.",
         "amplify": ['NONE',True]
     },
     "Lunar": {
         "rarity": 5000,
-        "display": fg("Lunar" + "                    ", 111),
+        "display": fg("Lunar", 111),
         "description": "It was made with Moonlight by an Unknown being on a clear night.",
         "amplify": ['NONE',True]
     },
     "Flushed": {
         "rarity": 6900,
-        "display": (fg("Flushed", 220) + "                    "),
+        "display": (fg("Flushed", 220)),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
     "Hazard": {
         "rarity": 7000,
-        "display": (fg("Hazard", 177) + "                    "),
+        "display": (fg("Hazard", 177)),
         "description": "This is a constant destruction of life",
         "amplify": ['Corrupted',True]
     },
