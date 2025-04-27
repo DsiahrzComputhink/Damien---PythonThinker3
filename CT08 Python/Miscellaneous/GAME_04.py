@@ -1044,10 +1044,10 @@ def console():
                     print(style.bblue + "2" + style.RESET,"              ","Snowy [1/600]")
                     print(style.bblue + "3" + style.RESET,"             ","Rainy [1/3000]")
                     print(style.bblue + "2" + style.RESET,"             ","Windy [1/6666]")
-                    print(style.bblue + "2" + style.RESET,"             ","Windy [1/7500]")
-                    print(style.bblue + "2" + style.RESET,"             ","Windy [1/9000]")
+                    print(style.bblue + "2" + style.RESET,"             ","Starfall [1/7500]")
+                    print(style.bblue + "2" + style.RESET,"             ","Corruption [1/9000]")
                     print(style.bblue + "2" + style.RESET,"            ","Null [1/10100]")
-                    print(style.bblue + "2" + style.RESET,"            ","Windy [1/30000]")
+                    print(style.bblue + "2" + style.RESET,"            ","Glitched [1/30000]")
                     print(LINE)
                     biome = input()
                     show_aura_rarity(int(luck),'Normal')
@@ -1060,4 +1060,5 @@ def console():
         else:
             print(style.bred + "Command does not exist" + style.RESET)
 
+debugcolour()
 console()
