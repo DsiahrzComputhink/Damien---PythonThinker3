@@ -603,8 +603,8 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Blizzard": {
-        "rarity": 1 in 19,725,000,
-        "display": (fg("Blizzard", 222) + "                    "),
+        "rarity": 19725000,
+        "display": (fg("Blizzard", 117) + "                    "),
         "description": "A beautiful star that always faces you when I look at the night sky.",
         "amplify": ['Snowy',True]
     },
