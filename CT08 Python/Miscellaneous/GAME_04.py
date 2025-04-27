@@ -780,13 +780,13 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Ruins : Withered": {
-        "rarity": 500000000,
+        "rarity": 800000000,
         "display": (fg("《 ⬥ Ruins : Withered ⬥ 》", 50) + "                    "),
         "description": "Once radiant with sacred beauty, the ancient ruins of the spirits have become a nest for the dead and nightmares, twisted by a fallen lord.",
         "amplify": ['NONE',True]
     },
     "Aegis": {
-        "rarity": 500000000,
+        "rarity": 825000000,
         "display": (fg("(AEGIS)", 81) + "                    "),
         "description": "Aegis, Named after the 'Shield of The Sky' Aegis is an anti-star satellite weapon currently being restored by the Science Foundation.",
         "amplify": ['NONE',True]
