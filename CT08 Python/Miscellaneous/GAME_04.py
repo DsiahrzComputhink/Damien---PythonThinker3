@@ -1039,6 +1039,8 @@ def console():
                 luck = input()
                 if luck.isnumeric():
                     show_aura_rarity()
+                else:
+                    print(style.bred + "Command does not exist" + style.RESET)
             if int(command) == 3:
                 print(style.bgreen + "Program closing..." + style.RESET)
                 print("Goodbye!")
