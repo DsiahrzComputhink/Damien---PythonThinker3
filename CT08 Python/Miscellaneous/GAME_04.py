@@ -179,7 +179,7 @@ Auras = {
     },
     "Glock": {
         "rarity": 1700,
-        "display": fg("Glock" + "                    ", 240),
+        "display": fg("Glock" + "                    ", 2),
         "description": "What do you mean by aura??? its just a Glock-17!",
         "amplify": ['NONE',True]
     },
