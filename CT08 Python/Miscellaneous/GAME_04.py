@@ -1106,10 +1106,7 @@ def console():
                         "4": {"name": "Oblivion Potion", "luck": 600000}
                     }
 
-                    # Get input
                     potion_input = input("Select a potion (1-4): ").strip()
-
-                    # Look up potion details
                     selected_potion = potion_choices.get(potion_input)
 
                     if selected_potion:
