@@ -546,7 +546,7 @@ Auras = {
         "description": "Empty",
         "amplify": ['NONE',True]
     },
-    "Celestial : Divine": {
+    "Anubis": {
         "rarity": 7000000,
         "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
         "description": "Empty",
