@@ -703,7 +703,7 @@ Auras = {
     },
     "Matrix : Reality": {
         "rarity": 50000000,
-        "display": (fg("Matrix", 157) + "                    "),
+        "display": (fg("MATRIX : REALITY", 157) + "                    "),
         "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
         "amplify": ['NONE',True]
     },
