@@ -593,7 +593,7 @@ Auras = {
     "Sirius": {
         "rarity": 13500000,
         "display": (fg("Sirius", 249) + "                    "),
-        "description": "An enormous storm raging around you.",
+        "description": "A beautiful star that always faces you when I look at the night sky.",
         "amplify": ['Windy',True]
     },
     "Arcane : Legacy": {
