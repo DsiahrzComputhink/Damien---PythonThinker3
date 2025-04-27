@@ -968,7 +968,7 @@ def roll_for_aura(
     print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
 
     for roll_number in range(1, rolls + 1):
-    # Check for bonus luck
+        # Check for bonus luck
         current_luck = luck
         bonus_triggered = False
         if bonus_roll_frequency > 0 and roll_number % bonus_roll_frequency == 0:
