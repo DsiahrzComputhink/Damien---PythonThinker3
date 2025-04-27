@@ -402,7 +402,7 @@ Auras = {
     },
     "Celestial": {
         "rarity": 200000,
-        "display": fg("Celestial" + "                    ", 20),
+        "display": fg("Celestial" + "                    ", 219),
         "description": "An Individual with a sacredness that seems to have descended from heaven is havering around and delivering words of blessing.",
         "amplify": ['NONE',True]
     },
