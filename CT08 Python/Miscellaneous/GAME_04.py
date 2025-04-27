@@ -394,9 +394,9 @@ Auras = {
         "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
         "amplify": ['NONE',True]
     },
-        "Aether": {
-        "rarity": 180000,
-        "display": (fg("Aether", 194) + "                    "),
+    "Bounded": {
+        "rarity": 200000,
+        "display": (fg("BOUNDED", 194) + "                    "),
         "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
         "amplify": ['NONE',True]
     },
