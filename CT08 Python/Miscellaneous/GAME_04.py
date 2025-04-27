@@ -329,7 +329,7 @@ Auras = {
     },
 
     # 100,000
-    "Diaboli:Void": {
+    "Diaboli : Void": {
         "rarity": 100400,
         "display": fg("Diaboli : Void" + "                    ", 55),
         "description": "Empty",
@@ -343,13 +343,13 @@ Auras = {
     },
 
     # 1,000,000 - Mythic
-    "Magnetic:Reverse Polarity": {
+    "Magnetic : Reverse Polarity": {
         "rarity": 1024000,
         "display": fg("Magnetic : Reverse Polarity" + "                    ", 127),
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['NONE',True]
     },
-    "Rage:Brawler": {
+    "Rage : Brawler": {
         "rarity": 1280000,
         "display": fg("Rage : Brawler" + "                    ", 196),
         "description": "flame of emotions",
