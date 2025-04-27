@@ -1000,7 +1000,7 @@ def roll_for_aura(
 
         aura_info = ListedAuras[result]
 
-        roll_label = f"[{roll_number}]"
+        roll_label = fg(f"[{roll_number}]",75)
         if bonus_triggered:
             roll_label += " [BONUS ROLL]"
 
