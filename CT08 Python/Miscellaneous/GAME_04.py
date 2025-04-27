@@ -1090,13 +1090,8 @@ def console():
                         "8": "Null",
                         "9": "Glitched"
                     }
-
-                    # Get input
                     biome_input = input("Select a biome (1-9): ").strip()
-
-                    # Look up biome name
                     selected_biome = biome_choices.get(biome_input)
-
                     if selected_biome:
                         show_aura_rarity(int(luck), selected_biome)
                     else:
