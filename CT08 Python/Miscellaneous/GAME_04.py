@@ -922,13 +922,7 @@ def find_tier(rarity_value):
             return tier
     return None
 
-def roll_for_aura(
-    luck: float = 1.0, 
-    currentbiome: str = "None", 
-    rolls: int = 1,
-    rollspeed: int = 1,
-
-):
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed: int = 1):
     ListedAuras = {}
 
     # Adjust auras for biome
@@ -956,56 +950,39 @@ def roll_for_aura(
 
         ListedAuras[aura_name] = aura_copy
 
-    if not ListedAuras:
-        print(fg("No auras available to roll with current settings!", 160))
+    chances = []
+    names = []
+
+    for aura_name, aura_info in ListedAuras.items():
+        rarity = aura_info["rarity"]
+        actual_chance = rarity / luck
+        if luck >= rarity:
+            continue
+
+        weight = 1 / actual_chance
+        chances.append(weight)
+        names.append(aura_name)
+
+    if not names:
+        print(fg("No auras could be rolled with the current luck and biome!", 160))
         return None
 
+    total = sum(chances)
+    normalized = [c / total for c in chances]
+
+    # Do the rolls
     results = []
-
-    # Start rolling
-    print(LINE)
-    print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
-
-    for roll_number in range(1, rolls + 1):
-        # Check for bonus luck
-        current_luck = luck
-        bonus_triggered = False
-        if bonus_roll_frequency > 0 and roll_number % bonus_roll_frequency == 0:
-            current_luck *= bonus_luck
-            bonus_triggered = True
-
-        chances = []
-        names = []
-
-        for aura_name, aura_info in ListedAuras.items():
-            rarity = aura_info["rarity"]
-            actual_chance = rarity / current_luck
-            if current_luck >= rarity:
-                continue
-
-            weight = 1 / actual_chance
-            chances.append(weight)
-            names.append(aura_name)
-
-        if not names:
-            print(fg("No auras could be rolled with the current luck and biome!", 160))
-            return None
-
-        total = sum(chances)
-        normalized = [c / total for c in chances]
-
+    for _ in range(rolls):
         result = random.choices(names, weights=normalized, k=1)[0]
         results.append(result)
 
-        aura_info = ListedAuras[result]
-
-        roll_label = fg(f"[{roll_number}]",75)
-        if bonus_triggered:
-            roll_label += fg(" [BONUS ROLL]",220)
-
-        print(roll_label, aura_info['display'], fg(f"'{aura_info['description']}'", 244))
+    # Display individual rolls
+    print(LINE)
+    print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
+    for idx, aura_name in enumerate(results, 1):
+        aura_info = ListedAuras[aura_name]
+        print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
         time.sleep(0.1 / rollspeed)
-
     print(LINE)
 
     # Build summary
@@ -1028,19 +1005,12 @@ def roll_for_aura(
     for tier in Tiers:
         tier_name = tier["name"]
         if tier_name in summary:
-            tier_min, tier_max = tier["range"]
-            if tier_max == float('inf'):
-                range_text = f"{tier_min:,}+"
-            else:
-                range_text = f"{tier_min:,} - {tier_max:,}"
-            print(fg(f"\n{tier_name} [{range_text}]", tier['color']))
+            print(fg(f"\n{tier_name} [{tier['range'][0]} - {tier['range'][1]}]", tier['color']))
             for aura_name, count in summary[tier_name].items():
                 print(fg(f"{aura_name} x{count}", 250))
 
     print(LINE)
-    return results
-
-
+    return results 
 
 debugcolour()
 
