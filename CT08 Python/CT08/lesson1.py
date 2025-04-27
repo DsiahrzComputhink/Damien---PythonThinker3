@@ -20,7 +20,7 @@ if action == "b":
         print("The book is already borrowed.")
 elif action == "d":
     if books[book_id] == "borrowed":
-        books("R") = "available"
+        books("R") == "available"
         print("You have returned the book.")
     elif books[book_id] == "available":
         print("The book is already available.")
