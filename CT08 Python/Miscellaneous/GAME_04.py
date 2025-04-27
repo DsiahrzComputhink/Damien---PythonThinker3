@@ -1112,7 +1112,8 @@ def console():
                     if selected_potion:
                         potion_name = selected_potion["name"]
                         potion_luck = selected_potion["luck"]
-                        
+                        print("What", fg("Potion", 177), "Do you want to use?")
+                        print(LINE)
                         roll_for_aura(potion_luck, selected_biome,100,10)
                     else:
                         print(fg("Invalid choice.", 160))
