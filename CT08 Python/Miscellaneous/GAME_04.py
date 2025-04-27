@@ -614,6 +614,12 @@ Auras = {
         "description": "Yes... Feel my unstoppable beats!",
         "amplify": ['NONE',True]
     },
+    "Aviator": {
+        "rarity": 19725000,
+        "display": (fg("★ Aviator ★", 117) + "                    "),
+        "description": "Empty",
+        "amplify": ['Snowy',True]
+    },
     "Arcane : Dark": {
         "rarity": 30000000,
         "display": fg("Arcane : Dark" + "                    ", 93),
