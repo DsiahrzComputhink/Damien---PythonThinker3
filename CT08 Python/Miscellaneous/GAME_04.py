@@ -704,7 +704,7 @@ Auras = {
     "Overture : History": {
         "rarity": 150000000,
         "display": fg("OVERTURE : HISTORY" + "                    ", 48),
-        "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
+        "description": "When the clock hand started to move for the first time, was when everything started to move for the first time.....",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
