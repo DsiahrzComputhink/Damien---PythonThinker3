@@ -1015,7 +1015,7 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
 
 debugcolour()
-roll_for_aura(400000 * 1.3, 'Glitched',20,1)
+roll_for_aura(400000 * 2 * 1.3, 'Glitched',20,1)
 
 
 # ill do this later
