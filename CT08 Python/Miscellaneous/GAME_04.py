@@ -416,7 +416,7 @@ Auras = {
     # 1,000,000 - Mythic
     "Arcane": {
         "rarity": 1024000,
-        "display": fg("Magnetic : Reverse Polarity" + "                    ", 127),
+        "display": fg("Arcane" + "                    ", 127),
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['NONE',True]
     },
