@@ -478,7 +478,7 @@ Auras = {
         "rarity": 4000000,
         "display": fg("Poseidon" + "                    ", 44),
         "description": "It has been shaped as a creature that once ruled the ocean long ago.",
-        "amplify": ['NONE',True]
+        "amplify": ['Rainy',True]
     },
     "Aquatic : Flame": {
         "rarity": 4000000,
@@ -486,9 +486,9 @@ Auras = {
         "description": "It represents the flow of the flames",
         "amplify": ['NONE',True]
     },
-    "Poseidon": {
+    "Zeus": {
         "rarity": 4000000,
-        "display": fg("Poseidon" + "                    ", 44),
+        "display": fg("Zeus" + "                    ", 44),
         "description": "It has been shaped as a creature that once ruled the ocean long ago.",
         "amplify": ['NONE',True]
     },
