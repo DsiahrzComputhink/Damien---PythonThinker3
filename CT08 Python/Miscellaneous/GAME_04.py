@@ -566,6 +566,12 @@ Auras = {
     },
 
     # 10,000,000 - Exalted
+    "Starscourge": {
+        "rarity": 7000000,
+        "display": fg("Helios" + "                    ", 221),
+        "description": "In the mythology, A shining god of the sun. They rode their chariot to pull the Sun from the east to the west, making the cycle of day and night",
+        "amplify": ['NONE',True]
+    },
     "Glitched": {
         "rarity": 12210110,
         "display": (fg("G", 232) + fg("L", 250) + fg("I", 234) + fg("T", 250) + fg("C", 252) + fg("H", 245) + "                    "),
