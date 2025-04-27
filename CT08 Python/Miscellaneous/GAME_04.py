@@ -730,25 +730,25 @@ Auras = {
     },
     "Impeached": {
         "rarity": 200000000,
-        "display": (fg("IMPEACHED", 206) + "                    "),
+        "display": (fg("IMPEACHED", 206)),
         "description": "What's left for this fallen ruler?",
         "amplify": ['Corruption',True]
     },
     "Oppression": {
         "rarity": 220000000,
-        "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
+        "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247)),
         "description": "... is this truly the end?",
         "amplify": ['Glitched',False]
     },
     "Archangel": {
         "rarity": 250000000,
-        "display": (fg("Archangel", 229) + "                    "),
+        "display": (fg("Archangel", 229)),
         "description": "The most pure, beautiful, and holy being, in the mythology",
         "amplify": ['NONE',True]
     },
     "Exotic : VOID": {
         "rarity": 299999999,
-        "display": (fg("Exotic : VOID", 165) + "                    "),
+        "display": (fg("Exotic : VOID", 165)),
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
