@@ -218,7 +218,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Bleeding": {
-    "rarity": 4444,
+        "rarity": 4444,
         "display": (fg("Bleeding", 88) + "                    "),
         "description": "Endlessly oozing blood... Hey, you sure alright?",
         "amplify": ['NONE',True]
