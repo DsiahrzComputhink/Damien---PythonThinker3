@@ -755,9 +755,9 @@ Auras = {
         "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
-    "Apostolos": {
+    "Ruins": {
         "rarity": 400000000,
-        "display": (fg("APOSTOLOS", 167) + "                    "),
+        "display": (fg("《 Ruins 》", 167) + "                    "),
         "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
