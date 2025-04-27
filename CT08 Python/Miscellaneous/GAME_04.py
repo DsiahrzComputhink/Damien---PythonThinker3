@@ -726,15 +726,15 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Jazz : Ochestra": {
-        "rarity": 300000000,
+        "rarity": 336870912,
         "display": fg("♩ Orchestra ♩" + "                    ", 230),
         "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
     "Atlas": {
-        "rarity": 300000000,
-        "display": fg("♩ Orchestra ♩" + "                    ", 230),
-        "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
+        "rarity": 360000000,
+        "display": fg("ATLAS" + "                    ", 11),
+        "description": "It is said that in their final moments, the last remaining Titan stood alone, upholding the celestial sphere.",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
