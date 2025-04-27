@@ -306,11 +306,11 @@ Auras = {
     "Pixelation": {
         "rarity": 1073741824,
         "display": (fg('▣ ', 196) + fg('P', 202) + fg('I', 226) + fg('X', 82) + fg('L', 48) + fg('E', 39) + fg('A', 99) + fg('T', 201) + fg('I', 201) + fg('O', 201) + fg('N', 201) + fg(' ▣', 196) + "                    "),
-        "description": "... is this truly the end?"
+        "description": "“This description contains 0% lies and 1,000,000% TRUTH!”"
     },
     "Luminosity": {
         "rarity": 1200000000,
-        "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
+        "display": (fg("O", 255) + "                    "),
         "description": "... is this truly the end?"
     },
 }
