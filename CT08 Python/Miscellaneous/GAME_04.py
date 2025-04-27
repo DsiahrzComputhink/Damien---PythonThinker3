@@ -826,7 +826,7 @@ Auras = {
     },
     "Aegis": {
         "rarity": 825000000,
-        "display": (fg("(AEGIS)", 81) + "                    "),
+        "display": (fg("(AEGIS)", 81)),
         "description": "Aegis, Named after the 'Shield of The Sky' Aegis is an anti-star satellite weapon currently being restored by the Science Foundation.",
         "amplify": ['NONE',True]
     },
@@ -840,7 +840,7 @@ Auras = {
     },
     "Luminosity": {
         "rarity": 1200000000,
-        "display": (fg("[Luminosity]", 195) + "                    "),
+        "display": (fg("[Luminosity]", 195) ),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
