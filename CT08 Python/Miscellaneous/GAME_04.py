@@ -592,7 +592,7 @@ Auras = {
     },
     "Sirius": {
         "rarity": 14000000,
-        "display": (fg("Sirius", 249) + "                    "),
+        "display": (fg("Sirius", 222) + "                    "),
         "description": "A beautiful star that always faces you when I look at the night sky.",
         "amplify": ['Starfall',True]
     },
