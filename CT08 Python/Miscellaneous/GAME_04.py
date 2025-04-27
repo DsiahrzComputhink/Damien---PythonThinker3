@@ -426,7 +426,7 @@ Auras = {
         "description": "... is this truly the end?",
         "amplify": ['Glitched',False]
     },
-    "Exotic : APEX": {
+    "Exotic : VOID": {
         "rarity": 49999500,
         "display": (fg("Exotic : APEX", 85) + "                    "),
         "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
