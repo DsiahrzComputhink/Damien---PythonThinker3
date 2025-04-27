@@ -293,7 +293,7 @@ Auras = {
     },
     "Powered": {
         "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
+        "display": fg("Powered" + "                    ", 202),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
