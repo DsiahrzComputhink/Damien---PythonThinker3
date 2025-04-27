@@ -968,10 +968,12 @@ def roll_for_aura(
     print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
 
     for roll_number in range(1, rolls + 1):
-        # Check for bonus luck
+    # Check for bonus luck
         current_luck = luck
+        bonus_triggered = False
         if bonus_roll_frequency > 0 and roll_number % bonus_roll_frequency == 0:
             current_luck *= bonus_luck
+            bonus_triggered = True
 
         chances = []
         names = []
@@ -997,7 +999,12 @@ def roll_for_aura(
         results.append(result)
 
         aura_info = ListedAuras[result]
-        print(fg(f"[{roll_number}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
+
+        roll_label = f"[{roll_number}]"
+        if bonus_triggered:
+            roll_label += " [BONUS ROLL]"
+
+        print(fg(roll_label, 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
         time.sleep(0.1 / rollspeed)
 
     print(LINE)
