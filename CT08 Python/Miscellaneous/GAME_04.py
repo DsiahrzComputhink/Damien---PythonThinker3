@@ -25,8 +25,6 @@ def debugcolour():
         print_six(row, fg, " ")
         print_six(row, bg)
 
-debugcolour()
-
 Biomes = {
     "Windy": {"Chance": 500, "Amplify": 3},
     "Snowy": {"Chance": 600, "Amplify": 3},
@@ -429,5 +427,6 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(fg(f"Description: {aura_info['description']}", 244))
         print(LINE)
 
+debugcolour()
 
 show_aura_rarity(1,'Snowy')
