@@ -275,7 +275,7 @@ Auras = {
     },
     "Corrosive": {
         "rarity": 12000,
-        "display": (fg("Corrosive", 22) + "                    "),
+        "display": (fg("Corrosive", 128) + "                    "),
         "description": "failed to die...",
         "amplify": ['NONE',True]
     },
