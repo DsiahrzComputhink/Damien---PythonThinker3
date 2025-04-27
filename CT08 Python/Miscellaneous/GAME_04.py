@@ -253,7 +253,7 @@ Auras = {
     "Undead": {
         "rarity": 10000,
         "display": (fg("Undead", 22) + "                    "),
-        "description": "flushed",
+        "description": "failed to die...",
         "amplify": ['NONE',True]
     },
 
@@ -294,6 +294,12 @@ Auras = {
         "rarity": 100400,
         "display": fg("Diaboli : Void" + "                    ", 55),
         "description": "Empty",
+        "amplify": ['NONE',True]
+    },
+        "Undead": {
+        "rarity": 10000,
+        "display": (fg("Undead", 22) + "                    "),
+        "description": "failed to die...",
         "amplify": ['NONE',True]
     },
 
