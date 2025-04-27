@@ -312,7 +312,7 @@ Auras = {
     "Hazard : Rays": {
         "rarity": 70000,
         "display": (fg("Hazard : Rays", 105) + "                    "),
-        "description": "",
+        "description": "This is a constant destruction of life",
         "amplify": ['Corrupted',True]
     },
 
