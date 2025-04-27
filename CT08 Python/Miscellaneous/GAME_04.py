@@ -543,11 +543,11 @@ Auras = {
     "Velocity": {
         "rarity": 7630000,
         "display": fg("VELOCITY" + "                    ", 219),
-        "description": "Empty",
+        "description": "The power continuously accelerates objects until they burn up from friction.",
         "amplify": ['NONE',True]
     },
     "Anubis": {
-        "rarity": 7000000,
+        "rarity": 8500000,
         "display": fg("Anubis" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
