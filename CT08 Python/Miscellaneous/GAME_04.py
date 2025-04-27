@@ -287,7 +287,7 @@ Auras = {
     },
     "Ink:LEAK": {
         "rarity": 14000,
-        "display": fg("Ink : Leak" + "                    ", 242440),
+        "display": fg("Ink : Leak" + "                    ", 244),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
