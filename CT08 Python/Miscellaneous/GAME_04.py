@@ -572,6 +572,12 @@ Auras = {
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
     },
+    "Sailor": {
+        "rarity": 12000000,
+        "display": fg("Starscourge" + "                    ", 210),
+        "description": "When the stars aligned... the brightest starlights gathered to form this.",
+        "amplify": ['Starfall',True]
+    },
     "Glitched": {
         "rarity": 12210110,
         "display": (fg("G", 232) + fg("L", 250) + fg("I", 234) + fg("T", 250) + fg("C", 252) + fg("H", 245) + "                    "),
