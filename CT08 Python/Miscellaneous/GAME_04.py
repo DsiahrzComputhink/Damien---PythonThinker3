@@ -591,10 +591,10 @@ Auras = {
         "amplify": ['Windy',True]
     },
     "Sirius": {
-        "rarity": 13500000,
+        "rarity": 14000000,
         "display": (fg("Sirius", 249) + "                    "),
         "description": "A beautiful star that always faces you when I look at the night sky.",
-        "amplify": ['Windy',True]
+        "amplify": ['Starfall',True]
     },
     "Arcane : Legacy": {
         "rarity": 15000000,
