@@ -1112,8 +1112,6 @@ def console():
                     if selected_potion:
                         potion_name = selected_potion["name"]
                         potion_luck = selected_potion["luck"]
-                        print(f"Using {potion_name} with {potion_luck} Luck!")
-                        # You can now call other functions or add logic for how this luck affects the game.
                     else:
                         print(fg("Invalid potion choice.", 160))
 
