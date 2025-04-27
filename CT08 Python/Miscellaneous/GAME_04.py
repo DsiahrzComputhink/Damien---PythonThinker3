@@ -1108,7 +1108,8 @@ def console():
                             if rolls.isnumeric():
                                 roll_for_aura(potion_luck * luck_multiplier, selected_biome,100,10)
                             else:
-                                rint(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
+                                print(fg("Invalid roll count", 160))
+                                time.sleep(1)
                         else:
                             print(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
                             time.sleep(2)
