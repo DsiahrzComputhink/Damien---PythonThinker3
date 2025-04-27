@@ -372,7 +372,6 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
 
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
-        actual_rarity = aura_copy['rarity']
 
         amplify_info = aura_copy.get('amplify', ['NONE', True])
         native_biome = amplify_info[0]
@@ -407,7 +406,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         if luck >= rarity:
             continue
         print(LINE)
-        print("Rarity:", fg(f"1 / {int(actual_rarity):,}", 81))
+        print("Rarity:", fg(f"1 / {int(rarity):,}", 81))
         print("Actual Chance:", fg(f"1 / {format_chance(actual_chance)}", 75))
         print(aura_info['display'])
         print(fg(f"Description: {aura_info['description']}", 244))
