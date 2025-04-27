@@ -285,6 +285,18 @@ Auras = {
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
+    "Starlight": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
+    "Rage:Heated": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
     "Flushed : Lobotomy": {
         "rarity": 69000,
         "display": (fg("Flushed : Lobotomy", 46) + "                    "),
