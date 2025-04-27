@@ -645,8 +645,8 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Matrix": {
-        "rarity": 45000000,
-        "display": (fg("Overseer", 153) + "                    "),
+        "rarity": 50000000,
+        "display": (fg("Matrix", 157) + "                    "),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
