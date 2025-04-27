@@ -702,7 +702,7 @@ Auras = {
         "amplify": ['Glitched',False]
     },
     "Archangel": {
-        "rarity": 299999999,
+        "rarity": 250000000,
         "display": (fg("Archangel", 229) + "                    "),
         "description": "The most pure, beautiful, and holy being, in the mythology",
         "amplify": ['NONE',True]
