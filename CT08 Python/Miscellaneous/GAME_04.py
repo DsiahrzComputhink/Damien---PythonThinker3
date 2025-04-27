@@ -372,7 +372,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
 
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
-        actual_rarity =
+        actual_rarity = aura_copy['rarity']
 
         amplify_info = aura_copy.get('amplify', ['NONE', True])
         native_biome = amplify_info[0]
