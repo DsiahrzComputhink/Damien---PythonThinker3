@@ -704,7 +704,7 @@ Auras = {
     "Archangel": {
         "rarity": 299999999,
         "display": (fg("Archangel", 165) + "                    "),
-        "description": "What's left for this fallen ruler?",
+        "description": "The most pure, beautiful, and holy being, in the mythology",
         "amplify": ['NONE',True]
     },
     "Exotic : VOID": {
