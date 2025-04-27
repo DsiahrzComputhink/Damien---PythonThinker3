@@ -1013,6 +1013,13 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
     return results
 
 
+
+show_aura_rarity(1 * 10000 * 1000,'Normal')
+debugcolour()
+roll_for_aura(15.39, 'Normal',10000,10)
+
+
+# ill do this later
 def console():
     stop = 0
     while stop == 0:
@@ -1035,7 +1042,3 @@ def console():
                 stop += 1   
         else:
             print(style.bred + "Command does not exist" + style.RESET)
-
-show_aura_rarity(1 * 10000 * 1000,'Normal')
-debugcolour()
-roll_for_aura(15.39, 'Normal',10000,10)
