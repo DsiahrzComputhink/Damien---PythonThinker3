@@ -18,7 +18,7 @@ if action == "b":
         print("You have borrowed the book.")
     else:
         print("The book is already borrowed.")
-elif action == "d":
+elif action == "r":
     if books[book_id] == "BORROWED":
         books(books_id) == "AVAILABLE"
         print("You have returned the book.")
