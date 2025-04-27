@@ -354,7 +354,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Undead : Devil": {
-        "rarity": 10000,
+        "rarity": 120000,
         "display": (fg("Undead : Devil", 203) + "                    "),
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
