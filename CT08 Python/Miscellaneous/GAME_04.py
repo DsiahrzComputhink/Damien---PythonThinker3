@@ -277,7 +277,7 @@ Auras = {
         "rarity": 12000,
         "display": (fg("Corrosive", 128) + "                    "),
         "description": "failed to die...",
-        "amplify": ['Corrosi',True]
+        "amplify": ['Corruption',True]
     },
     "Rage:Heated": {
         "rarity": 12800,
