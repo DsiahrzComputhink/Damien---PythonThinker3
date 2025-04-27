@@ -1121,7 +1121,6 @@ def console():
                         print(style.bblue + "4" + style.RESET, "                       ", fg("Both", 231))
                         print(LINE)
 
-                        # VIP options and corresponding luck multipliers
                         vip_choices = {
                             "1": {"name": "None", "luck_multiplier": 1.0},
                             "2": {"name": "VIP", "luck_multiplier": 1.2},
@@ -1129,10 +1128,7 @@ def console():
                             "4": {"name": "Both", "luck_multiplier": 1.3}
                         }
 
-                        # Get input from user
                         vip_input = input("Select your VIP level (1-4): ").strip()
-
-                        # Look up VIP choice
                         selected_vip = vip_choices.get(vip_input)
 
                         if selected_vip:
