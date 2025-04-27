@@ -647,7 +647,7 @@ Auras = {
     "Matrix": {
         "rarity": 50000000,
         "display": (fg("Matrix", 157) + "                    "),
-        "description": "Empty",
+        "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
         "amplify": ['NONE',True]
     },
     "Twilight : Iridescent Memory": {
