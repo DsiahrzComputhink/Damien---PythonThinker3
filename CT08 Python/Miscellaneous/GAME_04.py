@@ -489,7 +489,7 @@ Auras = {
     "Zeus": {
         "rarity": 4000000,
         "display": fg("Zeus" + "                    ", 44),
-        "description": "It has been shaped as a creature that once ruled the ocean long ago.",
+        "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
 
