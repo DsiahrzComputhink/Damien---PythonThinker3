@@ -500,13 +500,13 @@ Auras = {
     },
     "Lunar : Full Moon": {
         "rarity": 4500000,
-        "display": fg("Lunar : Full Moon" + "                    ", 22),
+        "display": fg("Lunar : Full Moon" + "                    ", 229),
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
     "Solar : Solstice": {
         "rarity": 4500000,
-        "display": fg("Solar : Solstice" + "                    ", 229),
+        "display": fg("Solar : Solstice" + "                    ", 228),
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
