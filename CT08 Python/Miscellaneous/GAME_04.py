@@ -903,10 +903,29 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
         time.sleep(0.01)
 
-def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed = 1):
+# Define Tiers
+Tiers = [
+    {"name": "BASIC", "range": (1, 999), "color": 245},
+    {"name": "EPIC", "range": (1000, 9998), "color": 111},
+    {"name": "UNIQUE", "range": (9999, 99998), "color": 45},
+    {"name": "LEGENDARY", "range": (99999, 999998), "color": 220},
+    {"name": "MYTHIC", "range": (999999, 9999998), "color": 201},
+    {"name": "EXALTED", "range": (9999999, 99999998), "color": 207},
+    {"name": "GLORIOUS", "range": (99999999, 999999998), "color": 227},
+    {"name": "TRANSCENDENT", "range": (999999999, float('inf')), "color": 199},
+]
+
+def find_tier(rarity_value):
+    for tier in Tiers:
+        min_val, max_val = tier["range"]
+        if min_val <= rarity_value <= max_val:
+            return tier
+    return None
+
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1):
     ListedAuras = {}
 
-    # First adjust auras based on the biome
+    # Adjust auras for biome
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
 
@@ -931,7 +950,6 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
         ListedAuras[aura_name] = aura_copy
 
-    # Prepare weighted list
     chances = []
     names = []
 
@@ -952,21 +970,46 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
     total = sum(chances)
     normalized = [c / total for c in chances]
 
-    # Roll multiple times
+    # Do the rolls
     results = []
     for _ in range(rolls):
         result = random.choices(names, weights=normalized, k=1)[0]
         results.append(result)
 
-    # Display all rolls
+    # Display individual rolls
     print(LINE)
     print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
     for idx, aura_name in enumerate(results, 1):
         aura_info = ListedAuras[aura_name]
         print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
-        time.sleep(0.05 / rollspeed)
+        time.sleep(0.05)
     print(LINE)
-    
+
+    # Build summary
+    summary = {}
+
+    for aura_name in results:
+        aura_info = ListedAuras[aura_name]
+        rarity = aura_info["rarity"]
+        tier_info = find_tier(rarity)
+        if tier_info:
+            tier_name = tier_info["name"]
+            if tier_name not in summary:
+                summary[tier_name] = {}
+            if aura_name not in summary[tier_name]:
+                summary[tier_name][aura_name] = 0
+            summary[tier_name][aura_name] += 1
+
+    # Display summary sorted by tier
+    print(fg("ROLL SUMMARY:", 220))
+    for tier in Tiers:
+        tier_name = tier["name"]
+        if tier_name in summary:
+            print(fg(f"\n{tier_name} [{tier['range'][0]} - {tier['range'][1]}]", tier['color']))
+            for aura_name, count in summary[tier_name].items():
+                print(fg(f"{aura_name} x{count}", 250))
+
+    print(LINE)
     return results
 
 
