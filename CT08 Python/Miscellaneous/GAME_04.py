@@ -1041,7 +1041,7 @@ def console():
                     print(LINE)
                     print(style.bblue + "1" + style.RESET,"                     ","Normal")
                     print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
-                    print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
+                    print(style.bblue + "2" + style.RESET,"              ","Snowy [1/600]")
                     print(style.bblue + "3" + style.RESET,"              ","Rainy [1/750]")
                     print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
                     print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
