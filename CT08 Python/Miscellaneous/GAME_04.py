@@ -677,6 +677,18 @@ Auras = {
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
     },
+    "Overture": {
+        "rarity": 10000000,
+        "display": fg("Starscourge : Radiant" + "                    ", 117),
+        "description": "When the stars aligned... the brightest starlights gathered to form this.",
+        "amplify": ['Starfall',True]
+    },
+    "Starscourge : Radiant": {
+        "rarity": 10000000,
+        "display": fg("Starscourge : Radiant" + "                    ", 117),
+        "description": "When the stars aligned... the brightest starlights gathered to form this.",
+        "amplify": ['Starfall',True]
+    },
     "Oppression": {
         "rarity": 220000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
