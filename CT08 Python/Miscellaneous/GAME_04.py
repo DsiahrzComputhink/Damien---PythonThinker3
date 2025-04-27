@@ -690,7 +690,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Impeached": {
-        "rarity": 299999999,
+        "rarity": 200000000,
         "display": (fg("IMPEACHED", 206) + "                    "),
         "description": "What's left for this fallen ruler?",
         "amplify": ['Corruption',True]
