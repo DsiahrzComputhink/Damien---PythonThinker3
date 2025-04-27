@@ -1092,7 +1092,7 @@ def console():
                     }
                     biome_input = input("Select a biome (1-9): ").strip()
                     selected_biome = biome_choices.get(biome_input)
-                    
+
                     if selected_biome:
                         show_aura_rarity(int(luck), selected_biome)
                     else:
