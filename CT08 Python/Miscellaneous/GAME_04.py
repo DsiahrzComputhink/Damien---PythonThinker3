@@ -444,14 +444,14 @@ Auras = {
         "description": "It's too dark in here...",
         "amplify": ['Null',True]
     },
-        "Astral": {
+    "Cosmos": {
         "rarity": 1111000,
         "display": fg("[Undefined]" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['Null',True]
     },
-    "Undefined": {
-        "rarity": 1111000,
+    "Gravitational": {
+        "rarity": 2000000,
         "display": fg("[Undefined]" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['Null',True]
