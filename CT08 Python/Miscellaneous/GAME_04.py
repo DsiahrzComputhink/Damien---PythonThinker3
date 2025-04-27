@@ -788,7 +788,7 @@ Auras = {
     "Aegis": {
         "rarity": 500000000,
         "display": (fg("(AEGIS)", 81) + "                    "),
-        "description": "Aegis, Named after the 'Shield of The Sky' Aegis is an anti-star satellite weapon currently being restored by the Science Foundation. It has existed in space for an incredibly long time.",
+        "description": "Aegis, Named after the 'Shield of The Sky' Aegis is an anti-star satellite weapon currently being restored by the Science Foundation.",
         "amplify": ['NONE',True]
     },
 
