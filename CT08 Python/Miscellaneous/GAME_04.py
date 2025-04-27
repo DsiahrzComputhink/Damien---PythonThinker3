@@ -440,5 +440,5 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
 
 
-show_aura_rarity(1,'Snowy')
+show_aura_rarity(1,'Oppression')
 debugcolour()
