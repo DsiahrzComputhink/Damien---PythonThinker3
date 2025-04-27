@@ -365,17 +365,17 @@ Auras = {
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
     },
-        "Comet": {
+    "Comet": {
         "rarity": 120000,
         "display": (fg("COMET", 159) + "                    "),
         "description": "People believe that it has the capabilities to make wishes come true.",
-        "amplify": ['Hell',True]
+        "amplify": ['Starfall',True]
     },
-        "Jade": {
+    "Jade": {
         "rarity": 120000,
         "display": (fg("Jade", 203) + "                    "),
         "description": "Where did it go?",
-        "amplify": ['Hell',True]
+        "amplify": ['NONE',True]
     },
 
     # 1,000,000 - Mythic
