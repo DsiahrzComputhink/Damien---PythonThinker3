@@ -407,7 +407,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         if luck >= rarity:
             continue
         print(LINE)
-        print("Rarity:", fg(f"1 / {int(rarity):,}", 81))
+        print("Rarity:", fg(f"1 / {int(actual_rarity):,}", 81))
         print("Actual Chance:", fg(f"1 / {format_chance(actual_chance)}", 75))
         print(aura_info['display'])
         print(fg(f"Description: {aura_info['description']}", 244))
