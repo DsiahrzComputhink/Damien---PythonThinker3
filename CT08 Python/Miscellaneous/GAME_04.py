@@ -1112,7 +1112,8 @@ def console():
                     if selected_potion:
                         potion_name = selected_potion["name"]
                         potion_luck = selected_potion["luck"]
-                        roll_for_aura(50000 * 1.3, 'Glitched',100,10)
+                        
+                        roll_for_aura(potion_luck, 'Glitched',100,10)
                     else:
                         print(fg("Invalid choice.", 160))
                 else:
