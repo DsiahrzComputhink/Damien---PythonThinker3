@@ -291,7 +291,7 @@ Auras = {
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
-    "Rage:Heated": {
+    "Star Rider": {
         "rarity": 12800,
         "display": fg("Rage:Heated" + "                    ", 202),
         "description": "furious emotions",
