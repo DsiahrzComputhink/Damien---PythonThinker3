@@ -548,7 +548,7 @@ Auras = {
     },
     "Anubis": {
         "rarity": 8500000,
-        "display": fg("Anubis" + "                    ", 219),
+        "display": fg("Anubis" + "                    ", 179),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
@@ -560,7 +560,7 @@ Auras = {
     },
     "Helios": {
         "rarity": 7000000,
-        "display": fg("Helios" + "                    ", 219),
+        "display": fg("Helios" + "                    ", 221),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
