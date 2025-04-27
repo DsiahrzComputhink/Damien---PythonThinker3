@@ -1044,8 +1044,6 @@ def roll_for_aura(
 
 
 debugcolour()
-roll_for_aura(50000 * 1.3, 'Glitched',100,10)
-
 
 # ill do this later
 def console():
@@ -1061,7 +1059,7 @@ def console():
         command = input("")
         if command.isnumeric():
             if int(command) == 1:
-                print('hi')
+                roll_for_aura(50000 * 1.3, 'Glitched',100,10)
             if int(command) == 2:
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
