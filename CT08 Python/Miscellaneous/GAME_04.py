@@ -1074,7 +1074,7 @@ def console():
                     print(style.bblue + "2" + style.RESET,"          ",fg("Starfall [1/7500]",75))
                     print(style.bblue + "2" + style.RESET,"        ",fg("Corruption [1/9000]",99))
                     print(style.bblue + "2" + style.RESET,"             ",fg("Null [1/10100]",249))
-                    print(style.bblue + "2" + style.RESET,"         ",fg("Glitched [1/30000]",29))
+                    print(style.bblue + "2" + style.RESET,"         ",fg("Glitched [1/30000]",29 + 6))
                     print(LINE)
                     biome = input()
                     show_aura_rarity(int(luck),'Normal')
