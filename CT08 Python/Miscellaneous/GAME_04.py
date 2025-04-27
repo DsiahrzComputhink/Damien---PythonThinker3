@@ -292,13 +292,13 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Powered": {
-        "rarity": 12800,
+        "rarity": 16384,
         "display": fg("Powered" + "                    ", 255),
         "description": "I feel like I've become more powerful!",
         "amplify": ['NONE',True]
     },
     "Aquatic": {
-        "rarity": 12800,
+        "rarity": 40000,
         "display": fg("Aquatic" + "                    ", 69),
         "description": "It represents the flow of water",
         "amplify": ['NONE',True]
