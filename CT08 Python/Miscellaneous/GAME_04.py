@@ -271,7 +271,7 @@ Auras = {
         "rarity": 12000,
         "display": (fg("Undead", 22) + "                    "),
         "description": "failed to die...",
-        "amplify": ['NONE',True]
+        "amplify": ['Hell',True]
     },
     "Rage:Heated": {
         "rarity": 12800,
@@ -321,7 +321,7 @@ Auras = {
         "rarity": 10000,
         "display": (fg("Undead : Devil", 203) + "                    "),
         "description": "silly tiny demon",
-        "amplify": ['NONE',True]
+        "amplify": ['Hell',True]
     },
 
     # 1,000,000 - Mythic
