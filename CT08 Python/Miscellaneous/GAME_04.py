@@ -752,7 +752,7 @@ Auras = {
     "Apostolos": {
         "rarity": 400000000,
         "display": (fg("APOSTOLOS", 27) + "                    "),
-        "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
+        "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
     "Matrix : Overdrive": {
