@@ -12,7 +12,7 @@ action = input("Enter 'B' to borrow a book or 'R' to return a book: ")
 book_id = input("Enter the book ID: ")
 ### Make your code fixes after this
 
-if action == "b":
+if action.lower() == "B":
     if books[book_id] == "AVAILABLE":
         books[book_id] == "BORROWED"
         print(books)
@@ -20,7 +20,7 @@ if action == "b":
     else:
         print(books)
         print("The book is already borrowed.")
-elif action == "r":
+elif action == "R":
     if books[book_id] == "BORROWED":
         books[book_id] == "AVAILABLE"
         print(books)
