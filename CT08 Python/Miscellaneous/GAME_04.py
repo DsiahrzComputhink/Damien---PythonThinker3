@@ -513,7 +513,7 @@ Auras = {
     "Twilight": {
         "rarity": 5000000,
         "display": fg("Twilight" + "                    ", 147),
-        "description": "It was made with Sunshine by an Unknown being on a bright day.",
+        "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
         "amplify": ['NONE',True]
     },
 
