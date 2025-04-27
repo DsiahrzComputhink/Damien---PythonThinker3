@@ -79,25 +79,25 @@ Biomes = {
 Auras = {
     "Common": {
         "rarity": 2,
-        "display": fg("Common" + "                    ", 255),
+        "display": fg("Common", 255),
         "description": "Very common thing",
         "amplify": ['NONE',True],
     },
     "Uncommon": {
         "rarity": 4,
-        "display": ("Uncommon" + "                    "),
+        "display": ("Uncommon"),
         "description": "super uncommon",
         "amplify": ['NONE',True]
     },
     "Good": {
         "rarity": 5,
-        "display": fg("Good" + "                    ", 255),
+        "display": fg("Good", 255),
         "description": "its super good",
         "amplify": ['NONE',True]
     },
     "Natural": {
         "rarity": 8,
-        "display": fg("Natural" + "                    ", 120),
+        "display": fg("Natural", 120),
         "description": "very natural thing",
         "amplify": ['NONE',True]
     },
