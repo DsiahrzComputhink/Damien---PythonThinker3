@@ -1167,5 +1167,4 @@ def console():
         else:
             print(style.bred + "Command does not exist" + style.RESET)
 
-debugcolour()
 console()
