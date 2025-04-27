@@ -1027,7 +1027,7 @@ def console():
         print("Sols RNG Calculator")
         print(LINE)
         print(style.bblue + "1" + style.RESET,"            ","Roll Prediction")
-        print(style.bblue + "2" + style.RESET,"              ","another thing")
+        print(style.bblue + "2" + style.RESET,"                  ","Aura List")
         print(style.bblue + "3" + style.RESET,"              ","Close Program")
         print(LINE)
         command = input("")
@@ -1035,7 +1035,7 @@ def console():
             if int(command) == 1:
                 print('hi')
             if int(command) == 2:
-                print('hi')
+                show_aura_rarity()
             if int(command) == 3:
                 print(style.bgreen + "Program closing..." + style.RESET)
                 print("Goodbye!")
