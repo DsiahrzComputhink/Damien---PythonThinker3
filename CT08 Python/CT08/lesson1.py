@@ -28,9 +28,9 @@ elif action.lower() == "r":
     elif books[book_id] == "AVAILABLE":
         print(books)
         print("The book is already AVAILABLE.")
-    else:
-        print(books)
-        print("Invalid action.")
+else:
+    print(books)
+    print("Invalid action.")
 
 '''
 Identify and correct the errors in the program so that it works according to 
