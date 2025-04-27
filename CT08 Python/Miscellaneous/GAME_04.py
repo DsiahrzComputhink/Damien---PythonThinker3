@@ -416,7 +416,7 @@ Auras = {
     # 1,000,000 - Mythic
     "Arcane": {
         "rarity": 1024000,
-        "display": fg("Arcane" + "                    ", 127),
+        "display": fg("Arcane" + "                    ", 117),
         "description": "A spell found in the ruins of an ancient civilization.",
         "amplify": ['NONE',True]
     },
@@ -460,7 +460,7 @@ Auras = {
     },
     "Arcane : Legacy": {
         "rarity": 1024000,
-        "display": fg("Arcane : Legacy" + "                    ", 127),
+        "display": fg("Arcane : Legacy" + "                    ", 117),
         "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
     },
