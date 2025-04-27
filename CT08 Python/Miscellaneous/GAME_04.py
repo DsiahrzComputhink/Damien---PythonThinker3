@@ -1039,8 +1039,8 @@ def console():
                 if luck.isnumeric():
                     print("What",style.bcyan + "Biome" + style.RESET,"Do you want?")
                     print(LINE)
-                    print(style.bblue + "1" + style.RESET,"            ","Roll Prediction")
-                    print(style.bblue + "2" + style.RESET,"                  ","Aura List")
+                    print(style.bblue + "1" + style.RESET,"                     ","Normal")
+                    print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
                     print(style.bblue + "3" + style.RESET,"              ","Close Program")
                     print(LINE)
                     biome = input()
