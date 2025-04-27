@@ -522,9 +522,9 @@ Auras = {
         "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
         "amplify": ['NONE',True]
     },
-    "Twilight": {
+    "Hades": {
         "rarity": 6666666,
-        "display": fg("Hades" + "                    ", 147),
+        "display": fg("Hades" + "                    ", 166),
         "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
         "amplify": ['Hell',True]
     },
