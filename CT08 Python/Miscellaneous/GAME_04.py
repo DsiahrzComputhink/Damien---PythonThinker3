@@ -473,31 +473,31 @@ Auras = {
     },
     "Rage : Brawler": {
         "rarity": 1280000,
-        "display": fg("Rage : Brawler" + "                    ", 196),
+        "display": fg("Rage : Brawler", 196),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
     "Astral": {
         "rarity": 133600,
-        "display": fg("Astral" + "                    ", 135),
+        "display": fg("Astral", 135),
         "description": "In the distant expanse of space, tiny stars emitting faint light come together to form a unified existence.",
         "amplify": ['Corruption',True]
     },
     "Cosmos": {
         "rarity": 1520000,
-        "display": fg("Cosmos" + "                    ", 183),
+        "display": fg("Cosmos", 183),
         "description": "A galactic warrior who fought in the ancient space war. Countless years have passed since the war, but the scars of war still remains on its body.",
         "amplify": ['NONE',True]
     },
     "Gravitational": {
         "rarity": 2000000,
-        "display": fg("Gravitational" + "                    ", 69),
+        "display": fg("Gravitational", 69),
         "description": "The irregularities of gravity incomprehensible to humans. It is thought to stem from the same material comprising the mysterious Great Attractor.",
         "amplify": ['NONE',True]
     },
     "Bounded : Unbound": {
         "rarity": 2000000,
-        "display": fg("BOUNDED : UNBOUND" + "                    ", 21),
+        "display": fg("BOUNDED : UNBOUND", 21),
         "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
