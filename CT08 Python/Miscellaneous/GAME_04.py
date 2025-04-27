@@ -287,13 +287,13 @@ Auras = {
     },
     "Quartz": {
         "rarity": 8000,
-        "display": (fg("Quartz", 183) + "                    "),
+        "display": (fg("Quartz", 183)),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Lost Soul": {
         "rarity": 8200,
-        "display": (fg("Lost Soul", 74) + "                    "),
+        "display": (fg("Lost Soul", 74)),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
