@@ -276,6 +276,12 @@ Auras = {
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
+    "Flushed : Lobotomy": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['NONE',True]
+    },
     "Hazard : Rays": {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
