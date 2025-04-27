@@ -775,8 +775,8 @@ Auras = {
     },
     "Sovereign": {
         "rarity":  601020102,
-        "display": (fg("SOVEREIGN", 146) + "                    "),
-        "description": "They were all living in a simulation, This is the TRUE REALITY.",
+        "display": (fg("SOVEREIGN", 153) + "                    "),
+        "description": "Look at this Shining Figure. Sovereign, revered as the most Glorious and Magnificent being among all rulers in history.",
         "amplify": ['NONE',True]
     },
 
