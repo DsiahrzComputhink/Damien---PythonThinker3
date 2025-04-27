@@ -405,7 +405,7 @@ Auras = {
     "Bounded": {
         "rarity": 200000,
         "display": fg("BOUNDED" + "                    ", 20),
-        "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
+        "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
     "Rage : Brawler": {
