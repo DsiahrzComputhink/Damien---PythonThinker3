@@ -383,13 +383,13 @@ Auras = {
         "amplify": ['NONE',True]
     },
         "Jazz": {
-        "rarity": 120000,
+        "rarity": 160000,
         "display": (fg("Jade", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
         "Aether": {
-        "rarity": 120000,
+        "rarity": 180000,
         "display": (fg("Jade", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
