@@ -289,13 +289,13 @@ Auras = {
         "rarity": 50000,
         "display": fg("STARLIGHT" + "                    ", 117),
         "description": "This starlight with mysterious powers infused will follow you persistently, illuminating the path.",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Star Rider": {
         "rarity": 50000,
         "display": fg("Star Rider" + "                    ", 227),
         "description": "A little friend who will join you on a wonderful trip",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Flushed : Lobotomy": {
         "rarity": 69000,
