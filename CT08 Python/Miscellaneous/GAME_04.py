@@ -470,7 +470,7 @@ Auras = {
     },
     "Savior": {
         "rarity": 3200000,
-        "display": fg("Savior" + "                    ", 87),
+        "display": fg("Savior" + "                    ", 207),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
