@@ -1114,7 +1114,7 @@ def console():
                         potion_luck = selected_potion["luck"]
                         print("Do you have", fg("VIP", 220), "or" , fg("VIP+",117 ))
                         print(LINE)
-                        print(style.bblue + "1" + style.RESET, "            ", "None")
+                        print(style.bblue + "1" + style.RESET, "          ", "None")
                         print(style.bblue + "2" + style.RESET, "          ", fg("VIP", 220))
                         print(style.bblue + "3" + style.RESET, "          ", fg("VIP+", 117))
                         print(style.bblue + "4" + style.RESET, "          ", fg("Both", 231))
