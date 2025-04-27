@@ -956,7 +956,8 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
 
     aura_info = ListedAuras[result]
     print(LINE)
-    print(fg("YOU ROLLED:", 220), aura_info['display'],"1 /",aura_info['rarity'])
+    print(fg("YOU ROLLED:", 220), aura_info['display'])
+    print()
     print(fg(f"'{aura_info['description']}'", 244))
     print(LINE)
     return result
