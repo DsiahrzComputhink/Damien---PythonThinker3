@@ -512,7 +512,7 @@ Auras = {
     },
     "Twilight": {
         "rarity": 5000000,
-        "display": fg("Solar : Solstice" + "                    ", 228),
+        "display": fg("Twilight" + "                    ", 147),
         "description": "It was made with Sunshine by an Unknown being on a bright day.",
         "amplify": ['NONE',True]
     },
