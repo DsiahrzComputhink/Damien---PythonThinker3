@@ -691,7 +691,7 @@ Auras = {
     },
     "Impeached": {
         "rarity": 299999999,
-        "display": (fg("IMPEACHED", 165) + "                    "),
+        "display": (fg("IMPEACHED", 206) + "                    "),
         "description": "What's left for this fallen ruler?",
         "amplify": ['Corruption',True]
     },
@@ -703,7 +703,7 @@ Auras = {
     },
     "Archangel": {
         "rarity": 299999999,
-        "display": (fg("Archangel", 165) + "                    "),
+        "display": (fg("Archangel", 223) + "                    "),
         "description": "The most pure, beautiful, and holy being, in the mythology",
         "amplify": ['NONE',True]
     },
