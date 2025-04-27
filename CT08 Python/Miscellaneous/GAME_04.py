@@ -373,7 +373,7 @@ Auras = {
     },
     "Jade": {
         "rarity": 120000,
-        "display": (fg("Jade", 23) + "                    "),
+        "display": (fg("Jade", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
