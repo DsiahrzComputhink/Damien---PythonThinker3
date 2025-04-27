@@ -542,13 +542,13 @@ Auras = {
     },
     "Velocity": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("VELOCITY" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Anubis": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("Anubis" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
