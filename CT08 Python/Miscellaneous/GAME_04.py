@@ -440,19 +440,19 @@ Auras = {
     },
     "Astral": {
         "rarity": 133600,
-        "display": fg("[Undefined]" + "                    ", 250),
+        "display": fg("Astral" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['Corruption',True]
     },
     "Cosmos": {
         "rarity": 1520000,
-        "display": fg("[Undefined]" + "                    ", 250),
+        "display": fg("Cosmos" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['NONE',True]
     },
     "Gravitational": {
         "rarity": 2000000,
-        "display": fg("[Undefined]" + "                    ", 250),
+        "display": fg("Gravitational" + "                    ", 250),
         "description": "It's too dark in here...",
         "amplify": ['NONE',True]
     },
