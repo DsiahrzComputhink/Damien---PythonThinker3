@@ -731,6 +731,12 @@ Auras = {
         "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
+    "Atlas": {
+        "rarity": 300000000,
+        "display": fg("♩ Orchestra ♩" + "                    ", 230),
+        "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
+        "amplify": ['NONE',True]
+    },
     "Abyssal Hunter": {
         "rarity": 400000000,
         "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
