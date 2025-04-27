@@ -474,6 +474,12 @@ Auras = {
         "description": "Empty",
         "amplify": ['NONE',True]
     },
+    "Savior": {
+        "rarity": 3200000,
+        "display": fg("Savior" + "                    ", 207),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
     "Aquatic : Flame": {
         "rarity": 4000000,
         "display": fg("Aquatic : Flame" + "                    ", 208),
