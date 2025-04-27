@@ -498,13 +498,13 @@ Auras = {
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
-    "Zeus": {
+    "Lunar : Full Moon": {
         "rarity": 4500000,
         "display": fg("Zeus" + "                    ", 229),
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
-    "Zeus": {
+    "Solar : Solstice": {
         "rarity": 4500000,
         "display": fg("Zeus" + "                    ", 229),
         "description": "It has the image of a creature that once ruled the sky.",
