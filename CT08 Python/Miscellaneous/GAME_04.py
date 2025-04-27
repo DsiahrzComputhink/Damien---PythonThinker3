@@ -465,7 +465,7 @@ Auras = {
     "Virtual": {
         "rarity": 2000000,
         "display": fg("Virtual" + "                    ", 87),
-        "description": "When news spread that this being had awoken, people trembled in fear.",
+        "description": "An advanced hologram device created by an unnamed civilization.",
         "amplify": ['NONE',True]
     },
     "Aquatic : Flame": {
