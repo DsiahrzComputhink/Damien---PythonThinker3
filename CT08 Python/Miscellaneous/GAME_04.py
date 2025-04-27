@@ -911,7 +911,7 @@ Tiers = [
     {"name": "LEGENDARY", "range": (99999, 999998), "color": 220},
     {"name": "MYTHIC", "range": (999999, 9999998), "color": 213},
     {"name": "EXALTED", "range": (9999999, 99999998), "color": 27},
-    {"name": "GLORIOUS", "range": (99999999, 999999998), "color": },
+    {"name": "GLORIOUS", "range": (99999999, 999999998), "color": 160},
     {"name": "TRANSCENDENT", "range": (999999999, float('inf')), "color": 199},
 ]
 
