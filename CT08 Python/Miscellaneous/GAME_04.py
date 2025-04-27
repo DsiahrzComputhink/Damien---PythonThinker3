@@ -631,31 +631,31 @@ Auras = {
     },
     "Sirius": {
         "rarity": 14000000,
-        "display": (fg("Sirius", 222) + "                    "),
+        "display": (fg("Sirius", 222)),
         "description": "A beautiful star that always faces you when I look at the night sky.",
         "amplify": ['Starfall',True]
     },
     "Arcane : Legacy": {
         "rarity": 15000000,
-        "display": fg("Arcane : Legacy" + "                    ", 117),
+        "display": fg("Arcane : Legacy", 117),
         "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
     },
     "Blizzard": {
         "rarity": 19725000,
-        "display": (fg("Blizzard", 117) + "                    "),
+        "display": (fg("Blizzard", 117)),
         "description": "Empty",
         "amplify": ['Snowy',True]
     },
     "Chromatic": {
         "rarity": 20000000,
-        "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
+        "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196)),
         "description": "Yes... Feel my unstoppable beats!",
         "amplify": ['NONE',True]
     },
     "Aviator": {
         "rarity": 24000000,
-        "display": (fg("★ AVIATOR ★", 185) + "                    "),
+        "display": (fg("★ AVIATOR ★", 185)),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
