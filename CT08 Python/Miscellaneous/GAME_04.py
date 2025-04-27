@@ -721,7 +721,7 @@ Auras = {
     },
     "Bloodlust": {
         "rarity": 300000000,
-        "display": fg("OVERTURE : HISTORY" + "                    ", 48),
+        "display": fg("BLOODLUST" + "                    ", 88),
         "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
         "amplify": ['NONE',True]
     },
