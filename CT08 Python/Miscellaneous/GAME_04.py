@@ -1034,7 +1034,7 @@ def console():
             if int(command) == 1:
                 print('hi')
             if int(command) == 2:
-                print("How much ",style.bgreen + "Luck" + style.RESET,"Do you want?")
+                print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
                 if luck.isnumeric():
                     show_aura_rarity()
