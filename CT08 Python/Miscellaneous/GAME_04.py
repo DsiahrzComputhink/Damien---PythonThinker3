@@ -1151,8 +1151,10 @@ def console():
                         show_aura_rarity(int(luck), selected_biome)
                     else:
                         print(fg("Invalid biome choice.", 160))
+                        time.sleep(1)
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
+                    time.sleep(1)
             elif int(command) == 3:
                 print(style.bgreen + "Program closing..." + style.RESET)
                 print("Goodbye!")
