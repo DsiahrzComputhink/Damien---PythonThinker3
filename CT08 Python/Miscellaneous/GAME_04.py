@@ -297,6 +297,12 @@ Auras = {
         "description": "I feel like I've become more powerful!",
         "amplify": ['NONE',True]
     },
+    "Aquatic": {
+        "rarity": 12800,
+        "display": fg("Aquatic" + "                    ", 202),
+        "description": "I feel like I've become more powerful!",
+        "amplify": ['NONE',True]
+    },
     "Starlight": {
         "rarity": 50000,
         "display": fg("STARLIGHT" + "                    ", 117),
