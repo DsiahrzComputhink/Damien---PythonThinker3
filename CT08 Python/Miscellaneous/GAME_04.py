@@ -534,6 +534,36 @@ Auras = {
         "description": "Empty",
         "amplify": ['NONE',True]
     },
+    "Hypervolt": {
+        "rarity": 7000000,
+        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
+    "Celestial : Divine": {
+        "rarity": 7000000,
+        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
+    "Celestial : Divine": {
+        "rarity": 7000000,
+        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
+    "Celestial : Divine": {
+        "rarity": 7000000,
+        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
+    "Celestial : Divine": {
+        "rarity": 7000000,
+        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "description": "Empty",
+        "amplify": ['NONE',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
