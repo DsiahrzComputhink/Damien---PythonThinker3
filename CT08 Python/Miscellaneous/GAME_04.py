@@ -706,25 +706,25 @@ Auras = {
     # 99,999,999 - Glorious
     "Chromatic:Genesis": {
         "rarity": 99999999,
-        "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
+        "display": (fg("CHROMATIC : GENESIS", 153)),
         "description": "WAKE UP FROM AWAY",
         "amplify": ['NONE',True]
     },
     "Starscourge : Radiant": {
         "rarity": 10000000,
-        "display": fg("Starscourge : Radiant" + "                    ", 117),
+        "display": fg("Starscourge : Radiant", 117),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
     },
     "Overture": {
         "rarity": 150000000,
-        "display": fg("Overture" + "                    ", 27),
+        "display": fg("Overture", 27),
         "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
         "amplify": ['NONE',True]
     },
     "Symphony": {
         "rarity": 175000000,
-        "display": fg("Symphony" + "                    ", 153),
+        "display": fg("Symphony", 153),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
