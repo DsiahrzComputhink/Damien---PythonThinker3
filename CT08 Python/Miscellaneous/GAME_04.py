@@ -695,13 +695,13 @@ Auras = {
         "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
-    "Matrix": {
+    "Matrix : Overdrive": {
         "rarity": 50000000,
-        "display": (fg("Matrix", 157) + "                    "),
+        "display": (fg("MATRIX : OVERDRIVE", 157) + "                    "),
         "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
         "amplify": ['NONE',True]
     },
-    "Matrix": {
+    "Matrix : Reality": {
         "rarity": 50000000,
         "display": (fg("Matrix", 157) + "                    "),
         "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
