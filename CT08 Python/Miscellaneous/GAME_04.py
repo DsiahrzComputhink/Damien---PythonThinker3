@@ -355,31 +355,31 @@ Auras = {
     },
     "Flushed : Lobotomy": {
         "rarity": 69000,
-        "display": (fg("Flushed : Lobotomy", 46) + "                    "),
+        "display": (fg("Flushed : Lobotomy", 46)),
         "description": "fire in the hole!!!",
         "amplify": ['NONE',True]
     },
     "Hazard : Rays": {
         "rarity": 70000,
-        "display": (fg("Hazard : Rays", 105) + "                    "),
+        "display": (fg("Hazard : Rays", 105)),
         "description": "This is a constant destruction of life",
         "amplify": ['Corrupted',True]
     },
     "Nautilus": {
         "rarity": 70000,
-        "display": (fg("Nautilus", 63) + "                    "),
+        "display": (fg("Nautilus", 63)),
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['NONE',True]
     },
     "Permafrost": {
         "rarity": 73500,
-        "display": (fg("Permafrost", 159) + "                    "),
+        "display": (fg("Permafrost", 159)),
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Snowy',True]
     },
     "Stormal": {
         "rarity": 90000,
-        "display": (fg("Stormal", 249) + "                    "),
+        "display": (fg("Stormal", 249)),
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
