@@ -473,7 +473,7 @@ Auras = {
     "Arcane : Dark": {
         "rarity": 1024000,
         "display": fg("Arcane : Dark" + "                    ", 127),
-        "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
+        "description": "A spell found in the ruins of an ancient civilization. This dreadful entity, no longer a mere spell, now is a sentient being",
         "amplify": ['NONE',True]
     },
     "Exotic : APEX": {
