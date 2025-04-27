@@ -420,14 +420,18 @@ Auras = {
         "description": "WAKE UP FROM AWAY",
         "amplify": ['NONE',True]
     },
-
     "Oppression": {
         "rarity": 220000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
         "description": "... is this truly the end?",
         "amplify": ['Glitched',False]
     },
-
+    "Exotic : APEX": {
+        "rarity": 49999500,
+        "display": (fg("Exotic : APEX", 85) + "                    "),
+        "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
+        "amplify": ['NONE',True]
+    },
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
