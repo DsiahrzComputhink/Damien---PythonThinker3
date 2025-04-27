@@ -570,7 +570,7 @@ Auras = {
         "rarity": 10000000,
         "display": fg("Starscourge" + "                    ", 210),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Glitched": {
         "rarity": 12210110,
@@ -627,7 +627,7 @@ Auras = {
         "rarity": 10000000,
         "display": fg("Starscourge : Radiant" + "                    ", 117),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Oppression": {
         "rarity": 220000000,
