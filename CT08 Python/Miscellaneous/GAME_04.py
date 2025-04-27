@@ -1096,7 +1096,7 @@ def console():
                         print(style.bblue + "1" + style.RESET, "                     ", "Potion of Bound [50k Luck]")
                         print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion [150k Luck]", 117))
                         print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion [400k Luck]", 159))
-                        print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),)
+                        print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),"[400k Luck]")
 
                         roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
