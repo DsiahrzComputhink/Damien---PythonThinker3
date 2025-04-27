@@ -903,6 +903,69 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
         time.sleep(0.01)
 
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
+    ListedAuras = {}
+
+    # First adjust auras based on the biome
+    for aura_name, aura_info in Auras.items():
+        aura_copy = aura_info.copy()
+
+        amplify_info = aura_copy.get('amplify', ['NONE', True])
+        native_biome = amplify_info[0]
+        biome_lock = amplify_info[1] if len(amplify_info) > 1 else True
+
+        # biome locked check
+        if not biome_lock:
+            if currentbiome != native_biome:
+                continue
+
+        # glitched biome
+        if currentbiome == 'Glitched':
+            if native_biome != 'NONE':
+                biome_data = Biomes.get(native_biome)
+                if biome_data and biome_data.get('Amplify'):
+                    aura_copy['rarity'] /= biome_data['Amplify']
+
+        # normal biome
+        elif currentbiome != 'None':
+            biome_data = Biomes.get(currentbiome)
+            if biome_data and native_biome == currentbiome:
+                if biome_data.get('Amplify'):
+                    aura_copy['rarity'] /= biome_data['Amplify']
+
+        ListedAuras[aura_name] = aura_copy
+
+    # Now pick based on rarities
+    chances = []
+    names = []
+
+    for aura_name, aura_info in ListedAuras.items():
+        rarity = aura_info["rarity"]
+        actual_chance = rarity / luck
+        if luck >= rarity:
+            continue
+
+        weight = 1 / actual_chance
+        chances.append(weight)
+        names.append(aura_name)
+
+    if not names:
+        print(fg("No auras could be rolled with the current luck and biome!", 160))
+        return None
+
+    # Normalize chances
+    total = sum(chances)
+    normalized = [c / total for c in chances]
+
+    result = random.choices(names, weights=normalized, k=1)[0]
+
+    aura_info = ListedAuras[result]
+    print(LINE)
+    print(fg("YOU ROLLED:", 220), aura_info['display'])
+    print(fg(f"'{aura_info['description']}'", 244))
+    print(LINE)
+    return result
+
 
 def console():
     stop = 0
