@@ -750,13 +750,13 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Apostolos": {
-        "rarity": 400000000,
+        "rarity": 440000000,
         "display": (fg("APOSTOLOS", 167) + "                    "),
         "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
     "Ruins": {
-        "rarity": 400000000,
+        "rarity": 500000000,
         "display": (fg("《 Ruins 》", 115) + "                    "),
         "description": "In the ruins of an ancient civilization, destroyed by the destructive rituals and dark sorcery, only a place known as the Sanctuary remains, though it has crumbled in form.",
         "amplify": ['NONE',True]
@@ -769,7 +769,7 @@ Auras = {
     },
     "Matrix : Reality": {
         "rarity":  601020102,
-        "display": (fg("MATRIX ▫ RealREALity", 146) + "                    "),
+        "display": (fg("MATRIX ▫ REALITY", 146) + "                    "),
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
