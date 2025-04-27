@@ -440,13 +440,13 @@ Auras = {
     },
     "Astral": {
         "rarity": 133600,
-        "display": fg("Astral" + "                    ", 250),
+        "display": fg("Astral" + "                    ", 135),
         "description": "It's too dark in here...",
         "amplify": ['Corruption',True]
     },
     "Cosmos": {
         "rarity": 1520000,
-        "display": fg("Cosmos" + "                    ", 250),
+        "display": fg("Cosmos" + "                    ", 183),
         "description": "It's too dark in here...",
         "amplify": ['NONE',True]
     },
