@@ -661,31 +661,31 @@ Auras = {
     },
     "Arcane : Dark": {
         "rarity": 30000000,
-        "display": fg("Arcane : Dark" + "                    ", 93),
+        "display": fg("Arcane : Dark", 93),
         "description": "A spell found in the ruins of an ancient civilization. This dreadful entity, no longer a mere spell, now is a sentient being",
         "amplify": ['NONE',True]
     },
     "Ethereal": {
         "rarity": 35000000,
-        "display": (fg("Ethereal", 218) + "                    "),
+        "display": (fg("Ethereal", 218)),
         "description": "In a country where the vast majority of people attend church, there is a deep-rooted belief in powers, either from God or from the 'dark side'.",
         "amplify": ['NONE',True]
     },
     "Overseer": {
         "rarity": 45000000,
-        "display": (fg("Overseer", 153) + "                    "),
+        "display": (fg("Overseer", 153)),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Exotic : APEX": {
         "rarity": 49999500,
-        "display": (fg("Exotic : APEX", 85) + "                    "),
+        "display": (fg("Exotic : APEX", 85)),
         "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
         "amplify": ['NONE',True]
     },
     "Matrix": {
         "rarity": 50000000,
-        "display": (fg("Matrix", 157) + "                    "),
+        "display": (fg("Matrix", 157)),
         "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
         "amplify": ['NONE',True]
     },
