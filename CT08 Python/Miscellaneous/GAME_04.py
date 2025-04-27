@@ -607,25 +607,25 @@ Auras = {
     # 10,000,000 - Exalted
     "Starscourge": {
         "rarity": 10000000,
-        "display": fg("Starscourge" + "                    ", 210),
+        "display": fg("Starscourge", 210),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
     },
     "Sailor": {
         "rarity": 12000000,
-        "display": fg("Sailor" + "                    ", 81),
+        "display": fg("Sailor", 81),
         "description": "No one knows when this rusted fishing boat started its sail",
         "amplify": ['Rainy',True]
     },
     "Glitched": {
         "rarity": 12210110,
-        "display": (fg("G", 232) + fg("L", 250) + fg("I", 234) + fg("T", 250) + fg("C", 252) + fg("H", 245) + "                    "),
+        "display": (fg("G", 232) + fg("L", 250) + fg("I", 234) + fg("T", 250) + fg("C", 252) + fg("H", 245)),
         "description": "WHAT ? NO, IT'S RIDICULOUS. IT SHOULDN'T HAPPEN",
         "amplify": ['Glitched',False]
     },
     "Stormal : Hurricane": {
         "rarity": 13500000,
-        "display": (fg("Stormal : Hurricane", 249) + "                    "),
+        "display": (fg("Stormal : Hurricane", 249)),
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
