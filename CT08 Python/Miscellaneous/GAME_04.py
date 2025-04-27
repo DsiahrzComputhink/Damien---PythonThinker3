@@ -429,7 +429,7 @@ Auras = {
     "Undefined": {
         "rarity": 1111000,
         "display": fg("Undefined" + "                    ", 250),
-        "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
+        "description": "It's too dark in here...",
         "amplify": ['Null',True]
     },
     "Rage : Brawler": {
