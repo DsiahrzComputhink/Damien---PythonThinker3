@@ -620,6 +620,12 @@ Auras = {
         "description": "The memories were becoming increasingly blurry. Under the full moon that holds many dreams high above, I sincerely wish.",
         "amplify": ['NONE',True]
     },
+    "Sailor": {
+        "rarity": 12000000,
+        "display": fg("Sailor" + "                    ", 81),
+        "description": "No one knows when this rusted fishing boat started its sail",
+        "amplify": ['Rainy',True]
+    },
 
 
     # 99,999,999 - Glorious
