@@ -1098,9 +1098,7 @@ def console():
                     roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                 else:
                     print(fg("Invalid biome choice.", 160))
-            else:
-                print(style.bred + "Command does not exist" + style.RESET)
-            if int(command) == 2:
+            elif int(command) == 2:
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
                 if luck.isnumeric():
@@ -1139,7 +1137,7 @@ def console():
                         print(fg("Invalid biome choice.", 160))
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
-            if int(command) == 3:
+            elif int(command) == 3:
                 print(style.bgreen + "Program closing..." + style.RESET)
                 print("Goodbye!")
                 stop += 1   
