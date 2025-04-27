@@ -689,6 +689,12 @@ Auras = {
         "description": "Empty",
         "amplify": ['NONE',True]
     },
+    "Impeached": {
+        "rarity": 299999999,
+        "display": (fg("Exotic : VOID", 165) + "                    "),
+        "description": "Nobody knows where it originates from, and how old it is.",
+        "amplify": ['NONE',True]
+    },
     "Oppression": {
         "rarity": 220000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
