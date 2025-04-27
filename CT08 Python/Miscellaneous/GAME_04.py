@@ -415,7 +415,7 @@ Auras = {
 
     # 1,000,000 - Mythic
     "Arcane": {
-        "rarity": 1024000,
+        "rarity": 1000000,
         "display": fg("Arcane" + "                    ", 117),
         "description": "A spell found in the ruins of an ancient civilization.",
         "amplify": ['NONE',True]
