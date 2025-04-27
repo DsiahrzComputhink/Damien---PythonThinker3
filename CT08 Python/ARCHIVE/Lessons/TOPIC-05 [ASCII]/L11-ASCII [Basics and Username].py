@@ -156,7 +156,6 @@ def updatepassword(username: str):
             
         userDatabase[f"{username}"]['USEDPASSWORDS'].append(newpassword) # only happens after the new password is strong enough
         userDatabase[f"{username}"]['PASSWORD'] = newpassword
-        print(userDatabase)
         stop == 0
     else:
         print(style.bred + "Username does not exist in database." + style.RESET)
