@@ -1002,9 +1002,9 @@ def roll_for_aura(
 
         roll_label = fg(f"[{roll_number}]",75)
         if bonus_triggered:
-            roll_label += " [BONUS ROLL]"
+            roll_label += fg(" [BONUS ROLL]"
 
-        print(fg(roll_label, 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
+        print(roll_label, aura_info['display'], fg(f"'{aura_info['description']}'", 244))
         time.sleep(0.1 / rollspeed)
 
     print(LINE)
