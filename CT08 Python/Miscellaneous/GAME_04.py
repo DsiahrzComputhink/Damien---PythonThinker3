@@ -116,26 +116,26 @@ Auras = {
     },
     "Crystallized": {
         "rarity": 64,
-        "display": fg("Crystallized" + "                    ", 183),
+        "display": fg("Crystallized", 183),
         "description": "shiny thing",
         "amplify": ['NONE',True]
     },
     # 100
     "★": {
         "rarity": 100,
-        "display": fg("★" + "                    ", 213),
+        "display": fg("★", 213),
         "description": "★",
         "amplify": ['Glitched',False]
     },
     "Rage": {
         "rarity": 128,
-        "display": fg("Rage" + "                    ", 160),
+        "display": fg("Rage", 160),
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
     "Topaz": {
         "rarity": 150,
-        "display": fg("Topaz" + "                    ", 137),
+        "display": fg("Topaz", 137),
         "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
