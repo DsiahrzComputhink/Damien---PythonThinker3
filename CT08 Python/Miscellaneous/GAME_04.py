@@ -1026,7 +1026,7 @@ def console():
         print(LINE)
         print("Sols RNG Calculator")
         print(LINE)
-        print(style.bblue + "1" + style.RESET,"                    ","a thing")
+        print(style.bblue + "1" + style.RESET,"            ","Roll Prediction")
         print(style.bblue + "2" + style.RESET,"              ","another thing")
         print(style.bblue + "3" + style.RESET,"              ","Close Program")
         print(LINE)
