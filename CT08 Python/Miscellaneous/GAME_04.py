@@ -252,7 +252,7 @@ Auras = {
     },
     "Undead": {
         "rarity": 10000,
-        "display": (fg("Flushed", 220) + "                    "),
+        "display": (fg("Undead", 220) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
@@ -284,7 +284,7 @@ Auras = {
     },
     "Hazard : Rays": {
         "rarity": 70000,
-        "display": (fg("Flushed", 105) + "                    "),
+        "display": (fg("Hazard : Rays", 105) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
