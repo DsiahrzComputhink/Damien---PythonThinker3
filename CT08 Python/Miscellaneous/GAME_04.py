@@ -127,7 +127,7 @@ Auras = {
     },
     "Ink": {
         "rarity": 700,
-        "display": fg("Ink" + "                    ", 240),
+        "display": fg("Ink" + "                    ", 250),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
@@ -287,7 +287,7 @@ Auras = {
     },
     "Ink:LEAK": {
         "rarity": 14000,
-        "display": fg("Ink : Leak" + "                    ", 244),
+        "display": fg("Ink : Leak" + "                    ", 250),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
