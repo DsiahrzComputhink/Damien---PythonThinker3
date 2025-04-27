@@ -260,7 +260,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
-    # 10,000
+    # 10,000 - Unique
     "★★★": {
         "rarity": 10000,
         "display": fg("★ ★ ★" + "                    ", 213),
