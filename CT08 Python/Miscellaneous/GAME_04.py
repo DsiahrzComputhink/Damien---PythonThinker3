@@ -541,7 +541,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Velocity": {
-        "rarity": 7000000,
+        "rarity": 7630000,
         "display": fg("VELOCITY" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
