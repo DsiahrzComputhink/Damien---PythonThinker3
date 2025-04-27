@@ -785,6 +785,12 @@ Auras = {
         "description": "Once radiant with sacred beauty, the ancient ruins of the spirits have become a nest for the dead and nightmares, twisted by a fallen lord.",
         "amplify": ['NONE',True]
     },
+    "Aegis": {
+        "rarity": 500000000,
+        "display": (fg("《 ⬥ Ruins : Withered ⬥ 》", 50) + "                    "),
+        "description": "Once radiant with sacred beauty, the ancient ruins of the spirits have become a nest for the dead and nightmares, twisted by a fallen lord.",
+        "amplify": ['NONE',True]
+    },
 
     # 1,000,000,000 - Transcendents
     "Pixelation": {
