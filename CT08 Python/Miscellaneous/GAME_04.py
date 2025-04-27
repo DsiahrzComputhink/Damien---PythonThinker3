@@ -1104,7 +1104,11 @@ def console():
                             vip_name = selected_vip["name"]
                             luck_multiplier = selected_vip["luck_multiplier"]
                             print("How many",fg("Rolls",219))
-                            roll_for_aura(potion_luck * luck_multiplier, selected_biome,100,10)
+                            rolls = input()
+                            if rolls.isnumeric():
+                                roll_for_aura(potion_luck * luck_multiplier, selected_biome,100,10)
+                            else:
+                                rint(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
                         else:
                             print(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
                             time.sleep(2)
