@@ -310,7 +310,7 @@ Auras = {
     },
     "Luminosity": {
         "rarity": 1200000000,
-        "display": (fg("[Luminosity]", 255) + "                    "),
+        "display": (fg("[Luminosity]", 195) + "                    "),
         "description": "... is this truly the end?"
     },
 }
