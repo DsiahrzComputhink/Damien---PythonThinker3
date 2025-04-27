@@ -763,7 +763,7 @@ Auras = {
     },
     "Matrix : Overdrive": {
         "rarity": 503000000,
-        "display": (fg("MATRIX : OVERDRIVE", 198) + "                    "),
+        "display": (fg("{♢ MATRIX /◆ OVERDRIVE ♢}", 198) + "                    "),
         "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself.",
         "amplify": ['NONE',True]
     },
