@@ -228,13 +228,13 @@ Auras = {
     "Solar": {
         "rarity": 5000,
         "display": fg("Solar" + "                    ", 222),
-        "description": "It was made with Sunshine by an Unknown being on a bright day",
+        "description": "It was made with Sunshine by an Unknown being on a bright day.",
         "amplify": ['NONE',True]
     },
     "Lunar": {
         "rarity": 5000,
-        "display": fg("Lunar" + "                    ", 222),
-        "description": "It was made with Sunshine by an Unknown being on a bright day",
+        "display": fg("Lunar" + "                    ", 111),
+        "description": "It was made with Sunshine by an Unknown being on a clear night.",
         "amplify": ['NONE',True]
     },
     "Flushed": {
