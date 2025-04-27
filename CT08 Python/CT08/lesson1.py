@@ -30,7 +30,7 @@ elif action == "r":
         print("The book is already AVAILABLE.")
 else:
     print(books)
-        print("Invalid action.")
+    print("Invalid action.")
 
 '''
 Identify and correct the errors in the program so that it works according to 
