@@ -1059,50 +1059,47 @@ def console():
         command = input("")
         if command.isnumeric():
             if int(command) == 1:
-                print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
-                luck = input()
-                if luck.isnumeric():
-                    # Display biome selection
-                    print("What", style.bcyan + "Biome" + style.RESET, "do you want?")
-                    print(LINE)
-                    print(style.bblue + "1" + style.RESET, "                     ", "Normal")
-                    print(style.bblue + "2" + style.RESET, "              ", fg("Windy [1/500]", 117))
-                    print(style.bblue + "3" + style.RESET, "              ", fg("Snowy [1/600]", 159))
-                    print(style.bblue + "4" + style.RESET, "             ", fg("Rainy [1/3000]", 39))
-                    print(style.bblue + "5" + style.RESET, "         ", fg("Sandstorm [1/6666]", 187))
-                    print(style.bblue + "6" + style.RESET, "          ", fg("Starfall [1/7500]", 75))
-                    print(style.bblue + "7" + style.RESET, "        ", fg("Corruption [1/9000]", 99))
-                    print(style.bblue + "8" + style.RESET, "             ", fg("Null [1/10100]", 249))
-                    print(style.bblue + "9" + style.RESET, "         ", fg("Glitched [1/30000]", 40))
-                    print(LINE)
+                # Display biome selection
+                print("What", style.bcyan + "Biome" + style.RESET, "do you want?")
+                print(LINE)
+                print(style.bblue + "1" + style.RESET, "                     ", "Normal")
+                print(style.bblue + "2" + style.RESET, "              ", fg("Windy [1/500]", 117))
+                print(style.bblue + "3" + style.RESET, "              ", fg("Snowy [1/600]", 159))
+                print(style.bblue + "4" + style.RESET, "             ", fg("Rainy [1/3000]", 39))
+                print(style.bblue + "5" + style.RESET, "         ", fg("Sandstorm [1/6666]", 187))
+                print(style.bblue + "6" + style.RESET, "          ", fg("Starfall [1/7500]", 75))
+                print(style.bblue + "7" + style.RESET, "        ", fg("Corruption [1/9000]", 99))
+                print(style.bblue + "8" + style.RESET, "             ", fg("Null [1/10100]", 249))
+                print(style.bblue + "9" + style.RESET, "         ", fg("Glitched [1/30000]", 40))
+                print(LINE)
 
-                    # Map numbers to biome names
-                    biome_choices = {
-                        "1": "Normal",
-                        "2": "Windy",
-                        "3": "Snowy",
-                        "4": "Rainy",
-                        "5": "Sandstorm",
-                        "6": "Starfall",
-                        "7": "Corruption",
-                        "8": "Null",
-                        "9": "Glitched"
-                    }
-                    biome_input = input("Select a biome (1-9): ").strip()
-                    selected_biome = biome_choices.get(biome_input)
+                # Map numbers to biome names
+                biome_choices = {
+                    "1": "Normal",
+                    "2": "Windy",
+                    "3": "Snowy",
+                    "4": "Rainy",
+                    "5": "Sandstorm",
+                    "6": "Starfall",
+                    "7": "Corruption",
+                    "8": "Null",
+                    "9": "Glitched"
+                }
+                biome_input = input("Select a biome (1-9): ").strip()
+                selected_biome = biome_choices.get(biome_input)
 
-                    if selected_biome:
-                        print("What",fg("Potion",177),"Do you want to use?")
-                        print(style.bblue + "1" + style.RESET, "                     ", fg("Potion of Bound"),"[50k Luck]")
-                        print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion", 117),"[150k Luck]")
-                        print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion", 159),"[400k Luck]")
-                        print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),"[600k Luck]")
+                if selected_biome:
+                    print("What",fg("Potion",177),"Do you want to use?")
+                    print(style.bblue + "1" + style.RESET, "                     ", fg("Potion of Bound"),"[50k Luck]")
+                    print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion", 117),"[150k Luck]")
+                    print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion", 159),"[400k Luck]")
+                    print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),"[600k Luck]")
 
-                        roll_for_aura(50000 * 1.3, 'Glitched',100,10)
-                    else:
-                        print(fg("Invalid biome choice.", 160))
+                    roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                 else:
-                    print(style.bred + "Command does not exist" + style.RESET)
+                    print(fg("Invalid biome choice.", 160))
+            else:
+                print(style.bred + "Command does not exist" + style.RESET)
             if int(command) == 2:
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
