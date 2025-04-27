@@ -1003,11 +1003,17 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
     # Display summary sorted by tier
     print(fg("ROLL SUMMARY:", 220))
     for tier in Tiers:
-        tier_name = tier["name"]
-        if tier_name in summary:
-            print(fg(f"\n{tier_name} [{tier['range'][0]} - {tier['range'][1]}]", tier['color']))
-            for aura_name, count in summary[tier_name].items():
-                print(fg(f"{aura_name} x{count}", 250))
+        tier_name = tier['name']
+        tier_min, tier_max = tier['range']
+        
+        if tier_max == float('inf'):
+            range_text = f"{tier_min:,}+"
+        else:
+            range_text = f"{tier_min:,} - {tier_max:,}"
+        
+        print(fg(f"{tier_name} [{range_text}]", tier['color']))
+        # Then print the auras inside here...
+
 
     print(LINE)
     return results
