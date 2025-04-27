@@ -429,7 +429,7 @@ Auras = {
     "Bounded : Unbound": {
         "rarity": 2000000,
         "display": fg("UNBOUND" + "                    ", 20),
-        "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
+        "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
     "Aquatic : Flame": {
