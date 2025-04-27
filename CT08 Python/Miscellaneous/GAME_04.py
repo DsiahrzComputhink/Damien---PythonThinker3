@@ -227,16 +227,11 @@ Auras = {
     },
         "Solar": {
         "rarity": 5000,
-        "display": fg("Rage:Heated" + "                    ", 202),
+        "display": fg("Solar" + "                    ", 202),
         "description": "It was made with Sunshine by an Unknown being on a bright day",
         "amplify": ['NONE',True]
     },
-        "Rage:Heated": {
-        "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
-        "description": "furious emotions",
-        "amplify": ['NONE',True]
-    },
+    
     "Flushed": {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
