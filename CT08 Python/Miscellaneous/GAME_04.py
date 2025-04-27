@@ -747,7 +747,7 @@ Auras = {
         "rarity": 430000000,
         "display": (fg("GARGANTUA", 215) + "                    "),
         "description": "It has existed since the beginning of the universe even now, it continues to devour everything that enters its domain, relentlessly moving forward.",
-        "amplify": ['NONE',True]
+        "amplify": ['Starfall',True]
     },
     "Apostolos": {
         "rarity": 440000000,
@@ -773,7 +773,7 @@ Auras = {
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
-    "Sover": {
+    "Sovereign": {
         "rarity":  601020102,
         "display": (fg("MATRIX ▫ REALITY", 146) + "                    "),
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
