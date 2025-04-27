@@ -356,7 +356,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Aquatic : Flame": {
-        "rarity": 40000,
+        "rarity": 4000000,
         "display": fg("Aquatic" + "                    ", 69),
         "description": "It represents the flow of water",
         "amplify": ['NONE',True]
