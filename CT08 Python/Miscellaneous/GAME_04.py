@@ -240,13 +240,13 @@ Auras = {
     "Quartz": {
         "rarity": 8000,
         "display": (fg("Quartz", 183) + "                    "),
-        "description": "flushed",
+        "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Lost Soul": {
         "rarity": 8200,
         "display": (fg("Lost Soul", 74) + "                    "),
-        "description": "flushed",
+        "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Undead": {
