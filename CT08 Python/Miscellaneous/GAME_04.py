@@ -177,19 +177,19 @@ Auras = {
     },
     "Sapphire": {
         "rarity": 800,
-        "display": fg("Sapphire" + "                    ", 110),
+        "display": fg("Sapphire", 110),
         "description": "Gem of a azure hue",
         "amplify": ['NONE',True]
     },
     "Aquamarine": {
         "rarity": 900,
-        "display": fg("Aquamarine" + "                    ", 81),
+        "display": fg("Aquamarine", 81),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
      "Wind": {
         "rarity": 900,
-        "display": fg("Wind" + "                    ", 87),
+        "display": fg("Wind", 87),
         "description": "The wind is hovering around you",
         "amplify": ['Windy',True]
     },
