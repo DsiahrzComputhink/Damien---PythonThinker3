@@ -239,13 +239,13 @@ Auras = {
     },
     "Fault": {
         "rarity": 3000,
-        "display": (fg("FAULT", 10) + "                    "),
+        "display": (fg("FAULT", 10)),
         "description": "a heterogeneous substance",
         "amplify": ['Glitched',False]
     },
     "Player": {
         "rarity": 3000,
-        "display": ("Player" + "                    "),
+        "display": ("Player"),
         "description": "a heterogeneous substance",
         "amplify": ['NONE',True]
     },
