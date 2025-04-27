@@ -901,7 +901,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(aura_info['display'])
         print(fg(f"'{aura_info['description']}'", 244))
         print(LINE)
-        time.sleep(0.1)
+        time.sleep(0.01)
 
 
 def console():
@@ -910,9 +910,9 @@ def console():
         print(LINE)
         print("A TITLE")
         print(LINE)
-        print(style.bblue + "1" + style.RESET,"                   ","a thing")
-        print(style.bblue + "2" + style.RESET,"             ","another thing")
-        print(style.bblue + "3" + style.RESET,"             ","Close Program")
+        print(style.bblue + "1" + style.RESET,"                    ","a thing")
+        print(style.bblue + "2" + style.RESET,"              ","another thing")
+        print(style.bblue + "3" + style.RESET,"              ","Close Program")
         print(LINE)
         command = input("")
         if command.isnumeric():
