@@ -744,7 +744,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Gargantua": {
-        "rarity": 400000000,
+        "rarity": 430000000,
         "display": (fg("GARGANTUA", 215) + "                    "),
         "description": "It has existed since the beginning of the universe even now, it continues to devour everything that enters its domain, relentlessly moving forward.",
         "amplify": ['NONE',True]
