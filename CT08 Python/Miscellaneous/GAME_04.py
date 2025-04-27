@@ -678,13 +678,13 @@ Auras = {
         "amplify": ['Starfall',True]
     },
     "Overture": {
-        "rarity": 10000000,
+        "rarity": 150000000,
         "display": fg("Starscourge : Radiant" + "                    ", 117),
         "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
         "amplify": ['Starfall',True]
     },
     "Symphony": {
-        "rarity": 10000000,
+        "rarity": 175000000,
         "display": fg("Starscourge : Radiant" + "                    ", 117),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
