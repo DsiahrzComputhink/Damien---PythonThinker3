@@ -212,25 +212,49 @@ Auras = {
         "rarity": 3000,
         "display": ("Player" + "                    "),
         "description": "a heterogeneous substance",
-        "amplify": ['Glitched',False]
+        "amplify": ['NONE',True]
     },
     "Siderium": {
         "rarity": 4096,
         "display": (fg("Side", 220) + fg("reum", 170) + "                    "),
         "description": "A trail of broken stars",
-        "amplify": ['Glitched',False]
+        "amplify": ['NONE',True]
     },
     "Bleeding": {
     "rarity": 4444,
         "display": (fg("Bleeding", 52) + "                    "),
         "description": "Endlessly oozing blood... Hey, you sure alright?",
-        "amplify": ['Glitched',False]
+        "amplify": ['NONE',True]
     },
     "Flushed": {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
-        "amplify": ['Glitched',False]
+        "amplify": ['NONE',True]
+    },
+    "Hazard": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['NONE',True]
+    },
+    "Quartz": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['NONE',True]
+    },
+    "Lost Soul": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['NONE',True]
+    },
+    "Undead": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['NONE',True]
     },
 
     # 10,000
@@ -251,6 +275,12 @@ Auras = {
         "display": fg("Ink : Leak" + "                    ", 240),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
+    },
+    "Hazard : Rays": {
+        "rarity": 6900,
+        "display": (fg("Flushed", 220) + "                    "),
+        "description": "flushed",
+        "amplify": ['Glitched',False]
     },
 
     # 100,000
