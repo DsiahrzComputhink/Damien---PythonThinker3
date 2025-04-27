@@ -435,19 +435,19 @@ Auras = {
     },
     "Bounded": {
         "rarity": 200000,
-        "display": fg("BOUNDED" + "                    ", 17),
+        "display": fg("BOUNDED", 17),
         "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
     "Celestial": {
         "rarity": 350000,
-        "display": fg("Celestial" + "                    ", 219),
+        "display": fg("Celestial", 219),
         "description": "An Individual with a sacredness that seems to have descended from heaven is havering around and delivering words of blessing.",
         "amplify": ['NONE',True]
     },
     "Kyawthuite": {
         "rarity": 850000,
-        "display": fg("Kyawthuite" + "                    ", 129),
+        "display": fg("Kyawthuite", 129),
         "description": "once in a thousand years, in the deepest part of the forest...",
         "amplify": ['NONE',True]
     },
