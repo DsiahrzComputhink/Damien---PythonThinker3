@@ -680,7 +680,7 @@ Auras = {
     "Overture": {
         "rarity": 10000000,
         "display": fg("Starscourge : Radiant" + "                    ", 117),
-        "description": "",
+        "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
         "amplify": ['Starfall',True]
     },
     "Symphony": {
