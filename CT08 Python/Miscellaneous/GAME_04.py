@@ -702,9 +702,9 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Overture : History": {
-        "rarity": 150000000,
+        "rarity": 300000000,
         "display": fg("OVERTURE : HISTORY" + "                    ", 48),
-        "description": "When the clock hand started to move for the first time, was when everything started to move for the first time.....",
+        "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
