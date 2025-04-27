@@ -225,6 +225,18 @@ Auras = {
         "description": "Endlessly oozing blood... Hey, you sure alright?",
         "amplify": ['NONE',True]
     },
+        "Rage:Heated": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
+        "Rage:Heated": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
     "Flushed": {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
