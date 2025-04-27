@@ -569,7 +569,7 @@ Auras = {
     "Starscourge": {
         "rarity": 10000000,
         "display": fg("Starscourge" + "                    ", 210),
-        "description": "In the mythology, A shining god of the sun. They rode their chariot to pull the Sun from the east to the west, making the cycle of day and night",
+        "description": "When the stars aligned.. the brightest starlights gathered to form this.",
         "amplify": ['NONE',True]
     },
     "Glitched": {
