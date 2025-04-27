@@ -288,7 +288,7 @@ Auras = {
     "Starlight": {
         "rarity": 12800,
         "display": fg("STARLIGHT" + "                    ", 117),
-        "description": "furious emotions",
+        "description": "This starlight with mysterious powers infused will follow you persistently, illuminating the path.",
         "amplify": ['NONE',True]
     },
     "Star Rider": {
