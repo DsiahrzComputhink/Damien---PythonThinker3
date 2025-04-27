@@ -441,7 +441,7 @@ Auras = {
     "Astral": {
         "rarity": 133600,
         "display": fg("Astral" + "                    ", 135),
-        "description": "",
+        "description": "In the distant expanse of space, tiny stars emitting faint light come together to form a unified existence.",
         "amplify": ['Corruption',True]
     },
     "Cosmos": {
@@ -453,7 +453,7 @@ Auras = {
     "Gravitational": {
         "rarity": 2000000,
         "display": fg("Gravitational" + "                    ", 69),
-        "description": "It's too dark in here...",
+        "description": "The irregularities of gravity incomprehensible to humans. It is thought to stem from the same material comprising the mysterious Great Attractor.",
         "amplify": ['NONE',True]
     },
     "Bounded : Unbound": {
