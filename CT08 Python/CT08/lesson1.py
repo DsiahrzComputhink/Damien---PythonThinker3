@@ -14,13 +14,13 @@ book_id = input("Enter the book ID: ")
 
 if action == "b":
     if books[book_id] == "AVAILABLE":
-        books["B"] = "BORROWED"
+        books[book_id] == "BORROWED"
         print("You have borrowed the book.")
     else:
         print("The book is already borrowed.")
 elif action == "d":
     if books[book_id] == "BORROWED":
-        books("R") = "AVAILABLE"
+        books("R") == "AVAILABLE"
         print("You have returned the book.")
     elif books[book_id] == "AVAILABLE":
         print("The book is already AVAILABLE.")
