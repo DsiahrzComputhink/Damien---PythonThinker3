@@ -296,9 +296,9 @@ Auras = {
         "description": "Empty",
         "amplify": ['NONE',True]
     },
-        "Undead": {
+    "Undead : Devil": {
         "rarity": 10000,
-        "display": (fg("Undead", 22) + "                    "),
+        "display": (fg("Undead : Devil", 22) + "                    "),
         "description": "failed to die...",
         "amplify": ['NONE',True]
     },
