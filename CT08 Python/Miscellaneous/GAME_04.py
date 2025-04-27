@@ -417,7 +417,7 @@ Auras = {
     "Arcane": {
         "rarity": 1024000,
         "display": fg("Arcane" + "                    ", 127),
-        "description": "A spell found in the ruins of an ancient civilization. this swaying silhouette that seems to possess its own consciousness has a record of completely erasing one civilization from history.",
+        "description": "A spell found in the ruins of an ancient civilization.",
         "amplify": ['NONE',True]
     },
     "Magnetic : Reverse Polarity": {
