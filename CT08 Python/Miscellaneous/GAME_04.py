@@ -782,7 +782,7 @@ Auras = {
     "Ruins : Withered": {
         "rarity": 500000000,
         "display": (fg("《 ⬥ Ruins : Withered ⬥ 》", 79) + "                    "),
-        "description": "In the ruins of an ancient civilization, destroyed by the destructive rituals and dark sorcery, only a place known as the Sanctuary remains, though it has crumbled in form.",
+        "description": "Once radiant with sacred beauty, the ancient ruins of the spirits have become a nest for the dead and nightmares, twisted by a fallen lord.",
         "amplify": ['NONE',True]
     },
 
