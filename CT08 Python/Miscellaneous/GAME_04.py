@@ -141,37 +141,37 @@ Auras = {
     },
     "Ruby": {
         "rarity": 350,
-        "display": fg("Ruby" + "                    ", 124),
+        "display": fg("Ruby", 124),
         "description": "Gem of a brown hue",
         "amplify": ['NONE',True]
     },
     "Forbidden": {
         "rarity": 404,
-        "display": fg("Forbidden" + "                    ", 111),
+        "display": fg("Forbidden", 111),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Emerald": {
         "rarity": 500,
-        "display": fg("Emerald" + "                    ", 157),
+        "display": fg("Emerald", 157),
         "description": "Gem of a green hue",
         "amplify": ['NONE',True]
     },
     "Gilded": {
         "rarity": 500,
-        "display": fg("Gilded" + "                    ", 172),
+        "display": fg("Gilded", 172),
         "description": "Thats a shiny one!",
         "amplify": ['Sandstorm',True]
     },
     "Ink": {
         "rarity": 700,
-        "display": fg("Ink" + "                    ", 250),
+        "display": fg("Ink", 250),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
     "Jackpot": {
         "rarity": 777,
-        "display": fg("Jackpot" + "                    ", 226),
+        "display": fg("Jackpot", 226),
         "description": "Thats such a tremendous prize!",
         "amplify": ['Sandstorm',True]
     },
