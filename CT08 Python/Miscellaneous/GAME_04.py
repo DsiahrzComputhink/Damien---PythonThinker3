@@ -446,5 +446,5 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
 
 
-show_aura_rarity(1,'Glitched')
+show_aura_rarity(1,'None')
 debugcolour()
