@@ -755,6 +755,12 @@ Auras = {
         "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
         "amplify": ['NONE',True]
     },
+    "Apostolos": {
+        "rarity": 400000000,
+        "display": (fg("APOSTOLOS", 167) + "                    "),
+        "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
+        "amplify": ['NONE',True]
+    },
     "Matrix : Overdrive": {
         "rarity": 503000000,
         "display": (fg("MATRIX : OVERDRIVE", 198) + "                    "),
@@ -767,6 +773,7 @@ Auras = {
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
+
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
