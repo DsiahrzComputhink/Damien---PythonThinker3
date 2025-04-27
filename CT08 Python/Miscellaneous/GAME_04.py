@@ -701,6 +701,12 @@ Auras = {
         "description": "... is this truly the end?",
         "amplify": ['Glitched',False]
     },
+    "Archangel": {
+        "rarity": 299999999,
+        "display": (fg("Archangel", 165) + "                    "),
+        "description": "What's left for this fallen ruler?",
+        "amplify": ['NONE',True]
+    },
     "Exotic : VOID": {
         "rarity": 299999999,
         "display": (fg("Exotic : VOID", 165) + "                    "),
