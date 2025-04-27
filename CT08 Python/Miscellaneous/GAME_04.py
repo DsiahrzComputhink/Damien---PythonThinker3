@@ -503,31 +503,31 @@ Auras = {
     },
     "Virtual": {
         "rarity": 2500000,
-        "display": fg("Virtual" + "                    ", 87),
+        "display": fg("Virtual", 87),
         "description": "An advanced hologram device created by an unnamed civilization.",
         "amplify": ['NONE',True]
     },
     "Savior": {
         "rarity": 3200000,
-        "display": fg("Savior" + "                    ", 207),
+        "display": fg("Savior", 207),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Poseidon": {
         "rarity": 4000000,
-        "display": fg("Poseidon" + "                    ", 44),
+        "display": fg("Poseidon", 44),
         "description": "It has been shaped as a creature that once ruled the ocean long ago.",
         "amplify": ['Rainy',True]
     },
     "Aquatic : Flame": {
         "rarity": 4000000,
-        "display": fg("Aquatic : Flame" + "                    ", 208),
+        "display": fg("Aquatic : Flame", 208),
         "description": "It represents the flow of the flames",
         "amplify": ['NONE',True]
     },
     "Zeus": {
         "rarity": 4500000,
-        "display": fg("Zeus" + "                    ", 229),
+        "display": fg("Zeus", 229),
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
