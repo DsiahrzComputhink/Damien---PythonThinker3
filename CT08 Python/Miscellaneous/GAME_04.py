@@ -339,11 +339,11 @@ Auras = {
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Corrupted',True]
     },
-        "Nautilus": {
-        "rarity": 70000,
+        "Stormal": {
+        "rarity": 90000,
         "display": (fg("Nautilus", 63) + "                    "),
         "description": "A small shout resounding from the depths of the abyss..",
-        "amplify": ['Corrupted',True]
+        "amplify": ['Windy',True]
     },
 
     # 100,000
