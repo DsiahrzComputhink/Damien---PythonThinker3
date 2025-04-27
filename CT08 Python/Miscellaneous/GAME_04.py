@@ -367,13 +367,13 @@ Auras = {
     },
         "Comet": {
         "rarity": 120000,
-        "display": (fg("Undead : Devil", 203) + "                    "),
+        "display": (fg("COMET", 203) + "                    "),
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
     },
-        "Undead : Devil": {
+        "Jade": {
         "rarity": 120000,
-        "display": (fg("Undead : Devil", 203) + "                    "),
+        "display": (fg("Jade", 203) + "                    "),
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
     },
