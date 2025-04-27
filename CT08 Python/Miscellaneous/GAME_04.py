@@ -287,7 +287,7 @@ Auras = {
     },
     "Starlight": {
         "rarity": 12800,
-        "display": fg("STARLIGHT" + "                    ", 202),
+        "display": fg("STARLIGHT" + "                    ", 117),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
