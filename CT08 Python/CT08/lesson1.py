@@ -15,6 +15,7 @@ book_id = input("Enter the book ID: ")
 if action == "b":
     if books[book_id] == "AVAILABLE":
         books[book_id] == "BORROWED"
+        print(bo)
         print("You have borrowed the book.")
     else:
         print("The book is already borrowed.")
