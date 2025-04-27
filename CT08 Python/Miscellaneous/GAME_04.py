@@ -510,6 +510,12 @@ Auras = {
         "description": "It was made with Sunshine by an Unknown being on a bright day.",
         "amplify": ['NONE',True]
     },
+    "Twilight": {
+        "rarity": 5000000,
+        "display": fg("Solar : Solstice" + "                    ", 228),
+        "description": "It was made with Sunshine by an Unknown being on a bright day.",
+        "amplify": ['NONE',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
