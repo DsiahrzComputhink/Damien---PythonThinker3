@@ -452,7 +452,7 @@ Auras = {
     },
     "Gravitational": {
         "rarity": 2000000,
-        "display": fg("Gravitational" + "                    ", 250),
+        "display": fg("Gravitational" + "                    ", 69),
         "description": "It's too dark in here...",
         "amplify": ['NONE',True]
     },
