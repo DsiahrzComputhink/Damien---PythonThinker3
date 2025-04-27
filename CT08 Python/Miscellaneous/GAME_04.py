@@ -333,6 +333,18 @@ Auras = {
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Corrupted',True]
     },
+        "Permafrost": {
+        "rarity": 70000,
+        "display": (fg("Nautilus", 63) + "                    "),
+        "description": "A small shout resounding from the depths of the abyss..",
+        "amplify": ['Corrupted',True]
+    },
+        "Nautilus": {
+        "rarity": 70000,
+        "display": (fg("Nautilus", 63) + "                    "),
+        "description": "A small shout resounding from the depths of the abyss..",
+        "amplify": ['Corrupted',True]
+    },
 
     # 100,000
     "Diaboli : Void": {
