@@ -1092,7 +1092,7 @@ def console():
                     selected_biome = biome_choices.get(biome_input)
 
                     if selected_biome:
-                        print("What",fg("Potion"))
+                        print("What",fg("Potion",177),"Do you want to use?")
                         roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
                         print(fg("Invalid biome choice.", 160))
