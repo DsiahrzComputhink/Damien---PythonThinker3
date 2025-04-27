@@ -536,11 +536,11 @@ Auras = {
     },
     "Hypervolt": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("HYPERVOLT" + "                    ", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
-    "Celestial : Divine": {
+    "Velocity": {
         "rarity": 7000000,
         "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
         "description": "Empty",
