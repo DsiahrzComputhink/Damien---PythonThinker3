@@ -735,7 +735,7 @@ Auras = {
         "rarity": 360000000,
         "display": fg("ATLAS" + "                    ", 11),
         "description": "It is said that in their final moments, the last remaining Titan stood alone, upholding the celestial sphere.",
-        "amplify": ['NONE',True]
+        "amplify": ['Sandstorm',True]
     },
     "Abyssal Hunter": {
         "rarity": 400000000,
