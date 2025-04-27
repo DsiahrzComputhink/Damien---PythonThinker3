@@ -301,31 +301,31 @@ Auras = {
     # 10,000 - Unique
     "★★★": {
         "rarity": 10000,
-        "display": fg("★ ★ ★" + "                    ", 213),
+        "display": fg("★ ★ ★", 213),
         "description": "★ ★ ★",
         "amplify": ['Glitched',False]
     },
     "Undead": {
         "rarity": 12000,
-        "display": (fg("Undead", 22) + "                    "),
+        "display": (fg("Undead", 22)),
         "description": "failed to die...",
         "amplify": ['Hell',True]
     },
     "Corrosive": {
         "rarity": 12000,
-        "display": (fg("Corrosive", 128) + "                    "),
+        "display": (fg("Corrosive", 128)),
         "description": "failed to die...",
         "amplify": ['Corruption',True]
     },
     "Rage:Heated": {
         "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
+        "display": fg("Rage:Heated", 202),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
     "Ink:LEAK": {
         "rarity": 14000,
-        "display": fg("Ink : Leak" + "                    ", 250),
+        "display": fg("Ink : Leak", 250),
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
