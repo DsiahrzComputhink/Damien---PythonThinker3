@@ -330,7 +330,7 @@ Auras = {
     "Nautilus": {
         "rarity": 70000,
         "display": (fg("Nautilus", 63) + "                    "),
-        "description": "This is a constant destruction of life",
+        "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Corrupted',True]
     },
 
