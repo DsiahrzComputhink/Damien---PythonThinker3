@@ -396,7 +396,7 @@ Auras = {
     },
     "Bounded": {
         "rarity": 200000,
-        "display": fg("BOUNDED" + "                    ", 20),
+        "display": fg("BOUNDED" + "                    ", 17),
         "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
@@ -428,7 +428,7 @@ Auras = {
     },
     "Bounded : Unbound": {
         "rarity": 2000000,
-        "display": fg("BOUNDED : UNBOUND" + "                    ", 164),
+        "display": fg("BOUNDED : UNBOUND" + "                    ", 21),
         "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
