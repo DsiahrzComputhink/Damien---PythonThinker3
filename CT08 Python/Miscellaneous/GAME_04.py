@@ -528,6 +528,12 @@ Auras = {
         "description": "It has been shaped as the ruler of hell, a long time ago. Though not replicated perfectly, it still remains cruel and callous.",
         "amplify": ['Hell',True]
     },
+    "Celestial : Divine": {
+        "rarity": 350000,
+        "display": fg("Celestial" + "                    ", 219),
+        "description": "An Individual with a sacredness that seems to have descended from heaven is havering around and delivering words of blessing.",
+        "amplify": ['NONE',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
