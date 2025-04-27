@@ -367,7 +367,7 @@ Auras = {
     },
         "Comet": {
         "rarity": 120000,
-        "display": (fg("COMET", 203) + "                    "),
+        "display": (fg("COMET", 159) + "                    "),
         "description": "People believe that it has the capabilities to make wishes come true.",
         "amplify": ['Hell',True]
     },
