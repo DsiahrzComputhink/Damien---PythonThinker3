@@ -472,7 +472,7 @@ Auras = {
     },
     "Arcane : Dark": {
         "rarity": 1024000,
-        "display": fg("Arcane : Dark" + "                    ", 127),
+        "display": fg("Arcane : Dark" + "                    ", 93),
         "description": "A spell found in the ruins of an ancient civilization. This dreadful entity, no longer a mere spell, now is a sentient being",
         "amplify": ['NONE',True]
     },
