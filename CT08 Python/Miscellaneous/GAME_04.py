@@ -341,7 +341,7 @@ Auras = {
     },
     "Stormal": {
         "rarity": 90000,
-        "display": (fg("Stormal", 24963) + "                    "),
+        "display": (fg("Stormal", 249) + "                    "),
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Windy',True]
     },
