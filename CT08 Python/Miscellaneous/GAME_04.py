@@ -378,13 +378,13 @@ Auras = {
     },
         "Spectre": {
         "rarity": 140000,
-        "display": (fg("Jade", 29) + "                    "),
+        "display": (fg("Spectre", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
         "Jazz": {
         "rarity": 160000,
-        "display": (fg("Jade", 29) + "                    "),
+        "display": (fg("Jazz", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
