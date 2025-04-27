@@ -463,15 +463,15 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Virtual": {
-        "rarity": 2000000,
+        "rarity": 2500000,
         "display": fg("Virtual" + "                    ", 87),
         "description": "An advanced hologram device created by an unnamed civilization.",
         "amplify": ['NONE',True]
     },
     "Savior": {
-        "rarity": 2000000,
+        "rarity": 3200000,
         "display": fg("Savior" + "                    ", 87),
-        "description": "An advanced hologram device created by an unnamed civilization.",
+        "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Aquatic : Flame": {
