@@ -949,7 +949,6 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
         print(fg("No auras could be rolled with the current luck and biome!", 160))
         return None
 
-    # Normalize chances
     total = sum(chances)
     normalized = [c / total for c in chances]
 
