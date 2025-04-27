@@ -679,13 +679,13 @@ Auras = {
     },
     "Overture": {
         "rarity": 150000000,
-        "display": fg("Overture" + "                    ", 117),
+        "display": fg("Overture" + "                    ", 27),
         "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
         "amplify": ['NONE',True]
     },
     "Symphony": {
         "rarity": 175000000,
-        "display": fg("Symphony" + "                    ", 117),
+        "display": fg("Symphony" + "                    ", 153),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
