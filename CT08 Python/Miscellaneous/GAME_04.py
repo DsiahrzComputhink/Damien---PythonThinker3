@@ -556,7 +556,7 @@ Auras = {
     },
     "Twilight : Iridescent Memory": {
         "rarity": 60000000,
-        "display": fg("Twilight : Iridescent Memory" + "                    ", 255),
+        "display": fg("Twilight : Iridescent Memory" + "                    ", 231),
         "description": "The memories were becoming increasingly blurry. Under the full moon that holds many dreams high above, I sincerely wish.",
         "amplify": ['NONE',True]
     },
