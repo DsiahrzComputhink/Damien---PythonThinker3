@@ -1037,7 +1037,7 @@ def roll_for_aura(
 
 
 debugcolour()
-# roll_for_aura(50000 * 1.3, 'Glitched',100,10)
+roll_for_aura(50000 * 1.3, 'Glitched',100,10)
 
 
 # ill do this later
