@@ -1093,6 +1093,16 @@ def console():
 
                     if selected_biome:
                         print("What",fg("Potion",177),"Do you want to use?")
+                        print(style.bblue + "1" + style.RESET, "                     ", "Normal")
+                        print(style.bblue + "2" + style.RESET, "              ", fg("Windy [1/500]", 117))
+                        print(style.bblue + "3" + style.RESET, "              ", fg("Snowy [1/600]", 159))
+                        print(style.bblue + "4" + style.RESET, "             ", fg("Rainy [1/3000]", 39))
+                        print(style.bblue + "5" + style.RESET, "         ", fg("Sandstorm [1/6666]", 187))
+                        print(style.bblue + "6" + style.RESET, "          ", fg("Starfall [1/7500]", 75))
+                        print(style.bblue + "7" + style.RESET, "        ", fg("Corruption [1/9000]", 99))
+                        print(style.bblue + "8" + style.RESET, "             ", fg("Null [1/10100]", 249))
+                        print(style.bblue + "9" + style.RESET, "         ", fg("Glitched [1/30000]", 40))
+
                         roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
                         print(fg("Invalid biome choice.", 160))
