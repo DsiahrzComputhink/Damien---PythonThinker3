@@ -275,7 +275,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
-    # 10,000,000
+    # 10,000,000 - Exalted
     "Glitched": {
         "rarity": 12210110,
         "display": (fg("G", 22) + fg("L", 28) + fg("1", 22) + fg("T", 28) + fg("C", 34) + fg("H", 28) + "                    "),
@@ -289,7 +289,7 @@ Auras = {
         "description": "Yes... Feel my unstoppable beats!"
     },
 
-    # 99,999,999 - Globals
+    # 99,999,999 - Glorious
     "Chromatic:Genesis": {
         "rarity": 99999999,
         "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
@@ -302,8 +302,9 @@ Auras = {
         "description": "... is this truly the end?"
     },
 
+    # 1,000,000,000 - Transcendents
     "Pixelation": {
-        "rarity": 1,073,741,824,
+        "rarity": 1073741824,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
         "description": "... is this truly the end?"
     },
