@@ -427,6 +427,6 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(fg(f"Description: {aura_info['description']}", 244))
         print(LINE)
 
-debugcolour()
 
 show_aura_rarity(1,'Snowy')
+debugcolour()
