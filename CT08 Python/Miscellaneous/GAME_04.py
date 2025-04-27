@@ -486,6 +486,12 @@ Auras = {
         "description": "It represents the flow of the flames",
         "amplify": ['NONE',True]
     },
+    "Poseidon": {
+        "rarity": 4000000,
+        "display": fg("Poseidon" + "                    ", 44),
+        "description": "It has been shaped as a creature that once ruled the ocean long ago.",
+        "amplify": ['NONE',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
