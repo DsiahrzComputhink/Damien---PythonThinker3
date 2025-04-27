@@ -470,9 +470,9 @@ Auras = {
         "description": "Yes... Feel my unstoppable beats!",
         "amplify": ['NONE',True]
     },
-    "Arcane : Legacy": {
+    "Arcane : Dark": {
         "rarity": 1024000,
-        "display": fg("Arcane : Legacy" + "                    ", 127),
+        "display": fg("Arcane : Dark" + "                    ", 127),
         "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
     },
