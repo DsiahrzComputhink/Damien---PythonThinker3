@@ -773,6 +773,12 @@ Auras = {
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
+    "Sover": {
+        "rarity":  601020102,
+        "display": (fg("MATRIX ▫ REALITY", 146) + "                    "),
+        "description": "They were all living in a simulation, This is the TRUE REALITY.",
+        "amplify": ['NONE',True]
+    },
 
     # 1,000,000,000 - Transcendents
     "Pixelation": {
