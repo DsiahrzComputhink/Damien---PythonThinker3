@@ -569,31 +569,31 @@ Auras = {
     },
     "Celestial : Divine": {
         "rarity": 7000000,
-        "display": fg("CELESTIAL : DIVINE" + "                    ", 219),
+        "display": fg("CELESTIAL : DIVINE", 219),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Hypervolt": {
         "rarity": 7500000,
-        "display": fg("HYPERVOLT" + "                    ", 177),
+        "display": fg("HYPERVOLT", 177),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Velocity": {
         "rarity": 7630000,
-        "display": fg("VELOCITY" + "                    ", 172),
+        "display": fg("VELOCITY", 172),
         "description": "The power continuously accelerates objects until they burn up from friction.",
         "amplify": ['NONE',True]
     },
     "Anubis": {
         "rarity": 8500000,
-        "display": fg("Anubis" + "                    ", 179),
+        "display": fg("Anubis", 179),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Nihillity": {
         "rarity": 9000000,
-        "display": fg("Nihillity" + "                    ", 248),
+        "display": fg("Nihillity", 248),
         "description": "Empty",
         "amplify": ['Null',True]
     },
