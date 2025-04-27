@@ -1114,11 +1114,37 @@ def console():
                         potion_luck = selected_potion["luck"]
                         print("Do you have", fg("VIP", 220), "or" , fg("VIP+",117 ))
                         print(LINE)
+                        # Display VIP selection
                         print(style.bblue + "1" + style.RESET, "                       ", "None")
                         print(style.bblue + "2" + style.RESET, "                        ", fg("VIP", 220))
                         print(style.bblue + "3" + style.RESET, "                       ", fg("VIP+", 117))
                         print(style.bblue + "4" + style.RESET, "                       ", fg("Both", 231))
-                        vip = input()
+                        print(LINE)
+
+                        # VIP options and corresponding luck multipliers
+                        vip_choices = {
+                            "1": {"name": "None", "luck_multiplier": 1.0},
+                            "2": {"name": "VIP", "luck_multiplier": 1.2},
+                            "3": {"name": "VIP+", "luck_multiplier": 1.2},
+                            "4": {"name": "Both", "luck_multiplier": 1.3}
+                        }
+
+                        # Get input from user
+                        vip_input = input("Select your VIP level (1-4): ").strip()
+
+                        # Look up VIP choice
+                        selected_vip = vip_choices.get(vip_input)
+
+                        if selected_vip:
+                            vip_name = selected_vip["name"]
+                            luck_multiplier = selected_vip["luck_multiplier"]
+                            print(f"Selected VIP level: {vip_name}, Luck Multiplier: x{luck_multiplier}")
+                            
+                            # Apply luck multiplier to the luck value (if you have luck calculation in another function)
+                            # Example: luck = luck * luck_multiplier
+                        else:
+                            print(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
+
                         roll_for_aura(potion_luck, selected_biome,100,10)
                     else:
                         print(fg("Invalid choice.", 160))
