@@ -536,13 +536,13 @@ Auras = {
     },
     "Hypervolt": {
         "rarity": 7500000,
-        "display": fg("HYPERVOLT" + "                    ", ),
+        "display": fg("HYPERVOLT" + "                    ", 77),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Velocity": {
         "rarity": 7630000,
-        "display": fg("VELOCITY" + "                    ", 219),
+        "display": fg("VELOCITY" + "                    ", 172),
         "description": "The power continuously accelerates objects until they burn up from friction.",
         "amplify": ['NONE',True]
     },
