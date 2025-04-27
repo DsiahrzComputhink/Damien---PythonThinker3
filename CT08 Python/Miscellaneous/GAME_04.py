@@ -225,13 +225,18 @@ Auras = {
         "description": "Endlessly oozing blood... Hey, you sure alright?",
         "amplify": ['NONE',True]
     },
-        "Solar": {
+    "Solar": {
         "rarity": 5000,
-        "display": fg("Solar" + "                    ", 202),
+        "display": fg("Solar" + "                    ", 222),
         "description": "It was made with Sunshine by an Unknown being on a bright day",
         "amplify": ['NONE',True]
     },
-    
+        "Solar": {
+        "rarity": 5000,
+        "display": fg("Solar" + "                    ", 222),
+        "description": "It was made with Sunshine by an Unknown being on a bright day",
+        "amplify": ['NONE',True]
+    },
     "Flushed": {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
