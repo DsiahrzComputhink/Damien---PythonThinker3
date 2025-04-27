@@ -626,6 +626,12 @@ Auras = {
         "description": "A spell found in the ruins of an ancient civilization. This dreadful entity, no longer a mere spell, now is a sentient being",
         "amplify": ['NONE',True]
     },
+    "Ethereal": {
+        "rarity": 19725000,
+        "display": (fg("★ AVIATOR ★", 185) + "                    "),
+        "description": "Empty",
+        "amplify": ['Snowy',True]
+    },
     "Exotic : APEX": {
         "rarity": 49999500,
         "display": (fg("Exotic : APEX", 85) + "                    "),
