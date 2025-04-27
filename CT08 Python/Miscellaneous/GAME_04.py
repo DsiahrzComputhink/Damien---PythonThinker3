@@ -1090,10 +1090,12 @@ def console():
 
                 if selected_biome:
                     print("What",fg("Potion",177),"Do you want to use?")
-                    print(style.bblue + "1" + style.RESET, "               ", fg("Potion of Bound",111),"[50k Luck]")
+                    print(LINE)
+                    print(style.bblue + "1" + style.RESET, "              ", fg("Potion of Bound",111),"[50k Luck]")
                     print(style.bblue + "2" + style.RESET, "             ", fg("Heavenly Potion", 177),"[150k Luck]")
                     print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion", 154),"[400k Luck]")
                     print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),"[600k Luck]")
+                    PRINT(LINE)
                     potion = input()
 
                     roll_for_aura(50000 * 1.3, 'Glitched',100,10)
