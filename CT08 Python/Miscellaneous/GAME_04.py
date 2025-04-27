@@ -1096,12 +1096,7 @@ def console():
                         print(style.bblue + "1" + style.RESET, "                     ", "Potion of Bound [50k Luck]")
                         print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion [150k Luck]", 117))
                         print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion [400k Luck]", 159))
-                        print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion [600k Luck]", 99))
-                        print(style.bblue + "5" + style.RESET, "         ", fg("Sandstorm [1/6666]", 187))
-                        print(style.bblue + "6" + style.RESET, "          ", fg("Starfall [1/7500]", 75))
-                        print(style.bblue + "7" + style.RESET, "        ", fg("Corruption [1/9000]", 99))
-                        print(style.bblue + "8" + style.RESET, "             ", fg("Null [1/10100]", 249))
-                        print(style.bblue + "9" + style.RESET, "         ", fg("Glitched [1/30000]", 40))
+                        print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),)
 
                         roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
