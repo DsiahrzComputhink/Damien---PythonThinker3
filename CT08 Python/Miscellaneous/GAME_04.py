@@ -246,7 +246,7 @@ Auras = {
     "Player": {
         "rarity": 3000,
         "display": ("Player"),
-        "description": "a heterogeneous substance",
+        "description": "A true 8-bit move!",
         "amplify": ['NONE',True]
     },
     "Siderium": {
