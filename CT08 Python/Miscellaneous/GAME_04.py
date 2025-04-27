@@ -273,9 +273,9 @@ Auras = {
         "description": "failed to die...",
         "amplify": ['Hell',True]
     },
-    "Undead": {
+    "Corrosive": {
         "rarity": 12000,
-        "display": (fg("Undead", 22) + "                    "),
+        "display": (fg("Corrosive", 22) + "                    "),
         "description": "failed to die...",
         "amplify": ['NONE',True]
     },
