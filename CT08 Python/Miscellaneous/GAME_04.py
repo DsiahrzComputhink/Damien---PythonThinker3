@@ -388,7 +388,7 @@ Auras = {
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
-        "Jade": {
+        "Aether": {
         "rarity": 120000,
         "display": (fg("Jade", 29) + "                    "),
         "description": "Where did it go?",
