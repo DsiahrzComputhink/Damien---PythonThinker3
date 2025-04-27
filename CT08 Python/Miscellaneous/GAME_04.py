@@ -380,6 +380,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         # check if biome-locked
         if not biome_lock:
             if currentbiome != native_biome:
+                print(aura_copy)
                 continue
 
         # if glitched biome
