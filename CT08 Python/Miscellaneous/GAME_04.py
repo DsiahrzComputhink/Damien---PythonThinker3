@@ -86,7 +86,7 @@ Auras = {
         "rarity": 100,
         "display": fg("★" + "                    ", 213),
         "description": "★",
-        "amplify": ['Dreamspace',False]
+        "amplify": ['Glitched',False]
     },
     "Rage": {
         "rarity": 128,
@@ -160,7 +160,7 @@ Auras = {
         "rarity": 1000,
         "display": fg("★ ★" + "                    ", 213),
         "description": "★ ★",
-        "amplify": ['Dreamspace',False]
+        "amplify": ['Glitched',False]
     },
     "Diaboli": {
         "rarity": 1004,
