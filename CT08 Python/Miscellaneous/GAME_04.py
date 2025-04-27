@@ -346,7 +346,7 @@ Auras = {
         "amplify": ['Windy',True]
     },
 
-    # 100,000
+    # 100,000 - Legendary
     "Exotic": {
         "rarity": 99999,
         "display": fg("E",196) + fg("x",220) + fg("o",226) + fg("t",154) + fg("i",120) + fg("c",87) + "                    ",
