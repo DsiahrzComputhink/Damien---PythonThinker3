@@ -277,7 +277,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Flushed : Lobotomy": {
-        "rarity": 6900,
+        "rarity": 69000,
         "display": (fg("Flushed : Lobotomy", 220) + "                    "),
         "description": "fire in the hole!!!",
         "amplify": ['NONE',True]
