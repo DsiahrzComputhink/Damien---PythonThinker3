@@ -908,7 +908,7 @@ def console():
     stop = 0
     while stop == 0:
         print(LINE)
-        print("A TITLE")
+        print("Sols RNG Calculator")
         print(LINE)
         print(style.bblue + "1" + style.RESET,"                    ","a thing")
         print(style.bblue + "2" + style.RESET,"              ","another thing")
