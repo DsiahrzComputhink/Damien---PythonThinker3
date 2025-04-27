@@ -331,25 +331,25 @@ Auras = {
     },
     "Powered": {
         "rarity": 16384,
-        "display": fg("Powered" + "                    ", 255),
+        "display": fg("Powered", 255),
         "description": "I feel like I've become more powerful!",
         "amplify": ['NONE',True]
     },
     "Aquatic": {
         "rarity": 40000,
-        "display": fg("Aquatic" + "                    ", 69),
+        "display": fg("Aquatic", 69),
         "description": "It represents the flow of water",
         "amplify": ['NONE',True]
     },
     "Starlight": {
         "rarity": 50000,
-        "display": fg("STARLIGHT" + "                    ", 117),
+        "display": fg("STARLIGHT", 117),
         "description": "This starlight with mysterious powers infused will follow you persistently, illuminating the path.",
         "amplify": ['Starfall',True]
     },
     "Star Rider": {
         "rarity": 50000,
-        "display": fg("Star Rider" + "                    ", 227),
+        "display": fg("Star Rider", 227),
         "description": "A little friend who will join you on a wonderful trip",
         "amplify": ['Starfall',True]
     },
