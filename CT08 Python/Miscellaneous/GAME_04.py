@@ -374,7 +374,7 @@ Auras = {
         "Jade": {
         "rarity": 120000,
         "display": (fg("Jade", 203) + "                    "),
-        "description": "This, is the name of a legendary man who approaches ones lost in the vast forest and gives directions. He is kind, and knows the forest better than anyone else. But one day, he stopped showing himself to people. Where did he go?",
+        "description": "Where did it go?",
         "amplify": ['Hell',True]
     },
 
