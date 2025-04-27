@@ -1092,12 +1092,12 @@ def console():
                     selected_biome = biome_choices.get(biome_input)
 
                     if selected_biome:
-                        show_aura_rarity(int(luck), selected_biome)
+                        
+                        roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                     else:
                         print(fg("Invalid biome choice.", 160))
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
-                roll_for_aura(50000 * 1.3, 'Glitched',100,10)
             if int(command) == 2:
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
