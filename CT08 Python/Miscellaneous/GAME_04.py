@@ -264,7 +264,7 @@ Auras = {
         "rarity": 10000,
         "display": fg("★ ★ ★" + "                    ", 213),
         "description": "★ ★ ★",
-        "amplify": ['Dreamspace',False]
+        "amplify": ['Glitched',False]
     },
     "Undead": {
         "rarity": 12000,
