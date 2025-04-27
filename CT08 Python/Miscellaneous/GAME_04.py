@@ -754,19 +754,19 @@ Auras = {
     },
     "Overture : History": {
         "rarity": 300000000,
-        "display": fg("OVERTURE : HISTORY" + "                    ", 48),
+        "display": fg("OVERTURE : HISTORY", 48),
         "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
         "amplify": ['NONE',True]
     },
     "Bloodlust": {
         "rarity": 300000000,
-        "display": fg("BLOODLUST" + "                    ", 160),
+        "display": fg("BLOODLUST", 160),
         "description": "This doesn't represent anything inferior like a vampire or something, but rather never-ending thirst for blood itself.",
         "amplify": ['NONE',True]
     },
     "Jazz : Ochestra": {
         "rarity": 336870912,
-        "display": fg("♩ Orchestra ♩" + "                    ", 230),
+        "display": fg("♩ Orchestra ♩", 230),
         "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
