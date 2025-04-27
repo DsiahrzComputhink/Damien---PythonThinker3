@@ -461,13 +461,19 @@ Auras = {
     "Arcane : Legacy": {
         "rarity": 1024000,
         "display": fg("Arcane : Legacy" + "                    ", 127),
-        "description": "A spell found in the ruins of an ancient civilization.",
+        "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
     },
     "Chromatic": {
         "rarity": 20000000,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
         "description": "Yes... Feel my unstoppable beats!",
+        "amplify": ['NONE',True]
+    },
+    "Arcane : Legacy": {
+        "rarity": 1024000,
+        "display": fg("Arcane : Legacy" + "                    ", 127),
+        "description": "A spell found in the ruins of an ancient civilization. Maybe it was... too powerful.",
         "amplify": ['NONE',True]
     },
     "Exotic : APEX": {
