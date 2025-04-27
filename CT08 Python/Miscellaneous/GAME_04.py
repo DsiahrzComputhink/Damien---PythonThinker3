@@ -234,7 +234,7 @@ Auras = {
     "Lunar": {
         "rarity": 5000,
         "display": fg("Lunar" + "                    ", 111),
-        "description": "It was made with Sunshine by an Unknown being on a clear night.",
+        "description": "It was made with Moonlight by an Unknown being on a clear night.",
         "amplify": ['NONE',True]
     },
     "Flushed": {
