@@ -492,6 +492,24 @@ Auras = {
         "description": "It has the image of a creature that once ruled the sky.",
         "amplify": ['NONE',True]
     },
+    "Galaxy": {
+        "rarity": 4500000,
+        "display": fg("Zeus" + "                    ", 229),
+        "description": "It has the image of a creature that once ruled the sky.",
+        "amplify": ['NONE',True]
+    },
+    "Zeus": {
+        "rarity": 4500000,
+        "display": fg("Zeus" + "                    ", 229),
+        "description": "It has the image of a creature that once ruled the sky.",
+        "amplify": ['NONE',True]
+    },
+    "Zeus": {
+        "rarity": 4500000,
+        "display": fg("Zeus" + "                    ", 229),
+        "description": "It has the image of a creature that once ruled the sky.",
+        "amplify": ['NONE',True]
+    },
 
     # 10,000,000 - Exalted
     "Glitched": {
