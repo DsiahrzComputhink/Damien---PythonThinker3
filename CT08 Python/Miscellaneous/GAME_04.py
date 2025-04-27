@@ -377,7 +377,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
         "Spectre": {
-        "rarity": 120000,
+        "rarity": 140000,
         "display": (fg("Jade", 29) + "                    "),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
