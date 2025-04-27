@@ -411,25 +411,25 @@ Auras = {
     },
     "Jade": {
         "rarity": 120000,
-        "display": (fg("Jade", 29) + "                    "),
+        "display": (fg("Jade", 29)),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
     "Spectre": {
         "rarity": 140000,
-        "display": (fg("Spectre", 67) + "                    "),
+        "display": (fg("Spectre", 67)),
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
     "Jazz": {
         "rarity": 160000,
-        "display": (fg("Jazz", 215) + "                    "),
+        "display": (fg("Jazz", 215)),
         "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
     "Aether": {
         "rarity": 180000,
-        "display": (fg("Aether", 194) + "                    "),
+        "display": (fg("Aether", 194)),
         "description": "Mysterious matter believed to act as a medium for transmitting light The exact use is unknown.",
         "amplify": ['NONE',True]
     },
