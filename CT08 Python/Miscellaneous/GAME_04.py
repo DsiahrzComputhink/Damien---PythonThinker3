@@ -399,13 +399,19 @@ Auras = {
         "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
-
     "Chromatic": {
         "rarity": 20000000,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
         "description": "Yes... Feel my unstoppable beats!",
         "amplify": ['NONE',True]
     },
+    "Exotic : APEX": {
+        "rarity": 90000,
+        "display": (fg("Stormal : Hurricane", 249) + "                    "),
+        "description": "An enormous storm raging around you.",
+        "amplify": ['Windy',True]
+    },
+
 
     # 99,999,999 - Glorious
     "Chromatic:Genesis": {
