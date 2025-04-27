@@ -287,13 +287,13 @@ Auras = {
     },
     "Starlight": {
         "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
+        "display": fg("STARLIGHT" + "                    ", 202),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
     "Star Rider": {
         "rarity": 12800,
-        "display": fg("Rage:Heated" + "                    ", 202),
+        "display": fg("Star Rider" + "                    ", 227),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
