@@ -1043,6 +1043,7 @@ def console():
                     print(style.bblue + "2" + style.RESET,"                  ","Aura List")
                     print(style.bblue + "3" + style.RESET,"              ","Close Program")
                     print(LINE)
+                    biome = input()
                     show_aura_rarity(int(luck),'Normal')
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
