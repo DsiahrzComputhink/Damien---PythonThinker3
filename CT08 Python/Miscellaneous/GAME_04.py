@@ -462,6 +462,12 @@ Auras = {
         "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
+    "Virtual": {
+        "rarity": 2000000,
+        "display": fg("BOUNDED : UNBOUND" + "                    ", 21),
+        "description": "When news spread that this being had awoken, people trembled in fear.",
+        "amplify": ['NONE',True]
+    },
     "Aquatic : Flame": {
         "rarity": 4000000,
         "display": fg("Aquatic : Flame" + "                    ", 208),
