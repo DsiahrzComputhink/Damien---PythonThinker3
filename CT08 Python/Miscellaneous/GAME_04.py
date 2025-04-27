@@ -1094,7 +1094,7 @@ def console():
                     if selected_biome:
                         print("What",fg("Potion",177),"Do you want to use?")
                         print(style.bblue + "1" + style.RESET, "                     ", "Potion of Bound [50k Luck]")
-                        print(style.bblue + "2" + style.RESET, "              ", fg("Windy [1/500]", 117))
+                        print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion [150k Luck]", 117))
                         print(style.bblue + "3" + style.RESET, "              ", fg("Snowy [1/600]", 159))
                         print(style.bblue + "4" + style.RESET, "             ", fg("Rainy [1/3000]", 39))
                         print(style.bblue + "5" + style.RESET, "         ", fg("Sandstorm [1/6666]", 187))
