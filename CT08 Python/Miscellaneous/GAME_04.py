@@ -291,6 +291,12 @@ Auras = {
         "description": "Paint all Black",
         "amplify": ['NONE',True]
     },
+    "Powered": {
+        "rarity": 12800,
+        "display": fg("Rage:Heated" + "                    ", 202),
+        "description": "furious emotions",
+        "amplify": ['NONE',True]
+    },
     "Starlight": {
         "rarity": 50000,
         "display": fg("STARLIGHT" + "                    ", 117),
