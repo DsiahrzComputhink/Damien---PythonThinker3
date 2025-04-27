@@ -1042,3 +1042,5 @@ def console():
                 stop += 1   
         else:
             print(style.bred + "Command does not exist" + style.RESET)
+
+console()
