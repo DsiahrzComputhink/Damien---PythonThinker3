@@ -342,14 +342,14 @@ Auras = {
     "Stormal": {
         "rarity": 90000,
         "display": (fg("Stormal", 249) + "                    "),
-        "description": "A small shout resounding from the depths of the abyss..",
+        "description": "An enormous storm raging around you.",
         "amplify": ['Windy',True]
     },
 
     # 100,000
     "Exotic": {
         "rarity": 99999,
-        "display": bg("E",196) + "                    ",
+        "display": fg("E",196) + "                    ",
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
