@@ -485,6 +485,12 @@ Auras = {
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
+    "Chromatic:Genesis": {
+        "rarity": 99999999,
+        "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
+        "description": "WAKE UP FROM AWAY",
+        "amplify": ['NONE',True]
+    },
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
