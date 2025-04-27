@@ -235,8 +235,8 @@ Auras = {
     "Hazard": {
         "rarity": 7000,
         "display": (fg("Hazard", 177) + "                    "),
-        "description": "flushed",
-        "amplify": ['NONE',True]
+        "description": "This is a constant destruction of life",
+        "amplify": ['Corrupted',True]
     },
     "Quartz": {
         "rarity": 8000,
