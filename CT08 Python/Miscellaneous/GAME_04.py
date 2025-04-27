@@ -342,7 +342,7 @@ Auras = {
     "Glitched": {
         "rarity": 12210110,
         "display": (fg("G", 22) + fg("L", 28) + fg("1", 22) + fg("T", 28) + fg("C", 34) + fg("H", 28) + "                    "),
-        "description": ".-- .... .- - ..--.. -. --- --..-- .. - .----. ... .-. .. -.. .. -.-. ..- .-.. --- ..- ... .-.-.- .. - ... .... --- ..- .-.. -.. -. .----. - .... .- .--. .--. . -.",
+        "description": "WHAT ? NO, IT'S RIDICULOUS. IT SHOULDN'T HAPPEN",
         "amplify": ['Glitched',False]
     },
 
