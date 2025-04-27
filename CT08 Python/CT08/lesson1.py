@@ -19,11 +19,11 @@ if action == "b":
     else:
         print("The book is already borrowed.")
 elif action == "d":
-    if books[book_id] == "Borrowed":
+    if books[book_id] == "BORROWED":
         books("R") = "AVAILABLE"
         print("You have returned the book.")
-    elif books[book_id] == "available":
-        print("The book is already available.")
+    elif books[book_id] == "AVAILABLE":
+        print("The book is already AVAILABLE.")
     else:
         print("Invalid action.")
 
