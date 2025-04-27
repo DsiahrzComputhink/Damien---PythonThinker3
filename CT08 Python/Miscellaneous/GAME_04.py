@@ -697,13 +697,13 @@ Auras = {
     },
     "Matrix : Overdrive": {
         "rarity": 503000000,
-        "display": (fg("MATRIX : OVERDRIVE", 157) + "                    "),
+        "display": (fg("MATRIX : OVERDRIVE", 198) + "                    "),
         "description": "C0re sys#ems ar# failing...... I. I. I. I. can't. can't. can't. ca. ..-. -. -.. th# ###ources... to fix myself.",
         "amplify": ['NONE',True]
     },
     "Matrix : Reality": {
         "rarity":  601020102,
-        "display": (fg("MATRIX : REALITY", 157) + "                    "),
+        "display": (fg("MATRIX : REALITY", 175) + "                    "),
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
