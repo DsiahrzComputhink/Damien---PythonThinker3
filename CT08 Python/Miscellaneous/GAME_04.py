@@ -616,7 +616,7 @@ Auras = {
     },
     "Aviator": {
         "rarity": 19725000,
-        "display": (fg("★ Aviator ★", 117) + "                    "),
+        "display": (fg("★ Aviator ★", 185) + "                    "),
         "description": "Empty",
         "amplify": ['Snowy',True]
     },
