@@ -757,8 +757,8 @@ Auras = {
     },
     "Ruins": {
         "rarity": 400000000,
-        "display": (fg("《 Ruins 》", 167) + "                    "),
-        "description": "In mythological depictions, Apostolos represents the intersection of order and chaos. In his right hand rests the curse of chaos, and in his left hand, the blessing of order.",
+        "display": (fg("《 Ruins 》", 115) + "                    "),
+        "description": "In the ruins of an ancient civilization, destroyed by the destructive rituals and dark sorcery, only a place known as the Sanctuary remains, though it has crumbled in form.",
         "amplify": ['NONE',True]
     },
     "Matrix : Overdrive": {
