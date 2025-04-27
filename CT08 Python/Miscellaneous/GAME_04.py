@@ -906,7 +906,6 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
 def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
     ListedAuras = {}
 
-    # First adjust auras based on the biome
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
 
@@ -919,14 +918,12 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
             if currentbiome != native_biome:
                 continue
 
-        # glitched biome
         if currentbiome == 'Glitched':
             if native_biome != 'NONE':
                 biome_data = Biomes.get(native_biome)
                 if biome_data and biome_data.get('Amplify'):
                     aura_copy['rarity'] /= biome_data['Amplify']
 
-        # normal biome
         elif currentbiome != 'None':
             biome_data = Biomes.get(currentbiome)
             if biome_data and native_biome == currentbiome:
@@ -935,7 +932,6 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None"):
 
         ListedAuras[aura_name] = aura_copy
 
-    # Now pick based on rarities
     chances = []
     names = []
 
