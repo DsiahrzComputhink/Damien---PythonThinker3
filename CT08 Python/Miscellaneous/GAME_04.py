@@ -703,7 +703,7 @@ Auras = {
     },
     "Archangel": {
         "rarity": 299999999,
-        "display": (fg("Archangel", 223) + "                    "),
+        "display": (fg("Archangel", 229) + "                    "),
         "description": "The most pure, beautiful, and holy being, in the mythology",
         "amplify": ['NONE',True]
     },
