@@ -447,7 +447,7 @@ Auras = {
     "Cosmos": {
         "rarity": 1520000,
         "display": fg("Cosmos" + "                    ", 183),
-        "description": "It's too dark in here...",
+        "description": "A galactic warrior who fought in the ancient space war. Countless years have passed since the war, but the scars of war still remains on its body.",
         "amplify": ['NONE',True]
     },
     "Gravitational": {
