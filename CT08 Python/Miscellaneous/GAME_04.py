@@ -907,7 +907,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
     {"name": "EPIC", "range": (1_000, 9_998), "color": 182},
-    {"name": "UNIQUE", "range": (9999, 99_998), "color": 179},
+    {"name": "UNIQUE", "range": (9_999, 99_998), "color": 179},
     {"name": "LEGENDARY", "range": (99_999, 999_998), "color": 220},
     {"name": "MYTHIC", "range": (999_999, 9_999_998), "color": 213},
     {"name": "EXALTED", "range": (9_999_999, 99_999_998), "color": 27},
