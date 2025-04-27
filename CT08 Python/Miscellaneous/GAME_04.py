@@ -407,7 +407,7 @@ Auras = {
     },
     "Exotic : APEX": {
         "rarity": 49999500,
-        "display": (fg("Stormal : Hurricane", 249) + "                    "),
+        "display": (fg("Exotic : APEX", 249) + "                    "),
         "description": "An enormous storm raging around you.",
         "amplify": ['NONE',True]
     },
