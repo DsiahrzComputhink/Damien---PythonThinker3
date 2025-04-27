@@ -438,7 +438,13 @@ Auras = {
         "description": "flame of emotions",
         "amplify": ['NONE',True]
     },
-    "A": {
+    "Astral": {
+        "rarity": 1111000,
+        "display": fg("[Undefined]" + "                    ", 250),
+        "description": "It's too dark in here...",
+        "amplify": ['Null',True]
+    },
+        "Astral": {
         "rarity": 1111000,
         "display": fg("[Undefined]" + "                    ", 250),
         "description": "It's too dark in here...",
