@@ -428,7 +428,7 @@ Auras = {
     },
     "Bounded : Unbound": {
         "rarity": 2000000,
-        "display": fg("UNBOUND" + "                    ", 105),
+        "display": fg("UNBOUND" + "                    ", 62),
         "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
