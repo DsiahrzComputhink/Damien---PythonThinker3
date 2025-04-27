@@ -1107,10 +1107,13 @@ def console():
                             roll_for_aura(potion_luck * vip_name, selected_biome,100,10)
                         else:
                             print(fg("Invalid VIP choice. Please select a valid VIP level.", 160))
+                            time.sleep(2)
                     else:
                         print(fg("Invalid choice.", 160))
+                        time.sleep(1)
                 else:
                     print(fg("Invalid biome choice.", 160))
+                    time.sleep(1)
             elif int(command) == 2:
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
