@@ -910,9 +910,9 @@ def console():
         print(LINE)
         print("A TITLE")
         print(LINE)
-        print(style.bblue + "1" + style.RESET,"                        ","a thing")
-        print(style.bblue + "2" + style.RESET,"                  ","another thing")
-        print(style.bblue + "3" + style.RESET,"                  ","Close Program")
+        print(style.bblue + "1" + style.RESET,"                   ","a thing")
+        print(style.bblue + "2" + style.RESET,"             ","another thing")
+        print(style.bblue + "3" + style.RESET,"             ","Close Program")
         print(LINE)
         command = input("")
         if command.isnumeric():
