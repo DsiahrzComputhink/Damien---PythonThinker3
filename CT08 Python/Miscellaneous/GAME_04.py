@@ -1035,7 +1035,7 @@ def console():
             if int(command) == 1:
                 print('hi')
             if int(command) == 2:
-                print(style.bblue + "1" + style.RESET,"            ","Roll Prediction")
+                print("How much ",style.bgreen + "Luck" + style.RESET,"            ","Roll Prediction")
                 show_aura_rarity()
             if int(command) == 3:
                 print(style.bgreen + "Program closing..." + style.RESET)
