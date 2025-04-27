@@ -605,7 +605,7 @@ Auras = {
     "Blizzard": {
         "rarity": 19725000,
         "display": (fg("Blizzard", 117) + "                    "),
-        "description": "A beautiful star that always faces you when I look at the night sky.",
+        "description": "Empty",
         "amplify": ['Snowy',True]
     },
     "Chromatic": {
