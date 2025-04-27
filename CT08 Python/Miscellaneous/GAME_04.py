@@ -403,8 +403,8 @@ Auras = {
 
     # 1,000,000 - Mythic
     "Bounded": {
-        "rarity": 1024000,
-        "display": fg("BOUNDED" + "                    ", 127),
+        "rarity": 200000,
+        "display": fg("BOUNDED" + "                    ", 20),
         "description": "A collection of strong energies with inverted directions of acting polarities, which are not described magnetically.",
         "amplify": ['NONE',True]
     },
