@@ -1106,7 +1106,7 @@ def console():
                             print("How many",fg("Times",219),"are you willing to Roll?")
                             rolls = input()
                             if rolls.isnumeric():
-                                roll_for_aura(potion_luck * luck_multiplier, selected_biome,100,10)
+                                roll_for_aura(potion_luck * luck_multiplier, selected_biome,int(rolls),10)
                             else:
                                 print(fg("Invalid roll count", 160))
                                 time.sleep(1)
