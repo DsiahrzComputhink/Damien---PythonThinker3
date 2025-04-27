@@ -683,7 +683,7 @@ Auras = {
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
         "amplify": ['Starfall',True]
     },
-    "Starscourge : Radiant": {
+    "Symphony": {
         "rarity": 10000000,
         "display": fg("Starscourge : Radiant" + "                    ", 117),
         "description": "When the stars aligned... the brightest starlights gathered to form this.",
