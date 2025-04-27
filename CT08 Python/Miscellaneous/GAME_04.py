@@ -728,7 +728,7 @@ Auras = {
     "Jazz : Ochestra": {
         "rarity": 300000000,
         "display": fg("♩ Orchestra ♩" + "                    ", 160),
-        "description": "This doesn't represent anything inferior like a vampire or something, but rather never-ending thirst for blood itself.",
+        "description": "Jazz, a romance born in improvisation, where free melodies whisper the language of love.",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
