@@ -293,14 +293,14 @@ Auras = {
     },
     "Powered": {
         "rarity": 12800,
-        "display": fg("Powered" + "                    ", 202),
+        "display": fg("Powered" + "                    ", 255),
         "description": "I feel like I've become more powerful!",
         "amplify": ['NONE',True]
     },
     "Aquatic": {
         "rarity": 12800,
-        "display": fg("Aquatic" + "                    ", 202),
-        "description": "I feel like I've become more powerful!",
+        "display": fg("Aquatic" + "                    ", 69),
+        "description": "It represents the flow of water",
         "amplify": ['NONE',True]
     },
     "Starlight": {
