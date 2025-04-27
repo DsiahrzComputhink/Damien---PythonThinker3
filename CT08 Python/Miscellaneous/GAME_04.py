@@ -280,7 +280,7 @@ Auras = {
         "rarity": 6900,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
-        "amplify": ['Glitched',False]
+        "amplify": ['NONE',True]
     },
 
     # 100,000
