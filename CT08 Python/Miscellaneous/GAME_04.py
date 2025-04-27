@@ -621,8 +621,8 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Sailor : Flying Dutchman": {
-        "rarity": 12000000,
-        "display": fg("Sailor" + "                    ", 81),
+        "rarity": 80000000,
+        "display": fg("Sailor" + "                    ", 76),
         "description": "The Flying Dutchman. The same terrible vessel whose very timbers are cut from the bodies and souls of doomed seamen.",
         "amplify": ['Rainy',True]
     },
