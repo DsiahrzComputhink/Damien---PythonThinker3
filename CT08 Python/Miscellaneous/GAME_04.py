@@ -261,7 +261,7 @@ Auras = {
         "amplify": ['NONE',True]
     },
 
-    # 1,000,000
+    # 1,000,000 - Mythic
     "Magnetic:Reverse Polarity": {
         "rarity": 1024000,
         "display": fg("Magnetic : Reverse Polarity" + "                    ", 127),
