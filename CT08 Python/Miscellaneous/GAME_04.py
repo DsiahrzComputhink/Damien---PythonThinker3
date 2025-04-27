@@ -1038,6 +1038,11 @@ def console():
                 luck = input()
                 if luck.isnumeric():
                     print("What",style.bcyan + "Biome" + style.RESET,"Do you want?")
+                    print(LINE)
+                    print(style.bblue + "1" + style.RESET,"            ","Roll Prediction")
+                    print(style.bblue + "2" + style.RESET,"                  ","Aura List")
+                    print(style.bblue + "3" + style.RESET,"              ","Close Program")
+                    print(LINE)
                     show_aura_rarity(int(luck),'Normal')
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
