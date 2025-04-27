@@ -865,5 +865,27 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         time.sleep(0.1)
 
 
+def console():
+    stop = 0
+    while stop == 0:
+        print(LINE)
+        print("A TITLE")
+        print(LINE)
+        print(style.bblue + "1" + style.RESET,"                        ","a thing")
+        print(style.bblue + "2" + style.RESET,"                  ","another thing")
+        print(style.bblue + "3" + style.RESET,"                  ","Close Program")
+        print(LINE)
+        command = input("")
+        if command.isnumeric():
+            if int(command) == 1:
+                print('hi')
+            if int(command) == 2:
+                print('hi')
+            if int(command) == 3:
+                print(style.bgreen + "Program closing..." + style.RESET)
+                print("Goodbye!")
+                stop += 1   
+        else:
+            print(style.bred + "Command does not exist" + style.RESET)
 show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
