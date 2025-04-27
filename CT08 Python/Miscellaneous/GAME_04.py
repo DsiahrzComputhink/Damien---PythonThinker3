@@ -553,10 +553,10 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Nihillity": {
-        "rarity": 7000000,
+        "rarity": 9,
         "display": fg("Nihillity" + "                    ", 219),
         "description": "Empty",
-        "amplify": ['NONE',True]
+        "amplify": ['Null',True]
     },
     "Helios": {
         "rarity": 7000000,
