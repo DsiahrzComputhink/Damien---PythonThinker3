@@ -1089,14 +1089,37 @@ def console():
                 selected_biome = biome_choices.get(biome_input)
 
                 if selected_biome:
-                    print("What",fg("Potion",177),"Do you want to use?")
+                    # Display potion selection
+                    print("What", fg("Potion", 177), "Do you want to use?")
                     print(LINE)
-                    print(style.bblue + "1" + style.RESET, " ", fg("Potion of Bound",111),"[50k Luck]")
-                    print(style.bblue + "2" + style.RESET, "", fg("Heavenly Potion", 177),"[150k Luck]")
-                    print(style.bblue + "3" + style.RESET, " ", fg("Godlike Potion", 154),"[400k Luck]")
-                    print(style.bblue + "4" + style.RESET, "", fg("Oblivion Potion", 99),"[600k Luck]")
+                    print(style.bblue + "1" + style.RESET, " ", fg("Potion of Bound", 111), "[50k Luck]")
+                    print(style.bblue + "2" + style.RESET, "", fg("Heavenly Potion", 177), "[150k Luck]")
+                    print(style.bblue + "3" + style.RESET, " ", fg("Godlike Potion", 154), "[400k Luck]")
+                    print(style.bblue + "4" + style.RESET, "", fg("Oblivion Potion", 99), "[600k Luck]")
                     print(LINE)
-                    potion = input()
+
+                    # Map numbers to potion names and their luck value
+                    potion_choices = {
+                        "1": {"name": "Potion of Bound", "luck": 50000},
+                        "2": {"name": "Heavenly Potion", "luck": 150000},
+                        "3": {"name": "Godlike Potion", "luck": 400000},
+                        "4": {"name": "Oblivion Potion", "luck": 600000}
+                    }
+
+                    # Get input
+                    potion_input = input("Select a potion (1-4): ").strip()
+
+                    # Look up potion details
+                    selected_potion = potion_choices.get(potion_input)
+
+                    if selected_potion:
+                        potion_name = selected_potion["name"]
+                        potion_luck = selected_potion["luck"]
+                        print(f"Using {potion_name} with {potion_luck} Luck!")
+                        # You can now call other functions or add logic for how this luck affects the game.
+                    else:
+                        print(fg("Invalid potion choice.", 160))
+
 
                     roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                 else:
