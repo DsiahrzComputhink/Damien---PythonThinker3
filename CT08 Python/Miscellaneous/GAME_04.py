@@ -464,7 +464,7 @@ Auras = {
     },
     "Virtual": {
         "rarity": 2000000,
-        "display": fg("Virtual" + "                    ", 81),
+        "display": fg("Virtual" + "                    ", 87),
         "description": "When news spread that this being had awoken, people trembled in fear.",
         "amplify": ['NONE',True]
     },
