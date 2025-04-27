@@ -343,7 +343,7 @@ Auras = {
         "rarity": 220000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
         "description": "... is this truly the end?",
-        "amplify": ['NONE',True]
+        "amplify": ['Glitched',False]
     },
 
     # 1,000,000,000 - Transcendents
