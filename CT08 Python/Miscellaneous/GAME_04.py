@@ -203,7 +203,7 @@ Auras = {
     },
     "Fault": {
         "rarity": 3000,
-        "display": (fg("F", 34) + fg("a", 22) + fg("u", 34) + fg("l", 28) + fg("t", 22) + "                    "),
+        "display": (fg("FAULT", 10) + "                    "),
         "description": "a heterogeneous substance",
         "amplify": ['Glitched',False]
     },
