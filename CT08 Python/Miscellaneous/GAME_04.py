@@ -303,12 +303,12 @@ Auras = {
     },
 
     "Pixelation": {
-        "rarity": 220000000,
+        "rarity": 1,073,741,824,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
         "description": "... is this truly the end?"
     },
     "Luminosity": {
-        "rarity": 200000000,
+        "rarity": 1200000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
         "description": "... is this truly the end?"
     },
