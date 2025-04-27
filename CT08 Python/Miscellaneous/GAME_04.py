@@ -563,7 +563,7 @@ Auras = {
     },
     "Hades": {
         "rarity": 6666666,
-        "display": fg("Hades" + "                    ", 166),
+        "display": fg("Hades" , 166),
         "description": "It has been shaped as the ruler of hell, a long time ago. Though not replicated perfectly, it still remains cruel and callous.",
         "amplify": ['Hell',True]
     },
