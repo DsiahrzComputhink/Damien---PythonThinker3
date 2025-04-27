@@ -477,7 +477,7 @@ Auras = {
     "Poseidon": {
         "rarity": 4000000,
         "display": fg("Poseidon" + "                    ", 207),
-        "description": "Empty",
+        "description": "It has been shaped as a creature that once ruled the ocean long ago .It always maintains its posture, and all sea creatures are loyal to it. Except, one.",
         "amplify": ['NONE',True]
     },
     "Aquatic : Flame": {
