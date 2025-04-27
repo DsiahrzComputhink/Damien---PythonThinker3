@@ -721,8 +721,8 @@ Auras = {
     },
     "Bloodlust": {
         "rarity": 300000000,
-        "display": fg("BLOODLUST" + "                    ", 88),
-        "description": "When the clock hand started to move for the first time, was when everything started to move for the first time...",
+        "display": fg("BLOODLUST" + "                    ", 160),
+        "description": "This doesn't represent anything inferior like a vampire or something, but rather never-ending thirst for blood itself.",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
