@@ -533,31 +533,31 @@ Auras = {
     },
     "Galaxy": {
         "rarity": 5000000,
-        "display": fg("Galaxy" + "                    ", 141),
+        "display": fg("Galaxy", 141),
         "description": "It comes from an unbelievably vast space itself.",
         "amplify": ['Starfall',True]
     },
     "Lunar : Full Moon": {
         "rarity": 5000000,
-        "display": fg("Lunar : Full Moon" + "                    ", 229),
+        "display": fg("Lunar : Full Moon", 229),
         "description": "A Full Moon hung in the sky",
         "amplify": ['NONE',True]
     },
     "Solar : Solstice": {
         "rarity": 5000000,
-        "display": fg("Solar : Solstice" + "                    ", 228),
+        "display": fg("Solar : Solstice", 228),
         "description": "It was made with Sunshine by an Unknown being on a bright day.",
         "amplify": ['NONE',True]
     },
     "Twilight": {
         "rarity": 6000000,
-        "display": fg("Twilight" + "                    ", 147),
+        "display": fg("Twilight", 147),
         "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
         "amplify": ['NONE',True]
     },
     "Origin": {
         "rarity": 6500000,
-        "display": fg("Origin" + "                    ", 110),
+        "display": fg("Origin", 110),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
