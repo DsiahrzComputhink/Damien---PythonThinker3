@@ -495,13 +495,13 @@ Auras = {
     "Galaxy": {
         "rarity": 4500000,
         "display": fg("Galaxy" + "                    ", 141),
-        "description": "It has the image of a creature that once ruled the sky.",
+        "description": "It comes from an unbelievably vast space itself.",
         "amplify": ['NONE',True]
     },
     "Lunar : Full Moon": {
         "rarity": 4500000,
         "display": fg("Lunar : Full Moon" + "                    ", 229),
-        "description": "It has the image of a creature that once ruled the sky.",
+        "description": "A Full Moon hung in the sky",
         "amplify": ['NONE',True]
     },
     "Solar : Solstice": {
