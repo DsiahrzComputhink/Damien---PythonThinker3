@@ -427,9 +427,9 @@ Auras = {
         "amplify": ['Glitched',False]
     },
     "Exotic : VOID": {
-        "rarity": 49999500,
+        "rarity": 299999999,
         "display": (fg("Exotic : APEX", 85) + "                    "),
-        "description": "Maybe this is the source of the ancient being, that people were dying to know about?",
+        "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
     # 1,000,000,000 - Transcendents
