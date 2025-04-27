@@ -197,43 +197,43 @@ Auras = {
     # 1,000
     "★★": {
         "rarity": 1000,
-        "display": fg("★ ★" + "                    ", 213),
+        "display": fg("★ ★", 213),
         "description": "★ ★",
         "amplify": ['Glitched',False]
     },
     "Diaboli": {
         "rarity": 1004,
-        "display": fg("Diaboli" + "                    ", 126),
+        "display": fg("Diaboli", 126),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Precious": {
         "rarity": 1024,
-        "display": fg("Precious" + "                    ", 45),
+        "display": fg("Precious", 45),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Glock": {
         "rarity": 1700,
-        "display": fg("Glock" + "                    ", 249),
+        "display": fg("Glock", 249),
         "description": "What do you mean by aura??? its just a Glock-17!",
         "amplify": ['NONE',True]
     },
     "Magnetic": {
         "rarity": 2048,
-        "display": fg("Magnetic" + "                    ", 91),
+        "display": fg("Magnetic", 91),
         "description": "Its surrounded by powerful magnetic force",
         "amplify": ['NONE',True]
     },
     "Ash": {
         "rarity": 2300,
-        "display": fg("Ash" + "                    ", 7),
+        "display": fg("Ash", 7),
         "description": "Everything that is destroyed goes back to ashes",
         "amplify": ['NONE',True]
     },
     "Glacier": {
         "rarity": 2304,
-        "display": fg("Glacier" + "                    ", 81),
+        "display": fg("Glacier", 81),
         "description": "a cold spirit",
         "amplify": ['Snowy',True]
     },
