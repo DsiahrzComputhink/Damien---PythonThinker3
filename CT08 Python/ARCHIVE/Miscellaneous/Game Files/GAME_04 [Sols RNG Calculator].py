@@ -912,7 +912,7 @@ Tiers = [
     {"name": "MYTHIC", "range": (999_999, 9_999_998), "color": 213},
     {"name": "EXALTED", "range": (9_999_999, 99_999_998), "color": 27},
     {"name": "GLORIOUS", "range": (99_999_999, 999_999_998), "color": 160},
-    {"name": "TRANSCENDENT", "range": (999_999_999, float('inf')), "color": 199},
+    {"name": "TRANSCENDENT", "range": (999_999_999, float('inf')), "color": 153},
 ]
 
 def find_tier(rarity_value):
