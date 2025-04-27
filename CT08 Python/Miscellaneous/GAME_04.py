@@ -556,7 +556,7 @@ Auras = {
         "rarity": 9000000,
         "display": fg("Nihillity" + "                    ", 248),
         "description": "Empty",
-        "amplify": ['NNOull',True]
+        "amplify": ['Null',True]
     },
     "Helios": {
         "rarity": 7000000,
