@@ -428,7 +428,7 @@ Auras = {
     },
     "Exotic : VOID": {
         "rarity": 299999999,
-        "display": (fg("Exotic ◇ VOID", 92) + "                    "),
+        "display": (fg("Exotic : VOID", 165) + "                    "),
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
