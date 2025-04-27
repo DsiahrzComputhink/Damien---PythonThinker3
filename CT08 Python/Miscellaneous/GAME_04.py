@@ -987,4 +987,4 @@ def console():
 
 show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
-console()
+roll_for_aura(1*10000*1000)
