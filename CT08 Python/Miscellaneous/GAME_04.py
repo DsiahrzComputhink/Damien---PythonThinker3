@@ -400,6 +400,18 @@ Auras = {
         "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
+    "Celestial": {
+        "rarity": 200000,
+        "display": fg("BOUNDED" + "                    ", 20),
+        "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
+        "amplify": ['NONE',True]
+    },
+    "Bounded": {
+        "rarity": 200000,
+        "display": fg("BOUNDED" + "                    ", 20),
+        "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
+        "amplify": ['NONE',True]
+    },
 
     # 1,000,000 - Mythic
     "Magnetic : Reverse Polarity": {
