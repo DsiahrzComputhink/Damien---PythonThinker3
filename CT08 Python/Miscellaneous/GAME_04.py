@@ -695,6 +695,18 @@ Auras = {
         "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
         "amplify": ['NONE',True]
     },
+    "Matrix": {
+        "rarity": 50000000,
+        "display": (fg("Matrix", 157) + "                    "),
+        "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
+        "amplify": ['NONE',True]
+    },
+    "Matrix": {
+        "rarity": 50000000,
+        "display": (fg("Matrix", 157) + "                    "),
+        "description": "No one can see, hear or touch this; perhaps, it might not even be real.",
+        "amplify": ['NONE',True]
+    },
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
