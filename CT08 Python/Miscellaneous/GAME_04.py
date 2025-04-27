@@ -518,8 +518,8 @@ Auras = {
     },
     "Origin": {
         "rarity": 6500000,
-        "display": fg("Origin" + "                    ", 147),
-        "description": "A jewel that shines brightly once every thousand years in the deepest part of the forest.",
+        "display": fg("Origin" + "                    ", 110),
+        "description": "Empty",
         "amplify": ['NONE',True]
     },
     "Hades": {
