@@ -333,13 +333,13 @@ Auras = {
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['NONE',True]
     },
-        "Permafrost": {
-        "rarity": 70000,
+    "Permafrost": {
+        "rarity": 73500,
         "display": (fg("Nautilus", 63) + "                    "),
         "description": "A small shout resounding from the depths of the abyss..",
         "amplify": ['Snowy',True]
     },
-        "Stormal": {
+    "Stormal": {
         "rarity": 90000,
         "display": (fg("Nautilus", 63) + "                    "),
         "description": "A small shout resounding from the depths of the abyss..",
