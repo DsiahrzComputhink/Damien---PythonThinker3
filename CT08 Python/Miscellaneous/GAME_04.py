@@ -1043,7 +1043,7 @@ def console():
                     print(style.bblue + "2" + style.RESET,"              ","Windy [1/500]")
                     print(style.bblue + "2" + style.RESET,"              ","Snowy [1/600]")
                     print(style.bblue + "3" + style.RESET,"             ","Rainy [1/3000]")
-                    print(style.bblue + "2" + style.RESET,"             ","Windy [1/6666]")
+                    print(style.bblue + "2" + style.RESET,"             ","Sandstorm [1/6666]")
                     print(style.bblue + "2" + style.RESET,"             ","Starfall [1/7500]")
                     print(style.bblue + "2" + style.RESET,"             ","Corruption [1/9000]")
                     print(style.bblue + "2" + style.RESET,"            ","Null [1/10100]")
