@@ -746,7 +746,7 @@ Auras = {
     "Gargantua": {
         "rarity": 400000000,
         "display": (fg("GARGANTUA", 27) + "                    "),
-        "description": "An unknown hunter, slaughtering deep sea creatures mercilessly and roaming around the trenches.",
+        "description": "It has existed since the beginning of the universe even now, it continues to devour everything that enters its domain, relentlessly moving forward.",
         "amplify": ['NONE',True]
     },
     "Abyssal Hunter": {
