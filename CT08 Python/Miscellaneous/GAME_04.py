@@ -305,7 +305,7 @@ Auras = {
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
-        "display": (fg("▣", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("▣", 196) + "                    "),
+        "display": (fg("▣", 196) + fg("P", 202) + fg("I", 226) + fg("X", 82) + fg("L", 48) + fg("E", 39) + fg("A", 99) + fg("T", 201) + fg("▣", 196) + "                    "),
         "description": "... is this truly the end?"
     },
     "Luminosity": {
