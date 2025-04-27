@@ -240,7 +240,7 @@ Auras = {
     },
     "Quartz": {
         "rarity": 8000,
-        "display": (fg("Flushed", 220) + "                    "),
+        "display": (fg("Flushed", 183) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
