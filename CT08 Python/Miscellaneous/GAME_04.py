@@ -701,6 +701,12 @@ Auras = {
         "description": "Nobody knows where it originates from, and how old it is.",
         "amplify": ['NONE',True]
     },
+    "Overture : History": {
+        "rarity": 150000000,
+        "display": fg("Overture" + "                    ", 27),
+        "description": "Inexorably, time flows forward cruelly. It cannot be stopped, or changed in direction. Perhaps time is a concept that exists in a dimension higher than the one we live in?",
+        "amplify": ['NONE',True]
+    },
     "Abyssal Hunter": {
         "rarity": 400000000,
         "display": (fg("ABYSSAL HUNTER", 27) + "                    "),
