@@ -365,6 +365,18 @@ Auras = {
         "description": "silly tiny demon",
         "amplify": ['Hell',True]
     },
+        "Comet": {
+        "rarity": 120000,
+        "display": (fg("Undead : Devil", 203) + "                    "),
+        "description": "silly tiny demon",
+        "amplify": ['Hell',True]
+    },
+        "Undead : Devil": {
+        "rarity": 120000,
+        "display": (fg("Undead : Devil", 203) + "                    "),
+        "description": "silly tiny demon",
+        "amplify": ['Hell',True]
+    },
 
     # 1,000,000 - Mythic
     "Magnetic : Reverse Polarity": {
