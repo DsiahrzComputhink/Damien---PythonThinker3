@@ -554,7 +554,7 @@ Auras = {
     },
     "Nihillity": {
         "rarity": 9000000,
-        "display": fg("Nihillity" + "                    ", 219),
+        "display": fg("Nihillity" + "                    ", 248),
         "description": "Empty",
         "amplify": ['Null',True]
     },
