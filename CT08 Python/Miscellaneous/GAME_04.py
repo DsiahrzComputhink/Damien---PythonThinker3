@@ -1037,6 +1037,7 @@ def console():
                 print("How much",style.bgreen + "Luck" + style.RESET,"Do you want?")
                 luck = input()
                 if luck.isnumeric():
+                    print("What biome",style.bgreen + "Luck" + style.RESET,"Do you want?")
                     show_aura_rarity()
                 else:
                     print(style.bred + "Command does not exist" + style.RESET)
