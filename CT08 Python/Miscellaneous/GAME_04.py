@@ -927,8 +927,6 @@ def roll_for_aura(
     currentbiome: str = "None", 
     rolls: int = 1,
     rollspeed: int = 1,
-    bonus_luck: float = 2.0, 
-    bonus_roll_frequency: int = 10
 ):
     ListedAuras = {}
 
