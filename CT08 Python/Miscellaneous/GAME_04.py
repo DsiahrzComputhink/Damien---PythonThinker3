@@ -233,25 +233,25 @@ Auras = {
         "amplify": ['NONE',True]
     },
     "Hazard": {
-        "rarity": 6900,
+        "rarity": 7000,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
     "Quartz": {
-        "rarity": 6900,
+        "rarity": 8000,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
     "Lost Soul": {
-        "rarity": 6900,
+        "rarity": 8200,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
     "Undead": {
-        "rarity": 6900,
+        "rarity": 10000,
         "display": (fg("Flushed", 220) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
