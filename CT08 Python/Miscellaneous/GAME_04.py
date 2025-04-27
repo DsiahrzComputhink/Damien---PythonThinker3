@@ -376,6 +376,24 @@ Auras = {
         "description": "Where did it go?",
         "amplify": ['NONE',True]
     },
+        "Jade": {
+        "rarity": 120000,
+        "display": (fg("Jade", 29) + "                    "),
+        "description": "Where did it go?",
+        "amplify": ['NONE',True]
+    },
+        "Jade": {
+        "rarity": 120000,
+        "display": (fg("Jade", 29) + "                    "),
+        "description": "Where did it go?",
+        "amplify": ['NONE',True]
+    },
+        "Jade": {
+        "rarity": 120000,
+        "display": (fg("Jade", 29) + "                    "),
+        "description": "Where did it go?",
+        "amplify": ['NONE',True]
+    },
 
     # 1,000,000 - Mythic
     "Magnetic : Reverse Polarity": {
