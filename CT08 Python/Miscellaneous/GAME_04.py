@@ -408,7 +408,7 @@ Auras = {
     },
     "Kyawthuite": {
         "rarity": 200000,
-        "display": fg("Kyawthuite" + "                    ", 20),
+        "display": fg("Kyawthuite" + "                    ", 129),
         "description": "It's too dangerous. Although it was sealed by an Ancient Power hundreds of thousands of years ago, its consciousness appears to be alive",
         "amplify": ['NONE',True]
     },
