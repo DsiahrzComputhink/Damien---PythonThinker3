@@ -273,6 +273,12 @@ Auras = {
         "description": "failed to die...",
         "amplify": ['Hell',True]
     },
+    "Undead": {
+        "rarity": 12000,
+        "display": (fg("Undead", 22) + "                    "),
+        "description": "failed to die...",
+        "amplify": ['NONE',True]
+    },
     "Rage:Heated": {
         "rarity": 12800,
         "display": fg("Rage:Heated" + "                    ", 202),
