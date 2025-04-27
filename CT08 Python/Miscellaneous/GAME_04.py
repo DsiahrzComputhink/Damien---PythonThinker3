@@ -104,13 +104,13 @@ Auras = {
     # 10
     "Rare": {
         "rarity": 16,
-        "display": fg("Rare" + "                    ", 39),
+        "display": fg("Rare", 39),
         "description": "rare thing",
         "amplify": ['NONE',True]
     },
     "Divinus": {
         "rarity": 32,
-        "display": fg("Divinus" + "                    ", 230),
+        "display": fg("Divinus", 230),
         "description": "holy thing",
         "amplify": ['NONE',True]
     },
