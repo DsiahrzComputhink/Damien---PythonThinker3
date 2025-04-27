@@ -35,7 +35,6 @@ Biomes = {
     "Corruption": {"Chance": 9000, "Amplify": 5},
     "Null": {"Chance": 10100, "Amplify": 1000},
     "Glitched": {"Chance": 30000, "Amplify": 1}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
-    "Dreamspace": {"Chance": 5000000, "Amplify": 1}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
 }
 
 Auras = {
