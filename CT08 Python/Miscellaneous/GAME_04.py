@@ -1001,7 +1001,7 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
             summary[tier_name][aura_name] += 1
 
     # Display summary sorted by tier
-    print(fg("ROLL SUMMARY:", 220))
+    print(fg("ROLL SUMMARY:", 231))
     for tier in Tiers:
         tier_name = tier["name"]
         if tier_name in summary:
