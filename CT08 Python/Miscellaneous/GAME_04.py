@@ -808,19 +808,19 @@ Auras = {
     },
     "Matrix : Reality": {
         "rarity":  601020102,
-        "display": (fg("MATRIX ▫ REALITY", 146) + "                    "),
+        "display": (fg("MATRIX ▫ REALITY", 146)),
         "description": "They were all living in a simulation, This is the TRUE REALITY.",
         "amplify": ['NONE',True]
     },
     "Sovereign": {
         "rarity":  750000000,
-        "display": (fg("SOVEREIGN", 153) + "                    "),
+        "display": (fg("SOVEREIGN", 153)),
         "description": "Look at this Shining Figure. Sovereign, revered as the most Glorious and Magnificent being among all rulers in history.",
         "amplify": ['NONE',True]
     },
     "Ruins : Withered": {
         "rarity": 800000000,
-        "display": (fg("《 ⬥ Ruins : Withered ⬥ 》", 50) + "                    "),
+        "display": (fg("《 ⬥ Ruins : Withered ⬥ 》", 50)),
         "description": "Once radiant with sacred beauty, the ancient ruins of the spirits have become a nest for the dead and nightmares, twisted by a fallen lord.",
         "amplify": ['NONE',True]
     },
