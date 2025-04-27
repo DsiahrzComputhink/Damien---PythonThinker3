@@ -964,7 +964,7 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
     for idx, aura_name in enumerate(results, 1):
         aura_info = ListedAuras[aura_name]
         print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
-        time.sleep(0.01)
+        time.sleep(0.05 / rollspeed)
     print(LINE)
     
     return results
@@ -995,4 +995,4 @@ def console():
 
 show_aura_rarity(1 * 10000 * 1000,'Normal')
 debugcolour()
-roll_for_aura(1*10000*1000, 'Normal',1000)
+roll_for_aura(1*10000*1000, 'Normal',10000,10)
