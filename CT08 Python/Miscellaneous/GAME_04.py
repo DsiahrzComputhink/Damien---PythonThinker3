@@ -1087,7 +1087,15 @@ def console():
                 }
                 biome_input = input("Select a biome (1-9): ").strip()
                 selected_biome = biome_choices.get(biome_input)
-                
+
+                if selected_biome:
+                    print("What",fg("Potion",177),"Do you want to use?")
+                    print(style.bblue + "1" + style.RESET, "                     ", fg("Potion of Bound",111),"[50k Luck]")
+                    print(style.bblue + "2" + style.RESET, "              ", fg("Heavenly Potion", 177),"[150k Luck]")
+                    print(style.bblue + "3" + style.RESET, "              ", fg("Godlike Potion", 154),"[400k Luck]")
+                    print(style.bblue + "4" + style.RESET, "             ", fg("Oblivion Potion", 99),"[600k Luck]")
+                    potion = input()
+
                     roll_for_aura(50000 * 1.3, 'Glitched',100,10)
                 else:
                     print(fg("Invalid biome choice.", 160))
