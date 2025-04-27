@@ -341,7 +341,7 @@ Auras = {
     # 10,000,000 - Exalted
     "Glitched": {
         "rarity": 12210110,
-        "display": (fg("G", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + "                    "),
+        "display": (fg("G", 255) + fg("L", 249) + fg("I", 238) + fg("T", 255) + fg("C", 238) + fg("H", 245) + "                    "),
         "description": "WHAT ? NO, IT'S RIDICULOUS. IT SHOULDN'T HAPPEN",
         "amplify": ['Glitched',False]
     },
