@@ -691,13 +691,13 @@ Auras = {
     },
     "Twilight : Iridescent Memory": {
         "rarity": 60000000,
-        "display": fg("Twilight : Iridescent Memory" + "                    ", 225),
+        "display": fg("Twilight : Iridescent Memory", 225),
         "description": "The memories were becoming increasingly blurry. Under the full moon that holds many dreams high above, I sincerely wish.",
         "amplify": ['NONE',True]
     },
     "Sailor : Flying Dutchman": {
         "rarity": 80000000,
-        "display": fg("Sailor : Flying Dutchman" + "                    ", 76),
+        "display": fg("Sailor : Flying Dutchman", 76),
         "description": "The Flying Dutchman. The same terrible vessel whose very timbers are cut from the bodies and souls of doomed seamen.",
         "amplify": ['Rainy',True]
     },
