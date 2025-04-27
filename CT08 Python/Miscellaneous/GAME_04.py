@@ -299,7 +299,7 @@ Auras = {
     "Undead : Devil": {
         "rarity": 10000,
         "display": (fg("Undead : Devil", 203) + "                    "),
-        "description": "failed to die...",
+        "description": "silly tiny demon",
         "amplify": ['NONE',True]
     },
 
