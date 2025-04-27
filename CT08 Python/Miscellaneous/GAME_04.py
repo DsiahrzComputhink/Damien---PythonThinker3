@@ -246,13 +246,13 @@ Auras = {
     },
     "Lost Soul": {
         "rarity": 8200,
-        "display": (fg("Flushed", 220) + "                    "),
+        "display": (fg("Flushed", 74) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
     "Undead": {
         "rarity": 10000,
-        "display": (fg("Undead", 220) + "                    "),
+        "display": (fg("Undead", 22) + "                    "),
         "description": "flushed",
         "amplify": ['NONE',True]
     },
