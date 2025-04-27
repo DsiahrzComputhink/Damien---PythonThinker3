@@ -327,32 +327,37 @@ Auras = {
     "Chromatic": {
         "rarity": 20000000,
         "display": (fg("C", 196) + fg("H", 202) + fg("R", 226) + fg("O", 82) + fg("M", 48) + fg("A", 39) + fg("T", 99) + fg("I", 201) + fg("C", 196) + "                    "),
-        "description": "Yes... Feel my unstoppable beats!"
+        "description": "Yes... Feel my unstoppable beats!",
+        "amplify": ['NONE',True]
     },
 
     # 99,999,999 - Glorious
     "Chromatic:Genesis": {
         "rarity": 99999999,
         "display": (fg("CHROMATIC : GENESIS", 153) + "                    "),
-        "description": "WAKE UP FROM AWAY"
+        "description": "WAKE UP FROM AWAY",
+        "amplify": ['NONE',True]
     },
 
     "Oppression": {
         "rarity": 220000000,
         "display": (fg("O", 255) + fg("p", 249) + fg("p", 238) + fg("r", 255) + fg("e", 238) + fg("s", 245) + fg("s", 250) + fg("i", 238) + fg("o", 243) + fg("n", 247) + "                    "),
-        "description": "... is this truly the end?"
+        "description": "... is this truly the end?",
+        "amplify": ['NONE',True]
     },
 
     # 1,000,000,000 - Transcendents
     "Pixelation": {
         "rarity": 1073741824,
         "display": (fg('▣ ', 196) + fg('P', 202) + fg('I', 226) + fg('X', 82) + fg('L', 48) + fg('E', 39) + fg('A', 99) + fg('T', 201) + fg('I', 201) + fg('O', 201) + fg('N', 201) + fg(' ▣', 196) + "                    "),
-        "description": "“This description contains 0% lies and 1,000,000% TRUTH!”"
+        "description": "“This description contains 0% lies and 1,000,000% TRUTH!”",
+        "amplify": ['NONE',True]
     },
     "Luminosity": {
         "rarity": 1200000000,
         "display": (fg("[Luminosity]", 195) + "                    "),
-        "description": "Empty"
+        "description": "Empty",
+        "amplify": ['NONE',True]
     },
 }
 
