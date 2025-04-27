@@ -903,7 +903,7 @@ def show_aura_rarity(luck: float = 1.0, currentbiome: str = "None"):
         print(LINE)
         time.sleep(0.01)
 
-def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1):
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed = 1):
     ListedAuras = {}
 
     # First adjust auras based on the biome
