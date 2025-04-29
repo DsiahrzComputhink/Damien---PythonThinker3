@@ -913,4 +913,4 @@ InventoryAuras = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-Roll(100,100)
+Roll(12000000,10)
