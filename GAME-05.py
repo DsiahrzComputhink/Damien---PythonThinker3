@@ -905,6 +905,7 @@ def roll_animation(luck : int = 1.0):
     selected_aura = pick_aura(luck)
     sys.stdout.write("\r" + fg(f"You rolled {selected_aura['display']}!              ", random.randint(232, 255)))
     sys.stdout.flush()
+    print("")
     print("hi")
 
     rarity = selected_aura['rarity']
