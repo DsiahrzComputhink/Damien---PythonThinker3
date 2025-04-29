@@ -889,7 +889,7 @@ def pick_aura(luck_multiplier : int = 1.0):
     # fallback
     return Auras["Common"]
 
-def roll_animation(luck : int = 1.0):
+def Roll(luck : int = 1.0):
     aura_list = list(Auras.values())
     roll_speed = 0.15
     slowdown_rate = 1.1
@@ -908,6 +908,7 @@ def roll_animation(luck : int = 1.0):
     print("")
     print("hi")
 
+
     rarity = selected_aura['rarity']
 
 InventoryAuras = {
@@ -915,4 +916,4 @@ InventoryAuras = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-roll_animation(10)
+Roll(10)
