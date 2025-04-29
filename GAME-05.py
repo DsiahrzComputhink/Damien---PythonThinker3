@@ -867,10 +867,10 @@ def find_tier(rarity_value):
 import random
 import time
 
-def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed: int = 1):
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1, rollspeed: int = 1, show_animation: bool = True):
+    # Adjusted aura list based on biome
     ListedAuras = {}
 
-    # Adjust auras for biome
     for aura_name, aura_info in Auras.items():
         aura_copy = aura_info.copy()
 
@@ -895,48 +895,39 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
         ListedAuras[aura_name] = aura_copy
 
-    chances = []
-    names = []
+    # Override global Auras temporarily
+    global Auras
+    original_auras = Auras
+    Auras = ListedAuras  # use adjusted list
 
-    for aura_name, aura_info in ListedAuras.items():
-        rarity = aura_info["rarity"]
-        actual_chance = rarity / luck
-        if luck >= rarity:
-            continue
-
-        weight = 1 / actual_chance
-        chances.append(weight)
-        names.append(aura_name)
-
-    if not names:
-        print(fg("No auras could be rolled with the current luck and biome!", 160))
-        return None
-
-    total = sum(chances)
-    normalized = [c / total for c in chances]
-
-    # Do the rolls
+    # Roll with animation if only one roll
     results = []
-    for _ in range(rolls):
-        result = random.choices(names, weights=normalized, k=1)[0]
-        results.append(result)
+
+    if rolls == 1 and show_animation:
+        roll_animation(luck)
+        selected_aura = pick_aura(luck)
+        results.append(selected_aura)
+    else:
+        for _ in range(rolls):
+            selected_aura = pick_aura(luck)
+            results.append(selected_aura)
+
+    Auras = original_auras  # restore original Auras
 
     # Display individual rolls
     print(LINE)
     print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
-    for idx, aura_name in enumerate(results, 1):
-        aura_info = ListedAuras[aura_name]
+    for idx, aura_info in enumerate(results, 1):
         print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
         time.sleep(1 / rollspeed)
     print(LINE)
 
     # Build summary
     summary = {}
-
-    for aura_name in results:
-        aura_info = ListedAuras[aura_name]
+    for aura_info in results:
         rarity = aura_info["rarity"]
         tier_info = find_tier(rarity)
+        aura_name = aura_info["name"]
         if tier_info:
             tier_name = tier_info["name"]
             if tier_name not in summary:
@@ -945,7 +936,7 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
                 summary[tier_name][aura_name] = 0
             summary[tier_name][aura_name] += 1
 
-    # Display summary sorted by tier
+    # Display summary
     print(fg("[ ROLL SUMMARY ]:", 231))
     for tier in Tiers:
         tier_name = tier["name"]
@@ -955,7 +946,8 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
                 print(fg(f"{aura_name} x{count}", 250))
 
     print(LINE)
-    return results
+    return [aura["name"] for aura in results]
+
 
 
 roll_for_aura(1, "None",100,1)
