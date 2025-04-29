@@ -910,6 +910,9 @@ def roll_animation(luck : int = 1.0):
 
     rarity = selected_aura['rarity']
 
-InventoryAuras = []
+InventoryAuras = {
+
+}
+
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 roll_animation(10)
