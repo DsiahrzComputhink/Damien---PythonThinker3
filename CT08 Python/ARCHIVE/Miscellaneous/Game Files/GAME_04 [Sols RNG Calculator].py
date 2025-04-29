@@ -1168,6 +1168,4 @@ def console():
             print(style.bred + "Command does not exist" + style.RESET)
 
 
-
-roll_for_aura(15.39,"Glitched",100000,10000)
-# console()
+console()
