@@ -1169,5 +1169,5 @@ def console():
 
 
 
-roll_for_aura(1,"Glitched",100000,10)
+roll_for_aura(1,"Glitched",100000,1000)
 # console()
