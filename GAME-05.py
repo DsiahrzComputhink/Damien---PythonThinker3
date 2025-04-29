@@ -867,6 +867,59 @@ def find_tier(rarity_value):
 import random
 import time
 
+
+
+def pick_aura(luck_multiplier : int = 1.0):
+    total_weight = 0
+    weights = []
+
+    for aura_name, aura_info in Auras.items():
+        rarity = aura_info["rarity"]
+        if luck_multiplier > rarity:
+            weight = 0
+        else:
+            weight = (1 / rarity) * luck_multiplier  # luck boost
+        weights.append((aura_name, weight))
+        total_weight += weight
+
+    roll = random.uniform(0, total_weight)
+
+    cumulative = 0
+    for aura_name, weight in weights:
+        cumulative += weight
+        if roll <= cumulative:
+            return Auras[aura_name]
+
+    # fallback
+    return Auras["Common"]
+
+def roll_animation(luck : int = 1.0):
+    aura_list = list(Auras.values())
+    roll_speed = 0.1
+    slowdown_rate = 1.1
+    speed = roll_speed
+
+    # Rolling animation
+    for _ in range(10):
+        temp_aura = pick_aura(luck)
+        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']} ", random.randint(232, 255)))
+        sys.stdout.flush()
+        time.sleep(speed)
+        speed *= slowdown_rate
+
+    # Final result based on rarity
+    selected_aura = pick_aura(luck)
+
+    rarity = selected_aura['rarity']
+    print("\n")
+    print(LINE)
+    print("Rarity:",fg(f"1 / {rarity:,}", 81))
+    print(f"Actual Chance:",fg(f"1 / {rarity / luck:,}", 75))
+    print(f"{selected_aura['display']}")
+    print(fg(f"Description: {selected_aura['description']}", 244))
+    print(LINE)
+
+
 def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1, rollspeed: int = 1, show_animation: bool = True):
     # Adjusted aura list based on biome
     ListedAuras = {}
