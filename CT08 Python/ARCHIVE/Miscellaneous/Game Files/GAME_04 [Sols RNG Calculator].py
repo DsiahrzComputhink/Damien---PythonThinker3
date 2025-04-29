@@ -1094,7 +1094,7 @@ def console():
                             "1": {"name": "None", "luck_multiplier": 1.0},
                             "2": {"name": "VIP", "luck_multiplier": 1.2},
                             "3": {"name": "VIP+", "luck_multiplier": 1.2},
-                            "4": {"name": "Both", "luck_multiplier": 1.3 * 2}
+                            "4": {"name": "Both", "luck_multiplier": 1.2 * 2}
                         }
 
                         vip_input = input("Select your VIP level (1-4): ").strip()
