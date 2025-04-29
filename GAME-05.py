@@ -1,3 +1,81 @@
+class style():
+
+    BOLD = '\033[1m'
+    ITALIC = '\033[3m'
+
+    UNDERLINE = '\033[4m'
+    CANCEL = '\033[9m'
+
+    bgbwhite = '\033[7m'
+
+    black = '\033[8m'
+    bgray = '\033[30m'
+    dred = '\033[31m'
+    dgreen = '\033[32m'
+    dyellow = '\033[33m'
+    dblue = '\033[34m'
+    dpurple = '\033[35m'
+    dcyan = '\033[36m'
+    dwhite = '\033[37m'
+
+    bgray = '\033[90m'
+    bred = '\033[91m'
+    bgreen = '\033[92m'
+    byellow = '\033[93m'
+    bblue = '\033[94m'
+    bpurple = '\033[95m'
+    bcyan = '\033[96m'
+    bwhite = '\033[97m'
+
+    RESET = '\033[0m'
+
+    # Generic Colours
+    primary = dblue
+    secondary = bgray
+    
+    warning = dyellow
+    error = dred
+LINE = style.bgray + "------------------------------" + style.RESET
+
+import time
+import random
+import sys
+
+# --- SOLS RNG CALCULATOR --- #
+# Calculates the chances of you getting something
+
+fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
+bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
+LINE = fg("------------------------------",235)
+
+def debugcolour():
+
+    def print_six(row, format, end="\n"):
+        for col in range(6):
+            color = row*6 + col - 2
+            if color>=0:
+                text = "{:3d}".format(color)
+                print (format(text,color), end=" ")
+            else:
+                print(end="    ")   # four spaces
+        print(end=end)
+
+    for row in range(0, 43):
+        print_six(row, fg, " ")
+        print_six(row, bg)
+
+Biomes = {
+    "Windy": {"Chance": 500, "Amplify": 3},
+    "Snowy": {"Chance": 600, "Amplify": 3},
+    "Rainy": {"Chance": 750, "Amplify": 4},
+    "Sandstorm": {"Chance": 3000, "Amplify": 4},
+    "Hell": {"Chance": 6666, "Amplify": 6},
+    "Starfall": {"Chance": 7500, "Amplify": 5},
+    "Corruption": {"Chance": 9000, "Amplify": 5},
+    "Null": {"Chance": 10100, "Amplify": 1000},
+    "Glitched": {"Chance": 30000, "Amplify": 1}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
+}
+
 Auras = {
     "Common": {
         "rarity": 2,
