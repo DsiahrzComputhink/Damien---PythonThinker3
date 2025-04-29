@@ -909,10 +909,6 @@ def roll_animation(luck : int = 1.0):
 
     rarity = selected_aura['rarity']
 
-# LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-# Example usage
-roll_animation(10)
-
 
 def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed: int = 1):
     ListedAuras = {}
