@@ -865,7 +865,7 @@ def find_tier(rarity_value):
     return None
 
 
-def pick_aura(luck_multiplier : int = 1.0):
+def pick_aura(luck_multiplier : int = 1.0,rollspeed : int = 1.0):
     total_weight = 0
     weights = []
 
@@ -913,4 +913,4 @@ InventoryAuras = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-Roll(10)
+Roll(100)
