@@ -911,7 +911,7 @@ def roll_animation(luck : int = 1.0):
     rarity = selected_aura['rarity']
 
 InventoryAuras = {
-
+    "Aura":Amount
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
