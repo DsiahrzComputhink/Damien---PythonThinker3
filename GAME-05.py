@@ -847,6 +847,17 @@ Auras = {
 }
 
 
+Tiers = [
+    {"name": "BASIC", "range": (1, 999), "color": 250},
+    {"name": "EPIC", "range": (1_000, 9_998), "color": 182},
+    {"name": "UNIQUE", "range": (9_999, 99_998), "color": 179},
+    {"name": "LEGENDARY", "range": (99_999, 999_998), "color": 220},
+    {"name": "MYTHIC", "range": (999_999, 9_999_998), "color": 213},
+    {"name": "EXALTED", "range": (9_999_999, 99_999_998), "color": 27},
+    {"name": "GLORIOUS", "range": (99_999_999, 999_999_998), "color": 160},
+    {"name": "TRANSCENDENT", "range": (999_999_999, float('inf')), "color": 153},
+]
+
 def find_tier(rarity_value):
     for tier in Tiers:
         min_val, max_val = tier["range"]
