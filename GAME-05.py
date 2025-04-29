@@ -908,9 +908,6 @@ def Roll(luck : int = 1.0):
     print("")
     print("hi")
 
-
-    rarity = selected_aura['rarity']
-
 InventoryAuras = {
     "Aura Name":0 #Aura Amount
 }
