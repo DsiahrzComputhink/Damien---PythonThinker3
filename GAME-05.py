@@ -903,7 +903,7 @@ def roll_animation(luck : int = 1.0):
         time.sleep(speed)
         speed *= slowdown_rate
     selected_aura = pick_aura(luck)
-    sys.stdout.write("\r" + fg(f"Your rolled {selected_aura['display']}!              ", random.randint(232, 255)))
+    sys.stdout.write("\r" + fg(f"You rolled {selected_aura['display']}!              ", random.randint(232, 255)))
     sys.stdout.flush()
     print()
 
