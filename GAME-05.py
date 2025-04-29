@@ -1010,5 +1010,3 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
     print(LINE)
     return results
 
-
-roll_for_aura(1, "None",100,1)
