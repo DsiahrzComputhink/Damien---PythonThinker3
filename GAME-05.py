@@ -902,19 +902,14 @@ def roll_animation(luck : int = 1.0):
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
+    sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}                                     ", random.randint(232, 255)))
+    sys.stdout.flush()
 
     # Final result based on rarity
     selected_aura = pick_aura(luck)
 
     rarity = selected_aura['rarity']
-    print("\n")
-    print(LINE)
-    print("Rarity:",fg(f"1 / {rarity:,}", 81))
-    print(f"Actual Chance:",fg(f"1 / {rarity / luck:,}", 75))
-    print(f"{selected_aura['display']}")
-    print(fg(f"Description: {selected_aura['description']}", 244))
-    print(LINE)
-
+    
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 # Example usage
 roll_animation(10)
