@@ -1167,4 +1167,4 @@ def console():
         else:
             print(style.bred + "Command does not exist" + style.RESET)
 
-console()
+roll_for_aura(1,"Glitched",)
