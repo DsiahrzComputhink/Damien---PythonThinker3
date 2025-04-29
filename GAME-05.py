@@ -864,11 +864,7 @@ def find_tier(rarity_value):
             return tier
     return None
 
-import random
-import time
-import sys
-
-def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1, rollspeed: int = 1):
+def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,rollspeed: int = 1):
     ListedAuras = {}
 
     # Adjust auras for biome
@@ -918,15 +914,16 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
     # Do the rolls
     results = []
-    print(LINE)
-    print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
-    for idx in range(1, rolls + 1):
+    for _ in range(rolls):
         result = random.choices(names, weights=normalized, k=1)[0]
         results.append(result)
 
-        aura_info = ListedAuras[result]
+    # Display individual rolls
+    print(LINE)
+    print(fg(f"YOU ROLLED {rolls} TIMES:", 220))
+    for idx, aura_name in enumerate(results, 1):
+        aura_info = ListedAuras[aura_name]
         print(fg(f"[{idx}]", 75), aura_info['display'], fg(f"'{aura_info['description']}'", 244))
-        sys.stdout.flush()
         time.sleep(0.05 / rollspeed)
     print(LINE)
 
@@ -956,6 +953,5 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
 
     print(LINE)
     return results
-
 
 roll_for_aura(1, "None",100,1)
