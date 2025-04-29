@@ -891,7 +891,7 @@ def pick_aura(luck_multiplier : int = 1.0,rollspeed : int = 1.0):
 
 def Roll(luck : int = 1.0, rollspeed : int = 1.0):
     aura_list = list(Auras.values())
-    roll_speed = 0.15
+    roll_speed = 0.15 / rollspeed
     slowdown_rate = 1.1
     speed = roll_speed
 
@@ -913,4 +913,4 @@ InventoryAuras = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-Roll(100)
+Roll(100,100)
