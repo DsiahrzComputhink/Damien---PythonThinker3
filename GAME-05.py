@@ -921,6 +921,7 @@ def roll_animation(luck : int = 1.0):
 
 
 def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1, rollspeed: int = 1, show_animation: bool = True):
+    global Auras
     # Adjusted aura list based on biome
     ListedAuras = {}
 
@@ -949,7 +950,6 @@ def roll_for_aura(luck: float = 1.0, currentbiome: str = "None", rolls: int = 1,
         ListedAuras[aura_name] = aura_copy
 
     # Override global Auras temporarily
-    global Auras
     original_auras = Auras
     Auras = ListedAuras  # use adjusted list
 
