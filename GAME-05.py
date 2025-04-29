@@ -846,7 +846,6 @@ Auras = {
     },
 }
 
-
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
     {"name": "EPIC", "range": (1_000, 9_998), "color": 182},
