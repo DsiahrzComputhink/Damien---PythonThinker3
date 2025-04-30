@@ -85,7 +85,7 @@ Auras = {
     },
     "Uncommon": {
         "rarity": 4,
-        "display": ("Uncommon"),
+        "display":fg ("Uncommon",240),
         "description": "super uncommon",
         "amplify": ['NONE',True]
     },
@@ -865,52 +865,108 @@ def find_tier(rarity_value):
     return None
 
 
-def pick_aura(luck_multiplier : int = 1.0,rollspeed : int = 1.0):
+def pick_aura(luck_multiplier: float = 1.0, auras: dict = None):
+    auras = auras or Auras
+
     total_weight = 0
     weights = []
 
-    for aura_name, aura_info in Auras.items():
+    for aura_name, aura_info in auras.items():
         rarity = aura_info["rarity"]
         if luck_multiplier > rarity:
             weight = 0
         else:
-            weight = (1 / rarity) * luck_multiplier  # luck boost
+            weight = (1 / rarity) * luck_multiplier
         weights.append((aura_name, weight))
         total_weight += weight
 
     roll = random.uniform(0, total_weight)
-
     cumulative = 0
     for aura_name, weight in weights:
         cumulative += weight
         if roll <= cumulative:
-            return Auras[aura_name]
+            return aura_name, auras[aura_name]
 
-    # fallback
-    return Auras["Common"]
+    return "Common", auras["Common"]
 
-def Roll(luck : int = 1.0, rollspeed : int = 1.0):
-    aura_list = list(Auras.values())
+
+def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     roll_speed = 0.15 / rollspeed
     slowdown_rate = 1.1
     speed = roll_speed
 
     # Rolling animation
     for _ in range(10):
-        temp_aura = pick_aura(luck)
+        _, temp_aura = pick_aura(luck)
         sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}               ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
-    selected_aura = pick_aura(luck)
-    sys.stdout.write("\r" + fg(f"You rolled {selected_aura['display']} !              ", random.randint(232, 255)))
-    sys.stdout.flush()
-    print("")
-    print("hi")
 
-InventoryAuras = {
-    "Aura Name":0 #Aura Amount
+    # Final roll
+    _, selected_aura = pick_aura(luck)
+    display_name = selected_aura["display"]
+
+    sys.stdout.write("\r" + fg(f"You rolled {display_name} !              ", random.randint(232, 255)))
+    sys.stdout.flush()
+    print("\n")
+
+    # Update inventory using display
+    if display_name in InventoryAuras:
+        InventoryAuras[display_name] += 1
+    else:
+        InventoryAuras[display_name] = 1
+
+    inventory()
+
+
+def craft(recipe):
+    requirement = 0
+    completion = 0
+    for item in recipe:
+        if item != "Display":
+            requirement += 1
+            if item in InventoryAuras:
+                if InventoryAuras[item] >= recipe[item]:
+                    completion += 1
+        else:
+            display = recipe["Display"]
+
+    if requirement == completion:
+        print("you crafted cool thing woo")
+        for item in recipe:
+            if item != "Display":
+                InventoryAuras[item] -= recipe[item]
+        if display in InventoryAuras:
+            InventoryAuras[display] += 1
+        else:
+            InventoryAuras[display] = 1
+    else:
+        print("you did not craft thing boo")
+
+    inventory()
+
+
+InventoryAuras = {}
+
+def inventory():
+    print(fg("Inventory [DEBUG]", 220))
+    print(LINE)
+    for name, count in InventoryAuras.items():
+        print(f"{name} : {count}")
+
+Recipe = {
+    "Gear Basing": {Auras["Common"]["display"] : 1, Auras["Uncommon"]["display"] : 1, Auras["Good"]["display"] : 1, Auras["Rare"]["display"] : 1, "Display" : fg("Gear Basing",245)}
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-Roll(12000000,1)
+
+luck = 1
+rollspeed = 1
+
+for i in range(1000):
+    rollspeed *= 1.05
+    Roll(luck,rollspeed)
+
+
+craft(Recipe["Gear Basing"])
