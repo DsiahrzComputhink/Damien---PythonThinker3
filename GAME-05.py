@@ -976,7 +976,7 @@ Recipes = {
         Auras["Lunar"]["display"] : 2700, 
         Auras["Hazard"]["display"] : 2250, 
         Auras["Ink:LEAK"]["display"] : 3350, 
-        Auras["Ink:LEAK"]["display"] : 1150, 
+        Auras["Ink:LEAK"]["display"] : 14800, 
         Auras["Ink:LEAK"]["display"] : 1150, 
         Auras["Ink:LEAK"]["display"] : 1150, 
         "Display" : fg("Darkshader",99)
