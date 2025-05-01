@@ -953,7 +953,7 @@ def craft(recipe: dict):
 
 InventoryAuras = {}
 
-def inventory(inventory : dict,name) -> None:
+def inventory(inventory : dict,name: str) -> None:
     print(LINE)
     print(f"{name}")
     print(LINE)
@@ -972,5 +972,5 @@ rollspeed = 1000
 for i in range(100):
     Roll(luck,rollspeed)
 
-inventory(InventoryAuras, {fg("Inventory", 220)})
+inventory(InventoryAuras, fg("Inventory", 220))
 craft(Recipe["Gear Basing"])
