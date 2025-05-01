@@ -990,7 +990,7 @@ Recipes["Gear Basing"] = {
     Auras["Good"]["display"]: 1, 
     Auras["Uncommon"]["display"]: 1, 
     Auras["Common"]["display"]: 1,
-    "display": f"{fg("[T0]",195)} {fg("Gear Basing", 245)}",
+    "display": f"{fg("[T0]",159)} {fg("Gear Basing", 245)}",
     "luck": 1.0,
     "rollspeed": 1.0,
     "type": "Gauntlet"
@@ -1001,7 +1001,7 @@ Recipes["Luck Glove"] = {
     Auras["Rare"]["display"]: 3,
     Auras["Divinus"]["display"]: 2,
     Auras["Crystallized"]["display"]: 1, 
-    "display": fg("Luck Glove", 83),
+    "display": f"{fg("Luck Glove", 83)}",
     "luck": 1.5,
     "rollspeed": 1.1,
     "type": "Gauntlet"
