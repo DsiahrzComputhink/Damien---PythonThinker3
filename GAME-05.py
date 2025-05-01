@@ -961,7 +961,7 @@ InventoryAuras = {}
 
 def inventory(inventory : dict) -> None:
     print(LINE)
-    print(fg("Inventory", 220))
+    print(f"{fg("Inventory", 220)} {inventory}")
     print(LINE)
     for name, count in inventory.items():
         print(f"{name} : {count}")
