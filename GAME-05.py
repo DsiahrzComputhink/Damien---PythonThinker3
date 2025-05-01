@@ -970,7 +970,7 @@ Recipes = {
     },
     "Darkshader": {
         Auras["Arcane : Dark"]["display"] : 1,
-        Auras["Uncommon"]["display"] : 1,
+        Auras["Twilight"]["display"] : 5,
         Auras["Good"]["display"] : 1, 
         Auras["Rare"]["display"] : 1, 
         "Display" : fg("Gear Basing",245)
