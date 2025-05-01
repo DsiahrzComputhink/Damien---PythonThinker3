@@ -1048,9 +1048,9 @@ Recipes["Eclipse Device"] = {
 
 Recipes["Exo Gauntlet"] = {
     Recipes["Gear Basing"]["display"]: 3,
-    Auras["Divinus"]["display"]: 1,
-    Auras["Divinus"]["display"]: 1,
-    Auras["Divinus"]["display"]: 1,
+    Auras["Gilded"]["display"]: 1,
+    Auras["Precious"]["display"]: 1,
+    Auras["Magnetic"]["display"]: 1,
     Auras["Divinus"]["display"]: 1,
     Auras["Undead"]["display"]: 1, 
     Auras["Exotic"]["display"]: 1,
