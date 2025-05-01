@@ -1068,7 +1068,7 @@ Recipes["Galactic Device"] = {
     Auras["Siderium"]["display"]: 1,
     Auras["Undead"]["display"]: 1, 
     Auras["Exotic"]["display"]: 1,
-    "display": f"{fg("[T6]",69)} {fg("Exo Gauntlet", 117)}",
+    "display": f"{fg("[T6]",69)} {fg("Galactic Device", 134)}",
     "luck": 2.00,
     "rollspeed": 1.20,
     "type": "Gauntlet"
