@@ -1062,8 +1062,8 @@ Recipes["Exo Gauntlet"] = {
 
 Recipes["Galactic Device"] = {
     Recipes["Gear Basing"]["display"]: 25,
-    Auras["Solar"]["display"]: 3,
-    Auras["Precious"]["display"]: 2,
+    Auras["Solar"]["display"]: 15,
+    Auras["Lunar"]["display"]: 15,
     Auras["Magnetic"]["display"]: 2,
     Auras["Siderium"]["display"]: 1,
     Auras["Undead"]["display"]: 1, 
