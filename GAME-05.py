@@ -963,9 +963,9 @@ def inventory(inventory : dict,name: str) -> None:
 Recipes = {
     "Gear Basing": {
         Auras["Rare"]["display"] : 1,
+        Auras["Good"]["display"] : 1, 
+        Auras["Uncommon"]["display"] : 1, 
         Auras["Common"]["display"] : 1,
-        Auras["Uncommon"]["display"] : 1,
-        Auras["Good"]["display"] : 1,  
         "Display" : fg("Gear Basing",245)
     },
     "Darkshader": {
