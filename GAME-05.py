@@ -961,9 +961,9 @@ Recipe = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-
+import math
 luck = 1
-rollspeed = math(inf)
+rollspeed = math.inf
 
 for i in range(1000):
     Roll(luck,rollspeed)
