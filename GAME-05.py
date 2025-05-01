@@ -991,6 +991,6 @@ for i in range(100):
     Roll(luck,rollspeed)
 
 inventory(InventoryAuras, fg("Inventory", 220))
-craft(Recipes["Gear Basing"])
+craft(Recipes["Darkshader"])
 inventory(InventoryAuras, fg("Inventory", 220))
 debugcolour()
