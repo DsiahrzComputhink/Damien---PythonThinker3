@@ -955,7 +955,6 @@ def craft(recipe: dict):
 
 
     inventory(InventoryAuras)
-    inventory(Incomplete)
 
 
 InventoryAuras = {}
