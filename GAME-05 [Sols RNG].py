@@ -1113,7 +1113,7 @@ luck = 1
 rollspeed = math.inf
 
 for i in range(15):
-    for i in range(100):
+    for i in range(1000):
         Roll(luck,rollspeed)
     luck *= 2.5
 
