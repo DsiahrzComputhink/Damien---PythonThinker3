@@ -991,7 +991,7 @@ Recipes["Gear Basing"] = {
     Auras["Uncommon"]["display"]: 1, 
     Auras["Common"]["display"]: 1,
     "display": fg("Gear Basing", 245),
-    "luck": 1.1,
+    "luck": 1.0,
     "rollspeed": 1.0,
     "type": "Gauntlet"
 }
