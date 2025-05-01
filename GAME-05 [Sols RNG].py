@@ -1055,7 +1055,7 @@ Recipes["Exo Gauntlet"] = {
     Auras["Undead"]["display"]: 1, 
     Auras["Exotic"]["display"]: 1,
     "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
-    "luck": 2.00,
+    "luck": 1.00 + 1.50,
     "rollspeed": 1.20,
     "type": "Gauntlet"
 }
@@ -1070,7 +1070,7 @@ Recipes["Subzero Device"] = {
     Auras["Aquatic"]["display"]: 2, 
     Auras["Permafrost"]["display"]: 2,
     "display": f"{fg("[T4]",75)} {fg("Subzero Device", 110)}",
-    "luck": 2.00,
+    "luck": 1.00 + 1.50,
     "rollspeed": 1.20,
     "type": "Gauntlet"
 }
