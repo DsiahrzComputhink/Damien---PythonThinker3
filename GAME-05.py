@@ -989,7 +989,7 @@ Recipes["Darkshader"] = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-luck = 100
+luck = 10
 rollspeed = 1000
 
 for i in range(100):
