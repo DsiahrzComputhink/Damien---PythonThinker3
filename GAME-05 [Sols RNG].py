@@ -1060,6 +1060,20 @@ Recipes["Exo Gauntlet"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Exo Gauntlet"] = {
+    Recipes["Gear Basing"]["display"]: 3,
+    Auras["Gilded"]["display"]: 3,
+    Auras["Precious"]["display"]: 2,
+    Auras["Magnetic"]["display"]: 2,
+    Auras["Siderium"]["display"]: 1,
+    Auras["Undead"]["display"]: 1, 
+    Auras["Exotic"]["display"]: 1,
+    "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
+    "luck": 2.00,
+    "rollspeed": 1.20,
+    "type": "Gauntlet"
+}
+
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
     Auras["Twilight"]["display"]: 5,
