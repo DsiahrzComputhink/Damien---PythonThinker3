@@ -1052,7 +1052,7 @@ Recipes["Exo Gauntlet"] = {
     Auras["Divinus"]["display"]: 1, 
     Auras["Solar"]["display"]: 1, 
     "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
-    "luck": 1.50,
+    "luck": 2,
     "rollspeed": 1,
     "type": "Gauntlet"
 }
