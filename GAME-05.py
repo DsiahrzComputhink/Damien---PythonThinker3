@@ -974,7 +974,7 @@ Recipes = {
         Auras["Rare"]["display"] : 3,
         Auras["Divinus"]["display"] : 2, 
         Auras["Crystallized"]["display"] : 1, 
-        "Display" : fg("Gear Basing",245)
+        "Display" : fg("Luck Glove",83)
     },
 
     "Darkshader": {
