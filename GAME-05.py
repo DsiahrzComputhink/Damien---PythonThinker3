@@ -974,3 +974,4 @@ for i in range(100):
 
 inventory(InventoryAuras, fg("Inventory", 220))
 craft(Recipe["Gear Basing"])
+inventory(InventoryAuras, fg("Inventory", 220))
