@@ -75,6 +75,7 @@ Biomes = {
     "Null": {"Chance": 10100, "Amplify": 1000},
     "Glitched": {"Chance": 30000, "Amplify": 1}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
 }
+
 Auras = {
     "Common": {
         "rarity": 2,
@@ -855,102 +856,6 @@ Tiers = [
     {"name": "GLORIOUS", "range": (99_999_999, 999_999_998), "color": 160},
     {"name": "TRANSCENDENT", "range": (999_999_999, float('inf')), "color": 153},
 ]
-
-# Global Functions
-def find_tier(rarity_value):
-    for tier in Tiers:
-        min_val, max_val = tier["range"]
-        if min_val <= rarity_value <= max_val:
-            return tier
-    return None
-
-def pick_aura(luck_multiplier: float = 1.0, auras: dict = None):
-    auras = auras or Auras
-
-    total_weight = 0
-    weights = []
-
-    for aura_name, aura_info in auras.items():
-        rarity = aura_info["rarity"]
-        if luck_multiplier > rarity:
-            weight = 0
-        else:
-            weight = (1 / rarity) * luck_multiplier
-        weights.append((aura_name, weight))
-        total_weight += weight
-
-    roll = random.uniform(0, total_weight)
-    cumulative = 0
-    for aura_name, weight in weights:
-        cumulative += weight
-        if roll <= cumulative:
-            return aura_name, auras[aura_name]
-
-    return "Common", auras["Common"]
-
-def Roll(luck: float = 1.0, rollspeed: float = 1.0):
-    roll_speed = 0.15 / rollspeed
-    slowdown_rate = 1.1
-    speed = roll_speed
-
-    # Rolling animation
-    for _ in range(10):
-        _, temp_aura = pick_aura(luck)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}               ", random.randint(232, 255)))
-        sys.stdout.flush()
-        time.sleep(speed)
-        speed *= slowdown_rate
-
-    # Final roll
-    _, selected_aura = pick_aura(luck)
-    display_name = selected_aura["display"]
-
-    sys.stdout.write("\r" + fg(f"You rolled {display_name} !              ", random.randint(232, 255)))
-    sys.stdout.flush()
-    print(f"\n")
-
-    # Update inventory using display
-    if display_name in InventoryAuras:
-        InventoryAuras[display_name] += 1
-    else:
-        InventoryAuras[display_name] = 1
-
-def craft(recipe: dict):
-    requirement = 0
-    completion = 0
-    Incomplete = {}
-    for item in recipe:
-        if item != "Display":
-            requirement += 1
-            if item in InventoryAuras:
-                if InventoryAuras[item] >= recipe[item]:
-                    completion += 1
-                else:
-                    Incomplete[item] = f"{InventoryAuras[item]} / {recipe[item]}"
-            else:
-                Incomplete[item] = f"{0} / {recipe[item]}"
-        else:
-            display = recipe["Display"]
-
-    if requirement == completion:
-        print(f"You've crafted {recipe['Display']}!")
-        for item in recipe:
-            if item != "Display":
-                InventoryAuras[item] -= recipe[item]
-        if display in InventoryAuras:
-            InventoryAuras[display] += 1
-        else:
-            InventoryAuras[display] = 1
-    else:
-        inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['Display']}")
-
-def inventory(inventory : dict,name: str) -> None:
-    print(LINE)
-    print(f"{name}")
-    print(LINE)
-    for name, count in inventory.items():
-        print(f"{name} : {count}")
-    print(LINE)
 
 # Global Variables
 InventoryAuras = {}
