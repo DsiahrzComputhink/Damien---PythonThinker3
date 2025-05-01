@@ -966,8 +966,8 @@ Recipe = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-luck = 10
-rollspeed = math.tau
+luck = 100
+rollspeed = 1000
 
 for i in range(100):
     Roll(luck,rollspeed)
