@@ -973,7 +973,7 @@ Recipes = {
         Auras["Twilight"]["display"] : 5,
         Auras["Undefined"]["display"] : 20, 
         Auras["Ink:LEAK"]["display"] : 1150, 
-        "Display" : fg("Darkshader",245)
+        "Display" : fg("Darkshader",99)
         },
 }
 
