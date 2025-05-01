@@ -934,9 +934,9 @@ def craft(recipe: dict):
                     print(recipe[item])
                 else:
                     if item in Incomplete:
-                        Incomplete[item] += recipe[item] - Incomplete[item]
+                        Incomplete[item] = recipe[item] - Incomplete[item]
             else:
-                Incomplete[item] += recipe[item]
+                Incomplete[item] = recipe[item]
         else:
             display = recipe["Display"]
 
