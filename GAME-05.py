@@ -35,7 +35,7 @@ class style():
     
     warning = dyellow
     error = dred
-LINE = style.bgray + "------------------------------" + style.RESET
+LINE = style.bgray + "##################################" + style.RESET
 
 import time
 import random
