@@ -970,13 +970,13 @@ Recipes = {
     },
 
     "Luck Glove": {
-                Auras["Rare"]["display"] : 1,
+        Auras["Rare"]["display"] : 3,
         Auras["Good"]["display"] : 1, 
         Auras["Uncommon"]["display"] : 1, 
         Auras["Common"]["display"] : 1,
         "Display" : fg("Gear Basing",245)
     },
-    
+
     "Darkshader": {
         Auras["Arcane : Dark"]["display"] : 1,
         Auras["Twilight"]["display"] : 5,
