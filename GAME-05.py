@@ -972,8 +972,8 @@ Recipes = {
         Auras["Arcane : Dark"]["display"] : 1,
         Auras["Twilight"]["display"] : 5,
         Auras["Undefined"]["display"] : 20, 
-        Auras["Rare"]["display"] : 1, 
-        "Display" : fg("Gear Basing",245)
+        Auras["Ink:LEAK"]["display"] : 1150, 
+        "Display" : fg("Dark",245)
         },
 }
 
