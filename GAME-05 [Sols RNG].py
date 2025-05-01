@@ -85,7 +85,7 @@ Auras = {
     },
     "Uncommon": {
         "rarity": 4,
-        "display":fg ("Uncommon",240),
+        "display":fg ("Uncommon",245),
         "description": "super uncommon",
         "amplify": ['NONE',True]
     },
@@ -920,8 +920,10 @@ def craft(recipe: dict):
     requirement = 0
     completion = 0
     Incomplete = {}
+    display = recipe["display"]
+    unallowed = ["display","luck","rollspeed","type"]
     for item in recipe:
-        if item != "Display":
+        if item not in unallowed:
             requirement += 1
             if item in InventoryAuras:
                 if InventoryAuras[item] >= recipe[item]:
@@ -930,54 +932,130 @@ def craft(recipe: dict):
                     Incomplete[item] = f"{InventoryAuras[item]} / {recipe[item]}"
             else:
                 Incomplete[item] = f"{0} / {recipe[item]}"
-        else:
-            display = recipe["Display"]
+
 
     if requirement == completion:
-        print(f"You've crafted {recipe['Display']}!")
+        print(f"You've {fg("Sucessfully",82)} crafted {recipe['display']}!")
+
         for item in recipe:
-            if item != "Display":
+            if item not in unallowed:
                 InventoryAuras[item] -= recipe[item]
+
+        if "type" in recipe and recipe["type"].lower() == "gauntlet":
+            if display in InventoryGauntlets:
+                InventoryGauntlets[display] += 1
+            else:
+                InventoryGauntlets[display] = 1
+
         if display in InventoryAuras:
             InventoryAuras[display] += 1
         else:
             InventoryAuras[display] = 1
     else:
-        inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['Display']}")
+        inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['display']}")
 
 def inventory(inventory : dict,name: str) -> None:
     print(LINE)
     print(f"{name}")
     print(LINE)
+    remove = []
     for name, count in inventory.items():
-        print(f"{name} : {count}")
+        if count == 0:
+            remove.append(name)
+        else:
+            print(f"{name} : {count}")
     print(LINE)
+    for item in remove:
+        del inventory[item]
+
+def equip(recipe: str):
+    global luck, rollspeed
+    if recipe["display"] in InventoryGauntlets:
+        if "luck" in recipe:
+            luck = recipe["luck"]
+            if "rollspeed" in recipe:
+                rollspeed = recipe["rollspeed"]
+                print(f"{fg('Equipped', 248)} {recipe['display']} — {fg("Luck",84)} = {luck}, {fg("Rollspeed",117)} = {rollspeed}")
+    else:
+        print(f"{fg('You do not have', 160)} {recipe['display']}")
+
 
 # Global Variables
 InventoryAuras = {}
-
+InventoryGauntlets = {}
 Recipes = {}
-Recipes["Gear Basing"] = {Auras["Rare"]["display"]: 1,Auras["Good"]["display"]: 1, Auras["Uncommon"]["display"]: 1, Auras["Common"]["display"]: 1,"Display": fg("Gear Basing", 245)}
-Recipes["Luck Glove"] = {Recipes["Gear Basing"]["Display"]: 1,Auras["Rare"]["display"]: 3,Auras["Divinus"]["display"]: 2, Auras["Crystallized"]["display"]: 1, "Display": fg("Luck Glove", 83)}
 
-Recipes["Lunar Device"] = {Recipes["Gear Basing"]["Display"]: 1,Auras["Rare"]["display"]: 1,Auras["Divinus"]["display"]: 1, Auras["Lunar"]["display"]: 1, "Display": fg("Lunar Device", 147)}
+Recipes["Gear Basing"] = {
+    Auras["Rare"]["display"]: 1,
+    Auras["Good"]["display"]: 1, 
+    Auras["Uncommon"]["display"]: 1, 
+    Auras["Common"]["display"]: 1,
+    "display": fg("Gear Basing", 245),
+    "luck": 1.1,
+    "rollspeed": 1.0,
+    "type": "Gauntlet"
+}
 
-Recipes["Solar Device"] = {
-    Recipes["Gear Basing"]["Display"]: 1,
+Recipes["Luck Glove"] = {
+    Recipes["Gear Basing"]["display"]: 1,
+    Auras["Rare"]["display"]: 3,
+    Auras["Divinus"]["display"]: 2,
+    Auras["Crystallized"]["display"]: 1, 
+    "display": fg("Luck Glove", 83),
+    "luck": 1.5,
+    "rollspeed": 1.1,
+    "type": "Gauntlet"
+}
+
+Recipes["Lunar Device"] = {
+    Recipes["Gear Basing"]["display"]: 1,
     Auras["Rare"]["display"]: 1,
     Auras["Divinus"]["display"]: 1, 
-    Auras["Solar"]["display"]: 1, 
-    "Display": fg("Solar Device", 222)
+    Auras["Lunar"]["display"]: 1, 
+    "display": f"{fg("[T1]",153)} {fg("Lunar Device", 147)}",
+    "luck": 1,
+    "rollspeed": 1.15,
+    "type": "Gauntlet"
 }
 
 Recipes["Solar Device"] = {
-    Recipes["Gear Basing"]["Display"]: 1,
+    Recipes["Gear Basing"]["display"]: 1,
     Auras["Rare"]["display"]: 1,
     Auras["Divinus"]["display"]: 1, 
     Auras["Solar"]["display"]: 1, 
-    "Display": fg("Solar Device", 222)
+    "display": f"{fg("[T1]",153)} {fg("Solar Device", 222)}",
+    "luck": 1.50,
+    "rollspeed": 1,
+    "type": "Gauntlet"
 }
 
+Recipes["Eclipse"] = {
+    Auras["Solar"]["display"]: 1, 
+    Auras["Lunar"]["display"]: 1, 
+    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
+    "type": "Aura"
+}
+
+Recipes["Eclipse Device"] = {
+    Recipes["Solar Device"]["display"]: 1, 
+    Recipes["Lunar Device"]["display"]: 1, 
+    Recipes["Eclipse"]["display"]: 1, 
+    "display": f"{fg("[T2]",117)} {fg('Eclip', 215)}{fg('se De',246)}{fg('vice',19)}",
+    "luck": 1.50,
+    "rollspeed": 1.15,
+    "type": "Gauntlet"
+}
+
+Recipes["Exo Gauntlet"] = {
+    Recipes["Gear Basing"]["display"]: 3,
+    Auras["Rare"]["display"]: 1,
+    Auras["Divinus"]["display"]: 1, 
+    Auras["Solar"]["display"]: 1, 
+    "display": f"{fg("[T3]",81)} {fg("Solar Device", 222)}",
+    "luck": 1.50,
+    "rollspeed": 1,
+    "type": "Gauntlet"
+}
 
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
@@ -990,18 +1068,32 @@ Recipes["Darkshader"] = {
     Auras["Diaboli"]["display"]: 14800, 
     Auras["Ink"]["display"]: 22000, 
     Auras["Forbidden"]["display"]: 37000, 
-    "Display": fg("Darkshader", 99)
+    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
+    "luck": 5.0,
+    "rollspeed": 5.0,
+    "type": "Gauntlet"
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-luck = math.inf
-rollspeed = 1000
+luck = 1
+rollspeed = math.inf
 
-for i in range(100):
-    Roll(luck,rollspeed)
+for i in range(10):
+    for i in range(100):
+        Roll(luck,rollspeed)
+    luck *= 2.5
 
-inventory(InventoryAuras, fg("Inventory", 220))
-for recipe in Recipes:
-    craft(Recipes[recipe])
+for i in range(10):
+    craft(Recipes["Gear Basing"])
+
+
 inventory(InventoryAuras, fg("Inventory", 220))
 debugcolour()
+
+for recipe in recipes:
+device_display["Luck Glove"]["display"]
+equip(Recipes["Eclipse Device"])
+for i in range(10):
+    Roll(luck,rollspeed)
+
+# TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
