@@ -924,12 +924,15 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
 def craft(recipe):
     requirement = 0
     completion = 0
+    Not_Completed = 
     for item in recipe:
         if item != "Display":
             requirement += 1
             if item in InventoryAuras:
                 if InventoryAuras[item] >= recipe[item]:
                     completion += 1
+                else:
+                    
         else:
             display = recipe["Display"]
 
@@ -944,7 +947,7 @@ def craft(recipe):
             InventoryAuras[display] = 1
     else:
         print("you did not craft thing boo")
-        
+
 
     inventory(InventoryAuras)
 
