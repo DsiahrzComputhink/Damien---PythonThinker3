@@ -930,9 +930,9 @@ def craft(recipe: dict):
                 if InventoryAuras[item] >= recipe[item]:
                     completion += 1
                 else:
-                    Incomplete[item] = f"{Incomplete[item]}"
+                    Incomplete[item] = f"{Incomplete[item]} / {recipe[item]}"
             else:
-                Incomplete[item] = recipe[item]
+                Incomplete[item] = f"{Incomplete[item]} / {recipe[item]}"
         else:
             display = recipe["Display"]
 
