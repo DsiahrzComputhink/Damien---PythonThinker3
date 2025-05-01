@@ -1090,6 +1090,9 @@ for i in range(10):
 inventory(InventoryAuras, fg("Inventory", 220))
 debugcolour()
 
+for recipe in Recipes:
+    craft(Recipes[recipe]
+          )
 equip(Recipes["Eclipse Device"])
 for i in range(10):
     Roll(luck,rollspeed)
