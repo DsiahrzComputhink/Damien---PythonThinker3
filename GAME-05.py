@@ -936,9 +936,6 @@ def craft(recipe):
                         Incomplete[InventoryAuras[item]] += 1
                     else:
                         Incomplete[InventoryAuras[item]] += 1
-                    
-        
-                    
         else:
             display = recipe["Display"]
 
