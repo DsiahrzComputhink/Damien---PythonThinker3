@@ -935,7 +935,7 @@ def craft(recipe):
                     if InventoryAuras[item] in Incomplete:
                         Incomplete[InventoryAuras[item]] += 1
                     else:
-                        Incomplete[InventoryAuras[item]] += 1
+                        Incomplete[InventoryAuras[item]] = 1
         else:
             display = recipe["Display"]
 
@@ -950,6 +950,7 @@ def craft(recipe):
             InventoryAuras[display] = 1
     else:
         print("you did not craft thing boo")
+        print(Incomplete)
 
 
     inventory(InventoryAuras)
