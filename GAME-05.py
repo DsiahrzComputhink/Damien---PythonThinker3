@@ -970,7 +970,7 @@ Recipes = {
     },
 
     "Luck Glove": {
-        "Gear Basing"["Display"] : 1,
+        ["Gear Basing"]["Display"] : 1,
         Auras["Rare"]["display"] : 3,
         Auras["Divinus"]["display"] : 2, 
         Auras["Crystallized"]["display"] : 1, 
