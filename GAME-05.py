@@ -932,12 +932,12 @@ def craft(recipe: dict):
                 if InventoryAuras[item] >= recipe[item]:
                     completion += 1
                     print(recipe[item])
+            else:
+                print("no")
+                if item in Incomplete:
+                    Incomplete[item] += 1
                 else:
-                    print("no")
-                    if item in Incomplete:
-                        Incomplete[item] += 1
-                    else:
-                        Incomplete[item] = 1
+                    Incomplete[item] = 1
         else:
             display = recipe["Display"]
 
