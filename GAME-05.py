@@ -978,4 +978,3 @@ for i in range(1000):
 
 
 craft(Recipe["Gear Basing"])
-debugcolour()
