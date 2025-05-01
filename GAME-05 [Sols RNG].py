@@ -944,8 +944,6 @@ def craft(recipe: dict):
     else:
         inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['Display']}")
 
-InventoryAuras = {}
-
 def inventory(inventory : dict,name: str) -> None:
     print(LINE)
     print(f"{name}")
@@ -954,6 +952,7 @@ def inventory(inventory : dict,name: str) -> None:
         print(f"{name} : {count}")
     print(LINE)
 
+InventoryAuras = {}
 
 Recipes = {}
 Recipes["Gear Basing"] = {Auras["Rare"]["display"]: 1,Auras["Good"]["display"]: 1, Auras["Uncommon"]["display"]: 1, Auras["Common"]["display"]: 1,"Display": fg("Gear Basing", 245)}
