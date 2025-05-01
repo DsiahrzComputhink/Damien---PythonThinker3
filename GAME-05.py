@@ -970,7 +970,7 @@ Recipe = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-luck = 1
+luck = 10
 rollspeed = math.inf
 
 for i in range(1000):
