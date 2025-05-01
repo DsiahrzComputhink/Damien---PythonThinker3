@@ -1001,7 +1001,7 @@ Recipes["Luck Glove"] = {
     Auras["Rare"]["display"]: 3,
     Auras["Divinus"]["display"]: 2,
     Auras["Crystallized"]["display"]: 1, 
-    "display": f"{fg("Luck Glove", 83)}",
+    "display": f"{fg("[T1]",153)} {fg("Luck Glove", 83)}",
     "luck": 1.5,
     "rollspeed": 1.1,
     "type": "Gauntlet"
