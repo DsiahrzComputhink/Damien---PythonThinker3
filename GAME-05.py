@@ -931,7 +931,7 @@ def craft(recipe: dict):
                     completion += 1
                 else:
                     if item in Incomplete:
-                        Incomplete[item] = f"{Incomplete[item]} / {recipe}"
+                        Incomplete[item] = recipe[item] - Incomplete[item]
             else:
                 Incomplete[item] = recipe[item]
         else:
@@ -966,7 +966,7 @@ Recipe = {
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
-luck = 100
+luck = 1
 rollspeed = 1000
 
 for i in range(100):
