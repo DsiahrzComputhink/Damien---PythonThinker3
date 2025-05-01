@@ -40,6 +40,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
 import time
 import random
 import sys
+import math
 
 # --- SOLS RNG CALCULATOR --- #
 # Calculates the chances of you getting something
