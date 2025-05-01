@@ -921,7 +921,7 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     inventory(InventoryAuras)
 
 
-def craft(recipe):
+def craft(recipe: dict):
     requirement = 0
     completion = 0
     Incomplete = {}
@@ -932,7 +932,7 @@ def craft(recipe):
                 if InventoryAuras[item] >= recipe[item]:
                     completion += 1
                 else:
-                    print(recipe[item])
+                    print(inventory[item])
                     if item in Incomplete:
                         Incomplete[item] += 1
                     else:
