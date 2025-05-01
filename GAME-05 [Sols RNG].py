@@ -968,6 +968,14 @@ Recipes["Lunar Device"] = {
     "Display": fg("Lunar Device", 147)
 }
 
+Recipes["Lunar Device"] = {
+    Recipes["Gear Basing"]["Display"]: 1,
+    Auras["Rare"]["display"]: 1,
+    Auras["Divinus"]["display"]: 1, 
+    Auras["Solar"]["display"]: 1, 
+    "Display": fg("Lunar Device", 147)
+}
+
 
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
