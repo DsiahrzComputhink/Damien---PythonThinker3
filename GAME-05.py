@@ -918,7 +918,7 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     else:
         InventoryAuras[display_name] = 1
 
-    inventory(InventoryAuras)
+    inventory(InventoryAuras, {fg("Inventory", 220)})
 
 
 def craft(recipe: dict):
