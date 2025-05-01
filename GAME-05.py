@@ -951,10 +951,8 @@ def craft(recipe: dict):
             InventoryAuras[display] = 1
     else:
         print("you did not craft thing boo")
-        print(inventory(InventoryAuras, {fg("Incomplete", 220)}))
+        print(inventory(InventoryAuras, {fg("Incomplete", 160)}))
 
-
-    inventory(InventoryAuras, {fg("Inventory", 220)})
 
 
 InventoryAuras = {}
