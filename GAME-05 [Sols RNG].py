@@ -1076,6 +1076,22 @@ Recipes["Galactic Device"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Galactic Device"] = {
+    Recipes["Gear Basing"]["display"]: 25,
+    Auras["Solar"]["display"]: 15,
+    Auras["Lunar"]["display"]: 15,
+    Recipes["Eclipse Device"]["display"]: 1,
+    Auras["Sapphire"]["display"]: 100,
+    Auras["Magnetic"]["display"]: 62, 
+    Auras["Diaboli"]["display"]: 80, 
+    Auras["Comet"]["display"]: 3, 
+    Auras["Galaxy"]["display"]: 1,
+    "display": f"{fg("[T5]",69)} {fg("Galactic Device", 134)}",
+    "luck": 2.00,
+    "rollspeed": 1.20,
+    "type": "Gauntlet"
+}
+
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
     Auras["Twilight"]["display"]: 5,
