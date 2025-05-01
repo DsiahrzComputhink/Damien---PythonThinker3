@@ -965,7 +965,7 @@ Recipes = {}
 Recipes["Gear Basing"] = {Auras["Rare"]["display"]: 1,Auras["Good"]["display"]: 1, Auras["Uncommon"]["display"]: 1, Auras["Common"]["display"]: 1,"Display": fg("Gear Basing", 245)}
 Recipes["Luck Glove"] = {Recipes["Gear Basing"]["Display"]: 1,Auras["Rare"]["display"]: 3,Auras["Divinus"]["display"]: 2, Auras["Crystallized"]["display"]: 1, "Display": fg("Luck Glove", 83)}
 
-Recipes["Luck Glove"] = {
+Recipes["Lunar Device"] = {
     Recipes["Gear Basing"]["Display"]: 1,
     Auras["Rare"]["display"]: 3,
     Auras["Divinus"]["display"]: 2, 
