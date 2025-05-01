@@ -960,36 +960,37 @@ def inventory(inventory : dict,name: str) -> None:
         print(f"{name} : {count}")
     print(LINE)
 
+# Step 1: Define Gear Basing first
 Recipes = {
     "Gear Basing": {
-        Auras["Rare"]["display"] : 1,
-        Auras["Good"]["display"] : 1, 
-        Auras["Uncommon"]["display"] : 1, 
-        Auras["Common"]["display"] : 1,
-        "Display" : fg("Gear Basing",245)
-    },
+        Auras["Rare"]["display"]: 1,
+        Auras["Good"]["display"]: 1, 
+        Auras["Uncommon"]["display"]: 1, 
+        Auras["Common"]["display"]: 1,
+        "Display": fg("Gear Basing", 245)
+    }
+}
 
-    "Luck Glove": {
-        Recipes["Gear Basing"]["Display"] : 1,
-        Auras["Rare"]["display"] : 3,
-        Auras["Divinus"]["display"] : 2, 
-        Auras["Crystallized"]["display"] : 1, 
-        "Display" : fg("Luck Glove",83)
-    },
+Recipes["Luck Glove"] = {
+    Recipes["Gear Basing"]["Display"]: 1,
+    Auras["Rare"]["display"]: 3,
+    Auras["Divinus"]["display"]: 2, 
+    Auras["Crystallized"]["display"]: 1, 
+    "Display": fg("Luck Glove", 83)
+}
 
-    "Darkshader": {
-        Auras["Arcane : Dark"]["display"] : 1,
-        Auras["Twilight"]["display"] : 5,
-        Auras["Undefined"]["display"] : 20, 
-        Auras["Ink:LEAK"]["display"] : 1150, 
-        Auras["Lunar"]["display"] : 2700, 
-        Auras["Hazard"]["display"] : 2250, 
-        Auras["Bleeding"]["display"] : 3350, 
-        Auras["Diaboli"]["display"] : 14800, 
-        Auras["Ink"]["display"] : 22000, 
-        Auras["Forbidden"]["display"] : 37000, 
-        "Display" : fg("Darkshader",99)
-        },
+Recipes["Darkshader"] = {
+    Auras["Arcane : Dark"]["display"]: 1,
+    Auras["Twilight"]["display"]: 5,
+    Auras["Undefined"]["display"]: 20, 
+    Auras["Ink:LEAK"]["display"]: 1150, 
+    Auras["Lunar"]["display"]: 2700, 
+    Auras["Hazard"]["display"]: 2250, 
+    Auras["Bleeding"]["display"]: 3350, 
+    Auras["Diaboli"]["display"]: 14800, 
+    Auras["Ink"]["display"]: 22000, 
+    Auras["Forbidden"]["display"]: 37000, 
+    "Display": fg("Darkshader", 99)
 }
 
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
