@@ -1112,6 +1112,9 @@ debugcolour()
 for recipe in Recipes:
     craft(Recipes[recipe])
 
+for recipe in Recipes:
+    print(Recipes[recipe]["display"])
+
 equip(Recipes["Eclipse Device"])
 for i in range(10):
     Roll(luck,rollspeed)
