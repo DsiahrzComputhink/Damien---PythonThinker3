@@ -932,7 +932,7 @@ def craft(recipe):
                 if InventoryAuras[item] >= recipe[item]:
                     completion += 1
                 else:
-                    if display_name in InventoryAuras:
+                    if inventoryAuras[item] in InventoryAuras:
                         InventoryAuras[display_name] += 1
                     else:
                         InventoryAuras[display_name] = 1
