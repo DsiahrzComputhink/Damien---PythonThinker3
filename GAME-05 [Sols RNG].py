@@ -1066,7 +1066,7 @@ Recipes["Subzero Device"] = {
     Auras["Lunar"]["display"]: 15,
     Auras["Sapphire"]["display"]: 100,
     Auras["Magnetic"]["display"]: 62, 
-    Auras["Diaboli"]["display"]: 80, 
+    Auras["Sidereum"]["display"]: 80, 
     Auras["Aquatic"]["display"]: 2, 
     Auras["Permafrost"]["display"]: 2,
     "display": f"{fg("[T4]",75)} {fg("Galactic Device", 134)}",
