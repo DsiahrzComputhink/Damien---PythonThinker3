@@ -1047,8 +1047,11 @@ Recipes["Eclipse Device"] = {
 }
 
 Recipes["Exo Gauntlet"] = {
-    Recipes["Gear Basing"]["display"]: 3,,
-    Auras["Divinus"]["display"]: 1, 
+    Recipes["Gear Basing"]["display"]: 3,
+    Auras["Divinus"]["display"]: 1,
+    Auras["Divinus"]["display"]: 1,
+    Auras["Divinus"]["display"]: 1,
+    Auras["Divinus"]["display"]: 1,
     Auras["Undead"]["display"]: 1, 
     Auras["Exotic"]["display"]: 1,
     "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
