@@ -1060,7 +1060,7 @@ Recipes["Exo Gauntlet"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Exo Gauntlet"] = {
+Recipes["Galactic Device"] = {
     Recipes["Gear Basing"]["display"]: 3,
     Auras["Gilded"]["display"]: 3,
     Auras["Precious"]["display"]: 2,
