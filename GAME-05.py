@@ -973,7 +973,7 @@ Recipes = {
         Auras["Rare"]["display"] : 3,
         Auras["Divinus"]["display"] : 2, 
         Auras["Crystallized"]["display"] : 1, 
-        Recipes[]"]["display"] : 1,
+        Recipes["Gear Basing"]["Display"] : 1,
         "Display" : fg("Gear Basing",245)
     },
 
