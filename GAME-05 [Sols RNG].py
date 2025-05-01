@@ -1112,7 +1112,7 @@ Recipes["Darkshader"] = {
 luck = 1
 rollspeed = math.inf
 
-for i in range(10):
+for i in range(13):
     for i in range(100):
         Roll(luck,rollspeed)
     luck *= 2.5
