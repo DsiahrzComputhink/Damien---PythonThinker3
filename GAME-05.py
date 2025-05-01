@@ -970,10 +970,10 @@ Recipes = {
     },
 
     "Luck Glove": {
+        Auras["Gear Basing"]["display"] : 1,
         Auras["Rare"]["display"] : 3,
         Auras["Divinus"]["display"] : 2, 
         Auras["Crystallized"]["display"] : 1, 
-        Auras["Gear Basing"]["display"] : 1,
         "Display" : fg("Gear Basing",245)
     },
 
