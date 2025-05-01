@@ -1063,7 +1063,7 @@ Recipes["Exo Gauntlet"] = {
 Recipes["Subzero Device"] = {
     Recipes["Gear Basing"]["display"]: 5,
     Auras["Solar"]["display"]: 15,
-    Auras["Crystallized"]["display"]: 15,
+    Auras["Glacier"]["display"]: 60,
     Auras["Precious"]["display"]: 40,
     Auras["Magnetic"]["display"]: 20, 
     Auras["Sidereum"]["display"]: 10, 
