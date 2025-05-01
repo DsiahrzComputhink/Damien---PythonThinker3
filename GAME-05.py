@@ -960,7 +960,7 @@ def inventory(inventory : dict,name: str) -> None:
         print(f"{name} : {count}")
     print(LINE)
 
-Recipe = {
+Recipes = {
     "Gear Basing": {Auras["Common"]["display"] : 1, Auras["Uncommon"]["display"] : 1, Auras["Good"]["display"] : 1, Auras["Rare"]["display"] : 1, "Display" : fg("Gear Basing",245)}
 }
 
@@ -972,5 +972,5 @@ for i in range(100):
     Roll(luck,rollspeed)
 
 inventory(InventoryAuras, fg("Inventory", 220))
-craft(Recipe["Gear Basing"])
+craft(Recipes["Gear Basing"])
 inventory(InventoryAuras, fg("Inventory", 220))
