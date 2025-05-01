@@ -970,7 +970,7 @@ Recipes["Lunar Device"] = {
     Auras["Rare"]["display"]: 1,
     Auras["Divinus"]["display"]: 1, 
     Auras["Lunar"]["display"]: 1, 
-    "Display": fg("Lunar Device", 83)
+    "Display": fg("Lunar Device", 147)
 }
 
 
