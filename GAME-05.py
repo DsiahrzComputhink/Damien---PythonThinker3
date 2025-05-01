@@ -945,7 +945,7 @@ def craft(recipe):
     else:
         print("you did not craft thing boo")
 
-    inventory()
+    inventory(InventoryAuras)
 
 
 InventoryAuras = {}
@@ -954,7 +954,7 @@ def inventory(inventory : dict) -> None:
     print(LINE)
     print(fg("Inventory", 220))
     print(LINE)
-    for name, count in InventoryAuras.items():
+    for name, count in inventory.items():
         print(f"{name} : {count}")
 
 Recipe = {
