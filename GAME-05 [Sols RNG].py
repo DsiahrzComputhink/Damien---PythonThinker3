@@ -864,7 +864,6 @@ def find_tier(rarity_value):
             return tier
     return None
 
-
 def pick_aura(luck_multiplier: float = 1.0, auras: dict = None):
     auras = auras or Auras
 
@@ -888,7 +887,6 @@ def pick_aura(luck_multiplier: float = 1.0, auras: dict = None):
             return aura_name, auras[aura_name]
 
     return "Common", auras["Common"]
-
 
 def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     roll_speed = 0.15 / rollspeed
@@ -916,7 +914,6 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
         InventoryAuras[display_name] += 1
     else:
         InventoryAuras[display_name] = 1
-
 
 def craft(recipe: dict):
     requirement = 0
@@ -946,8 +943,6 @@ def craft(recipe: dict):
             InventoryAuras[display] = 1
     else:
         inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['Display']}")
-
-
 
 InventoryAuras = {}
 
