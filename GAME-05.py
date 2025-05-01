@@ -941,7 +941,7 @@ def craft(recipe: dict):
             display = recipe["Display"]
 
     if requirement == completion:
-        print(f"You've crafted")
+        print(f"You've crafted {recipe[display]}")
         for item in recipe:
             if item != "Display":
                 InventoryAuras[item] -= recipe[item]
