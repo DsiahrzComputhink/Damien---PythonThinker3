@@ -954,14 +954,14 @@ def craft(recipe: dict):
         print(Incomplete)
 
 
-    inventory(InventoryAuras)
+    inventory(InventoryAuras, {fg("Inventory", 220)})
 
 
 InventoryAuras = {}
 
 def inventory(inventory : dict,name: str) -> None:
     print(LINE)
-    print(f"{fg("Inventory", 220)} ")
+    print(f"{name}")
     print(LINE)
     for name, count in inventory.items():
         print(f"{name} : {count}")
