@@ -963,6 +963,7 @@ def inventory(inventory : dict,name: str) -> None:
     print(LINE)
     for name, count in inventory.items():
         print(f"{name} : {count}")
+    print(LINE)
 
 Recipe = {
     "Gear Basing": {Auras["Common"]["display"] : 1, Auras["Uncommon"]["display"] : 1, Auras["Good"]["display"] : 1, Auras["Rare"]["display"] : 1, "Display" : fg("Gear Basing",245)}
