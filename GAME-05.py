@@ -973,7 +973,7 @@ Recipes = {
         Auras["Twilight"]["display"] : 5,
         Auras["Undefined"]["display"] : 20, 
         Auras["Ink:LEAK"]["display"] : 1150, 
-        "Display" : fg("Dark",245)
+        "Display" : fg("Darkshader",245)
         },
 }
 
@@ -987,3 +987,4 @@ for i in range(100):
 inventory(InventoryAuras, fg("Inventory", 220))
 craft(Recipes["Gear Basing"])
 inventory(InventoryAuras, fg("Inventory", 220))
+debugcolour()
