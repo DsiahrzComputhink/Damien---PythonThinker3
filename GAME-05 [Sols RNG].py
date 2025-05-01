@@ -1064,7 +1064,7 @@ Recipes["Galactic Device"] = {
     Recipes["Gear Basing"]["display"]: 25,
     Auras["Solar"]["display"]: 15,
     Auras["Lunar"]["display"]: 15,
-    Auras["Magnetic"]["display"]: 2,
+    Recipes["Eclipse Device"]["display"]: 1,
     Auras["Siderium"]["display"]: 1,
     Auras["Undead"]["display"]: 1, 
     Auras["Galaxy"]["display"]: 1,
