@@ -960,7 +960,7 @@ def inventory(inventory : dict,name: str) -> None:
         print(f"{name} : {count}")
     print(LINE)
 
-# Step 1: Define Gear Basing first
+
 Recipes = {
     "Gear Basing": {
         Auras["Rare"]["display"]: 1,
