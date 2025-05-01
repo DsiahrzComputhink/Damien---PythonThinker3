@@ -933,7 +933,6 @@ def craft(recipe):
                     completion += 1
                 else:
                     if InventoryAuras[item] in Incomplete:
-
                         Incomplete[item] += 1
                     else:
                         Incomplete[item] = 1
