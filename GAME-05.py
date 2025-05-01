@@ -931,7 +931,7 @@ def craft(recipe: dict):
                     completion += 1
                 else:
                     if item in Incomplete:
-                        Incomplete[item] = f"{recipe[item] - Incomplete[item]}"
+                        Incomplete[item] = f"{Incomplete[item]} / {recipe}"
             else:
                 Incomplete[item] = recipe[item]
         else:
