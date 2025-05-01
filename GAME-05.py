@@ -918,8 +918,6 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     else:
         InventoryAuras[display_name] = 1
 
-    inventory(InventoryAuras, {fg("Inventory", 220)})
-
 
 def craft(recipe: dict):
     requirement = 0
@@ -974,5 +972,5 @@ rollspeed = math.inf
 for i in range(1000):
     Roll(luck,rollspeed)
 
-
+inventory(InventoryAuras, {fg("Inventory", 220)})
 craft(Recipe["Gear Basing"])
