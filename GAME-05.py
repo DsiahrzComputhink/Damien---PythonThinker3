@@ -944,6 +944,7 @@ def craft(recipe):
             InventoryAuras[display] = 1
     else:
         print("you did not craft thing boo")
+        
 
     inventory(InventoryAuras)
 
