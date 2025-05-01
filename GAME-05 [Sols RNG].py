@@ -952,7 +952,7 @@ def inventory(inventory : dict,name: str) -> None:
         print(f"{name} : {count}")
     print(LINE)
 
-    # Global Variables
+# Global Variables
 InventoryAuras = {}
 
 Recipes = {}
