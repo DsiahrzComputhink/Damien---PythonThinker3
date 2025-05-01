@@ -1051,7 +1051,7 @@ Recipes["Exo Gauntlet"] = {
     Auras["Rare"]["display"]: 1,
     Auras["Divinus"]["display"]: 1, 
     Auras["Solar"]["display"]: 1, 
-    "display": f"{fg("[T3]",81)} {fg("Solar Device", 222)}",
+    "display": f"{fg("[T3]",81)} {fg("Solar Device", 81)}",
     "luck": 1.50,
     "rollspeed": 1,
     "type": "Gauntlet"
@@ -1092,8 +1092,8 @@ debugcolour()
 
 for recipe in Recipes:
     craft(Recipes[recipe])
-    
-equip(Recipes["Eclipse Device"])
+
+equip(Recipes["Exo Gauntlet"])
 for i in range(10):
     Roll(luck,rollspeed)
 
