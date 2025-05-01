@@ -933,7 +933,6 @@ def craft(recipe: dict):
                     completion += 1
                     print(recipe[item])
             else:
-                print("no")
                 if item in Incomplete:
                     Incomplete[item] += 1
                 else:
