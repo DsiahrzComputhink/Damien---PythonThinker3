@@ -1061,13 +1061,13 @@ Recipes["Exo Gauntlet"] = {
 }
 
 Recipes["Subzero Device"] = {
-    Recipes["Gear Basing"]["display"]: 25,
+    Recipes["Gear Basing"]["display"]: 5,
     Auras["Solar"]["display"]: 15,
     Auras["Lunar"]["display"]: 15,
     Auras["Sapphire"]["display"]: 100,
     Auras["Magnetic"]["display"]: 62, 
     Auras["Diaboli"]["display"]: 80, 
-    Auras["Cry"]["display"]: 3, 
+    Auras["Aquatic"]["display"]: 2, 
     Auras["Permafrost"]["display"]: 2,
     "display": f"{fg("[T4]",75)} {fg("Galactic Device", 134)}",
     "luck": 2.00,
