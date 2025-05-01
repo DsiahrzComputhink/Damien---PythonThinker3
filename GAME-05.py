@@ -951,7 +951,7 @@ def craft(recipe: dict):
             InventoryAuras[display] = 1
     else:
         print(f"{fg("Not enough Resources.",160)}")
-        print(inventory(InventoryAuras, {fg("Incomplete", 160)}))
+        print(inventory(InventoryAuras, {fg("", 160)}))
 
 
 
