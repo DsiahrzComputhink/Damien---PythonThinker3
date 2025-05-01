@@ -855,7 +855,8 @@ Tiers = [
     {"name": "GLORIOUS", "range": (99_999_999, 999_999_998), "color": 160},
     {"name": "TRANSCENDENT", "range": (999_999_999, float('inf')), "color": 153},
 ]
-    # Global Functions
+
+# Global Functions
 def find_tier(rarity_value):
     for tier in Tiers:
         min_val, max_val = tier["range"]
