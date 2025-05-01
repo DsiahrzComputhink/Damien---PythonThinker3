@@ -950,6 +950,7 @@ def craft(recipe):
 InventoryAuras = {}
 
 def inventory():
+    print(LINE)
     print(fg("Inventory", 220))
     print(LINE)
     for name, count in InventoryAuras.items():
@@ -962,7 +963,7 @@ Recipe = {
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 
 luck = 1
-rollspeed = 10000
+rollspeed = 10000000000000000000000000000000
 
 for i in range(1000):
     Roll(luck,rollspeed)
