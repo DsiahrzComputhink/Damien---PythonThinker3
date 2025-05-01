@@ -1069,7 +1069,7 @@ Recipes["Subzero Device"] = {
     Auras["Siderium"]["display"]: 10, 
     Auras["Aquatic"]["display"]: 2, 
     Auras["Permafrost"]["display"]: 2,
-    "display": f"{fg("[T4]",75)} {fg("Galactic Device", 134)}",
+    "display": f"{fg("[T4]",75)} {fg("Subzero Device", 134)}",
     "luck": 2.00,
     "rollspeed": 1.20,
     "type": "Gauntlet"
