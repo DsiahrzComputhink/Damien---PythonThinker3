@@ -953,7 +953,7 @@ def craft(recipe: dict):
 
 InventoryAuras = {}
 
-def inventory(inventory : dict,name: str) -> None:
+def inventory(inventory : dict,name) -> None:
     print(LINE)
     print(f"{name}")
     print(LINE)
