@@ -1130,7 +1130,7 @@ for recipe in Recipes:
 for recipe in Recipes:
     print(Recipes[recipe]["display"])
 
-equip(Recipes["Eclipse Device"])
+equip(Recipes["Exo Gauntlet"])
 for i in range(10):
     Roll(luck,rollspeed)
 
