@@ -897,7 +897,7 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     # Rolling animation
     for _ in range(10):
         _, temp_aura = pick_aura(luck)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}               ", random.randint(232, 255)))
+        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}                                                        ", random.randint(232, 255)))
         sys.stdout.flush()
         time.sleep(speed)
         speed *= slowdown_rate
@@ -906,7 +906,7 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     _, selected_aura = pick_aura(luck)
     display_name = selected_aura["display"]
 
-    sys.stdout.write("\r" + fg(f"You rolled {display_name} !              ", random.randint(232, 255)))
+    sys.stdout.write("\r" + fg(f"You rolled {display_name} !                                              ", random.randint(232, 255)))
     sys.stdout.flush()
     print(f"\n")
 
