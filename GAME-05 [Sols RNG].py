@@ -1163,7 +1163,7 @@ Recipes["Ragnaröker"] = {
     Auras["Ash"]["display"]: 1450,
     Auras["Siderium"]["display"]: 800,
     Auras["Lost Soul"]["display"]: 300,
-    Auras["Comet"]["display"]: 230, 
+    Auras["Rage : Heated"]["display"]: 230, 
     Auras["Lunar"]["display"]: 175,
     Auras["Solar"]["display"]: 175, 
     Auras["Star Rider"]["display"]: 75,
