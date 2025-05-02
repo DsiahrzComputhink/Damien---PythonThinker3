@@ -998,7 +998,7 @@ Recipes["Eclipse"] = {
 Recipes["Matrix : Steampunk"] = {
     Auras["Gilded"]["display"]: 100000, 
     Auras["Powered"]["display"]: 6000, 
-    Auras["Magnetic : Reverse Polarity"]["display"]: 9, 
+    Auras["Magnetic : Reverse Polarity"]["display"]: 375, 
     Auras["Virtual"]["display"]: 175, 
     Auras["Zeus"]["display"]: 10, 
     Auras["Hypervolt"]["display"]: 50, 
