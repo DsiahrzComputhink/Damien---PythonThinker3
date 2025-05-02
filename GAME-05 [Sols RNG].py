@@ -1000,8 +1000,8 @@ Recipes["Matrix : Steampunk"] = {
     Auras["Powered"]["display"]: 9, 
     Auras["Magnetic : Reverse Polarity"]["display"]: 9, 
     Auras["Virtual"]["display"]: 9, 
-    Auras["Matrix"]["display"]: 9, 
-    Auras["Matrix"]["display"]: 9, 
+    Auras["Zeus"]["display"]: 9, 
+    Auras["Hypervolt"]["display"]: 50, 
     Auras["Matrix"]["display"]: 9, 
     "display": f"{fg('MATRIX : STEAMPUNK', 215)} {fg('[GLORIOUS CRAFTED]',160)}",
     "type": "Aura"
