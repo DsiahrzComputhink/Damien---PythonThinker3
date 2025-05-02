@@ -1136,7 +1136,7 @@ Recipes["Exoflex Device"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Exoflex Device"] = {
+Recipes["Hologrammer"] = {
     Recipes["Exo Gauntlet"]["display"]: 1,
     Auras["Rare"]["display"]: 30000,
     Auras["Forbidden"]["display"]: 2000,
