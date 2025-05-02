@@ -570,7 +570,7 @@ else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 
 with open(textfile, "r") as file:
-        Data = file.read()
+        content = file.read()
 Data = eval(content)
 
 def loaddatabase(textfile):
