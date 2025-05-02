@@ -907,7 +907,6 @@ def Roll(luck: float = 1.0, rollspeed: float = 1.0):
     display_name = selected_aura["display"]
 
     sys.stdout.write("\r" + fg(f"You rolled {display_name} !                                              ", random.randint(232, 255)))
-    sys.stdout.flush()
     sys.stdout.write("\r" + fg(f"You rolled {display_name} !", random.randint(232, 255)))
     sys.stdout.flush()
     print(f"\n")
