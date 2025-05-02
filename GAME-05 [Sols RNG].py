@@ -1178,9 +1178,9 @@ Recipes["Ragnaröker"] = {
 
 Recipes["Gravitational Device"] = {
     Recipes["Gear Basing"]["display"]: 15,
-    Auras["Diaboli"]["display"]: 14800, 
+    Auras["Diaboli"]["display"]: 152, 
     Auras["Precious"]["display"]: 152, 
-    Auras["Magnetic"]["display"]: 15, 
+    Auras["Magnetic"]["display"]: 75, 
     Auras["Siderium"]["display"]: 31, 
     Auras["Nautilus"]["display"]: 5,
     Auras["Exotic"]["display"]: 5, 
