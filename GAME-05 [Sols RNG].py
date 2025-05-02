@@ -1223,6 +1223,7 @@ Recipes["Starshaper"] = {
     Auras["Virtual"]["display"]: 6,
     Auras["Origin"]["display"]: 3,
     Auras["Chromatic"]["display"]: 3,
+    Auras["Starscourge"]["display"]: 2,
     "display": f"{fg("[T8]",141)} {fg("Starshaper", 216)}",
     "luck": 1.00 + 4.55,
     "rollspeed": 1.00 + 0.40,
