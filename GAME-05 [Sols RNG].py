@@ -1124,7 +1124,7 @@ Recipes["Exoflex Device"] = {
     Auras["Rare"]["display"]: 30000,
     Auras["Forbidden"]["display"]: 2000,
     Auras["Aquamarine"]["display"]: 1000,
-    Auras["Siderium"]["display"]: 37,
+    Auras["Siderium"]["display"]: 350,
     Auras["Undead"]["display"]: 37,
     Auras["Starlight"]["display"]: 80, 
     Auras["Exotic"]["display"]: 50, 
