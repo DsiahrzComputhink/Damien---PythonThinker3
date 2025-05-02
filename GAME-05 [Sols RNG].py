@@ -956,19 +956,23 @@ def craft(recipe: dict):
     else:
         inventory(Incomplete, f"{fg(f"Not enough Resources",160)} for {recipe['display']}")
 
-def inventory(inventory : dict,name: str) -> None:
+def inventory(inventory: dict, name: str) -> None:
     print(LINE)
-    print(f"{name}")
+    print(name)
     print(LINE)
     remove = []
-    for name, count in inventory.items():
-        if count == 0:
-            remove.append(name)
+    for item_name, count in inventory.items():
+        if isinstance(count, (int, float)):
+            if count == 0:
+                remove.append(item_name)
+            else:
+                print(f"{item_name} : {count:,}")
         else:
-            print(f"{name} : {int(count):,}")
+            print(f"{item_name} : {count}")  # Safe for strings like "0 / 1"
     print(LINE)
     for item in remove:
         del inventory[item]
+
 
 def equip(recipe: str):
     global luck, rollspeed
