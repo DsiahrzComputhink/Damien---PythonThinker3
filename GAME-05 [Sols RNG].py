@@ -1067,7 +1067,7 @@ Recipes["Windstorm Device"] = {
     Auras["Siderium"]["display"]: 4,
     Auras["Aquatic"]["display"]: 1, 
     Auras["Stormal"]["display"]: 1,
-    "display": f"{fg("[T3]",81)} {fg("Windstorm Device", 44)}",
+    "display": f"{fg("[T3]",81)} {fg("Windstorm Device", 38)}",
     "luck": 1.00 + 1.15,
     "rollspeed": 1.00 + 0.30,
     "type": "Gauntlet"
