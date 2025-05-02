@@ -1267,6 +1267,7 @@ Recipes["Neuralyzer"] = {
     "type": "Gauntlet"
 }
 
+print(Auras)
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 
 # luck = 1
