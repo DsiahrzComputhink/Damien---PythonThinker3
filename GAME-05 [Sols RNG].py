@@ -1113,7 +1113,7 @@ Recipes["Volcanic Device"] = {
     Auras["Bleeding"]["display"]: 55, 
     Auras["Rage : Heated"]["display"]: 10, 
     Auras["Hades"]["display"]: 1,
-    "display": f"{fg("[T5]",69)} {fg("Volcanic Device", 134)}",
+    "display": f"{fg("[T5]",69)} {fg("Volcanic Device", 202)}",
     "luck": 1.00 + 2.90,
     "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
