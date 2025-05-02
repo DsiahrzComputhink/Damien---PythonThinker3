@@ -62,6 +62,7 @@ import sys
 import math
 import os
 import string
+import tkinter as tk
 
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Auras.txt")
