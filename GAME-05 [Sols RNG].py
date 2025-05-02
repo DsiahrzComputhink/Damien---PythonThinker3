@@ -419,39 +419,6 @@ Recipes["Ragnaröker"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Darkshader"] = {
-    Auras["Forbidden"]["display"]: 37000,
-    Auras["Ink"]["display"]: 22000, 
-    Auras["Diaboli"]["display"]: 14800, 
-    Auras["Bleeding"]["display"]: 3350, 
-    Auras["Hazard"]["display"]: 2250, 
-    Auras["Lunar"]["display"]: 2700, 
-    Auras["Ink:LEAK"]["display"]: 1150,
-    Auras["Undefined"]["display"]: 20, 
-    Auras["Twilight"]["display"]: 5,
-    Auras["Arcane : Dark"]["display"]: 1,
-    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
-    "luck": 5.0,
-    "rollspeed": 5.0,
-    "type": "Gauntlet"
-}
-
-Recipes["Gravitational Device"] = {
-    Recipes["Gear Basing"]["display"]: 15,
-    Auras["Diaboli"]["display"]: 152, 
-    Auras["Precious"]["display"]: 152, 
-    Auras["Magnetic"]["display"]: 75, 
-    Auras["Siderium"]["display"]: 31, 
-    Auras["Nautilus"]["display"]: 5,
-    Auras["Exotic"]["display"]: 5, 
-    Auras["Bounded"]["display"]: 3,
-    Auras["Gravitational"]["display"]: 1,
-    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
-    "luck": 5.0,
-    "rollspeed": 5.0,
-    "type": "Gauntlet"
-}
-
 Recipes["Starshaper"] = {
     Recipes["Gravitational Device"]["display"]: 1,
     Recipes["Galactic Device"]["display"]: 1,
@@ -470,6 +437,23 @@ Recipes["Starshaper"] = {
     "display": f"{fg("[T8]",141)} {fg("Starshaper", 219)}",
     "luck": 1.00 + 4.55,
     "rollspeed": 1.00 + 0.40,
+    "type": "Gauntlet"
+}
+
+Recipes["Darkshader"] = {
+    Auras["Forbidden"]["display"]: 37000,
+    Auras["Ink"]["display"]: 22000, 
+    Auras["Diaboli"]["display"]: 14800, 
+    Auras["Bleeding"]["display"]: 3350, 
+    Auras["Hazard"]["display"]: 2250, 
+    Auras["Lunar"]["display"]: 2700, 
+    Auras["Ink:LEAK"]["display"]: 1150,
+    Auras["Undefined"]["display"]: 20, 
+    Auras["Twilight"]["display"]: 5,
+    Auras["Arcane : Dark"]["display"]: 1,
+    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
+    "luck": 5.0,
+    "rollspeed": 5.0,
     "type": "Gauntlet"
 }
 
