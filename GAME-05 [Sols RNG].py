@@ -538,7 +538,7 @@ for i in range(10):
 #TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
 
 
-
+    # DATA [wip]
 # random.choice([List,List2]) chooses a random element from the list.
 
 # -- RANGES
