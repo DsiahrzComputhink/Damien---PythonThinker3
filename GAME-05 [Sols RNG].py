@@ -1193,7 +1193,7 @@ Recipes["Darkshader"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Ragnaröker"] = {
+Recipes["Neuralyzer"] = {
     Auras["Rage"]["display"]: 23000,
     Auras["Diaboli"]["display"]: 3200,
     Auras["Ash"]["display"]: 1450,
