@@ -1147,6 +1147,7 @@ Recipes["Hologrammer"] = {
     Auras["Exotic"]["display"]: 50,  
     Auras["Virtual"]["display"]: 2,
     Auras["Virtual"]["display"]: 2,
+    Auras["Virtual"]["display"]: 2,
     "display": f"{fg("[T6]",63)} {fg("Hologrammer",117)}",
     "luck": 1.00 + 3.40,
     "rollspeed": 1.00 + 0.35,
