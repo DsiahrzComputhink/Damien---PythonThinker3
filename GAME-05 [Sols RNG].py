@@ -73,7 +73,6 @@ else:
 with open(textfile, "r") as file:
         content = file.read()
 Auras = eval(content)
-print(Auras)
 
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
