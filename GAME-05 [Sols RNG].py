@@ -1060,6 +1060,20 @@ Recipes["Exo Gauntlet"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Windstorm Device"] = {
+    Recipes["Gear Basing"]["display"]: 3,
+    Auras["Gilded"]["display"]: 3,
+    Auras["Precious"]["display"]: 2,
+    Auras["Magnetic"]["display"]: 2,
+    Auras["Siderium"]["display"]: 1,
+    Auras["Undead"]["display"]: 1, 
+    Auras["Exotic"]["display"]: 1,
+    "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
+    "luck": 1.00 + 1.50,
+    "rollspeed": 1.00 + 0.20,
+    "type": "Gauntlet"
+}
+
 Recipes["Subzero Device"] = {
     Recipes["Gear Basing"]["display"]: 5,
     Auras["Crystallized"]["display"]: 600,
