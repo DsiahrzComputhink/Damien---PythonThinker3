@@ -41,6 +41,15 @@ import time
 import random
 import sys
 import math
+import os
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
+
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 
 # --- SOLS RNG CALCULATOR --- #
 # Calculates the chances of you getting something
