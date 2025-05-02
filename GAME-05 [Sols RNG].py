@@ -811,7 +811,8 @@ def console():
                 print(LINE)
                 print(style.bblue + "1" + style.RESET,"                ","Change Password")
                 print(style.bblue + "2" + style.RESET,"                  ","View Commands")
-                print(style.bblue + "3" + style.RESET,"                       ","Sign Out")
+                print(style.bblue + "3" + style.RESET,"                  ","View Commands")
+                print(style.bblue + "4" + style.RESET,"                       ","Sign Out")
                 print(LINE)
                 command = input("")
                 if command.isnumeric():
