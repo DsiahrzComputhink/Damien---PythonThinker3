@@ -1186,7 +1186,6 @@ Recipes["Gravitational Device"] = {
     Auras["Ink:LEAK"]["display"]: 1150,
     Auras["Undefined"]["display"]: 20, 
     Auras["Twilight"]["display"]: 5,
-
     Auras["Arcane : Dark"]["display"]: 1,
     "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
     "luck": 5.0,
@@ -1205,7 +1204,6 @@ Recipes["Darkshader"] = {
     Auras["Ink:LEAK"]["display"]: 1150,
     Auras["Undefined"]["display"]: 20, 
     Auras["Twilight"]["display"]: 5,
-
     Auras["Arcane : Dark"]["display"]: 1,
     "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
     "luck": 5.0,
