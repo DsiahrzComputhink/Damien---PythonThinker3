@@ -1113,10 +1113,10 @@ Recipes["Volcanic Device"] = {
     Auras["Magnetic"]["display"]: 62, 
     Auras["Diaboli"]["display"]: 80, 
     Auras["Comet"]["display"]: 3, 
-    Auras["Galaxy"]["display"]: 1,
+    Auras["Hades"]["display"]: 1,
     "display": f"{fg("[T5]",69)} {fg("Galactic Device", 134)}",
-    "luck": 1.00 + 2.50,
-    "rollspeed": 1.00 + 0.30,
+    "luck": 1.00 + 2.90,
+    "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
 }
 
