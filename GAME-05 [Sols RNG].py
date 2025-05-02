@@ -1147,7 +1147,7 @@ Recipes["Hologrammer"] = {
     Auras["Exotic"]["display"]: 50, 
     Auras["Jade"]["display"]: 5, 
     Auras["Arcane"]["display"]: 3,
-    "display": f"{fg("[T6]",63)} {fg("Hologrammer
+    "display": f"{fg("[T6]",63)} {fg("Hologrammer",69)}",
     "luck": 1.00 + 3.40,
     "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
