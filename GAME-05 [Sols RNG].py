@@ -1194,7 +1194,7 @@ for recipe in Recipes:
 for recipe in Recipes:
     print(Recipes[recipe]["display"])
 
-equip(Recipes["Exo Gauntlet"])
+equip(Recipes["Darkshader"])
 for i in range(10):
     Roll(luck,rollspeed)
 
