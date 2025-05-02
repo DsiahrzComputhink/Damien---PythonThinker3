@@ -491,9 +491,9 @@ Recipes["Neuralyzer"] = {
 }
 
 Recipes["Neuralyzer"] = {
-    Auras["Lost Soul"]["display"]: 2500,
-    Auras["Siderium"]["display"]: 2000,
-    Auras["Solar"]["display"]: 250, 
+    Auras["Magnetic"]["display"]: 9000,
+    Auras["Siderium"]["display"]: 7250,
+    Auras["Solar"]["display"]: 5000, 
     Auras["Permafrost"]["display"]: 400,
     Auras["Jade"]["display"]: 20, 
     Auras["Magnetic : Reverse Polarity"]["display"]: 10,
