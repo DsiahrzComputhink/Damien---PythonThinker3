@@ -419,22 +419,6 @@ Recipes["Ragnaröker"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Gravitational Device"] = {
-    Recipes["Gear Basing"]["display"]: 15,
-    Auras["Diaboli"]["display"]: 152, 
-    Auras["Precious"]["display"]: 152, 
-    Auras["Magnetic"]["display"]: 75, 
-    Auras["Siderium"]["display"]: 31, 
-    Auras["Nautilus"]["display"]: 5,
-    Auras["Exotic"]["display"]: 5, 
-    Auras["Bounded"]["display"]: 3,
-    Auras["Gravitational"]["display"]: 1,
-    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
-    "luck": 5.0,
-    "rollspeed": 5.0,
-    "type": "Gauntlet"
-}
-
 Recipes["Darkshader"] = {
     Auras["Forbidden"]["display"]: 37000,
     Auras["Ink"]["display"]: 22000, 
@@ -447,6 +431,22 @@ Recipes["Darkshader"] = {
     Auras["Twilight"]["display"]: 5,
     Auras["Arcane : Dark"]["display"]: 1,
     "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
+    "luck": 5.0,
+    "rollspeed": 5.0,
+    "type": "Gauntlet"
+}
+
+Recipes["Gravitational Device"] = {
+    Recipes["Gear Basing"]["display"]: 15,
+    Auras["Diaboli"]["display"]: 152, 
+    Auras["Precious"]["display"]: 152, 
+    Auras["Magnetic"]["display"]: 75, 
+    Auras["Siderium"]["display"]: 31, 
+    Auras["Nautilus"]["display"]: 5,
+    Auras["Exotic"]["display"]: 5, 
+    Auras["Bounded"]["display"]: 3,
+    Auras["Gravitational"]["display"]: 1,
+    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
     "luck": 5.0,
     "rollspeed": 5.0,
     "type": "Gauntlet"
