@@ -72,20 +72,8 @@ else:
 
 with open(textfile, "r") as file:
         content = file.read()
-memory = eval(content)
-print(memory)
-
-Biomes = {
-    "Windy": {"Chance": 500, "Amplify": 3},
-    "Snowy": {"Chance": 600, "Amplify": 3},
-    "Rainy": {"Chance": 750, "Amplify": 4},
-    "Sandstorm": {"Chance": 3000, "Amplify": 4},
-    "Hell": {"Chance": 6666, "Amplify": 6},
-    "Starfall": {"Chance": 7500, "Amplify": 5},
-    "Corruption": {"Chance": 9000, "Amplify": 5},
-    "Null": {"Chance": 10100, "Amplify": 1000},
-    "Glitched": {"Chance": 30000, "Amplify": 1}, # allows every biome's native aura to be amplified + some auras exclusive to glitch
-}
+Auras = eval(content)
+print(Auras)
 
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
