@@ -1070,7 +1070,7 @@ Recipes["Windstorm Device"] = {
     Auras["Exotic"]["display"]: 1,
     "display": f"{fg("[T3]",81)} {fg("Exo Gauntlet", 117)}",
     "luck": 1.00 + 1.15,
-    "rollspeed": 1.00 + 0.20,
+    "rollspeed": 1.00 + 0.30,
     "type": "Gauntlet"
 }
 
