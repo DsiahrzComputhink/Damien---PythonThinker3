@@ -977,7 +977,7 @@ def equip(recipe: str):
             luck = recipe["luck"]
             if "rollspeed" in recipe:
                 rollspeed = recipe["rollspeed"]
-                print(f"{fg('Equipped', 248)} {recipe['display']} — {fg("Luck",84)} = {luck:8.2f}, {fg("Rollspeed",117)} = {rollspeed:8.2f}")
+                print(f"{fg('Equipped', 248)} {recipe['display']} — {fg("Luck",84)} = {luck:0.2f}, {fg("Rollspeed",117)} = {rollspeed:0.2f}")
     else:
         print(f"{fg('You do not have', 160)} {recipe['display']}")
 
