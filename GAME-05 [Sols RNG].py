@@ -1206,7 +1206,7 @@ Recipes["Neuralyzer"] = {
     Auras["Poseidon"]["display"]: 3,
     Auras["Zeus"]["display"]: 3,
     Auras["Hades"]["display"]: 3,
-    "display": f"{fg("[T9]",177)} {fg("Ne", 210)}{fg("ur", 216)}{fg("al", 222)}{fg("yz", 157)}{fg("er", 159)}",
+    "display": f"{fg("[T9]",177)} {fg("Ne", 216)}{fg("ur", 222)}{fg("al", 222)}{fg("yz", 157)}{fg("er", 159)}",
     "luck": 1.00 + 4.55,
     "rollspeed": 1.00 + 0.40,
     "type": "Gauntlet"
