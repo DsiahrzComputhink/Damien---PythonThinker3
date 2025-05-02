@@ -1157,7 +1157,7 @@ Recipes["Hologrammer"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Ragnar"] = {
+Recipes["Ragnaröker"] = {
     Recipes["Exo Gauntlet"]["display"]: 1,
     Auras["Forbidden"]["display"]: 4000,
     Auras["Diaboli"]["display"]: 1645,
