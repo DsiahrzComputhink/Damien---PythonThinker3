@@ -1195,7 +1195,7 @@ for recipe in Recipes:
 for recipe in Recipes:
     print(Recipes[recipe]["display"])
 
-equip(Recipes["Windstorm Device"])
+equip(Recipes["Subzero Device"])
 for i in range(10):
     Roll(luck,rollspeed)
 
