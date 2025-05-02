@@ -1258,7 +1258,7 @@ Recipes["Matrix : Steampunk"] = {
 luck = 1
 rollspeed = math.inf
 
-for i in range(13):
+for i in range(0):
     for i in range(100):
         Roll(luck,rollspeed)
     luck *= 2.5
