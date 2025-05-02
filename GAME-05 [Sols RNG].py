@@ -1194,18 +1194,20 @@ Recipes["Darkshader"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Gravitational Device"] = {
-    Auras["Arcane : Dark"]["display"]: 1,
-    Auras["Twilight"]["display"]: 5,
-    Auras["Undefined"]["display"]: 20, 
-    Auras["Ink:LEAK"]["display"]: 1150, 
-    Auras["Lunar"]["display"]: 2700, 
-    Auras["Hazard"]["display"]: 2250, 
-    Auras["Bleeding"]["display"]: 3350, 
-    Auras["Diaboli"]["display"]: 14800, 
+
+Recipes["Darkshader"] = {
+    Auras["Forbidden"]["display"]: 37000,
     Auras["Ink"]["display"]: 22000, 
-    Auras["Forbidden"]["display"]: 37000, 
-    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
+    Auras["Diaboli"]["display"]: 14800, 
+    Auras["Bleeding"]["display"]: 3350, 
+    Auras["Hazard"]["display"]: 2250, 
+    Auras["Lunar"]["display"]: 2700, 
+    Auras["Ink:LEAK"]["display"]: 1150,
+    Auras["Undefined"]["display"]: 20, 
+    Auras["Twilight"]["display"]: 5,
+
+    Auras["Arcane : Dark"]["display"]: 1,
+    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
     "luck": 5.0,
     "rollspeed": 5.0,
     "type": "Gauntlet"
