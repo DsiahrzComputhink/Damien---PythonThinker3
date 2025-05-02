@@ -1136,6 +1136,22 @@ Recipes["Exoflex Device"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Exoflex Device"] = {
+    Recipes["Exo Gauntlet"]["display"]: 1,
+    Auras["Rare"]["display"]: 30000,
+    Auras["Forbidden"]["display"]: 2000,
+    Auras["Aquamarine"]["display"]: 1000,
+    Auras["Siderium"]["display"]: 350,
+    Auras["Undead"]["display"]: 37,
+    Auras["Starlight"]["display"]: 80, 
+    Auras["Exotic"]["display"]: 50, 
+    Auras["Jade"]["display"]: 5, 
+    Auras["Arcane"]["display"]: 3,
+    "display": f"{fg("[T6]",63)} {fg("Exo", 210)}{fg("fle", 216)}{fg("x D", 222)}{fg("evi", 157)}{fg("ce", 159)}",
+    "luck": 1.00 + 3.40,
+    "rollspeed": 1.00 + 0.35,
+    "type": "Gauntlet"
+}
 
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
