@@ -1198,7 +1198,7 @@ Recipes["Neuralyzer"] = {
     Auras["Rage"]["display"]: 2500,
     Auras["Diaboli"]["display"]: 2000,
     Auras["Rage : Heated"]["display"]: 250, 
-    Auras["Lunar"]["display"]: 400,
+    Auras["Exotic"]["display"]: 400,
     Auras["Bounded : Unbound"]["display"]: 20, 
     Auras["Twilight"]["display"]: 10,
     Auras["Virtual"]["display"]: 18,
