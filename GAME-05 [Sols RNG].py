@@ -1187,7 +1187,7 @@ Recipes["Gravtiational Device"] = {
     Auras["Diaboli"]["display"]: 14800, 
     Auras["Ink"]["display"]: 22000, 
     Auras["Forbidden"]["display"]: 37000, 
-    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 99)}",
+    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 63)}",
     "luck": 5.0,
     "rollspeed": 5.0,
     "type": "Gauntlet"
