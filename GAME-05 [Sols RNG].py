@@ -1193,6 +1193,23 @@ Recipes["Darkshader"] = {
     "type": "Gauntlet"
 }
 
+Recipes["sTAR"] = {
+    Recipes["Hologrammer"]["display"]: 1,
+    Auras["Lost Soul"]["display"]: 2500,
+    Auras["Flushed"]["display"]: 2000,
+    Auras["Starlight"]["display"]: 250, 
+    Auras["Exotic"]["display"]: 400,
+    Auras["Bounded : Unbound"]["display"]: 20, 
+    Auras["Twilight"]["display"]: 10,
+    Auras["Virtual"]["display"]: 18,
+    Auras["Origin"]["display"]: 7,
+    Auras["Chromatic"]["display"]: 2,
+    "display": f"{fg("[T9]",177)} {fg("Ne", 216)}{fg("ur", 222)}{fg("al", 157)}{fg("yz", 159)}{fg("er", 183)}",
+    "luck": 1.00 + 4.55,
+    "rollspeed": 1.00 + 0.40,
+    "type": "Gauntlet"
+}
+
 Recipes["Neuralyzer"] = {
     Recipes["Hologrammer"]["display"]: 1,
     Auras["Lost Soul"]["display"]: 2500,
