@@ -1214,7 +1214,7 @@ Recipes["Darkshader"] = {
 }
 
 Recipes["Starshaper"] = {
-    Recipes["Grav"]["display"]: 1,
+    Recipes["Gravitational Device"]["display"]: 1,
     Recipes["Hologrammer"]["display"]: 1,
     Recipes["Hologrammer"]["display"]: 1,
     Recipes["Hologrammer"]["display"]: 1,
