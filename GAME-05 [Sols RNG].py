@@ -1145,6 +1145,7 @@ Recipes["Hologrammer"] = {
     Auras["Undead"]["display"]: 37,
     Auras["Starlight"]["display"]: 80, 
     Auras["Exotic"]["display"]: 50, 
+    Auras["Twilight"]["display"]: 3,
     Auras["Virtual"]["display"]: 2,
     Auras["Virtual"]["display"]: 2,
     "display": f"{fg("[T6]",63)} {fg("Hologrammer",117)}",
