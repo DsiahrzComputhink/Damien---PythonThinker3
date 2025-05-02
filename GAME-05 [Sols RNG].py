@@ -560,13 +560,18 @@ for i in range(10):
 # * Access all features through a interactive menu system.
 
 # side note, this might be the basis of life for all data-based games
+
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L11]-ASCII [Password Storage].txt")
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Data.txt")
 
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
 else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+
+with open(textfile, "r") as file:
+        Data = file.read()
+Data = eval(content)
 
 def loaddatabase(textfile):
     with open(textfile, "r") as file:
