@@ -490,7 +490,7 @@ Recipes["Neuralyzer"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Neuralyzer"] = {
+Recipes["Pole Light Core Device"] = {
     Auras["Magnetic"]["display"]: 9000,
     Auras["Siderium"]["display"]: 7250,
     Auras["Solar"]["display"]: 5000, 
@@ -501,7 +501,7 @@ Recipes["Neuralyzer"] = {
     Auras["Hypervolt"]["display"]: 4,
     Auras["Sirius"]["display"]: 3,
     Auras["Blizzard"]["display"]: 3,
-    "display": f"{fg("[T9]",177)} {fg("Ne", 216)}{fg("ur", 222)}{fg("al", 157)}{fg("yz", 159)}{fg("er", 183)}",
+    "display": f"{fg("[T9]",177)} {fg("Pole", 216)}{fg("ur", 222)}{fg("al", 157)}{fg("yz", 159)}{fg("er", 183)}",
     "luck": 1.00 + 4.55,
     "rollspeed": 1.00 + 0.40,
     "type": "Gauntlet"
