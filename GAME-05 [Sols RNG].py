@@ -1183,7 +1183,7 @@ Recipes["Gravitational Device"] = {
     Auras["Diaboli"]["display"]: 14800, 
     Auras["Bleeding"]["display"]: 3350, 
     Auras["Hazard"]["display"]: 15, 
-    Auras["Lunar"]["display"]: 152, 
+    Auras["Siderium"]["display"]: 31, 
     Auras["Nautilus"]["display"]: 5,
     Auras["Exotic"]["display"]: 5, 
     Auras["Bounded"]["display"]: 3,
