@@ -537,29 +537,7 @@ rollspeed = math.inf
 
 #TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
 
-
-    # DATA [wip]
-# random.choice([List,List2]) chooses a random element from the list.
-
-# -- RANGES
-    # Uppercase Leters: 65 - 90
-    # Lowercase Letters: 97 - 122
-    # Digits: 48 - 57
-    # Symbols: 33 - 47, 58 - 64, 91 - 96
-    # Space: 32
-
-    # RANGE is 32 - 126
-
-
-# ASCII User Management System (UMS)
-
-# Must DO:
-# * Create new users with automatically generated strong passwords.
-# * Update existing passwords by verifiying the current one.
-# * View usernames and their masked passwords.
-# * Access all features through a interactive menu system.
-
-# side note, this might be the basis of life for all data-based games
+    # --- DATA [WIP]
 
 FilePath = os.getcwd()
 textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Data.txt")
