@@ -1194,8 +1194,8 @@ Recipes["Darkshader"] = {
 }
 
 Recipes["Neuralyzer"] = {
-    Recipes["Exo Gauntlet"]["display"]: 1,
-    Auras["Rage"]["display"]: 23000,
+    Recipes["Hologrammer"]["display"]: 1,
+    Auras["Rage"]["display"]: 2500,
     Auras["Diaboli"]["display"]: 3200,
     Auras["Ash"]["display"]: 1450,
     Auras["Siderium"]["display"]: 800,
