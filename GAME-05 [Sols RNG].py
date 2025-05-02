@@ -1122,7 +1122,7 @@ Recipes["Volcanic Device"] = {
 Recipes["Exoflex Device"] = {
     Recipes["Exo Gauntlet"]["display"]: 1,
     Auras["Rage"]["display"]: 1000,
-    Auras["Diaboli"]["display"]: 140, 
+    Auras["Starlight"]["display"]: 80, 
     Auras["Exotic"]["display"]: 50, 
     Auras["Jade"]["display"]: 5, 
     Auras["Arcane"]["display"]: 3,
