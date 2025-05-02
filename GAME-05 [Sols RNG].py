@@ -987,6 +987,20 @@ InventoryAuras = {}
 InventoryGauntlets = {}
 Recipes = {}
 
+# Auras
+Recipes["Eclipse"] = {
+    Auras["Solar"]["display"]: 1, 
+    Auras["Lunar"]["display"]: 1, 
+    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
+    "type": "Aura"
+}
+
+Recipes["Matrix : Steampunk"] = {
+    Auras["Solar"]["display"]: 1, 
+    Auras["Lunar"]["display"]: 1, 
+    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
+    "type": "Aura"
+}
 # Gauntlets
 Recipes["Gear Basing"] = {
     Auras["Rare"]["display"]: 1,
@@ -1240,20 +1254,7 @@ Recipes["Neuralyzer"] = {
     "rollspeed": 1.00 + 0.40,
     "type": "Gauntlet"
 }
-# Auras
-Recipes["Eclipse"] = {
-    Auras["Solar"]["display"]: 1, 
-    Auras["Lunar"]["display"]: 1, 
-    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
-    "type": "Aura"
-}
 
-Recipes["Matrix : Steampunk"] = {
-    Auras["Solar"]["display"]: 1, 
-    Auras["Lunar"]["display"]: 1, 
-    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
-    "type": "Aura"
-}
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 luck = 1
 rollspeed = math.inf
