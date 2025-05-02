@@ -998,7 +998,7 @@ Recipes["Eclipse"] = {
 Recipes["Matrix : Steampunk"] = {
     Auras["Solar"]["display"]: 1, 
     Auras["Lunar"]["display"]: 1, 
-    "display": f"{fg('MATRIX : STEAMPUNK', 215)} {fg('[UNIQUE CRAFTED]',179)}",
+    "display": f"{fg('MATRIX : STEAMPUNK', 215)} {fg('[GLORIOUS CRAFTED]',179)}",
     "type": "Aura"
 }
 
