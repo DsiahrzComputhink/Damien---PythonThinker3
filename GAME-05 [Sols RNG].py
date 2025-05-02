@@ -1150,7 +1150,7 @@ Recipes["Hologrammer"] = {
     Auras["Magnetic : Reverse Polarity"]["display"]: 2,
     Auras["Virtual"]["display"]: 2,
     "display": f"{fg("[T6]",63)} {fg("Hologrammer",117)}",
-    "luck": 1.00 + 3.40,
+    "luck": 1.00 + 3.95,
     "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
 }
