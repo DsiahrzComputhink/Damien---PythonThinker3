@@ -1176,7 +1176,7 @@ Recipes["Ragnaröker"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Darkshader"] = {
+Recipes["Gravtiational Device"] = {
     Auras["Arcane : Dark"]["display"]: 1,
     Auras["Twilight"]["display"]: 5,
     Auras["Undefined"]["display"]: 20, 
@@ -1187,7 +1187,7 @@ Recipes["Darkshader"] = {
     Auras["Diaboli"]["display"]: 14800, 
     Auras["Ink"]["display"]: 22000, 
     Auras["Forbidden"]["display"]: 37000, 
-    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
+    "display": f"{fg("[T8]",141)} {fg("Gravitational Device", 99)}",
     "luck": 5.0,
     "rollspeed": 5.0,
     "type": "Gauntlet"
