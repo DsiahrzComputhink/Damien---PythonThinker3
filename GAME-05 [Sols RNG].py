@@ -1031,13 +1031,6 @@ Recipes["Solar Device"] = {
     "type": "Gauntlet"
 }
 
-Recipes["Eclipse"] = {
-    Auras["Solar"]["display"]: 1, 
-    Auras["Lunar"]["display"]: 1, 
-    "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
-    "type": "Aura"
-}
-
 Recipes["Eclipse Device"] = {
     Recipes["Solar Device"]["display"]: 1, 
     Recipes["Lunar Device"]["display"]: 1, 
