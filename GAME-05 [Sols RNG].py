@@ -1170,7 +1170,7 @@ Recipes["Ragnaröker"] = {
     Auras["Kyawthuite"]["display"]: 2, 
     Auras["Magnetic : Reverse Polarity"]["display"]: 2,
     Auras["Virtual"]["display"]: 2,
-    "display": f"{fg("[T6]",63)} {fg("Ragnaröker",161)}",
+    "display": f"{fg("[T7]",99)} {fg("Ragnaröker",161)}",
     "luck": 1.00 + 3.95,
     "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
@@ -1198,7 +1198,7 @@ luck = 1
 rollspeed = math.inf
 
 for i in range(10):
-    for i in range(2500):
+    for i in range(100):
         Roll(luck,rollspeed)
     luck *= 2.5
 
