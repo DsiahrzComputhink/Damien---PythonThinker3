@@ -1212,8 +1212,8 @@ Recipes["Darkshader"] = {
 Recipes["Starshaper"] = {
     Recipes["Gravitational Device"]["display"]: 1,
     Recipes["Galactic Device"]["display"]: 1,
-    Recipes["Hologrammer"]["display"]: 15,
-    Recipes["Hologrammer"]["display"]: 15,
+    Recipes["Solar Device"]["display"]: 15,
+    Recipes["Lunar Device"]["display"]: 15,
     Auras["Lost Soul"]["display"]: 2500,
     Auras["Flushed"]["display"]: 2000,
     Auras["Starlight"]["display"]: 250, 
