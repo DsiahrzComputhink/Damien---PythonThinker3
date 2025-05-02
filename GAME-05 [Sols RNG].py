@@ -501,7 +501,7 @@ Recipes["Pole Light Core Device"] = {
     Auras["Hypervolt"]["display"]: 4,
     Auras["Sirius"]["display"]: 3,
     Auras["Blizzard"]["display"]: 3,
-    "display": f"{fg("[T9]",177)} {fg("Pole", 216)}{fg("Light", 222)}{fg("Core", 157)}{fg("Device", 159)}",
+    "display": f"{fg("[T9]",177)} {fg("Pole", 153)}{fg("Light", 147)}{fg("Core", 157)}{fg("Device", 159)}",
     "luck": 1.00 + 4.55,
     "rollspeed": 1.00 + 0.40,
     "type": "Gauntlet"
