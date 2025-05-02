@@ -513,6 +513,7 @@ Recipes["Pole Light Core Device"] = {
 luck = 1
 rollspeed = math.inf
 
+num = 0
 for i in range(13):
     for i in range(10000):
         Roll(luck,rollspeed)
