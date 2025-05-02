@@ -1111,7 +1111,7 @@ Recipes["Volcanic Device"] = {
     Recipes["Eclipse Device"]["display"]: 1,
     Auras["Sapphire"]["display"]: 100,
     Auras["Magnetic"]["display"]: 62, 
-    Auras["Diaboli"]["display"]: 80, 
+    Auras["Bleeding"]["display"]: 55, 
     Auras["Rage : Heated"]["display"]: 10, 
     Auras["Hades"]["display"]: 1,
     "display": f"{fg("[T5]",69)} {fg("Galactic Device", 134)}",
