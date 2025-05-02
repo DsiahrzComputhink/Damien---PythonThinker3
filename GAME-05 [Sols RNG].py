@@ -575,7 +575,7 @@ Auras = {
     },
     "Hypervolt": {
         "rarity": 7500000,
-        "display": fg("HYPERVOLT", 177),
+        "display": fg("HYPER-VOLT", 177),
         "description": "Empty",
         "amplify": ['NONE',True]
     },
