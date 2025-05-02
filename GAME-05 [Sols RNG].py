@@ -317,9 +317,9 @@ Auras = {
         "description": "failed to die...",
         "amplify": ['Corruption',True]
     },
-    "Rage:Heated": {
+    "Rage : Heated": {
         "rarity": 12800,
-        "display": fg("Rage:Heated", 202),
+        "display": fg("Rage : Heated", 202),
         "description": "furious emotions",
         "amplify": ['NONE',True]
     },
