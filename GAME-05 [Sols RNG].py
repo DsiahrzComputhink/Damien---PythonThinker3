@@ -37,23 +37,6 @@ class style():
     error = dred
 LINE = style.bgray + "--------------------------------" + style.RESET
 
-import time
-import random
-import sys
-import math
-import os
-
-FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Auras.txt")
-
-if os.path.exists(textfile):
-    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
-else:
-    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
-with open(textfile, "r") as file:
-        content = file.read()
-memory = eval(content)
-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
 LINE = fg("--------------------------------",232)
@@ -72,6 +55,23 @@ def debugcolour():
     for row in range(0, 43):
         print_six(row, fg, " ")
         print_six(row, bg)
+        
+import time
+import random
+import sys
+import math
+import os
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Auras.txt")
+
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+with open(textfile, "r") as file:
+        content = file.read()
+memory = eval(content)
 
 Biomes = {
     "Windy": {"Chance": 500, "Amplify": 3},
