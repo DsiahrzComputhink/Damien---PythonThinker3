@@ -43,6 +43,7 @@ print(style.bgray + "Placeholder" + style.RESET)
 # Simple Text Colour ⬆
 
 # --------------------------------------------------------------------
+
 import os
 
 FilePath = os.getcwd()
