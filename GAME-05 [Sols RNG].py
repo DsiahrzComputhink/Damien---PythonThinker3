@@ -1159,11 +1159,11 @@ Recipes["Hologrammer"] = {
 
 Recipes["Ragnaröker"] = {
     Auras["Forbidden"]["display"]: 4000,
-    Auras["Diaboli"]["display"]: 1645,
-    Auras["Magnetic"]["display"]: 830,
-    Auras["Player"]["display"]: 600,
-    Auras["Rage : Heated"]["display"]: 145,
-    Auras["Starlight"]["display"]: 80,
+    Auras["Diaboli"]["display"]: 3,
+    Auras["Magnetic"]["display"]: 3200,
+    Auras["Player"]["display"]: 1450,
+    Auras["Rage : Heated"]["display"]: 800,
+    Auras["Starlight"]["display"]: 300,
     Auras["Comet"]["display"]: 230, 
     Auras["Lunar"]["display"]: 175,
     Auras["Solar"]["display"]: 175, 
