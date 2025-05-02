@@ -1001,6 +1001,7 @@ Recipes["Matrix : Steampunk"] = {
     "display": f"{fg('Ecl', 215)}{fg('i',246)}{fg('pse',19)} {fg('[UNIQUE CRAFTED]',179)}",
     "type": "Aura"
 }
+
 # Gauntlets
 Recipes["Gear Basing"] = {
     Auras["Rare"]["display"]: 1,
