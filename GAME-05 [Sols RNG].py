@@ -50,6 +50,9 @@ if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
 else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+with open(textfile, "r") as file:
+        content = file.read()
+memory = eval(content)
 
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
