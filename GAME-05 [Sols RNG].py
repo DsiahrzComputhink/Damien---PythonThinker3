@@ -996,8 +996,8 @@ Recipes["Eclipse"] = {
 }
 
 Recipes["Matrix : Steampunk"] = {
-    Auras["Solar"]["display"]: 1, 
-    Auras["Matrix"]["display"]: 9, 
+    Auras["Gilded"]["display"]: 1, 
+    Auras["Powered"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
