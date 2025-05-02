@@ -1171,8 +1171,8 @@ Recipes["Ragnaröker"] = {
     Auras["Zeus"]["display"]: 3,
     Auras["Hades"]["display"]: 3,
     "display": f"{fg("[T7]",99)} {fg("Ragnaröker",161)}",
-    "luck": 1.00 + 3.95,
-    "rollspeed": 1.00 + 0.35,
+    "luck": 1.00 + 4.55,
+    "rollspeed": 1.00 + 0.40,
     "type": "Gauntlet"
 }
 
