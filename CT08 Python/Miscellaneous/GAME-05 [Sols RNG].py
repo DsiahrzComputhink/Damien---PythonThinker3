@@ -231,7 +231,7 @@ Recipes["Matrix : Steampunk"] = {
     Auras["Zeus"]["display"]: 10, 
     Auras["Hypervolt"]["display"]: 50, 
     Auras["Matrix"]["display"]: 9, 
-    "display": f"{fg('MATRIX : STEAMPUNK', 216)} {fg('[GLORIOUS CRAFTED]',160)}",
+    "display": f"{fg('MATRIX : STEAMPUNK', 215)} {fg('[GLORIOUS CRAFTED]',160)}",
     "type": "Aura"
 }
 
