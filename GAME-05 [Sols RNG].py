@@ -999,7 +999,7 @@ Recipes["Matrix : Steampunk"] = {
     Auras["Gilded"]["display"]: 1, 
     Auras["Powered"]["display"]: 9, 
     Auras["Magnetic : Reverse Polarity"]["display"]: 9, 
-    Auras["Matrix"]["display"]: 9, 
+    Auras["Virtual"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
     Auras["Matrix"]["display"]: 9, 
