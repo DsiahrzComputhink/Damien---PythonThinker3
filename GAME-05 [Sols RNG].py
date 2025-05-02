@@ -1138,8 +1138,8 @@ Recipes["Exoflex Device"] = {
 
 Recipes["Hologrammer"] = {
     Recipes["Exo Gauntlet"]["display"]: 1,
-    Auras["Rare"]["display"]: 30000,
-    Auras["Forbidden"]["display"]: 2000,
+    Auras["dia"]["display"]: 30000,
+    Auras["Magnetic"]["display"]: 2000,
     Auras["Player"]["display"]: 1000,
     Auras["Rage : Heated"]["display"]: 350,
     Auras["Starlight"]["display"]: 37,
