@@ -965,7 +965,7 @@ def inventory(inventory : dict,name: str) -> None:
         if count == 0:
             remove.append(name)
         else:
-            print(f"{name} : {count:,}")
+            print(f"{name} : {count}:,")
     print(LINE)
     for item in remove:
         del inventory[item]
