@@ -1124,7 +1124,7 @@ Recipes["Exoflex Device"] = {
     Auras["Rage"]["display"]: 1000,
     Auras["Diaboli"]["display"]: 140, 
     Auras["Bleeding"]["display"]: 55, 
-    Auras["Rage : Heated"]["display"]: 10, 
+    Auras["Jade"]["display"]: 10, 
     Auras["Arcane"]["display"]: 3,
     "display": f"{fg("[T6]",63)} {fg("Exo", 210)}{fg("fle", 216)}{fg("x D", 222)}{fg("ev", 157)}{fg("ice", 159)}",
     "luck": 1.00 + 3.40,
