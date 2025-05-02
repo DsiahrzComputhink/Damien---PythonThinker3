@@ -778,7 +778,7 @@ def console():
     while stop == 0:
         if signedin == 0:
             print(LINE)
-            print("ASCII User Management System [UMS]")
+            print("Sols RNG")
             print(LINE)
             print(style.bblue + "1" + style.RESET,"                        ","Sign In")
             print(style.bblue + "2" + style.RESET,"                          ","Login")
