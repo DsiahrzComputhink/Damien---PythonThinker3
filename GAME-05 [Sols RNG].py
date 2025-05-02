@@ -55,7 +55,7 @@ def debugcolour():
     for row in range(0, 43):
         print_six(row, fg, " ")
         print_six(row, bg)
-        
+
 import time
 import random
 import sys
@@ -69,9 +69,11 @@ if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
 else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+
 with open(textfile, "r") as file:
         content = file.read()
 memory = eval(content)
+print(memory)
 
 Biomes = {
     "Windy": {"Chance": 500, "Amplify": 3},
