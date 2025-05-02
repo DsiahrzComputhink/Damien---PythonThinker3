@@ -513,27 +513,27 @@ Recipes["Pole Light Core Device"] = {
 luck = 1
 rollspeed = math.inf
 
-for i in range(13):
-    for i in range(100):
-        Roll(luck,rollspeed)
-    luck *= 2.5
+# for i in range(13):
+#     for i in range(100):
+#         Roll(luck,rollspeed)
+#     luck *= 2.5
 
-for i in range(20):
-    craft(Recipes["Gear Basing"])
+# for i in range(20):
+#     craft(Recipes["Gear Basing"])
 
 
-inventory(InventoryAuras, fg("Inventory", 220))
-debugcolour()
+# inventory(InventoryAuras, fg("Inventory", 220))
+# debugcolour()
 
-for recipe in Recipes:
-    craft(Recipes[recipe])
+# for recipe in Recipes:
+#     craft(Recipes[recipe])
 
-for recipe in Recipes:
-    print(Recipes[recipe]["display"])
+# for recipe in Recipes:
+#     print(Recipes[recipe]["display"])
 
-equip(Recipes["Exo Gauntlet"])
-for i in range(10):
-    Roll(luck,rollspeed)
+# equip(Recipes["Exo Gauntlet"])
+# for i in range(10):
+#     Roll(luck,rollspeed)
 
 #TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
 
