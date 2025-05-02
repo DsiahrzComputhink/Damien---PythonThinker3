@@ -550,3 +550,18 @@ else:
 with open(textfile, "r") as file:
         content = file.read()
 Data = eval(content)
+
+root = tk.Tk()
+root.title("Aura Crafter")
+root.geometry("400x300")
+
+roll_button = tk.Button(root, text="Craft Aura", command=roll_aura, font=("Arial", 14))
+roll_button.pack(pady=10)
+
+aura_label = tk.Label(root, text="", font=("Arial", 12))
+aura_label.pack(pady=5)
+
+inventory_label = tk.Label(root, text="Inventory:", font=("Arial", 10), justify="left")
+inventory_label.pack(pady=10)
+
+root.mainloop()
