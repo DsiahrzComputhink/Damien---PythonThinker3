@@ -1183,7 +1183,7 @@ for i in range(13):
         Roll(luck,rollspeed)
     luck *= 2.5
 
-for i in range(10):
+for i in range(50):
     craft(Recipes["Gear Basing"])
 
 
