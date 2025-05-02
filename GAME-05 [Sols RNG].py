@@ -1062,8 +1062,8 @@ Recipes["Exo Gauntlet"] = {
 
 Recipes["Windstorm Device"] = {
     Recipes["Gear Basing"]["display"]: 5,
-    Auras["Gilded"]["display"]: 3,
-    Auras["Precious"]["display"]: 2,
+    Auras["Wind"]["display"]: 9,
+    Auras["Precious"]["display"]: 12,
     Auras["Siderium"]["display"]: 4,
     Auras["Aquatic"]["display"]: 1, 
     Auras["Stormal"]["display"]: 1,
