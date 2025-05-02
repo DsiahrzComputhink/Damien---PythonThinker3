@@ -1222,7 +1222,7 @@ Recipes["Starshaper"] = {
     Auras["Twilight"]["display"]: 90,
     Auras["Virtual"]["display"]: 6,
     Auras["Origin"]["display"]: 3,
-    Auras["Chromatic"]["display"]: 3,
+    Auras["Hypervolt"]["display"]: 3,
     Auras["Starscourge"]["display"]: 2,
     "display": f"{fg("[T8]",141)} {fg("Starshaper", 216)}",
     "luck": 1.00 + 4.55,
