@@ -1142,7 +1142,7 @@ Recipes["Hologrammer"] = {
     Auras["Forbidden"]["display"]: 2000,
     Auras["Aquamarine"]["display"]: 1000,
     Auras["Siderium"]["display"]: 350,
-    Auras["Undead"]["display"]: 37,
+    Auras["Starlight"]["display"]: 37,
     Auras["Comet"]["display"]: 80, 
     Auras["Kyawthuite"]["display"]: 50, 
     Auras["Twilight"]["display"]: 3,
