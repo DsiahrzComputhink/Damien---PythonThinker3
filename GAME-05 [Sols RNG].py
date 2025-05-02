@@ -51,9 +51,6 @@ if os.path.exists(textfile):
 else:
     print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
 
-# --- SOLS RNG CALCULATOR --- #
-# Calculates the chances of you getting something
-
 fg = lambda text, color: "\33[38;5;" + str(color) + "m" + text + "\33[0m"
 bg = lambda text, color: "\33[48;5;" + str(color) + "m" + text + "\33[0m"
 LINE = fg("--------------------------------",232)
