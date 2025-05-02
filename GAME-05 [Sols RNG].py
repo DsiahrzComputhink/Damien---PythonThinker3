@@ -1177,13 +1177,14 @@ Recipes["Ragnaröker"] = {
 }
 
 Recipes["Gravitational Device"] = {
+    Recipes["Gear Basing"]["display"]: 15,
     Auras["Forbidden"]["display"]: 37000,
     Auras["Ink"]["display"]: 22000, 
     Auras["Diaboli"]["display"]: 14800, 
     Auras["Bleeding"]["display"]: 3350, 
     Auras["Hazard"]["display"]: 15, 
     Auras["Lunar"]["display"]: 152, 
-    Auras["Ink:LEAK"]["display"]: 75,
+    Auras["Ink:LEAK"]["display"]: 5,
     Auras["Undefined"]["display"]: 5, 
     Auras["Bounded"]["display"]: 3,
     Auras["Gravitational"]["display"]: 1,
