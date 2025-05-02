@@ -1193,6 +1193,25 @@ Recipes["Darkshader"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Ragnaröker"] = {
+    Auras["Rage"]["display"]: 23000,
+    Auras["Diaboli"]["display"]: 3200,
+    Auras["Ash"]["display"]: 1450,
+    Auras["Siderium"]["display"]: 800,
+    Auras["Lost Soul"]["display"]: 300,
+    Auras["Rage : Heated"]["display"]: 230, 
+    Auras["Lunar"]["display"]: 175,
+    Auras["Solar"]["display"]: 175, 
+    Auras["Star Rider"]["display"]: 75,
+    Auras["Poseidon"]["display"]: 3,
+    Auras["Zeus"]["display"]: 3,
+    Auras["Hades"]["display"]: 3,
+    "display": f"{fg("[T7]",99)} {fg("Ragnaröker",161)}",
+    "luck": 1.00 + 4.55,
+    "rollspeed": 1.00 + 0.40,
+    "type": "Gauntlet"
+}
+
 # LUCK = ((1 + Basic Luck) * Bonus Roll + Special Buff) * VIP
 luck = 1
 rollspeed = math.inf
