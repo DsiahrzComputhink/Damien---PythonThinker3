@@ -1119,6 +1119,22 @@ Recipes["Volcanic Device"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Volcanic Device"] = {
+    Recipes["Gear Basing"]["display"]: 6,
+    Recipes["Solar Device"]["display"]: 1,
+    Recipes["Windstorm Device"]["display"]: 1,
+    Auras["Rage"]["display"]: 1000,
+    Auras["Diaboli"]["display"]: 140, 
+    Auras["Bleeding"]["display"]: 55, 
+    Auras["Rage : Heated"]["display"]: 10, 
+    Auras["Hades"]["display"]: 1,
+    "display": f"{fg("[T5]",69)} {fg("Volcanic Device", 202)}",
+    "luck": 1.00 + 2.90,
+    "rollspeed": 1.00 + 0.35,
+    "type": "Gauntlet"
+}
+
+
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
     Auras["Twilight"]["display"]: 5,
