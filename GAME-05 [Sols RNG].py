@@ -1178,7 +1178,7 @@ luck = 1
 rollspeed = math.inf
 
 for i in range(15):
-    for i in range(250):
+    for i in range(2500):
         Roll(luck,rollspeed)
     luck *= 2.5
 
@@ -1195,7 +1195,7 @@ for recipe in Recipes:
 for recipe in Recipes:
     print(Recipes[recipe]["display"])
 
-equip(Recipes["Darkshader"])
+equip(Recipes["Windstorm Device"])
 for i in range(10):
     Roll(luck,rollspeed)
 
