@@ -1126,7 +1126,7 @@ Recipes["Exoflex Device"] = {
     Auras["Bleeding"]["display"]: 55, 
     Auras["Rage : Heated"]["display"]: 10, 
     Auras["Arcane"]["display"]: 3,
-    "display": f"{fg("[T6]",63)} {fg("Exo", 210)}{fg("fle", 216)}{fg("x D", 222)}{fg("ev", 157)}{fg("Eice", 159)}",
+    "display": f"{fg("[T6]",63)} {fg("Exo", 210)}{fg("fle", 216)}{fg("x D", 222)}{fg("ev", 157)}{fg("ice", 159)}",
     "luck": 1.00 + 3.40,
     "rollspeed": 1.00 + 0.35,
     "type": "Gauntlet"
