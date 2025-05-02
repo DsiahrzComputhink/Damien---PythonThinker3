@@ -1112,7 +1112,7 @@ Recipes["Volcanic Device"] = {
     Auras["Sapphire"]["display"]: 100,
     Auras["Magnetic"]["display"]: 62, 
     Auras["Diaboli"]["display"]: 80, 
-    Auras["Rare"]["display"]: 3, 
+    Auras["Rage:Heated"]["display"]: 3, 
     Auras["Hades"]["display"]: 1,
     "display": f"{fg("[T5]",69)} {fg("Galactic Device", 134)}",
     "luck": 1.00 + 2.90,
