@@ -1157,6 +1157,25 @@ Recipes["Hologrammer"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Ragnar"] = {
+    Recipes["Exo Gauntlet"]["display"]: 1,
+    Auras["Forbidden"]["display"]: 4000,
+    Auras["Diaboli"]["display"]: 1645,
+    Auras["Magnetic"]["display"]: 830,
+    Auras["Player"]["display"]: 600,
+    Auras["Rage : Heated"]["display"]: 145,
+    Auras["Starlight"]["display"]: 80,
+    Auras["Comet"]["display"]: 30, 
+    Auras["Twilight"]["display"]: 3,
+    Auras["Kyawthuite"]["display"]: 2, 
+    Auras["Magnetic : Reverse Polarity"]["display"]: 2,
+    Auras["Virtual"]["display"]: 2,
+    "display": f"{fg("[T6]",63)} {fg("Hologrammer",117)}",
+    "luck": 1.00 + 3.95,
+    "rollspeed": 1.00 + 0.35,
+    "type": "Gauntlet"
+}
+
 Recipes["Darkshader"] = {
     Auras["Arcane : Dark"]["display"]: 1,
     Auras["Twilight"]["display"]: 5,
