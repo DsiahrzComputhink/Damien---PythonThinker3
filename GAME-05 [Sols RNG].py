@@ -1193,6 +1193,23 @@ Recipes["Darkshader"] = {
     "type": "Gauntlet"
 }
 
+Recipes["Darkshader"] = {
+    Auras["Arcane : Dark"]["display"]: 1,
+    Auras["Twilight"]["display"]: 5,
+    Auras["Undefined"]["display"]: 20, 
+    Auras["Ink:LEAK"]["display"]: 1150, 
+    Auras["Lunar"]["display"]: 2700, 
+    Auras["Hazard"]["display"]: 2250, 
+    Auras["Bleeding"]["display"]: 3350, 
+    Auras["Diaboli"]["display"]: 14800, 
+    Auras["Ink"]["display"]: 22000, 
+    Auras["Forbidden"]["display"]: 37000, 
+    "display": f"{fg("[T8]",141)} {fg("Darkshader", 99)}",
+    "luck": 5.0,
+    "rollspeed": 5.0,
+    "type": "Gauntlet"
+}
+
 Recipes["Starshaper"] = {
     Recipes["Grav"]["display"]: 1,
     Recipes["Hologrammer"]["display"]: 1,
