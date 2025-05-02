@@ -1158,7 +1158,6 @@ Recipes["Hologrammer"] = {
 }
 
 Recipes["Ragnaröker"] = {
-    Recipes["Exo Gauntlet"]["display"]: 1,
     Auras["Forbidden"]["display"]: 4000,
     Auras["Diaboli"]["display"]: 1645,
     Auras["Magnetic"]["display"]: 830,
@@ -1169,7 +1168,7 @@ Recipes["Ragnaröker"] = {
     Auras["Twilight"]["display"]: 3,
     Auras["Kyawthuite"]["display"]: 2, 
     Auras["Magnetic : Reverse Polarity"]["display"]: 2,
-    Auras["Virtual"]["display"]: 2,
+    Auras["Zeus"]["display"]: 2,
     "display": f"{fg("[T7]",99)} {fg("Ragnaröker",161)}",
     "luck": 1.00 + 3.95,
     "rollspeed": 1.00 + 0.35,
