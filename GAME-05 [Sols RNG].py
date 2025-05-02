@@ -1184,6 +1184,7 @@ Recipes["Gravtiational Device"] = {
     Auras["Ink"]["display"]: 22000, 
     Auras["Forbidden"]["display"]: 37000, 
     Auras["Lunar"]["display"]: 2700, 
+    Auras["Lunar"]["display"]: 2700, 
     Auras["Ink:LEAK"]["display"]: 1150,
     Auras["Undefined"]["display"]: 20, 
     Auras["Twilight"]["display"]: 5,
