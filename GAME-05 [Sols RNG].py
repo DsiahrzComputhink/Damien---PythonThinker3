@@ -1120,7 +1120,7 @@ Recipes["Volcanic Device"] = {
 }
 
 Recipes["Exoflex Device"] = {
-    Recipes["ex"]["display"]: 1,
+    Recipes["Exo Gauntlet"]["display"]: 1,
     Auras["Rage"]["display"]: 1000,
     Auras["Diaboli"]["display"]: 140, 
     Auras["Bleeding"]["display"]: 55, 
