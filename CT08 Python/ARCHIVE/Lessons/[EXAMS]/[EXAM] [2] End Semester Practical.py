@@ -47,12 +47,12 @@ print("Welcome to the Restruant!")
 print(LINE)
 print("MENU:")
 for key in menu:
-    print(f"{key} : ${menu[key]:0.2f}")
+    print(f"{key} : ${menu[key]:.2f}")
 print(LINE)
 while True:
     print("What would you like to order?")
     order = input("")
     if order.capitalize() in menu:
-        print(f"That item costs ${menu[order]}")
+        print(f"That item costs ${menu[order]:.2f}")
 
 ##########################################################
