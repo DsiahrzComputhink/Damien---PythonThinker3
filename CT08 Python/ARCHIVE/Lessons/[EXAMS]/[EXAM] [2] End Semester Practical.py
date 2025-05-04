@@ -106,7 +106,9 @@ customer_spending = {
 
 for name in customer_spending:
     if customer_spending[name] > 1000:
-        print(f"Hi {name}, ")
+        print(f"Hi {name}, you are now a VIP! Congratulations!")
+    else:
+        
 
 
 
