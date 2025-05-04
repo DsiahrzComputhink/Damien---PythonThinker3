@@ -28,9 +28,10 @@ for fruit in fruitcost:
     price = fruitcost[fruit]
     print(f"{fruit} costs {price}")
 
-# Looping through a dictionary (.keys(), .values(), .items())
+# Iterating through a dictionary (.keys(), .values(), .items())
 for fruit in fruitcost.keys():
     print(fruit)
+
 # Method 2
 print(fruitcost.keys())
 print(fruitcost.values())
