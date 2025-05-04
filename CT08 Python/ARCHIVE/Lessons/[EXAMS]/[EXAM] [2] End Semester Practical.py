@@ -49,7 +49,8 @@ print("MENU:")
 for key in menu:
     print(f"{key} : ${menu[key]:0.2f}")
 print(LINE)
-print("What would you like to order?")
+while True:
+    print("What would you like to order?")
 
 
 ##########################################################
