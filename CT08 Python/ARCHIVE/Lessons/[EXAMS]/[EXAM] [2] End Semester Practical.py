@@ -47,6 +47,6 @@ print("Welcome to the Restruant!")
 print(LINE)
 print("MENU:")
 for key in menu:
-    print(f"{key} : ${menu[key]:8.2f}")
+    print(f"{key} : ${menu[key]:0.2f}")
 
 ##########################################################
