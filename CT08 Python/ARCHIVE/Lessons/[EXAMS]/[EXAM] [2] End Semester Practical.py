@@ -45,6 +45,7 @@ LINE = "------------------------------------"
 print(LINE)
 print("Welcome to the Restruant!")
 print(LINE)
-
+print("MENU:")
+for k in menu:
 
 ##########################################################
