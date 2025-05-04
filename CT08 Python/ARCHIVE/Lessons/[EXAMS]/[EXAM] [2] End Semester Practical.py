@@ -40,6 +40,8 @@ menu = {
 # Part 3: CHECK IF ITEM EXISTS AND PRINT THE PRICE
 
 # Write your code here, add more space as required
+
+    # Dependicies
 LINE = "------------------------------------"
 
 print(LINE)
