@@ -87,7 +87,7 @@ else:
 
 with open(textfile, "r") as file:
         data = file.read()
-Data = eval(content)
+Data = eval(data)
 
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
