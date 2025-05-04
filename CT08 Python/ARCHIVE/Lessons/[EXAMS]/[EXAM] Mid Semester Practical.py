@@ -45,7 +45,6 @@ Scrabble = {
     "X": 8,
     "Y": 4,
     "Z": 10,
-    " ": -1000,
 }
 
 # Variables
