@@ -132,18 +132,19 @@ def pick_aura(luck_multiplier: float = 1.0, auras: dict = None):
 
     return "Common", auras["Common"]
 
-def Roll(luck: float = 1.0, rollspeed: float = 1.0):
+def Roll(luck: float = 1.0, rollspeed: float = 1.0,roll: bool = True):
     roll_speed = 0.15 / rollspeed
     slowdown_rate = 1.1
     speed = roll_speed
 
     # Rolling animation
-    for _ in range(10):
-        _, temp_aura = pick_aura(luck)
-        sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}                                                        ", random.randint(232, 255)))
-        sys.stdout.flush()
-        time.sleep(speed)
-        speed *= slowdown_rate
+    if roll == True:
+        for _ in range(10):
+            _, temp_aura = pick_aura(luck)
+            sys.stdout.write("\r" + fg(f"Rolling... {temp_aura['display']}                                                        ", random.randint(232, 255)))
+            sys.stdout.flush()
+            time.sleep(speed)
+            speed *= slowdown_rate
 
     # Final roll
     _, selected_aura = pick_aura(luck)
