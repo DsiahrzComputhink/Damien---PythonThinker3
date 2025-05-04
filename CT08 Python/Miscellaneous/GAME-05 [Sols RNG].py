@@ -535,17 +535,3 @@ for i in range(10000000):
     Roll(luck,rollspeed)
 
 #TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
-
-    # --- DATA [WIP]
-
-FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Data.txt")
-
-if os.path.exists(textfile):
-    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
-else:
-    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
-
-with open(textfile, "r") as file:
-        content = file.read()
-Data = eval(content)
