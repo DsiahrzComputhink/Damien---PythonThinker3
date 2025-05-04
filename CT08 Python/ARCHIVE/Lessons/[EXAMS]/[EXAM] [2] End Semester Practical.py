@@ -46,7 +46,7 @@ print(LINE)
 print("Welcome to the Restruant!")
 print(LINE)
 print("MENU:")
-for key in menu:
+for key in menu: # Iterate through the menu
     print(f"{key} : ${menu[key]:.2f}")
 print(LINE)
 while True:
