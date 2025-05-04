@@ -140,7 +140,8 @@ for name in vip_dictionary:
 
 
 for name in non_vip_dictionary:
-    print(f"Hi {name}, you are now a VIP! Congratulations!")
+    difference = 
+    print(f"Hi {name}, spend {difference} more to become a VIP!")
 
 
 
