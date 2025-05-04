@@ -530,7 +530,7 @@ rollspeed = math.inf
 
 num = 0
 for i in range(13):
-    for i in range(20000):
+    for i in range(30000):
         num += 1
         print(num)
         Roll(luck,rollspeed,False)
@@ -546,8 +546,8 @@ debugcolour()
 for recipe in Recipes:
     craft(Recipes[recipe])
 
-equip(Recipes["Hologrammer"])
-for i in range(10):
+equip(Recipes["Neujralyzer"])
+for i in range(1000):
     Roll(luck,rollspeed)
 
 #TIERS FOR GEAR: 1-153 2-117 3-81 4-75 5-69 6-63 7-99 8-141 9-177
