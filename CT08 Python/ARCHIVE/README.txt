@@ -10,7 +10,7 @@ Also, any files with [example].txt in any of the lessons is subject to change as
 
 # EXAM RELATED
     Mid Semester Practical [9/3/2025]
-    End Semester Pr
+    End Semester Practical [4/5/2025]
 
 # MISCELLANEOUS
     ARCHIVE.py - MISCELLANEOUS
