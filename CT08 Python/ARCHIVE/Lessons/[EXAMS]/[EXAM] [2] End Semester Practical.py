@@ -106,10 +106,13 @@ customer_spending = {
 # Write your code here, add more space as required
 
 vip_dictionary = {}
+non_vip_dictionary = {}
 
 # Part 1
 for name in customer_spending:
     if customer_spending[name] > 1000:
+        vip_dictionary[name] = customer_spending[name] # if over $1000 spent, copy customer_spending[name] into vip_dictionary
+    else:
         vip_dictionary[name] = customer_spending[name] # if over $1000 spent, copy customer_spending[name] into vip_dictionary
 
 print(vip_dictionary)
