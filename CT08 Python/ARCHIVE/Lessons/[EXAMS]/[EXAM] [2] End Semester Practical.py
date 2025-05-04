@@ -43,8 +43,8 @@ menu = {
 LINE = "------------------------------------"
 
 print(LINE)
-print("Welcome to ")
-
+print("Welcome to the Restruant!")
+print(LINE)
 
 
 ##########################################################
