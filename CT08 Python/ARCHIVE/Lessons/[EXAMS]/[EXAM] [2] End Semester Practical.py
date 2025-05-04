@@ -21,8 +21,6 @@
 ###########################################
 # Task: Complete the code below
 
-LINE = "------------------------------------"
-
 menu = {
     "Pizza": 8.5,
     "Burger": 5.0,
@@ -42,9 +40,10 @@ menu = {
 # Part 3: CHECK IF ITEM EXISTS AND PRINT THE PRICE
 
 # Write your code here, add more space as required
+LINE = "------------------------------------"
 
-
-
+print(LINE)
+print("Welcome to ")
 
 
 
