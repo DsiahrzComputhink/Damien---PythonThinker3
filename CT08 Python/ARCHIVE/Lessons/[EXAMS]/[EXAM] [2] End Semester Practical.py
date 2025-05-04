@@ -128,7 +128,14 @@ print(vip_dictionary)
 # Write your code here, add more space as required
 
 
-
+for name in customer_spending:
+    if customer_spending[name] > 1000:
+        print(f"Hi {name}, you are now a VIP! Congratulations!")
+        vip_dictionary[name] = customer_spending[name] # Part 1
+    else:
+        money_spent = customer_spending[name]
+        difference = 1000 - money_spent
+        print(f"Hi {name}, spend ${difference} more to become a VIP!")
 
 
 ###################################################
@@ -139,7 +146,8 @@ print(vip_dictionary)
 
 # Write your code here, add more space as required
 
-# i accidentally did all 3 of them in one iteration
+
+
 
 
 ###################################################
