@@ -106,7 +106,7 @@ customer_spending = {
 
 for key in customer_spending:
     if customer_spending[key] > 1000:
-        print("")
+        print(f"Hi {key}")
 
 
 
