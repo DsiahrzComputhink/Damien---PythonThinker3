@@ -139,7 +139,7 @@ for name in vip_dictionary:
 # Write your code here, add more space as required
 
 
-for name in vip_dictionary:
+for name in non_vip_dictionary:
     print(f"Hi {name}, you are now a VIP! Congratulations!")
 
 
