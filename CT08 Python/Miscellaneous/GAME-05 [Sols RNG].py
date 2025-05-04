@@ -483,8 +483,8 @@ Recipes["Starshaper"] = {
     Auras["Hypervolt"]["display"]: 3,
     Auras["Starscourge"]["display"]: 2,
     "display": f"{fg("[T8]",141)} {fg("Starshaper", 219)}",
-    "luck": 1.00 + 4.55,
-    "rollspeed": 1.00 + 0.40,
+    "luck": 1.00 + 7.00,
+    "rollspeed": 1.00 + 0.50,
     "type": "Gauntlet"
 }
 
