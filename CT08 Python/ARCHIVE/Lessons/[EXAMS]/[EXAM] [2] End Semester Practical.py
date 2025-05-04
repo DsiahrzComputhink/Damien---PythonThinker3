@@ -61,3 +61,72 @@ else:
     print("Sorry, we dont sell that.")
 
 ##########################################################
+
+
+
+
+##########################################################
+
+# Question 2
+# You are given a dictionary called customer_spending, 
+# which contains the names of customers (as keys) and 
+# the total amount they spent in a month (as values).
+
+# Your tasks are:
+# 1. Identify customers who spent more than $1000.
+#    - Add them to a dictionary called vip.
+#    - Print a message for each VIP customer:
+#      "Hi , you are now a VIP! Congratulations!"
+
+# 2. Identify customers who spent less than or equal to $1000.
+#    - Add them to a dictionary called non_vip.
+#    - Print a message for each non-VIP customer indicating 
+#      how much more they need to spend:
+#      "Hi , spend $ more to become a VIP member!"
+
+# Example Output:
+# Hi Bob, you are now a VIP! Congratulations!
+# Hi Charlie, spend $500 more to become a VIP member!
+
+# Task: Complete the code below
+
+customer_spending = {
+    "Alice": 950, "Bob": 1200, "Charlie": 500, 
+    "Diana": 1800, "Ethan": 2200, "Fiona": 700, 
+    "John": 685, "Hor Kee": 1389, "Siew Ling": 235, 
+    "Matt": 452, "Kristen": 985, "Johnson": 785, 
+    "Charles": 2352, "Tommy": 741, "Laura": 689 }
+
+# Part 1: 
+# Loop through the customer_spending dictionary
+# add vip customers to vip dictionary
+# add non vip customers to non_vip dictionary
+
+# Write your code here, add more space as required
+
+
+
+
+###################################################
+# Part 2: 
+# Loop through the vip dictionary 
+# Print "Hi [name], you are now a VIP! Congratulations!"
+
+# Write your code here, add more space as required
+
+
+
+
+
+###################################################
+
+# Part 3: 
+# Loop through non_vip dictionary        
+# Print "Hi [name], spend $XXX more to become a VIP member!"
+
+# Write your code here, add more space as required
+
+
+
+
+###################################################
