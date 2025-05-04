@@ -113,7 +113,7 @@ for name in customer_spending:
     if customer_spending[name] > 1000:
         vip_dictionary[name] = customer_spending[name] # if over $1000 spent, copy customer_spending[name] into vip_dictionary
     else:
-        non_vip_dictionary = customer_spending[name] # if under $1000 spent, copy customer_spending[name] into vip_dictionary
+        non_vip_dictionary = customer_spending[name] # if under $1000 spent, copy customer_spending[name] into non_vip_dictionary
 
 print(vip_dictionary)
 
@@ -139,6 +139,8 @@ for name in vip_dictionary:
 # Write your code here, add more space as required
 
 
+for name in vip_dictionary:
+    print(f"Hi {name}, you are now a VIP! Congratulations!")
 
 
 
