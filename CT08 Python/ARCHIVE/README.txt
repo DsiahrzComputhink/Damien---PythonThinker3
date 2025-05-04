@@ -6,7 +6,7 @@ I would highly suggest not to alter the text files as they are meant to be archi
 The archive.py contains a few functions that are mainly for aesthetics.
 Please note that the timing may not be accurate
 
-Also, any files with [example].txt in any of the lessons is subject to change as the code will alter the files
+Also, any files with [FILENAME].txt in any of the lessons is subject to change as the code will alter the files
 
 # EXAM RELATED
     Mid Semester Practical [9/3/2025]
