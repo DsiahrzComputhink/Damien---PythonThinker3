@@ -138,7 +138,7 @@ print(vip_dictionary)
 
 # Write your code here, add more space as required
 
-
+# i accidentally did all 3 of them in one iteration
 
 
 ###################################################
