@@ -104,6 +104,9 @@ customer_spending = {
 
 # Write your code here, add more space as required
 
+for key in customer_spending:
+    if customer_spending[key] > 1000:
+        print("")
 
 
 
