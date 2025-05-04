@@ -51,3 +51,6 @@ Also, any files with [example].txt in any of the lessons is subject to change as
     -- ASCII
         L11 - ASCII [6/4/2025]
         L12 - ASCII [20/4/2025]
+
+    -- DEBUGGING
+        L13 - DEBUGGING [27/4/2025]
