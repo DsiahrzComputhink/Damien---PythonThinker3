@@ -18,6 +18,7 @@ Also, any files with [example].txt in any of the lessons is subject to change as
     GAME_02.py [DELETED]
     DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
     MEMORY.txt - MISCELLANEOUS [FOR A GAME]     {SUBJECT TO CHANGE}
+    GAME_0
 
     
 # PYTHON RELATED
