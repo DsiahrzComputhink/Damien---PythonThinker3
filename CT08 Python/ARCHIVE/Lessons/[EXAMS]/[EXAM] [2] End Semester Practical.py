@@ -115,8 +115,6 @@ for name in customer_spending:
     else:
         non_vip_dictionary[name] = customer_spending[name] # if under $1000 spent, copy customer_spending[name] into non_vip_dictionary
 
-print(vip_dictionary)
-
 
 ###################################################
 # Part 2: 
