@@ -109,10 +109,11 @@ vip_dictionary = {}
 for name in customer_spending:
     if customer_spending[name] > 1000:
         print(f"Hi {name}, you are now a VIP! Congratulations!")
-        customer_spending
+        vip_dictionary[name] = customer_spending[name]
     else:
         print(f"Hi {name}, spend {difference} more to become a VIP!")
 
+print(vip_dictionary)
 
 
 ###################################################
