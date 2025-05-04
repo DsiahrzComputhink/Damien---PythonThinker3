@@ -500,8 +500,8 @@ Recipes["Neuralyzer"] = {
     Auras["Origin"]["display"]: 7,
     Auras["Chromatic"]["display"]: 2,
     "display": f"{fg("[T9]",177)} {fg("Ne", 216)}{fg("ur", 222)}{fg("al", 157)}{fg("yz", 159)}{fg("er", 183)}",
-    "luck": 1.00 + 4.55,
-    "rollspeed": 1.00 + 0.40,
+    "luck": 1.00 + 8.55,
+    "rollspeed": 1.00 + 0.70,
     "type": "Gauntlet"
 }
 
