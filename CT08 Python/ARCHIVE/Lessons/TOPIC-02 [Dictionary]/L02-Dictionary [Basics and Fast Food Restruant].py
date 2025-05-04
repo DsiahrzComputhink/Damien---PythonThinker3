@@ -30,7 +30,7 @@ for fruit in fruitcost:
 
 # Looping through a dictionary (.keys(), .values(), .items())
 for fruit in fruitcost.keys():
-    print("")
+    print(fruit)
 # Method 2
 print(fruitcost.keys())
 print(fruitcost.values())
