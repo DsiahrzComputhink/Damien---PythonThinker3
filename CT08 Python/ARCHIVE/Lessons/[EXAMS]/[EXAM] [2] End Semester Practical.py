@@ -45,7 +45,7 @@ menu = {
 LINE = "------------------------------------"
 
     # Main Program
-
+    
 print(LINE)
 print("Welcome to the Restruant!")
 print(LINE)
