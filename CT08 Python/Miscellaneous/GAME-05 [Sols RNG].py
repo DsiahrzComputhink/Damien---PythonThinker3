@@ -74,6 +74,21 @@ with open(textfile, "r") as file:
         content = file.read()
 Auras = eval(content)
 
+
+    # --- DATA [WIP]
+
+FilePath = os.getcwd()
+textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Data.txt")
+
+if os.path.exists(textfile):
+    print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
+else:
+    print(style.bred + "[ {} ]  Filepath Does not Exist".format(textfile) + style.RESET)
+
+with open(textfile, "r") as file:
+        data = file.read()
+Data = eval(content)
+
 Tiers = [
     {"name": "BASIC", "range": (1, 999), "color": 250},
     {"name": "EPIC", "range": (1_000, 9_998), "color": 182},
