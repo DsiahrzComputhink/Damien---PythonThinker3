@@ -46,24 +46,25 @@ LINE = "------------------------------------"
 
     # Main Program
 
-# print(LINE)
-# print("Welcome to the Restruant!")
-# print(LINE)
-# print("MENU:")
-# for key in menu: # Iterate through the menu
-#     print(f"{key} : ${menu[key]:.2f}")
-# print(LINE)
+print(LINE)
+print("Welcome to the Restruant!")
+print(LINE)
+print("MENU:")
+for key in menu: # Iterate through the menu
+    print(f"{key} : ${menu[key]:.2f}")
+print(LINE)
 
-# print("What would you like to order?")
-# order = input("")
-# if order.capitalize() in menu:
-#     print(f"That item costs ${menu[order.capitalize()]:.2f}")
-# else:
-#     print("Sorry, we dont sell that.")
+print("What would you like to order?")
+order = input("")
+if order.capitalize() in menu:
+    print(f"That item costs ${menu[order.capitalize()]:.2f}")
+else:
+    print("Sorry, we dont sell that.")
 
 ##########################################################
 
 
+# hi filler text just seperating both of the questions
 
 
 ##########################################################
