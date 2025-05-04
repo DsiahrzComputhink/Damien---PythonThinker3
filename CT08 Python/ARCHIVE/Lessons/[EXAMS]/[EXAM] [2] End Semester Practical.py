@@ -52,10 +52,10 @@ print("MENU:")
 for key in menu: # Iterate through the menu
     print(f"{key} : ${menu[key]:.2f}")
 print(LINE)
-while True:
-    print("What would you like to order?")
-    order = input("")
-    if order.capitalize() in menu:
-        print(f"That item costs ${menu[order.capitalize()]:.2f}")
+
+print("What would you like to order?")
+order = input("")
+if order.capitalize() in menu:
+    print(f"That item costs ${menu[order.capitalize()]:.2f}")
 
 ##########################################################
