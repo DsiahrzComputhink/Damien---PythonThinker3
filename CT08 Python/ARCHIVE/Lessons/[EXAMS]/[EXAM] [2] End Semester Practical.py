@@ -110,7 +110,7 @@ vip_dictionary = {}
 # Part 1
 for name in customer_spending:
     if customer_spending[name] > 1000:
-        vip_dictionary[name] = customer_spending[name] # Part 1
+        vip_dictionary[name] = customer_spending[name] # if over $1000 spent, 
 
 print(vip_dictionary)
 
