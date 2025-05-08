@@ -10,6 +10,4 @@ list = [
 
 
 print(list)
-num = random.random(0,4)
-
-random()
+num = random.randint(0,4)
