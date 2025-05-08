@@ -9,6 +9,7 @@ list = [
 ]
 
 def random():
-    return random.choice(list)
+    num = random.randint(0, 4)
+    print(list[num])
 
 random()
