@@ -10,5 +10,6 @@ list = [
 
 def random():
     print(list)
+    num = random.randint(0,5)
 
 random()
