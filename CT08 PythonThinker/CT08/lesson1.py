@@ -4,5 +4,6 @@ list = [
     "iron",
     "captain",
     "thor",
-    :
+    "girl",
+    "loki",
 ]
