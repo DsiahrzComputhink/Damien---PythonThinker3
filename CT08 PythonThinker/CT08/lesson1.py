@@ -10,3 +10,5 @@ list = [
 
 def random():
     return random.choice(list)
+
+random()
