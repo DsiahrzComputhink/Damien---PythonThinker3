@@ -8,3 +8,5 @@ list = [
     "loki",
 ]
 
+def random():
+    return random.choice(list)
