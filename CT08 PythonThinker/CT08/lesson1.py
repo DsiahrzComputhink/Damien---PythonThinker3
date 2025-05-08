@@ -10,6 +10,6 @@ list = [
 
 def random():
     print(list)
-    num = random.randint(0,5)
+    num = random.randint(0,4)
 
 random()
