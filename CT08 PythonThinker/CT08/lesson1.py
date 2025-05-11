@@ -34,3 +34,8 @@ name1.printattributes()
 # Defines a single class and reuses it for multiple objects
 
 # Easy to add Features:
+# Adds new beahviours without affecting existing code
+
+# Real-World Modelling:
+# Classes help you represent real-life things in your program
+# Makes the code inti
