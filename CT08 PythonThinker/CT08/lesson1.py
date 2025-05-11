@@ -59,7 +59,7 @@ if valid == len(egg_code):
     # Collate the number of eggs sampled according to country of origin
     countries = {'UK':0, 'FR':0, 'NL':0}
     for m in range(len(egg_code)):
-        for n in countries):
+        for n in countries:
             if egg_code[m][1:3] == countries[n]:
                 countries[m] += 1
     for p in range(len(countries)):
