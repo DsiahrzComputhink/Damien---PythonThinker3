@@ -48,7 +48,7 @@ print(LINE)
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
     # Collate the number of eggs sampled according to farm method
-    farm_method_eggs = [0,0,0,0]
+    farm_method_eggs = []
     for j in range(len(egg_code)):
         farm_method_eggs[egg_code[j][0]] += 1
     farm_method = ['Organic','Free Range','Barn','Cage']
