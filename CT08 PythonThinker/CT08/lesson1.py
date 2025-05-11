@@ -14,3 +14,4 @@ class Placeholder:
         self.behaviour1 = behaviour1
         self.behaviour2 = behaviour2
         self.behaviour3 = behaviour3
+# self 
