@@ -24,6 +24,7 @@ debugcolour()
 egg_code = ['1UK42211','2FR9292','1UK29292','0NL24555','0NL93933']
 valid = 0
 
+print(LINE)
 for i in range(len(egg_code)):
     check = 0
     if len(egg_code[i]) >= 7:
@@ -47,6 +48,7 @@ for i in range(len(egg_code)):
         valid += 1
         # for visuals
         print(f"{EggMethod}{EggCountry}{EggID}")
+        print(LINE)
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
     # Collate the number of eggs sampled according to farm method
