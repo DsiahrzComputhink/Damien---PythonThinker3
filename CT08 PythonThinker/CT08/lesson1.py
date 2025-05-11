@@ -52,4 +52,4 @@ name1.printattributes()
 # Methods:
 # Actions or behaviours that an object can perform
 # Parent Class and Child Objects:
-# A class 
+# A class acts as a parent, and objects 
