@@ -46,11 +46,11 @@ if valid == len(egg_code):
     for j in range(len(egg_code)):
         if egg_code[j][0] == "0":
             farm_method['Organic'] += 1
-        if egg_code[j][0] == "0":
+        if egg_code[j][0] == "1":
+            farm_method['F'] += 1
+        if egg_code[j][0] == "2":
             farm_method['Organic'] += 1
-        if egg_code[j][0] == "0":
-            farm_method['Organic'] += 1
-        if egg_code[j][0] == "0":
+        if egg_code[j][0] == "3":
             farm_method['Organic'] += 1
     for k in range(len(egg_code)):
         print("Number of {1} eggs: {2}".format(farm_method[k],farm_method[k]))
