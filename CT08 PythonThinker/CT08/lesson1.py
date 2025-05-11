@@ -5,7 +5,7 @@
 
 # Instead of:
 Placeholder = {
-    behaviour1:"behaviour1",
+    "behaviour1":"behaviour1",
     behaviour2:"behaviour2",
     behaviour3:"behaviour3"
 }
