@@ -31,4 +31,6 @@ name1.printattributes()
 # Groups related data (attributes) nd actions (methods) in one place
 
 # Reduces Repetition:
-#
+# Defines a single class and reuses it for multiple objects
+
+# Easy to add Features:
