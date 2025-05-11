@@ -22,7 +22,7 @@ def debugcolour():
 debugcolour()
 
 egg_code = ['1UK42211','2FR9292','1UK29292','0NL24555','0NL93933']
-valid = [0,1,2]
+valid = 0
 
 print(LINE)
 for i in range(len(egg_code)):
@@ -31,7 +31,7 @@ for i in range(len(egg_code)):
         check += 1
     if egg_code[i][0] in [valid]:
         check += 1
-        EggMethod = f"{fg(egg_code[i][0],69)}"
+    EggMethod = f"{fg(egg_code[i][0],69)}"
     if egg_code[i][1:3].isalpha:
         check += 1
         EggCountry = f"{fg(egg_code[i][1:3],82)}"
