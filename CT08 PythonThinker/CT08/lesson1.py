@@ -40,7 +40,7 @@ for i in range(len(egg_code)):
 
     # for visuals
     EggMethod = f"{fg(egg_code[i][0],69)}"
-    EggCountry = f"{fg(egg_code[i][1:3],82)}"
+    EggCountry = f"{fg(egg_code[i][1:3],18)}"
     EggID = f"{fg(egg_code[i][3:],255)}"
     print(f"{EggMethod}{EggCountry}{EggID}")
 print(LINE)
