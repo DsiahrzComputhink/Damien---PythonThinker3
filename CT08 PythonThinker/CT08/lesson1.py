@@ -41,4 +41,15 @@ name1.printattributes()
         # Makes the code intitutive and easy to understand
         # Each Object has their own memory
 
-        
+# Key Concepts in Classes:
+# Class: A blueprint or templatefor creating objects
+# Defines shared traits and behaviours
+
+# Object:
+# A specific instnce of a class
+# Attributes: 
+# Data that described a object
+# Methods:
+# Actions or behaviours that an object can perform
+# Parent Class and Child Objects:
+# A 
