@@ -5,4 +5,6 @@
 
 class Placeholder:
     def __init__(behaviour1,behaviour2,behaviour3):
-        pass
+        self.behaviour1 = behaviour1
+        self.behaviour1 = behaviour1
+        self.behaviour1 = behaviour1
