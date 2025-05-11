@@ -30,3 +30,4 @@ name1.printattributes()
 # Organizes Your Code:
 # Groups related data (attributes) nd actions (methods) in one place
 
+# Reduces Repetition:
