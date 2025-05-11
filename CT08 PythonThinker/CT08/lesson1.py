@@ -60,7 +60,7 @@ if valid == len(egg_code):
     countries = {'UK':0, 'FR':0, 'NL':0}
     for m in range(len(egg_code)):
         for n in countries:
-            if egg_code[m][1:3] == countries[n]:
+            if egg_code[m][1:3] == n:
                 countries[n] += 1
     for p in countries:
         print("Number of {0} eggs: {1}".format(p, countries[p]))
