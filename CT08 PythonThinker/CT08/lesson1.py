@@ -14,7 +14,7 @@ for i in range(len(egg_code)):
     if check == 3:
         valid += 1
     print(egg_code[i][1:3])
-    print(egg_code[i][4:])
+    print(egg_code[i][3:])
 
 print(len(egg_code))
 print(valid)
