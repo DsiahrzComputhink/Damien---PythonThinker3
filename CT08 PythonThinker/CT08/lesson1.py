@@ -36,6 +36,9 @@ for i in range(len(egg_code)):
         EggCODE = f"{fg(egg_code[i][0],69)}"
     if egg_code[i][3:].isdigit:
         check += 1
+        EggCODE = f"{fg(egg_code[i][0],69)}"
+    else:
+        EggCODE = f"{fg(egg_code[i][0],69)}"
     if check == 3:
         valid += 1
         # for visuals
