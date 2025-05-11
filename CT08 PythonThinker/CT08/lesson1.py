@@ -37,7 +37,7 @@ for i in range(len(egg_code)):
         EggCountry = f"{fg(egg_code[i][1:3],82)}"
     if egg_code[i][3:].isdigit:
         check += 1
-        EggID = f"{fg(egg_code[i][3:],1)}"
+        EggID = f"{fg(egg_code[i][3:],184)}"
     if check == 3:
         valid += 1
         # for visuals
