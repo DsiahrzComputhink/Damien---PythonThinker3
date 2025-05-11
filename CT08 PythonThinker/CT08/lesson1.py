@@ -5,7 +5,6 @@
 
 # Instead of:
 Placeholder = {
-    # If we need to create 50 
     "NAME":{
         "behaviour1":"behaviour1",
         "behaviour2":"behaviour2",
