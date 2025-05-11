@@ -546,7 +546,7 @@ debugcolour()
 for recipe in Recipes:
     craft(Recipes[recipe])
 
-equip(Recipes["Neuralyzer"])
+equip(Recipes["Exo Device"])
 for i in range(100):
     Roll(luck,rollspeed)
 
