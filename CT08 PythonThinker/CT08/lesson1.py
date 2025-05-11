@@ -23,8 +23,8 @@ class Placeholder:
         print(f"{self.behaviour1},{self.behaviour2},{self.behaviour3}")
 # With a class, you can create as many items as you want without re-writing code
 
-name1 = Placeholder("T1","T2","T3")
-name1.printattributes()
+# name1 = Placeholder("T1","T2","T3")
+# name1.printattributes()
 
 # [Advantages]:
     # Organizes Your Code:
@@ -70,4 +70,4 @@ class ZooAnimal:
     
 lion = ZooAnimal("Leo","Lion")
 
-lion.DebugAttributes
+lion.DebugAttributes()
