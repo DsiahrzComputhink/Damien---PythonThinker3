@@ -4,7 +4,7 @@ valid = 0
 for i in range(len(egg_code)):
     print(egg_code)
     check = 0
-    if len(egg_code[i]) >= 7:
+    if len(egg_code[i]) > 7:
         check += 1
     if egg_code[i][0] in [valid]:
         check += 1
@@ -14,6 +14,7 @@ for i in range(len(egg_code)):
         check += 1
     if check == 3:
         valid = 1
+    print(check)
     print(valid)
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
