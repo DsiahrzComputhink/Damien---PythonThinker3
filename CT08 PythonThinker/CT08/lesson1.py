@@ -5,6 +5,7 @@
 
 # Instead of:
 Placeholder = {
+    # If we need to create 50 
     "NAME":{
         "behaviour1":"behaviour1",
         "behaviour2":"behaviour2",
@@ -21,5 +22,5 @@ class Placeholder:
 
         def printattributes(self):
             print(f"{behaviour1},{behaviour2},{behaviour3}")
-            
+
 # 'self' represents the instance of the class on which the method is called. 
