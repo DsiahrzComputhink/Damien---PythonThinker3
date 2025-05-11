@@ -37,5 +37,6 @@ name1.printattributes()
 # Adds new beahviours without affecting existing code
 
 # Real-World Modelling:
-# Classes help you represent real-life things in your program
-# Makes the code inti
+    # Classes help you represent real-life things in your program
+    # Makes the code intitutive and easy to understand
+    # Each Object has their own memory
