@@ -37,8 +37,12 @@ for i in range(len(egg_code)):
         check += 1
     if check == 3:
         valid += 1
-        # for visuals
-        print(f"{EggMethod}{EggCountry}{EggID}")
+        
+    # for visuals
+    EggMethod = f"{fg(egg_code[i][0],69)}"
+    EggCountry = f"{fg(egg_code[i][1:3],82)}"
+    EggID = f"{fg(egg_code[i][3:],184)}"
+    print(f"{EggMethod}{EggCountry}{EggID}")
 print(LINE)
 
 if valid == len(egg_code):
