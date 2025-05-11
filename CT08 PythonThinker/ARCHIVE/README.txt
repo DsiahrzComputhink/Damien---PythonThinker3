@@ -19,8 +19,8 @@ Also, any files with [FILENAME].txt in any of the lessons is subject to change a
     GAME_03.py [??/?/2025]
     GAME_04.py [??/?/2025]
     GAME_05.py [??/?/2025]
-    DICTIONARY.txt - MISCELLANEOUS [FOR A GAME]
-    MEMORY.txt - MISCELLANEOUS [FOR A GAME]     {SUBJECT TO CHANGE}
+    DICTIONARY.txt - MISCELLANEOUS
+    MEMORY.txt 
 
     
 # PYTHON RELATED
