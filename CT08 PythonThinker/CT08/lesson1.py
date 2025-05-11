@@ -46,10 +46,10 @@ name1.printattributes()
 # Defines shared traits and behaviours
 
 # Object:
-# A specific instnce of a class
+    # A specific instnce of a class
 # Attributes: 
-# Data that described a object
+    # Data that described a object
 # Methods:
-# Actions or behaviours that an object can perform
+    # Actions or behaviours that an object can perform
 # Parent Class and Child Objects:
-# A class acts as a parent, and objects are its children
+    # A class acts as a parent, and objects are its children
