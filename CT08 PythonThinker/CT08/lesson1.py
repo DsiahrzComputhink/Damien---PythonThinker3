@@ -27,16 +27,16 @@ name1 = Placeholder("T1","T2","T3")
 name1.printattributes()
 
 # Advantages:
-# Organizes Your Code:
-# Groups related data (attributes) nd actions (methods) in one place
+    # Organizes Your Code:
+        # Groups related data (attributes) nd actions (methods) in one place
 
-# Reduces Repetition:
-# Defines a single class and reuses it for multiple objects
+    # Reduces Repetition:
+        # Defines a single class and reuses it for multiple objects
 
-# Easy to add Features:
-# Adds new beahviours without affecting existing code
+    # Easy to add Features:
+        # Adds new beahviours without affecting existing code
 
-# Real-World Modelling:
-    # Classes help you represent real-life things in your program
-    # Makes the code intitutive and easy to understand
-    # Each Object has their own memory
+    # Real-World Modelling:
+        # Classes help you represent real-life things in your program
+        # Makes the code intitutive and easy to understand
+        # Each Object has their own memory
