@@ -38,7 +38,7 @@ for i in range(len(egg_code)):
         check += 1
         EggCODE = f"{fg(egg_code[i][0],69)}"
     else:
-        EggCODE = f"{fg(egg_code[i][0],69)}"
+        EggCODE = f"{fg(egg_code[i][0],196)}"
     if check == 3:
         valid += 1
         # for visuals
