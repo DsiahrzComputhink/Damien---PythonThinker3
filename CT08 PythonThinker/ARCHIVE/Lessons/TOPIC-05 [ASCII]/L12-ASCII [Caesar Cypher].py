@@ -37,7 +37,7 @@ import time
 
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L12]-ASCII [hackmeifyoucan].txt")
+textfile = os.path.join(FilePath,"CT08 PythonThinker","ARCHIVE","Text Files","TOPIC-05 [ASCII]","[L12]-ASCII [hackmeifyoucan].txt")
 
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
