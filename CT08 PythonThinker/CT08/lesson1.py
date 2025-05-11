@@ -50,7 +50,7 @@ if valid == len(egg_code):
     # Collate the number of eggs sampled according to farm method
     farm_method_eggs = {}
     for j in range(len(egg_code)):
-        farm_method_eggs[egg_code[j][0]] += 1
+        farm_method_eggs[egg_code[j][0]] = 1
     farm_method = ['Organic','Free Range','Barn','Cage']
     for k in range(len(egg_code)):
         print("Number of {0} eggs: {1}".format(farm_method[k],farm_method_eggs[k]))
