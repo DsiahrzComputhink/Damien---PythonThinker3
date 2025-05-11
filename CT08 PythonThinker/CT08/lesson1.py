@@ -28,7 +28,7 @@ name1.printattributes()
 
 # [Advantages]:
     # Organizes Your Code:
-        # Groups related data (attributes) nd actions (methods) in one place
+        # Groups related data (attributes) and actions (methods) in one place
 
     # Reduces Repetition:
         # Defines a single class and reuses it for multiple objects
