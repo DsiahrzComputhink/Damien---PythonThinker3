@@ -47,9 +47,9 @@ if valid == len(egg_code):
         if egg_code[j][0] == "0":
             farm_method['Organic'] += 1
         if egg_code[j][0] == "1":
-            farm_method['F'] += 1
+            farm_method['Free Range'] += 1
         if egg_code[j][0] == "2":
-            farm_method['Organic'] += 1
+            farm_method['Barn'] += 1
         if egg_code[j][0] == "3":
             farm_method['Organic'] += 1
     for k in range(len(egg_code)):
