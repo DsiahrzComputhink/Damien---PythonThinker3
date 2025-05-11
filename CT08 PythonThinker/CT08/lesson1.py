@@ -7,7 +7,7 @@ for i in range(len(egg_code)):
         check += 1
     if egg_code[i][0] in [valid]:
         check += 1
-    if egg_code[i][1:3].isalpha:
+    if egg_code[i][1:2].isalpha:
         check += 1
     if egg_code[i][3:].isdigit:
         check += 1
