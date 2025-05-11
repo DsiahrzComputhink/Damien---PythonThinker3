@@ -66,4 +66,6 @@ class ZooAnimal:
         self.species = species
 
     def DebugAttributes(self):
-        print(f"{self.behaviour1},{self.behaviour2},{self.species}")
+        print(f"{self.name},{self.species}")
+    
+lion = ZooAnimal
