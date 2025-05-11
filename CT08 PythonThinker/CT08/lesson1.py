@@ -29,7 +29,7 @@ for i in range(len(egg_code)):
     check = 0
     if len(egg_code[i]) >= 7:
         check += 1
-    if egg_code[i][0] in [valid]:
+    if egg_code[i][0] in [0,1,2,3]:
         check += 1
     if egg_code[i][1:3].isalpha:
         check += 1
