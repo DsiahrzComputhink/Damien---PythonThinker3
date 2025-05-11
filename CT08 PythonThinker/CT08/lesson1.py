@@ -8,7 +8,7 @@ Placeholder = {
     "name1":{
         "behaviour1":"T1",
         "behaviour2":"T2",
-        "behaviour3":"behaviour3"
+        "behaviour3":"T3"
     }
 }
 
