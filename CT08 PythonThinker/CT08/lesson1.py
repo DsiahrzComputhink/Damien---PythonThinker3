@@ -25,3 +25,8 @@ class Placeholder:
 
 name1 = Placeholder("T1","T2","T3")
 name1.printattributes()
+
+# Advantages:
+# Organizes Your Code:
+# Groups related data (attributes) nd actions (methods) in one place
+
