@@ -6,8 +6,8 @@
 # Instead of:
 Placeholder = {
     "behaviour1":"behaviour1",
-    behaviour2:"behaviour2",
-    behaviour3:"behaviour3"
+    "behaviour2":"behaviour2",
+    "behaviour3":"behaviour3"
 }
 class Placeholder:
     def __init__(self,behaviour1,behaviour2,behaviour3):
