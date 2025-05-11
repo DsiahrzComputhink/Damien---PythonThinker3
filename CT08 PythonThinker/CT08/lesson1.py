@@ -8,12 +8,12 @@ for i in range(len(egg_code)):
     if egg_code[i][0] in [valid]:
         check += 1
     if egg_code[i][1:2].isalpha:
-        print(egg_code[i][1:2])
         check += 1
     if egg_code[i][3:].isdigit:
         check += 1
     if check == 3:
         valid += 1
+    print(egg_code[i][1:3])
 
 print(len(egg_code))
 print(valid)
