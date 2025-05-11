@@ -19,6 +19,6 @@ class Placeholder:
         self.behaviour2 = behaviour2
         self.behaviour3 = behaviour3
 
-        def print(self):
+        def makiejioeo(self):
             print()
 # 'self' represents the instance of the class on which the method is called. 
