@@ -24,6 +24,4 @@ class Placeholder:
 
 name1 = Placeholder("T1","T2","T3")
 name1.printattributes()
-
-print(Placeholder)
 # 'self' represents the instance of the class on which the method is called. 
