@@ -21,7 +21,8 @@ class Placeholder:
 
     def printattributes(self):
         print(f"{self.behaviour1},{self.behaviour2},{self.behaviour3}")
-# With a class, you can create as many items 
+# 'self' represents the instance of the class on which the method is called. 
+# With a class, you can create as many items as you want without re-writing code
+
 name1 = Placeholder("T1","T2","T3")
 name1.printattributes()
-# 'self' represents the instance of the class on which the method is called. 
