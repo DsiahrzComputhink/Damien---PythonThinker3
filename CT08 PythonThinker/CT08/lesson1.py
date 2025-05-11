@@ -57,8 +57,7 @@ if valid == len(egg_code):
         print("Number of {} eggs: {}".format(k,farm_method[k]))
     print(LINE)
     # Collate the number of eggs sampled according to country of origin
-    countries = ['UK', 'FR', 'NL']
-    countries_eggs = [0,0,0]
+    countries = {'UK':0, 'FR':0, 'NL':0}
     for m in range(len(egg_code)):
         for n in range(len(countries)):
             if egg_code[m][:2] == countries[n]:
