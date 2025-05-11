@@ -48,7 +48,7 @@ if valid == len(egg_code):
         print(farm_method_eggs)
     farm_method = ['Organic','Free Range','Barn','Cage']
     for k in range(len(egg_code)):
-        print("Number of {1}} eggs: {0}".format(farm_method[k],farm_method_eggs[k]))
+        print("Number of {1} eggs: {2}".format(farm_method[k],farm_method_eggs[k]))
     # Collate the number of eggs sampled according to country of origin
     countries = ['UK', 'FR', 'NL']
     countries_eggs = [0,0,0]
