@@ -6,5 +6,5 @@
 class Placeholder:
     def __init__(behaviour1,behaviour2,behaviour3):
         self.behaviour1 = behaviour1
-        self.behaviour1 = behaviour1
-        self.behaviour1 = behaviour1
+        self.behaviour2 = behaviour2
+        self.behaviour3 = behaviour3
