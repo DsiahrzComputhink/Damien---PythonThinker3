@@ -30,15 +30,15 @@ for i in range(len(egg_code)):
         check += 1
     if egg_code[i][0] in [valid]:
         check += 1
-        EggCODE = f"{fg(egg_code[i][0],69)}"
+        EggCODE = f"{egg_code[i][0]}"
     if egg_code[i][1:3].isalpha:
         check += 1
-        EggCODE = f"{fg(egg_code[i][0],69)}"
+        EggCODE = f"{egg_code[i][0]}"
     else:
         EggCODE = f"{fg(egg_code[i][0],196)}"
     if egg_code[i][3:].isdigit:
         check += 1
-        EggCODE = f"{fg(egg_code[i][0],69)}"
+        EggCODE = f"{egg_code[i][0]}"
     else:
         EggCODE = f"{fg(egg_code[i][0],196)}"
     if check == 3:
