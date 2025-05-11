@@ -63,7 +63,7 @@ import math
 import os
 
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"CT08 Python","ARCHIVE","Text Files","GAME_05 Text Files","Auras.txt")
+textfile = os.path.join(FilePath,"CT08 PythonThinker","ARCHIVE","Text Files","GAME_05 Text Files","Auras.txt")
 
 if os.path.exists(textfile):
     print(style.bgreen + "[ {} ] Filepath Exists".format(textfile) + style.RESET)
