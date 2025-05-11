@@ -530,7 +530,7 @@ rollspeed = math.inf
 
 num = 0
 for i in range(13):
-    for i in range(30000):
+    for i in range(300):
         num += 1
         print(num)
         Roll(luck,rollspeed,False)
