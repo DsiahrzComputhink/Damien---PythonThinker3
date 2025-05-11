@@ -22,7 +22,7 @@ def debugcolour():
 debugcolour()
 
 egg_code = ['1UK42211','2FR9292','1UK29292','0NL24555','0NL93933']
-valid = [0,1,2]
+valid = 0
 
 for i in range(len(egg_code)):
     check = 0
