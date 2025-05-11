@@ -17,8 +17,8 @@ Also, any files with [FILENAME].txt in any of the lessons is subject to change a
     GAME_01.py [??/?/2025]
     GAME_02.py [DELETED]
     GAME_03.py [??/?/2025]
-            DICTIONARY.txt - MISCELLANEOUS
-    MEMORY.txt 
+        DICTIONARY.txt - MISCELLANEOUS
+        MEMORY.txt 
     GAME_04.py [??/?/2025]
     GAME_05.py [??/?/2025]
 
