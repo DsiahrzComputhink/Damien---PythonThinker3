@@ -49,6 +49,7 @@ for i in range(len(egg_code)):
         # for visuals
         print(f"{EggMethod}{EggCountry}{EggID}")
 print(LINE)
+
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
     # Collate the number of eggs sampled according to farm method
