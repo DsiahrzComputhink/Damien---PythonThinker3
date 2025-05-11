@@ -1,5 +1,6 @@
-# Classes and Object Oriented Programming [OOP]
+# -- Classes and Object Oriented Programming [OOP]
+
 # OOP is a way of organizing code that is based on real-world objects.
+
 # a Class will have Attribute and Behaviour
 # Class: A blueprint that defines what an object should have and what it can do.
-# When you create a Object, you have to include Classes 
