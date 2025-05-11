@@ -21,6 +21,7 @@ class Placeholder:
 
     def printattributes(self):
         print(f"{self.behaviour1},{self.behaviour2},{self.behaviour3}")
+
 # With a class, you can create as many items as you want without re-writing code
 
 # name1 = Placeholder("T1","T2","T3")
@@ -61,7 +62,7 @@ class Placeholder:
 # Learning Exercise 1: A simple class with a constructor
 
 class ZooAnimal:
-    def __init__(self,name,species): # 'self' represents the instance of the class on which the method is called. 
+    def __init__(self,name,species):
         self.name = name
         self.species = species
 
