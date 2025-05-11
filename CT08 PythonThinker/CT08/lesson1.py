@@ -63,8 +63,7 @@ name1.printattributes()
 class ZooAnimal:
     def __init__(self,name,species): # 'self' represents the instance of the class on which the method is called. 
         self.name = name
-        self.behaviour2 = behaviour2
-        self.behaviour3 = behaviour3
+        self.species = species
 
     def printattributes(self):
         print(f"{self.behaviour1},{self.behaviour2},{self.behaviour3}")
