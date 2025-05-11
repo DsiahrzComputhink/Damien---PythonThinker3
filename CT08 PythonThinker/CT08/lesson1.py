@@ -62,8 +62,8 @@ if valid == len(egg_code):
         for n in countries:
             if egg_code[m][1:3] == countries[n]:
                 countries[m] += 1
-    for p in range(len(countries)):
-        print("Number of {0} eggs: {1}".format(countries[p], countries[p]))
+    for p in countries:
+        print("Number of {0} eggs: {1}".format(p, countries[p]))
 else:
     print("Invalid egg codes found for this batch of eggs.")
     print("No data will be presented.")
