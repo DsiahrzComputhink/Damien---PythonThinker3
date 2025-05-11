@@ -35,7 +35,7 @@ if valid == len(egg_code):
         print("Number of {} eggs: {}".format(k,farm_method[k]))
     print(LINE)
     # Collate the number of eggs sampled according to country of origin
-    countries = {'UK':0, 'FR':0, 'NL':0}
+    countries = {'UK':0, 'FR':0, 'NL':0} # Changed to Dictionary
     for m in range(len(egg_code)):
         for n in countries:
             if egg_code[m][1:3] == n:
