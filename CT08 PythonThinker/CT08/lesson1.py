@@ -4,7 +4,7 @@
     # Class: A blueprint that defines what an object should have and what it can do.
 
 class Placeholder:
-    def __init__(behaviour1,behaviour2,behaviour3):
+    def __init__(self,behaviour1,behaviour2,behaviour3):
         self.behaviour1 = behaviour1
         self.behaviour2 = behaviour2
         self.behaviour3 = behaviour3
