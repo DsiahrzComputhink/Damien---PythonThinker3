@@ -31,18 +31,12 @@ for i in range(len(egg_code)):
         check += 1
     if egg_code[i][0] in [valid]:
         check += 1
-        EggMethod = f"{egg_code[i][0]}"
-    else:
-        EggMethod = f"{fg(egg_code[i][0],196)}"
+        EggMethod = f"{fg(egg_code[i][0],69)}"
     if egg_code[i][1:3].isalpha:
         check += 1
-        EggCountry = f"{egg_code[i][1:3]}"
-    else:
         EggCountry = f"{fg(egg_code[i][1:3],196)}"
     if egg_code[i][3:].isdigit:
         check += 1
-        EggID = f"{egg_code[i][3:]}"
-    else:
         EggID = f"{fg(egg_code[i][3:],196)}"
     if check == 3:
         valid += 1
