@@ -20,7 +20,7 @@ print(LINE)
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
     # Collate the number of eggs sampled according to farm method
-    farm_method = {'Organic':0,'Free Range':0,'Barn':0,'Cage':0}
+    farm_method = {'Organic':0,'Free Range':0,'Barn':0,'Cage':0} # Changed to Dictionary
     for j in range(len(egg_code)):
         if egg_code[j][0] == "0":
             farm_method['Organic'] += 1
