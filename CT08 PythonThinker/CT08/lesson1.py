@@ -13,7 +13,7 @@ for i in range(len(egg_code)):
     if egg_code[i][3:].isdigit:
         check += 1
     if check == 3:
-        valid = 1
+        valid += 1
     print(check)
     print(valid)
 if valid == len(egg_code):
