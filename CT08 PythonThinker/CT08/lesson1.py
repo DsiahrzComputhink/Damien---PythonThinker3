@@ -22,5 +22,6 @@ class Placeholder:
         def printattributes(self):
             print(f"{behaviour1},{behaviour2},{behaviour3}")
 
-name1 = 
+name1 = Placeholder("T1","T2","T3")
+
 # 'self' represents the instance of the class on which the method is called. 
