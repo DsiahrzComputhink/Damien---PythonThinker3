@@ -2,7 +2,6 @@ egg_code = ['1UK42211','2FR9292','1UK29292','0NL24555','0NL93933']
 valid = 0
 
 for i in range(len(egg_code)):
-    print(egg_code)
     check = 0
     if len(egg_code[i]) > 7:
         check += 1
@@ -15,6 +14,7 @@ for i in range(len(egg_code)):
     if check == 3:
         valid += 1
 
+print(len(egg_code))
 print(valid)
 if valid == len(egg_code):
     print("Codes for the entire batch of eggs are valid.")
