@@ -61,8 +61,8 @@ name1.printattributes()
 # Learning Exercise 1: A simple class with a constructor
 
 class ZooAnimal:
-    def __init__(self,): # 'self' represents the instance of the class on which the method is called. 
-        self.behaviour1 = behaviour1
+    def __init__(self,name,species): # 'self' represents the instance of the class on which the method is called. 
+        self.name = name
         self.behaviour2 = behaviour2
         self.behaviour3 = behaviour3
 
