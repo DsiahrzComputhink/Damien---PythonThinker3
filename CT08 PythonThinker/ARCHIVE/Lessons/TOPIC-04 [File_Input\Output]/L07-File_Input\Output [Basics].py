@@ -22,7 +22,7 @@
 
 import os
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","L07-File_Input\Output [example].txt")
+textfile = os.path.join(FilePath,"CT08 PythonThinker","ARCHIVE","Text Files","TOPIC-04 [File Input\Output]","L07-File_Input\Output [example].txt")
 
 if os.path.exists(textfile):
     print("{} exist".format(textfile))

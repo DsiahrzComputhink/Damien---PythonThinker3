@@ -59,3 +59,6 @@ Also, any files with [FILENAME].txt in any of the lessons is subject to change a
     -- DEBUGGING
         L13 - DEBUGGING [27/4/2025]
         L14 - DEBUGGING [11/5/2025]
+
+    -- CLASSES
+        L15 - CLASSES [5/11/2025]
