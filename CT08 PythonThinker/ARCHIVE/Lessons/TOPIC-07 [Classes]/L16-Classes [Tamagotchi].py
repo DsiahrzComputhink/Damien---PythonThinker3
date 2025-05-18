@@ -1,5 +1,5 @@
 class style():
-
+    
     BOLD = '\033[1m'
     ITALIC = '\033[3m'
 
@@ -35,5 +35,5 @@ class style():
     
     warning = dyellow
     error = dred
-    
+
 LINE = style.bgray + "------------------------------" + style.RESET
