@@ -118,10 +118,10 @@ class Tamagotchi:
         print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def growolder(self):
-        if self.hunger == 100:
+        if self.hunger >= 100:
             print("Your pet died due to",style.bred + "[Starvation]" + style.RESET)
         else:
-            if self.energy == 0:
+            if self.energy <= 0:
                 print("Your pet died due to",style.bred + "[Exhaustion]" + style.RESET)
             else:
                 if self.happiness == 0:
@@ -141,7 +141,7 @@ pet = Tamagotchi(name)
 pet.feed()
 for i in range(100):
     pet.play()
-    
+
 pet.status()
 
 for i in range(16):
