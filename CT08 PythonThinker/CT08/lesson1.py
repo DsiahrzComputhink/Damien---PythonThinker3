@@ -138,5 +138,6 @@ while dead == 0:
         elif command == "3":
             pet.sleep()
         elif command == "4":
-            dead == 1
+            print("Program Closing...")
+            dead = 1
         print("pls fix this code")
