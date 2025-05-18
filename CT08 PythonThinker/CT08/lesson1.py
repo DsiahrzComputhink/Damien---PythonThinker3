@@ -48,7 +48,7 @@ class Tamagotchi:
         self.hunger = 50 # Hunger level (0 = full, 100 = starving)
         self.energy = 50 # Energy level ( 0 = exhausted, 100 = full of energy)
         self.happiness = 50 # Happiness level (0 = sad, 100 = very happy)
-        self.age = 50 # Age in virtual days
+        self.age = 0 # Age in virtual days
 
     def attributes(self): # DEBUG
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
@@ -123,6 +123,6 @@ class Tamagotchi:
 name = "Roger"
 pet = Tamagotchi(name)
 
-for i in range(1000):
+for i in range(100):
     pet.feed()
     pet.status()
