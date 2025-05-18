@@ -50,4 +50,5 @@ class Tamagotchi:
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
 
 name = "Roger"
-Pet = Tamagotchi(name)
+pet = Tamagotchi(name)
+pet.describe
