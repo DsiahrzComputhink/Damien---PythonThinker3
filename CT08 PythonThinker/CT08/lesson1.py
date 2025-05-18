@@ -42,7 +42,7 @@ class Tamagotchi:
     def __init__(self,name : str):
         self.name = name
         self.hunger = 50 # Hunger level (0 = full, 100 = starving)
-        self.energy = 50 # H
+        self.energy = 50 # Energy level ( 0 = exhausted, 100 = full of energy)
         self.happiness = 50
         self.age = 50
 
