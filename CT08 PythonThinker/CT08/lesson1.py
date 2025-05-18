@@ -40,7 +40,7 @@ LINE = style.bgray + "------------------------------" + style.RESET
 
 def colorstatus(num: int):
     if num > 100:
-        
+        return style.bblue
 
 class Tamagotchi:
     def __init__(self,name : str):
