@@ -77,7 +77,7 @@ class Tamagotchi:
 
     def feed(self):
         randomnum = random.randint(10,15)
-        randomnum2 = random.randint()
+        randomnum2 = random.randint(5,15)
         randomnum3 = random.randint(5,10)
         self.hunger = self.hunger - randomnum
         self.energy = self.energy + randomnum2
