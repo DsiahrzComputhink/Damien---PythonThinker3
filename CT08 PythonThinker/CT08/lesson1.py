@@ -69,7 +69,7 @@ class Tamagotchi:
         self.energy = self
         print(LINE)
         print("You fed",style.BOLD + f"{name}" + style.RESET,"!")
-        print("His",style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET,"!")
+        print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET,"!")
 
     def play(self):
         randomnum = random.randint(5,15)
