@@ -144,3 +144,4 @@ Elephant = ZooAnimal3("Ellie","Elephant","Grass")
 # lion is a child of ZooAnimal
 
 Elephant.describe()
+Elephant.hungry()
