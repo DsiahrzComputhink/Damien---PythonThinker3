@@ -38,10 +38,6 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-def colorstatus(num: int):
-    if num >= 0:
-        return style.bblue + f"{num}" + style.RESET, "/ 100"
-
 class Tamagotchi:
     def __init__(self,name : str):
         self.name = name
@@ -55,7 +51,7 @@ class Tamagotchi:
     
     def status(self):
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
-        print(style.bblue + "[1]" + style.RESET, "Hunger:" , colorstatus(self.hunger))
+        print(style.bblue + "[1]" + style.RESET, "Hunger:" , self.hunger)
 
 name = "Roger"
 pet = Tamagotchi(name)
