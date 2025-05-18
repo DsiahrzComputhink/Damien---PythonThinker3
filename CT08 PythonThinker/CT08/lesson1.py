@@ -124,7 +124,8 @@ pet = Tamagotchi(str(name))
 
 dead = 0
 while dead == 0:
-    pet.status
+    pet.status()
+    print(LINE)
     print(style.bblue + f"[1]" + style.RESET, f"Feed")
     print(style.bblue + f"[2]" + style.RESET, f"Play")
     print(style.bblue + f"[3]" + style.RESET, f"Sleep")
@@ -140,4 +141,3 @@ while dead == 0:
         elif command == "4":
             print("Program Closing...")
             dead = 1
-        print("pls fix this code")
