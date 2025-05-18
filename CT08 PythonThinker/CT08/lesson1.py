@@ -51,4 +51,4 @@ class Tamagotchi:
 
 name = "Roger"
 pet = Tamagotchi(name)
-pet.describe
+pet.describe()
