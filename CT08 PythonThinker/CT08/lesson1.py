@@ -119,7 +119,7 @@ class Tamagotchi:
 
     def growolder(self):
         self.age += 1
-        
+        print()
 
 name = "Roger"
 pet = Tamagotchi(name)
