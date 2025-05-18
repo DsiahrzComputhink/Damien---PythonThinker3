@@ -79,4 +79,4 @@ def forkbomb(nil):
     for i in range(nil):
         forkbomb(nil)
 
-forkbomb(7)
+forkbomb(2)
