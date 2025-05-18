@@ -54,6 +54,7 @@ class Tamagotchi:
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
     
     def status(self):
+        #
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
@@ -107,3 +108,4 @@ pet.status()
 pet.feed()
 pet.play()
 pet.sleep()
+pet.status()
