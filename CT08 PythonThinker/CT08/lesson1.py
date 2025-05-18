@@ -125,4 +125,4 @@ pet = Tamagotchi(str(name))
 dead = 0
 while dead != 0:
     pet.status
-    print()
+    print(style.bblue + f"[1]" + style.RESET, f"Age:")
