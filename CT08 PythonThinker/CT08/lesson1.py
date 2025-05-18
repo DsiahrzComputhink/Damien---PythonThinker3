@@ -120,4 +120,5 @@ class Tamagotchi:
 name = "Roger"
 pet = Tamagotchi(name)
 
-input("")
+input("Name your pet: ")
+
