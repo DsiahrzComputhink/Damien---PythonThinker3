@@ -49,5 +49,5 @@ class Tamagotchi:
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
 
-    def hungry(self):
-        print(f"{self.name} ate {self.diet}")
+
+Tamagotchi
