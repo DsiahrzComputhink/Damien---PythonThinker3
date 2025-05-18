@@ -73,10 +73,3 @@ lion = ZooAnimal("Leo","Lion")
 # lion is a child of ZooAnimal
 
 lion.Attributes()
-
-
-def forkbomb(nil):
-    for i in range(nil):
-        forkbomb(nil)
-
-forkbomb(2)
