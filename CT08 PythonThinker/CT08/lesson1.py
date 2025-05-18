@@ -64,7 +64,7 @@ class Tamagotchi:
     
     def feed(self):
         randomnum = random.randint(5,15)
-        
+        random
         self.hunger = self.hunger - randomnum
         self.energy = self
         print(LINE)
