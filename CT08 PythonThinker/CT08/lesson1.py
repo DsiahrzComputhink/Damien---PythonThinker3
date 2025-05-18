@@ -129,10 +129,11 @@ Elephant.describe()
 
 # -- Learning Exercise 3: 
 class ZooAnimal3:
-    def __init__(self,name: str,species: str):
+    def __init__(self,name: str,species: str, diet: str):
         self.name = name
         self.species = species
-
+        self.diet = diet
     # Describing a method
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
+
