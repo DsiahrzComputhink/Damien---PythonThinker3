@@ -85,4 +85,4 @@ class ZooAnimal2:
 Elephant = ZooAnimal2("Ellie","Elephant")
 # lion is a child of ZooAnimal
 
-lion.Attributes()
+Elephant.describe()
