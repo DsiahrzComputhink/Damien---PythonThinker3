@@ -85,7 +85,6 @@ class Tamagotchi:
         self.hunger -= randomnum
         self.energy += randomnum2
         self.happiness -= randomnum3
-        self.age += 1
         print(LINE)
         print("You fed",style.BOLD + f"{name}" + style.RESET,"!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET)
@@ -99,7 +98,6 @@ class Tamagotchi:
         self.hunger -= randomnum
         self.energy += randomnum2
         self.happiness -= randomnum3
-        self.age += 1
         print(LINE)
         print(style.BOLD + f"{name}" + style.RESET,"went to sleep!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bred + f"{randomnum}" + style.RESET)
@@ -113,7 +111,6 @@ class Tamagotchi:
         self.hunger -= randomnum
         self.energy += randomnum2
         self.happiness -= randomnum3
-        self.age += 1
         print(LINE)
         print(style.BOLD + f"{name}" + style.RESET,"went to sleep!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bred + f"{randomnum}" + style.RESET)
