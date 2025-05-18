@@ -38,8 +38,6 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 
-print(style.bgray + "Placeholder" + style.RESET)
-
 # -- Classes and Object Oriented Programming [OOP]
     # OOP is a way of organizing code that is based on real-world objects.
     # A Class will have Attribute and Behaviour
