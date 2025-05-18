@@ -69,6 +69,7 @@ class Tamagotchi:
             self.happiness = 0
         elif self.happiness > 100:
             self.happiness = 100
+            
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
