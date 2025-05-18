@@ -76,7 +76,7 @@ class Tamagotchi:
         print("You fed",style.BOLD + f"{name}" + style.RESET,"!")
         print("His",style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET,"!")
 
-    def feed(self):
+    def sleep(self):
         randomnum = random.randint(5,15)
         self.hunger = self.hunger - randomnum
         print(LINE)
