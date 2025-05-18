@@ -58,6 +58,9 @@ class Tamagotchi:
         status(2,"Energy",self.energy)
         status(3,"Happiness",self.happiness)
         status(4,"Age",self.age)
+    
+    def feed(self):
+        self.hunger = self.hunger - 1
 
 name = "Roger"
 pet = Tamagotchi(name)
