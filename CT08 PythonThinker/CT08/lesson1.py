@@ -129,7 +129,7 @@ Elephant.describe()
 
 # -- Learning Exercise 3: 
 class ZooAnimal3:
-    def __init__(self,name: str,species):
+    def __init__(self,name: str,species: str):
         self.name = name
         self.species = species
 
