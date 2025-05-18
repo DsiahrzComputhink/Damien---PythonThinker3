@@ -119,7 +119,7 @@ class Tamagotchi:
 
     def growolder(self):
         if self.hunger == 0:
-
+            print("Your pet died due to ")
             if self.age < 15:
                 self.age += 1
                 print(style.BOLD + f"{name}" + style.RESET,"grew older!")
