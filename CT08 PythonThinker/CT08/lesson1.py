@@ -43,8 +43,8 @@ class Tamagotchi:
         self.name = name
         self.hunger = 50
         self.energy = 50
-        self.happiness = happiness
-        self.age = age
+        self.happiness = 50
+        self.age = 50
 
     def attributes(self):
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
