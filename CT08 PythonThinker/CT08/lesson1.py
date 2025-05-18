@@ -73,4 +73,3 @@ lion = ZooAnimal("Leo","Lion")
 
 lion.DebugAttributes()
 
-if a chuck can ch
