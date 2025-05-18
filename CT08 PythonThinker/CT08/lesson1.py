@@ -47,7 +47,7 @@ class Tamagotchi:
         self.age = age
 
     def describe(self):
-        print(f"Animal: {self.name} | Species: {self.species}")
+        print(f"Name: {self.name} | Hunger: {self.species}")
 
 name = "Roger"
 Pet = Tamagotchi(name)
