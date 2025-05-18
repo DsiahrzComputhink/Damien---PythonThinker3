@@ -73,3 +73,17 @@ lion = ZooAnimal("Leo","Lion")
 # lion is a child of ZooAnimal
 
 lion.Attributes()
+
+
+class ZooAnimal:
+    def __init__(self,name,species):
+        self.name = name
+        self.species = species
+
+    def Attributes(self):
+        print(f"{self.name},{self.species}")
+    
+lion = ZooAnimal("Leo","Lion")
+# lion is a child of ZooAnimal
+
+lion.Attributes()
