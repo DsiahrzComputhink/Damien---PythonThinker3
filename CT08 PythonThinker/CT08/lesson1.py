@@ -76,9 +76,9 @@ class Tamagotchi:
         print(style.bcyan + "Happiness" + style.RESET,"went down by",style.bred + f"{randomnum3}" + style.RESET)
 
     def feed(self):
-        randomnum = random.randint(10,15)
+        randomnum = random.randint(5,10)
         randomnum2 = random.randint(15,20)
-        randomnum3 = random.randint(5,10)
+        randomnum3 = random.randint(10,15)
         self.hunger = self.hunger - randomnum
         self.energy = self.energy + randomnum2
         self.happiness = self.happiness - randomnum3
