@@ -46,9 +46,9 @@ class Tamagotchi:
         self.happiness = happiness
         self.age = age
 
-    def describe(self):
+    def attributes(self):
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
 
 name = "Roger"
 pet = Tamagotchi(name)
-pet.describe()
+pet.attributes()
