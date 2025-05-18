@@ -131,4 +131,6 @@ while dead == 0:
     print(style.bblue + f"[4]" + style.RESET, f"Quit")
     command = input()
     if command.isnumeric():
+        if command == "1":
+            pet.fee
         print("pls fix this code")
