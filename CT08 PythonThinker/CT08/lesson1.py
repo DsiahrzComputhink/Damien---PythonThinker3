@@ -39,9 +39,9 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 class ZooAnimal3:
-    def __init__(self,name: str,hunger: str, diet: str):
+    def __init__(self,name: str,hunger: str, energy: str, happiness: str):
         self.name = name
-        
+
 
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
