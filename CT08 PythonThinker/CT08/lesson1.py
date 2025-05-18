@@ -76,6 +76,7 @@ lion.Attributes()
 
 num = 0
 def forkbomb(nil):
+    global num
     num += 1
     print(num)
     for i in range(nil):
