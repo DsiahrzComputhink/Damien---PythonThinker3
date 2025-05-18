@@ -1,5 +1,5 @@
 class style():
-    
+
     BOLD = '\033[1m'
     ITALIC = '\033[3m'
 
@@ -37,3 +37,15 @@ class style():
     error = dred
 
 LINE = style.bgray + "------------------------------" + style.RESET
+
+class ZooAnimal3:
+    def __init__(self,name: str,species: str, diet: str):
+        self.name = name
+        self.species = species
+        self.diet = diet
+
+    def describe(self):
+        print(f"Animal: {self.name} | Species: {self.species}")
+
+    def hungry(self):
+        print(f"{self.name} ate {self.diet}")
