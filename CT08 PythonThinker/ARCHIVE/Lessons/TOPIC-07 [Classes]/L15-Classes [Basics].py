@@ -1,3 +1,43 @@
+class style():
+
+    BOLD = '\033[1m'
+    ITALIC = '\033[3m'
+
+    UNDERLINE = '\033[4m'
+    CANCEL = '\033[9m'
+
+    bgbwhite = '\033[7m'
+
+    black = '\033[8m'
+    bgray = '\033[30m'
+    dred = '\033[31m'
+    dgreen = '\033[32m'
+    dyellow = '\033[33m'
+    dblue = '\033[34m'
+    dpurple = '\033[35m'
+    dcyan = '\033[36m'
+    dwhite = '\033[37m'
+
+    bgray = '\033[90m'
+    bred = '\033[91m'
+    bgreen = '\033[92m'
+    byellow = '\033[93m'
+    bblue = '\033[94m'
+    bpurple = '\033[95m'
+    bcyan = '\033[96m'
+    bwhite = '\033[97m'
+
+    RESET = '\033[0m'
+
+    # Generic Colours
+    primary = dblue
+    secondary = bgray
+    
+    warning = dyellow
+    error = dred
+LINE = style.bgray + "------------------------------" + style.RESET
+
+
 # -- Classes and Object Oriented Programming [OOP]
     # OOP is a way of organizing code that is based on real-world objects.
     # A Class will have Attribute and Behaviour
@@ -14,13 +54,11 @@ Placeholder = {
 
 # We can do:
 class Placeholder:
-    # Creating an Object
     def __init__(self,behaviour1,behaviour2,behaviour3): # 'self' represents the instance of the class on which the method is called. 
         self.behaviour1 = behaviour1
         self.behaviour2 = behaviour2
         self.behaviour3 = behaviour3
 
-    # Debug Statement
     def printattributes(self):
         print(f"{self.behaviour1},{self.behaviour2},{self.behaviour3}")
 
@@ -61,16 +99,49 @@ class Placeholder:
         # A class acts as a parent, and objects are its children
 
 
-# Learning Exercise 1: A simple class with a constructor
+# -- Learning Exercise 1: A simple class with a constructor
 
 class ZooAnimal:
-    def __init__(self,name,species): # 'self' represents the instance of the class on which the method is called. 
+    def __init__(self,name,species):
         self.name = name
         self.species = species
 
-    def DebugAttributes(self):
-        print(f"{self.name},{self.species}")
     
 lion = ZooAnimal("Leo","Lion")
+# lion is a child of ZooAnimal
 
-lion.DebugAttributes()
+print(f"Animal: {lion.name} | Species: {lion.species}")
+
+# -- Learning Exercise 2: Add a method
+class ZooAnimal2:
+    def __init__(self,name,species):
+        self.name = name
+        self.species = species
+
+    # Describing a method
+    def describe(self):
+        print(f"Animal: {self.name} | Species: {self.species}")
+    
+Elephant = ZooAnimal2("Ellie","Elephant")
+# lion is a child of ZooAnimal
+
+Elephant.describe()
+
+# -- Learning Exercise 3: 
+class ZooAnimal3:
+    def __init__(self,name: str,species: str, diet: str):
+        self.name = name
+        self.species = species
+        self.diet = diet
+
+    def describe(self):
+        print(f"Animal: {self.name} | Species: {self.species}")
+
+    def hungry(self):
+        print(f"{self.name} ate {self.diet}")
+
+Elephant = ZooAnimal3("Ellie","Elephant","Grass")
+# lion is a child of ZooAnimal
+
+Elephant.describe()
+Elephant.hungry()
