@@ -61,12 +61,12 @@ class Tamagotchi:
             self.hunger = 100
 
         if self.energy < 0:
-            self.ene = 0
-        elif self.hunger > 100:
-            self.hunger = 100
+            self.energy = 0
+        elif self.energy > 100:
+            self.energy = 100
 
-        if self.hunger < 0:
-            self.hunger = 0
+        if self.happiness < 0:
+            self.h = 0
         elif self.hunger > 100:
             self.hunger = 100
         print(LINE)
