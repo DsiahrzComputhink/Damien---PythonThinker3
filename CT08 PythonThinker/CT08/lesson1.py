@@ -66,11 +66,11 @@ class ZooAnimal:
         self.name = name
         self.species = species
 
-    def DebugAttributes(self):
+    def Attributes(self):
         print(f"{self.name},{self.species}")
     
 lion = ZooAnimal("Leo","Lion")
 # lion is a child of ZooAnimal
 
-lion.DebugAttributes()
+lion.Attributes()
 
