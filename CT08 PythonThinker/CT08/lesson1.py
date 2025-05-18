@@ -65,13 +65,14 @@ class Tamagotchi:
     def feed(self):
         randomnum = random.randint(5,15)
         randomnum2 = random.randint(1,5)
+        randomnum3 = random.randint(1,5)
         self.hunger = self.hunger - randomnum
         self.energy = self.energy + randomnum2
         print(LINE)
         print("You fed",style.BOLD + f"{name}" + style.RESET,"!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET,"!")
         print(style.bcyan + "Energy" + style.RESET,"went up by",style.bgreen + f"{randomnum2}" + style.RESET,"!")
-        print(style.bcyan + "Happiness" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET)
+        print(style.bcyan + "Happiness" + style.RESET,"went down by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def play(self):
         randomnum = random.randint(5,15)
