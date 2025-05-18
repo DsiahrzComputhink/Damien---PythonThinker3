@@ -39,7 +39,7 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 class Tamagotchi:
-    def __init__(self,name: str,hunger: str, energy: str, happiness: str):
+    def __init__(self,name: str,hunger: str, energy: str, happiness: int, age: int):
         self.name = name
 
 
