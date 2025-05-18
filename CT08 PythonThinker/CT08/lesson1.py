@@ -132,5 +132,9 @@ while dead == 0:
     command = input()
     if command.isnumeric():
         if command == "1":
-            pet.fee
+            pet.feed()
+        elif command == "2":
+            pet.play()
+        elif command == "3":
+            pet.
         print("pls fix this code")
