@@ -138,5 +138,5 @@ class ZooAnimal3:
         print(f"Animal: {self.name} | Species: {self.species}")
 
     def hungry(self):
-        print(f)
+        print(f"{self.name} ate ")
 
