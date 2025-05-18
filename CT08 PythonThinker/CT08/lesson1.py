@@ -129,3 +129,6 @@ while dead == 0:
     print(style.bblue + f"[2]" + style.RESET, f"Play")
     print(style.bblue + f"[3]" + style.RESET, f"Sleep")
     print(style.bblue + f"[4]" + style.RESET, f"Quit")
+    command = input()
+    if command.isnumeric():
+        print("hi!")
