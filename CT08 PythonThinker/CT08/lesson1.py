@@ -139,7 +139,7 @@ pet = Tamagotchi(name)
 
 
 pet.feed()
-for i in range(16):
+for i in range(100006):
     pet.growolder()
     pet.sleep()
 
