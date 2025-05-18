@@ -54,7 +54,7 @@ class Tamagotchi:
     
     def status(self):
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
-        status
+        status(1,"Hunger",self.hunger)
 
 name = "Roger"
 pet = Tamagotchi(name)
