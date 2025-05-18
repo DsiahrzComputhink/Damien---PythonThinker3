@@ -99,7 +99,7 @@ class Placeholder:
         # A class acts as a parent, and objects are its children
 
 
-# Learning Exercise 1: A simple class with a constructor
+# -- Learning Exercise 1: A simple class with a constructor
 
 class ZooAnimal:
     def __init__(self,name,species):
@@ -110,9 +110,9 @@ class ZooAnimal:
 lion = ZooAnimal("Leo","Lion")
 # lion is a child of ZooAnimal
 
-print(lion.name,lion.species)
+print(f"Animal: {lion.name} | Species: {lion.species}")
 
-# Learning Exercise 2: Add a method
+# -- Learning Exercise 2: Add a method
 class ZooAnimal2:
     def __init__(self,name,species):
         self.name = name
