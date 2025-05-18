@@ -136,5 +136,7 @@ while dead == 0:
         elif command == "2":
             pet.play()
         elif command == "3":
-            pet.
+            pet.sleep()
+        elif command == "4":
+            dead == 1
         print("pls fix this code")
