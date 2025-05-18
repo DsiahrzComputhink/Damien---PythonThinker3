@@ -73,7 +73,7 @@ lion = ZooAnimal("Leo","Lion")
 print(lion.name,lion.species)
 
 # Learning Exercise 2: Add a method
-class ZooAnimal:
+class ZooAnimal2:
     def __init__(self,name,species):
         self.name = name
         self.species = species
@@ -82,7 +82,7 @@ class ZooAnimal:
     def describe(self):
         print(f"{self.name},{self.species}")
     
-lion = ZooAnimal("Leo","Lion")
+lion = ZooAnimal2("Leo","Lion")
 # lion is a child of ZooAnimal
 
 lion.Attributes()
