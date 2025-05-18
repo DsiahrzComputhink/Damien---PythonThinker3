@@ -56,8 +56,8 @@ class Tamagotchi:
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         status(1,"Hunger",self.hunger)
         status(2,"Energy",self.energy)
-        status(3,"Happiness",self.hunger)
-        status(4,"Age",self.hunger)
+        status(3,"Happiness",self.happiness)
+        status(4,"Age",self.age)
 
 name = "Roger"
 pet = Tamagotchi(name)
