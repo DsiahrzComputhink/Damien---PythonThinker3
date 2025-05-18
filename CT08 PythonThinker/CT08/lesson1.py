@@ -49,4 +49,5 @@ class Tamagotchi:
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
 
-Pet = Tamagotchi("Ellie","Elephant","Grass")
+name = "Roger"
+Pet = Tamagotchi(name)
