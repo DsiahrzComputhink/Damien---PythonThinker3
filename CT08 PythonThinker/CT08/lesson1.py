@@ -57,6 +57,8 @@ class Tamagotchi:
         # Stablize Numbers
         if self.hunger < 0:
             self.hunger = 0
+        elif self.hunger > 100:
+            self.hunger 
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
