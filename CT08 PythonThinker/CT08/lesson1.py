@@ -1,3 +1,4 @@
+import random
 class style():
 
     BOLD = '\033[1m'
@@ -60,7 +61,7 @@ class Tamagotchi:
         status(4,"Age",self.age)
     
     def feed(self):
-        randomnum = random.randint(5,10)
+        randomnum = random.randint(5,15)
         self.hunger = self.hunger - randomnum
 
 name = "Roger"
