@@ -58,7 +58,17 @@ class Tamagotchi:
         if self.hunger < 0:
             self.hunger = 0
         elif self.hunger > 100:
-            self.hunger 
+            self.hunger = 100
+            
+        if self.hunger < 0:
+            self.hunger = 0
+        elif self.hunger > 100:
+            self.hunger = 100
+
+        if self.hunger < 0:
+            self.hunger = 0
+        elif self.hunger > 100:
+            self.hunger = 100
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
