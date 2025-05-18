@@ -38,7 +38,7 @@ class style():
 
 LINE = style.bgray + "------------------------------" + style.RESET
 
-class ZooAnimal3:
+class Tamagotchi:
     def __init__(self,name: str,hunger: str, energy: str, happiness: str):
         self.name = name
 
