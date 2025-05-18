@@ -123,7 +123,7 @@ class Tamagotchi:
             print(style.BOLD + f"{name}" + style.RESET,"grew older!")
             print("Age:",style.bgreen + f"{self.age}" + style.RESET,"Days old")
         else:
-            print(f"{name}")
+            print(f"You sucessfully raised up {name}!")
 
 name = "Roger"
 pet = Tamagotchi(name)
