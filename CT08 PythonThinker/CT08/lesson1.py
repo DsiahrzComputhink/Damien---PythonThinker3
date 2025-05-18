@@ -82,7 +82,7 @@ class ZooAnimal2:
     def describe(self):
         print(f"{self.name},{self.species}")
     
-Cat = ZooAnimal2("Leo","Lion")
+Cat = ZooAnimal2("Ellie","Lion")
 # lion is a child of ZooAnimal
 
 lion.Attributes()
