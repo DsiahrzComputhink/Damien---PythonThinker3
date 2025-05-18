@@ -39,7 +39,7 @@ class style():
 LINE = style.bgray + "------------------------------" + style.RESET
 
 def status(num: int, name: str, variable: int):
-    print(style.bblue + f"[{num}]" + style.RESET, "Hunger:" , self.hunger)
+    print(style.bblue + f"[{num}]" + style.RESET, f"{name}":" , self.hunger)
 
 class Tamagotchi:
     def __init__(self,name : str):
