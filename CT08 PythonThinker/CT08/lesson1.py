@@ -89,9 +89,9 @@ class Tamagotchi:
         print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def sleep(self):
-        randomnum = random.randint(5,10)
+        randomnum = random.randint(10,15)
         randomnum2 = random.randint(15,20)
-        randomnum3 = random.randint(10,15)
+        randomnum3 = random.randint(5,10)
         self.hunger = self.hunger - randomnum
         self.energy = self.energy + randomnum2
         self.happiness = self.happiness - randomnum3
