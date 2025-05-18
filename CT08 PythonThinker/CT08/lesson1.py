@@ -120,8 +120,9 @@ class Tamagotchi:
 
 
 name = input("Name your pet: ")
-pet = Tamagotchi(name)
+pet = Tamagotchi(str(name))
 
 dead = 0
 while dead != 0:
     pet.status
+    
