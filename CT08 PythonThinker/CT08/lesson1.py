@@ -133,7 +133,7 @@ class ZooAnimal3:
         self.name = name
         self.species = species
         self.diet = diet
-    # Describing a method
+
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
 
