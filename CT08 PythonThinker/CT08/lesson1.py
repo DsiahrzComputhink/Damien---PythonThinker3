@@ -121,9 +121,9 @@ class Tamagotchi:
         if self.hunger >= 100:
             print("Your pet died due to",style.bred + "[Starvation]" + style.RESET)
         elif self.energy <= 0:
-                print("Your pet died due to",style.bred + "[Exhaustion]" + style.RESET)
+            print("Your pet died due to",style.bred + "[Exhaustion]" + style.RESET)
         elif self.happiness <= 0:
-                    print("Your pet died due to",style.bred + "[Depression]" + style.RESET)
+            print("Your pet died due to",style.bred + "[Depression]" + style.RESET)
         else:
             if self.age < 15:
                 self.age += 1
@@ -137,7 +137,7 @@ pet = Tamagotchi(name)
 
 
 pet.feed()
-for i in range(100006):
+for i in range(16):
     pet.growolder()
     pet.sleep()
 
