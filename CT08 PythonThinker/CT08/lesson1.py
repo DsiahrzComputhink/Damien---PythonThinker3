@@ -126,3 +126,6 @@ dead = 0
 while dead != 0:
     pet.status
     print(style.bblue + f"[1]" + style.RESET, f"Feed")
+    print(style.bblue + f"[2]" + style.RESET, f"Feed")
+    print(style.bblue + f"[3]" + style.RESET, f"Feed")
+    print(style.bblue + f"[4]" + style.RESET, f"Quit")
