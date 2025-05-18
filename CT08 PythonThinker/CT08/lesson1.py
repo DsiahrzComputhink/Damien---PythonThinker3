@@ -60,7 +60,8 @@ class Tamagotchi:
         status(4,"Age",self.age)
     
     def feed(self):
-        self.hunger = self.hunger - 1
+        randomnum = random.randint(5,10)
+        self.hunger = self.hunger - randomnum
 
 name = "Roger"
 pet = Tamagotchi(name)
