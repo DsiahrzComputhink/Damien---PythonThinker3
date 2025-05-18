@@ -69,7 +69,7 @@ class Tamagotchi:
             self.happiness = 0
         elif self.happiness > 100:
             self.happiness = 100
-            
+
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
@@ -111,6 +111,7 @@ class Tamagotchi:
         self.hunger = self.hunger - randomnum
         self.energy = self.energy + randomnum2
         self.happiness = self.happiness - randomnum3
+        self.age += 1
         print(LINE)
         print(style.BOLD + f"{name}" + style.RESET,"went to sleep!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bred + f"{randomnum}" + style.RESET)
