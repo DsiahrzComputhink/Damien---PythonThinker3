@@ -118,12 +118,13 @@ class Tamagotchi:
         print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def growolder(self):
-        if self.age < 15:
-            self.age += 1
-            print(style.BOLD + f"{name}" + style.RESET,"grew older!")
-            print("Age:",style.bgreen + f"{self.age}" + style.RESET,"Days old")
-        else:
-            print(f"You sucessfully raised up {name}!")
+        if hunger 
+            if self.age < 15:
+                self.age += 1
+                print(style.BOLD + f"{name}" + style.RESET,"grew older!")
+                print("Age:",style.bgreen + f"{self.age}" + style.RESET,"Days old")
+            else:
+                print(f"You sucessfully raised up {name}!")
 
 name = "Roger"
 pet = Tamagotchi(name)
