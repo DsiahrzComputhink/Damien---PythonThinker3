@@ -74,7 +74,7 @@ lion = ZooAnimal("Leo","Lion")
 
 lion.Attributes()
 
-# Learning Exercise 2: A s
+# Learning Exercise 2: Add a method
 class ZooAnimal:
     def __init__(self,name,species):
         self.name = name
