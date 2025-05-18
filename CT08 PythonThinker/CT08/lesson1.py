@@ -122,3 +122,6 @@ pet = Tamagotchi(name)
 
 input("Name your pet: ")
 
+dead = 0
+while dead != 0:
+    pet.status
