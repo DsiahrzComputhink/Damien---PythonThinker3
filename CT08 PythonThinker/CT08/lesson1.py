@@ -75,6 +75,18 @@ class Tamagotchi:
         print(style.bcyan + "Energy" + style.RESET,"went up by",style.bgreen + f"{randomnum2}" + style.RESET)
         print(style.bcyan + "Happiness" + style.RESET,"went down by",style.bred + f"{randomnum3}" + style.RESET)
 
+    def plat(self):
+        randomnum = random.randint(5,10)
+        randomnum2 = random.randint(15,20)
+        randomnum3 = random.randint(10,15)
+        self.hunger = self.hunger - randomnum
+        self.energy = self.energy + randomnum2
+        self.happiness = self.happiness - randomnum3
+        print(LINE)
+        print(style.BOLD + f"{name}" + style.RESET,"went to sleep!")
+        print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bred + f"{randomnum}" + style.RESET)
+        print(style.bcyan + "Energy" + style.RESET,"went up by",style.bred + f"{randomnum2}" + style.RESET)
+        print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def sleep(self):
         randomnum = random.randint(5,10)
