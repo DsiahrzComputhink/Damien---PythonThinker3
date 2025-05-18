@@ -52,8 +52,8 @@ class Tamagotchi:
     def status(self):
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(style.bblue + "[1]" + style.RESET, "Hunger:" , self.hunger)
-        print(style.bblue + "[2]" + style.RESET, "Energy:" , self.hunger)
-        print(style.bblue + "[3]" + style.RESET, "Happines:" , self.hunger)
+        print(style.bblue + "[2]" + style.RESET, "Energy:" , self.energy)
+        print(style.bblue + "[3]" + style.RESET, "Happines:" , self.happiness)
         print(style.bblue + "[4]" + style.RESET, "Age:" , self.age)
 
 name = "Roger"
