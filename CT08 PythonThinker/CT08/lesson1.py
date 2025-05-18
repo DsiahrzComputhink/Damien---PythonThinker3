@@ -76,7 +76,7 @@ class Tamagotchi:
         status(1,"Hunger",self.hunger)
         status(2,"Energy",self.energy)
         status(3,"Happiness",self.happiness)
-        print(style.bblue + f"[4]" + style.RESET, f"{name}:" , self.age," days ")
+        print(style.bblue + f"[4]" + style.RESET, f"Age:" , self.age," days ")
     
     def feed(self):
         randomnum = random.randint(5,15)
