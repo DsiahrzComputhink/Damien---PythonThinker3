@@ -80,7 +80,8 @@ class ZooAnimal:
         self.name = name
         self.species = species
 
-    def Attributes(self):
+    3
+    def describe(self):
         print(f"{self.name},{self.species}")
     
 lion = ZooAnimal("Leo","Lion")
