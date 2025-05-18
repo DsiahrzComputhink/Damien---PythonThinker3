@@ -243,10 +243,11 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
     print(LINE)
     ans = ""
     for letter in abc:
-
+        if letter != "*":
+            ans += letter
     print("Was your answer correct")
     print(LINE)
-    print(abc)
+    print(ans)
     print(LINE)
     print(style.bgreen + "Y" + style.RESET,style.bgray + "/" + style.RESET,style.bred + "N" + style.RESET)
 
