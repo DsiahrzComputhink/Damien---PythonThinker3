@@ -70,7 +70,7 @@ class ZooAnimal:
 lion = ZooAnimal("Leo","Lion")
 # lion is a child of ZooAnimal
 
-print(lion)
+print(format.)
 
 # Learning Exercise 2: Add a method
 class ZooAnimal:
