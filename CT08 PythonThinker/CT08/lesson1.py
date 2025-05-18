@@ -117,10 +117,10 @@ class Tamagotchi:
             else:
                 print(f"You sucessfully raised up {name}!")
 
-name = "Roger"
-pet = Tamagotchi(name)
 
-input("Name your pet: ")
+
+name = input("Name your pet: ")
+pet = Tamagotchi(name)
 
 dead = 0
 while dead != 0:
