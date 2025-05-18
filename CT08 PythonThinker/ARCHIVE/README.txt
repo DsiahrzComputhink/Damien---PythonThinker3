@@ -61,5 +61,5 @@ Also, any files with [FILENAME].txt in any of the lessons is subject to change a
         L14 - DEBUGGING [11/5/2025]
 
     -- CLASSES
-        L15 - CLASSES [5/11/2025]
-         \_ L15 - CLASSES 
+        L15 - CLASSES [11/5/2025]
+         \_ L15 - CLASSES [18/5/2025]
