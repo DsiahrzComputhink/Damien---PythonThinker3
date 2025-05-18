@@ -64,7 +64,7 @@ class Tamagotchi:
         randomnum = random.randint(5,15)
         self.hunger = self.hunger - randomnum
         print("You fed",style.BOLD + f"{name}" + style.RESET,"!")
-        print("His",style.b)
+        print("His",style.bcyan + "Hunger" + style.RESET,"went down by",style.bgreen + f"{randomnum}" + style.RESET,"!")
 
 name = "Roger"
 pet = Tamagotchi(name)
