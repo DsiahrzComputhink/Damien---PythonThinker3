@@ -137,3 +137,6 @@ class ZooAnimal3:
     def describe(self):
         print(f"Animal: {self.name} | Species: {self.species}")
 
+    def hungry(self):
+        print(f)
+
