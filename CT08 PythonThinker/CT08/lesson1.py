@@ -127,7 +127,7 @@ Elephant = ZooAnimal2("Ellie","Elephant")
 
 Elephant.describe()
 
-# -- Learning Exercise 2: Add 
+# -- Learning Exercise 3: 
 class ZooAnimal2:
     def __init__(self,name,species):
         self.name = name
