@@ -120,7 +120,7 @@ class ZooAnimal2:
 
     # Describing a method
     def describe(self):
-        print(f"Animal: {self.name}, Species: {self.species}")
+        print(f"Animal: {self.name} | Species: {self.species}")
     
 Elephant = ZooAnimal2("Ellie","Elephant")
 # lion is a child of ZooAnimal
