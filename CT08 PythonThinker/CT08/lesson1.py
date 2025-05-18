@@ -126,3 +126,13 @@ Elephant = ZooAnimal2("Ellie","Elephant")
 # lion is a child of ZooAnimal
 
 Elephant.describe()
+
+# -- Learning Exercise 2: Add 
+class ZooAnimal2:
+    def __init__(self,name,species):
+        self.name = name
+        self.species = species
+
+    # Describing a method
+    def describe(self):
+        print(f"Animal: {self.name} | Species: {self.species}")
