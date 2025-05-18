@@ -118,7 +118,7 @@ class Tamagotchi:
         print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
     def growolder(self):
-        if self.age >= 15:
+        if self.age <= 15:
             self.age += 1
             print(style.BOLD + f"{name}" + style.RESET,"grew older!")
             print("Age:",style.bgreen + f"{self.age}" + style.RESET,"Days old")
@@ -130,6 +130,6 @@ pet = Tamagotchi(name)
 
 
 pet.feed()
-for i in range(16):
+for i in range(10006):
     pet.growolder()
 pet.status()
