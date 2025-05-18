@@ -242,7 +242,7 @@ def QuadraticExpression(x,R1,R2,axval,bxval):
     input("Please press enter when finished")
     print(LINE)
     ans = ""
-    for letter in abc:
+    for letter in str(abc):
         if letter != "*":
             ans += letter
     print("Was your answer correct")
