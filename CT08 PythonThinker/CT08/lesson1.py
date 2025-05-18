@@ -121,7 +121,7 @@ class Tamagotchi:
         if self.hunger == 100:
             print("Your pet died due to",style.bred + "[Starvation]" + style.RESET)
             if self.energy == 0:
-                print("Your pet died due to",style.bred + "[Starvation]" + style.RESET)
+                print("Your pet died due to",style.bred + "[]" + style.RESET)
             else:
                 if self.age < 15:
                     self.age += 1
