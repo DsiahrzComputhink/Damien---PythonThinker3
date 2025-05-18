@@ -75,7 +75,7 @@ class Tamagotchi:
         print(style.bcyan + "Energy" + style.RESET,"went up by",style.bgreen + f"{randomnum2}" + style.RESET)
         print(style.bcyan + "Happiness" + style.RESET,"went down by",style.bred + f"{randomnum3}" + style.RESET)
 
-    def plat(self):
+    def play(self):
         randomnum = random.randint(5,10)
         randomnum2 = random.randint(15,20)
         randomnum3 = random.randint(10,15)
@@ -105,3 +105,5 @@ name = "Roger"
 pet = Tamagotchi(name)
 pet.status()
 pet.feed()
+pet.play()
+pet.sleep()
