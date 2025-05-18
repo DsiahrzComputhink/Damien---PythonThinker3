@@ -123,7 +123,7 @@ name = input("Name your pet: ")
 pet = Tamagotchi(str(name))
 
 dead = 0
-while dead != 0:
+while dead == 0:
     pet.status
     print(style.bblue + f"[1]" + style.RESET, f"Feed")
     print(style.bblue + f"[2]" + style.RESET, f"Play")
