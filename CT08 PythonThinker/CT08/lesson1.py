@@ -140,7 +140,7 @@ class ZooAnimal3:
     def hungry(self):
         print(f"{self.name} ate {self.diet}")
 
-Elephant = ZooAnimal2("Ellie","Elephant")
+Elephant = ZooAnimal3("Ellie","Elephant","Grass")
 # lion is a child of ZooAnimal
 
 Elephant.describe()
