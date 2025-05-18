@@ -103,6 +103,5 @@ class Tamagotchi:
 
 name = "Roger"
 pet = Tamagotchi(name)
-for i in range(1000):
-    pet.feed()
+pet.feed()
 pet.status()
