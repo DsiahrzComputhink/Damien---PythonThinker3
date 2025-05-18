@@ -54,6 +54,9 @@ class Tamagotchi:
         print(f"Name: {self.name} | Hunger: {self.hunger} | Energy: {self.energy} | Happiness: {self.happiness} | Age: {self.age}")
     
     def status(self):
+        # Stablize Numbers
+        if self.hunger < 0:
+            self.hunger = 0
         print(LINE)
         print(style.BOLD + f"{self.name}'s Status" + style.RESET)
         print(LINE)
