@@ -117,6 +117,10 @@ class Tamagotchi:
         print(style.bcyan + "Energy" + style.RESET,"went up by",style.bgreen + f"{randomnum2}" + style.RESET)
         print(style.bcyan + "Happiness" + style.RESET,"went up by",style.bgreen + f"{randomnum3}" + style.RESET)
 
+    def growolder(self):
+        self.age += 1
+        
+
 name = "Roger"
 pet = Tamagotchi(name)
 
