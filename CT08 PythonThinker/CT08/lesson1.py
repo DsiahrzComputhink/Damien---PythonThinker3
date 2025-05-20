@@ -67,7 +67,7 @@ class Tamagotchi:
         randomnum = random.randint(5,15)
         randomnum2 = random.randint(1,5)
         randomnum3 = random.randint(5,10)
-        self.hunger = min(self.hunger - randomnum, 100)
+        self.hunger = max(self.hunger - randomnum, 0)
         self.energy = min(self.energy + randomnum2, 100)
         self.happiness = max(self.happiness - randomnum3, 100)
         print(LINE)
