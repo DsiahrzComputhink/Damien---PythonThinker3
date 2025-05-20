@@ -141,3 +141,4 @@ while dead == 0:
         elif command == "4":
             print("Program Closing...")
             dead = 1
+        pet.growolder()
