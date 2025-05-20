@@ -82,7 +82,7 @@ class Tamagotchi:
         randomnum3 = random.randint(10,15)
         self.hunger = max(self.hunger + randomnum, 100)
         self.energy = max(self.hunger - randomnum2, 0)
-        self.happiness = max(self.hunger + randomnum3, 100)
+        self.happiness = min(self.hunger + randomnum3, 100)
         print(LINE)
         print(style.BOLD + f"{name}" + style.RESET,"went to sleep!")
         print(style.bcyan + "Hunger" + style.RESET,"went down by",style.bred + f"{randomnum}" + style.RESET)
