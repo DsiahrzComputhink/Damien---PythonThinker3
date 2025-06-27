@@ -52,7 +52,7 @@ characters = 0
 
 import os
 FilePath = os.getcwd()
-textfile = os.path.join(FilePath,"ARCHIVE","Text Files","TOPIC-04 [File_Input\Output]","[L09] sherlock.txt")
+textfile = os.path.join(FilePath,"CTO8 Pythonthinker","ARCHIVE","Text Files","TOPIC-04 [File_Input\Output]","[L09] sherlock.txt")
 with open(textfile,"r") as file:
     lines = file.readlines()
 
